@@ -307,7 +307,532 @@
       "tyreWearMultiplier": null
     }
   ],
-  "trackmaps": [],
+  "trackmaps": [
+    {
+      "courseId": 4,
+      "track": "Daytona Tri-Oval",
+      "file": "reference/trackmaps/4.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 4000,
+          "points": 800
+        }
+      ]
+    },
+    {
+      "courseId": 11,
+      "track": "High Speed Ring",
+      "file": "reference/trackmaps/11.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 4355,
+          "points": 871
+        }
+      ]
+    },
+    {
+      "courseId": 116,
+      "track": "Mount Panorama Motor Racing Circuit",
+      "file": "reference/trackmaps/116.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 6150,
+          "points": 1230
+        }
+      ]
+    },
+    {
+      "courseId": 119,
+      "track": "Brands Hatch Grand Prix Circuit",
+      "file": "reference/trackmaps/119.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 3890,
+          "points": 778
+        }
+      ]
+    },
+    {
+      "courseId": 346,
+      "track": "Brands Hatch Indy Circuit",
+      "file": "reference/trackmaps/346.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 1910,
+          "points": 382
+        }
+      ]
+    },
+    {
+      "courseId": 349,
+      "track": "N\u00fcrburgring GP",
+      "file": "reference/trackmaps/349.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 5065,
+          "points": 1013
+        }
+      ]
+    },
+    {
+      "courseId": 354,
+      "track": "Northern Isle Speedway",
+      "file": "reference/trackmaps/354.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 940,
+          "points": 188
+        },
+        {
+          "context": "lobby",
+          "lengthM": 940,
+          "points": 188
+        }
+      ]
+    },
+    {
+      "courseId": 356,
+      "track": "Blue Moon Bay Speedway",
+      "file": "reference/trackmaps/356.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 3235,
+          "points": 647
+        }
+      ]
+    },
+    {
+      "courseId": 357,
+      "track": "BB Raceway",
+      "file": "reference/trackmaps/357.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 1690,
+          "points": 338
+        }
+      ]
+    },
+    {
+      "courseId": 363,
+      "track": "Dragon Trail - Seaside",
+      "file": "reference/trackmaps/363.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 5155,
+          "points": 1031
+        }
+      ]
+    },
+    {
+      "courseId": 365,
+      "track": "Autodrome Lago Maggiore - Full Course",
+      "file": "reference/trackmaps/365.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 5720,
+          "points": 1144
+        },
+        {
+          "context": "lobby",
+          "lengthM": 5705,
+          "points": 1141
+        }
+      ]
+    },
+    {
+      "courseId": 376,
+      "track": "Kyoto Driving Park - Yamagiwa",
+      "file": "reference/trackmaps/376.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 4865,
+          "points": 973
+        },
+        {
+          "context": "timeTrial",
+          "lengthM": 4825,
+          "points": 965
+        },
+        {
+          "context": "lobby",
+          "lengthM": 4830,
+          "points": 966
+        }
+      ]
+    },
+    {
+      "courseId": 444,
+      "track": "BB Raceway Reverse",
+      "file": "reference/trackmaps/444.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 1685,
+          "points": 337
+        }
+      ]
+    },
+    {
+      "courseId": 449,
+      "track": "Blue Moon Bay Speedway Reverse",
+      "file": "reference/trackmaps/449.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 3235,
+          "points": 647
+        }
+      ]
+    },
+    {
+      "courseId": 454,
+      "track": "24 Heures du Mans Racing Circuit",
+      "file": "reference/trackmaps/454.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 13560,
+          "points": 2712
+        }
+      ]
+    },
+    {
+      "courseId": 462,
+      "track": "Circuit de Spa-Francorchamps",
+      "file": "reference/trackmaps/462.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 6925,
+          "points": 1385
+        }
+      ]
+    },
+    {
+      "courseId": 470,
+      "track": "Red Bull Ring",
+      "file": "reference/trackmaps/470.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 4280,
+          "points": 856
+        }
+      ]
+    },
+    {
+      "courseId": 471,
+      "track": "Tsukuba Circuit",
+      "file": "reference/trackmaps/471.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 2080,
+          "points": 416
+        }
+      ]
+    },
+    {
+      "courseId": 601,
+      "track": "Dragon Trail - Seaside Reverse",
+      "file": "reference/trackmaps/601.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 5155,
+          "points": 1031
+        }
+      ]
+    },
+    {
+      "courseId": 602,
+      "track": "Autodrome Lago Maggiore - Full Course Reverse",
+      "file": "reference/trackmaps/602.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 5730,
+          "points": 1146
+        }
+      ]
+    },
+    {
+      "courseId": 790,
+      "track": "Autodrome Lago Maggiore - East End Reverse",
+      "file": "reference/trackmaps/790.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 1880,
+          "points": 376
+        }
+      ]
+    },
+    {
+      "courseId": 791,
+      "track": "Autodrome Lago Maggiore - Centre Reverse",
+      "file": "reference/trackmaps/791.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 1980,
+          "points": 396
+        }
+      ]
+    },
+    {
+      "courseId": 792,
+      "track": "Autodrome Lago Maggiore - West End",
+      "file": "reference/trackmaps/792.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 2355,
+          "points": 471
+        }
+      ]
+    },
+    {
+      "courseId": 793,
+      "track": "Autodrome Lago Maggiore - Centre",
+      "file": "reference/trackmaps/793.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 1980,
+          "points": 396
+        }
+      ]
+    },
+    {
+      "courseId": 794,
+      "track": "Autodrome Lago Maggiore - West End Reverse",
+      "file": "reference/trackmaps/794.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 2370,
+          "points": 474
+        }
+      ]
+    },
+    {
+      "courseId": 795,
+      "track": "Autodrome Lago Maggiore - East End",
+      "file": "reference/trackmaps/795.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 1885,
+          "points": 377
+        }
+      ]
+    },
+    {
+      "courseId": 819,
+      "track": "Blue Moon Bay Speedway - Infield B",
+      "file": "reference/trackmaps/819.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 2865,
+          "points": 573
+        }
+      ]
+    },
+    {
+      "courseId": 820,
+      "track": "Blue Moon Bay Speedway - Infield A",
+      "file": "reference/trackmaps/820.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 3330,
+          "points": 666
+        }
+      ]
+    },
+    {
+      "courseId": 822,
+      "track": "Blue Moon Bay Speedway - Infield A Reverse",
+      "file": "reference/trackmaps/822.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 3340,
+          "points": 668
+        }
+      ]
+    },
+    {
+      "courseId": 823,
+      "track": "Blue Moon Bay Speedway - Infield B Reverse",
+      "file": "reference/trackmaps/823.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 2870,
+          "points": 574
+        }
+      ]
+    },
+    {
+      "courseId": 846,
+      "track": "Red Bull Ring Short Track",
+      "file": "reference/trackmaps/846.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 2305,
+          "points": 461
+        }
+      ]
+    },
+    {
+      "courseId": 847,
+      "track": "Dragon Trail - Gardens",
+      "file": "reference/trackmaps/847.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 4320,
+          "points": 864
+        }
+      ]
+    },
+    {
+      "courseId": 853,
+      "track": "Dragon Trail - Gardens Reverse",
+      "file": "reference/trackmaps/853.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 4305,
+          "points": 861
+        }
+      ]
+    },
+    {
+      "courseId": 896,
+      "track": "Autopolis International Racing Course",
+      "file": "reference/trackmaps/896.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 4610,
+          "points": 922
+        }
+      ]
+    },
+    {
+      "courseId": 898,
+      "track": "Autopolis International Racing Course - Short Course",
+      "file": "reference/trackmaps/898.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 2990,
+          "points": 598
+        }
+      ]
+    },
+    {
+      "courseId": 1007,
+      "track": "Michelin Raceway Road Atlanta",
+      "file": "reference/trackmaps/1007.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 4045,
+          "points": 809
+        }
+      ]
+    },
+    {
+      "courseId": 1069,
+      "track": "High Speed Ring Reverse",
+      "file": "reference/trackmaps/1069.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 4350,
+          "points": 870
+        }
+      ]
+    },
+    {
+      "courseId": 1163,
+      "track": "Daytona Road Course",
+      "file": "reference/trackmaps/1163.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 5715,
+          "points": 1143
+        }
+      ]
+    },
+    {
+      "courseId": 1226,
+      "track": "Autodrome Lago Maggiore - East",
+      "file": "reference/trackmaps/1226.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 3580,
+          "points": 716
+        }
+      ]
+    },
+    {
+      "courseId": 1231,
+      "track": "Autodrome Lago Maggiore - East Reverse",
+      "file": "reference/trackmaps/1231.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 3605,
+          "points": 721
+        }
+      ]
+    },
+    {
+      "courseId": 1232,
+      "track": "Autodrome Lago Maggiore - West",
+      "file": "reference/trackmaps/1232.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 4095,
+          "points": 819
+        }
+      ]
+    },
+    {
+      "courseId": 1233,
+      "track": "Autodrome Lago Maggiore - West Reverse",
+      "file": "reference/trackmaps/1233.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 4110,
+          "points": 822
+        }
+      ]
+    }
+  ],
   "referenceFiles": {
     "classlaps": {
       "file": "reference/classlaps.json",
