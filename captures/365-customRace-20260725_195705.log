@@ -1,0 +1,80 @@
+# EzioClient session log
+# file:    20260725_195705 - Autodrome Lago Maggiore - Full Course (365).gt7td
+# started: 2026-07-25T17:57:05Z
+# track:   Autodrome Lago Maggiore - Full Course (CRS 365)
+# car:     Ferrari 296 GTB '22
+# context: customRace
+# ---
+📊 strategy L127: no fuel model yet
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+🏁 start type: GRID_START at pkt 1047276 lap 1
+🔀 state UNKNOWN → RACING at pkt 1047276 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📊 strategy: green flag, race clock running
+📊 strategy L1: no fuel model yet
+🧭 learned: 2 gates matched — falling through to legacy
+🧭 primary: 4 candidates ["Autodrome Lago Maggiore: Full Course", "Autodrome Lago Maggiore: Centre", "Autodrome Lago Maggiore: East", "Autodrome Lago Maggiore: West"]
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/lap1 (2 samples)
+🧭 identified (legacy): Autodrome Lago Maggiore: Full Course (CRS 365) — after narrowing
+🔵 sub-state FIRST_LAP → FLYING lap 2
+🔵 lap 1 antics: off
+📊 strategy L2: fuel/lap 5.64, 16.7 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/finishLine (3 samples)
+🎭 mood relaxed → focused
+🔵 lap 2 antics: contact
+📊 strategy L3: fuel/lap 5.65, 15.6 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/finishLine (4 samples)
+🗺 mapper: learned lap 2 (119.177 s, 5740 m, 1148 pts) — installing as session polyline
+🗺 session polyline installed from lap 2 (1148 pts) — minimap + delta live
+🎭 mood focused → concerned
+🔧 huge stop 227 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 1068952 lap 3
+🔵 sub-state FLYING → — lap 3
+🔧 pit-entry anchor learned: 121229 ms into lap (stop on lap 3)
+🎭 mood concerned → focused
+🔧 pended impact cancelled: pit entry
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/pitEntry (2 samples)
+🗑 dropped (in pit): surveyGate(pitEntry, 2)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🗑 dropped (cooldown): inPitBox
+🔀 state PIT → RACING at pkt 1069778 lap 4
+🔵 sub-state — → OUT_LAP lap 4
+🅿️ PIT completed: in L3 → out L4 (no fuel, transit 17.7s, teleport=false)
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/pitBox (2 samples)
+🗑 dropped (in pit): surveyGate(pitBox, 2)
+🅿️ entry→box 13.2s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔵 lap 3 antics: off
+🗑 dropped (in pit): lapStarted(4, last 134.98s)
+🗑 dropped (in pit): positionChange(P7→P12)
+🔧 teleport 172 m on lap 4 — pending reset-vs-pit (2.5 s)
+📊 strategy L4: fuel/lap 5.64, 14.8 laps of fuel, race length unknown — fuel horizon
+🚪 gate learned: Autodrome Lago Maggiore - Full Course/customRace/pitExit
+🗑 dropped (cooldown): freshTyres
+🗺 mapper: lap 3 rejected (teleport)
+📊 strategy L4: fuel/lap 5.64, 14.8 laps of fuel, race length unknown — fuel horizon
+🔧 reset-to-track confirmed (no pit followed)
+🎭 mood focused → concerned
+🎭 mood concerned → annoyed
+🎭 mood annoyed → concerned
+🔵 sub-state OUT_LAP → FLYING lap 5
+🔵 lap 4 antics: contact, impact
+📊 strategy L5: fuel/lap 5.65, 13.7 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/finishLine (5 samples)
+🗺 mapper: lap 4 rejected (teleport)
+🎭 mood concerned → focused
+🔵 lap 5: clean
+📊 strategy L6: fuel/lap 5.64, 12.7 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/finishLine (6 samples)
+🗺 mapper: learned lap 5 (116.612 s, 5720 m, 1144 pts) — installing as session polyline
+🗺 session polyline installed from lap 5 (1144 pts) — minimap + delta live
+✂️ capture auto-stop in 5s (race finished)
+🗑 flag: pending commentary cancelled
+🔧 session ended after lap 6
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+📊 strategy L6: no fuel model yet
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+# --- stopped: 38266 packets

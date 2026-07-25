@@ -1,0 +1,22 @@
+{
+  "carId" : 3357,
+  "carName" : "Honda S660 '15",
+  "declared" : {
+    "captureContext" : "customRace",
+    "carId" : 3357,
+    "carName" : "Honda S660 '15",
+    "courseId" : 1264,
+    "mode" : "race",
+    "raceLength" : 5,
+    "raceLengthUnit" : "minutes",
+    "timeAfterFinish" : 5,
+    "timeBeforeStart" : 5,
+    "trackName" : "Watkins Glen Short Course"
+  },
+  "endTime" : 1784985756,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1784985353,
+  "trackName" : "Watkins Glen: Short Course",
+  "version" : 8
+}

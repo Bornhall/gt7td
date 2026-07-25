@@ -1,0 +1,22 @@
+{
+  "carId" : 2087,
+  "carName" : "BMW Vision Gran Turismo",
+  "declared" : {
+    "captureContext" : "customRace",
+    "carId" : 2087,
+    "carName" : "BMW Vision Gran Turismo",
+    "courseId" : 462,
+    "mode" : "race",
+    "raceLength" : 5,
+    "raceLengthUnit" : "minutes",
+    "timeAfterFinish" : 5,
+    "timeBeforeStart" : 5,
+    "trackName" : "Circuit de Spa-Francorchamps"
+  },
+  "endTime" : 1785003444,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1785002986,
+  "trackName" : "Circuit de Spa-Francorchamps: Full Course",
+  "version" : 8
+}

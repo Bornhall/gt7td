@@ -1,0 +1,51 @@
+# EzioClient session log
+# file:    20260725_200946 - Circuit de Spa-Francorchamps (462).gt7td
+# started: 2026-07-25T18:09:46Z
+# track:   Circuit de Spa-Francorchamps (CRS 462)
+# car:     BMW Vision Gran Turismo
+# context: customRace
+# ---
+🎭 mood focused → relaxed
+🗑 dropped (race over): tractionLoss(1.58s)
+🏁 start type: GRID_START at pkt 1092432 lap 1
+🔀 state UNKNOWN → RACING at pkt 1092432 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📊 strategy: green flag, race clock running
+📊 strategy L1: no fuel model yet
+🧭 identified (legacy): Circuit de Spa-Francorchamps: Full Course (CRS 462) — primary gate
+🚪 gate learned: Circuit de Spa-Francorchamps/customRace/lap1
+🗑 dropped (chain cooldown): 1 event(s)
+🎭 mood relaxed → focused
+🗑 dropped (chain cooldown): 1 event(s)
+🎭 mood focused → relaxed
+🔵 sub-state FIRST_LAP → FLYING lap 2
+🔵 lap 1 antics: contact
+📊 strategy L2: no fuel model yet
+🚪 gate learned: Circuit de Spa-Francorchamps/customRace/finishLine
+🎭 mood relaxed → focused
+🗑 dropped (topic tyres): tyreTemps(inWindow, 70°)
+🔵 lap 2: clean
+📊 strategy L3: no fuel model yet
+🚪 gate refined: Circuit de Spa-Francorchamps/customRace/finishLine (2 samples)
+🗺 mapper: learned lap 2 (141.259 s, 6935 m, 1387 pts) — installing as session polyline
+🗺 session polyline installed from lap 2 (1387 pts) — minimap + delta live
+🎭 mood focused → relaxed
+🎭 mood relaxed → focused
+🎭 mood focused → relaxed
+🔵 lap 3: clean
+📊 strategy L4: no fuel model yet
+🚪 gate refined: Circuit de Spa-Francorchamps/customRace/finishLine (3 samples)
+🗺 mapper: learned lap 3 (140.967 s, 6925 m, 1385 pts) — installing as session polyline
+🗺 session polyline installed from lap 3 (1385 pts) — minimap + delta live
+🗑 dropped (chain cooldown): 1 event(s)
+🗑 speaker: stale, not spoken: "P 1"
+🗑 speaker: stale, not spoken: "you're sliding a lot out there"
+🗑 flag: pending commentary cancelled
+✂️ capture auto-stop in 5s (race finished)
+🔧 session ended after lap 4
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+📊 strategy L4: no fuel model yet
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+# --- stopped: 27219 packets

@@ -1,0 +1,54 @@
+{
+  "packetSize": 368,
+  "note": "gzipped decoded C-packets, 368 B each, back to back",
+  "captures": [
+    {
+      "stem": "365-customRace-20260725_195705",
+      "courseId": 365,
+      "track": "Autodrome Lago Maggiore - Full Course",
+      "context": "customRace",
+      "car": "Ferrari 296 GTB '22",
+      "carClass": null,
+      "hz": 60.0,
+      "packets": 38266,
+      "durationS": 637.8,
+      "rawBytes": 14081888,
+      "gzBytes": 7102666,
+      "hasLog": true,
+      "fuelMultiplier": 1,
+      "tyreWearMultiplier": null
+    },
+    {
+      "stem": "462-customRace-20260725_200946",
+      "courseId": 462,
+      "track": "Circuit de Spa-Francorchamps",
+      "context": "customRace",
+      "car": "BMW Vision Gran Turismo",
+      "carClass": null,
+      "hz": 60.0,
+      "packets": 27219,
+      "durationS": 453.6,
+      "rawBytes": 10016592,
+      "gzBytes": 4927390,
+      "hasLog": true,
+      "fuelMultiplier": null,
+      "tyreWearMultiplier": null
+    },
+    {
+      "stem": "1264-customRace-20260725_151553",
+      "courseId": 1264,
+      "track": "Watkins Glen Short Course",
+      "context": "customRace",
+      "car": "Honda S660 '15",
+      "carClass": null,
+      "hz": 60.0,
+      "packets": 23682,
+      "durationS": 394.7,
+      "rawBytes": 8714976,
+      "gzBytes": 4187843,
+      "hasLog": true,
+      "fuelMultiplier": null,
+      "tyreWearMultiplier": null
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+# EzioClient session log
+# file:    20260725_151553 - Watkins Glen Short Course (1264).gt7td
+# started: 2026-07-25T13:15:53Z
+# track:   Watkins Glen Short Course (CRS 1264)
+# car:     Honda S660 '15
+# context: customRace
+# ---
+🏁 start type: GRID_START at pkt 35901 lap 0
+🔀 state UNKNOWN → RACING at pkt 35901 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+📊 strategy L1: no fuel model yet
+🧭 primary: 2 candidates ["Watkins Glen: Long Course", "Watkins Glen: Short Course"]
+🚪 gate learned: Watkins Glen Short Course/customRace/lap1
+🧭 identified (legacy): Watkins Glen: Short Course (CRS 1264) — after narrowing
+🔵 sub-state FIRST_LAP → FLYING lap 2
+🔵 lap 1 antics: contact, impact
+📊 strategy L2: no fuel model yet
+🚪 gate learned: Watkins Glen Short Course/customRace/finishLine
+🎭 mood relaxed → focused
+🎭 mood focused → concerned
+🔵 lap 2 antics: contact, off
+📊 strategy L3: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (2 samples)
+🗺 mapper: learned lap 2 (112.515 s, 3895 m, 779 pts) — installing as session polyline
+🗺 session polyline installed from lap 2 (779 pts) — minimap + delta live
+🗑 speaker: stale after pause: "reset"
+🗑 speaker: stale, not spoken: "go again"
+🎭 mood concerned → focused
+📊 strategy L4: no fuel model yet
+🔵 lap 3 antics: contact
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (3 samples)
+🗺 mapper: learned lap 3 (101.803 s, 3885 m, 777 pts) — installing as session polyline
+🗺 session polyline installed from lap 3 (777 pts) — minimap + delta live
+🗑 dropped (chain cooldown): 1 event(s)
+🗑 speaker: stale, not spoken: "far too much wheelspin"
+🗑 dropped (chain cooldown): 1 event(s)
+🗑 dropped (ledger full): chain of 1
+🗑 dropped (chain cooldown): 1 event(s)
+🗑 dropped (chain cooldown): 1 event(s)
+✂️ capture auto-stop in 5s (race finished)
+🗑 flag: pending commentary cancelled
+🔧 session ended after lap 4
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+📊 strategy L4: no fuel model yet
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+# --- stopped: 23682 packets
