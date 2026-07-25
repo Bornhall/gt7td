@@ -1,0 +1,52 @@
+# EzioClient session log
+# file:    20260725_222909 - Autodrome Lago Maggiore - Centre Reverse (791).gt7td
+# started: 2026-07-25T20:29:09Z
+# track:   Autodrome Lago Maggiore - Centre Reverse (CRS 791)
+# car:     Ferrari 499P '23 [gr3]
+# context: lobby
+# ---
+🏁 start type: GRID_START at pkt 1593589 lap 0
+🔀 state UNKNOWN → RACING at pkt 1593589 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+📊 strategy L1: no fuel model yet
+🧭 identified (legacy): Autodrome Lago Maggiore: Centre Reverse (CRS 791) — primary gate
+🎭 mood focused → relaxed
+🔵 sub-state FIRST_LAP → FLYING lap 2
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 3.08, 31.4 laps of fuel, race length unknown — fuel horizon
+🔵 lap 2: clean
+📊 strategy L3: fuel/lap 3.21, 29.0 laps of fuel, race length unknown — fuel horizon
+🗺 mapper: learned lap 2 (46.535 s, 1980 m, 396 pts) — installing as session polyline
+🗺 survey stored → 791.trackmap.json
+🗺 session polyline installed from lap 2 (396 pts) — minimap + delta live
+⏱ class lap BEST: Autodrome Lago Maggiore - Centre Reverse/lobby/Gr.3 → 46.535 (1/10 laps, 1 car(s), avg 46.535)
+🔧 huge stop 148 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 1602174 lap 3
+🔵 sub-state FLYING → — lap 3
+🔧 pit-entry anchor learned: 46286 ms into lap (stop on lap 3)
+🔧 pended impact cancelled: pit entry
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🗑 dropped (cooldown): inPitBox
+🔵 lap 3: clean
+🗺 mapper: lap 3 rejected (pit)
+🗑 dropped (in pit): lapStarted(4, last 53.23s)
+🔀 state PIT → RACING at pkt 1603040 lap 4
+🔵 sub-state — → OUT_LAP lap 4
+🅿️ PIT completed: in L3 → out L4 (no fuel, transit 17.1s, teleport=false)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 11.8s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 teleport 141 m on lap 4 — pending reset-vs-pit (2.5 s)
+📊 strategy L4: fuel/lap 3.08, 29.4 laps of fuel, race length unknown — fuel horizon
+🗑 dropped (cooldown): freshTyres
+🗑 dropped (cooldown): strategyUpdate(fuel 29.45L, togo 29.45, stops 0)
+📊 strategy L4: fuel/lap 3.08, 29.4 laps of fuel, race length unknown — fuel horizon
+🔧 reset-to-track confirmed (no pit followed)
+🎭 mood relaxed → focused
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+🔧 session restart: lap-scoped state reset
+✂️ capture auto-stop in 5s (driver off track / not in control)
+# --- stopped: 10980 packets

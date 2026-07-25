@@ -1,0 +1,51 @@
+# EzioClient session log
+# file:    20260725_221122 - Autodrome Lago Maggiore - Full Course (365).gt7td
+# started: 2026-07-25T20:11:22Z
+# track:   Autodrome Lago Maggiore - Full Course (CRS 365)
+# car:     Ferrari 499P '23 [gr3]
+# context: lobby
+# ---
+🏁 start type: GRID_START at pkt 1529406 lap 0
+🔀 state UNKNOWN → RACING at pkt 1529406 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+📊 strategy L1: no fuel model yet
+🧭 primary: 2 candidates ["Autodrome Lago Maggiore: Full Course", "Autodrome Lago Maggiore: Centre"]
+🧭 identified (legacy): Autodrome Lago Maggiore: Full Course (CRS 365) — after narrowing
+🔧 huge stop 199 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 1536888 lap 1
+🔵 sub-state FIRST_LAP → — lap 1
+🔧 pit-entry anchor learned: 119967 ms into lap (stop on lap 1)
+🔧 pended impact cancelled: pit entry
+🗑 dropped (in pit): surveyGate(pitEntry, 3)
+🗑 dropped (cooldown): inPitBox
+🔀 state PIT → RACING at pkt 1537779 lap 2
+🔵 sub-state — → OUT_LAP lap 2
+🅿️ PIT completed: in L1 → out L2 (no fuel, transit 17.7s, teleport=false)
+🅿️ entry→box 13.2s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 3)
+🔵 lap 1: clean
+🗑 dropped (in pit): lapStarted(2, last 134.82s)
+🔧 teleport 172 m on lap 2 — pending reset-vs-pit (2.5 s)
+📊 strategy L2: fuel/lap 8.24, 11.1 laps of fuel, race length unknown — fuel horizon
+🗑 dropped (cooldown): freshTyres
+📊 strategy L2: fuel/lap 8.24, 11.1 laps of fuel, race length unknown — fuel horizon
+🔧 reset-to-track confirmed (no pit followed)
+🎭 mood relaxed → focused
+🎭 mood focused → relaxed
+🔵 sub-state OUT_LAP → FLYING lap 3
+🔵 lap 2: clean
+📊 strategy L3: fuel/lap 8.52, 9.7 laps of fuel, race length unknown — fuel horizon
+🗺 mapper: lap 2 rejected (teleport)
+🔵 lap 3: clean
+📊 strategy L4: fuel/lap 8.81, 8.4 laps of fuel, race length unknown — fuel horizon
+🗺 mapper: learned lap 3 (119.630 s, 5705 m, 1141 pts) — installing as session polyline
+🗺 survey stored → 365.trackmap.json
+🗺 session polyline installed from lap 3 (1141 pts) — minimap + delta live
+⏱ class lap BEST: Autodrome Lago Maggiore - Full Course/lobby/Gr.3 → 1:59.630 (1/10 laps, 1 car(s), avg 1:59.630)
+🗑 speaker: stale after pause: "go again"
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+🔧 session restart: lap-scoped state reset
+✂️ capture auto-stop in 10s (parked — left the driver's seat)
+# --- stopped: 24961 packets

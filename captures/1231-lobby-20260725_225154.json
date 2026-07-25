@@ -1,0 +1,27 @@
+{
+  "carId" : 3238,
+  "carName" : "Peugeot RCZ Gr.3",
+  "declared" : {
+    "captureContext" : "lobby",
+    "carClass" : "Gr.3",
+    "carId" : 3238,
+    "carName" : "Peugeot RCZ Gr.3",
+    "courseId" : 1231,
+    "fuelMultiplier" : 4,
+    "mode" : "survey",
+    "raceLengthUnit" : "minutes",
+    "startType" : "pit",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 5,
+    "timeBeforeStart" : 5,
+    "trackName" : "Autodrome Lago Maggiore - East Reverse",
+    "tyreWearMultiplier" : 2,
+    "weather" : "dry"
+  },
+  "endTime" : 1785013094,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1785012714,
+  "trackName" : "Autodrome Lago Maggiore: East Reverse",
+  "version" : 8
+}
