@@ -3,6 +3,22 @@
   "note": "gzipped decoded C-packets, 368 B each, back to back",
   "captures": [
     {
+      "stem": "349-customRace-20260725_212313",
+      "courseId": 349,
+      "track": "N\u00fcrburgring GP",
+      "context": "customRace",
+      "car": "Ferrari 499P '23",
+      "carClass": null,
+      "hz": 60.0,
+      "packets": 47289,
+      "durationS": 788.1,
+      "rawBytes": 17402352,
+      "gzBytes": 8734720,
+      "hasLog": true,
+      "fuelMultiplier": 10,
+      "tyreWearMultiplier": null
+    },
+    {
       "stem": "365-customRace-20260725_195705",
       "courseId": 365,
       "track": "Autodrome Lago Maggiore - Full Course",

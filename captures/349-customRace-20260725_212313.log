@@ -1,0 +1,107 @@
+# EzioClient session log
+# file:    20260725_212313 - Nürburgring GP (349).gt7td
+# started: 2026-07-25T19:23:13Z
+# track:   Nürburgring GP (CRS 349)
+# car:     Ferrari 499P '23
+# context: customRace
+# ---
+🚪 gate learned: Nürburgring GP/customRace/lap1
+🚪 ✅ flushed 1 parked gate(s) for Nürburgring GP — lap1
+🧭 identified (legacy): Nürburgring: Grand Prix Track (CRS 349) — after narrowing
+📊 strategy L1: no fuel model yet
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+🏁 start type: GRID_START at pkt 1356956 lap 1
+🔀 state UNKNOWN → RACING at pkt 1356956 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📊 strategy: green flag, race clock running
+📊 strategy L1: no fuel model yet
+🧭 identified (learned): Nürburgring GP (CRS 349) — legacy agrees
+🚪 gate refined: Nürburgring GP/customRace/lap1 (2 samples)
+🎭 mood relaxed → focused
+🔵 sub-state FIRST_LAP → FLYING lap 2
+🎭 mood focused → relaxed
+📊 strategy L2: fuel/lap 14.03 | fuel 85.4 = 6.1 laps | 6.0 laps to go | stops 0
+🔵 lap 1 antics: contact
+🚪 gate learned: Nürburgring GP/customRace/finishLine
+🎭 mood relaxed → focused
+🔵 lap 2: clean
+📊 strategy L3: fuel/lap 14.06 | fuel 71.3 = 5.1 laps | 5.0 laps to go | stops 0
+🚪 gate refined: Nürburgring GP/customRace/finishLine (2 samples)
+🗺 mapper: learned lap 2 (109.604 s, 5075 m, 1015 pts) — installing as session polyline
+🗺 session polyline installed from lap 2 (1015 pts) — minimap + delta live
+🎭 mood focused → relaxed
+🔵 lap 3: clean
+📊 strategy L4: fuel/lap 14.09 | fuel 56.8 = 4.0 laps | 4.0 laps to go | stops 0
+🚪 gate refined: Nürburgring GP/customRace/finishLine (3 samples)
+🗺 mapper: learned lap 3 (108.236 s, 5075 m, 1015 pts) — installing as session polyline
+🗺 session polyline installed from lap 3 (1015 pts) — minimap + delta live
+🔵 lap 4: clean
+📊 strategy L5: fuel/lap 14.28 | fuel 42.2 = 3.0 laps | 3.0 laps to go | stops 1
+🔧 box reminder auto-armed (boxThisLap)
+🚪 gate refined: Nürburgring GP/customRace/finishLine (4 samples)
+🗑 dropped (topic strategy): pitWindowState(openToLatest, now L5, L5/L5/L6, stops 1, close)
+🗑 dropped (topic strategy): pitStopsToGo(1, 3 to go)
+🗑 dropped (topic strategy): fuelStatus(extendStint, 2, 3 to go, 2.96 fuel-laps)
+🗺 mapper: learned lap 4 (108.231 s, 5070 m, 1014 pts) — installing as session polyline
+🗺 session polyline installed from lap 4 (1014 pts) — minimap + delta live
+🗑 speaker: stale, not spoken: "4 crossings"
+🗑 speaker: stale, not spoken: "clean lap banked"
+🗑 speaker: stale, not spoken: "1 48 point two"
+🔵 lap 5: clean
+📊 strategy L6: fuel/lap 14.43 | fuel 27.8 = 1.9 laps | 2.0 laps to go | stops 1
+🔧 box reminder auto-armed (boxThisLap)
+🚪 gate refined: Nürburgring GP/customRace/finishLine (5 samples)
+🗑 dropped (topic strategy): pitStopsToGo(1, 2 to go)
+🗑 dropped (topic strategy): fuelStatus(extendStint, 1, 2 to go, 1.92 fuel-laps)
+🗺 mapper: learned lap 5 (106.689 s, 5065 m, 1013 pts) — installing as session polyline
+🗺 session polyline installed from lap 5 (1013 pts) — minimap + delta live
+🗑 speaker: stale, not spoken: "clean lap banked"
+🗑 speaker: stale, not spoken: "1 46 point seven"
+🔧 huge stop 100 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🎭 mood relaxed → focused
+🔵 lap 6 antics: impact, gained 1
+🔧 teleport 367 m on lap 7 — pending reset-vs-pit (2.5 s)
+📊 strategy L7: fuel/lap 14.26 | fuel 14.2 = 1.0 laps | 1.0 laps to go | stops 1
+🔧 box reminder auto-armed (boxThisLap)
+🗑 dropped (topic strategy): pitStopsToGo(1, 1 to go)
+🗑 dropped (topic strategy): fuelStatus(oneMoreLap, 1, 1 to go, 1.00 fuel-laps)
+🔧 reset-to-track confirmed (no pit followed)
+🎭 mood focused → concerned
+🔀 state RACING → PIT at pkt 1397045 lap 7
+🔵 sub-state FLYING → — lap 7
+🔧 pit-entry anchor learned: 2741 ms into lap (stop on lap 7)
+📊 strategy: stop underway, plan now 0 more
+🚪 gate learned: Nürburgring GP/customRace/pitEntry
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🗑 dropped (cooldown): inPitBox
+🔀 state PIT → RACING at pkt 1397318 lap 7
+🔵 sub-state — → OUT_LAP lap 7
+🅿️ PIT completed: in L6 → out L7 (+4.9 fuel, transit 7.3s, teleport=true)
+🚪 gate learned: Nürburgring GP/customRace/pitBox
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 2.8s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 teleport 122 m on lap 7 — pending reset-vs-pit (2.5 s)
+🗑 dropped (topic pitSequence): exitingPit(+4.90l)
+📊 strategy L7: fuel/lap 14.26 | fuel 19.1 = 1.3 laps | 1.0 laps to go | stops 0 (post-stop recalc)
+🗑 dropped (topic strategy): strategyUpdate(fuel 1.34L, togo 1.00, stops 0, post-stop)
+🚪 gate learned: Nürburgring GP/customRace/pitExit
+🔧 reset-to-track confirmed (no pit followed)
+🗑 dropped (ledger full): chain of 1
+🗑 dropped (ledger full): chain of 1
+🎭 mood concerned → focused
+🔵 sub-state OUT_LAP → FLYING lap 8
+📊 strategy: race finished at L8 (lap 8 > 7)
+🔵 lap 7: clean
+✂️ capture auto-stop in 5s (race finished)
+🗑 flag: pending commentary cancelled
+📊 strategy L8: fuel/lap 14.43 | fuel 3.6 = 0.2 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Nürburgring GP/customRace/finishLine (6 samples)
+🗺 mapper: lap 7 rejected (teleport)
+🎭 mood focused → relaxed
+🗑 dropped (race over): surveyGate(finishLine, 6)
+🗑 dropped (race over): tractionLoss(1.57s)
+🗑 dropped (race over): extendedTractionLoss(3.07s, sev 0.35, ×39)
+# --- stopped: 47289 packets

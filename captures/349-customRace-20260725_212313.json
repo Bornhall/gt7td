@@ -1,0 +1,24 @@
+{
+  "carId" : 3605,
+  "carName" : "Ferrari 499P '23",
+  "declared" : {
+    "captureContext" : "customRace",
+    "carId" : 3605,
+    "carName" : "Ferrari 499P '23",
+    "courseId" : 349,
+    "fuelMultiplier" : 10,
+    "mode" : "race",
+    "raceLength" : 7,
+    "raceLengthUnit" : "laps",
+    "timeAfterFinish" : 5,
+    "timeBeforeStart" : 5,
+    "trackName" : "Nürburgring GP"
+  },
+  "endTime" : 1785008193,
+  "granularity" : 1,
+  "observedTotalLaps" : 7,
+  "packetSize" : 368,
+  "startTime" : 1785007393,
+  "trackName" : "Nürburgring GP",
+  "version" : 8
+}
