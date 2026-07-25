@@ -1,0 +1,25 @@
+{
+  "carId" : 3223,
+  "carName" : "Dodge Viper SRT GT3-R '15",
+  "declared" : {
+    "captureContext" : "lobby",
+    "carClass" : "Gr.3",
+    "carId" : 3223,
+    "carName" : "Dodge Viper SRT GT3-R '15",
+    "courseId" : 376,
+    "declaredFuelMap" : 1,
+    "mode" : "practice",
+    "notes" : "2xT, 4xF, 5l\/s. Wind 2.4m\/s west northwest. Temp not given. ",
+    "raceLengthUnit" : "laps",
+    "runPlanTemplate" : "freeform",
+    "timeAfterFinish" : 5,
+    "timeBeforeStart" : 5,
+    "trackName" : "Kyoto Driving Park - Yamagiwa"
+  },
+  "endTime" : 1784734840,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1784734800,
+  "trackName" : "Kyoto Driving Park - Yamagiwa",
+  "version" : 8
+}
