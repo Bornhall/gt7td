@@ -1,0 +1,129 @@
+# EzioClient session log
+# file:    20260726_112940 - Circuit de Spa-Francorchamps (462).gt7td
+# started: 2026-07-26T09:29:40Z
+# track:   Circuit de Spa-Francorchamps (CRS 462)
+# car:     Porsche 911 GT3 R (992) '22 [gr3]
+# context: customRace
+# ---
+🏁 start type: GRID_START at pkt 2765732 lap 1
+🔀 state UNKNOWN → RACING at pkt 2765732 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 identified (learned): Circuit de Spa-Francorchamps (CRS 462) — legacy agrees
+🚪 gate refined: Circuit de Spa-Francorchamps/customRace/lap1 (4 samples)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.3/20.4s, 1 line): surveyGate(lap1, 4)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 21.53, 3.6 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Circuit de Spa-Francorchamps/customRace/finishLine (7 samples)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 7)
+🔵 lap 2 antics: off
+📊 laps-left model: elapsed 290.1 s, remaining 609.9 s, median lap 143.6 s
+📊 strategy L3: fuel/lap 21.54 | fuel 56.2 = 2.6 laps | 5.0 laps to go | stops 1
+🔧 box reminder auto-armed (boxThisLap)
+🚪 gate refined: Circuit de Spa-Francorchamps/customRace/finishLine (8 samples)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): pitWindow(L3/L3/L4, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitWindowState(openToLatest, now L3, L3/L3/L4, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(1, 5 to go)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.2/20.4s, 1 line): surveyGate(finishLine, 8)
+🗺 mapper: learned lap 2 (143.591 s, 6945 m, 1389 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 9.9/20.4s, 1 line): surveyLap(2, 143591 ms, 1389 pts)
+🗺 session polyline installed from lap 2 (1389 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Spa-Francorchamps/customRace/Gr.3 → 2:23.591 (1/10 laps, 1 car(s), avg 2:23.591)
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 13.0/20.4s, 1 line): surveyComplete(3 optional missing)
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 19.5/20.4s, 1 line): radioCheck(P1, fuel 56%)
+🗣 spoke (strategy, imp 0, cost 1.6s, ledger 21.2/20.4s, 1 line, protected): boxThisLap(2.61 laps fuel)
+🗑 speaker: stale, not spoken: "3 optional still missing"
+🗑 speaker: stale, not spoken: "radio check"
+🗑 speaker: stale, not spoken: "P 1"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 23.4/20.4s, 1 line, protected): strategyUpdate(fuel 2.61L, togo 5.00, stops 1)
+🔵 lap 3: clean
+📊 laps-left model: elapsed 432.6 s, remaining 467.4 s, median lap 143.0 s
+📊 strategy L4: fuel/lap 21.53 | fuel 34.7 = 1.6 laps | 4.0 laps to go | stops 1
+🔧 box reminder auto-armed (boxThisLap)
+🚪 gate refined: Circuit de Spa-Francorchamps/customRace/finishLine (9 samples)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): pitWindow(—/L4/L4, stops 1)
+🗣 spoke (strategy, imp 0, cost 3.8s, ledger 6.0/20.4s, 1 line, protected): pitWindowState(atLatest, now L4, —/L4/L4, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(1, 4 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 2, 4 to go, 1.61 fuel-laps)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 8.7/20.4s, 1 line): surveyGate(finishLine, 9)
+🗺 mapper: learned lap 3 (142.333 s, 6945 m, 1389 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 12.4/20.4s, 1 line): surveyLap(3, 142333 ms, 1389 pts)
+🗺 session polyline installed from lap 3 (1389 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Spa-Francorchamps/customRace/Gr.3 → 2:22.333 (2/10 laps, 1 car(s), avg 2:22.962)
+🗑 dropped (ledger full; cost 2.2s, load 19.0/20.4s): radioCheck(P1, fuel 34%)
+🗣 spoke (strategy, imp 0, cost 1.6s, ledger 20.6/20.4s, 1 line, protected): boxThisLap(1.61 laps fuel)
+🗑 speaker: stale after pause: "that's lap 4"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 22.9/20.4s, 1 line, protected): strategyUpdate(fuel 1.61L, togo 4.00, stops 1)
+🔧 huge stop 73 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 2800219 lap 4
+🔵 sub-state FLYING → — lap 4
+🔧 pit-entry anchor learned: 142650 ms into lap (stop on lap 4)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 575.4 s, remaining 324.6 s, median lap 143.0 s
+🚪 gate learned: Circuit de Spa-Francorchamps/customRace/pitEntry
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line, protected): pittingIn(L4)
+🗣 spoke (strategy, imp 0, cost 4.0s, ledger 6.4/20.4s, 1 line, protected): refuelTarget(3.0 laps)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🗑 dropped (cooldown pit; 0.8s of 1.0s via pitSequence x0.50): inPitBox
+🔵 lap 4 antics: off
+🗺 mapper: lap 4 rejected (pit)
+🗑 dropped (in pit): lapStarted(5, last 163.69s)
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🔀 state PIT → RACING at pkt 2803282 lap 5
+🔵 sub-state — → OUT_LAP lap 5
+🅿️ PIT completed: in L4 → out L5 (+54.8 fuel, transit 53.9s, teleport=false)
+🚪 gate learned: Circuit de Spa-Francorchamps/customRace/pitBox
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 27.0s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 teleport 124 m on lap 5 — pending reset-vs-pit (2.5 s)
+📊 laps-left model: elapsed 626.5 s, remaining 273.5 s, median lap 143.0 s
+📊 strategy L5: fuel/lap 21.53 | fuel 70.9 = 3.3 laps | 2.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 1.6/20.4s, 1 line, protected): exitingPit(+54.76l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres
+🗣 spoke (strategy, imp 2, cost 2.7s, ledger 4.3/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 2 to go, 3.29 fuel-laps)
+🚪 gate learned: Circuit de Spa-Francorchamps/customRace/pitExit
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): strategyUpdate(fuel 3.29L, togo 2.00, stops 0)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 5.9/20.4s, 1 line): surveyGate(pitExit, 1)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 8.9/20.4s, 1 line): surveyComplete(0 optional missing)
+📊 laps-left model: elapsed 626.5 s, remaining 273.5 s, median lap 143.0 s
+📊 strategy L5: fuel/lap 21.53 | fuel 70.9 = 3.3 laps | 2.0 laps to go | stops 0 (post-stop recalc)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): strategyUpdate(fuel 3.29L, togo 2.00, stops 0, post-stop)
+🔧 reset-to-track confirmed (no pit followed)
+🎭 mood relaxed → focused
+🗣 spoke (radio, imp 10, cost 5.4s, ledger 5.4/20.4s, 1 line): radioCheck(P1, fuel 64%)
+🔵 sub-state OUT_LAP → FLYING lap 6
+🎭 mood focused → relaxed
+🔵 lap 5: clean
+📊 laps-left model: elapsed 761.8 s, remaining 138.2 s, median lap 143.0 s
+📊 strategy L6: fuel/lap 21.52 | fuel 50.2 = 2.3 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Circuit de Spa-Francorchamps/customRace/finishLine (10 samples)
+🗺 mapper: lap 5 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 10)
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 10.7/20.4s, 1 line): radioCheck(P1, fuel 50%)
+🎭 mood relaxed → focused
+🗑 dropped (topic tyres; 8.2s of 12.5s, tyres reopens in 4.3s): tyreTemps(inWindow, 70°)
+🎭 mood focused → relaxed
+🔵 lap 6 antics: off
+📊 strategy: race finished at L7 (clock 902.3 s of 900)
+✂️ capture auto-stop in 10s (race finished)
+🗑 flag: pending commentary cancelled
+📊 laps-left model: elapsed 902.3 s, remaining -2.3 s, median lap 142.3 s
+📊 strategy L7: fuel/lap 21.50 | fuel 28.9 = 1.3 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Circuit de Spa-Francorchamps/customRace/finishLine (11 samples)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): raceFinished(L7)
+🗑 dropped (race over): surveyGate(finishLine, 11)
+🗺 mapper: learned lap 6 (140.324 s, 6925 m, 1385 pts) — installing as session polyline
+🗑 dropped (race over): surveyLap(6, 140324 ms, 1385 pts)
+🗺 session polyline installed from lap 6 (1385 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Spa-Francorchamps/customRace/Gr.3 → 2:20.324 (3/10 laps, 1 car(s), avg 2:22.082)
+🗑 dropped (race over): tractionLoss(1.52s)
+🗑 dropped (race over): extendedTractionLoss(3.02s, sev 0.39, ×26)
+🗑 dropped (race over): extendedTractionLoss(6.02s, sev 0.55, ×26)
+🗑 dropped (race over): extendedTractionLoss(9.03s, sev 0.67, ×26)
+# --- stopped: 55001 packets

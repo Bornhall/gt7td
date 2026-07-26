@@ -772,5 +772,32 @@
     ],
     "trackName" : "Autodromo Nazionale Monza",
     "updated" : 1785054080
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "customRace",
+    "courseId" : 462,
+    "laps" : [
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 140324,
+        "recorded" : 1785059104
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 142333,
+        "recorded" : 1785058634
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 143591,
+        "recorded" : 1785058492
+      }
+    ],
+    "trackName" : "Circuit de Spa-Francorchamps",
+    "updated" : 1785059104
   }
 ]

@@ -115,6 +115,22 @@
       "tyreWearMultiplier": null
     },
     {
+      "stem": "462-customRace-20260726_112940",
+      "courseId": 462,
+      "track": "Circuit de Spa-Francorchamps",
+      "context": "customRace",
+      "car": "Porsche 911 GT3 R (992) '22",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 55001,
+      "durationS": 916.7,
+      "rawBytes": 20240368,
+      "gzBytes": 9740211,
+      "hasLog": true,
+      "fuelMultiplier": 10,
+      "tyreWearMultiplier": 1
+    },
+    {
       "stem": "469-customRace-20260726_100526",
       "courseId": 469,
       "track": "Autodromo Nazionale Monza",
@@ -864,7 +880,7 @@
   "referenceFiles": {
     "classlaps": {
       "file": "reference/classlaps.json",
-      "records": 44,
+      "records": 45,
       "courses": [
         4,
         11,
@@ -880,6 +896,7 @@
         444,
         449,
         454,
+        462,
         469,
         470,
         471,
@@ -908,11 +925,11 @@
         1232,
         1233
       ],
-      "updated": 1785054080
+      "updated": 1785059104
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
-      "gates": 237,
+      "gates": 240,
       "courses": [
         4,
         11,
@@ -966,7 +983,7 @@
         "pitEntry",
         "pitExit"
       ],
-      "updated": 1785054129
+      "updated": 1785059179
     }
   }
 }
