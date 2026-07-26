@@ -727,5 +727,32 @@
     ],
     "trackName" : "Autodrome Lago Maggiore - Full Course",
     "updated" : 1785090125
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "customRace",
+    "courseId" : 470,
+    "laps" : [
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 91270,
+        "recorded" : 1785093810
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 92424,
+        "recorded" : 1785093719
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 93296,
+        "recorded" : 1785093407
+      }
+    ],
+    "trackName" : "Red Bull Ring",
+    "updated" : 1785093810
   }
 ]

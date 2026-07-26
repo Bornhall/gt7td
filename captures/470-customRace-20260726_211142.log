@@ -1,0 +1,299 @@
+# EzioClient session log
+# file:    20260726_211142 - Red Bull Ring (470).gt7td
+# started: 2026-07-26T19:11:42Z
+# track:   Red Bull Ring (CRS 470)
+# car:     Porsche 911 GT3 R (992) '22 [gr3]
+# context: customRace
+# ---
+📊 strategy: no measured pit loss for this track
+🅿️ no pit speaking budget for this track
+🏁 start type: GRID_START at pkt 4858865 lap 1
+🔀 state UNKNOWN → RACING at pkt 4858865 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 primary: 2 candidates ["Red Bull Ring: Full Course", "Red Bull Ring: Short Track"]
+🚪 gate learned: Red Bull Ring/customRace/lap1 heading 165°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 4.6/20.4s, 1 line): surveyGate(lap1, 1)
+🧭 identified (legacy): Red Bull Ring: Full Course (CRS 470) — after narrowing
+🔵 sub-state FIRST_LAP → FLYING lap 2
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 24.50, 3.0 laps of fuel, race length unknown — fuel horizon
+🚪 gate learned: Red Bull Ring/customRace/finishLine heading 165°
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 3)
+🗣 bulletin (imp 6, cost 6.7s, ledger 9.3/20.4s, 2 lines): L2
+🔵 lap 2: clean
+📊 laps-left model: elapsed 187.4 s, remaining 1012.6 s, median lap 94.1 s -> 10-11 (no-stop 11, pit loss 18.0 s, rate 10 l/s, fuel-decisive)
+📊 strategy L3: fuel/lap 24.24 | fuel 50.4 = 2.1 laps | 11.0 laps to go | stops 3
+🚪 gate refined: Red Bull Ring/customRace/finishLine (2 samples, σ 0.51 m, ±16 m)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 3.1/20.4s, 1 line, protected): pitWindow(L3/L3/L4, stops 3)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitWindowState(openToLatest, now L3, L3/L3/L4, stops 3, close)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(3, 11 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(extendStint, 2, 11 to go, 2.08 fuel-laps)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.8/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 2 (94.062 s, 4295 m, 859 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 9.5/20.4s, 1 line): surveyLap(2, 94062 ms, 859 pts)
+🗺 session polyline installed from lap 2 (859 pts) — minimap + delta live
+⏱ class lap BEST: Red Bull Ring/customRace/Gr.3 → 1:34.062 (1/10 laps, 1 car(s), avg 1:34.062)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 12.1/20.4s, 1 line): surveyComplete(3 optional missing)
+🗣 bulletin (imp 2, cost 4.3s, ledger 16.4/20.4s, 2 lines): L3
+🗑 speaker: stale, not spoken: "3 optional outstanding"
+🗣 spoke (strategy, imp 2, cost 4.5s, ledger 21.0/20.4s, 1 line, protected): strategyUpdate(fuel 2.08L, togo 10-11/fuel, stops 3)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 5.0/20.4s, 1 events, 1 lines)
+🗑 dropped (chain cooldown): 1 event(s)
+🗣 chain (imp 6, cost 4.6s, ledger 7.6/20.4s, 1 events, 1 lines)
+🔵 lap 3 antics: contact
+📊 laps-left model: elapsed 280.7 s, remaining 919.3 s, median lap 93.7 s -> 9-10 (no-stop 10, pit loss 18.0 s, rate 10 l/s, fuel-decisive)
+📊 strategy L4: fuel/lap 24.06 | fuel 26.3 = 1.1 laps | 10.0 laps to go | stops 3
+🗣 spoke (position, imp 4, cost 2.5s, ledger 10.1/20.4s, 1 line): positionChange(P5→P1)
+📊 strategy L4: box confirmed at 70% (1.1 laps of fuel, was 1.1 at the crossing)
+🔧 box reminder auto-armed (boxThisLap)
+🚪 gate refined: Red Bull Ring/customRace/finishLine (3 samples, σ 0.55 m, ±8 m)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 12.3/20.4s, 1 line, protected): pitWindow(—/L4/L4, stops 3)
+🗣 spoke (strategy, imp 0, cost 3.8s, ledger 16.1/20.4s, 1 line, protected): pitWindowState(atLatest, now L4, —/L4/L4, stops 3, close)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(3, 10 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(extendStint, 1, 10 to go, 1.09 fuel-laps)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 18.7/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 3 (93.296 s, 4295 m, 859 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 22.4/20.4s, 1 line): surveyLap(3, 93296 ms, 859 pts)
+🗺 session polyline installed from lap 3 (859 pts) — minimap + delta live
+⏱ class lap BEST: Red Bull Ring/customRace/Gr.3 → 1:33.296 (2/10 laps, 1 car(s), avg 1:33.679)
+🗑 dropped (bulletin, ledger full; cost 6.0s, load 22.4/20.4s, 2 lines): L4
+🗣 spoke (strategy, imp 0, cost 1.6s, ledger 24.1/20.4s, 1 line, protected): boxThisLap(1.09 laps fuel)
+🗑 speaker: stale after pause: "3 samples"
+🗑 speaker: stale, not spoken: "clean lap banked"
+🗑 speaker: stale, not spoken: "1 33 point three"
+🗑 dropped (chain, ledger full; cost 2.1s, load 24.1/20.4s, 1 events)
+🗣 spoke (strategy, imp 2, cost 5.4s, ledger 26.5/20.4s, 1 line, protected): strategyUpdate(fuel 1.09L, togo 9-10/fuel, stops 3)
+🔧 huge stop 163 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 4881178 lap 4
+🔵 sub-state FLYING → — lap 4
+🔧 pit-entry anchor learned: 91435 ms into lap (stop on lap 4)
+🔧 pended impact cancelled: pit entry
+🎭 mood focused → relaxed
+📊 strategy: stop underway, plan now 2 more
+🚪 gate learned: Red Bull Ring/customRace/pitEntry (no heading)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line, protected): pittingIn(L4)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🔵 lap 4: clean
+🗺 mapper: lap 4 rejected (pit)
+🗑 dropped (in pit): lapStarted(5, last 107.59s)
+🗑 dropped (in pit): positionChange(P1→P4)
+📊 laps-left model: elapsed 391.3 s, remaining 808.7 s, median lap 93.7 s -> 8-9 (no-stop 9, pit loss 18.0 s, rate 10 l/s, fuel-decisive, tyre-decisive)
+🗣 spoke (pitSequence, imp 2, cost 1.2s, ledger 3.7/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 5.0s, ledger 8.7/20.4s, 1 line, protected): refuelTarget(8-9/fuel/tyres laps)
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🔀 state PIT → RACING at pkt 4883329 lap 5
+🔵 sub-state — → OUT_LAP lap 5
+🅿️ PIT completed: in L4 → out L5 (+95.9 fuel, transit 39.0s, teleport=false)
+🚪 gate learned: Red Bull Ring/customRace/pitBox (no heading)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 22.1s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 teleport 112 m on lap 5 — pending reset-vs-pit (2.5 s)
+📊 laps-left model: elapsed 408.2 s, remaining 791.8 s, median lap 93.7 s -> 8-9 (no-stop 9, pit loss 18.0 s, rate 10 l/s, fuel-decisive)
+📊 strategy L5: fuel/lap 24.06 | fuel 100.0 = 4.2 laps | 9.0 laps to go | stops 2
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 7.8/20.4s, 1 line, protected): exitingPit(+95.82l)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 10.9/20.4s, 1 line, protected): pitWindow(L5/L5/L8, stops 2)
+🚪 gate learned: Red Bull Ring/customRace/pitExit heading 164°
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitWindowState(openToLatest, now L5, L5/L5/L8, stops 2)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(2, 9 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 4, 9 to go, 4.16 fuel-laps)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): strategyUpdate(fuel 4.16L, togo 8-9/fuel, stops 2)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 13.0/20.4s, 1 line): surveyGate(pitExit, 1)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 15.9/20.4s, 1 line): surveyComplete(0 optional missing)
+📊 laps-left model: elapsed 408.2 s, remaining 773.8 s, median lap 93.7 s -> 8 (no-stop 9, pit loss 18.0 s, rate 10 l/s), out-lap -18.0s
+📊 strategy L5: fuel/lap 24.06 | fuel 100.0 = 4.2 laps | 8.0 laps to go | stops 1 (post-stop recalc)
+🗑 dropped (cooldown pitwindow; 0.0s of 45.0s via strategy x0.50): pitWindow(—/L6/L8, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): strategyUpdate(fuel 4.16L, togo 8, stops 1, post-stop)
+🔧 reset-to-track confirmed (no pit followed)
+🎭 mood relaxed → focused
+🗣 chain (imp 2, cost 1.2s, ledger 17.1/20.4s, 1 events, 1 lines)
+🗣 chain (imp 6, cost 3.4s, ledger 3.4/20.4s, 1 events, 1 lines)
+🔵 sub-state OUT_LAP → FLYING lap 6
+🔵 lap 5: clean
+📊 laps-left model: elapsed 500.0 s, remaining 700.0 s, median lap 93.7 s -> 7-8 (no-stop 8, pit loss 18.0 s, rate 10 l/s, fuel-decisive)
+📊 strategy L6: fuel/lap 24.05 | fuel 76.0 = 3.2 laps | 8.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 2.2s, ledger 5.6/20.4s, 1 line): positionChange(P4→P6)
+🚪 gate refined: Red Bull Ring/customRace/finishLine (4 samples, σ 0.53 m, ±8 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 9.1/20.4s, 1 line, protected): pitWindow(L6/L6/L8, stops 2)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitWindowState(openToLatest, now L6, L6/L6/L8, stops 2)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(2, 8 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 3, 8 to go, 3.16 fuel-laps)
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 11.8/20.4s, 1 line, protected): stopsPlanChanged(1→2)
+🗺 mapper: lap 5 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 14.4/20.4s, 1 line): surveyGate(finishLine, 3)
+🗣 bulletin (imp 6, cost 5.4s, ledger 19.8/20.4s, 2 lines): L6
+🗑 speaker: stale, not spoken: "go again"
+🗑 dropped (chain, ledger full; cost 2.1s, load 19.8/20.4s, 1 events)
+🗣 spoke (strategy, imp 2, cost 4.5s, ledger 24.4/20.4s, 1 line, protected): strategyUpdate(fuel 3.16L, togo 7-8/fuel, stops 2)
+🎭 mood focused → relaxed
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🔵 lap 6: clean
+📊 laps-left model: elapsed 592.5 s, remaining 607.5 s, median lap 93.3 s -> 6-7 (no-stop 7, pit loss 18.0 s, rate 10 l/s, fuel-decisive)
+📊 strategy L7: fuel/lap 24.03 | fuel 52.7 = 2.2 laps | 7.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 2.1s, ledger 6.3/20.4s, 1 line): positionChange(P6→P1)
+🚪 gate refined: Red Bull Ring/customRace/finishLine (5 samples, σ 0.83 m, ±8 m)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 8.5/20.4s, 1 line, protected): pitWindow(L7/L7/L8, stops 2)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitWindowState(openToLatest, now L7, L7/L7/L8, stops 2)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(2, 7 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 2, 7 to go, 2.19 fuel-laps)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 11.2/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 6 (92.424 s, 4290 m, 858 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 14.9/20.4s, 1 line): surveyLap(6, 92424 ms, 858 pts)
+🗺 session polyline installed from lap 6 (858 pts) — minimap + delta live
+⏱ class lap BEST: Red Bull Ring/customRace/Gr.3 → 1:32.424 (3/10 laps, 1 car(s), avg 1:33.260)
+🗑 dropped (bulletin, ledger full; cost 6.0s, load 14.9/20.4s, 2 lines): L7
+🗣 spoke (strategy, imp 2, cost 5.4s, ledger 20.3/20.4s, 1 line, protected): strategyUpdate(fuel 2.19L, togo 6-7/fuel, stops 2)
+🔵 lap 7: clean
+📊 laps-left model: elapsed 683.9 s, remaining 516.1 s, median lap 92.9 s -> 5-6 (no-stop 6, pit loss 18.0 s, rate 10 l/s, fuel-decisive)
+📊 strategy L8: fuel/lap 24.00 | fuel 29.3 = 1.2 laps | 6.0 laps to go | stops 2
+📊 strategy L8: box confirmed at 70% (1.2 laps of fuel, was 1.2 at the crossing)
+🗣 spoke (strategy, imp 2, cost 2.7s, ledger 2.7/20.4s, 1 line, protected): pitWindow(—/L8/L8, stops 2)
+🔧 box reminder auto-armed (boxThisLap)
+🚪 gate refined: Red Bull Ring/customRace/finishLine (6 samples, σ 1.40 m, ±8 m)
+🗣 spoke (strategy, imp 0, cost 3.8s, ledger 6.4/20.4s, 1 line, protected): pitWindowState(atLatest, now L8, —/L8/L8, stops 2)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(2, 6 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 1, 6 to go, 1.22 fuel-laps)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 9.1/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 7 (91.270 s, 4290 m, 858 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 12.2/20.4s, 1 line): surveyLap(7, 91270 ms, 858 pts)
+🗺 session polyline installed from lap 7 (858 pts) — minimap + delta live
+⏱ class lap BEST: Red Bull Ring/customRace/Gr.3 → 1:31.270 (3/10 laps, 1 car(s), avg 1:32.330)
+🗣 bulletin (imp 2, cost 6.6s, ledger 18.8/20.4s, 2 lines): L8
+🗣 spoke (strategy, imp 0, cost 1.6s, ledger 20.5/20.4s, 1 line, protected): boxThisLap(1.22 laps fuel)
+🗑 speaker: stale after pause: "31 point three"
+🗑 speaker: stale after pause: "lap 8 now"
+🗣 spoke (strategy, imp 2, cost 5.4s, ledger 25.9/20.4s, 1 line, protected): strategyUpdate(fuel 1.22L, togo 5-6/fuel, stops 2)
+🔧 box reminder fired: 9995 ms before learned entry anchor, lap 8
+🗣 spoke (pitSequence, imp 1, cost 4.2s, ledger 4.2/20.4s, 1 line, protected): pitEntryApproaching(9.99s)
+🔧 huge stop 167 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 4905264 lap 8
+🔵 sub-state FLYING → — lap 8
+🔧 pit-entry anchor learned: 90140 ms into lap (stop on lap 8)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 1 more
+🚪 gate refined: Red Bull Ring/customRace/pitEntry (2 samples, σ 0.34 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 6.7/20.4s, 1 line, protected): pittingIn(L8)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🔵 lap 8: clean
+🗺 mapper: lap 8 rejected (pit)
+🗑 dropped (in pit): lapStarted(9, last 106.25s)
+📊 laps-left model: elapsed 793.1 s, remaining 406.9 s, median lap 92.9 s -> 4-5 (no-stop 5, pit loss 18.0 s, rate 10 l/s, fuel-decisive)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 4.1/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 5.0s, ledger 9.1/20.4s, 1 line, protected): refuelTarget(4-5/fuel laps)
+🔀 state PIT → RACING at pkt 4907116 lap 9
+🔵 sub-state — → OUT_LAP lap 9
+🅿️ PIT completed: in L8 → out L9 (+92.5 fuel, transit 34.0s, teleport=false)
+🚪 gate refined: Red Bull Ring/customRace/pitBox (2 samples, σ 0.00 m, ±0 m)
+🅿️ entry→box 22.1s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🔧 teleport 112 m on lap 9 — pending reset-vs-pit (2.5 s)
+📊 laps-left model: elapsed 805.0 s, remaining 395.0 s, median lap 92.9 s -> 4-5 (no-stop 5, pit loss 18.0 s, rate 10 l/s, fuel-decisive)
+📊 strategy L9: fuel/lap 24.00 | fuel 100.0 = 4.2 laps | 5.0 laps to go | stops 1
+🗣 spoke (pitSequence, imp 2, cost 3.4s, ledger 10.0/20.4s, 1 line, protected): exitingPit(+92.45l)
+🚪 gate refined: Red Bull Ring/customRace/pitExit (2 samples, σ 0.00 m, ±16 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.5/20.4s, 1 line, protected): pitWindow(L9/L9/L12, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitWindowState(openToLatest, now L9, L9/L9/L12, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(1, 5 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 4, 5 to go, 4.17 fuel-laps)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): strategyUpdate(fuel 4.17L, togo 4-5/fuel, stops 1)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 15.6/20.4s, 1 line): surveyGate(pitExit, 1)
+📊 laps-left model: elapsed 805.0 s, remaining 377.0 s, median lap 92.9 s -> 4-5 (no-stop 5, pit loss 18.0 s, rate 10 l/s, fuel-decisive), out-lap -18.0s
+📊 strategy L9: fuel/lap 24.00 | fuel 100.0 = 4.2 laps | 5.0 laps to go | stops 1 (post-stop recalc)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): strategyUpdate(fuel 4.17L, togo 4-5/fuel, stops 1, post-stop)
+🔧 reset-to-track confirmed (no pit followed)
+🎭 mood relaxed → focused
+🗣 chain (imp 2, cost 1.6s, ledger 17.2/20.4s, 1 events, 1 lines)
+🗣 chain (imp 6, cost 4.6s, ledger 4.6/20.4s, 1 events, 1 lines)
+🔵 sub-state OUT_LAP → FLYING lap 10
+🎭 mood focused → relaxed
+🔵 lap 9: clean
+📊 laps-left model: elapsed 895.3 s, remaining 304.7 s, median lap 92.9 s -> 4 (no-stop 4, pit loss 18.0 s, rate 10 l/s)
+📊 strategy L10: fuel/lap 23.97 | fuel 77.0 = 3.2 laps | 4.0 laps to go | stops 1
+🚪 gate refined: Red Bull Ring/customRace/finishLine (7 samples, σ 1.36 m, ±8 m)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): pitWindow(L10/L10/L12, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitWindowState(openToLatest, now L10, L10/L10/L12, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(1, 4 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 3, 4 to go, 3.21 fuel-laps)
+🗺 mapper: lap 9 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.9/20.4s, 1 line): surveyGate(finishLine, 3)
+🗣 bulletin (imp 6, cost 5.8s, ledger 10.7/20.4s, 2 lines): L10
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 12.9/20.4s, 1 line, protected): strategyUpdate(fuel 3.21L, togo 4, stops 1)
+🔵 lap 10: clean
+📊 laps-left model: elapsed 987.5 s, remaining 212.5 s, median lap 92.4 s -> 3 (no-stop 3, pit loss 18.0 s, rate 10 l/s)
+📊 strategy L11: fuel/lap 23.70 | fuel 54.0 = 2.3 laps | 3.0 laps to go | stops 1
+🚪 gate refined: Red Bull Ring/customRace/finishLine (8 samples, σ 1.30 m, ±8 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): pitWindow(L11/L11/L12, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitWindowState(openToLatest, now L11, L11/L11/L12, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(1, 3 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 2, 3 to go, 2.28 fuel-laps)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.2/20.4s, 1 line): surveyGate(finishLine, 3)
+🗣 bulletin (imp 6, cost 6.2s, ledger 12.4/20.4s, 2 lines): L11
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 14.7/20.4s, 1 line, protected): strategyUpdate(fuel 2.28L, togo 3, stops 1)
+🔵 lap 11: clean
+📊 laps-left model: elapsed 1078.9 s, remaining 121.1 s, median lap 92.2 s -> 2 (no-stop 2, pit loss 18.0 s, rate 10 l/s)
+📊 strategy L12: fuel/lap 23.32 | fuel 30.8 = 1.3 laps | 2.0 laps to go | stops 1
+📊 strategy L12: box confirmed at 70% (1.3 laps of fuel, was 1.3 at the crossing)
+🔧 box reminder auto-armed (boxThisLap)
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 4.0/20.4s, 1 line, protected): pitWindow(—/L12/L12, stops 1)
+🚪 gate refined: Red Bull Ring/customRace/finishLine (9 samples, σ 1.22 m, ±8 m)
+🗣 spoke (strategy, imp 0, cost 3.8s, ledger 7.7/20.4s, 1 line, protected): pitWindowState(atLatest, now L12, —/L12/L12, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(1, 2 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 1, 2 to go, 1.32 fuel-laps)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 10.4/20.4s, 1 line): surveyGate(finishLine, 3)
+🗣 bulletin (imp 6, cost 4.2s, ledger 14.6/20.4s, 2 lines): L12
+🗣 spoke (strategy, imp 0, cost 1.6s, ledger 16.2/20.4s, 1 line, protected): boxThisLap(1.32 laps fuel)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 18.4/20.4s, 1 line, protected): strategyUpdate(fuel 1.32L, togo 2, stops 1)
+🔧 box reminder fired: 9996 ms before learned entry anchor, lap 12
+🗣 spoke (pitSequence, imp 1, cost 3.8s, ledger 3.8/20.4s, 1 line, protected): pitEntryApproaching(10.00s)
+🔧 huge stop 167 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 4928903 lap 12
+🔵 sub-state FLYING → — lap 12
+🔧 pit-entry anchor learned: 89461 ms into lap (stop on lap 12)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+🚪 gate refined: Red Bull Ring/customRace/pitEntry (3 samples, σ 0.42 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 6.3/20.4s, 1 line, protected): pittingIn(L12)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🔵 lap 12: clean
+🗺 mapper: lap 12 rejected (pit)
+🗑 dropped (in pit): lapStarted(13, last 105.79s)
+📊 laps-left model: elapsed 1187.7 s, remaining 12.3 s, median lap 92.2 s -> 0-1 (no-stop 1, pit loss 18.0 s, rate 10 l/s, fuel-decisive)
+🗣 spoke (pitSequence, imp 2, cost 1.2s, ledger 3.7/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 5.0s, ledger 8.7/20.4s, 1 line, protected): refuelTarget(0-1/fuel laps)
+🔀 state PIT → RACING at pkt 4930428 lap 13
+🔵 sub-state — → OUT_LAP lap 13
+🅿️ PIT completed: in L12 → out L13 (no fuel, transit 28.4s, teleport=false)
+🚪 gate refined: Red Bull Ring/customRace/pitBox (3 samples, σ 0.00 m, ±0 m)
+🅿️ entry→box 22.1s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🔧 teleport 112 m on lap 13 — pending reset-vs-pit (2.5 s)
+📊 laps-left model: elapsed 1193.9 s, remaining 6.1 s, median lap 92.2 s -> 0-1 (no-stop 1, pit loss 18.0 s, rate 10 l/s, fuel-decisive)
+📊 strategy L13: fuel/lap 23.17 | fuel 8.7 = 0.4 laps | 1.0 laps to go | stops 1
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 7.8/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres
+🗣 spoke (strategy, imp 2, cost 2.7s, ledger 10.5/20.4s, 1 line, protected): pitWindow(—/L13/L13, stops 1)
+🚪 gate refined: Red Bull Ring/customRace/pitExit (3 samples, σ 0.00 m, ±8 m)
+🗣 spoke (strategy, imp 0, cost 3.8s, ledger 14.3/20.4s, 1 line, protected): pitWindowState(atLatest, now L13, —/L13/L13, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(1, 1 to go)
+🗣 spoke (strategy, imp 1, cost 2.9s, ledger 17.2/20.4s, 1 line, protected): fuelStatus(pitForFuel, 1, 1 to go, 0.37 fuel-laps)
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 19.9/20.4s, 1 line, protected): stopsPlanChanged(0→1)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 21.5/20.4s, 1 line): surveyGate(pitExit, 1)
+📊 laps-left model: elapsed 1193.9 s, remaining -11.9 s, median lap 92.2 s -> 0 (expired)
+📊 strategy L13: fuel/lap 23.17 | fuel 8.7 = 0.4 laps | 0.0 laps to go | stops 0 (post-stop recalc)
+📊 strategy: race finished at L13 crossing
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 23.1/20.4s, 1 line): raceFinished(L13)
+🗑 speaker: 8 queued line(s) preempted by flag
+🔧 reset-to-track confirmed (no pit followed)
+🎭 mood relaxed → focused
+🗑 dropped (race over): resetToTrack(L13)
+🎭 mood focused → relaxed
+🗑 dropped (race over): strategyUpdate(fuel 0.37L, togo 0-1/fuel, stops 1)
+# --- stopped: 73661 packets

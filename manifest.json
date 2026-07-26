@@ -163,6 +163,22 @@
       "tyreWearMultiplier": 1
     },
     {
+      "stem": "470-customRace-20260726_211142",
+      "courseId": 470,
+      "track": "Red Bull Ring",
+      "context": "customRace",
+      "car": "Porsche 911 GT3 R (992) '22",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 73661,
+      "durationS": 1227.7,
+      "rawBytes": 27107248,
+      "gzBytes": 12927055,
+      "hasLog": true,
+      "fuelMultiplier": 15,
+      "tyreWearMultiplier": 1
+    },
+    {
       "stem": "602-lobby-20260725_221844",
       "courseId": 602,
       "track": "Autodrome Lago Maggiore - Full Course Reverse",
@@ -605,6 +621,11 @@
           "context": "lobby",
           "lengthM": 4280,
           "points": 856
+        },
+        {
+          "context": "customRace",
+          "lengthM": 4290,
+          "points": 858
         }
       ]
     },
@@ -937,7 +958,7 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 47,
+      "records": 48,
       "courses": [
         4,
         11,
@@ -983,12 +1004,12 @@
         1233,
         1249
       ],
-      "updated": 1785090125
+      "updated": 1785093810
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 244,
+      "gates": 249,
       "courses": [
         4,
         11,
@@ -1048,14 +1069,14 @@
         "lobby",
         "timeTrial"
       ],
-      "withHeading": 151,
-      "updated": 1785090190,
+      "withHeading": 154,
+      "updated": 1785094507,
       "tolerance": {
-        "gatesWithWidth": 151,
+        "gatesWithWidth": 154,
         "minM": 8,
-        "medianM": 16,
+        "medianM": 16.0,
         "maxM": 16,
-        "atFloor": 22,
+        "atFloor": 25,
         "atCap": 0
       }
     }
