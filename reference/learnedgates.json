@@ -4638,5 +4638,105 @@
     "width" : 16,
     "yMax" : 15.207257270812988,
     "yMin" : 9.207257270812988
+  },
+  {
+    "a" : [
+      -495.0404459635417,
+      112.07574462890625
+    ],
+    "b" : [
+      -494.9676106770833,
+      111.27327473958333
+    ],
+    "context" : "customRace",
+    "courseId" : 469,
+    "ext" : 5,
+    "kind" : "lap1",
+    "samples" : 3,
+    "trackName" : "Autodromo Nazionale Monza",
+    "updated" : 1785054129,
+    "width" : 16,
+    "yMax" : 180.20809936523438,
+    "yMin" : 174.18142700195312
+  },
+  {
+    "a" : [
+      -520.9974452427456,
+      422.3031572614397
+    ],
+    "b" : [
+      -520.9029628208705,
+      421.26212419782365
+    ],
+    "context" : "customRace",
+    "courseId" : 469,
+    "ext" : 5,
+    "kind" : "finishLine",
+    "samples" : 14,
+    "trackName" : "Autodromo Nazionale Monza",
+    "updated" : 1785054129,
+    "width" : 16,
+    "yMax" : 178.62184143066406,
+    "yMin" : 172.51560974121094
+  },
+  {
+    "a" : [
+      -513.2590942382812,
+      509.33563232421875
+    ],
+    "b" : [
+      -513.2590942382812,
+      509.33563232421875
+    ],
+    "context" : "customRace",
+    "courseId" : 469,
+    "ext" : 5,
+    "kind" : "pitEntry",
+    "samples" : 2,
+    "trackName" : "Autodromo Nazionale Monza",
+    "updated" : 1785054129,
+    "width" : 16,
+    "yMax" : 178.10826110839844,
+    "yMin" : 172.10826110839844
+  },
+  {
+    "a" : [
+      -486.1730651855469,
+      302.98974609375
+    ],
+    "b" : [
+      -486.1730651855469,
+      302.98974609375
+    ],
+    "context" : "customRace",
+    "courseId" : 469,
+    "ext" : 5,
+    "kind" : "pitBox",
+    "samples" : 2,
+    "trackName" : "Autodromo Nazionale Monza",
+    "updated" : 1785054129,
+    "width" : 16,
+    "yMax" : 179.25326538085938,
+    "yMin" : 173.25326538085938
+  },
+  {
+    "a" : [
+      -485.82586669921875,
+      296.04351806640625
+    ],
+    "b" : [
+      -482.1340637207031,
+      170.2876739501953
+    ],
+    "context" : "customRace",
+    "courseId" : 469,
+    "ext" : 5,
+    "kind" : "pitExit",
+    "samples" : 2,
+    "trackName" : "Autodromo Nazionale Monza",
+    "updated" : 1785054129,
+    "width" : 16,
+    "yMax" : 179.96868896484375,
+    "yMin" : 173.96868896484375
   }
 ]

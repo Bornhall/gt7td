@@ -745,5 +745,32 @@
     ],
     "trackName" : "Autodrome Lago Maggiore - West Reverse",
     "updated" : 1785013877
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "customRace",
+    "courseId" : 469,
+    "laps" : [
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 110598,
+        "recorded" : 1785054080
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 110942,
+        "recorded" : 1785053970
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 111448,
+        "recorded" : 1785053595
+      }
+    ],
+    "trackName" : "Autodromo Nazionale Monza",
+    "updated" : 1785054080
   }
 ]

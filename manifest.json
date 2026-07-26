@@ -115,6 +115,22 @@
       "tyreWearMultiplier": null
     },
     {
+      "stem": "469-customRace-20260726_100526",
+      "courseId": 469,
+      "track": "Autodromo Nazionale Monza",
+      "context": "customRace",
+      "car": "Porsche 911 GT3 R (992) '22",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 57064,
+      "durationS": 951.1,
+      "rawBytes": 20999552,
+      "gzBytes": 10061955,
+      "hasLog": true,
+      "fuelMultiplier": 10,
+      "tyreWearMultiplier": 1
+    },
+    {
       "stem": "602-lobby-20260725_221844",
       "courseId": 602,
       "track": "Autodrome Lago Maggiore - Full Course Reverse",
@@ -521,6 +537,18 @@
       ]
     },
     {
+      "courseId": 469,
+      "track": "Autodromo Nazionale Monza",
+      "file": "reference/trackmaps/469.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 5760,
+          "points": 1152
+        }
+      ]
+    },
+    {
       "courseId": 470,
       "track": "Red Bull Ring",
       "file": "reference/trackmaps/470.trackmap.json",
@@ -836,7 +864,7 @@
   "referenceFiles": {
     "classlaps": {
       "file": "reference/classlaps.json",
-      "records": 43,
+      "records": 44,
       "courses": [
         4,
         11,
@@ -852,6 +880,7 @@
         444,
         449,
         454,
+        469,
         470,
         471,
         601,
@@ -879,11 +908,11 @@
         1232,
         1233
       ],
-      "updated": 1785013912
+      "updated": 1785054080
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
-      "gates": 232,
+      "gates": 237,
       "courses": [
         4,
         11,
@@ -901,6 +930,7 @@
         449,
         454,
         462,
+        469,
         470,
         471,
         601,
@@ -936,7 +966,7 @@
         "pitEntry",
         "pitExit"
       ],
-      "updated": 1785013912
+      "updated": 1785054129
     }
   }
 }

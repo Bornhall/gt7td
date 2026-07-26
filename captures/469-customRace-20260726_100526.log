@@ -1,0 +1,119 @@
+# EzioClient session log
+# file:    20260726_100526 - Autodromo Nazionale Monza (469).gt7td
+# started: 2026-07-26T08:05:26Z
+# track:   Autodromo Nazionale Monza (CRS 469)
+# car:     Porsche 911 GT3 R (992) '22 [gr3]
+# context: customRace
+# ---
+🚪 gate learned: Autodromo Nazionale Monza/customRace/lap1
+🚪 ✅ flushed 1 parked gate(s) for Autodromo Nazionale Monza — lap1
+🧭 identified (legacy): Autodromo Nazionale Monza: Full Course (CRS 469) — after narrowing
+📊 strategy L1: no fuel model yet
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+🏁 start type: GRID_START at pkt 2462579 lap 1
+🔀 state UNKNOWN → RACING at pkt 2462579 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📊 strategy: green flag, race clock running
+📊 strategy L1: no fuel model yet
+🧭 identified (learned): Autodromo Nazionale Monza (CRS 469) — legacy agrees
+🚪 gate refined: Autodromo Nazionale Monza/customRace/lap1 (2 samples)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+🔵 lap 1 antics: contact
+📊 strategy L2: fuel/lap 20.52, 3.8 laps of fuel, race length unknown — fuel horizon
+🚪 gate learned: Autodromo Nazionale Monza/customRace/finishLine
+🎭 mood relaxed → focused
+🔵 lap 2 antics: off
+📊 laps-left model: elapsed 226.9 s, remaining 673.1 s, median lap 112.2 s
+📊 strategy L3: fuel/lap 20.71 | fuel 57.9 = 2.8 laps | 7.0 laps to go | stops 1
+🔧 box reminder auto-armed (boxThisLap)
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (2 samples)
+🗑 dropped (topic strategy): pitWindowState(openToLatest, now L3, L3/L3/L4, stops 2)
+🗑 dropped (topic strategy): pitStopsToGo(2, 7 to go)
+🗺 mapper: learned lap 2 (112.182 s, 5765 m, 1153 pts) — installing as session polyline
+🗺 session polyline installed from lap 2 (1153 pts) — minimap + delta live
+⏱ class lap BEST: Autodromo Nazionale Monza/customRace/Gr.3 → 1:52.182 (1/10 laps, 1 car(s), avg 1:52.182)
+🗑 speaker: stale, not spoken: "3 optional still missing"
+🎭 mood focused → relaxed
+🔵 lap 3: clean
+📊 laps-left model: elapsed 339.9 s, remaining 560.1 s, median lap 112.5 s
+📊 strategy L4: fuel/lap 20.52 | fuel 38.7 = 1.9 laps | 5.0 laps to go | stops 1
+🔧 box reminder auto-armed (boxThisLap)
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (3 samples)
+🗑 dropped (topic strategy): pitStopsToGo(1, 5 to go)
+🗑 dropped (topic strategy): fuelStatus(lapsToGo, 2, 5 to go, 1.89 fuel-laps)
+🔵 lap 4: clean
+📊 laps-left model: elapsed 451.4 s, remaining 448.6 s, median lap 112.2 s
+📊 strategy L5: fuel/lap 19.82 | fuel 20.4 = 1.0 laps | 4.0 laps to go | stops 1
+🔧 box reminder auto-armed (boxThisLap)
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (4 samples)
+🗑 dropped (topic strategy): pitStopsToGo(1, 4 to go)
+🗑 dropped (topic strategy): fuelStatus(extendStint, 1, 4 to go, 1.03 fuel-laps)
+🗺 mapper: learned lap 4 (111.448 s, 5755 m, 1151 pts) — installing as session polyline
+🗺 session polyline installed from lap 4 (1151 pts) — minimap + delta live
+⏱ class lap BEST: Autodromo Nazionale Monza/customRace/Gr.3 → 1:51.448 (2/10 laps, 1 car(s), avg 1:51.815)
+🗑 speaker: stale after pause: "1 51 point four five"
+🔧 huge stop 215 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 2496465 lap 5
+🔵 sub-state FLYING → — lap 5
+🔧 pit-entry anchor learned: 113829 ms into lap (stop on lap 5)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 565.3 s, remaining 334.7 s, median lap 112.2 s
+🚪 gate learned: Autodromo Nazionale Monza/customRace/pitEntry
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🗑 dropped (cooldown): inPitBox
+🔵 lap 5: clean
+🗺 mapper: lap 5 rejected (pit)
+🗑 dropped (in pit): lapStarted(6, last 121.47s)
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🔀 state PIT → RACING at pkt 2498736 lap 6
+🔵 sub-state — → OUT_LAP lap 6
+🅿️ PIT completed: in L5 → out L6 (+62.9 fuel, transit 40.9s, teleport=false)
+🚪 gate learned: Autodromo Nazionale Monza/customRace/pitBox
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 13.1s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 teleport 126 m on lap 6 — pending reset-vs-pit (2.5 s)
+📊 laps-left model: elapsed 603.2 s, remaining 296.8 s, median lap 112.2 s
+📊 strategy L6: fuel/lap 19.82 | fuel 67.0 = 3.4 laps | 3.0 laps to go | stops 0
+🚪 gate learned: Autodromo Nazionale Monza/customRace/pitExit
+🗑 dropped (cooldown): freshTyres
+🗑 dropped (topic strategy): strategyUpdate(fuel 3.38L, togo 3.00, stops 0)
+📊 laps-left model: elapsed 603.3 s, remaining 296.7 s, median lap 112.2 s
+📊 strategy L6: fuel/lap 19.82 | fuel 67.0 = 3.4 laps | 3.0 laps to go | stops 0 (post-stop recalc)
+🗑 dropped (topic strategy): strategyUpdate(fuel 3.38L, togo 3.00, stops 0, post-stop)
+🔧 reset-to-track confirmed (no pit followed)
+🎭 mood relaxed → focused
+🔵 sub-state OUT_LAP → FLYING lap 7
+🎭 mood focused → relaxed
+📊 laps-left model: elapsed 715.3 s, remaining 184.7 s, median lap 112.2 s
+🔵 lap 6: clean
+📊 strategy L7: fuel/lap 19.11 | fuel 48.0 = 2.5 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (5 samples)
+🗺 mapper: lap 6 rejected (teleport)
+🔵 lap 7: clean
+📊 laps-left model: elapsed 826.3 s, remaining 73.7 s, median lap 111.8 s
+📊 strategy L8: fuel/lap 19.09 | fuel 29.1 = 1.5 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (6 samples)
+🗺 mapper: learned lap 7 (110.942 s, 5755 m, 1151 pts) — installing as session polyline
+🗺 session polyline installed from lap 7 (1151 pts) — minimap + delta live
+⏱ class lap BEST: Autodromo Nazionale Monza/customRace/Gr.3 → 1:50.942 (3/10 laps, 1 car(s), avg 1:51.524)
+🔵 lap 8: clean
+📊 strategy: race finished at L9 (clock 937.0 s of 900)
+✂️ capture auto-stop in 10s (race finished)
+🗑 flag: pending commentary cancelled
+📊 laps-left model: elapsed 937.0 s, remaining -37.0 s, median lap 111.4 s
+📊 strategy L9: fuel/lap 19.11 | fuel 9.7 = 0.5 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (7 samples)
+🗑 dropped (race over): surveyGate(finishLine, 7)
+🗺 mapper: learned lap 8 (110.598 s, 5760 m, 1152 pts) — installing as session polyline
+🗑 dropped (race over): surveyLap(8, 110598 ms, 1152 pts)
+🗺 session polyline installed from lap 8 (1152 pts) — minimap + delta live
+⏱ class lap BEST: Autodromo Nazionale Monza/customRace/Gr.3 → 1:50.598 (3/10 laps, 1 car(s), avg 1:50.996)
+🗑 dropped (race over): tractionLoss(1.60s)
+🗑 dropped (race over): extendedTractionLoss(3.10s, sev 0.28, ×24)
+🗑 dropped (race over): extendedTractionLoss(6.11s, sev 0.47, ×24)
+🗑 dropped (race over): extendedTractionLoss(9.11s, sev 0.61, ×24)
+# --- stopped: 57064 packets
