@@ -5279,23 +5279,23 @@
       "context" : "customRace",
       "courseId" : 470,
       "halfWidthM" : 8,
-      "headingRad" : 2.8766427210892678,
+      "headingRad" : 2.8794589507239516,
       "kind" : "lap1",
       "lineA" : [
-        451.0416394968588,
-        314.1636549611045
+        450.815063734105,
+        313.74765283493304
       ],
       "lineB" : [
-        446.85186432801095,
-        298.721965156083
+        446.66879246706685,
+        298.294224911649
       ],
-      "m2" : 0.17081492968524167,
-      "samples" : 3,
-      "spreadM" : 0.29224555572774896,
+      "m2" : 2.809952020354088,
+      "samples" : 4,
+      "spreadM" : 0.9678071468280045,
       "trackName" : "Red Bull Ring",
-      "updated" : 1785094507,
+      "updated" : 1785097649,
       "yMax" : -24.858739852905273,
-      "yMin" : -30.873310089111328
+      "yMin" : -30.90570068359375
     },
     {
       "context" : "customRace",
@@ -5382,6 +5382,114 @@
       "updated" : 1785094487,
       "yMax" : -23.68794822692871,
       "yMin" : -29.68810272216797
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 846,
+      "halfWidthM" : 16,
+      "headingRad" : 2.863905072633517,
+      "kind" : "lap1",
+      "lineA" : [
+        451.55080889069797,
+        315.03596595630904
+      ],
+      "lineB" : [
+        442.77856733000516,
+        284.2618245710347
+      ],
+      "m2" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Red Bull Ring Short Track",
+      "updated" : 1785098219,
+      "yMax" : -24.98182487487793,
+      "yMin" : -30.98182487487793
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 846,
+      "halfWidthM" : 0,
+      "kind" : "pitEntry",
+      "lineA" : [
+        732.656005859375,
+        207.07846069335938
+      ],
+      "lineB" : [
+        732.656005859375,
+        207.07846069335938
+      ],
+      "m2" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Red Bull Ring Short Track",
+      "updated" : 1785098219,
+      "yMax" : -22.70833969116211,
+      "yMin" : -28.70833969116211
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 846,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        411.8816223144531,
+        290.5203857421875
+      ],
+      "lineB" : [
+        411.8816223144531,
+        290.5203857421875
+      ],
+      "m2" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Red Bull Ring Short Track",
+      "updated" : 1785098219,
+      "yMax" : -25.03792381286621,
+      "yMin" : -31.03792381286621
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 846,
+      "halfWidthM" : 16,
+      "headingRad" : 2.872020894456674,
+      "kind" : "pitExit",
+      "lineA" : [
+        302.4585477090182,
+        345.4170640971089
+      ],
+      "lineB" : [
+        293.9363497519193,
+        314.57274303179736
+      ],
+      "m2" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Red Bull Ring Short Track",
+      "updated" : 1785098219,
+      "yMax" : -23.687679290771484,
+      "yMin" : -29.687679290771484
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 846,
+      "halfWidthM" : 8,
+      "headingRad" : 2.8869961095006325,
+      "kind" : "finishLine",
+      "lineA" : [
+        566.1639243017664,
+        278.82203627647914
+      ],
+      "lineB" : [
+        562.1342446435458,
+        263.3377964871927
+      ],
+      "m2" : 60.084335212782136,
+      "samples" : 10,
+      "spreadM" : 2.5838028651320677,
+      "trackName" : "Red Bull Ring Short Track",
+      "updated" : 1785098219,
+      "yMax" : -24.80753517150879,
+      "yMin" : -30.9185733795166
     }
   ],
   "schemaVersion" : 2

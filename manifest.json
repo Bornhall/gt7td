@@ -810,6 +810,11 @@
           "context": "lobby",
           "lengthM": 2305,
           "points": 461
+        },
+        {
+          "context": "customRace",
+          "lengthM": 2310,
+          "points": 462
         }
       ]
     },
@@ -974,7 +979,7 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 48,
+      "records": 49,
       "courses": [
         4,
         11,
@@ -1020,12 +1025,12 @@
         1233,
         1249
       ],
-      "updated": 1785093810
+      "updated": 1785098031
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 249,
+      "gates": 254,
       "courses": [
         4,
         11,
@@ -1085,14 +1090,14 @@
         "lobby",
         "timeTrial"
       ],
-      "withHeading": 154,
-      "updated": 1785094507,
+      "withHeading": 157,
+      "updated": 1785098219,
       "tolerance": {
-        "gatesWithWidth": 154,
+        "gatesWithWidth": 157,
         "minM": 8,
-        "medianM": 16.0,
+        "medianM": 16,
         "maxM": 16,
-        "atFloor": 25,
+        "atFloor": 26,
         "atCap": 0
       }
     }
