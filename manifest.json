@@ -291,6 +291,22 @@
       "tyreWearMultiplier": 2
     },
     {
+      "stem": "846-customRace-20260726_222748",
+      "courseId": 846,
+      "track": "Red Bull Ring Short Track",
+      "context": "customRace",
+      "car": "Porsche 911 GT3 R (992) '22",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 23850,
+      "durationS": 397.5,
+      "rawBytes": 8776800,
+      "gzBytes": 4149453,
+      "hasLog": true,
+      "fuelMultiplier": 1,
+      "tyreWearMultiplier": 1
+    },
+    {
       "stem": "1226-lobby-20260725_224645",
       "courseId": 1226,
       "track": "Autodrome Lago Maggiore - East",

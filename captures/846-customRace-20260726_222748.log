@@ -1,0 +1,136 @@
+# EzioClient session log
+# file:    20260726_222748 - Red Bull Ring Short Track (846).gt7td
+# started: 2026-07-26T20:27:48Z
+# track:   Red Bull Ring Short Track (CRS 846)
+# car:     Porsche 911 GT3 R (992) '22 [gr3]
+# context: customRace
+# ---
+📊 strategy L2: no fuel model yet
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 101 gate(s) from 249 stored
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=6 eff=6 budget=14 cd=x1.25 lock=60.0->75.0s ttl=6s
+🏁 start type: GRID_START at pkt 5135815 lap 0
+🔀 state UNKNOWN → RACING at pkt 5135815 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 3.4s, ledger 3.4/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 identified (learned): Red Bull Ring (CRS 470) — lap1, 4 sample(s), ±8 m — legacy agrees
+🚪 gate learned: Red Bull Ring Short Track/customRace/lap1 heading 164°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 5.4/20.4s, 1 line): surveyGate(lap1, 1)
+🗣 chain (imp 4, cost 2.5s, ledger 7.9/20.4s, 1 events, 1 lines)
+🔧 huge stop 157 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 5139191 lap 1
+🔵 sub-state FIRST_LAP → — lap 1
+🔧 pit-entry anchor learned: 56733 ms into lap (stop on lap 1)
+🔧 pended impact cancelled: pit entry
+🚪 gate learned: Red Bull Ring Short Track/customRace/pitEntry (no heading)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line, protected): pittingIn(L1)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🔵 lap 1 antics: contact
+🗑 dropped (in pit): lapStarted(2, last 72.83s)
+🗣 spoke (pitSequence, imp 2, cost 2.5s, ledger 3.7/20.4s, 1 line, protected): inPitBox
+🗑 dropped (in pit): tyreTemps(low, 66°)
+🔀 state PIT → RACING at pkt 5140544 lap 2
+🔵 sub-state — → OUT_LAP lap 2
+🅿️ PIT completed: in L1 → out L2 (+0.8 fuel, transit 25.6s, teleport=false)
+🚪 gate learned: Red Bull Ring Short Track/customRace/pitBox (no heading)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 22.0s (speaking budget)
+🔧 teleport 112 m on lap 2 — pending reset-vs-pit (2.5 s)
+📊 strategy L2: no fuel model yet
+🗑 dropped (topic pitSequence; 3.6s of 5.0s, pitSequence reopens in 1.4s): exitingPit(+0.78l)
+🚪 gate learned: Red Bull Ring Short Track/customRace/pitExit heading 165°
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 5.3/20.4s, 1 line): surveyGate(pitExit, 1)
+📊 strategy L2: no fuel model yet
+🔧 reset-to-track confirmed (no pit followed)
+🎭 mood relaxed → focused
+🗣 chain (imp 2, cost 3.8s, ledger 7.9/20.4s, 1 events, 1 lines)
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 4.6s, ledger 8.4/20.4s, 4 events, 1 lines)
+🗣 chain (imp 6, cost 3.8s, ledger 8.4/20.4s, 1 events, 1 lines)
+🔵 sub-state OUT_LAP → FLYING lap 3
+🎭 mood concerned → focused
+📊 strategy L3: fuel/lap 0.81, 122.6 laps of fuel, race length unknown — fuel horizon
+🔵 lap 2 antics: contact, off
+🚪 gate learned: Red Bull Ring Short Track/customRace/finishLine heading 166°
+🗺 mapper: lap 2 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.4/20.4s, 1 line): surveyGate(finishLine, 4)
+🗣 bulletin (imp 6, cost 4.3s, ledger 10.8/20.4s, 2 lines): L3
+🗣 chain (imp 6, cost 2.1s, ledger 12.9/20.4s, 1 events, 1 lines)
+🗣 chain (imp 6, cost 3.4s, ledger 9.8/20.4s, 1 events, 1 lines)
+🔵 lap 3: clean
+📊 laps-left model: elapsed 180.6 s, remaining 119.4 s, median lap 51.5 s -> 3 (no-stop 3, pit loss 18.0 s, rate 3 l/s)
+📊 strategy L4: fuel/lap 0.81 | fuel 98.4 = 121.5 laps | 3.0 laps to go | stops 0
+🚪 gate refined: Red Bull Ring Short Track/customRace/finishLine (2 samples, σ 1.17 m, ±16 m)
+🗣 spoke (lapPace, imp 4, cost 7.6s, ledger 7.6/20.4s, 1 line): paceDegradation(4.27s/lap over 5)
+🗣 spoke (position, imp 4, cost 2.1s, ledger 9.7/20.4s, 1 line): positionChange(P6→P1)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 12.4/20.4s, 1 line): surveyGate(finishLine, 4)
+🗺 mapper: learned lap 3 (51.473 s, 2315 m, 463 pts) — installing as session polyline
+🗺 session polyline installed from lap 3 (463 pts) — minimap + delta live
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 15.5/20.4s, 1 line): surveyLap(3, 51473 ms, 463 pts)
+⏱ class lap BEST: Red Bull Ring Short Track/customRace/Gr.3 → 51.473 (1/10 laps, 1 car(s), avg 51.473)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 17.5/20.4s, 1 line): surveyComplete(0 optional missing)
+🗑 dropped (bulletin, ledger full; cost 6.6s, load 17.5/20.4s, 2 lines): L4
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 21.0/20.4s, 1 line, protected): strategyUpdate(fuel 121.46L, togo 3, stops 0)
+🗑 speaker: stale, not spoken: "clean lap banked"
+🗑 speaker: stale, not spoken: "51 point five"
+🗑 speaker: stale, not spoken: "survey complete"
+🗑 speaker: stale, not spoken: "everything recorded"
+🗑 dropped (chain, ledger full; cost 2.1s, load 21.0/20.4s, 1 events)
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 2.9s, ledger 6.4/20.4s, 2 events, 1 lines)
+🎭 mood concerned → focused
+🔵 lap 4 antics: off
+📊 laps-left model: elapsed 232.6 s, remaining 67.4 s, median lap 51.7 s -> 2 (no-stop 2, pit loss 18.0 s, rate 3 l/s)
+📊 strategy L5: fuel/lap 0.81 | fuel 97.6 = 120.7 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Red Bull Ring Short Track/customRace/finishLine (3 samples, σ 3.10 m, ±9 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 4)
+🗣 bulletin (imp 6, cost 5.6s, ledger 8.3/20.4s, 2 lines): L5
+🗑 dropped (cooldown strategy; 52.1s of 75.0s via strategy x0.50): strategyUpdate(fuel 120.66L, togo 2, stops 0)
+🗣 chain (imp 6, cost 2.1s, ledger 10.4/20.4s, 1 events, 1 lines)
+🗣 chain (imp 6, cost 2.1s, ledger 9.8/20.4s, 1 events, 1 lines)
+🗣 spoke (tyres, imp 4, cost 3.4s, ledger 5.4/20.4s, 1 line): tyreTemps(low, 64°, frontRight)
+🔵 lap 5: clean
+📊 laps-left model: elapsed 283.5 s, remaining 16.5 s, median lap 51.5 s -> 1 (no-stop 1, pit loss 18.0 s, rate 3 l/s)
+📊 strategy L6: fuel/lap 0.81 | fuel 96.8 = 119.5 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Red Bull Ring Short Track/customRace/finishLine (4 samples, σ 2.96 m, ±9 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.0/20.4s, 1 line): surveyGate(finishLine, 4)
+🗺 mapper: learned lap 5 (50.821 s, 2310 m, 462 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.5s, ledger 9.5/20.4s, 1 line): surveyLap(5, 50821 ms, 462 pts)
+🗺 session polyline installed from lap 5 (462 pts) — minimap + delta live
+⏱ class lap BEST: Red Bull Ring Short Track/customRace/Gr.3 → 50.821 (2/10 laps, 1 car(s), avg 51.147)
+🗣 bulletin (imp 2, cost 5.6s, ledger 15.1/20.4s, 2 lines): L6
+🗣 chain (imp 6, cost 2.1s, ledger 17.2/20.4s, 1 events, 1 lines)
+🗣 chain (imp 6, cost 3.4s, ledger 11.0/20.4s, 1 events, 1 lines)
+🔵 lap 6: clean
+📊 strategy: race finished at L7 (clock 337.9 s of 300)
+✂️ capture auto-stop in 30s (race finished)
+📊 laps-left model: elapsed 337.9 s, remaining -37.9 s, median lap 51.7 s -> 0 (expired)
+📊 strategy L7: fuel/lap 0.81 | fuel 96.1 = 118.8 laps | 0.0 laps to go | stops 0
+🗣 spoke (lapPace, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): paceDegradation(5.36s/lap over 5)
+🚪 gate refined: Red Bull Ring Short Track/customRace/finishLine (5 samples, σ 2.74 m, ±8 m)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 4.1/20.4s, 1 line): raceFinished(L7)
+🎭 mood focused → relaxed
+🗑 dropped (race over): surveyGate(finishLine, 4)
+🗑 dropped (race over): tractionLoss(1.55s)
+🗑 dropped (race over): extendedTractionLoss(3.05s, sev 0.28, ×10)
+🗑 dropped (race over): extendedTractionLoss(6.06s, sev 0.48, ×10)
+🗑 dropped (race over): extendedTractionLoss(9.06s, sev 0.62, ×10)
+🗑 dropped (race over): tyreTemps(low, 65°)
+🗑 dropped (race over): extendedTractionLoss(3.09s, sev 0.67, ×12)
+🗑 dropped (race over): extendedTractionLoss(6.09s, sev 0.76, ×12)
+🗑 dropped (race over): extendedTractionLoss(9.09s, sev 0.82, ×12)
+🗑 dropped (race over): extendedTractionLoss(12.10s, sev 0.87, ×12)
+🗑 dropped (race over): extendedTractionLoss(15.10s, sev 0.90, ×12)
+# --- stopped: 23850 packets

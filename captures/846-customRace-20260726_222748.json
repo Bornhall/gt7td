@@ -1,0 +1,30 @@
+{
+  "carId" : 3600,
+  "carName" : "Porsche 911 GT3 R (992) '22",
+  "declared" : {
+    "captureContext" : "customRace",
+    "carClass" : "Gr.3",
+    "carId" : 3600,
+    "carName" : "Porsche 911 GT3 R (992) '22",
+    "courseId" : 846,
+    "fuelMultiplier" : 1,
+    "mode" : "race",
+    "raceLength" : 5,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 3,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Red Bull Ring Short Track",
+    "tyreWearMultiplier" : 1,
+    "weather" : "dry"
+  },
+  "endTime" : 1785098116,
+  "granularity" : 1,
+  "observedDurationS" : 300,
+  "packetSize" : 368,
+  "startTime" : 1785097668,
+  "trackName" : "Red Bull Ring",
+  "version" : 8
+}
