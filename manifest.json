@@ -51,6 +51,22 @@
       "tyreWearMultiplier": 1
     },
     {
+      "stem": "365-customRace-20260726_235845",
+      "courseId": 365,
+      "track": "Autodrome Lago Maggiore - Full Course",
+      "context": "customRace",
+      "car": "Porsche 911 GT3 R (992) '22",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 40643,
+      "durationS": 677.4,
+      "rawBytes": 14956624,
+      "gzBytes": 7193982,
+      "hasLog": true,
+      "fuelMultiplier": 10,
+      "tyreWearMultiplier": 1
+    },
+    {
       "stem": "365-lobby-20260725_221122",
       "courseId": 365,
       "track": "Autodrome Lago Maggiore - Full Course",
@@ -176,6 +192,22 @@
       "gzBytes": 12927055,
       "hasLog": true,
       "fuelMultiplier": 15,
+      "tyreWearMultiplier": 1
+    },
+    {
+      "stem": "602-customRace-20260727_001126",
+      "courseId": 602,
+      "track": "Autodrome Lago Maggiore - Full Course Reverse",
+      "context": "customRace",
+      "car": "Porsche 911 GT3 R (992) '22",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 43085,
+      "durationS": 718.1,
+      "rawBytes": 15855280,
+      "gzBytes": 7592260,
+      "hasLog": true,
+      "fuelMultiplier": 10,
       "tyreWearMultiplier": 1
     },
     {
@@ -557,8 +589,8 @@
         },
         {
           "context": "customRace",
-          "lengthM": 5705,
-          "points": 1141
+          "lengthM": 5700,
+          "points": 1140
         }
       ]
     },
@@ -694,6 +726,11 @@
           "context": "lobby",
           "lengthM": 5730,
           "points": 1146
+        },
+        {
+          "context": "customRace",
+          "lengthM": 5725,
+          "points": 1145
         }
       ]
     },
@@ -1000,7 +1037,7 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 50,
+      "records": 51,
       "courses": [
         4,
         11,
@@ -1046,12 +1083,12 @@
         1233,
         1249
       ],
-      "updated": 1785101975
+      "updated": 1785104597
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 260,
+      "gates": 265,
       "courses": [
         4,
         11,
@@ -1112,12 +1149,12 @@
         "timeTrial",
         "unknown"
       ],
-      "withHeading": 161,
-      "updated": 1785102224,
+      "withHeading": 164,
+      "updated": 1785104675,
       "tolerance": {
-        "gatesWithWidth": 161,
+        "gatesWithWidth": 164,
         "minM": 8,
-        "medianM": 16,
+        "medianM": 16.0,
         "maxM": 16,
         "atFloor": 27,
         "atCap": 0

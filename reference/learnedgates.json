@@ -1754,45 +1754,45 @@
       "context" : "customRace",
       "courseId" : 365,
       "halfWidthM" : 8,
-      "headingRad" : -0.6403146084751664,
+      "headingRad" : -0.6440695795486554,
       "kind" : "lap1",
       "lineA" : [
-        -32.25756248638805,
-        20.446828190157504
+        -32.36719940639007,
+        20.764329912466437
       ],
       "lineB" : [
-        -22.698398359559214,
-        33.277353557279014
+        -22.75992453227639,
+        33.55887052529126
       ],
-      "m2" : 0.5107039994360127,
-      "samples" : 5,
-      "spreadM" : 0.35731778553411414,
+      "m2" : 2.449798749720793,
+      "samples" : 9,
+      "spreadM" : 0.5533758611604767,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1785090190,
+      "updated" : 1785104668,
       "yMax" : 15.309538841247559,
-      "yMin" : 9.291088104248047
+      "yMin" : 9.284297943115234
     },
     {
       "context" : "customRace",
       "courseId" : 365,
-      "halfWidthM" : 13.500753318001905,
-      "headingRad" : -0.6378606445078984,
+      "halfWidthM" : 14.025396100959187,
+      "headingRad" : -0.6412710814151902,
       "kind" : "finishLine",
       "lineA" : [
-        -37.39314993437874,
-        14.016470136860924
+        -37.745448012830465,
+        13.54558526319231
       ],
       "lineB" : [
-        -21.314343847664716,
-        35.70871196291491
+        -20.96505772701736,
+        36.02369561551049
       ],
-      "m2" : 425.2974603582587,
-      "samples" : 22,
-      "spreadM" : 4.500251106000635,
+      "m2" : 633.8489264305814,
+      "samples" : 30,
+      "spreadM" : 4.675132033653062,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1785090190,
+      "updated" : 1785104669,
       "yMax" : 15.285134315490723,
-      "yMin" : 9.256969451904297
+      "yMin" : 9.25675106048584
     },
     {
       "context" : "customRace",
@@ -1800,40 +1800,40 @@
       "halfWidthM" : 0,
       "kind" : "pitEntry",
       "lineA" : [
-        -201.00782267252603,
-        136.04146321614584
+        -201.152587890625,
+        136.17799072265626
       ],
       "lineB" : [
-        -201.00782267252603,
-        136.04146321614584
+        -201.152587890625,
+        136.17799072265626
       ],
-      "m2" : 0.20642426501338845,
-      "samples" : 3,
-      "spreadM" : 0.3212664509510668,
+      "m2" : 0.5033997280523169,
+      "samples" : 5,
+      "spreadM" : 0.35475333967854233,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1785090190,
+      "updated" : 1785104669,
       "yMax" : 15.003626823425293,
-      "yMin" : 8.993020057678223
+      "yMin" : 8.989023208618164
     },
     {
       "context" : "customRace",
       "courseId" : 365,
       "halfWidthM" : 8,
-      "headingRad" : -0.6120987455666206,
+      "headingRad" : -0.6120542587543363,
       "kind" : "pitExit",
       "lineA" : [
-        79.53579045436256,
-        -85.76919791096088
+        79.54769164256732,
+        -85.77759128009446
       ],
       "lineB" : [
-        88.72917333144473,
-        -72.67409534261984
+        88.74049195118269,
+        -72.68207974041336
       ],
-      "m2" : 0.007569600905602529,
-      "samples" : 3,
-      "spreadM" : 0.06152073189422623,
+      "m2" : 0.009083458525129129,
+      "samples" : 5,
+      "spreadM" : 0.04765358990970441,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1785090190,
+      "updated" : 1785104669,
       "yMax" : 15.313491821289062,
       "yMin" : 9.297624588012695
     },
@@ -1843,20 +1843,20 @@
       "halfWidthM" : 0,
       "kind" : "pitBox",
       "lineA" : [
-        -64.25467936197917,
-        26.3669916788737
+        -64.24419250488282,
+        26.3568473815918
       ],
       "lineB" : [
-        -64.25467936197917,
-        26.3669916788737
+        -64.24419250488282,
+        26.3568473815918
       ],
-      "m2" : 0.007971853677494062,
-      "samples" : 3,
-      "spreadM" : 0.06313419706266193,
+      "m2" : 0.009568460720766355,
+      "samples" : 5,
+      "spreadM" : 0.048909254545449664,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1785090190,
+      "updated" : 1785104669,
       "yMax" : 15.299373626708984,
-      "yMin" : 9.290879249572754
+      "yMin" : 9.290283203125
     },
     {
       "context" : "customRace",
@@ -5517,21 +5517,21 @@
       "context" : "customRace",
       "courseId" : 1226,
       "halfWidthM" : 8,
-      "headingRad" : -0.6396379512790195,
+      "headingRad" : -0.6408633195816607,
       "kind" : "lap1",
       "lineA" : [
-        -33.25082883440709,
-        19.71748938541801
+        -32.83235684068954,
+        20.048057589071405
       ],
       "lineB" : [
-        -23.700348762638807,
-        32.554480091917604
+        -23.266153901497958,
+        32.87333580539881
       ],
-      "m2" : 1.4310856011785913,
-      "samples" : 3,
-      "spreadM" : 0.8458976300884733,
+      "m2" : 4.877462169740284,
+      "samples" : 4,
+      "spreadM" : 1.275076751904277,
       "trackName" : "Autodrome Lago Maggiore - East",
-      "updated" : 1785102224,
+      "updated" : 1785102350,
       "yMax" : 15.287691116333008,
       "yMin" : 9.283496856689453
     },
@@ -5620,6 +5620,114 @@
       "updated" : 1785102210,
       "yMax" : 15.282670974731445,
       "yMin" : 9.282670974731445
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 602,
+      "halfWidthM" : 16,
+      "headingRad" : 2.5052994161169004,
+      "kind" : "lap1",
+      "lineA" : [
+        -18.085308516016262,
+        39.65028221917019
+      ],
+      "lineB" : [
+        -37.100289857396824,
+        13.912557288886452
+      ],
+      "m2" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
+      "updated" : 1785104675,
+      "yMax" : 15.288548469543457,
+      "yMin" : 9.288548469543457
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 602,
+      "halfWidthM" : 11.180563475717971,
+      "headingRad" : 2.4894435822074934,
+      "kind" : "finishLine",
+      "lineA" : [
+        -24.44260266887614,
+        31.573921395466673
+      ],
+      "lineB" : [
+        -38.0134777678304,
+        13.801714228465212
+      ],
+      "m2" : 97.22611082687901,
+      "samples" : 8,
+      "spreadM" : 3.7268544919059905,
+      "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
+      "updated" : 1785104675,
+      "yMax" : 15.282794952392578,
+      "yMin" : 9.264032363891602
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 602,
+      "halfWidthM" : 0,
+      "kind" : "pitEntry",
+      "lineA" : [
+        99.7493667602539,
+        -89.0323257446289
+      ],
+      "lineB" : [
+        99.7493667602539,
+        -89.0323257446289
+      ],
+      "m2" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
+      "updated" : 1785104675,
+      "yMax" : 15.324370384216309,
+      "yMin" : 9.324370384216309
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 602,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        -63.3741340637207,
+        26.77845001220703
+      ],
+      "lineB" : [
+        -63.3741340637207,
+        26.77845001220703
+      ],
+      "m2" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
+      "updated" : 1785104675,
+      "yMax" : 15.29046630859375,
+      "yMin" : 9.29046630859375
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 602,
+      "halfWidthM" : 16,
+      "headingRad" : 2.479552629148933,
+      "kind" : "pitExit",
+      "lineA" : [
+        -147.79978689673337,
+        115.70411133434641
+      ],
+      "lineB" : [
+        -167.471056609126,
+        90.46443724963797
+      ],
+      "m2" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
+      "updated" : 1785104675,
+      "yMax" : 15.206000328063965,
+      "yMin" : 9.206000328063965
     }
   ],
   "schemaVersion" : 2

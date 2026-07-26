@@ -790,5 +790,26 @@
     ],
     "trackName" : "Autodrome Lago Maggiore - East",
     "updated" : 1785101975
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "customRace",
+    "courseId" : 602,
+    "laps" : [
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 121195,
+        "recorded" : 1785104597
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 122513,
+        "recorded" : 1785104476
+      }
+    ],
+    "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
+    "updated" : 1785104597
   }
 ]
