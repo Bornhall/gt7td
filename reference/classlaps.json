@@ -700,5 +700,32 @@
     ],
     "trackName" : "Northern Isle Speedway",
     "updated" : 1785083936
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "customRace",
+    "courseId" : 365,
+    "laps" : [
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 116316,
+        "recorded" : 1785090125
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 116644,
+        "recorded" : 1785090008
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 116975,
+        "recorded" : 1785089381
+      }
+    ],
+    "trackName" : "Autodrome Lago Maggiore - Full Course",
+    "updated" : 1785090125
   }
 ]
