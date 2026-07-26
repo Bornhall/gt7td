@@ -5490,6 +5490,136 @@
       "updated" : 1785098219,
       "yMax" : -24.80753517150879,
       "yMin" : -30.9185733795166
+    },
+    {
+      "context" : "unknown",
+      "courseId" : 1226,
+      "halfWidthM" : 16,
+      "headingRad" : -0.6337253779664888,
+      "kind" : "lap1",
+      "lineA" : [
+        -37.279446660575715,
+        13.872440680440796
+      ],
+      "lineB" : [
+        -18.330618799629363,
+        39.65890850168811
+      ],
+      "m2" : 0.16991360567772062,
+      "samples" : 2,
+      "spreadM" : 0.4122057807427264,
+      "trackName" : "Autodrome Lago Maggiore - East",
+      "updated" : 1785101712,
+      "yMax" : 15.28571605682373,
+      "yMin" : 9.280345916748047
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1226,
+      "halfWidthM" : 8,
+      "headingRad" : -0.6396379512790195,
+      "kind" : "lap1",
+      "lineA" : [
+        -33.25082883440709,
+        19.71748938541801
+      ],
+      "lineB" : [
+        -23.700348762638807,
+        32.554480091917604
+      ],
+      "m2" : 1.4310856011785913,
+      "samples" : 3,
+      "spreadM" : 0.8458976300884733,
+      "trackName" : "Autodrome Lago Maggiore - East",
+      "updated" : 1785102224,
+      "yMax" : 15.287691116333008,
+      "yMin" : 9.283496856689453
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1226,
+      "halfWidthM" : 10.828840125184684,
+      "headingRad" : -0.6416116171520855,
+      "kind" : "finishLine",
+      "lineA" : [
+        -36.002843252645384,
+        16.084096383519114
+      ],
+      "lineB" : [
+        -23.040995884114054,
+        33.43476284397926
+      ],
+      "m2" : 65.14654358711658,
+      "samples" : 6,
+      "spreadM" : 3.6096133750615613,
+      "trackName" : "Autodrome Lago Maggiore - East",
+      "updated" : 1785102210,
+      "yMax" : 15.286961555480957,
+      "yMin" : 9.268195152282715
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1226,
+      "halfWidthM" : 0,
+      "kind" : "pitEntry",
+      "lineA" : [
+        -204.32167053222656,
+        138.99658203125
+      ],
+      "lineB" : [
+        -204.32167053222656,
+        138.99658203125
+      ],
+      "m2" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Autodrome Lago Maggiore - East",
+      "updated" : 1785102210,
+      "yMax" : 14.97011947631836,
+      "yMin" : 8.97011947631836
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1226,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        -64.22844696044922,
+        26.34160804748535
+      ],
+      "lineB" : [
+        -64.22844696044922,
+        26.34160804748535
+      ],
+      "m2" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Autodrome Lago Maggiore - East",
+      "updated" : 1785102210,
+      "yMax" : 15.289485931396484,
+      "yMin" : 9.289485931396484
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1226,
+      "halfWidthM" : 16,
+      "headingRad" : -0.6369920838651636,
+      "kind" : "pitExit",
+      "lineA" : [
+        68.50398795912662,
+        -87.28161812381201
+      ],
+      "lineB" : [
+        87.53695137192807,
+        -61.55718802853174
+      ],
+      "m2" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Autodrome Lago Maggiore - East",
+      "updated" : 1785102210,
+      "yMax" : 15.282670974731445,
+      "yMin" : 9.282670974731445
     }
   ],
   "schemaVersion" : 2

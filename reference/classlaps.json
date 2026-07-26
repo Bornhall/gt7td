@@ -775,5 +775,20 @@
     ],
     "trackName" : "Red Bull Ring Short Track",
     "updated" : 1785098031
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "customRace",
+    "courseId" : 1226,
+    "laps" : [
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 81773,
+        "recorded" : 1785101975
+      }
+    ],
+    "trackName" : "Autodrome Lago Maggiore - East",
+    "updated" : 1785101975
   }
 ]
