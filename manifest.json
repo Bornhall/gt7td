@@ -504,9 +504,9 @@
       "file": "reference/trackmaps/376.trackmap.json",
       "versions": [
         {
-          "context": "customRace",
-          "lengthM": 4865,
-          "points": 973
+          "context": "lobby",
+          "lengthM": 4830,
+          "points": 966
         },
         {
           "context": "timeTrial",
@@ -514,9 +514,9 @@
           "points": 965
         },
         {
-          "context": "lobby",
-          "lengthM": 4830,
-          "points": 966
+          "context": "customRace",
+          "lengthM": 4850,
+          "points": 970
         }
       ]
     },
