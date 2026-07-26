@@ -487,14 +487,14 @@
       "file": "reference/trackmaps/365.trackmap.json",
       "versions": [
         {
-          "context": "customRace",
-          "lengthM": 5720,
-          "points": 1144
-        },
-        {
           "context": "lobby",
           "lengthM": 5705,
           "points": 1141
+        },
+        {
+          "context": "customRace",
+          "lengthM": 5720,
+          "points": 1144
         }
       ]
     },
@@ -903,11 +903,24 @@
           "points": 913
         }
       ]
+    },
+    {
+      "courseId": 1264,
+      "track": "Watkins Glen Short Course",
+      "file": "reference/trackmaps/1264.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 3885,
+          "points": 777
+        }
+      ]
     }
   ],
   "referenceFiles": {
     "classlaps": {
       "file": "reference/classlaps.json",
+      "schemaVersion": null,
       "records": 46,
       "courses": [
         4,
@@ -954,11 +967,12 @@
         1233,
         1249
       ],
-      "updated": 1785065206
+      "updated": 1785083936
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
-      "gates": 245,
+      "schemaVersion": 2,
+      "gates": 244,
       "courses": [
         4,
         11,
@@ -1013,7 +1027,21 @@
         "pitEntry",
         "pitExit"
       ],
-      "updated": 1785065247
+      "contexts": [
+        "customRace",
+        "lobby",
+        "timeTrial"
+      ],
+      "withHeading": 151,
+      "updated": 1785083936,
+      "tolerance": {
+        "gatesWithWidth": 151,
+        "minM": 8,
+        "medianM": 16,
+        "maxM": 16,
+        "atFloor": 20,
+        "atCap": 0
+      }
     }
   }
 }
