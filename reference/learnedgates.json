@@ -4798,5 +4798,105 @@
     "width" : 16,
     "yMax" : 122.68344116210938,
     "yMin" : 116.68344116210938
+  },
+  {
+    "a" : [
+      166.1466064453125,
+      7.90938663482666
+    ],
+    "b" : [
+      165.87562561035156,
+      8.332296371459961
+    ],
+    "context" : "customRace",
+    "courseId" : 1249,
+    "ext" : 5,
+    "kind" : "lap1",
+    "samples" : 2,
+    "trackName" : "Circuit de Barcelona-Catalunya GP Layout No Chicane",
+    "updated" : 1785065247,
+    "width" : 16,
+    "yMax" : -3.783508777618408,
+    "yMin" : -9.783508777618408
+  },
+  {
+    "a" : [
+      238.64214324951172,
+      -95.52947425842285
+    ],
+    "b" : [
+      238.1195240020752,
+      -94.71499347686768
+    ],
+    "context" : "customRace",
+    "courseId" : 1249,
+    "ext" : 5,
+    "kind" : "finishLine",
+    "samples" : 16,
+    "trackName" : "Circuit de Barcelona-Catalunya GP Layout No Chicane",
+    "updated" : 1785065247,
+    "width" : 16,
+    "yMax" : -3.567404270172119,
+    "yMin" : -9.72402048110962
+  },
+  {
+    "a" : [
+      303.7928466796875,
+      -229.6399383544922
+    ],
+    "b" : [
+      303.7928466796875,
+      -229.63992309570312
+    ],
+    "context" : "customRace",
+    "courseId" : 1249,
+    "ext" : 5,
+    "kind" : "pitEntry",
+    "samples" : 2,
+    "trackName" : "Circuit de Barcelona-Catalunya GP Layout No Chicane",
+    "updated" : 1785065247,
+    "width" : 16,
+    "yMax" : -2.4008045196533203,
+    "yMin" : -8.40080451965332
+  },
+  {
+    "a" : [
+      157.6627960205078,
+      -20.478363037109375
+    ],
+    "b" : [
+      157.6627960205078,
+      -20.478363037109375
+    ],
+    "context" : "customRace",
+    "courseId" : 1249,
+    "ext" : 5,
+    "kind" : "pitBox",
+    "samples" : 2,
+    "trackName" : "Circuit de Barcelona-Catalunya GP Layout No Chicane",
+    "updated" : 1785065247,
+    "width" : 16,
+    "yMax" : -3.5885229110717773,
+    "yMin" : -9.588522911071777
+  },
+  {
+    "a" : [
+      151.53269958496094,
+      2.891491413116455
+    ],
+    "b" : [
+      60.15190124511719,
+      154.3578338623047
+    ],
+    "context" : "customRace",
+    "courseId" : 1249,
+    "ext" : 5,
+    "kind" : "pitExit",
+    "samples" : 2,
+    "trackName" : "Circuit de Barcelona-Catalunya GP Layout No Chicane",
+    "updated" : 1785065247,
+    "width" : 16,
+    "yMax" : -3.9592933654785156,
+    "yMin" : -9.959293365478516
   }
 ]

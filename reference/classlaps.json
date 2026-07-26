@@ -799,5 +799,32 @@
     ],
     "trackName" : "Circuit de Spa-Francorchamps",
     "updated" : 1785059104
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "customRace",
+    "courseId" : 1249,
+    "laps" : [
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 102026,
+        "recorded" : 1785065206
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 102360,
+        "recorded" : 1785064653
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 103257,
+        "recorded" : 1785064551
+      }
+    ],
+    "trackName" : "Circuit de Barcelona-Catalunya GP Layout No Chicane",
+    "updated" : 1785065206
   }
 ]

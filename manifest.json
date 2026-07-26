@@ -323,6 +323,22 @@
       "tyreWearMultiplier": 2
     },
     {
+      "stem": "1249-customRace-20260726_131014",
+      "courseId": 1249,
+      "track": "Circuit de Barcelona-Catalunya GP Layout No Chicane",
+      "context": "customRace",
+      "car": "Porsche 911 GT3 R (992) '22",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 59231,
+      "durationS": 987.2,
+      "rawBytes": 21797008,
+      "gzBytes": 10560080,
+      "hasLog": true,
+      "fuelMultiplier": 10,
+      "tyreWearMultiplier": 1
+    },
+    {
       "stem": "1264-customRace-20260725_151553",
       "courseId": 1264,
       "track": "Watkins Glen Short Course",
@@ -875,12 +891,24 @@
           "points": 822
         }
       ]
+    },
+    {
+      "courseId": 1249,
+      "track": "Circuit de Barcelona-Catalunya GP Layout No Chicane",
+      "file": "reference/trackmaps/1249.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 4565,
+          "points": 913
+        }
+      ]
     }
   ],
   "referenceFiles": {
     "classlaps": {
       "file": "reference/classlaps.json",
-      "records": 45,
+      "records": 46,
       "courses": [
         4,
         11,
@@ -923,13 +951,14 @@
         1226,
         1231,
         1232,
-        1233
+        1233,
+        1249
       ],
-      "updated": 1785059104
+      "updated": 1785065206
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
-      "gates": 240,
+      "gates": 245,
       "courses": [
         4,
         11,
@@ -974,6 +1003,7 @@
         1231,
         1232,
         1233,
+        1249,
         1264
       ],
       "kinds": [
@@ -983,7 +1013,7 @@
         "pitEntry",
         "pitExit"
       ],
-      "updated": 1785059179
+      "updated": 1785065247
     }
   }
 }

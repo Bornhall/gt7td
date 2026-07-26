@@ -1,0 +1,154 @@
+# EzioClient session log
+# file:    20260726_131014 - Circuit de Barcelona-Catalunya GP Layout No Chicane (1249).gt7td
+# started: 2026-07-26T11:10:14Z
+# track:   Circuit de Barcelona-Catalunya GP Layout No Chicane (CRS 1249)
+# car:     Porsche 911 GT3 R (992) '22 [gr3]
+# context: customRace
+# ---
+🏁 start type: GRID_START at pkt 3127184 lap 0
+🔀 state UNKNOWN → RACING at pkt 3127184 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 primary: 3 candidates ["Circuit de Barcelona-Catalunya: GP Layout", "Circuit de Barcelona-Catalunya: No Chicane", "Circuit de Barcelona-Catalunya: National Layout"]
+🚪 gate learned: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/lap1
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 4.6/20.4s, 1 line): surveyGate(lap1, 1)
+🧭 identified (legacy): Circuit de Barcelona-Catalunya: No Chicane (no CRS mapping) — after narrowing
+🔵 sub-state FIRST_LAP → FLYING lap 2
+🔵 lap 1 antics: contact
+📊 strategy L2: fuel/lap 16.18, 5.1 laps of fuel, race length unknown — fuel horizon
+🚪 gate learned: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/finishLine
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 2.1/20.4s, 1 line): surveyGate(finishLine, 1)
+🎭 mood relaxed → focused
+🎭 mood focused → relaxed
+🔵 lap 2 antics: contact
+📊 laps-left model: elapsed 214.5 s, remaining 685.5 s, median lap 104.1 s -> 7 (no-stop 7, pit loss 19.7 s, rate 5 l/s)
+📊 strategy L3: fuel/lap 15.51 | fuel 67.8 = 4.4 laps | 7.0 laps to go | stops 1
+🚪 gate refined: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/finishLine (2 samples)
+🗣 spoke (strategy, imp 2, cost 4.1s, ledger 4.1/20.4s, 1 line, protected): pitWindow(L3/L4/L6, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitWindowState(openTargetAhead, now L3, L3/L4/L6, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(1, 7 to go)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.8/20.4s, 1 line): surveyGate(finishLine, 2)
+🗺 mapper: learned lap 2 (104.078 s, 4575 m, 915 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 10.5/20.4s, 1 line): surveyLap(2, 104078 ms, 915 pts)
+🗺 session polyline installed from lap 2 (915 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/Gr.3 → 1:44.078 (1/10 laps, 1 car(s), avg 1:44.078)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 13.1/20.4s, 1 line): surveyComplete(3 optional missing)
+🗑 speaker: stale, not spoken: "3 optional outstanding"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.7/20.4s, 1 line, protected): strategyUpdate(fuel 4.37L, togo 7, stops 1)
+🔵 lap 3: clean
+📊 laps-left model: elapsed 317.9 s, remaining 582.1 s, median lap 103.7 s -> 6 (no-stop 6, pit loss 19.7 s, rate 5 l/s)
+📊 strategy L4: fuel/lap 14.85 | fuel 54.4 = 3.7 laps | 6.0 laps to go | stops 1
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): pitWindow(L4/L4/L6, stops 1)
+🚪 gate refined: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/finishLine (3 samples)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitWindowState(openToLatest, now L4, L4/L4/L6, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(1, 6 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 4, 6 to go, 3.66 fuel-laps)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.9/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 3 (103.257 s, 4575 m, 915 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 8.6/20.4s, 1 line): surveyLap(3, 103257 ms, 915 pts)
+🗺 session polyline installed from lap 3 (915 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/Gr.3 → 1:43.257 (2/10 laps, 1 car(s), avg 1:43.667)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.9/20.4s, 1 line, protected): strategyUpdate(fuel 3.66L, togo 6, stops 1)
+🔵 lap 4: clean
+📊 laps-left model: elapsed 420.4 s, remaining 479.6 s, median lap 103.3 s -> 5 (no-stop 5, pit loss 19.7 s, rate 5 l/s)
+📊 strategy L5: fuel/lap 14.66 | fuel 39.9 = 2.7 laps | 5.0 laps to go | stops 1
+🚪 gate refined: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/finishLine (4 samples)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 3.1/20.4s, 1 line, protected): pitWindow(L5/L5/L6, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitWindowState(openToLatest, now L5, L5/L5/L6, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(1, 5 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 3, 5 to go, 2.72 fuel-laps)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.8/20.4s, 1 line): surveyGate(finishLine, 4)
+🗺 mapper: learned lap 4 (102.360 s, 4580 m, 916 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 9.5/20.4s, 1 line): surveyLap(4, 102360 ms, 916 pts)
+🗺 session polyline installed from lap 4 (916 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/Gr.3 → 1:42.360 (3/10 laps, 1 car(s), avg 1:43.231)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 17.7/20.4s, 1 line, protected): strategyUpdate(fuel 2.72L, togo 5, stops 1)
+🔵 lap 5: clean
+📊 laps-left model: elapsed 523.7 s, remaining 376.3 s, median lap 103.3 s -> 4 (no-stop 4, pit loss 19.7 s, rate 5 l/s)
+📊 strategy L6: fuel/lap 14.47 | fuel 25.9 = 1.8 laps | 4.0 laps to go | stops 1
+🔧 box reminder auto-armed (boxThisLap)
+🚪 gate refined: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/finishLine (5 samples)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): pitWindow(—/L6/L6, stops 1)
+🗣 spoke (strategy, imp 0, cost 3.8s, ledger 6.0/20.4s, 1 line, protected): pitWindowState(atLatest, now L6, —/L6/L6, stops 1)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): pitStopsToGo(1, 4 to go)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): fuelStatus(lapsToGo, 2, 4 to go, 1.79 fuel-laps)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 8.7/20.4s, 1 line): surveyGate(finishLine, 5)
+🗣 spoke (strategy, imp 0, cost 2.9s, ledger 17.2/20.4s, 1 line, protected): boxThisLap(1.79 laps fuel)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.5/20.4s, 1 line, protected): strategyUpdate(fuel 1.79L, togo 4, stops 1)
+🔧 huge stop 165 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 3164808 lap 6
+🔵 sub-state FLYING → — lap 6
+🔧 pit-entry anchor learned: 103887 ms into lap (stop on lap 6)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 627.7 s, remaining 272.3 s, median lap 103.3 s -> 3 (no-stop 3, pit loss 19.7 s, rate 5 l/s)
+🚪 gate learned: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/pitEntry
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line, protected): pittingIn(L6)
+🗣 spoke (strategy, imp 0, cost 4.0s, ledger 6.4/20.4s, 1 line, protected): refuelTarget(3 laps)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🗑 dropped (cooldown pit; 0.8s of 1.0s via pitSequence x0.50): inPitBox
+🔵 lap 6: clean
+🗺 mapper: lap 6 rejected (pit)
+🗑 dropped (in pit): lapStarted(7, last 123.85s)
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🔀 state PIT → RACING at pkt 3167119 lap 7
+🔵 sub-state — → OUT_LAP lap 7
+🅿️ PIT completed: in L6 → out L7 (+37.7 fuel, transit 41.6s, teleport=false)
+🚪 gate learned: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/pitBox
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 26.0s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 teleport 177 m on lap 7 — pending reset-vs-pit (2.5 s)
+📊 laps-left model: elapsed 666.3 s, remaining 233.7 s, median lap 103.3 s -> 3 (no-stop 3, pit loss 19.7 s, rate 5 l/s)
+📊 strategy L7: fuel/lap 14.47 | fuel 50.5 = 3.5 laps | 3.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 1.6/20.4s, 1 line, protected): exitingPit(+37.71l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 4.6/20.4s, 1 line, protected): fuelStatus(noMoreStops, 3, 3 to go, 3.49 fuel-laps)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): strategyUpdate(fuel 3.49L, togo 3, stops 0)
+🚪 gate learned: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/pitExit
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 6.6/20.4s, 1 line): surveyGate(pitExit, 1)
+📊 laps-left model: elapsed 666.3 s, remaining 233.7 s, median lap 103.3 s -> 3 (no-stop 3, pit loss 19.7 s, rate 5 l/s)
+📊 strategy L7: fuel/lap 14.47 | fuel 50.5 = 3.5 laps | 3.0 laps to go | stops 0 (post-stop recalc)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 9.5/20.4s, 1 line): surveyComplete(0 optional missing)
+🗑 dropped (topic strategy; 0.0s of 6.0s, strategy reopens in 6.0s): strategyUpdate(fuel 3.49L, togo 3, stops 0, post-stop)
+🔧 reset-to-track confirmed (no pit followed)
+🎭 mood relaxed → focused
+🎭 mood focused → relaxed
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔵 sub-state OUT_LAP → FLYING lap 8
+🔵 lap 7: clean
+📊 laps-left model: elapsed 768.0 s, remaining 132.0 s, median lap 103.3 s -> 2 (no-stop 2, pit loss 19.7 s, rate 5 l/s)
+📊 strategy L8: fuel/lap 14.42 | fuel 36.2 = 2.5 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/finishLine (6 samples)
+🗣 spoke (strategy, imp 2, cost 2.5s, ledger 4.6/20.4s, 1 line, protected): fuelStatus(noMoreStops, 2, 2 to go, 2.51 fuel-laps)
+🗺 mapper: lap 7 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 7.2/20.4s, 1 line): surveyGate(finishLine, 6)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 14.5/20.4s, 1 line, protected): strategyUpdate(fuel 2.51L, togo 2, stops 0)
+🎭 mood relaxed → focused
+🔵 lap 8 antics: off
+📊 laps-left model: elapsed 871.0 s, remaining 29.0 s, median lap 103.3 s -> 1 (no-stop 1, pit loss 19.7 s, rate 5 l/s)
+📊 strategy L9: fuel/lap 14.42 | fuel 21.8 = 1.5 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/finishLine (7 samples)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 7.2/20.4s, 1 line): surveyGate(finishLine, 7)
+🎭 mood focused → relaxed
+🔵 lap 9: clean
+📊 strategy: race finished at L10 (clock 973.1 s of 900)
+✂️ capture auto-stop in 10s (race finished)
+🗑 flag: pending commentary cancelled
+📊 laps-left model: elapsed 973.1 s, remaining -73.1 s, median lap 103.1 s -> 0 (expired)
+📊 strategy L10: fuel/lap 14.40 | fuel 7.6 = 0.5 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/finishLine (8 samples)
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): raceFinished(L10)
+🗑 dropped (race over): surveyGate(finishLine, 8)
+🗺 mapper: learned lap 9 (102.026 s, 4565 m, 913 pts) — installing as session polyline
+🗑 dropped (race over): surveyLap(9, 102026 ms, 913 pts)
+🗺 session polyline installed from lap 9 (913 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Barcelona-Catalunya GP Layout No Chicane/customRace/Gr.3 → 1:42.026 (3/10 laps, 1 car(s), avg 1:42.547)
+🗑 dropped (race over): tractionLoss(1.58s)
+🗑 dropped (race over): extendedTractionLoss(3.09s, sev 0.29, ×22)
+🗑 dropped (race over): extendedTractionLoss(6.09s, sev 0.48, ×22)
+🗑 dropped (race over): extendedTractionLoss(9.09s, sev 0.62, ×22)
+# --- stopped: 59231 packets
