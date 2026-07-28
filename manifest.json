@@ -589,8 +589,8 @@
         },
         {
           "context": "customRace",
-          "lengthM": 5700,
-          "points": 1140
+          "lengthM": 5720,
+          "points": 1144
         }
       ]
     },
@@ -682,14 +682,14 @@
       "file": "reference/trackmaps/470.trackmap.json",
       "versions": [
         {
-          "context": "lobby",
-          "lengthM": 4280,
-          "points": 856
-        },
-        {
           "context": "customRace",
           "lengthM": 4290,
           "points": 858
+        },
+        {
+          "context": "lobby",
+          "lengthM": 4280,
+          "points": 856
         }
       ]
     },
@@ -723,14 +723,14 @@
       "file": "reference/trackmaps/602.trackmap.json",
       "versions": [
         {
-          "context": "lobby",
-          "lengthM": 5730,
-          "points": 1146
-        },
-        {
           "context": "customRace",
           "lengthM": 5725,
           "points": 1145
+        },
+        {
+          "context": "lobby",
+          "lengthM": 5730,
+          "points": 1146
         }
       ]
     },
@@ -860,14 +860,14 @@
       "file": "reference/trackmaps/846.trackmap.json",
       "versions": [
         {
-          "context": "lobby",
-          "lengthM": 2305,
-          "points": 461
-        },
-        {
           "context": "customRace",
           "lengthM": 2310,
           "points": 462
+        },
+        {
+          "context": "lobby",
+          "lengthM": 2305,
+          "points": 461
         }
       ]
     },
@@ -961,14 +961,14 @@
       "file": "reference/trackmaps/1226.trackmap.json",
       "versions": [
         {
-          "context": "lobby",
-          "lengthM": 3580,
-          "points": 716
-        },
-        {
           "context": "customRace",
           "lengthM": 3600,
           "points": 720
+        },
+        {
+          "context": "lobby",
+          "lengthM": 3580,
+          "points": 716
         }
       ]
     },
@@ -1083,12 +1083,12 @@
         1233,
         1249
       ],
-      "updated": 1785104597
+      "updated": 1785273793
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 265,
+      "gates": 264,
       "courses": [
         4,
         11,
@@ -1146,17 +1146,16 @@
       "contexts": [
         "customRace",
         "lobby",
-        "timeTrial",
-        "unknown"
+        "timeTrial"
       ],
-      "withHeading": 164,
-      "updated": 1785104675,
+      "withHeading": 163,
+      "updated": 1785273793,
       "tolerance": {
-        "gatesWithWidth": 164,
+        "gatesWithWidth": 163,
         "minM": 8,
-        "medianM": 16.0,
+        "medianM": 16,
         "maxM": 16,
-        "atFloor": 27,
+        "atFloor": 24,
         "atCap": 0
       }
     }
