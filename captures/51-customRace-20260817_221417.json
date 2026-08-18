@@ -1,0 +1,32 @@
+{
+  "carId" : 3419,
+  "carName" : "MAZDA RX-VISION GT3 CONCEPT",
+  "declared" : {
+    "captureContext" : "customRace",
+    "carClass" : "Gr.3",
+    "carId" : 3419,
+    "carName" : "MAZDA RX-VISION GT3 CONCEPT",
+    "courseId" : 51,
+    "fuelMultiplier" : 2,
+    "mandatoryCompoundRule" : "RH",
+    "mandatoryTyreChange" : true,
+    "mode" : "race",
+    "raceLength" : 60,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 5,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 10,
+    "timeBeforeStart" : 10,
+    "trackName" : "Deep Forest Raceway",
+    "tyreWearMultiplier" : 5,
+    "weather" : "dry"
+  },
+  "endTime" : 1787001365,
+  "granularity" : 1,
+  "observedDurationS" : 3600,
+  "packetSize" : 368,
+  "startTime" : 1786997657,
+  "trackName" : "Deep Forest Raceway",
+  "version" : 8
+}

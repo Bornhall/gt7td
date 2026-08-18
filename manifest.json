@@ -3,6 +3,22 @@
   "note": "gzipped decoded C-packets, 368 B each, back to back",
   "captures": [
     {
+      "stem": "51-customRace-20260817_221417",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "car": "MAZDA RX-VISION GT3 CONCEPT",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 220713,
+      "durationS": 3678.6,
+      "rawBytes": 81222384,
+      "gzBytes": 39829581,
+      "hasLog": true,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 5
+    },
+    {
       "stem": "349-customRace-20260725_212313",
       "courseId": 349,
       "track": "N\u00fcrburgring GP",
