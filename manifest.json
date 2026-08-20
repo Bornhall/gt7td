@@ -19,6 +19,22 @@
       "tyreWearMultiplier": 5
     },
     {
+      "stem": "51-customRace-20260820_191652",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "car": "MAZDA RX-VISION GT3 CONCEPT",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 217293,
+      "durationS": 3621.6,
+      "rawBytes": 79963824,
+      "gzBytes": 39247264,
+      "hasLog": true,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 5
+    },
+    {
       "stem": "349-customRace-20260725_212313",
       "courseId": 349,
       "track": "N\u00fcrburgring GP",
