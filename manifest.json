@@ -35,6 +35,38 @@
       "tyreWearMultiplier": 5
     },
     {
+      "stem": "51-customRace-20260821_192506",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "car": "Hyundai Genesis Gr.3",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 222485,
+      "durationS": 3708.1,
+      "rawBytes": 81874480,
+      "gzBytes": 39532907,
+      "hasLog": true,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 6
+    },
+    {
+      "stem": "51-customRace-20260821_215143",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "car": "Ferrari 296 GT3 '23",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 220025,
+      "durationS": 3667.1,
+      "rawBytes": 80969200,
+      "gzBytes": 39738631,
+      "hasLog": true,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 6
+    },
+    {
       "stem": "349-customRace-20260725_212313",
       "courseId": 349,
       "track": "N\u00fcrburgring GP",
