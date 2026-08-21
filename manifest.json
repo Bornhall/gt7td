@@ -541,6 +541,18 @@
       ]
     },
     {
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "file": "reference/trackmaps/51.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 4185,
+          "points": 837
+        }
+      ]
+    },
+    {
       "courseId": 116,
       "track": "Mount Panorama Motor Racing Circuit",
       "file": "reference/trackmaps/116.trackmap.json",
