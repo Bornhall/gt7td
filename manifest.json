@@ -67,6 +67,22 @@
       "tyreWearMultiplier": 6
     },
     {
+      "stem": "51-customRace-20260827_204146",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "car": "Lamborghini Hurac\u00e1n GT3 '15",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 221152,
+      "durationS": 3685.9,
+      "rawBytes": 81383936,
+      "gzBytes": 39301362,
+      "hasLog": true,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 6
+    },
+    {
       "stem": "349-customRace-20260725_212313",
       "courseId": 349,
       "track": "N\u00fcrburgring GP",
