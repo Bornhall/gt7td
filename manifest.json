@@ -83,6 +83,22 @@
       "tyreWearMultiplier": 6
     },
     {
+      "stem": "51-customRace-20260829_144911",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "car": "Mercedes-AMG GT3 '20",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 217889,
+      "durationS": 3631.5,
+      "rawBytes": 80183152,
+      "gzBytes": 38642970,
+      "hasLog": true,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 6
+    },
+    {
       "stem": "349-customRace-20260725_212313",
       "courseId": 349,
       "track": "N\u00fcrburgring GP",
