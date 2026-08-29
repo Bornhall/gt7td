@@ -99,6 +99,22 @@
       "tyreWearMultiplier": 6
     },
     {
+      "stem": "51-customRace-20260829_195438",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 221258,
+      "durationS": 3687.6,
+      "rawBytes": 81422944,
+      "gzBytes": 39279554,
+      "hasLog": true,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 6
+    },
+    {
       "stem": "349-customRace-20260725_212313",
       "courseId": 349,
       "track": "N\u00fcrburgring GP",
