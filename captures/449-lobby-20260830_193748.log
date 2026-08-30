@@ -1,0 +1,411 @@
+# EzioClient session log
+# file:    20260830_193748 - Blue Moon Bay Speedway Reverse (449).gt7td
+# started: 2026-08-30T17:37:48Z
+# track:   Blue Moon Bay Speedway Reverse (CRS 449)
+# car:     Chevrolet Corvette C7 Gr.3 [gr3]
+# context: lobby
+# ---
+📊 pit loss: estimated 20.0 s from the unofficial table (Blue Moon Bay Speedway Reverse)
+📊 strategy: track pit loss 20.0 s
+# car:     Chevrolet Corvette C7 Gr.3 (id 2183) — confirmed from telemetry
+🎮 entered → onTrack (pkt 7222916, lap 0, flags 0x0001, pos 1, cars 1, tod 57240000)
+🏁 start type: GRID_START at pkt 7222926 lap 0
+🔀 state UNKNOWN → RACING at pkt 7222926 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): greenFlag
+🧭 polyline [PRE-GREEN]: 19 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield A median 27.82 (alignment -0.95)
+🧭 polyline [PRE-GREEN]: no fit yet — best Blue Moon Bay Speedway - Infield A Reverse median 25.30 m (30 samples, pass 1 of 12)
+📋 lap 0: — clean fuel_used=0.09
+📊 strategy L1: no fuel model yet
+🧭 learned: 3 layouts tied (Blue Moon Bay Speedway - Infield A Reverse, Blue Moon Bay Speedway - Infield B Reverse, Blue Moon Bay Speedway Reverse) — resolving by divergence
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/lap1 (2 samples, σ 0.14 m, ±16 m)
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 4.3/20.4s, 1 line): surveyGate(lap1, 2)
+🧭 polyline [L1]: 17 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East Reverse median 24.46 (alignment -0.93)
+🧭 polyline [L1]: no fit yet — best Blue Moon Bay Speedway - Infield A Reverse median 23.62 m (60 samples, pass 2 of 12)
+🧭 polyline [L1]: 15 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield A median 24.86 (alignment -0.98)
+🧭 polyline [L1]: no fit yet — best Blue Moon Bay Speedway - Infield A Reverse median 23.18 m (90 samples, pass 3 of 12)
+🧭 polyline [L1]: 14 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield A median 16.62 (alignment -0.98)
+🧭 polyline [L1]: no fit yet — best Blue Moon Bay Speedway - Infield B Reverse median 17.95 m (120 samples, pass 4 of 12)
+🧭 divergence: fork at 995 m on course 823 — 2 left (Blue Moon Bay Speedway - Infield B Reverse, Blue Moon Bay Speedway Reverse)
+🧭 divergence: 2 gate(s) for 2 candidates at 1085m, 1080m
+🧭 divergence: fork at 1085 m on course 449 — 1 left (Blue Moon Bay Speedway Reverse)
+🧭 divergence: resolved to Blue Moon Bay Speedway Reverse
+🧭 identified: Blue Moon Bay Speedway Reverse (CRS 449) — lap1, 1 sample(s), ±16 m
+🧭 polyline [L1]: 13 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway median 11.00 (alignment -0.99)
+🧭 polyline [L1]: no fit yet — best Blue Moon Bay Speedway Reverse median 10.66 m (150 samples, pass 5 of 12)
+🧭 polyline [L1]: 12 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway median 5.67 (alignment -0.99)
+🧭 polyline [L1]: no fit yet — best Blue Moon Bay Speedway Reverse median 6.91 m (180 samples, pass 6 of 12)
+🧭 polyline [L1]: 12 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway median 4.57 (alignment -1.00)
+🧭 polyline [L1]: Blue Moon Bay Speedway Reverse (CRS 449, map ctx lobby) median 3.72 m, p90 24.00 m, 27% of lap, 180 samples, alignment +1.00 — next course Autodrome Lago Maggiore - West median 60.08/p90 134.22
+🧭 polyline agrees with the declared course (CRS 449)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 0:49.546 first fuel_used=1.48
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 1.48, 66.5 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (3 samples, σ 2.56 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 3)
+🗣 bulletin (imp 6, cost 5.6s, ledger 8.3/20.4s, 2 lines): L2
+🗣 spoke (tyres, imp 2, cost 2.5s, ledger 10.8/20.4s, 1 line): tyreTemps(overheating, 102°, frontLeft)
+📋 lap 2: 0:48.689 clean fuel_used=1.38
+🔵 lap 2: clean
+📊 laps-left model: elapsed 105.4 s, remaining 3494.6 s, median lap 48.7 s -> 72 (no-stop 72, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L3: fuel/lap 1.43 | fuel 97.0 = 67.8 laps | 72.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (4 samples, σ 2.14 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 4)
+🗺 mapper: learned lap 2 (48.689 s, 3250 m, 650 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 5.8/20.4s, 1 line): surveyLap(2, 48689 ms, 650 pts)
+🗺 session polyline installed from lap 2 (650 pts) — minimap + delta live
+⏱ class lap kept: Blue Moon Bay Speedway Reverse/lobby/Gr.3 → 48.689 (2/10 laps, 2 car(s), avg 48.164)
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 8.9/20.4s, 1 line): surveyComplete(3 optional missing)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L6/L37/L69, stops 1) | pitWindowState(beforeOpen, now L3, L6/L37/L69, stops 1) | pitStopsToGo(1, 72 to go)
+🗣 spoke (strategy, imp 2, cost 4.1s, ledger 13.0/20.4s, 1 line, protected): pitWindow(L6/L37/L69, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 15.6/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L3, L6/L37/L69, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 18.1/20.4s, 1 line, protected): pitStopsToGo(1, 72 to go)
+🗑 dropped (bulletin, ledger full; cost 4.3s, load 18.1/20.4s, 2 lines): L3
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 20.4/20.4s, 1 line, protected): strategyUpdate(fuel 67.77L, togo 72, stops 1)
+📋 lap 3: 0:48.372 clean fuel_used=1.33
+🔵 lap 3: clean
+📊 laps-left model: elapsed 153.7 s, remaining 3446.3 s, median lap 48.5 s -> 71 (no-stop 72, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L4: fuel/lap 1.38 | fuel 95.7 = 69.2 laps | 71.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (5 samples, σ 1.86 m, ±8 m)
+🗣 spoke (strategy, imp 1, cost 3.8s, ledger 3.8/20.4s, 1 line, protected): fuelStatus(barelyEnough, 69, 71 to go, 69.22 fuel-laps)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.4/20.4s, 1 line): surveyGate(finishLine, 5)
+🗺 mapper: learned lap 3 (48.372 s, 3240 m, 648 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 10.4/20.4s, 1 line): surveyLap(3, 48372 ms, 648 pts)
+🗺 session polyline installed from lap 3 (648 pts) — minimap + delta live
+⏱ class lap kept: Blue Moon Bay Speedway Reverse/lobby/Gr.3 → 48.372 (3/10 laps, 2 car(s), avg 48.233)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L4/L37/L72, stops 1) | pitWindowState(openTargetAhead, now L4, L4/L37/L72, stops 1) | pitStopsToGo(1, 71 to go)
+🗣 spoke (strategy, imp 2, cost 2.8s, ledger 13.2/20.4s, 1 line, protected): pitWindow(L4/L37/L72, stops 1)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 16.8/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L4, L4/L37/L72, stops 1)
+🗑 dropped (cooldown pitstopstogo; 48.4s of 60.0s via strategy x0.50): pitStopsToGo(1, 71 to go)
+🗑 dropped (bulletin, ledger full; cost 5.6s, load 16.8/20.4s, 2 lines): L4
+🗑 dropped (cooldown strategy; 48.4s of 75.0s via strategy x0.50): strategyUpdate(fuel 69.22L, togo 71, stops 1)
+📋 lap 4: 0:48.279 clean fuel_used=1.47
+🔵 lap 4: clean
+📊 laps-left model: elapsed 202.0 s, remaining 3398.0 s, median lap 48.4 s -> 70 (no-stop 71, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L5: fuel/lap 1.43 | fuel 94.2 = 66.0 laps | 70.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (6 samples, σ 1.73 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 6)
+🗺 mapper: learned lap 4 (48.279 s, 3230 m, 646 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.5s, ledger 6.2/20.4s, 1 line): surveyLap(4, 48279 ms, 646 pts)
+🗺 session polyline installed from lap 4 (646 pts) — minimap + delta live
+⏱ class lap kept: Blue Moon Bay Speedway Reverse/lobby/Gr.3 → 48.279 (4/10 laps, 2 car(s), avg 48.244)
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L6/L37/L70, stops 1) | fuelStatus(extendStint, 66, 70 to go, 66.03 fuel-laps) | pitWindowState(beforeOpen, now L5, L6/L37/L70, stops 1, close) | pitStopsToGo(1, 70 to go)
+🗣 spoke (strategy, imp 2, cost 4.1s, ledger 10.3/20.4s, 1 line, protected): pitWindow(L6/L37/L70, stops 1)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 14.1/20.4s, 1 line, protected): fuelStatus(extendStint, 66, 70 to go, 66.03 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 16.8/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L5, L6/L37/L70, stops 1, close)
+🗑 dropped (burst cap 3): pitStopsToGo(1, 70 to go)
+🗑 dropped (bulletin, ledger full; cost 6.0s, load 16.8/20.4s, 2 lines): L5
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.0/20.4s, 1 line, protected): strategyUpdate(fuel 66.03L, togo 70, stops 1)
+🗣 chain (imp 4, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+📋 lap 5: 0:48.310 clean fuel_used=1.48
+🔵 lap 5 antics: contact
+📊 laps-left model: elapsed 250.3 s, remaining 3349.7 s, median lap 48.3 s -> 69 (no-stop 70, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L6: fuel/lap 1.47 | fuel 92.8 = 63.0 laps | 69.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (7 samples, σ 1.59 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.7/20.4s, 1 line): surveyGate(finishLine, 7)
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L8/L37/L68, stops 1) | fuelStatus(extendStint, 63, 69 to go, 63.03 fuel-laps) | pitWindowState(beforeOpen, now L6, L8/L37/L68, stops 1, close) | pitStopsToGo(1, 69 to go)
+🗣 spoke (strategy, imp 2, cost 4.1s, ledger 8.9/20.4s, 1 line, protected): pitWindow(L8/L37/L68, stops 1)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 12.6/20.4s, 1 line, protected): fuelStatus(extendStint, 63, 69 to go, 63.03 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 15.3/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L6, L8/L37/L68, stops 1, close)
+🗑 dropped (burst cap 3): pitStopsToGo(1, 69 to go)
+🗣 bulletin (imp 6, cost 4.6s, ledger 19.9/20.4s, 2 lines): L6
+🗑 dropped (cooldown strategy; 48.3s of 75.0s via strategy x0.50): strategyUpdate(fuel 63.03L, togo 69, stops 1)
+📋 lap 6: 0:48.867 clean fuel_used=1.62
+🔵 lap 6: clean
+📊 laps-left model: elapsed 299.2 s, remaining 3300.8 s, median lap 48.4 s -> 68 (no-stop 69, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L7: fuel/lap 1.48 | fuel 91.1 = 61.7 laps | 68.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (8 samples, σ 5.98 m, ±18 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 8)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L8/L37/L67, stops 1) | pitWindowState(beforeOpen, now L7, L8/L37/L67, stops 1) | pitStopsToGo(1, 68 to go)
+🗣 spoke (strategy, imp 2, cost 2.8s, ledger 5.5/20.4s, 1 line, protected): pitWindow(L8/L37/L67, stops 1)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 9.4/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L7, L8/L37/L67, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 11.5/20.4s, 1 line, protected): pitStopsToGo(1, 68 to go)
+🗣 bulletin (imp 6, cost 3.5s, ledger 15.0/20.4s, 2 lines): L7
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 17.2/20.4s, 1 line, protected): strategyUpdate(fuel 61.73L, togo 68, stops 1)
+📋 lap 7: 0:48.680 clean fuel_used=1.59
+🔵 lap 7: clean
+📊 laps-left model: elapsed 347.9 s, remaining 3252.1 s, median lap 48.5 s -> 67 (no-stop 68, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L8: fuel/lap 1.48 | fuel 89.5 = 60.5 laps | 67.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (9 samples, σ 7.53 m, ±20 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 9)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L8, L9/L37/L67, stops 1) | pitStopsToGo(1, 67 to go)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 7.0/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L8, L9/L37/L67, stops 1)
+🗑 dropped (cooldown pitstopstogo; 48.7s of 60.0s via strategy x0.50): pitStopsToGo(1, 67 to go)
+🗣 bulletin (imp 6, cost 5.2s, ledger 12.2/20.4s, 2 lines): L8
+🗑 dropped (cooldown strategy; 48.7s of 75.0s via strategy x0.50): strategyUpdate(fuel 60.46L, togo 67, stops 1)
+🗣 spoke (tyres, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(overheating, 115°, frontLeft)
+🗣 chain (imp 4, cost 2.9s, ledger 5.4/20.4s, 1 events, 1 lines)
+📋 lap 8: 0:49.147 clean fuel_used=1.47
+🔵 lap 8 antics: contact
+📊 laps-left model: elapsed 397.0 s, remaining 3203.0 s, median lap 48.7 s -> 66 (no-stop 66, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L9: fuel/lap 1.48 | fuel 88.1 = 59.7 laps | 66.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (10 samples, σ 7.15 m, ±20 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 8.1/20.4s, 1 line): surveyGate(finishLine, 10)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L9, L9/L37/L67, stops 1) | pitStopsToGo(1, 66 to go)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 11.6/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L9, L9/L37/L67, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 13.7/20.4s, 1 line, protected): pitStopsToGo(1, 66 to go)
+🗣 bulletin (imp 6, cost 3.9s, ledger 17.6/20.4s, 2 lines): L9
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.8/20.4s, 1 line, protected): strategyUpdate(fuel 59.66L, togo 66, stops 1)
+📋 lap 9: 0:48.992 clean fuel_used=1.44
+🔵 lap 9: clean
+📊 laps-left model: elapsed 446.0 s, remaining 3154.0 s, median lap 48.7 s -> 65 (no-stop 65, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L10: fuel/lap 1.47 | fuel 86.6 = 59.0 laps | 65.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (11 samples, σ 6.80 m, ±20 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 11)
+📋 strategy burst: 3 event(s), releasing best-first — fuelStatus(extendStint, 58, 65 to go, 58.97 fuel-laps) | pitWindowState(openTargetAhead, now L10, L10/L37/L67, stops 1, close) | pitStopsToGo(1, 65 to go)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 7.3/20.4s, 1 line, protected): fuelStatus(extendStint, 58, 65 to go, 58.97 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 11.8/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L10, L10/L37/L67, stops 1, close)
+🗑 dropped (cooldown pitstopstogo; 49.0s of 60.0s via strategy x0.50): pitStopsToGo(1, 65 to go)
+🗣 bulletin (imp 6, cost 3.9s, ledger 15.8/20.4s, 2 lines): L10
+🗑 dropped (cooldown strategy; 49.0s of 75.0s via strategy x0.50): strategyUpdate(fuel 58.97L, togo 65, stops 1)
+🔧 huge stop 221 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 7252565 lap 10
+🔵 sub-state FLYING → — lap 10
+🔧 pit-entry anchor learned: 48485 ms into lap (stop on lap 10)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/pitEntry (2 samples, σ 0.24 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 0.8/20.4s, 1 line, protected): pittingIn(L10)
+🗑 dropped (in pit): surveyGate(pitEntry, 2)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+📊 strategy: box reached on the ENDING lap (entered L10, counter still L10) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 508.0 s, remaining 3092.0 s, median lap 48.7 s -> 63-64 (no-stop 64, pit loss 20.0 s, rate 20 l/s, fuel-decisive)
+🗣 spoke (pitSequence, imp 2, cost 2.5s, ledger 3.3/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 5.0s, ledger 8.2/20.4s, 1 line, protected): refuelTarget(63-64/fuel laps)
+🗑 dropped (in pit): tyreTemps(low, 62°, rearRight)
+🔀 state PIT → RACING at pkt 7253634 lap 11
+🔵 sub-state — → OUT_LAP lap 11
+🅿️ PIT completed: in L10 → out L11 (no fuel, transit 21.2s, teleport=false)
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/pitBox (2 samples, σ 0.09 m, ±0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 2)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🅿️ entry→box 16.9s (speaking budget)
+📋 lap 10: 1:06.303 in fuel_used=1.32
+🔵 lap 10: clean
+🗑 dropped (in pit): lapStarted(11, last 66.30s)
+🔧 teleport 264 m on lap 11 — pit release, not a reset
+📊 laps-left model: elapsed 512.3 s, remaining 3087.7 s, median lap 48.7 s -> 63-64 (no-stop 64, pit loss 20.0 s, rate 20 l/s, tyre-decisive)
+📊 strategy L11: fuel/lap 1.47 | fuel 85.3 = 58.1 laps | 64.0 laps to go | stops 1
+🗑 dropped (topic pitSequence; 4.3s of 5.0s, pitSequence reopens in 0.7s): exitingPit(+0.00l, tyres)
+🗑 dropped (topic pitSequence; 4.3s of 5.0s, pitSequence reopens in 0.7s): freshTyres
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 10.9/20.4s, 1 line, protected): stopsPlanChanged(0→1)
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/pitExit (2 samples, σ 0.09 m, ±16 m)
+🗺 mapper: lap 10 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 13.6/20.4s, 1 line): surveyGate(pitExit, 2)
+📊 laps-left model: elapsed 512.3 s, remaining 3067.7 s, median lap 48.7 s -> 63 (no-stop 64, pit loss 20.0 s, rate 20 l/s), out-lap -20.0s
+📊 strategy L11: fuel/lap 1.47 | fuel 85.3 = 58.1 laps | 63.0 laps to go | stops 1 (post-stop recalc)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 16.5/20.4s, 1 line): surveyComplete(0 optional missing)
+📋 strategy burst: 6 event(s), releasing best-first — pitWindow(L11/L37/L68, stops 1) | fuelStatus(extendStint, 58, 64 to go, 58.07 fuel-laps) | pitWindow(L11/L36/L68, stops 1) | strategyUpdate(fuel 58.07L, togo 63, stops 1, post-stop) | pitWindowState(openTargetAhead, now L11, L11/L37/L68, stops 1, close) | pitStopsToGo(1, 64 to go)
+🗣 spoke (strategy, imp 2, cost 2.8s, ledger 19.3/20.4s, 1 line, protected): pitWindow(L11/L37/L68, stops 1)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 23.1/20.4s, 1 line, protected): fuelStatus(extendStint, 58, 64 to go, 58.07 fuel-laps)
+🗑 dropped (cooldown pitwindow; 0.0s of 45.0s via strategy x0.50): pitWindow(L11/L36/L68, stops 1)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 26.2/20.4s, 1 line, protected): strategyUpdate(fuel 58.07L, togo 63, stops 1, post-stop)
+🗑 dropped (burst cap 3): pitWindowState(openTargetAhead, now L11, L11/L37/L68, stops 1, close)
+🗑 dropped (burst cap 3): pitStopsToGo(1, 64 to go)
+🗑 dropped (ledger full; cost 2.1s, load 26.2/20.4s): tyreTemps(low, 60°)
+🗑 dropped (cooldown strategy; 7.2s of 75.0s via strategy x0.50): strategyUpdate(fuel 58.07L, togo 63-64/tyres, stops 1)
+🗣 spoke (tyres, imp 2, cost 4.2s, ledger 4.2/20.4s, 1 line): tyreTemps(overheating, 104°, frontLeft)
+🔵 sub-state OUT_LAP → FLYING lap 12
+📋 lap 11: 0:49.743 out fuel_used=1.45
+🔵 lap 11: clean
+📊 laps-left model: elapsed 562.0 s, remaining 3038.0 s, median lap 48.7 s -> 62 (no-stop 63, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L12: fuel/lap 1.47 | fuel 83.9 = 57.1 laps | 62.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (12 samples, σ 6.64 m, ±20 m)
+🗺 mapper: lap 11 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.9/20.4s, 1 line): surveyGate(finishLine, 12)
+📋 strategy burst: 3 event(s), releasing best-first — fuelStatus(extendStint, 57, 62 to go, 57.08 fuel-laps) | pitWindowState(openTargetAhead, now L12, L12/L36/L68, stops 1, close) | pitStopsToGo(1, 62 to go)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 10.6/20.4s, 1 line, protected): fuelStatus(extendStint, 57, 62 to go, 57.08 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 14.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L12, L12/L36/L68, stops 1, close)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 16.2/20.4s, 1 line, protected): pitStopsToGo(1, 62 to go)
+🗑 dropped (bulletin, ledger full; cost 4.3s, load 16.2/20.4s, 2 lines): L12
+🗑 dropped (cooldown tyretemps; 13.5s of 22.5s via tyres x0.50): tyreTemps(low, 65°)
+🗑 dropped (cooldown strategy; 57.0s of 75.0s via strategy x0.50): strategyUpdate(fuel 57.08L, togo 62, stops 1)
+🗑 dropped (cooldown tyretemps; 21.2s of 22.5s via tyres x0.50): tyreTemps(high, 94°, frontLeft)
+📋 lap 12: 0:48.409 clean fuel_used=1.23
+🔵 lap 12: clean
+📊 laps-left model: elapsed 610.5 s, remaining 2989.5 s, median lap 48.5 s -> 62 (no-stop 62, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L13: fuel/lap 1.46 | fuel 82.6 = 56.6 laps | 62.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (13 samples, σ 6.72 m, ±20 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 13)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L13/L37/L68, stops 1) | pitWindowState(openTargetAhead, now L13, L13/L37/L68, stops 1) | pitStopsToGo(1, 62 to go)
+🗣 spoke (strategy, imp 2, cost 4.1s, ledger 6.8/20.4s, 1 line, protected): pitWindow(L13/L37/L68, stops 1)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 11.3/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L13, L13/L37/L68, stops 1)
+🗑 dropped (cooldown pitstopstogo; 48.4s of 60.0s via strategy x0.50): pitStopsToGo(1, 62 to go)
+🗣 bulletin (imp 6, cost 4.6s, ledger 15.9/20.4s, 2 lines): L13
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 18.2/20.4s, 1 line, protected): strategyUpdate(fuel 56.57L, togo 62, stops 1)
+📋 lap 13: 0:48.617 clean fuel_used=1.55
+🔵 lap 13: clean
+📊 laps-left model: elapsed 659.1 s, remaining 2940.9 s, median lap 48.6 s -> 60-61 (no-stop 61, pit loss 20.0 s, rate 20 l/s, tyre-decisive)
+📊 strategy L14: fuel/lap 1.46 | fuel 81.1 = 55.5 laps | 61.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (14 samples, σ 6.67 m, ±20 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 14)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L14, L14/L37/L68, stops 1) | pitStopsToGo(1, 61 to go)
+🗣 spoke (strategy, imp 4, cost 4.8s, ledger 7.5/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L14, L14/L37/L68, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 9.5/20.4s, 1 line, protected): pitStopsToGo(1, 61 to go)
+🗣 bulletin (imp 6, cost 6.7s, ledger 16.3/20.4s, 2 lines): L14
+🗑 dropped (cooldown strategy; 48.6s of 75.0s via strategy x0.50): strategyUpdate(fuel 55.51L, togo 60-61/tyres, stops 1)
+📋 lap 14: 0:47.818 clean fuel_used=1.29
+🔵 lap 14: clean
+📊 laps-left model: elapsed 706.9 s, remaining 2893.1 s, median lap 48.6 s -> 59-60 (no-stop 60, pit loss 20.0 s, rate 20 l/s, tyre-decisive)
+📊 strategy L15: fuel/lap 1.45 | fuel 79.8 = 55.1 laps | 60.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (15 samples, σ 6.50 m, ±19 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 15)
+🗺 mapper: learned lap 14 (47.818 s, 3235 m, 647 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.4s, ledger 7.0/20.4s, 1 line): surveyLap(14, 47818 ms, 647 pts)
+🗺 session polyline installed from lap 14 (647 pts) — minimap + delta live
+⏱ class lap kept: Blue Moon Bay Speedway Reverse/lobby/Gr.3 → 47.818 (4/10 laps, 2 car(s), avg 48.027)
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L15/L37/L69, stops 1) | fuelStatus(extendStint, 55, 60 to go, 55.06 fuel-laps) | pitWindowState(openTargetAhead, now L15, L15/L37/L69, stops 1, close) | pitStopsToGo(1, 60 to go)
+🗣 spoke (strategy, imp 2, cost 4.1s, ledger 11.2/20.4s, 1 line, protected): pitWindow(L15/L37/L69, stops 1)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 14.9/20.4s, 1 line, protected): fuelStatus(extendStint, 55, 60 to go, 55.06 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 18.5/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L15, L15/L37/L69, stops 1, close)
+🗑 dropped (burst cap 3): pitStopsToGo(1, 60 to go)
+🗑 dropped (bulletin, ledger full; cost 6.0s, load 18.5/20.4s, 2 lines): L15
+🗣 spoke (strategy, imp 2, cost 4.5s, ledger 23.0/20.4s, 1 line, protected): strategyUpdate(fuel 55.06L, togo 59-60/tyres, stops 1)
+📋 lap 15: 0:48.107 clean fuel_used=1.59
+🔵 lap 15: clean
+📊 laps-left model: elapsed 755.0 s, remaining 2845.0 s, median lap 48.6 s -> 58-59 (no-stop 59, pit loss 20.0 s, rate 20 l/s, tyre-decisive)
+📊 strategy L16: fuel/lap 1.45 | fuel 78.2 = 54.0 laps | 59.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (16 samples, σ 6.32 m, ±19 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 16)
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L16/L37/L68, stops 1) | fuelStatus(extendStint, 53, 59 to go, 53.96 fuel-laps) | pitWindowState(openTargetAhead, now L16, L16/L37/L68, stops 1, close) | pitStopsToGo(1, 59 to go)
+🗣 spoke (strategy, imp 2, cost 4.1s, ledger 6.8/20.4s, 1 line, protected): pitWindow(L16/L37/L68, stops 1)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 10.6/20.4s, 1 line, protected): fuelStatus(extendStint, 53, 59 to go, 53.96 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 14.1/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L16, L16/L37/L68, stops 1, close)
+🗑 dropped (burst cap 3): pitStopsToGo(1, 59 to go)
+🗣 bulletin (imp 6, cost 4.2s, ledger 18.3/20.4s, 2 lines): L16
+🗑 dropped (cooldown strategy; 48.1s of 75.0s via strategy x0.50): strategyUpdate(fuel 53.96L, togo 58-59/tyres, stops 1)
+📋 lap 16: 0:48.229 clean fuel_used=1.62
+🔵 lap 16: clean
+📊 laps-left model: elapsed 803.2 s, remaining 2796.8 s, median lap 48.5 s -> 58 (no-stop 58, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L17: fuel/lap 1.45 | fuel 76.6 = 52.8 laps | 58.0 laps to go | stops 1
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (17 samples, σ 6.12 m, ±18 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 17)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L17, L17/L37/L68, stops 1) | pitStopsToGo(1, 58 to go)
+🗣 spoke (strategy, imp 4, cost 4.8s, ledger 7.5/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L17, L17/L37/L68, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 9.5/20.4s, 1 line, protected): pitStopsToGo(1, 58 to go)
+🗣 bulletin (imp 6, cost 6.7s, ledger 16.3/20.4s, 2 lines): L17
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 18.5/20.4s, 1 line, protected): strategyUpdate(fuel 52.85L, togo 58, stops 1)
+🔧 huge stop 225 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 7273958 lap 17
+🔵 sub-state FLYING → — lap 17
+🔧 pit-entry anchor learned: 48175 ms into lap (stop on lap 17)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/pitEntry (3 samples, σ 0.33 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line, protected): pittingIn(L17)
+🗑 dropped (in pit): surveyGate(pitEntry, 3)
+📊 strategy: box reached on the ENDING lap (entered L17, counter still L17) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 864.9 s, remaining 2735.1 s, median lap 48.5 s -> 56 (no-stop 57, pit loss 20.0 s, rate 20 l/s)
+🗣 spoke (pitSequence, imp 2, cost 1.2s, ledger 2.4/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 2.2s, ledger 4.7/20.4s, 1 line, protected): refuelTarget(56 laps)
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🔀 state PIT → RACING at pkt 7275183 lap 18
+🔵 sub-state — → OUT_LAP lap 18
+🅿️ PIT completed: in L17 → out L18 (+24.9 fuel, transit 23.8s, teleport=false)
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/pitBox (3 samples, σ 0.08 m, ±0 m)
+🅿️ entry→box 16.9s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 3)
+📋 lap 17: 1:08.594 in fuel_used=1.49
+🔵 lap 17: clean
+🗑 dropped (in pit): lapStarted(18, last 68.59s)
+🔧 teleport 264 m on lap 18 — pit release, not a reset
+📊 laps-left model: elapsed 871.8 s, remaining 2728.2 s, median lap 48.5 s -> 57 (no-stop 57, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L18: fuel/lap 1.45 | fuel 100.0 = 69.0 laps | 57.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 6.3/20.4s, 1 line, protected): exitingPit(+24.91l)
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/pitExit (3 samples, σ 0.08 m, ±8 m)
+🗺 mapper: lap 17 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 9.0/20.4s, 1 line): surveyGate(pitExit, 3)
+📊 laps-left model: elapsed 871.8 s, remaining 2708.2 s, median lap 48.5 s -> 56 (no-stop 56, pit loss 20.0 s, rate 20 l/s), out-lap -20.0s
+📊 strategy L18: fuel/lap 1.45 | fuel 100.0 = 69.0 laps | 56.0 laps to go | stops 0 (post-stop recalc)
+🗑 dropped (cooldown strategy; 61.4s of 75.0s via strategy x0.50): strategyUpdate(fuel 69.01L, togo 56, stops 0, post-stop)
+🗑 dropped (cooldown strategy; 68.6s of 75.0s via strategy x0.50): strategyUpdate(fuel 69.01L, togo 57, stops 0)
+🗣 spoke (tyres, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(overheating, 104°, frontLeft)
+🗣 chain (imp 4, cost 3.8s, ledger 6.3/20.4s, 1 events, 1 lines)
+🔵 sub-state OUT_LAP → FLYING lap 19
+📋 lap 18: 0:50.830 out fuel_used=1.46
+🔵 lap 18 antics: contact
+📊 laps-left model: elapsed 922.6 s, remaining 2677.4 s, median lap 48.5 s -> 56 (no-stop 56, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L19: fuel/lap 1.46 | fuel 98.5 = 67.6 laps | 56.0 laps to go | stops 0
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (18 samples, σ 5.99 m, ±18 m)
+🗺 mapper: lap 18 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 8.9/20.4s, 1 line): surveyGate(finishLine, 18)
+🗣 bulletin (imp 6, cost 5.8s, ledger 14.7/20.4s, 2 lines): L19
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 18.3/20.4s, 1 line, protected): strategyUpdate(fuel 67.57L, togo 56, stops 0)
+📋 lap 19: 0:49.116 clean fuel_used=1.52
+🔵 lap 19: clean
+📊 laps-left model: elapsed 971.8 s, remaining 2628.2 s, median lap 48.5 s -> 55 (no-stop 55, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L20: fuel/lap 1.49 | fuel 97.0 = 65.2 laps | 55.0 laps to go | stops 0
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (19 samples, σ 5.92 m, ±18 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 19)
+🗣 bulletin (imp 6, cost 4.8s, ledger 7.4/20.4s, 2 lines): L20
+🗑 dropped (cooldown strategy; 49.1s of 75.0s via strategy x0.50): strategyUpdate(fuel 65.16L, togo 55, stops 0)
+📋 lap 20: 0:48.814 clean fuel_used=1.53
+🔵 lap 20: clean
+📊 laps-left model: elapsed 1020.6 s, remaining 2579.4 s, median lap 48.5 s -> 54 (no-stop 54, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L21: fuel/lap 1.52 | fuel 95.5 = 62.7 laps | 54.0 laps to go | stops 0
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (20 samples, σ 5.79 m, ±17 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 20)
+🗣 bulletin (imp 6, cost 4.3s, ledger 7.0/20.4s, 2 lines): L21
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 11.0/20.4s, 1 line, protected): strategyUpdate(fuel 62.66L, togo 54, stops 0)
+📋 lap 21: 0:49.115 clean fuel_used=1.47
+🔵 lap 21: clean
+📊 laps-left model: elapsed 1069.7 s, remaining 2530.3 s, median lap 48.5 s -> 53 (no-stop 53, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L22: fuel/lap 1.52 | fuel 94.0 = 61.7 laps | 53.0 laps to go | stops 0
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (21 samples, σ 5.70 m, ±17 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 21)
+🗣 bulletin (imp 6, cost 5.6s, ledger 8.3/20.4s, 2 lines): L22
+🗑 dropped (cooldown strategy; 49.1s of 75.0s via strategy x0.50): strategyUpdate(fuel 61.70L, togo 53, stops 0)
+📋 lap 22: 0:49.159 clean fuel_used=1.45
+🔵 lap 22: clean
+📊 laps-left model: elapsed 1118.9 s, remaining 2481.1 s, median lap 48.7 s -> 51 (no-stop 51, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L23: fuel/lap 1.49 | fuel 92.6 = 62.0 laps | 51.0 laps to go | stops 0
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (22 samples, σ 5.63 m, ±17 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 22)
+🗣 bulletin (imp 6, cost 5.2s, ledger 7.9/20.4s, 2 lines): L23
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 11.4/20.4s, 1 line, protected): strategyUpdate(fuel 62.04L, togo 51, stops 0)
+📋 lap 23: 0:48.734 clean fuel_used=1.36
+🔵 lap 23: clean
+📊 laps-left model: elapsed 1167.6 s, remaining 2432.4 s, median lap 48.8 s -> 50 (no-stop 50, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L24: fuel/lap 1.49 | fuel 91.2 = 61.1 laps | 50.0 laps to go | stops 0
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (23 samples, σ 5.50 m, ±17 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 23)
+🗣 bulletin (imp 6, cost 6.7s, ledger 9.4/20.4s, 2 lines): L24
+🗑 dropped (cooldown strategy; 48.8s of 75.0s via strategy x0.50): strategyUpdate(fuel 61.12L, togo 50, stops 0)
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 12.3/20.4s, 1 line): tyreTemps(high, 85°)
+📋 lap 24: 0:48.964 clean fuel_used=1.35
+🔵 lap 24: clean
+📊 laps-left model: elapsed 1216.6 s, remaining 2383.4 s, median lap 48.9 s -> 49 (no-stop 49, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L25: fuel/lap 1.46 | fuel 89.9 = 61.3 laps | 49.0 laps to go | stops 0
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (24 samples, σ 5.61 m, ±17 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 24)
+🗣 bulletin (imp 6, cost 4.3s, ledger 7.0/20.4s, 2 lines): L25
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 11.0/20.4s, 1 line, protected): strategyUpdate(fuel 61.34L, togo 49, stops 0)
+📋 lap 25: 0:52.649 clean fuel_used=1.59
+🔵 lap 25: clean
+📊 laps-left model: elapsed 1269.2 s, remaining 2330.8 s, median lap 49.0 s -> 48 (no-stop 48, pit loss 20.0 s, rate 20 l/s)
+📊 strategy L26: fuel/lap 1.46 | fuel 88.3 = 60.3 laps | 48.0 laps to go | stops 0
+🗣 spoke (lapPace, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): paceDegradation(0.69s/lap over 5)
+🚪 gate refined: Blue Moon Bay Speedway Reverse/lobby/finishLine (25 samples, σ 5.49 m, ±16 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.2/20.4s, 1 line): surveyGate(finishLine, 25)
+🗣 bulletin (imp 6, cost 5.2s, ledger 10.4/20.4s, 2 lines): L26
+🗑 dropped (cooldown strategy; 52.7s of 75.0s via strategy x0.50): strategyUpdate(fuel 60.26L, togo 48, stops 0)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 109 gate(s) from 270 stored
+📊 strategy: reset
+📊 pit loss: estimated 20.0 s from the unofficial table (Blue Moon Bay Speedway Reverse)
+🔧 session restart: lap-scoped state reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=6 eff=6 budget=14 cd=x1.25 lock=60.0->75.0s ttl=6s
+🎮 onTrack → entered (pkt 7299610, lap 0, flags 0x0041, pos 1, cars 1, tod 57240000)
+🎮 entered → menus (pkt 7299882, lap —, flags 0x0000, pos —, cars —, tod 57240000)
+✂️ capture auto-stop in 10s (driver off track / not in control)
+# --- stopped: 78323 packets

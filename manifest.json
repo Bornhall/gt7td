@@ -275,6 +275,22 @@
       "tyreWearMultiplier": 1
     },
     {
+      "stem": "449-lobby-20260830_193748",
+      "courseId": 449,
+      "track": "Blue Moon Bay Speedway Reverse",
+      "context": "lobby",
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "hz": 59.94,
+      "packets": 78323,
+      "durationS": 1306.7,
+      "rawBytes": 28822864,
+      "gzBytes": 13255042,
+      "hasLog": true,
+      "fuelMultiplier": 1,
+      "tyreWearMultiplier": 4
+    },
+    {
       "stem": "462-customRace-20260725_200946",
       "courseId": 462,
       "track": "Circuit de Spa-Francorchamps",

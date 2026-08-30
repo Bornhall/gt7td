@@ -1,0 +1,30 @@
+{
+  "carId" : 2183,
+  "carName" : "Chevrolet Corvette C7 Gr.3",
+  "declared" : {
+    "captureContext" : "lobby",
+    "carClass" : "Gr.3",
+    "carId" : 2183,
+    "carName" : "Chevrolet Corvette C7 Gr.3",
+    "courseId" : 449,
+    "fuelMultiplier" : 1,
+    "mandatoryTyreChange" : false,
+    "mode" : "race",
+    "raceLength" : 60,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 20,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 10,
+    "timeBeforeStart" : 10,
+    "trackName" : "Blue Moon Bay Speedway Reverse",
+    "tyreWearMultiplier" : 4,
+    "weather" : "dry"
+  },
+  "endTime" : 1788112808,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1788111468,
+  "trackName" : "Blue Moon Bay Speedway Reverse",
+  "version" : 8
+}
