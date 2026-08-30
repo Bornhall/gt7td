@@ -115,6 +115,22 @@
       "tyreWearMultiplier": 6
     },
     {
+      "stem": "51-customRace-20260830_114650",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "car": "Subaru WRX Gr.3",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 221435,
+      "durationS": 3690.6,
+      "rawBytes": 81488080,
+      "gzBytes": 40061911,
+      "hasLog": true,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 6
+    },
+    {
       "stem": "349-customRace-20260725_212313",
       "courseId": 349,
       "track": "N\u00fcrburgring GP",
