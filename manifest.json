@@ -131,6 +131,22 @@
       "tyreWearMultiplier": 6
     },
     {
+      "stem": "51-customRace-20260830_155428",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "car": "Jaguar F-type Gr.3",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 226966,
+      "durationS": 3782.8,
+      "rawBytes": 83523488,
+      "gzBytes": 39188925,
+      "hasLog": true,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 6
+    },
+    {
       "stem": "349-customRace-20260725_212313",
       "courseId": 349,
       "track": "N\u00fcrburgring GP",
