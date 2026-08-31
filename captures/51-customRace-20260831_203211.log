@@ -1,0 +1,508 @@
+# EzioClient session log
+# file:    20260831_203211 - Deep Forest Raceway (51).gt7td
+# started: 2026-08-31T18:32:11Z
+# track:   Deep Forest Raceway (CRS 51)
+# car:     Chevrolet Corvette C7 Gr.3 [gr3]
+# context: customRace
+# ---
+# car:     Chevrolet Corvette C7 Gr.3 (id 2183) — confirmed from telemetry
+🎮 entered → onTrack (pkt 1059502, lap 0, flags 0x0001, pos 8, cars 12, tod 67134612)
+🎮 onTrack → entered (pkt 1060279, lap 0, flags 0x0041, pos 9, cars 12, tod 67080000)
+🎮 entered → onTrack (pkt 1060411, lap 0, flags 0x0041, pos 9, cars 12, tod 67080000)
+🏁 start type: GRID_START at pkt 1060931 lap 0
+🔀 state UNKNOWN → RACING at pkt 1060931 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): greenFlag
+📋 lap 0: — clean fuel_used=0.36
+📊 strategy L1: no fuel model yet
+🧭 learned: 5 gates matched, all Deep Forest Raceway — using the finishLine gate (525 samples)
+🧭 identified: Deep Forest Raceway (CRS 51) — finishLine, 525 sample(s), ±8 m
+🚪 gate refined: Deep Forest Raceway/customRace/lap1 (21 samples, σ 0.72 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.2/20.4s, 1 line): surveyGate(lap1, 21)
+🧭 polyline [L1]: 11 candidate(s) dropped on direction — best of them Dragon Trail - Seaside median 59.20 (alignment -0.76)
+🧭 polyline [L1]: Deep Forest Raceway (CRS 51, map ctx customRace) median 2.78 m, p90 3.22 m, 3% of lap, 30 samples, alignment +1.00 — next course Mount Panorama Motor Racing Circuit median 30.04/p90 60.14
+🧭 polyline agrees with the declared course (CRS 51)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:40.107 first fuel_used=3.71
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 3.71, 25.9 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (526 samples, σ 2.03 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 526)
+🗣 bulletin (imp 6, cost 4.8s, ledger 7.4/20.4s, 2 lines): L2
+📋 lap 2: 1:30.396 clean fuel_used=3.48
+🔵 lap 2: clean
+📊 laps-left model: elapsed 189.7 s, remaining 3410.3 s, median lap 90.4 s -> 38 (no-stop 38, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L3: fuel/lap 3.60 | fuel 92.5 = 25.7 laps | 38.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (527 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 527)
+🗺 mapper: learned lap 2 (90.396 s, 4200 m, 840 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 6.8/20.4s, 1 line): surveyLap(2, 90396 ms, 840 pts)
+🗺 session polyline installed from lap 2 (840 pts) — minimap + delta live
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 9.5/20.4s, 1 line): surveyComplete(3 optional missing)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L13/L20/L27, stops 1) | pitWindowState(beforeOpen, now L3, L13/L20/L27, stops 1) | pitStopsToGo(1, 38 to go)
+🗣 spoke (strategy, imp 2, cost 4.1s, ledger 13.6/20.4s, 1 line, protected): pitWindow(L13/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 16.2/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L3, L13/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 18.7/20.4s, 1 line, protected): pitStopsToGo(1, 38 to go)
+🗑 dropped (bulletin, ledger full; cost 4.3s, load 18.7/20.4s, 2 lines): L3
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 21.0/20.4s, 1 line, protected): strategyUpdate(fuel 25.73L, togo 38, stops 1)
+📋 lap 3: 1:30.084 clean fuel_used=3.65
+🔵 lap 3: clean
+📊 laps-left model: elapsed 279.8 s, remaining 3320.2 s, median lap 90.2 s -> 37 (no-stop 37, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L4: fuel/lap 3.65 | fuel 88.9 = 24.4 laps | 37.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (528 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 528)
+🗺 mapper: learned lap 3 (90.084 s, 4205 m, 841 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 6.4/20.4s, 1 line): surveyLap(3, 90084 ms, 841 pts)
+🗺 session polyline installed from lap 3 (841 pts) — minimap + delta live
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L4, L14/L20/L27, stops 1) | pitStopsToGo(1, 37 to go)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 10.3/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L4, L14/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 12.4/20.4s, 1 line, protected): pitStopsToGo(1, 37 to go)
+🗣 bulletin (imp 2, cost 5.6s, ledger 18.0/20.4s, 2 lines): L4
+🗑 speaker: stale, not spoken: "lap 4"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 20.2/20.4s, 1 line, protected): strategyUpdate(fuel 24.35L, togo 37, stops 1)
+📋 lap 4: 1:30.412 clean fuel_used=3.57
+🔵 lap 4: clean
+📊 laps-left model: elapsed 370.2 s, remaining 3229.8 s, median lap 90.4 s -> 36 (no-stop 36, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L5: fuel/lap 3.61 | fuel 85.3 = 23.6 laps | 36.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (529 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 529)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L5, L13/L20/L27, stops 1) | pitStopsToGo(1, 36 to go)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 7.0/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L5, L13/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 9.5/20.4s, 1 line, protected): pitStopsToGo(1, 36 to go)
+🗣 bulletin (imp 6, cost 5.8s, ledger 15.3/20.4s, 2 lines): L5
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 17.6/20.4s, 1 line, protected): strategyUpdate(fuel 23.63L, togo 36, stops 1)
+📋 lap 5: 1:29.877 clean fuel_used=3.60
+🔵 lap 5: clean
+📊 laps-left model: elapsed 460.1 s, remaining 3139.9 s, median lap 90.2 s -> 35 (no-stop 35, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L6: fuel/lap 3.60 | fuel 81.7 = 22.7 laps | 35.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (530 samples, σ 2.03 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 530)
+🗺 mapper: learned lap 5 (89.877 s, 4195 m, 839 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 6.4/20.4s, 1 line): surveyLap(5, 89877 ms, 839 pts)
+🗺 session polyline installed from lap 5 (839 pts) — minimap + delta live
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L6, L13/L20/L27, stops 1) | pitStopsToGo(1, 35 to go)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 10.3/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L6, L13/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 12.4/20.4s, 1 line, protected): pitStopsToGo(1, 35 to go)
+🗣 bulletin (imp 2, cost 6.0s, ledger 18.4/20.4s, 2 lines): L6
+🗑 speaker: stale, not spoken: "lap 6 now"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 20.6/20.4s, 1 line, protected): strategyUpdate(fuel 22.70L, togo 35, stops 1)
+📋 lap 6: 1:30.069 clean fuel_used=3.52
+🔵 lap 6: clean
+📊 laps-left model: elapsed 550.2 s, remaining 3049.8 s, median lap 90.1 s -> 34 (no-stop 34, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L7: fuel/lap 3.59 | fuel 78.2 = 21.8 laps | 34.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (531 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 531)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L7, L13/L20/L27, stops 1) | pitStopsToGo(1, 34 to go)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 5.3/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L7, L13/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 7.8/20.4s, 1 line, protected): pitStopsToGo(1, 34 to go)
+🗣 bulletin (imp 6, cost 5.8s, ledger 13.6/20.4s, 2 lines): L7
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.9/20.4s, 1 line, protected): strategyUpdate(fuel 21.81L, togo 34, stops 1)
+📋 lap 7: 1:29.886 clean fuel_used=3.47
+🔵 lap 7: clean
+📊 laps-left model: elapsed 640.0 s, remaining 2960.0 s, median lap 90.1 s -> 33 (no-stop 33, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L8: fuel/lap 3.57 | fuel 74.7 = 20.9 laps | 33.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (532 samples, σ 2.03 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 532)
+📋 strategy burst: 3 event(s), releasing best-first — fuelStatus(extendStint, 20, 33 to go, 20.93 fuel-laps) | pitWindowState(beforeOpen, now L8, L13/L20/L27, stops 1, close) | pitStopsToGo(1, 33 to go)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 7.3/20.4s, 1 line, protected): fuelStatus(extendStint, 20, 33 to go, 20.93 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 11.2/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L8, L13/L20/L27, stops 1, close)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 13.3/20.4s, 1 line, protected): pitStopsToGo(1, 33 to go)
+🗣 bulletin (imp 6, cost 3.7s, ledger 17.1/20.4s, 2 lines): L8
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.3/20.4s, 1 line, protected): strategyUpdate(fuel 20.93L, togo 33, stops 1)
+📋 lap 8: 1:30.491 clean fuel_used=3.60
+🔵 lap 8: clean
+📊 laps-left model: elapsed 730.5 s, remaining 2869.5 s, median lap 90.1 s -> 32 (no-stop 32, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L9: fuel/lap 3.58 | fuel 71.1 = 19.8 laps | 32.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P6→P7)
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (533 samples, σ 2.03 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.9/20.4s, 1 line): surveyGate(finishLine, 533)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L9, L13/L20/L27, stops 1) | pitStopsToGo(1, 32 to go)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 7.6/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L9, L13/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 9.6/20.4s, 1 line, protected): pitStopsToGo(1, 32 to go)
+🗣 bulletin (imp 6, cost 6.2s, ledger 15.9/20.4s, 2 lines): L9
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 18.1/20.4s, 1 line, protected): strategyUpdate(fuel 19.85L, togo 32, stops 1)
+📋 lap 9: 1:30.155 clean fuel_used=3.61
+🔵 lap 9: clean
+📊 laps-left model: elapsed 820.7 s, remaining 2779.3 s, median lap 90.1 s -> 31 (no-stop 31, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L10: fuel/lap 3.58 | fuel 67.5 = 18.8 laps | 31.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (534 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 534)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L10, L13/L20/L27, stops 1) | pitStopsToGo(1, 31 to go)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 7.0/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L10, L13/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 9.1/20.4s, 1 line, protected): pitStopsToGo(1, 31 to go)
+🗣 bulletin (imp 6, cost 4.6s, ledger 13.7/20.4s, 2 lines): L10
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.9/20.4s, 1 line, protected): strategyUpdate(fuel 18.84L, togo 31, stops 1)
+📋 lap 10: 1:30.045 clean fuel_used=3.72
+🔵 lap 10: clean
+📊 laps-left model: elapsed 910.7 s, remaining 2689.3 s, median lap 90.1 s -> 30 (no-stop 30, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L11: fuel/lap 3.60 | fuel 63.8 = 17.7 laps | 30.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (535 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 535)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L11, L13/L20/L27, stops 1) | pitStopsToGo(1, 30 to go)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 6.6/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L11, L13/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 8.7/20.4s, 1 line, protected): pitStopsToGo(1, 30 to go)
+🗣 bulletin (imp 6, cost 5.9s, ledger 14.6/20.4s, 2 lines): L11
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.8/20.4s, 1 line, protected): strategyUpdate(fuel 17.73L, togo 30, stops 1)
+📋 lap 11: 1:30.410 clean fuel_used=3.66
+🔵 lap 11: clean
+📊 laps-left model: elapsed 1001.2 s, remaining 2598.8 s, median lap 90.1 s -> 29 (no-stop 29, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L12: fuel/lap 3.60 | fuel 60.1 = 16.7 laps | 29.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (536 samples, σ 2.02 m, ±8 m)
+🗣 spoke (position, imp 4, cost 3.5s, ledger 3.5/20.4s, 1 line): positionChange(P7→P6)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.2/20.4s, 1 line): surveyGate(finishLine, 536)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L12, L13/L20/L27, stops 1) | pitStopsToGo(1, 29 to go)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 8.9/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L12, L13/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 11.3/20.4s, 1 line, protected): pitStopsToGo(1, 29 to go)
+🗣 bulletin (imp 6, cost 4.6s, ledger 15.9/20.4s, 2 lines): L12
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 18.2/20.4s, 1 line, protected): strategyUpdate(fuel 16.71L, togo 29, stops 1)
+📋 lap 12: 1:30.443 clean fuel_used=3.61
+🔵 lap 12: clean
+📊 laps-left model: elapsed 1091.6 s, remaining 2508.4 s, median lap 90.1 s -> 28 (no-stop 28, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L13: fuel/lap 3.61 | fuel 56.5 = 15.7 laps | 28.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (537 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 537)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L13, L13/L20/L27, stops 1) | pitStopsToGo(1, 28 to go)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 7.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L13, L13/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 9.3/20.4s, 1 line, protected): pitStopsToGo(1, 28 to go)
+🗣 bulletin (imp 6, cost 5.8s, ledger 15.1/20.4s, 2 lines): L13
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 17.3/20.4s, 1 line, protected): strategyUpdate(fuel 15.68L, togo 28, stops 1)
+📋 lap 13: 1:30.431 clean fuel_used=3.61
+🔵 lap 13: clean
+📊 laps-left model: elapsed 1182.0 s, remaining 2418.0 s, median lap 90.3 s -> 27 (no-stop 27, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L14: fuel/lap 3.61 | fuel 52.9 = 14.6 laps | 27.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (538 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 538)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L14, L14/L20/L27, stops 1) | pitStopsToGo(1, 27 to go)
+🗣 spoke (strategy, imp 4, cost 4.8s, ledger 7.5/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L14, L14/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 9.5/20.4s, 1 line, protected): pitStopsToGo(1, 27 to go)
+🗣 bulletin (imp 6, cost 4.6s, ledger 14.1/20.4s, 2 lines): L14
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.4/20.4s, 1 line, protected): strategyUpdate(fuel 14.65L, togo 27, stops 1)
+📋 lap 14: 1:30.320 clean fuel_used=3.64
+🔵 lap 14: clean
+📊 laps-left model: elapsed 1272.4 s, remaining 2327.6 s, median lap 90.4 s -> 26 (no-stop 26, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L15: fuel/lap 3.61 | fuel 49.3 = 13.6 laps | 26.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (539 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 539)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L15, L15/L20/L27, stops 1) | pitStopsToGo(1, 26 to go)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 6.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L15, L15/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 8.2/20.4s, 1 line, protected): pitStopsToGo(1, 26 to go)
+🗣 bulletin (imp 6, cost 5.8s, ledger 14.1/20.4s, 2 lines): L15
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.3/20.4s, 1 line, protected): strategyUpdate(fuel 13.63L, togo 26, stops 1)
+📋 lap 15: 1:30.033 clean fuel_used=3.59
+🔵 lap 15: clean
+📊 laps-left model: elapsed 1362.4 s, remaining 2237.6 s, median lap 90.4 s -> 25 (no-stop 25, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L16: fuel/lap 3.61 | fuel 45.7 = 12.6 laps | 25.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (540 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 540)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L16, L16/L20/L27, stops 1) | pitStopsToGo(1, 25 to go)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 7.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L16, L16/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 9.3/20.4s, 1 line, protected): pitStopsToGo(1, 25 to go)
+🗣 bulletin (imp 6, cost 6.3s, ledger 15.6/20.4s, 2 lines): L16
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 17.8/20.4s, 1 line, protected): strategyUpdate(fuel 12.64L, togo 25, stops 1)
+📋 lap 16: 1:29.907 clean fuel_used=3.72
+🔵 lap 16: clean
+📊 laps-left model: elapsed 1452.3 s, remaining 2147.7 s, median lap 90.2 s -> 24 (no-stop 24, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L17: fuel/lap 3.63 | fuel 42.0 = 11.6 laps | 24.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (541 samples, σ 2.02 m, ±8 m)
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P6→P5)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.4/20.4s, 1 line): surveyGate(finishLine, 541)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L17, L17/L20/L27, stops 1) | pitStopsToGo(1, 24 to go)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 9.9/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L17, L17/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 12.4/20.4s, 1 line, protected): pitStopsToGo(1, 24 to go)
+🗣 bulletin (imp 6, cost 4.6s, ledger 17.0/20.4s, 2 lines): L17
+🗑 speaker: stale after pause: "less than a tenth off"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.2/20.4s, 1 line, protected): strategyUpdate(fuel 11.57L, togo 24, stops 1)
+📋 lap 17: 1:30.735 clean fuel_used=3.62
+🔵 lap 17: clean
+📊 laps-left model: elapsed 1543.0 s, remaining 2057.0 s, median lap 90.4 s -> 23 (no-stop 23, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L18: fuel/lap 3.63 | fuel 38.3 = 10.6 laps | 23.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (542 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 542)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L18, L18/L20/L27, stops 1) | pitStopsToGo(1, 23 to go)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 7.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L18, L18/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 9.3/20.4s, 1 line, protected): pitStopsToGo(1, 23 to go)
+🗣 bulletin (imp 6, cost 6.3s, ledger 15.6/20.4s, 2 lines): L18
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 17.8/20.4s, 1 line, protected): strategyUpdate(fuel 10.56L, togo 23, stops 1)
+📋 lap 18: 1:29.850 clean fuel_used=3.66
+🔵 lap 18: clean
+📊 laps-left model: elapsed 1632.9 s, remaining 1967.1 s, median lap 90.4 s -> 22 (no-stop 22, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L19: fuel/lap 3.63 | fuel 34.7 = 9.5 laps | 22.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P5→P4)
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (543 samples, σ 2.02 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.4/20.4s, 1 line): surveyGate(finishLine, 543)
+🗺 mapper: learned lap 18 (89.850 s, 4195 m, 839 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.5s, ledger 10.9/20.4s, 1 line): surveyLap(18, 89850 ms, 839 pts)
+🗺 session polyline installed from lap 18 (839 pts) — minimap + delta live
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L19, L19/L20/L27, stops 1) | pitStopsToGo(1, 22 to go)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 14.4/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L19, L19/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 16.5/20.4s, 1 line, protected): pitStopsToGo(1, 22 to go)
+🗑 dropped (bulletin, ledger full; cost 5.6s, load 16.5/20.4s, 2 lines): L19
+🗑 speaker: stale, not spoken: "1 29 point eight five"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 18.7/20.4s, 1 line, protected): strategyUpdate(fuel 9.55L, togo 22, stops 1)
+📋 lap 19: 1:30.103 clean fuel_used=3.66
+🔵 lap 19: clean
+📊 laps-left model: elapsed 1723.0 s, remaining 1877.0 s, median lap 90.2 s -> 21 (no-stop 21, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L20: fuel/lap 3.63 | fuel 31.0 = 8.5 laps | 21.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (544 samples, σ 2.01 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 544)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L20, L20/L20/L27, stops 1) | pitStopsToGo(1, 21 to go)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 7.0/20.4s, 1 line, protected): pitWindowState(openToLatest, now L20, L20/L20/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 9.5/20.4s, 1 line, protected): pitStopsToGo(1, 21 to go)
+🗣 bulletin (imp 6, cost 6.7s, ledger 16.3/20.4s, 2 lines): L20
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 18.5/20.4s, 1 line, protected): strategyUpdate(fuel 8.54L, togo 21, stops 1)
+📋 lap 20: 1:30.343 clean fuel_used=3.57
+🔵 lap 20: clean
+📊 laps-left model: elapsed 1813.3 s, remaining 1786.7 s, median lap 90.2 s -> 20 (no-stop 20, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L21: fuel/lap 3.63 | fuel 27.4 = 7.6 laps | 20.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (545 samples, σ 2.01 m, ±8 m)
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P4→P3)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.9/20.4s, 1 line): surveyGate(finishLine, 545)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindowState(openToLatest, now L21, L21/L21/L27, stops 1) | pitStopsToGo(1, 20 to go) | fuelStatus(lapsToGo, 8, 20 to go, 7.56 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 8.9/20.4s, 1 line, protected): pitWindowState(openToLatest, now L21, L21/L21/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 10.9/20.4s, 1 line, protected): pitStopsToGo(1, 20 to go)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 14.4/20.4s, 1 line, protected): fuelStatus(lapsToGo, 8, 20 to go, 7.56 fuel-laps)
+🗣 bulletin (imp 6, cost 4.2s, ledger 18.6/20.4s, 2 lines): L21
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 20.8/20.4s, 1 line, protected): strategyUpdate(fuel 7.56L, togo 20, stops 1)
+📋 lap 21: 1:30.086 clean fuel_used=3.51
+🔵 lap 21: clean
+📊 laps-left model: elapsed 1903.4 s, remaining 1696.6 s, median lap 90.1 s -> 19 (no-stop 19, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L22: fuel/lap 3.63 | fuel 23.9 = 6.6 laps | 19.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): positionChange(P3→P1)
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (546 samples, σ 2.01 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.2/20.4s, 1 line): surveyGate(finishLine, 546)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindowState(openToLatest, now L22, L22/L22/L27, stops 1) | pitStopsToGo(1, 19 to go) | fuelStatus(lapsToGo, 7, 19 to go, 6.59 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 9.5/20.4s, 1 line, protected): pitWindowState(openToLatest, now L22, L22/L22/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 11.6/20.4s, 1 line, protected): pitStopsToGo(1, 19 to go)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 14.3/20.4s, 1 line, protected): fuelStatus(lapsToGo, 7, 19 to go, 6.59 fuel-laps)
+🗣 bulletin (imp 6, cost 4.6s, ledger 18.9/20.4s, 2 lines): L22
+🗑 speaker: stale after pause: "keep those good laps coming"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 21.1/20.4s, 1 line, protected): strategyUpdate(fuel 6.59L, togo 19, stops 1)
+📋 lap 22: 1:30.459 clean fuel_used=3.54
+🔵 lap 22: clean
+📊 laps-left model: elapsed 1993.9 s, remaining 1606.1 s, median lap 90.1 s -> 18 (no-stop 18, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L23: fuel/lap 3.61 | fuel 20.4 = 5.7 laps | 18.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (547 samples, σ 2.01 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 547)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindowState(openToLatest, now L23, L23/L23/L27, stops 1) | pitStopsToGo(1, 18 to go) | fuelStatus(lapsToGo, 6, 18 to go, 5.65 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 6.6/20.4s, 1 line, protected): pitWindowState(openToLatest, now L23, L23/L23/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 8.7/20.4s, 1 line, protected): pitStopsToGo(1, 18 to go)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 11.3/20.4s, 1 line, protected): fuelStatus(lapsToGo, 6, 18 to go, 5.65 fuel-laps)
+🗣 bulletin (imp 6, cost 4.6s, ledger 15.9/20.4s, 2 lines): L23
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 18.2/20.4s, 1 line, protected): strategyUpdate(fuel 5.65L, togo 18, stops 1)
+📋 lap 23: 1:30.228 clean fuel_used=3.60
+🔵 lap 23: clean
+📊 laps-left model: elapsed 2084.1 s, remaining 1515.9 s, median lap 90.2 s -> 17 (no-stop 17, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L24: fuel/lap 3.61 | fuel 16.8 = 4.6 laps | 17.0 laps to go | stops 1
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (548 samples, σ 2.01 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 548)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindowState(openToLatest, now L24, L24/L24/L27, stops 1) | pitStopsToGo(1, 17 to go) | fuelStatus(lapsToGo, 5, 17 to go, 4.65 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 7.0/20.4s, 1 line, protected): pitWindowState(openToLatest, now L24, L24/L24/L27, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 9.1/20.4s, 1 line, protected): pitStopsToGo(1, 17 to go)
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 12.2/20.4s, 1 line, protected): fuelStatus(lapsToGo, 5, 17 to go, 4.65 fuel-laps)
+🗣 bulletin (imp 6, cost 4.6s, ledger 16.8/20.4s, 2 lines): L24
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.0/20.4s, 1 line, protected): strategyUpdate(fuel 4.65L, togo 17, stops 1)
+🗑 dropped (chain, ledger full; cost 1.6s, load 19.0/20.4s, 1 events)
+🔧 huge stop 230 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 1191110 lap 24
+🔵 sub-state FLYING → — lap 24
+🔧 pit-entry anchor learned: 87730 ms into lap (stop on lap 24)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+🚪 gate refined: Deep Forest Raceway/customRace/pitEntry (25 samples, σ 0.51 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 0.8/20.4s, 1 line, protected): pittingIn(L24)
+🗑 dropped (in pit): surveyGate(pitEntry, 25)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+📊 strategy: box reached on the ENDING lap (entered L24, counter still L24) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 2184.8 s, remaining 1415.2 s, median lap 90.2 s -> 16 (no-stop 16, pit loss 15.0 s, rate 5 l/s)
+🗣 spoke (pitSequence, imp 2, cost 1.2s, ledger 2.0/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 4.0s, ledger 5.9/20.4s, 1 line, protected): refuelTarget(16 laps)
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🔀 state PIT → RACING at pkt 1192972 lap 25
+🔵 sub-state — → OUT_LAP lap 25
+🅿️ PIT completed: in L24 → out L25 (+48.0 fuel, transit 34.4s, teleport=false)
+🚪 gate refined: Deep Forest Raceway/customRace/pitBox (29 samples, σ 0.05 m, ±0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 29)
+🅿️ entry→box 16.3s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+📋 lap 24: 1:58.784 in fuel_used=3.03
+🔵 lap 24 antics: off
+🗑 dropped (in pit): lapStarted(25, last 118.78s)
+🗑 dropped (in pit): positionChange(P1→P10)
+🔧 teleport 173 m on lap 25 — pit release, not a reset
+📊 laps-left model: elapsed 2202.9 s, remaining 1397.1 s, median lap 90.2 s -> 16 (no-stop 16, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L25: fuel/lap 3.61 | fuel 61.8 = 17.1 laps | 16.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 6.8/20.4s, 1 line, protected): exitingPit(+48.05l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres
+🚪 gate refined: Deep Forest Raceway/customRace/pitExit (29 samples, σ 0.05 m, ±8 m)
+🗺 mapper: lap 24 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 9.5/20.4s, 1 line): surveyGate(pitExit, 29)
+📊 laps-left model: elapsed 2202.9 s, remaining 1382.1 s, median lap 90.2 s -> 16 (no-stop 16, pit loss 15.0 s, rate 5 l/s), out-lap -15.0s
+📊 strategy L25: fuel/lap 3.61 | fuel 61.8 = 17.1 laps | 16.0 laps to go | stops 0 (post-stop recalc)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 12.4/20.4s, 1 line): surveyComplete(0 optional missing)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(plusLaps, 1, 16 to go, 17.11 fuel-laps) | strategyUpdate(fuel 17.11L, togo 16, stops 0, post-stop)
+🗣 spoke (strategy, imp 2, cost 2.7s, ledger 15.0/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 16 to go, 17.11 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 18.0/20.4s, 1 line, protected): strategyUpdate(fuel 17.11L, togo 16, stops 0, post-stop)
+🗑 dropped (cooldown strategy; 13.6s of 75.0s via strategy x0.50): strategyUpdate(fuel 17.11L, togo 16, stops 0)
+🔵 sub-state OUT_LAP → FLYING lap 26
+📋 lap 25: 1:29.441 out fuel_used=3.94
+🔵 lap 25: clean
+📊 laps-left model: elapsed 2292.3 s, remaining 1307.7 s, median lap 90.2 s -> 15 (no-stop 15, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L26: fuel/lap 3.61 | fuel 57.9 = 16.0 laps | 15.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (549 samples, σ 2.01 m, ±8 m)
+🗣 spoke (position, imp 4, cost 2.8s, ledger 2.8/20.4s, 1 line): positionChange(P10→P8)
+🗺 mapper: lap 25 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.5/20.4s, 1 line): surveyGate(finishLine, 549)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 8.6/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 15 to go, 16.02 fuel-laps)
+🗣 bulletin (imp 6, cost 4.9s, ledger 13.5/20.4s, 2 lines): L26
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 17.1/20.4s, 1 line, protected): strategyUpdate(fuel 16.02L, togo 15, stops 0)
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(low, 67°, rearLeft)
+📋 lap 26: 1:28.516 clean fuel_used=3.75
+🔵 lap 26: clean
+📊 laps-left model: elapsed 2380.8 s, remaining 1219.2 s, median lap 90.2 s -> 14 (no-stop 14, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L27: fuel/lap 3.63 | fuel 54.1 = 14.9 laps | 14.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (550 samples, σ 2.01 m, ±8 m)
+🗣 spoke (position, imp 4, cost 3.5s, ledger 3.5/20.4s, 1 line): positionChange(P8→P4)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.2/20.4s, 1 line): surveyGate(finishLine, 550)
+🗺 mapper: learned lap 26 (88.516 s, 4195 m, 839 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 9.9/20.4s, 1 line): surveyLap(26, 88516 ms, 839 pts)
+🗺 session polyline installed from lap 26 (839 pts) — minimap + delta live
+⏱ class lap kept: Deep Forest Raceway/customRace/Gr.3 → 1:28.516 (10/10 laps, 7 car(s), avg 1:28.225)
+🗣 bulletin (imp 2, cost 6.6s, ledger 16.5/20.4s, 2 lines): L27
+🗑 speaker: stale after pause: "that's lap 27"
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 20.0/20.4s, 1 line, protected): strategyUpdate(fuel 14.92L, togo 14, stops 0)
+📋 lap 27: 1:28.451 clean fuel_used=3.77
+🔵 lap 27: clean
+📊 laps-left model: elapsed 2469.3 s, remaining 1130.7 s, median lap 90.1 s -> 13 (no-stop 13, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L28: fuel/lap 3.63 | fuel 50.4 = 13.9 laps | 13.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (551 samples, σ 2.01 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 551)
+🗺 mapper: learned lap 27 (88.451 s, 4190 m, 838 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 5.8/20.4s, 1 line): surveyLap(27, 88451 ms, 838 pts)
+🗺 session polyline installed from lap 27 (838 pts) — minimap + delta live
+⏱ class lap kept: Deep Forest Raceway/customRace/Gr.3 → 1:28.451 (10/10 laps, 7 car(s), avg 1:28.218)
+🗣 bulletin (imp 2, cost 7.7s, ledger 13.5/20.4s, 2 lines): L28
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 17.0/20.4s, 1 line, protected): strategyUpdate(fuel 13.87L, togo 13, stops 0)
+📋 lap 28: 1:28.008 clean fuel_used=3.82
+🔵 lap 28: clean
+📊 laps-left model: elapsed 2557.3 s, remaining 1042.7 s, median lap 90.1 s -> 12 (no-stop 12, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L29: fuel/lap 3.68 | fuel 46.5 = 12.7 laps | 12.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (552 samples, σ 2.01 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 552)
+🗺 mapper: learned lap 28 (88.008 s, 4185 m, 837 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 6.8/20.4s, 1 line): surveyLap(28, 88008 ms, 837 pts)
+🗺 session polyline installed from lap 28 (837 pts) — minimap + delta live
+⏱ class lap kept: Deep Forest Raceway/customRace/Gr.3 → 1:28.008 (10/10 laps, 7 car(s), avg 1:28.174)
+🗣 bulletin (imp 2, cost 6.0s, ledger 12.8/20.4s, 2 lines): L29
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 16.3/20.4s, 1 line, protected): strategyUpdate(fuel 12.66L, togo 12, stops 0)
+📋 lap 29: 1:28.606 clean fuel_used=3.93
+🔵 lap 29: clean
+📊 laps-left model: elapsed 2645.9 s, remaining 954.1 s, median lap 89.3 s -> 11 (no-stop 11, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L30: fuel/lap 3.76 | fuel 42.6 = 11.3 laps | 11.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (553 samples, σ 2.01 m, ±8 m)
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P4→P3)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 7.0/20.4s, 1 line): surveyGate(finishLine, 553)
+🗣 bulletin (imp 6, cost 6.3s, ledger 13.4/20.4s, 2 lines): L30
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 16.9/20.4s, 1 line, protected): strategyUpdate(fuel 11.32L, togo 11, stops 0)
+📋 lap 30: 1:28.312 clean fuel_used=3.95
+🔵 lap 30: clean
+📊 laps-left model: elapsed 2734.2 s, remaining 865.8 s, median lap 88.6 s -> 10 (no-stop 10, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L31: fuel/lap 3.80 | fuel 38.7 = 10.2 laps | 10.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (554 samples, σ 2.00 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 554)
+🗣 bulletin (imp 6, cost 6.7s, ledger 9.3/20.4s, 2 lines): L31
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.8/20.4s, 1 line, protected): strategyUpdate(fuel 10.18L, togo 10, stops 0)
+📋 lap 31: 1:28.600 clean fuel_used=3.90
+🔵 lap 31: clean
+📊 laps-left model: elapsed 2822.8 s, remaining 777.2 s, median lap 88.6 s -> 9 (no-stop 9, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L32: fuel/lap 3.86 | fuel 34.8 = 9.0 laps | 9.0 laps to go | stops 0
+🗣 spoke (position, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): positionChange(P3→P1)
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (555 samples, σ 2.00 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.7/20.4s, 1 line): surveyGate(finishLine, 555)
+🗣 bulletin (imp 6, cost 4.2s, ledger 8.9/20.4s, 2 lines): L32
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.4/20.4s, 1 line, protected): strategyUpdate(fuel 9.01L, togo 9, stops 0)
+📋 lap 32: 1:29.018 clean fuel_used=3.74
+🔵 lap 32: clean
+📊 laps-left model: elapsed 2911.8 s, remaining 688.2 s, median lap 88.6 s -> 8 (no-stop 8, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L33: fuel/lap 3.86 | fuel 31.0 = 8.0 laps | 8.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (556 samples, σ 2.00 m, ±8 m)
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P1→P2)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 7.0/20.4s, 1 line): surveyGate(finishLine, 556)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 9.7/20.4s, 1 line, protected): fuelStatus(lapsToGo, 8, 8 to go, 8.04 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 15.5/20.4s, 2 lines): L33
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 19.0/20.4s, 1 line, protected): strategyUpdate(fuel 8.04L, togo 8, stops 0)
+📋 lap 33: 1:28.630 clean fuel_used=3.67
+🔵 lap 33: clean
+📊 laps-left model: elapsed 3000.5 s, remaining 599.5 s, median lap 88.6 s -> 7 (no-stop 7, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L34: fuel/lap 3.80 | fuel 27.3 = 7.2 laps | 7.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (557 samples, σ 2.00 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 557)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 6.2/20.4s, 1 line, protected): fuelStatus(lapsToGo, 7, 7 to go, 7.20 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 12.0/20.4s, 2 lines): L34
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 15.5/20.4s, 1 line, protected): strategyUpdate(fuel 7.20L, togo 7, stops 0)
+📋 lap 34: 1:28.416 clean fuel_used=3.56
+🔵 lap 34: clean
+📊 laps-left model: elapsed 3088.9 s, remaining 511.1 s, median lap 88.5 s -> 6 (no-stop 6, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L35: fuel/lap 3.80 | fuel 23.8 = 6.3 laps | 6.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (558 samples, σ 2.00 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 558)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 6.2/20.4s, 1 line, protected): fuelStatus(lapsToGo, 6, 6 to go, 6.26 fuel-laps)
+🗣 bulletin (imp 6, cost 5.4s, ledger 11.6/20.4s, 2 lines): L35
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 15.1/20.4s, 1 line, protected): strategyUpdate(fuel 6.26L, togo 6, stops 0)
+📋 lap 35: 1:28.803 clean fuel_used=3.62
+🔵 lap 35: clean
+📊 laps-left model: elapsed 3177.7 s, remaining 422.3 s, median lap 88.6 s -> 5 (no-stop 5, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L36: fuel/lap 3.78 | fuel 20.2 = 5.3 laps | 5.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (559 samples, σ 2.00 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 559)
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 5.8/20.4s, 1 line, protected): fuelStatus(lapsToGo, 5, 5 to go, 5.33 fuel-laps)
+🗣 bulletin (imp 6, cost 6.3s, ledger 12.1/20.4s, 2 lines): L36
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 15.6/20.4s, 1 line, protected): strategyUpdate(fuel 5.33L, togo 5, stops 0)
+📋 lap 36: 1:28.870 clean fuel_used=3.82
+🔵 lap 36: clean
+📊 laps-left model: elapsed 3266.5 s, remaining 333.5 s, median lap 88.6 s -> 4 (no-stop 4, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L37: fuel/lap 3.78 | fuel 16.3 = 4.3 laps | 4.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (560 samples, σ 2.00 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 560)
+🗣 spoke (strategy, imp 2, cost 2.5s, ledger 5.2/20.4s, 1 line, protected): fuelStatus(noMoreStops, 4, 4 to go, 4.32 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 11.0/20.4s, 2 lines): L37
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 14.5/20.4s, 1 line, protected): strategyUpdate(fuel 4.32L, togo 4, stops 0)
+📋 lap 37: 1:29.429 clean fuel_used=3.69
+🔵 lap 37: clean
+📊 laps-left model: elapsed 3356.0 s, remaining 244.0 s, median lap 88.7 s -> 3 (no-stop 3, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L38: fuel/lap 3.72 | fuel 12.6 = 3.4 laps | 3.0 laps to go | stops 0
+🗣 spoke (position, imp 4, cost 1.4s, ledger 1.4/20.4s, 1 line): positionChange(P2→P3)
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (561 samples, σ 2.00 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.0/20.4s, 1 line): surveyGate(finishLine, 561)
+🗣 spoke (strategy, imp 2, cost 1.6s, ledger 5.7/20.4s, 1 line, protected): fuelStatus(noMoreStops, 3, 3 to go, 3.40 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 11.5/20.4s, 2 lines): L38
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 15.0/20.4s, 1 line, protected): strategyUpdate(fuel 3.40L, togo 3, stops 0)
+📋 lap 38: 1:28.640 clean fuel_used=3.80
+🔵 lap 38: clean
+📊 laps-left model: elapsed 3444.6 s, remaining 155.4 s, median lap 88.7 s -> 2 (no-stop 2, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L39: fuel/lap 3.72 | fuel 8.8 = 2.4 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (562 samples, σ 2.00 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 562)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 5.6/20.4s, 1 line, protected): fuelStatus(noMoreStops, 2, 2 to go, 2.38 fuel-laps)
+🗣 bulletin (imp 6, cost 6.7s, ledger 12.2/20.4s, 2 lines): L39
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 15.8/20.4s, 1 line, protected): strategyUpdate(fuel 2.38L, togo 2, stops 0)
+📋 lap 39: 1:29.119 clean fuel_used=3.62
+🔵 lap 39: clean
+📊 laps-left model: elapsed 3533.7 s, remaining 66.3 s, median lap 88.8 s -> 1 (no-stop 1, pit loss 15.0 s, rate 5 l/s)
+📊 strategy L40: fuel/lap 3.68 | fuel 5.2 = 1.4 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (563 samples, σ 2.00 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 563)
+🗣 bulletin (imp 6, cost 4.5s, ledger 7.2/20.4s, 2 lines): L40
+📋 lap 40: 1:28.987 clean fuel_used=3.75
+🔵 lap 40: clean
+📊 strategy: finish armed at L41 (clock 3622.7 s of 3600) — awaiting lap-clock freeze
+📊 laps-left model: elapsed 3622.7 s, remaining -22.7 s, median lap 88.8 s -> 0 (expired)
+📊 strategy L41: fuel/lap 3.68 | fuel 1.5 = 0.4 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (564 samples, σ 1.99 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 564)
+📊 strategy: race finished at L41 — confirmed, lap clock frozen 0.50 s (handover 0.48 s)
+✂️ capture auto-stop in 10s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 5.2/20.4s, 1 line): raceFinished(L41)
+🗑 speaker: 1 queued line(s) preempted by flag
+# --- stopped: 218376 packets
