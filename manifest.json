@@ -195,6 +195,22 @@
       "tyreWearMultiplier": 10
     },
     {
+      "stem": "356-customRace-20260901_222038",
+      "courseId": 356,
+      "track": "Blue Moon Bay Speedway",
+      "context": "customRace",
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 37623,
+      "durationS": 627.0,
+      "rawBytes": 13845264,
+      "gzBytes": 6482136,
+      "hasLog": true,
+      "fuelMultiplier": 1,
+      "tyreWearMultiplier": 8
+    },
+    {
       "stem": "365-customRace-20260725_195705",
       "courseId": 365,
       "track": "Autodrome Lago Maggiore - Full Course",
