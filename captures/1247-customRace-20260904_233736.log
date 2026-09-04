@@ -1,0 +1,173 @@
+# EzioClient session log
+# file:    20260904_233736 - Nürburgring Endurance (1247).gt7td
+# started: 2026-09-04T21:37:36Z
+# track:   Nürburgring Endurance (CRS 1247)
+# car:     Chevrolet Corvette C7 Gr.3 [gr3]
+# context: customRace
+# ---
+📊 pit loss: estimated 22.0 s from the unofficial table (Nürburgring Endurance)
+📊 strategy: track pit loss 22.0 s
+# car:     Ferrari 499P '23 (id 3605) — corrected from telemetry, capture setup declared "Chevrolet Corvette C7 Gr.3"
+🎮 menus → onTrack (pkt 273991, lap 0, flags 0x001D, pos 20, cars 20, tod 62700000)
+🏁 start type: ROLLING_START at pkt 274343 lap 1
+🔀 state UNKNOWN → RACING at pkt 274343 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.00
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 identified: Nürburgring GP (CRS 349) — lap1, 1 sample(s), ±16 m
+🚪 gate learned: Nürburgring Endurance/customRace/lap1 heading 135°
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 2.8/20.4s, 1 line): surveyGate(lap1, 1)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 3.8s, ledger 6.7/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.5s, ledger 6.3/20.4s, 1 events, 1 lines)
+🎭 mood relaxed → focused
+🎭 mood focused → concerned
+🗣 chain (imp 2, cost 2.9s, ledger 2.9/20.4s, 3 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 5.8/20.4s, 1 events, 1 lines)
+🎭 mood concerned → annoyed
+🗣 chain (imp 4, cost 3.4s, ledger 3.4/20.4s, 5 events, 1 lines)
+🗣 chain (imp 1, cost 4.2s, ledger 4.2/20.4s, 4 events, 1 lines)
+🗣 chain (imp 4, cost 2.5s, ledger 6.7/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 9.6/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 1.6s, ledger 7.1/20.4s, 1 events, 1 lines)
+🗣 chain (imp 1, cost 7.9s, ledger 12.5/20.4s, 5 events, 2 lines)
+🗑 speaker: stale, not spoken: "clean laps from here"
+🗑 speaker: stale, not spoken: "please"
+🗣 chain (imp 2, cost 7.5s, ledger 15.4/20.4s, 3 events, 2 lines)
+🗑 speaker: stale after pause: "let's bring it home in one piece"
+🗑 dropped (chain cooldown): 1 event(s)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 7:54.000 first fuel_used=0.00
+📊 strategy L2: no fuel model yet
+🎭 mood annoyed → concerned
+🔵 lap 1 antics: spin, contact, impact, off
+🚪 gate learned: Nürburgring Endurance/customRace/finishLine heading 134°
+🎭 mood concerned → annoyed
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 2.1/20.4s, 1 line): surveyGate(finishLine, 1)
+🗣 bulletin (imp 6, cost 4.5s, ledger 6.6/20.4s, 2 lines): L2
+🎭 mood annoyed → focused
+🗣 chain (imp 4, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 5.4/20.4s, 1 line): tyreTemps(inWindow, 72°)
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 2.9s, ledger 4.6/20.4s, 1 events, 1 lines)
+🎭 mood concerned → focused
+🗣 chain (imp 4, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 5.0/20.4s, 1 events, 1 lines)
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 4.2s, ledger 9.2/20.4s, 2 events, 1 lines)
+🎭 mood concerned → focused
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): tyreTemps(low, 65°)
+🔧 huge stop 177 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔧 teleport 40 m on lap 2 — pending reset-vs-pit (2.5 s)
+🔀 state RACING → PIT at pkt 331814 lap 2
+🔵 sub-state FLYING → — lap 2
+🔧 pit-entry anchor learned: 483633 ms into lap (stop on lap 2)
+🔧 pended impact cancelled: pit entry
+🔧 pended reset cancelled: pit entry
+🚪 gate learned: Nürburgring Endurance/customRace/pitEntry heading 134°
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 4.6/20.4s, 1 line, protected): pittingIn(L2)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+📊 strategy: box reached on the ENDING lap (entered L2, counter still L2) — the lap in progress completes on release, counting it as banked
+🗑 dropped (topic pitSequence; 3.6s of 5.0s, pitSequence reopens in 1.4s): inPitBox
+🗣 spoke (strategy, imp 0, cost 3.1s, ledger 5.6/20.4s, 1 line, protected): refuelTarget(4 laps)
+📋 lap 2: 8:07.245 in fuel_used=0.00
+🔵 lap 2 antics: contact, off
+🗺 mapper: lap 2 rejected (teleport)
+🗑 dropped (in pit): lapStarted(3/6, last 487.25s)
+🔀 state PIT → RACING at pkt 333063 lap 3
+🔵 sub-state — → OUT_LAP lap 3
+🅿️ PIT completed: in L2 → out L3 (no fuel, transit 21.3s, teleport=true)
+🚪 gate learned: Nürburgring Endurance/customRace/pitBox (no heading)
+🅿️ entry→box 4.0s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🔧 teleport 26 m on lap 3 — pit release, not a reset
+📊 strategy L3: no fuel model yet
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 7.2/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres
+🚪 gate learned: Nürburgring Endurance/customRace/pitExit heading 135°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 9.3/20.4s, 1 line): surveyGate(pitExit, 1)
+📊 strategy L3: no fuel model yet
+🎭 mood focused → relaxed
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🗣 chain (imp 4, cost 1.2s, ledger 1.2/20.4s, 1 events, 1 lines)
+🔵 sub-state OUT_LAP → FLYING lap 4
+📋 lap 3: 7:53.705 out fuel_used=0.00
+🔵 lap 3 antics: contact
+📊 strategy L4: no fuel model yet
+🚪 gate refined: Nürburgring Endurance/customRace/finishLine (2 samples, σ 1.10 m, ±16 m)
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P20→P17)
+🗺 mapper: lap 3 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.4/20.4s, 1 line): surveyGate(finishLine, 2)
+🗣 bulletin (imp 6, cost 4.5s, ledger 10.9/20.4s, 2 lines): L4
+🗣 chain (imp 4, cost 1.2s, ledger 1.2/20.4s, 1 events, 1 lines)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+🎭 mood focused → relaxed
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🎭 mood relaxed → focused
+🎭 mood focused → concerned
+🗣 chain (imp 2, cost 2.9s, ledger 2.9/20.4s, 4 events, 1 lines)
+🎭 mood concerned → annoyed
+🗣 chain (imp 4, cost 1.6s, ledger 4.6/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.1s, ledger 3.7/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 5.0/20.4s, 1 events, 1 lines)
+🗣 chain (imp 1, cost 6.6s, ledger 9.6/20.4s, 5 events, 2 lines)
+🗑 dropped (chain cooldown): 1 event(s)
+🗑 speaker: stale after pause: "clean laps from here"
+🗑 speaker: stale, not spoken: "please"
+📋 lap 4: 8:05.996 clean fuel_used=0.00
+🎭 mood annoyed → concerned
+🔵 lap 4 antics: spin, contact, impact, off
+📊 strategy L5: no fuel model yet
+🚪 gate refined: Nürburgring Endurance/customRace/finishLine (3 samples, σ 3.23 m, ±10 m)
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P17→P6)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 7.0/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 4 (485.996 s, 24245 m, 4849 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 9.7/20.4s, 1 line): surveyLap(4, 485996 ms, 4849 pts)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 11.8/20.4s, 1 line): surveyComplete(0 optional missing)
+🗺 session polyline installed from lap 4 (4849 pts) — minimap + delta live
+⏱ class lap BEST: Nürburgring Endurance/customRace/Gr.1 → 8:05.996 (1/10 laps, 1 car(s), avg 8:05.996)
+🗣 bulletin (imp 2, cost 4.3s, ledger 16.1/20.4s, 2 lines): L5
+🗣 spoke (radio, imp 10, cost 2.5s, ledger 18.6/20.4s, 1 line): radioCheck(P6, fuel 100%)
+🗑 speaker: stale after pause: "everything recorded"
+🗑 speaker: stale, not spoken: "all quiet on the wall"
+🎭 mood concerned → relaxed
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🗣 spoke (radio, imp 10, cost 5.8s, ledger 5.8/20.4s, 1 line): radioCheck(P4, fuel 100%)
+📋 lap 5: 7:43.630 clean fuel_used=0.00
+🔵 lap 5: clean
+📊 strategy L6: no fuel model yet
+🚪 gate refined: Nürburgring Endurance/customRace/finishLine (4 samples, σ 5.01 m, ±15 m)
+🗣 spoke (position, imp 4, cost 3.5s, ledger 3.5/20.4s, 1 line): positionChange(P6→P4)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.2/20.4s, 1 line): surveyGate(finishLine, 4)
+🗺 mapper: learned lap 5 (463.630 s, 24190 m, 4838 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 2.8s, ledger 9.0/20.4s, 1 line): surveyLap(5, 463630 ms, 4838 pts)
+🗺 session polyline installed from lap 5 (4838 pts) — minimap + delta live
+⏱ class lap BEST: Nürburgring Endurance/customRace/Gr.1 → 7:43.630 (2/10 laps, 1 car(s), avg 7:54.813)
+🗣 bulletin (imp 2, cost 8.2s, ledger 17.2/20.4s, 2 lines): L6
+🗣 spoke (radio, imp 10, cost 2.5s, ledger 19.7/20.4s, 1 line): radioCheck(P4, fuel 100%)
+🗑 speaker: stale, not spoken: "final lap"
+🗑 speaker: stale, not spoken: "all quiet on the wall"
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🗣 spoke (radio, imp 10, cost 5.4s, ledger 5.4/20.4s, 1 line): radioCheck(P4, fuel 100%)
+📋 lap 6: 7:36.166 clean fuel_used=0.00
+🔵 lap 6: clean
+📊 strategy: finish armed at L7 (lap 7 > 6) — awaiting lap-clock freeze
+📊 strategy L7: no fuel model yet
+🚪 gate refined: Nürburgring Endurance/customRace/finishLine (5 samples, σ 4.50 m, ±13 m)
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P4→P3)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 7.0/20.4s, 1 line): surveyGate(finishLine, 5)
+🗺 mapper: learned lap 6 (456.166 s, 24210 m, 4842 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.3s, ledger 10.3/20.4s, 1 line): surveyLap(6, 456166 ms, 4842 pts)
+🗺 session polyline installed from lap 6 (4842 pts) — minimap + delta live
+⏱ class lap BEST: Nürburgring Endurance/customRace/Gr.1 → 7:36.166 (3/10 laps, 1 car(s), avg 7:48.597)
+📊 strategy: race finished at L7 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 7 lap(s), 1 stop(s), start ROLLING_START, P3/20
+✂️ capture auto-stop in 10s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 11.9/20.4s, 1 line): raceFinished(L7)
+🗑 speaker: 5 queued line(s) preempted by flag
+# --- stopped: 171690 packets

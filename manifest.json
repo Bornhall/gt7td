@@ -627,6 +627,22 @@
       "tyreWearMultiplier": 2
     },
     {
+      "stem": "1247-customRace-20260904_233736",
+      "courseId": 1247,
+      "track": "N\u00fcrburgring Endurance",
+      "context": "customRace",
+      "car": "Ferrari 499P '23",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 171690,
+      "durationS": 2861.5,
+      "rawBytes": 63181920,
+      "gzBytes": 31307608,
+      "hasLog": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 6
+    },
+    {
       "stem": "1249-customRace-20260726_131014",
       "courseId": 1249,
       "track": "Circuit de Barcelona-Catalunya GP Layout No Chicane",
