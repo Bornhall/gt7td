@@ -1,0 +1,31 @@
+{
+  "carId" : 3605,
+  "carName" : "Ferrari 499P '23",
+  "declared" : {
+    "captureContext" : "customRace",
+    "carClass" : "Gr.3",
+    "carId" : 3605,
+    "carName" : "Ferrari 499P '23",
+    "courseId" : 116,
+    "fuelMultiplier" : 5,
+    "mandatoryTyreChange" : false,
+    "mode" : "race",
+    "raceLength" : 60,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 10,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 10,
+    "timeBeforeStart" : 10,
+    "trackName" : "Mount Panorama Motor Racing Circuit",
+    "tyreWearMultiplier" : 5,
+    "weather" : "dry"
+  },
+  "endTime" : 1788625929,
+  "granularity" : 1,
+  "observedDurationS" : 3600,
+  "packetSize" : 368,
+  "startTime" : 1788622231,
+  "trackName" : "Mount Panorama Motor Racing Circuit",
+  "version" : 8
+}

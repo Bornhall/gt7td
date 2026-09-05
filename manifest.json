@@ -163,6 +163,38 @@
       "tyreWearMultiplier": 5
     },
     {
+      "stem": "116-customRace-20260905_173031",
+      "courseId": 116,
+      "track": "Mount Panorama Motor Racing Circuit",
+      "context": "customRace",
+      "car": "Ferrari 499P '23",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 219468,
+      "durationS": 3657.8,
+      "rawBytes": 80764224,
+      "gzBytes": 39518308,
+      "hasLog": true,
+      "fuelMultiplier": 5,
+      "tyreWearMultiplier": 5
+    },
+    {
+      "stem": "116-customRace-20260905_184421",
+      "courseId": 116,
+      "track": "Mount Panorama Motor Racing Circuit",
+      "context": "customRace",
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 58658,
+      "durationS": 977.6,
+      "rawBytes": 21586144,
+      "gzBytes": 10464526,
+      "hasLog": true,
+      "fuelMultiplier": 5,
+      "tyreWearMultiplier": 5
+    },
+    {
       "stem": "349-customRace-20260725_212313",
       "courseId": 349,
       "track": "N\u00fcrburgring GP",

@@ -1,0 +1,30 @@
+{
+  "carId" : 2183,
+  "carName" : "Chevrolet Corvette C7 Gr.3",
+  "declared" : {
+    "captureContext" : "customRace",
+    "carClass" : "Gr.3",
+    "carId" : 2183,
+    "carName" : "Chevrolet Corvette C7 Gr.3",
+    "courseId" : 116,
+    "fuelMultiplier" : 5,
+    "mandatoryTyreChange" : false,
+    "mode" : "race",
+    "raceLength" : 60,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 10,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 20,
+    "trackName" : "Mount Panorama Motor Racing Circuit",
+    "tyreWearMultiplier" : 5,
+    "weather" : "dry"
+  },
+  "endTime" : 1788627663,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1788626661,
+  "trackName" : "Mount Panorama Motor Racing Circuit",
+  "version" : 8
+}
