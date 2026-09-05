@@ -783,6 +783,11 @@
       "file": "reference/trackmaps/356.trackmap.json",
       "versions": [
         {
+          "context": "customRace",
+          "lengthM": 3225,
+          "points": 645
+        },
+        {
           "context": "lobby",
           "lengthM": 3235,
           "points": 647
@@ -819,14 +824,14 @@
       "file": "reference/trackmaps/365.trackmap.json",
       "versions": [
         {
-          "context": "lobby",
-          "lengthM": 5705,
-          "points": 1141
-        },
-        {
           "context": "customRace",
           "lengthM": 5720,
           "points": 1144
+        },
+        {
+          "context": "lobby",
+          "lengthM": 5705,
+          "points": 1141
         }
       ]
     },
@@ -1245,6 +1250,18 @@
       ]
     },
     {
+      "courseId": 1247,
+      "track": "N\u00fcrburgring Endurance",
+      "file": "reference/trackmaps/1247.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 24210,
+          "points": 4842
+        }
+      ]
+    },
+    {
       "courseId": 1249,
       "track": "Circuit de Barcelona-Catalunya GP Layout No Chicane",
       "file": "reference/trackmaps/1249.trackmap.json",
@@ -1273,61 +1290,11 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 51,
+      "records": 56,
       "courses": [
         4,
         11,
-        116,
-        119,
-        346,
-        354,
-        356,
-        357,
-        363,
-        365,
-        376,
-        444,
-        449,
-        454,
-        462,
-        469,
-        470,
-        471,
-        601,
-        602,
-        790,
-        791,
-        792,
-        793,
-        794,
-        795,
-        819,
-        820,
-        822,
-        823,
-        846,
-        847,
-        853,
-        896,
-        898,
-        1007,
-        1069,
-        1163,
-        1226,
-        1231,
-        1232,
-        1233,
-        1249
-      ],
-      "updated": 1785273793
-    },
-    "learnedgates": {
-      "file": "reference/learnedgates.json",
-      "schemaVersion": 2,
-      "gates": 264,
-      "courses": [
-        4,
-        11,
+        51,
         116,
         119,
         346,
@@ -1369,6 +1336,61 @@
         1231,
         1232,
         1233,
+        1247,
+        1249
+      ],
+      "updated": 1788601898
+    },
+    "learnedgates": {
+      "file": "reference/learnedgates.json",
+      "schemaVersion": 2,
+      "gates": 284,
+      "courses": [
+        4,
+        11,
+        51,
+        116,
+        119,
+        346,
+        349,
+        354,
+        356,
+        357,
+        363,
+        365,
+        376,
+        444,
+        449,
+        454,
+        462,
+        469,
+        470,
+        471,
+        601,
+        602,
+        790,
+        791,
+        792,
+        793,
+        794,
+        795,
+        819,
+        820,
+        822,
+        823,
+        846,
+        847,
+        853,
+        896,
+        898,
+        1007,
+        1069,
+        1163,
+        1226,
+        1231,
+        1232,
+        1233,
+        1247,
         1249,
         1264
       ],
@@ -1382,16 +1404,17 @@
       "contexts": [
         "customRace",
         "lobby",
-        "timeTrial"
+        "timeTrial",
+        "unknown"
       ],
-      "withHeading": 163,
-      "updated": 1785273793,
+      "withHeading": 178,
+      "updated": 1788601983,
       "tolerance": {
-        "gatesWithWidth": 163,
+        "gatesWithWidth": 178,
         "minM": 8,
-        "medianM": 16,
-        "maxM": 16,
-        "atFloor": 24,
+        "medianM": 16.0,
+        "maxM": 19.8,
+        "atFloor": 55,
         "atCap": 0
       }
     }
