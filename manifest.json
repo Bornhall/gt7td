@@ -243,6 +243,22 @@
       "tyreWearMultiplier": 5
     },
     {
+      "stem": "116-customRace-20260907_202833",
+      "courseId": 116,
+      "track": "Mount Panorama Motor Racing Circuit",
+      "context": "customRace",
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 221623,
+      "durationS": 3693.7,
+      "rawBytes": 81557264,
+      "gzBytes": 40096026,
+      "hasLog": true,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 5
+    },
+    {
       "stem": "349-customRace-20260725_212313",
       "courseId": 349,
       "track": "N\u00fcrburgring GP",
