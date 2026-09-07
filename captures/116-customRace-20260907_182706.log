@@ -1,0 +1,364 @@
+# EzioClient session log
+# file:    20260907_182706 - Mount Panorama Motor Racing Circuit (116).gt7td
+# started: 2026-09-07T16:27:06Z
+# track:   Mount Panorama Motor Racing Circuit (CRS 116)
+# car:     Chevrolet Corvette C7 Gr.3 [gr3]
+# context: customRace
+# ---
+# car:     Chevrolet Corvette C7 Gr.3 (id 2183) — confirmed from telemetry
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 23.5 s from the unofficial table (Mount Panorama Motor Racing Circuit)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=6 eff=6 budget=14 cd=x1.25 lock=60.0->75.0s ttl=6s
+🧭 polyline [MENU]: 2 candidate(s) dropped on direction — best of them Watkins Glen Short Course median 353.46 (alignment -0.79)
+🧭 polyline [MENU]: Mount Panorama Motor Racing Circuit (CRS 116, map ctx lobby) median 2.05 m, p90 2.76 m, 2% of lap, 30 samples, alignment +1.00 — next course Circuit de Spa-Francorchamps median 41.02/p90 79.49
+🧭 polyline agrees with the declared course (CRS 116)
+🎮 menus → onTrack (pkt 2213515, lap 0, flags 0x0009, pos 10, cars 20, tod 59820000)
+🏁 start type: ROLLING_START at pkt 2213868 lap 1
+🔀 state UNKNOWN → RACING at pkt 2213868 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.17
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 learned: 4 gates matched, all Mount Panorama Motor Racing Circuit — using the finishLine gate (89 samples)
+🧭 identified: Mount Panorama Motor Racing Circuit (CRS 116) — finishLine, 89 sample(s), ±8 m
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/lap1 (10 samples, σ 1.15 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.3/20.4s, 1 line): surveyGate(lap1, 10)
+🗣 chain (imp 4, cost 1.2s, ledger 1.2/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 2:11.869 first fuel_used=5.76
+🔵 lap 1 antics: contact, off
+📊 strategy L2: fuel/lap 5.76, 16.3 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (90 samples, σ 2.38 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 90)
+🗣 bulletin (imp 6, cost 5.6s, ledger 8.3/20.4s, 2 lines): L2
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+📋 lap 2: 2:09.053 clean fuel_used=5.87
+🔵 lap 2 antics: contact
+📊 laps-left model: elapsed 261.3 s, remaining 3338.7 s, median lap 129.1 s -> 26 (no-stop 26, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L3: fuel/lap 5.81 | fuel 88.2 = 15.2 laps | 26.0 laps to go | stops 1
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (91 samples, σ 2.37 m, ±8 m)
+🗺 mapper: learned lap 2 (129.053 s, 6155 m, 1231 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.4s, ledger 7.3/20.4s, 1 line): surveyLap(2, 129053 ms, 1231 pts)
+🗺 session polyline installed from lap 2 (1231 pts) — minimap + delta live
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 10.4/20.4s, 1 line): surveyComplete(3 optional missing)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L12/L14/L17, stops 1) | pitWindowState(beforeOpen, now L3, L12/L14/L17, stops 1) | pitStopsToGo(1, 26 to go)
+🗣 spoke (strategy, imp 2, cost 2.8s, ledger 13.2/20.4s, 1 line, protected): pitWindow(L12/L14/L17, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 15.9/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L3, L12/L14/L17, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 18.0/20.4s, 1 line, protected): pitStopsToGo(1, 26 to go)
+🗑 dropped (bulletin, ledger full; cost 4.3s, load 18.0/20.4s, 2 lines): L3
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 20.2/20.4s, 1 line): radioCheck(P3, fuel 88%)
+🗑 speaker: stale, not spoken: "radio check"
+🗑 speaker: stale, not spoken: "P 3"
+🗑 dropped (chain, ledger full; cost 2.1s, load 20.2/20.4s, 2 events)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.5/20.4s, 1 line, protected): strategyUpdate(fuel 15.17L, togo 26, stops 1)
+🗣 chain (imp 4, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+📋 lap 3: 2:11.286 clean fuel_used=6.01
+🔵 lap 3 antics: contact
+📊 laps-left model: elapsed 392.7 s, remaining 3207.3 s, median lap 130.2 s -> 25 (no-stop 25, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L4: fuel/lap 5.87 | fuel 82.2 = 14.0 laps | 25.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P3→P4)
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (92 samples, σ 2.35 m, ±8 m)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 14, 25 to go, 14.01 fuel-laps) | pitWindowState(beforeOpen, now L4, L12/L14/L17, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 6.9/20.4s, 1 line, protected): fuelStatus(extendStint, 14, 25 to go, 14.01 fuel-laps)
+🗑 dropped (unchanged; said 131s ago, repeats after 300s): pitWindowState(beforeOpen, now L4, L12/L14/L17, stops 1, close)
+🗣 bulletin (imp 6, cost 5.2s, ledger 12.1/20.4s, 2 lines): L4
+🗣 spoke (radio, imp 10, cost 2.5s, ledger 14.6/20.4s, 1 line): radioCheck(P4, fuel 82%)
+🎭 mood focused → relaxed
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.8/20.4s, 1 line, protected): strategyUpdate(fuel 14.01L, togo 25, stops 1)
+🎭 mood relaxed → focused
+🗣 chain (imp 1, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 3.8s, ledger 7.6/20.4s, 1 events, 1 lines)
+🎭 mood concerned → focused
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+📋 lap 4: 2:19.080 clean fuel_used=5.27
+🔵 lap 4 antics: contact, impact, off
+📊 laps-left model: elapsed 531.9 s, remaining 3068.1 s, median lap 131.3 s -> 24 (no-stop 24, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L5: fuel/lap 5.81 | fuel 76.9 = 13.2 laps | 24.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 2.2s, ledger 5.2/20.4s, 1 line): positionChange(P4→P12)
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (93 samples, σ 2.34 m, ±8 m)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 9.1/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L5, L12/L14/L17, stops 1)
+🗣 bulletin (imp 6, cost 5.4s, ledger 14.5/20.4s, 2 lines): L5
+🗑 dropped (unchanged; said 139s ago, repeats after 300s): radioCheck(P12, fuel 76%)
+🗣 chain (imp 6, cost 2.1s, ledger 16.5/20.4s, 1 events, 1 lines)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 18.8/20.4s, 1 line, protected): strategyUpdate(fuel 13.23L, togo 24, stops 1)
+📋 lap 5: 2:10.882 clean fuel_used=6.17
+🎭 mood focused → relaxed
+🔵 lap 5: clean
+📊 laps-left model: elapsed 662.9 s, remaining 2937.1 s, median lap 131.1 s -> 23 (no-stop 23, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L6: fuel/lap 5.87 | fuel 70.8 = 12.1 laps | 23.0 laps to go | stops 1
+🗣 spoke (lapPace, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): paceDegradation(1.33s/lap over 4)
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (94 samples, σ 2.34 m, ±8 m)
+🗣 spoke (position, imp 4, cost 4.4s, ledger 6.9/20.4s, 1 line): positionChange(P12→P11)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 12, 23 to go, 12.06 fuel-laps) | pitWindowState(beforeOpen, now L6, L12/L14/L17, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 10.6/20.4s, 1 line, protected): fuelStatus(extendStint, 12, 23 to go, 12.06 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 13.3/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L6, L12/L14/L17, stops 1, close)
+🗣 bulletin (imp 6, cost 4.1s, ledger 17.4/20.4s, 2 lines): L6
+🗑 dropped (unchanged; said 270s ago, repeats after 300s): radioCheck(P11, fuel 70%)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.6/20.4s, 1 line, protected): strategyUpdate(fuel 12.06L, togo 23, stops 1)
+📋 lap 6: 2:09.186 clean fuel_used=6.01
+🔵 lap 6: clean
+📊 laps-left model: elapsed 792.2 s, remaining 2807.8 s, median lap 130.9 s -> 22 (no-stop 22, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L7: fuel/lap 5.94 | fuel 64.7 = 10.9 laps | 22.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P11→P9)
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (95 samples, σ 2.33 m, ±8 m)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 10, 22 to go, 10.90 fuel-laps) | pitWindowState(beforeOpen, now L7, L12/L14/L16, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 8.3/20.4s, 1 line, protected): fuelStatus(extendStint, 10, 22 to go, 10.90 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 12.3/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L7, L12/L14/L16, stops 1, close)
+🗣 bulletin (imp 6, cost 4.6s, ledger 16.9/20.4s, 2 lines): L7
+🗣 spoke (radio, imp 10, cost 2.5s, ledger 19.4/20.4s, 1 line): radioCheck(P9, fuel 64%)
+🎭 mood relaxed → focused
+🗑 speaker: stale, not spoken: "all quiet on the wall"
+🗑 dropped (chain, ledger full; cost 1.2s, load 19.4/20.4s, 1 events)
+🎭 mood focused → relaxed
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 21.6/20.4s, 1 line, protected): strategyUpdate(fuel 10.90L, togo 22, stops 1)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🗣 chain (imp 6, cost 4.6s, ledger 7.6/20.4s, 1 events, 1 lines)
+📋 lap 7: 2:09.823 clean fuel_used=6.02
+🎭 mood focused → relaxed
+🔵 lap 7 antics: contact, off, gained 2
+📊 laps-left model: elapsed 922.2 s, remaining 2677.8 s, median lap 130.4 s -> 21 (no-stop 21, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L8: fuel/lap 6.01 | fuel 58.7 = 9.8 laps | 21.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 1.4s, ledger 1.4/20.4s, 1 line): positionChange(P9→P5)
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (96 samples, σ 2.31 m, ±8 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L8, L12/L14/L16, stops 1) | pitStopsToGo(1, 21 to go)
+🗑 dropped (unchanged; said 130s ago, repeats after 300s): pitWindowState(beforeOpen, now L8, L12/L14/L16, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 3.4/20.4s, 1 line, protected): pitStopsToGo(1, 21 to go)
+🗣 bulletin (imp 6, cost 6.3s, ledger 9.8/20.4s, 2 lines): L8
+🗑 dropped (unchanged; said 130s ago, repeats after 300s): radioCheck(P5, fuel 58%)
+🎭 mood relaxed → focused
+🗣 chain (imp 6, cost 3.4s, ledger 13.1/20.4s, 1 events, 1 lines)
+🎭 mood focused → relaxed
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.3/20.4s, 1 line, protected): strategyUpdate(fuel 9.77L, togo 21, stops 1)
+📋 lap 8: 2:08.672 clean fuel_used=5.85
+🔵 lap 8: clean
+📊 laps-left model: elapsed 1051.0 s, remaining 2549.0 s, median lap 129.8 s -> 20 (no-stop 20, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L9: fuel/lap 5.94 | fuel 52.9 = 8.9 laps | 20.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 2.8s, ledger 2.8/20.4s, 1 line): positionChange(P5→P3)
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (97 samples, σ 2.32 m, ±8 m)
+🗺 mapper: learned lap 8 (128.672 s, 6160 m, 1232 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.5s, ledger 6.4/20.4s, 1 line): surveyLap(8, 128672 ms, 1232 pts)
+🗺 session polyline installed from lap 8 (1232 pts) — minimap + delta live
+⏱ class lap kept: Mount Panorama Motor Racing Circuit/customRace/Gr.3 → 2:08.672 (3/10 laps, 1 car(s), avg 2:06.770)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 8, 20 to go, 8.91 fuel-laps) | pitWindowState(beforeOpen, now L9, L12/L14/L16, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 10.1/20.4s, 1 line, protected): fuelStatus(extendStint, 8, 20 to go, 8.91 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 12.8/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L9, L12/L14/L16, stops 1, close)
+🗣 bulletin (imp 2, cost 6.0s, ledger 18.8/20.4s, 2 lines): L9
+🗑 dropped (unchanged; said 259s ago, repeats after 300s): radioCheck(P3, fuel 52%)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 21.1/20.4s, 1 line, protected): strategyUpdate(fuel 8.91L, togo 20, stops 1)
+🗣 chain (imp 4, cost 2.5s, ledger 4.7/20.4s, 1 events, 1 lines)
+📋 lap 9: 2:08.162 clean fuel_used=5.87
+🔵 lap 9 antics: contact, gained 2
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P3→P2)
+📊 laps-left model: elapsed 1179.3 s, remaining 2420.7 s, median lap 129.5 s -> 19 (no-stop 19, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L10: fuel/lap 5.94 | fuel 47.0 = 7.9 laps | 19.0 laps to go | stops 1
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (98 samples, σ 2.31 m, ±8 m)
+🗺 mapper: learned lap 9 (128.162 s, 6150 m, 1230 pts) — installing as session polyline
+🗺 session polyline installed from lap 9 (1230 pts) — minimap + delta live
+🗣 spoke (radio, imp 0, cost 4.5s, ledger 6.8/20.4s, 1 line): surveyLap(9, 128162 ms, 1230 pts)
+⏱ class lap kept: Mount Panorama Motor Racing Circuit/customRace/Gr.3 → 2:08.162 (3/10 laps, 1 car(s), avg 2:06.600)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 7, 19 to go, 7.92 fuel-laps) | pitWindowState(beforeOpen, now L10, L12/L14/L16, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 10.6/20.4s, 1 line, protected): fuelStatus(extendStint, 7, 19 to go, 7.92 fuel-laps)
+🗑 dropped (unchanged; said 128s ago, repeats after 300s): pitWindowState(beforeOpen, now L10, L12/L14/L16, stops 1, close)
+🗣 bulletin (imp 2, cost 6.0s, ledger 16.6/20.4s, 2 lines): L10
+🗣 spoke (radio, imp 10, cost 2.5s, ledger 19.1/20.4s, 1 line): radioCheck(P2, fuel 47%)
+🗑 speaker: stale, not spoken: "all quiet on the wall"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 21.3/20.4s, 1 line, protected): strategyUpdate(fuel 7.92L, togo 19, stops 1)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🗣 chain (imp 6, cost 3.4s, ledger 5.0/20.4s, 1 events, 1 lines)
+📋 lap 10: 2:08.078 clean fuel_used=5.96
+🎭 mood focused → relaxed
+🔵 lap 10 antics: contact, gained 1
+📊 laps-left model: elapsed 1307.5 s, remaining 2292.5 s, median lap 129.5 s -> 18 (no-stop 18, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L11: fuel/lap 5.98 | fuel 41.0 = 6.9 laps | 18.0 laps to go | stops 1
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (99 samples, σ 2.31 m, ±8 m)
+🗺 mapper: learned lap 10 (128.078 s, 6150 m, 1230 pts) — installing as session polyline
+🗺 session polyline installed from lap 10 (1230 pts) — minimap + delta live
+⏱ class lap kept: Mount Panorama Motor Racing Circuit/customRace/Gr.3 → 2:08.078 (3/10 laps, 1 car(s), avg 2:06.572)
+🗣 spoke (radio, imp 0, cost 5.1s, ledger 5.1/20.4s, 1 line): surveyLap(10, 128078 ms, 1230 pts)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L11, L12/L14/L16, stops 1) | fuelStatus(lapsToGo, 7, 18 to go, 6.86 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 9.5/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L11, L12/L14/L16, stops 1)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 13.5/20.4s, 1 line, protected): fuelStatus(lapsToGo, 7, 18 to go, 6.86 fuel-laps)
+🗣 bulletin (imp 2, cost 6.0s, ledger 19.5/20.4s, 2 lines): L11
+🗑 dropped (ledger full; cost 2.2s, load 19.5/20.4s): radioCheck(P2, fuel 41%)
+🗑 speaker: stale after pause: "lap 11 now"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 21.7/20.4s, 1 line, protected): strategyUpdate(fuel 6.86L, togo 18, stops 1)
+📋 lap 11: 2:08.199 clean fuel_used=5.83
+📊 laps-left model: elapsed 1435.8 s, remaining 2164.2 s, median lap 128.9 s -> 17 (no-stop 17, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L12: fuel/lap 5.91 | fuel 35.2 = 6.0 laps | 17.0 laps to go | stops 1
+🔵 lap 11: clean
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (100 samples, σ 2.30 m, ±8 m)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 5, 17 to go, 5.95 fuel-laps) | pitWindowState(openTargetAhead, now L12, L12/L14/L16, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 7.6s, ledger 7.6/20.4s, 1 line, protected): fuelStatus(extendStint, 5, 17 to go, 5.95 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 11.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L12, L12/L14/L16, stops 1, close)
+🗣 bulletin (imp 6, cost 4.6s, ledger 15.8/20.4s, 2 lines): L12
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 18.0/20.4s, 1 line): radioCheck(P2, fuel 35%)
+🗑 speaker: stale, not spoken: "P 2"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 20.2/20.4s, 1 line, protected): strategyUpdate(fuel 5.95L, togo 17, stops 1)
+🗣 chain (imp 4, cost 1.2s, ledger 3.4/20.4s, 1 events, 1 lines)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+🗣 chain (imp 6, cost 3.4s, ledger 7.1/20.4s, 1 events, 1 lines)
+📋 lap 12: 2:08.878 clean fuel_used=5.93
+🔵 lap 12 antics: contact
+🗣 spoke (position, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): positionChange(P2→P1)
+📊 laps-left model: elapsed 1564.8 s, remaining 2035.2 s, median lap 128.8 s -> 16 (no-stop 16, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L13: fuel/lap 5.95 | fuel 29.3 = 4.9 laps | 16.0 laps to go | stops 1
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (101 samples, σ 2.29 m, ±8 m)
+📋 strategy burst: 3 event(s), releasing best-first — fuelStatus(extendStint, 4, 16 to go, 4.92 fuel-laps) | pitWindowState(openTargetAhead, now L13, L13/L14/L16, stops 1, close) | pitStopsToGo(1, 16 to go)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 6.7/20.4s, 1 line, protected): fuelStatus(extendStint, 4, 16 to go, 4.92 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 11.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L13, L13/L14/L16, stops 1, close)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 13.7/20.4s, 1 line, protected): pitStopsToGo(1, 16 to go)
+🗣 bulletin (imp 6, cost 4.6s, ledger 18.3/20.4s, 2 lines): L13
+🗑 dropped (ledger full; cost 2.5s, load 18.3/20.4s): radioCheck(P1, fuel 29%)
+🎭 mood focused → relaxed
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 20.6/20.4s, 1 line, protected): strategyUpdate(fuel 4.92L, togo 16, stops 1)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+📋 lap 13: 2:08.814 clean fuel_used=5.93
+🎭 mood focused → relaxed
+🔵 lap 13 antics: contact, gained 1
+📊 laps-left model: elapsed 1693.8 s, remaining 1906.2 s, median lap 128.7 s -> 15 (no-stop 15, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L14: fuel/lap 5.93 | fuel 23.3 = 3.9 laps | 15.0 laps to go | stops 1
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (102 samples, σ 2.28 m, ±8 m)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 3, 15 to go, 3.93 fuel-laps) | pitWindowState(openToLatest, now L14, L14/L14/L16, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 3.8/20.4s, 1 line, protected): fuelStatus(extendStint, 3, 15 to go, 3.93 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 8.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L14, L14/L14/L16, stops 1, close)
+🗣 bulletin (imp 6, cost 4.2s, ledger 12.3/20.4s, 2 lines): L14
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 14.6/20.4s, 1 line): radioCheck(P1, fuel 23%)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.8/20.4s, 1 line, protected): strategyUpdate(fuel 3.93L, togo 15, stops 1)
+📋 lap 14: 2:07.891 clean fuel_used=5.47
+🔵 lap 14: clean
+📊 laps-left model: elapsed 1821.8 s, remaining 1778.2 s, median lap 128.4 s -> 14 (no-stop 14, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L15: fuel/lap 5.90 | fuel 17.9 = 3.0 laps | 14.0 laps to go | stops 1
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (103 samples, σ 2.27 m, ±8 m)
+🗺 mapper: learned lap 14 (127.891 s, 6155 m, 1231 pts) — installing as session polyline
+🗺 session polyline installed from lap 14 (1231 pts) — minimap + delta live
+⏱ class lap kept: Mount Panorama Motor Racing Circuit/customRace/Gr.3 → 2:07.891 (3/10 laps, 1 car(s), avg 2:06.510)
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 4.1/20.4s, 1 line): surveyLap(14, 127891 ms, 1231 pts)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 3, 14 to go, 3.03 fuel-laps) | pitWindowState(openToLatest, now L15, L15/L15/L17, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 8.8/20.4s, 1 line, protected): fuelStatus(extendStint, 3, 14 to go, 3.03 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 12.7/20.4s, 1 line, protected): pitWindowState(openToLatest, now L15, L15/L15/L17, stops 1, close)
+🗣 bulletin (imp 2, cost 5.6s, ledger 18.3/20.4s, 2 lines): L15
+🗑 dropped (unchanged; said 128s ago, repeats after 300s): radioCheck(P1, fuel 17%)
+🗑 speaker: stale after pause: "lap 15"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 20.5/20.4s, 1 line, protected): strategyUpdate(fuel 3.03L, togo 14, stops 1)
+🎭 mood relaxed → focused
+🗣 chain (imp 1, cost 3.8s, ledger 6.0/20.4s, 1 events, 1 lines)
+🗣 chain (imp 6, cost 3.4s, ledger 3.4/20.4s, 1 events, 1 lines)
+🔧 huge stop 105 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🗣 chain (imp 6, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+🔀 state RACING → PIT at pkt 2331309 lap 15
+🔵 sub-state FLYING → — lap 15
+🔧 pit-entry anchor learned: 137393 ms into lap (stop on lap 15)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 1959.3 s, remaining 1640.7 s, median lap 128.4 s -> 13 (no-stop 13, pit loss 23.5 s, rate 10 l/s)
+📊 strategy: refuel still needed — 2.1 laps of fuel against 13 to go (need 14.7 with margin)
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/pitEntry (8 samples, σ 0.20 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.9s, ledger 5.0/20.4s, 1 line, protected): pittingIn(L15)
+🗑 dropped (in pit): surveyGate(pitEntry, 8)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+📋 lap 15: 2:35.343 in fuel_used=5.39
+🎭 mood focused → relaxed
+🗺 mapper: lap 15 rejected (pit)
+🔵 lap 15 antics: impact
+🗑 dropped (in pit): lapStarted(16, last 155.34s)
+🗑 dropped (in pit): positionChange(P1→P3)
+🗑 dropped (in pit): tyreTemps(low, 65°)
+📊 laps-left model: elapsed 1979.0 s, remaining 1621.0 s, median lap 128.4 s -> 13 (no-stop 13, pit loss 23.5 s, rate 10 l/s)
+🗣 spoke (pitSequence, imp 2, cost 2.5s, ledger 7.5/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 3.1s, ledger 10.6/20.4s, 1 line, protected): refuelTarget(13 laps)
+🔀 state PIT → RACING at pkt 2333400 lap 16
+🔵 sub-state — → OUT_LAP lap 16
+🅿️ PIT completed: in L15 → out L16 (+87.5 fuel, transit 38.2s, teleport=false)
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/pitBox (8 samples, σ 0.00 m, ±0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 8)
+🅿️ entry→box 23.0s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 teleport 205 m on lap 16 — pit release, not a reset
+📊 laps-left model: elapsed 1994.2 s, remaining 1605.8 s, median lap 128.4 s -> 13 (no-stop 13, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L16: fuel/lap 5.90 | fuel 100.0 = 16.9 laps | 13.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 3.4s, ledger 8.9/20.4s, 1 line, protected): exitingPit(+87.51l)
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/pitExit (8 samples, σ 0.00 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 11.6/20.4s, 1 line): surveyGate(pitExit, 8)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 14.5/20.4s, 1 line): surveyComplete(0 optional missing)
+📊 laps-left model: elapsed 1994.2 s, remaining 1582.3 s, median lap 128.4 s -> 13 (no-stop 13, pit loss 23.5 s, rate 10 l/s), out-lap -23.5s
+📊 strategy L16: fuel/lap 5.90 | fuel 100.0 = 16.9 laps | 13.0 laps to go | stops 0 (post-stop recalc)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(plusLaps, 3, 13 to go, 16.94 fuel-laps) | strategyUpdate(fuel 16.94L, togo 13, stops 0, post-stop)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 17.6/20.4s, 1 line, protected): fuelStatus(plusLaps, 3, 13 to go, 16.94 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 20.5/20.4s, 1 line, protected): strategyUpdate(fuel 16.94L, togo 13, stops 0, post-stop)
+🗑 dropped (cooldown strategy; 2.4s of 75.0s via strategy x0.50): strategyUpdate(fuel 16.94L, togo 13, stops 0)
+🔧 fresh tyres confirmed: 59.3° across all four (was 67.3° at pit entry, step 8.0°)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 16.6/20.4s, 1 line, protected): freshTyres(confirmed 59.31°)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.2s, ledger 1.2/20.4s, 2 events, 1 lines)
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 3.4/20.4s, 1 line): radioCheck(P17, fuel 97%)
+🔵 sub-state OUT_LAP → FLYING lap 17
+📋 lap 16: 2:22.682 out fuel_used=5.77
+🔵 lap 16 antics: contact, lost 2
+📊 laps-left model: elapsed 2120.1 s, remaining 1479.9 s, median lap 128.4 s -> 12 (no-stop 12, pit loss 23.5 s, rate 10 l/s)
+📊 strategy L17: fuel/lap 5.86 | fuel 94.2 = 16.1 laps | 12.0 laps to go | stops 0
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P3→P16)
+🚪 gate refined: Mount Panorama Motor Racing Circuit/customRace/finishLine (104 samples, σ 2.27 m, ±8 m)
+🗺 mapper: lap 16 rejected (teleport)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 7.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 4, 12 to go, 16.09 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 13.3/20.4s, 2 lines): L17
+🗣 spoke (radio, imp 10, cost 2.5s, ledger 15.8/20.4s, 1 line): radioCheck(P16, fuel 94%)
+🗑 speaker: stale, not spoken: "all quiet on the wall"
+🎭 mood focused → relaxed
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 19.3/20.4s, 1 line, protected): strategyUpdate(fuel 16.09L, togo 12, stops 0)
+🗣 spoke (tyres, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.2s, ledger 4.3/20.4s, 1 events, 1 lines)
+🗣 chain (imp 6, cost 3.4s, ledger 7.7/20.4s, 1 events, 1 lines)
+🎭 mood focused → concerned
+🎭 mood concerned → annoyed
+🗣 chain (imp 2, cost 8.8s, ledger 8.8/20.4s, 7 events, 2 lines)
+🗑 speaker: stale, not spoken: "we need the car in one piece"
+🔄 new session on the same connection — resetting track-scoped state
+💾 race preserved (leftRace): 17 lap(s), 1 stop(s), start ROLLING_START, P65535/65535
+🧭 learned pool: 120 gate(s) from 290 stored
+📊 strategy: reset
+📊 pit loss: estimated 23.5 s from the unofficial table (Mount Panorama Motor Racing Circuit)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=6 eff=6 budget=14 cd=x1.25 lock=60.0->75.0s ttl=6s
+🎮 onTrack → menus (pkt 2348468, lap 0, flags 0x018C, pos —, cars —, tod 59820000)
+🎮 back to the menus — ending the session
+📊 strategy: reset
+📊 pit loss: estimated 23.5 s from the unofficial table (Mount Panorama Motor Racing Circuit)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=6 eff=6 budget=14 cd=x1.25 lock=60.0->75.0s ttl=6s
+✂️ capture auto-stop in 20s (driver off track / not in control)
+🧭 polyline [MENU]: 2 candidate(s) dropped on direction — best of them Watkins Glen Short Course median 353.40 (alignment -0.79)
+🧭 polyline [MENU]: Mount Panorama Motor Racing Circuit (CRS 116, map ctx lobby) median 1.97 m, p90 2.76 m, 2% of lap, 30 samples, alignment +1.00 — next course Circuit de Spa-Francorchamps median 41.05/p90 79.49
+🧭 polyline agrees with the declared course (CRS 116)
+# --- stopped: 137190 packets
