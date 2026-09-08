@@ -3,6 +3,22 @@
   "note": "gzipped decoded C-packets, 368 B each, back to back",
   "captures": [
     {
+      "stem": "41-customRace-20260908_230318",
+      "courseId": 41,
+      "track": "WeatherTech Raceway Laguna Seca",
+      "context": "customRace",
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 27751,
+      "durationS": 462.5,
+      "rawBytes": 10212368,
+      "gzBytes": 5095115,
+      "hasLog": true,
+      "fuelMultiplier": 4,
+      "tyreWearMultiplier": 2
+    },
+    {
       "stem": "51-customRace-20260817_221417",
       "courseId": 51,
       "track": "Deep Forest Raceway",

@@ -1,0 +1,30 @@
+{
+  "carId" : 2183,
+  "carName" : "Chevrolet Corvette C7 Gr.3",
+  "declared" : {
+    "captureContext" : "customRace",
+    "carClass" : "Gr.3",
+    "carId" : 2183,
+    "carName" : "Chevrolet Corvette C7 Gr.3",
+    "courseId" : 41,
+    "fuelMultiplier" : 4,
+    "mandatoryTyreChange" : false,
+    "mode" : "race",
+    "raceLength" : 60,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 15,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 20,
+    "timeBeforeStart" : 20,
+    "trackName" : "WeatherTech Raceway Laguna Seca",
+    "tyreWearMultiplier" : 2,
+    "weather" : "dry"
+  },
+  "endTime" : 1788901876,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1788901398,
+  "trackName" : "WeatherTech Raceway Laguna Seca",
+  "version" : 8
+}
