@@ -1,0 +1,120 @@
+# EzioClient session log
+# file:    20260908_234405 - WeatherTech Raceway Laguna Seca (41).gt7td
+# started: 2026-09-08T21:44:05Z
+# track:   WeatherTech Raceway Laguna Seca (CRS 41)
+# car:     Chevrolet Corvette C7 Gr.3 [gr3]
+# context: customRace
+# ---
+📊 strategy: declared 60 min race
+# car:     Chevrolet Corvette C7 Gr.3 (id 2183) — confirmed from telemetry
+🧭 polyline [MENU]: 9 candidate(s) dropped on direction — best of them Brands Hatch Grand Prix Circuit median 23.62 (alignment -0.68)
+🧭 polyline [MENU]: no fit yet — best Tsukuba Circuit median 24.70 m (60 samples, pass 2 of 12)
+🧭 polyline [MENU]: 5 candidate(s) dropped on direction — best of them Brands Hatch Grand Prix Circuit median 44.17 (alignment -0.75)
+🧭 polyline [MENU]: no fit yet — best Autopolis International Racing Course median 29.90 m (90 samples, pass 3 of 12)
+🧭 polyline [MENU]: 10 candidate(s) dropped on direction — best of them Brands Hatch Grand Prix Circuit median 42.64 (alignment -0.77)
+🧭 polyline [MENU]: no fit yet — best Autopolis International Racing Course median 47.13 m (120 samples, pass 4 of 12)
+🎮 menus → onTrack (pkt 3238374, lap 0, flags 0x0009, pos 20, cars 20, tod 56580000)
+🔧 session restart: lap-scoped state reset
+🧭 polyline [PRE-GREEN]: 7 candidate(s) dropped on direction — best of them Brands Hatch Grand Prix Circuit median 27.63 (alignment -0.80)
+🧭 polyline [PRE-GREEN]: no fit yet — best Kyoto Driving Park - Yamagiwa median 54.50 m (150 samples, pass 5 of 12)
+🏁 start type: ROLLING_START at pkt 3238732 lap 1
+🔀 state UNKNOWN → RACING at pkt 3238732 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.08
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 learned: 2 gates matched, all WeatherTech Raceway Laguna Seca — using the finishLine gate (9 samples)
+🧭 identified: WeatherTech Raceway Laguna Seca (CRS 41) — finishLine, 9 sample(s), ±12 m
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/lap1 (6 samples, σ 0.23 m, ±12 m, across -0.0…0.1 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 3.9/20.4s, 1 line): surveyGate(lap1, 6)
+🧭 polyline [L1]: 9 candidate(s) dropped on direction — best of them Brands Hatch Grand Prix Circuit median 25.85 (alignment -0.53)
+🧭 polyline [L1]: no fit yet — best Kyoto Driving Park - Yamagiwa median 55.19 m (180 samples, pass 6 of 12)
+🧭 polyline [L1]: 13 candidate(s) dropped on direction — best of them Brands Hatch Grand Prix Circuit median 26.10 (alignment -0.48)
+🧭 polyline [L1]: no fit yet — best Kyoto Driving Park - Yamagiwa median 58.23 m (180 samples, pass 7 of 12)
+🗣 chain (imp 4, cost 2.1s, ledger 5.9/20.4s, 1 events, 1 lines)
+🧭 polyline [L1]: 14 candidate(s) dropped on direction — best of them Brands Hatch Grand Prix Circuit median 44.17 (alignment -0.42)
+🧭 polyline [L1]: no fit yet — best Kyoto Driving Park - Yamagiwa median 59.73 m (180 samples, pass 8 of 12)
+🧭 polyline [L1]: 12 candidate(s) dropped on direction — best of them Michelin Raceway Road Atlanta median 69.68 (alignment -0.46)
+🧭 polyline [L1]: no fit yet — best Brands Hatch Grand Prix Circuit median 48.19 m (180 samples, pass 9 of 12)
+🧭 polyline [L1]: 2 candidate(s) dropped on direction — best of them Watkins Glen Short Course median 124.33 (alignment -0.46)
+🧭 polyline [L1]: no fit yet — best Brands Hatch Grand Prix Circuit median 47.57 m (180 samples, pass 10 of 12)
+🧭 polyline [L1]: 4 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 92.82 (alignment -0.40)
+🧭 polyline [L1]: no fit yet — best Autopolis International Racing Course median 34.93 m (180 samples, pass 11 of 12)
+🧭 polyline [L1]: 2 candidate(s) dropped on direction — best of them Watkins Glen Short Course median 55.49 (alignment -0.57)
+🧭 polyline [L1]: no fit yet — best Autopolis International Racing Course median 30.98 m (180 samples, pass 12 of 12)
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:28.877 first fuel_used=1.85
+🔵 lap 1 antics: contact
+📊 strategy L2: fuel/lap 1.85, 53.0 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (10 samples, σ 3.69 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 10)
+🗣 bulletin (imp 6, cost 5.8s, ledger 8.5/20.4s, 2 lines): L2
+📋 lap 2: 1:25.555 clean fuel_used=1.87
+🔵 lap 2: clean
+📊 laps-left model: elapsed 174.6 s, remaining 3425.4 s, median lap 85.6 s -> 41 (no-stop 41, pit loss 32.0 s, rate 20 l/s)
+📊 strategy L3: fuel/lap 1.86 | fuel 96.2 = 51.8 laps | 41.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (11 samples, σ 3.50 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: learned lap 2 (85.555 s, 3565 m, 713 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 5.1s, ledger 5.1/20.4s, 1 line): surveyLap(2, 85555 ms, 713 pts)
+🗺 session polyline installed from lap 2 (713 pts) — minimap + delta live
+⏱ class lap kept: WeatherTech Raceway Laguna Seca/customRace/Gr.3 → 1:25.555 (3/10 laps, 1 car(s), avg 1:25.212)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 9.1/20.4s, 1 line): surveyComplete(3 optional missing)
+🎭 mood relaxed → focused
+🗣 bulletin (imp 2, cost 4.3s, ledger 13.4/20.4s, 2 lines): L3
+🗣 chain (imp 4, cost 2.5s, ledger 15.9/20.4s, 1 events, 1 lines)
+🗑 speaker: stale, not spoken: "that's contact"
+🗑 speaker: stale, not spoken: "keep it clean"
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 19.4/20.4s, 1 line, protected): strategyUpdate(fuel 51.77L, togo 41, stops 0)
+📋 lap 3: 1:25.046 clean fuel_used=1.88
+🎭 mood focused → relaxed
+🔵 lap 3 antics: contact
+📊 laps-left model: elapsed 259.7 s, remaining 3340.3 s, median lap 85.3 s -> 40 (no-stop 40, pit loss 32.0 s, rate 20 l/s)
+📊 strategy L4: fuel/lap 1.87 | fuel 94.3 = 50.5 laps | 40.0 laps to go | stops 0
+🗣 spoke (position, imp 4, cost 4.0s, ledger 4.0/20.4s, 1 line): positionChange(P2→P1)
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (12 samples, σ 3.43 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: learned lap 3 (85.046 s, 3575 m, 715 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 7.6/20.4s, 1 line): surveyLap(3, 85046 ms, 715 pts)
+🗺 session polyline installed from lap 3 (715 pts) — minimap + delta live
+⏱ class lap kept: WeatherTech Raceway Laguna Seca/customRace/Gr.3 → 1:25.046 (3/10 laps, 1 car(s), avg 1:25.042)
+🗣 bulletin (imp 2, cost 5.6s, ledger 13.2/20.4s, 2 lines): L4
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 16.8/20.4s, 1 line, protected): strategyUpdate(fuel 50.50L, togo 40, stops 0)
+📋 lap 4: 1:23.452 clean fuel_used=1.69
+🔵 lap 4: clean
+📊 laps-left model: elapsed 343.3 s, remaining 3256.7 s, median lap 85.0 s -> 39 (no-stop 39, pit loss 32.0 s, rate 20 l/s)
+📊 strategy L5: fuel/lap 1.86 | fuel 92.6 = 49.9 laps | 39.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (13 samples, σ 3.29 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: learned lap 4 (83.452 s, 3555 m, 711 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 5.1s, ledger 5.1/20.4s, 1 line): surveyLap(4, 83452 ms, 711 pts)
+🗺 session polyline installed from lap 4 (711 pts) — minimap + delta live
+⏱ class lap BEST: WeatherTech Raceway Laguna Seca/customRace/Gr.3 → 1:23.452 (3/10 laps, 1 car(s), avg 1:24.428)
+🗣 bulletin (imp 2, cost 7.2s, ledger 12.4/20.4s, 2 lines): L5
+📊 strategy: race finished at L5 — lap clock frozen 3.00 s, no clock model to agree
+💾 race preserved (finished): 5 lap(s), 0 stop(s), start ROLLING_START, P1/20
+✂️ capture auto-stop in 20s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 14.9/20.4s, 1 line): raceFinished(L5)
+🗑 speaker: 3 queued line(s) preempted by flag
+🗑 flag: pending commentary cancelled
+🔧 session ended after lap 5
+🎮 replay handshake armed (off track, race context still valid: pos 20, cars 20)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 123 gate(s) from 293 stored
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 32.0 s from the unofficial table (WeatherTech Raceway Laguna Seca)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=6 eff=6 budget=14 cd=x1.25 lock=60.0->75.0s ttl=6s
+🎮 onTrack → replay (pkt 3260405, lap 0, flags 0x0008, pos 20, cars 20, tod 56580000)
+⏸ replay — race commentary suspended
+🧭 polyline [MENU]: 17 candidate(s) dropped on direction — best of them Red Bull Ring median 58.59 (alignment -0.36)
+🧭 polyline [MENU]: no fit yet — best Brands Hatch Grand Prix Circuit median 24.14 m (30 samples, pass 1 of 12)
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 23187 packets

@@ -19,6 +19,22 @@
       "tyreWearMultiplier": 2
     },
     {
+      "stem": "41-customRace-20260908_234405",
+      "courseId": 41,
+      "track": "WeatherTech Raceway Laguna Seca",
+      "context": "customRace",
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "hz": 60.0,
+      "packets": 23187,
+      "durationS": 386.4,
+      "rawBytes": 8532816,
+      "gzBytes": 4102653,
+      "hasLog": true,
+      "fuelMultiplier": 1,
+      "tyreWearMultiplier": 1
+    },
+    {
       "stem": "51-customRace-20260817_221417",
       "courseId": 51,
       "track": "Deep Forest Raceway",
