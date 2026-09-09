@@ -1,0 +1,201 @@
+# EzioClient session log
+# file:    20260909_233041 - Dragon Trail - Seaside (363).gt7td
+# started: 2026-09-09T21:30:41Z
+# track:   Dragon Trail - Seaside (CRS 363)
+# car:     Chevrolet Corvette C7 Gr.3 [gr3]
+# context: lobby
+# ---
+# car:     Chevrolet Corvette C7 Gr.3 (id 2183) — confirmed from telemetry
+🎮 entered → onTrack (pkt 3842369, lap 0, flags 0x0001, pos 9, cars 16, tod 46847172)
+🎮 onTrack → entered (pkt 3842535, lap 0, flags 0x0041, pos 1, cars 16, tod 46800000)
+🎮 entered → onTrack (pkt 3843645, lap 0, flags 0x0001, pos 3, cars 16, tod 46818509)
+🏁 start type: GRID_START at pkt 3844468 lap 0
+🔀 state UNKNOWN → RACING at pkt 3844468 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 2.1s, ledger 2.1/20.4s, 1 line): greenFlag
+🧭 polyline [PRE-GREEN]: 19 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 2.02 (alignment -1.00)
+🧭 polyline [PRE-GREEN]: Dragon Trail - Seaside (CRS 363, map ctx lobby) median 2.50 m, p90 2.97 m, 1% of lap, 30 samples, alignment +1.00 — next course Autodromo Nazionale Monza median 21.48/p90 37.31
+🧭 polyline agrees with the declared course (CRS 363)
+📋 lap 0: — clean fuel_used=0.88
+📊 strategy L1: no fuel model yet
+🧭 identified: Dragon Trail - Seaside (CRS 363) — finishLine, 42 sample(s), ±12 m
+🚪 gate learned: Dragon Trail - Seaside/lobby/lap1 heading -77°
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(lap1, 7)
+🗣 chain (imp 4, cost 2.1s, ledger 4.7/20.4s, 1 events, 1 lines)
+🗣 chain (imp 2, cost 1.2s, ledger 3.3/20.4s, 4 events, 1 lines)
+🎭 mood relaxed → focused
+🗣 chain (imp 2, cost 3.8s, ledger 7.0/20.4s, 2 events, 1 lines)
+🗑 dropped (chain cooldown): 1 event(s)
+🗣 chain (imp 2, cost 3.4s, ledger 8.3/20.4s, 1 events, 1 lines)
+🎭 mood focused → concerned
+🗑 dropped (chain cooldown): 1 event(s)
+🗣 chain (imp 2, cost 1.2s, ledger 9.5/20.4s, 1 events, 1 lines)
+🗑 dropped (chain cooldown): 1 event(s)
+🗣 chain (imp 2, cost 1.2s, ledger 9.5/20.4s, 1 events, 1 lines)
+🗣 chain (imp 2, cost 3.4s, ledger 12.9/20.4s, 3 events, 1 lines)
+🗣 chain (imp 4, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 2:37.967 first fuel_used=7.59
+🎭 mood concerned → focused
+📊 strategy L2: fuel/lap 7.60 | fuel 91.6 = 12.1 laps | 11.0 laps to go | stops 0
+🔵 lap 1 antics: contact, off
+🚪 gate refined: Dragon Trail - Seaside/lobby/finishLine (43 samples, σ 1.40 m, ±12 m, across -1.8…2.5 m)
+🎭 mood focused → concerned
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.4/20.4s, 1 line): surveyGate(finishLine, 43)
+🗣 bulletin (imp 6, cost 6.7s, ledger 9.3/20.4s, 2 lines): L2
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+📋 lap 2: 1:40.576 clean fuel_used=7.62
+🎭 mood concerned → focused
+🔵 lap 2 antics: contact
+📊 strategy L3: fuel/lap 7.61 | fuel 84.0 = 11.0 laps | 10.0 laps to go | stops 0
+🚪 gate refined: Dragon Trail - Seaside/lobby/finishLine (44 samples, σ 1.40 m, ±12 m, across -1.8…2.5 m)
+🗺 mapper: learned lap 2 (100.576 s, 5160 m, 1032 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 6.6/20.4s, 1 line): surveyLap(2, 100576 ms, 1032 pts)
+🗺 session polyline installed from lap 2 (1032 pts) — minimap + delta live
+⏱ class lap kept: Dragon Trail - Seaside/lobby/Gr.3 → 1:40.576 (2/10 laps, 2 car(s), avg 1:40.285)
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 9.7/20.4s, 1 line): surveyComplete(3 optional missing)
+🗣 bulletin (imp 2, cost 4.3s, ledger 11.5/20.4s, 2 lines): L3
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 15.1/20.4s, 1 line, protected): strategyUpdate(fuel 11.03L, togo 10, stops 0)
+🗣 chain (imp 6, cost 2.1s, ledger 17.1/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+📋 lap 3: 1:41.451 clean fuel_used=7.91
+🔵 lap 3 antics: contact
+📊 strategy L4: fuel/lap 7.62 | fuel 76.0 = 10.0 laps | 9.0 laps to go | stops 0
+🚪 gate refined: Dragon Trail - Seaside/lobby/finishLine (45 samples, σ 1.42 m, ±12 m, across -2.1…2.5 m)
+🗣 spoke (position, imp 4, cost 4.4s, ledger 8.2/20.4s, 1 line): positionChange(P12→P11)
+🗣 bulletin (imp 6, cost 5.8s, ledger 10.2/20.4s, 2 lines): L4
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.7/20.4s, 1 line, protected): strategyUpdate(fuel 9.98L, togo 9, stops 0)
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🎭 mood focused → concerned
+🎭 mood concerned → annoyed
+🗣 chain (imp 1, cost 1.6s, ledger 3.3/20.4s, 5 events, 1 lines)
+📋 lap 4: 1:51.651 clean fuel_used=7.96
+🔵 lap 4 antics: contact, impact
+📊 strategy L5: fuel/lap 7.77 | fuel 68.1 = 8.8 laps | 8.0 laps to go | stops 0
+🚪 gate refined: Dragon Trail - Seaside/lobby/finishLine (46 samples, σ 1.40 m, ±12 m, across -2.1…2.5 m)
+🗣 bulletin (imp 6, cost 9.5s, ledger 9.5/20.4s, 2 lines): L5
+🎭 mood annoyed → concerned
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.0/20.4s, 1 line, protected): strategyUpdate(fuel 8.76L, togo 8, stops 0)
+🗣 chain (imp 4, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+🔧 huge stop 188 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 3880859 lap 5
+🔵 sub-state FLYING → — lap 5
+🔧 pit-entry anchor learned: 103055 ms into lap (stop on lap 5)
+🔧 pended impact cancelled: pit entry
+📊 strategy: refuel still needed — 7.8 laps of fuel against 8 to go (need 9.4 with margin)
+🚪 gate refined: Dragon Trail - Seaside/lobby/pitEntry (8 samples, σ 0.09 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 6.3/20.4s, 1 line, protected): pittingIn(L5)
+🗑 dropped (in pit): surveyGate(pitEntry, 8)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🎭 mood concerned → focused
+📊 strategy: box reached on the ENDING lap (entered L5, counter still L5) — the lap in progress completes on release, counting it as banked
+🗣 spoke (pitSequence, imp 2, cost 2.5s, ledger 5.0/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 4.0s, ledger 8.9/20.4s, 1 line, protected): refuelTarget(7 laps)
+🔀 state PIT → RACING at pkt 3881756 lap 6
+🔵 sub-state — → OUT_LAP lap 6
+🅿️ PIT completed: in L5 → out L6 (no fuel, transit 18.3s, teleport=false)
+🚪 gate refined: Dragon Trail - Seaside/lobby/pitBox (8 samples, σ 0.05 m, ±0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 8)
+🅿️ entry→box 11.8s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+📋 lap 5: 1:58.012 in fuel_used=7.24
+🔵 lap 5 antics: contact
+🗑 dropped (in pit): lapStarted(6/12, last 118.01s)
+🔧 teleport 99 m on lap 6 — pit release, not a reset
+📊 strategy L6: fuel/lap 7.62 | fuel 60.8 = 8.0 laps | 7.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 10.6/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🚪 gate refined: Dragon Trail - Seaside/lobby/pitExit (8 samples, σ 0.05 m, ±12 m, across 0.0…0.0 m)
+🗺 mapper: lap 5 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 13.2/20.4s, 1 line): surveyGate(pitExit, 8)
+📊 strategy L6: fuel/lap 7.62 | fuel 60.8 = 8.0 laps | 7.0 laps to go | stops 0 (post-stop recalc)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 16.2/20.4s, 1 line): surveyComplete(0 optional missing)
+🔧 fresh tyres confirmed: 60.0° across all four (was 78.9° at pit entry, step 18.9°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via tyres x0.50): freshTyres(confirmed 60.00°)
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 18.7/20.4s, 1 line): tyreTemps(low, 60°)
+📋 strategy burst: 2 event(s), releasing best-first — strategyUpdate(fuel 7.98L, togo 7, stops 0, post-stop) | fuelStatus(lapsToGo, 8, 7 to go, 7.98 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 21.6/20.4s, 1 line, protected): strategyUpdate(fuel 7.98L, togo 7, stops 0, post-stop)
+🗣 spoke (strategy, imp 4, cost 2.2s, ledger 23.8/20.4s, 1 line, protected): fuelStatus(lapsToGo, 8, 7 to go, 7.98 fuel-laps)
+🗑 dropped (cooldown strategy; 15.2s of 75.0s via strategy x0.50): strategyUpdate(fuel 7.98L, togo 7, stops 0)
+🗣 spoke (tyres, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🔵 sub-state OUT_LAP → FLYING lap 7
+📋 lap 6: 1:44.480 out fuel_used=7.50
+🔵 lap 6 antics: contact
+📊 strategy L7: fuel/lap 7.61 | fuel 53.3 = 7.0 laps | 6.0 laps to go | stops 0
+🚪 gate refined: Dragon Trail - Seaside/lobby/finishLine (47 samples, σ 1.41 m, ±12 m, across -2.1…2.5 m)
+🗺 mapper: lap 6 rejected (teleport)
+🗣 spoke (strategy, imp 2, cost 2.7s, ledger 4.3/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 6 to go, 7.01 fuel-laps)
+🗣 bulletin (imp 6, cost 5.4s, ledger 8.0/20.4s, 2 lines): L7
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 11.6/20.4s, 1 line, protected): strategyUpdate(fuel 7.01L, togo 6, stops 0)
+🗣 chain (imp 6, cost 3.4s, ledger 14.9/20.4s, 1 events, 1 lines)
+📋 lap 7: 1:40.893 clean fuel_used=7.71
+🎭 mood focused → relaxed
+🔵 lap 7: clean
+📊 strategy L8: fuel/lap 7.62 | fuel 45.6 = 6.0 laps | 5.0 laps to go | stops 0
+🚪 gate refined: Dragon Trail - Seaside/lobby/finishLine (48 samples, σ 1.41 m, ±12 m, across -2.1…2.5 m)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(lapsToGo, 6, 5 to go, 5.99 fuel-laps)
+🗣 bulletin (imp 6, cost 5.4s, ledger 8.9/20.4s, 2 lines): L8
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.4/20.4s, 1 line, protected): strategyUpdate(fuel 5.99L, togo 5, stops 0)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+📋 lap 8: 1:40.835 clean fuel_used=7.33
+📊 strategy L9: fuel/lap 7.61 | fuel 38.3 = 5.0 laps | 4.0 laps to go | stops 0
+🎭 mood focused → relaxed
+🔵 lap 8 antics: contact
+🚪 gate refined: Dragon Trail - Seaside/lobby/finishLine (49 samples, σ 1.40 m, ±12 m, across -2.1…2.5 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 7.3/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 4 to go, 5.03 fuel-laps)
+🗣 bulletin (imp 6, cost 4.6s, ledger 8.1/20.4s, 2 lines): L9
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 12.1/20.4s, 1 line, protected): strategyUpdate(fuel 5.03L, togo 4, stops 0)
+📋 lap 9: 1:42.234 clean fuel_used=7.31
+🔵 lap 9: clean
+📊 strategy L10: fuel/lap 7.56 | fuel 31.0 = 4.1 laps | 3.0 laps to go | stops 0
+🚪 gate refined: Dragon Trail - Seaside/lobby/finishLine (50 samples, σ 1.38 m, ±12 m, across -2.1…2.5 m)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 3.1/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 3 to go, 4.10 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 8.9/20.4s, 2 lines): L10
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.4/20.4s, 1 line, protected): strategyUpdate(fuel 4.10L, togo 3, stops 0)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): tyreTemps(high, 85°)
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+🎭 mood relaxed → focused
+🗑 dropped (chain cooldown): 1 event(s)
+📋 lap 10: 1:41.601 clean fuel_used=7.51
+🔵 lap 10 antics: contact
+📊 strategy L11: fuel/lap 7.51 | fuel 23.5 = 3.1 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Dragon Trail - Seaside/lobby/finishLine (51 samples, σ 1.38 m, ±12 m, across -2.1…2.5 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 2 to go, 3.13 fuel-laps)
+🗣 bulletin (imp 6, cost 6.2s, ledger 9.8/20.4s, 2 lines): L11
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.3/20.4s, 1 line, protected): strategyUpdate(fuel 3.13L, togo 2, stops 0)
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 5.4/20.4s, 1 events, 1 lines)
+📋 lap 11: 1:50.191 clean fuel_used=7.60
+🔵 lap 11 antics: contact
+📊 strategy L12: fuel/lap 7.51 | fuel 15.9 = 2.1 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Dragon Trail - Seaside/lobby/finishLine (52 samples, σ 1.37 m, ±12 m, across -2.1…2.5 m)
+🗣 spoke (lapPace, imp 4, cost 2.5s, ledger 5.4/20.4s, 1 line): paceDegradation(1.94s/lap over 5)
+🗣 bulletin (imp 6, cost 7.3s, ledger 9.8/20.4s, 2 lines): L12
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🎭 mood focused → concerned
+🎭 mood concerned → annoyed
+🗣 chain (imp 2, cost 6.2s, ledger 7.9/20.4s, 6 events, 2 lines)
+🗑 speaker: stale after pause: "settle it down and rebuild"
+🗣 chain (imp 1, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+🔄 new session on the same connection — resetting track-scoped state
+💾 race preserved (leftRace): 12 lap(s), 1 stop(s), start GRID_START, P11/11
+🧭 learned pool: 128 gate(s) from 298 stored
+📊 strategy: reset
+📊 pit loss: estimated 14.0 s from the unofficial table (Dragon Trail - Seaside)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+🔧 session restart: lap-scoped state reset
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=6 eff=6 budget=14 cd=x1.25 lock=60.0->75.0s ttl=6s
+🎮 onTrack → entered (pkt 3925656, lap 0, flags 0x0041, pos 1, cars 11, tod 48060000)
+✂️ capture auto-stop in 20s (parked — left the driver's seat)
+⏹ stopping the recording — auto-stop: parked — left the driver's seat
+# --- stopped: 83649 packets

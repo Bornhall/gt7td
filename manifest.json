@@ -371,6 +371,22 @@
       "tyreWearMultiplier": 8
     },
     {
+      "stem": "363-lobby-20260909_233041",
+      "courseId": 363,
+      "track": "Dragon Trail - Seaside",
+      "context": "lobby",
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "hz": 59.94,
+      "packets": 83649,
+      "durationS": 1395.5,
+      "rawBytes": 30782832,
+      "gzBytes": 14762413,
+      "hasLog": true,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 6
+    },
+    {
       "stem": "365-customRace-20260725_195705",
       "courseId": 365,
       "track": "Autodrome Lago Maggiore - Full Course",
