@@ -723,6 +723,22 @@
       "tyreWearMultiplier": 1
     },
     {
+      "stem": "1024-lobby-20260914_203110",
+      "courseId": 1024,
+      "track": "Trial Mountain Circuit",
+      "context": "lobby",
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "hz": 59.94,
+      "packets": 222697,
+      "durationS": 3715.3,
+      "rawBytes": 81952496,
+      "gzBytes": 39803784,
+      "hasLog": true,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 4
+    },
+    {
       "stem": "1226-customRace-20260726_233603",
       "courseId": 1226,
       "track": "Autodrome Lago Maggiore - East",

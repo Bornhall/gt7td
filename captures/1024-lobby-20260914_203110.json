@@ -1,0 +1,31 @@
+{
+  "carId" : 2183,
+  "carName" : "Chevrolet Corvette C7 Gr.3",
+  "declared" : {
+    "captureContext" : "lobby",
+    "carClass" : "Gr.3",
+    "carId" : 2183,
+    "carName" : "Chevrolet Corvette C7 Gr.3",
+    "courseId" : 1024,
+    "fuelMultiplier" : 2,
+    "mandatoryTyreChange" : false,
+    "mode" : "race",
+    "raceLength" : 60,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 10,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 20,
+    "timeBeforeStart" : 20,
+    "trackName" : "Trial Mountain Circuit",
+    "tyreWearMultiplier" : 4,
+    "weather" : "dry"
+  },
+  "endTime" : 1789414513,
+  "granularity" : 1,
+  "observedDurationS" : 3600,
+  "packetSize" : 368,
+  "startTime" : 1789410670,
+  "trackName" : "Trial Mountain Circuit",
+  "version" : 8
+}

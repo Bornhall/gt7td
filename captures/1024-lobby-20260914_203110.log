@@ -1,0 +1,421 @@
+# EzioClient session log
+# file:    20260914_203110 - Trial Mountain Circuit (1024).gt7td
+# started: 2026-09-14T18:31:10Z
+# track:   Trial Mountain Circuit (CRS 1024)
+# car:     Chevrolet Corvette C7 Gr.3 [gr3]
+# context: lobby
+# ---
+📊 strategy: declared 60 min race
+# car:     Chevrolet Corvette C7 Gr.3 (id 2183) — confirmed from telemetry
+🎮 replay handshake armed (off track, race context still valid: pos 11, cars 16)
+🎮 entered → replay (pkt 342283, lap 0, flags 0x0040, pos 11, cars 16, tod 66768864)
+⏸ replay — race commentary suspended
+🎮 replay → entered (pkt 342729, lap 0, flags 0x0041, pos 11, cars 16, tod 66813510)
+▶️ replay ended — race commentary resumed
+🎮 entered → onTrack (pkt 348920, lap 0, flags 0x0001, pos 14, cars 16, tod 67433328)
+🏁 start type: GRID_START at pkt 350384 lap 0
+🔀 state UNKNOWN → RACING at pkt 350384 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): greenFlag
+📋 lap 0: — clean fuel_used=0.36
+📊 strategy L1: no fuel model yet
+🧭 no gate matched at lap 0→1 (new coordinates) — live-learn only; the learner records this crossing if the track is declared
+🚪 gate learned: Trial Mountain Circuit/lobby/lap1 heading 6°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 3.3/20.4s, 1 line): surveyGate(lap1, 1)
+🧭 polyline [L1]: 26 candidate(s) dropped on direction — best of them Kyoto Driving Park - Yamagiwa median 3.39 (alignment -0.99)
+🧭 polyline [L1]: no fit yet — best High Speed Ring median 12.24 m (30 samples, pass 1 of 12)
+🧭 polyline [L1]: 26 candidate(s) dropped on direction — best of them Kyoto Driving Park - Yamagiwa median 8.92 (alignment -0.83)
+🧭 polyline [L1]: no fit yet — best Blue Moon Bay Speedway - Infield A median 48.30 m (60 samples, pass 2 of 12)
+🧭 polyline [L1]: 22 candidate(s) dropped on direction — best of them Red Bull Ring Short Track median 42.64 (alignment -0.88)
+🧭 polyline [L1]: no fit yet — best Blue Moon Bay Speedway median 46.19 m (90 samples, pass 3 of 12)
+🧭 polyline [L1]: 14 candidate(s) dropped on direction — best of them Red Bull Ring Short Track median 41.81 (alignment -0.90)
+🧭 polyline [L1]: no fit yet — best Blue Moon Bay Speedway median 52.03 m (120 samples, pass 4 of 12)
+🧭 polyline [L1]: 15 candidate(s) dropped on direction — best of them Red Bull Ring median 50.49 (alignment -0.90)
+🧭 polyline [L1]: no fit yet — best Blue Moon Bay Speedway median 57.77 m (150 samples, pass 5 of 12)
+🧭 polyline [L1]: 15 candidate(s) dropped on direction — best of them Red Bull Ring Short Track median 58.00 (alignment -0.86)
+🧭 polyline [L1]: no fit yet — best Blue Moon Bay Speedway median 92.36 m (180 samples, pass 6 of 12)
+🧭 polyline [L1]: 8 candidate(s) dropped on direction — best of them Red Bull Ring Short Track median 63.06 (alignment -0.68)
+🧭 polyline [L1]: no fit yet — best Autodrome Lago Maggiore - Full Course Reverse median 125.58 m (180 samples, pass 7 of 12)
+🧭 polyline [L1]: 7 candidate(s) dropped on direction — best of them Red Bull Ring median 78.99 (alignment -0.66)
+🧭 polyline [L1]: no fit yet — best Autodrome Lago Maggiore - East median 71.96 m (180 samples, pass 8 of 12)
+🧭 polyline [L1]: 10 candidate(s) dropped on direction — best of them Red Bull Ring median 74.22 (alignment -0.58)
+🧭 polyline [L1]: no fit yet — best Autodrome Lago Maggiore - East Reverse median 50.50 m (180 samples, pass 9 of 12)
+🧭 polyline [L1]: 9 candidate(s) dropped on direction — best of them Red Bull Ring median 89.59 (alignment -0.48)
+🧭 polyline [L1]: no fit yet — best Autodrome Lago Maggiore - Full Course median 54.36 m (180 samples, pass 10 of 12)
+🧭 polyline [L1]: 7 candidate(s) dropped on direction — best of them Red Bull Ring median 71.31 (alignment -0.43)
+🧭 polyline [L1]: no fit yet — best Autodrome Lago Maggiore - Full Course median 49.63 m (180 samples, pass 11 of 12)
+🧭 polyline [L1]: 8 candidate(s) dropped on direction — best of them Red Bull Ring median 47.19 (alignment -0.49)
+🧭 polyline [L1]: no fit yet — best Autodrome Lago Maggiore - East Reverse median 45.41 m (180 samples, pass 12 of 12)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 2:04.439 first fuel_used=4.39
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 4.39, 21.7 laps of fuel, race length unknown — fuel horizon
+🚪 gate learned: Trial Mountain Circuit/lobby/finishLine heading 6°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 2.1/20.4s, 1 line): surveyGate(finishLine, 1)
+🗣 bulletin (imp 6, cost 5.4s, ledger 7.4/20.4s, 2 lines): L2
+📋 lap 2: 1:57.281 clean fuel_used=4.31
+🔵 lap 2: clean
+📊 laps-left model: elapsed 240.9 s, remaining 3359.1 s, median lap 117.3 s -> 29 (no-stop 29, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L3: fuel/lap 4.35 | fuel 91.1 = 20.9 laps | 29.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (2 samples, σ 7.02 m, ±16 m, across -9.9…0.0 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 2)
+🗺 mapper: learned lap 2 (117.281 s, 5345 m, 1069 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 6.4/20.4s, 1 line): surveyLap(2, 117281 ms, 1069 pts)
+🗺 session polyline installed from lap 2 (1069 pts) — minimap + delta live
+⏱ class lap BEST: Trial Mountain Circuit/lobby/Gr.3 → 1:57.281 (1/10 laps, 1 car(s), avg 1:57.281)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 10.3/20.4s, 1 line): surveyComplete(3 optional missing)
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L9/L15/L22, stops 1) | fuelStatus(extendStint, 20, 29 to go, 20.94 fuel-laps) | pitWindowState(beforeOpen, now L3, L9/L15/L22, stops 1, close) | pitStopsToGo(1, 29 to go)
+🗣 spoke (strategy, imp 2, cost 2.8s, ledger 13.1/20.4s, 1 line, protected): pitWindow(L9/L15/L22, stops 1)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 16.9/20.4s, 1 line, protected): fuelStatus(extendStint, 20, 29 to go, 20.94 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 19.6/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L3, L9/L15/L22, stops 1, close)
+🗑 dropped (burst cap 3): pitStopsToGo(1, 29 to go)
+🗑 dropped (bulletin, ledger full; cost 4.3s, load 19.6/20.4s, 2 lines): L3
+🗑 dropped (ledger full; cost 1.6s, load 19.6/20.4s): tyreTemps(high, 85°)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 21.8/20.4s, 1 line, protected): strategyUpdate(fuel 20.94L, togo 29, stops 1)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+📋 lap 3: 1:57.001 clean fuel_used=4.25
+🔵 lap 3 antics: off
+📊 laps-left model: elapsed 357.9 s, remaining 3242.1 s, median lap 117.1 s -> 28 (no-stop 28, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L4: fuel/lap 4.31 | fuel 86.9 = 20.2 laps | 28.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (3 samples, σ 5.81 m, ±17 m, across -9.9…5.2 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.6/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 3 (117.001 s, 5335 m, 1067 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 9.3/20.4s, 1 line): surveyLap(3, 117001 ms, 1067 pts)
+🗺 session polyline installed from lap 3 (1067 pts) — minimap + delta live
+⏱ class lap BEST: Trial Mountain Circuit/lobby/Gr.3 → 1:57.001 (2/10 laps, 1 car(s), avg 1:57.141)
+🗑 dropped (unchanged; said 117s ago, repeats after 300s): pitWindowState(beforeOpen, now L4, L9/L15/L23, stops 1)
+🗣 bulletin (imp 2, cost 7.2s, ledger 13.6/20.4s, 2 lines): L4
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.8/20.4s, 1 line, protected): strategyUpdate(fuel 20.16L, togo 28, stops 1)
+📋 lap 4: 1:56.788 clean fuel_used=4.27
+🔵 lap 4: clean
+📊 laps-left model: elapsed 474.7 s, remaining 3125.3 s, median lap 117.0 s -> 27 (no-stop 27, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L5: fuel/lap 4.29 | fuel 82.6 = 19.2 laps | 27.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (4 samples, σ 4.85 m, ±15 m, across -9.9…5.2 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 4)
+🗺 mapper: learned lap 4 (116.788 s, 5335 m, 1067 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 6.8/20.4s, 1 line): surveyLap(4, 116788 ms, 1067 pts)
+🗺 session polyline installed from lap 4 (1067 pts) — minimap + delta live
+⏱ class lap BEST: Trial Mountain Circuit/lobby/Gr.3 → 1:56.788 (3/10 laps, 1 car(s), avg 1:57.023)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 10.7/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L5, L9/L15/L23, stops 1)
+🗣 bulletin (imp 2, cost 6.0s, ledger 16.8/20.4s, 2 lines): L5
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.0/20.4s, 1 line, protected): strategyUpdate(fuel 19.24L, togo 27, stops 1)
+🗣 chain (imp 4, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+📋 lap 5: 1:57.234 clean fuel_used=4.55
+🔵 lap 5 antics: contact
+📊 laps-left model: elapsed 591.9 s, remaining 3008.1 s, median lap 117.1 s -> 26 (no-stop 26, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L6: fuel/lap 4.31 | fuel 78.0 = 18.1 laps | 26.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (5 samples, σ 4.35 m, ±13 m, across -9.9…5.2 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 5)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 5.3/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L6, L9/L15/L23, stops 1)
+🗣 bulletin (imp 6, cost 4.6s, ledger 9.9/20.4s, 2 lines): L6
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 13.6/20.4s, 1 line, protected): strategyUpdate(fuel 18.11L, togo 26, stops 1)
+📋 lap 6: 1:56.652 clean fuel_used=4.61
+🔵 lap 6: clean
+📊 laps-left model: elapsed 708.6 s, remaining 2891.4 s, median lap 117.0 s -> 25 (no-stop 25, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L7: fuel/lap 4.35 | fuel 73.4 = 16.9 laps | 25.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (6 samples, σ 3.92 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 6)
+🗺 mapper: learned lap 6 (116.652 s, 5325 m, 1065 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 6.4/20.4s, 1 line): surveyLap(6, 116652 ms, 1065 pts)
+🗺 session polyline installed from lap 6 (1065 pts) — minimap + delta live
+⏱ class lap BEST: Trial Mountain Circuit/lobby/Gr.3 → 1:56.652 (3/10 laps, 1 car(s), avg 1:56.813)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 10.7/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L7, L9/L15/L22, stops 1)
+🗣 bulletin (imp 2, cost 6.0s, ledger 16.8/20.4s, 2 lines): L7
+🗑 speaker: stale after pause: "that's lap 7"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.0/20.4s, 1 line, protected): strategyUpdate(fuel 16.87L, togo 25, stops 1)
+📋 lap 7: 1:56.284 clean fuel_used=4.59
+🔵 lap 7: clean
+📊 laps-left model: elapsed 824.8 s, remaining 2775.2 s, median lap 116.9 s -> 24 (no-stop 24, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L8: fuel/lap 4.39 | fuel 68.8 = 15.7 laps | 24.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (7 samples, σ 3.61 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 7)
+🗺 mapper: learned lap 7 (116.284 s, 5330 m, 1066 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 6.8/20.4s, 1 line): surveyLap(7, 116284 ms, 1066 pts)
+🗺 session polyline installed from lap 7 (1066 pts) — minimap + delta live
+⏱ class lap BEST: Trial Mountain Circuit/lobby/Gr.3 → 1:56.284 (3/10 laps, 1 car(s), avg 1:56.574)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L8, L9/L15/L22, stops 1) | pitStopsToGo(1, 24 to go)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 9.5/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L8, L9/L15/L22, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 11.5/20.4s, 1 line, protected): pitStopsToGo(1, 24 to go)
+🗣 bulletin (imp 2, cost 6.0s, ledger 17.5/20.4s, 2 lines): L8
+🗑 speaker: stale after pause: "on lap 8"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.8/20.4s, 1 line, protected): strategyUpdate(fuel 15.66L, togo 24, stops 1)
+📋 lap 8: 1:56.639 clean fuel_used=4.50
+🔵 lap 8: clean
+📊 laps-left model: elapsed 941.5 s, remaining 2658.5 s, median lap 116.8 s -> 23 (no-stop 23, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L9: fuel/lap 4.45 | fuel 64.3 = 14.5 laps | 23.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (8 samples, σ 3.61 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 8)
+🗣 spoke (strategy, imp 4, cost 4.8s, ledger 7.5/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L9, L10/L15/L22, stops 1)
+🗣 bulletin (imp 6, cost 6.3s, ledger 13.8/20.4s, 2 lines): L9
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.0/20.4s, 1 line, protected): strategyUpdate(fuel 14.47L, togo 23, stops 1)
+📋 lap 9: 1:56.834 clean fuel_used=4.51
+🔵 lap 9: clean
+📊 laps-left model: elapsed 1058.3 s, remaining 2541.7 s, median lap 116.8 s -> 22 (no-stop 22, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L10: fuel/lap 4.50 | fuel 59.8 = 13.3 laps | 22.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (9 samples, σ 3.38 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 9)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 6.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L10, L10/L15/L22, stops 1)
+🗣 bulletin (imp 6, cost 6.1s, ledger 12.2/20.4s, 2 lines): L10
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 14.5/20.4s, 1 line, protected): strategyUpdate(fuel 13.28L, togo 22, stops 1)
+📋 lap 10: 1:57.141 clean fuel_used=4.47
+🔵 lap 10: clean
+📊 laps-left model: elapsed 1175.5 s, remaining 2424.5 s, median lap 116.8 s -> 21 (no-stop 21, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L11: fuel/lap 4.50 | fuel 55.3 = 12.3 laps | 21.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (10 samples, σ 3.22 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 10)
+🗣 spoke (strategy, imp 4, cost 4.8s, ledger 7.5/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L11, L11/L15/L22, stops 1)
+🗣 bulletin (imp 6, cost 6.2s, ledger 13.7/20.4s, 2 lines): L11
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.9/20.4s, 1 line, protected): strategyUpdate(fuel 12.29L, togo 21, stops 1)
+🗣 chain (imp 4, cost 2.9s, ledger 18.9/20.4s, 1 events, 1 lines)
+📋 lap 11: 1:56.985 clean fuel_used=4.70
+🔵 lap 11 antics: off
+📊 laps-left model: elapsed 1292.4 s, remaining 2307.6 s, median lap 116.8 s -> 20 (no-stop 20, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L12: fuel/lap 4.53 | fuel 50.6 = 11.2 laps | 20.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (11 samples, σ 3.07 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L12, L12/L15/L22, stops 1)
+🗣 bulletin (imp 6, cost 5.8s, ledger 10.2/20.4s, 2 lines): L12
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 13.9/20.4s, 1 line, protected): strategyUpdate(fuel 11.18L, togo 20, stops 1)
+🗣 chain (imp 4, cost 1.6s, ledger 15.5/20.4s, 1 events, 1 lines)
+📋 lap 12: 1:57.187 clean fuel_used=4.44
+🔵 lap 12 antics: off
+📊 laps-left model: elapsed 1409.6 s, remaining 2190.4 s, median lap 116.9 s -> 19 (no-stop 19, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L13: fuel/lap 4.53 | fuel 46.2 = 10.2 laps | 19.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (12 samples, σ 2.98 m, ±12 m, across -9.9…5.2 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L13, L13/L15/L22, stops 1) | pitStopsToGo(1, 19 to go)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 4.5/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L13, L13/L15/L22, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 6.6/20.4s, 1 line, protected): pitStopsToGo(1, 19 to go)
+🗣 bulletin (imp 6, cost 5.9s, ledger 12.5/20.4s, 2 lines): L13
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 14.7/20.4s, 1 line, protected): strategyUpdate(fuel 10.20L, togo 19, stops 1)
+📋 lap 13: 1:57.696 clean fuel_used=4.67
+🔵 lap 13: clean
+📊 laps-left model: elapsed 1527.3 s, remaining 2072.7 s, median lap 116.9 s -> 18 (no-stop 18, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L14: fuel/lap 4.55 | fuel 41.5 = 9.1 laps | 18.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P5→P6)
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (13 samples, σ 2.93 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (strategy, imp 4, cost 4.8s, ledger 7.0/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L14, L14/L15/L22, stops 1)
+🗣 bulletin (imp 6, cost 7.3s, ledger 14.4/20.4s, 2 lines): L14
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.6/20.4s, 1 line, protected): strategyUpdate(fuel 9.12L, togo 18, stops 1)
+📋 lap 14: 1:56.738 clean fuel_used=4.57
+🔵 lap 14: clean
+📊 laps-left model: elapsed 1644.1 s, remaining 1955.9 s, median lap 116.9 s -> 17 (no-stop 17, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L15: fuel/lap 4.54 | fuel 37.0 = 8.1 laps | 17.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (14 samples, σ 2.81 m, ±12 m, across -9.9…5.2 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L15, L15/L15/L22, stops 1) | fuelStatus(lapsToGo, 8, 17 to go, 8.14 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L15, L15/L15/L22, stops 1)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 9.2/20.4s, 1 line, protected): fuelStatus(lapsToGo, 8, 17 to go, 8.14 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 15.0/20.4s, 2 lines): L15
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 17.2/20.4s, 1 line, protected): strategyUpdate(fuel 8.14L, togo 17, stops 1)
+🗣 chain (imp 4, cost 2.1s, ledger 4.3/20.4s, 1 events, 1 lines)
+📋 lap 15: 1:57.725 clean fuel_used=4.66
+🔵 lap 15 antics: contact
+📊 laps-left model: elapsed 1761.8 s, remaining 1838.2 s, median lap 117.1 s -> 16 (no-stop 16, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L16: fuel/lap 4.54 | fuel 32.3 = 7.1 laps | 16.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (15 samples, σ 2.73 m, ±12 m, across -9.9…5.2 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L16, L16/L16/L22, stops 1) | fuelStatus(lapsToGo, 7, 16 to go, 7.12 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line, protected): pitWindowState(openToLatest, now L16, L16/L16/L22, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 7.0/20.4s, 1 line, protected): fuelStatus(lapsToGo, 7, 16 to go, 7.12 fuel-laps)
+🗣 bulletin (imp 6, cost 3.5s, ledger 10.5/20.4s, 2 lines): L16
+🎭 mood relaxed → focused
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 12.8/20.4s, 1 line, protected): strategyUpdate(fuel 7.12L, togo 16, stops 1)
+🗣 chain (imp 4, cost 2.9s, ledger 15.7/20.4s, 1 events, 1 lines)
+📋 lap 16: 1:57.892 clean fuel_used=4.74
+🎭 mood focused → relaxed
+🔵 lap 16 antics: off
+📊 laps-left model: elapsed 1879.7 s, remaining 1720.3 s, median lap 117.2 s -> 15 (no-stop 15, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L17: fuel/lap 4.61 | fuel 27.6 = 6.0 laps | 15.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P6→P4)
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (16 samples, σ 2.67 m, ±12 m, across -9.9…5.2 m)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 5, 15 to go, 5.97 fuel-laps) | pitWindowState(openToLatest, now L17, L17/L17/L21, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 6.9/20.4s, 1 line, protected): fuelStatus(extendStint, 5, 15 to go, 5.97 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 10.8/20.4s, 1 line, protected): pitWindowState(openToLatest, now L17, L17/L17/L21, stops 1, close)
+🗣 bulletin (imp 6, cost 4.5s, ledger 15.3/20.4s, 2 lines): L17
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 17.6/20.4s, 1 line, protected): strategyUpdate(fuel 5.97L, togo 15, stops 1)
+📋 lap 17: 1:56.605 clean fuel_used=4.73
+🔵 lap 17: clean
+📊 laps-left model: elapsed 1996.3 s, remaining 1603.7 s, median lap 117.2 s -> 14 (no-stop 14, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L18: fuel/lap 4.67 | fuel 22.8 = 4.9 laps | 14.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (17 samples, σ 2.58 m, ±12 m, across -9.9…5.2 m)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindowState(openToLatest, now L18, L18/L18/L21, stops 1) | pitStopsToGo(1, 14 to go) | fuelStatus(lapsToGo, 5, 14 to go, 4.89 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line, protected): pitWindowState(openToLatest, now L18, L18/L18/L21, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 6.4/20.4s, 1 line, protected): pitStopsToGo(1, 14 to go)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 9.1/20.4s, 1 line, protected): fuelStatus(lapsToGo, 5, 14 to go, 4.89 fuel-laps)
+🗣 bulletin (imp 6, cost 5.4s, ledger 14.5/20.4s, 2 lines): L18
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.7/20.4s, 1 line, protected): strategyUpdate(fuel 4.89L, togo 14, stops 1)
+📋 lap 18: 1:56.534 clean fuel_used=4.64
+🔵 lap 18: clean
+📊 laps-left model: elapsed 2112.8 s, remaining 1487.2 s, median lap 117.1 s -> 13 (no-stop 13, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L19: fuel/lap 4.67 | fuel 18.2 = 3.9 laps | 13.0 laps to go | stops 1
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (18 samples, σ 2.51 m, ±12 m, across -9.9…5.2 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L19, L19/L19/L21, stops 1) | fuelStatus(lapsToGo, 4, 13 to go, 3.90 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L19, L19/L19/L21, stops 1)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 8.8/20.4s, 1 line, protected): fuelStatus(lapsToGo, 4, 13 to go, 3.90 fuel-laps)
+🗣 bulletin (imp 6, cost 4.6s, ledger 13.4/20.4s, 2 lines): L19
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.6/20.4s, 1 line, protected): strategyUpdate(fuel 3.90L, togo 13, stops 1)
+🔧 huge stop 205 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 483111 lap 19
+🔵 sub-state FLYING → — lap 19
+🔧 pit-entry anchor learned: 101511 ms into lap (stop on lap 19)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 2214.3 s, remaining 1385.7 s, median lap 117.1 s -> 12 (no-stop 12, pit loss 25.0 s, rate 10 l/s)
+📊 strategy: refuel still needed — 3.0 laps of fuel against 12 to go (need 13.6 with margin)
+🚪 gate learned: Trial Mountain Circuit/lobby/pitEntry (no heading)
+🗣 spoke (pitSequence, imp 0, cost 2.9s, ledger 2.9/20.4s, 1 line, protected): pittingIn(L19)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+📋 lap 19: 2:07.227 in fuel_used=4.16
+🔵 lap 19: clean
+🗺 mapper: lap 19 rejected (teleport)
+🗑 dropped (in pit): lapStarted(20, last 127.23s)
+🗑 dropped (in pit): positionChange(P4→P9)
+📊 laps-left model: elapsed 2240.4 s, remaining 1359.6 s, median lap 117.1 s -> 12 (no-stop 12, pit loss 25.0 s, rate 10 l/s)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 1.6/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 3.1s, ledger 4.7/20.4s, 1 line, protected): refuelTarget(12 laps)
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🔀 state PIT → RACING at pkt 485450 lap 20
+🔵 sub-state — → OUT_LAP lap 20
+🅿️ PIT completed: in L19 → out L20 (+44.2 fuel, transit 42.5s, teleport=false)
+🚪 gate learned: Trial Mountain Circuit/lobby/pitBox (no heading)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 29.6s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 teleport 41 m on lap 20 — pit release, not a reset
+📊 laps-left model: elapsed 2253.4 s, remaining 1346.6 s, median lap 117.1 s -> 12 (no-stop 12, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L20: fuel/lap 4.67 | fuel 58.3 = 12.5 laps | 12.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 3.4s, ledger 8.1/20.4s, 1 line, protected): exitingPit(+44.21l)
+🚪 gate learned: Trial Mountain Circuit/lobby/pitExit heading 4°
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 9.7/20.4s, 1 line): surveyGate(pitExit, 1)
+📊 laps-left model: elapsed 2253.4 s, remaining 1321.6 s, median lap 117.1 s -> 12 (no-stop 12, pit loss 25.0 s, rate 10 l/s), out-lap -25.0s
+📊 strategy L20: fuel/lap 4.67 | fuel 58.3 = 12.5 laps | 12.0 laps to go | stops 0 (post-stop recalc)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 11.8/20.4s, 1 line): surveyComplete(0 optional missing)
+🔧 fresh tyres confirmed: 60.0° across all four (was 85.3° at pit entry, step 25.3°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via tyres x0.50): freshTyres(confirmed 60.00°)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 14.7/20.4s, 1 line, protected): strategyUpdate(fuel 12.48L, togo 12, stops 0, post-stop)
+🗑 dropped (cooldown strategy; 4.2s of 75.0s via strategy x0.50): strategyUpdate(fuel 12.48L, togo 12, stops 0)
+🗣 spoke (tyres, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔵 sub-state OUT_LAP → FLYING lap 21
+📋 lap 20: 2:12.672 out fuel_used=5.26
+🔵 lap 20: clean
+📊 laps-left model: elapsed 2372.7 s, remaining 1227.3 s, median lap 117.1 s -> 11 (no-stop 11, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L21: fuel/lap 4.67 | fuel 53.0 = 11.4 laps | 11.0 laps to go | stops 0
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (19 samples, σ 2.46 m, ±12 m, across -9.9…5.2 m)
+🗺 mapper: lap 20 rejected (teleport)
+🗣 bulletin (imp 6, cost 10.8s, ledger 10.8/20.4s, 2 lines): L21
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 14.3/20.4s, 1 line, protected): strategyUpdate(fuel 11.36L, togo 11, stops 0)
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+📋 lap 21: 1:56.339 clean fuel_used=4.69
+🔵 lap 21 antics: contact
+📊 laps-left model: elapsed 2489.1 s, remaining 1110.9 s, median lap 117.0 s -> 10 (no-stop 10, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L22: fuel/lap 4.68 | fuel 48.3 = 10.3 laps | 10.0 laps to go | stops 0
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P9→P10)
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (20 samples, σ 2.39 m, ±12 m, across -9.9…5.2 m)
+🗣 bulletin (imp 6, cost 4.6s, ledger 6.8/20.4s, 2 lines): L22
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 4.2s, ledger 11.0/20.4s, 2 events, 1 lines)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 14.6/20.4s, 1 line, protected): strategyUpdate(fuel 10.32L, togo 10, stops 0)
+🔧 huge stop 44 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🗣 spoke (tyres, imp 2, cost 2.5s, ledger 10.2/20.4s, 1 line): tyreTemps(overheating, 103°, rearRight)
+🗣 chain (imp 4, cost 2.9s, ledger 8.9/20.4s, 2 events, 1 lines)
+🎭 mood focused → concerned
+🎭 mood concerned → annoyed
+🗣 chain (imp 1, cost 3.4s, ledger 8.8/20.4s, 2 events, 1 lines)
+🗑 dropped (cooldown tyretemps; 8.7s of 22.5s via tyres x0.50): tyreTemps(high, 85°, frontRight)
+📋 lap 22: 2:22.760 clean fuel_used=4.41
+🎭 mood annoyed → focused
+🔵 lap 22 antics: contact, impact, off, lost 1
+📊 laps-left model: elapsed 2631.8 s, remaining 968.2 s, median lap 117.2 s -> 9 (no-stop 9, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L23: fuel/lap 4.68 | fuel 43.9 = 9.4 laps | 9.0 laps to go | stops 0
+🗣 spoke (lapPace, imp 4, cost 7.6s, ledger 7.6/20.4s, 1 line): paceDegradation(2.97s/lap over 5)
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (21 samples, σ 2.33 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (position, imp 4, cost 1.4s, ledger 9.0/20.4s, 1 line): positionChange(P10→P13)
+🗣 bulletin (imp 6, cost 5.4s, ledger 14.4/20.4s, 2 lines): L23
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 17.9/20.4s, 1 line, protected): strategyUpdate(fuel 9.39L, togo 9, stops 0)
+🎭 mood focused → relaxed
+📋 lap 23: 1:56.991 clean fuel_used=5.08
+🔵 lap 23: clean
+📊 laps-left model: elapsed 2748.8 s, remaining 851.2 s, median lap 116.9 s -> 8 (no-stop 8, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L24: fuel/lap 4.71 | fuel 38.8 = 8.2 laps | 8.0 laps to go | stops 0
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (22 samples, σ 2.28 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 2.7/20.4s, 1 line, protected): fuelStatus(lapsToGo, 8, 8 to go, 8.24 fuel-laps)
+🗣 bulletin (imp 6, cost 4.6s, ledger 7.3/20.4s, 2 lines): L24
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 11.2/20.4s, 1 line, protected): strategyUpdate(fuel 8.24L, togo 8, stops 0)
+🗣 spoke (tyres, imp 4, cost 2.7s, ledger 2.7/20.4s, 1 line): tyreTemps(high, 85°)
+📋 lap 24: 1:55.712 clean fuel_used=4.70
+🔵 lap 24: clean
+📊 laps-left model: elapsed 2864.5 s, remaining 735.5 s, median lap 116.8 s -> 7 (no-stop 7, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L25: fuel/lap 4.71 | fuel 34.1 = 7.2 laps | 7.0 laps to go | stops 0
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (23 samples, σ 2.23 m, ±12 m, across -9.9…5.2 m)
+🗺 mapper: learned lap 24 (115.712 s, 5320 m, 1064 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 4.1/20.4s, 1 line): surveyLap(24, 115712 ms, 1064 pts)
+🗺 session polyline installed from lap 24 (1064 pts) — minimap + delta live
+⏱ class lap BEST: Trial Mountain Circuit/lobby/Gr.3 → 1:55.712 (3/10 laps, 1 car(s), avg 1:56.216)
+🗣 spoke (strategy, imp 4, cost 2.2s, ledger 6.4/20.4s, 1 line, protected): fuelStatus(lapsToGo, 7, 7 to go, 7.24 fuel-laps)
+🗣 bulletin (imp 2, cost 7.2s, ledger 13.6/20.4s, 2 lines): L25
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 17.1/20.4s, 1 line, protected): strategyUpdate(fuel 7.24L, togo 7, stops 0)
+📋 lap 25: 1:55.873 clean fuel_used=4.73
+🔵 lap 25: clean
+📊 laps-left model: elapsed 2980.4 s, remaining 619.6 s, median lap 116.6 s -> 6 (no-stop 6, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L26: fuel/lap 4.71 | fuel 29.4 = 6.2 laps | 6.0 laps to go | stops 0
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (24 samples, σ 2.19 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line, protected): fuelStatus(lapsToGo, 6, 6 to go, 6.23 fuel-laps)
+🗣 bulletin (imp 6, cost 4.6s, ledger 7.7/20.4s, 2 lines): L26
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 11.6/20.4s, 1 line, protected): strategyUpdate(fuel 6.23L, togo 6, stops 0)
+📋 lap 26: 1:55.735 clean fuel_used=4.76
+🔵 lap 26: clean
+📊 laps-left model: elapsed 3096.1 s, remaining 503.9 s, median lap 116.4 s -> 5 (no-stop 5, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L27: fuel/lap 4.72 | fuel 24.6 = 5.2 laps | 5.0 laps to go | stops 0
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (25 samples, σ 2.14 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(lapsToGo, 5, 5 to go, 5.22 fuel-laps)
+🗣 bulletin (imp 6, cost 3.7s, ledger 7.3/20.4s, 2 lines): L27
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 10.8/20.4s, 1 line, protected): strategyUpdate(fuel 5.22L, togo 5, stops 0)
+📋 lap 27: 1:55.363 clean fuel_used=4.79
+🔵 lap 27: clean
+📊 laps-left model: elapsed 3211.5 s, remaining 388.5 s, median lap 116.1 s -> 4 (no-stop 4, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L28: fuel/lap 4.75 | fuel 19.8 = 4.2 laps | 4.0 laps to go | stops 0
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (26 samples, σ 2.10 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (position, imp 4, cost 1.4s, ledger 1.4/20.4s, 1 line): positionChange(P13→P14)
+🗺 mapper: learned lap 27 (115.363 s, 5335 m, 1067 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 5.6s, ledger 7.0/20.4s, 1 line): surveyLap(27, 115363 ms, 1067 pts)
+🗺 session polyline installed from lap 27 (1067 pts) — minimap + delta live
+⏱ class lap BEST: Trial Mountain Circuit/lobby/Gr.3 → 1:55.363 (3/10 laps, 1 car(s), avg 1:55.786)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 10.7/20.4s, 1 line, protected): fuelStatus(noMoreStops, 4, 4 to go, 4.17 fuel-laps)
+🗣 bulletin (imp 2, cost 5.6s, ledger 16.3/20.4s, 2 lines): L28
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 19.9/20.4s, 1 line, protected): strategyUpdate(fuel 4.17L, togo 4, stops 0)
+📋 lap 28: 1:55.414 clean fuel_used=5.07
+🔵 lap 28: clean
+📊 laps-left model: elapsed 3326.9 s, remaining 273.1 s, median lap 115.8 s -> 3 (no-stop 3, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L29: fuel/lap 4.75 | fuel 14.8 = 3.1 laps | 3.0 laps to go | stops 0
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (27 samples, σ 2.08 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (strategy, imp 2, cost 2.1s, ledger 2.1/20.4s, 1 line, protected): fuelStatus(noMoreStops, 3, 3 to go, 3.11 fuel-laps)
+🗣 bulletin (imp 6, cost 4.6s, ledger 6.7/20.4s, 2 lines): L29
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 10.6/20.4s, 1 line, protected): strategyUpdate(fuel 3.11L, togo 3, stops 0)
+🗣 chain (imp 4, cost 2.9s, ledger 13.5/20.4s, 1 events, 1 lines)
+📋 lap 29: 1:56.232 clean fuel_used=4.76
+📊 laps-left model: elapsed 3443.1 s, remaining 156.9 s, median lap 115.8 s -> 2 (no-stop 2, pit loss 25.0 s, rate 10 l/s)
+🔵 lap 29 antics: off
+📊 strategy L30: fuel/lap 4.76 | fuel 10.0 = 2.1 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (28 samples, σ 2.04 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (strategy, imp 2, cost 2.1s, ledger 2.1/20.4s, 1 line, protected): fuelStatus(noMoreStops, 2, 2 to go, 2.10 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 7.9/20.4s, 2 lines): L30
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 11.4/20.4s, 1 line, protected): strategyUpdate(fuel 2.10L, togo 2, stops 0)
+📋 lap 30: 1:56.003 clean fuel_used=4.85
+🔵 lap 30: clean
+📊 laps-left model: elapsed 3559.1 s, remaining 40.9 s, median lap 115.8 s -> 1 (no-stop 1, pit loss 25.0 s, rate 10 l/s)
+📊 strategy L31: fuel/lap 4.78 | fuel 5.1 = 1.1 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (29 samples, σ 2.02 m, ±12 m, across -9.9…5.2 m)
+🗣 spoke (position, imp 4, cost 2.8s, ledger 2.8/20.4s, 1 line): positionChange(P14→P13)
+🗣 bulletin (imp 6, cost 4.6s, ledger 7.4/20.4s, 2 lines): L31
+📋 lap 31: 1:55.722 clean fuel_used=4.84
+📊 strategy: finish armed at L32 (clock 3674.9 s of 3600) — awaiting lap-clock freeze
+📊 laps-left model: elapsed 3674.9 s, remaining -74.9 s, median lap 115.7 s -> 0 (expired)
+📊 strategy L32: fuel/lap 4.78 | fuel 0.3 = 0.1 laps | 0.0 laps to go | stops 0
+🔵 lap 31: clean
+🚪 gate refined: Trial Mountain Circuit/lobby/finishLine (30 samples, σ 2.24 m, ±12 m, across -9.9…5.6 m)
+📊 strategy: race finished at L32 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 32 lap(s), 1 stop(s), start GRID_START, P13/15
+✂️ capture auto-stop in 20s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): raceFinished(L32)
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 222697 packets
