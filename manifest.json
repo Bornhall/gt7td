@@ -1387,6 +1387,18 @@
       ]
     },
     {
+      "courseId": 1024,
+      "track": "Trial Mountain Circuit",
+      "file": "reference/trackmaps/1024.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 5335,
+          "points": 1067
+        }
+      ]
+    },
+    {
       "courseId": 1069,
       "track": "High Speed Ring Reverse",
       "file": "reference/trackmaps/1069.trackmap.json",
@@ -1626,17 +1638,17 @@
         "unknown"
       ],
       "withHeading": 198,
-      "updated": 1789414492,
+      "updated": 1789582635,
       "tolerance": {
         "gatesWithWidth": 198,
         "minM": 8,
         "medianM": 12.0,
-        "maxM": 19.64,
-        "atFloor": 180,
+        "maxM": 19.63,
+        "atFloor": 181,
         "atCap": 0,
         "belowFloor": 2,
         "belowFloorNote": "Written under a lower floor and not refined since. The gate set is mixed-generation; reprocess the library before reading atFloor as a measurement.",
-        "atDefault": 11,
+        "atDefault": 10,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,
