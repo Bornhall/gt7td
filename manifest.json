@@ -893,6 +893,23 @@
       ]
     },
     {
+      "courseId": 41,
+      "track": "WeatherTech Raceway Laguna Seca",
+      "file": "reference/trackmaps/41.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 3570,
+          "points": 714
+        },
+        {
+          "context": "customRace",
+          "lengthM": 3565,
+          "points": 713
+        }
+      ]
+    },
+    {
       "courseId": 51,
       "track": "Deep Forest Raceway",
       "file": "reference/trackmaps/51.trackmap.json",
@@ -909,6 +926,11 @@
       "track": "Mount Panorama Motor Racing Circuit",
       "file": "reference/trackmaps/116.trackmap.json",
       "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 6150,
+          "points": 1230
+        },
         {
           "context": "lobby",
           "lengthM": 6150,
@@ -1016,14 +1038,14 @@
       "file": "reference/trackmaps/365.trackmap.json",
       "versions": [
         {
-          "context": "customRace",
-          "lengthM": 5720,
-          "points": 1144
-        },
-        {
           "context": "lobby",
           "lengthM": 5705,
           "points": 1141
+        },
+        {
+          "context": "customRace",
+          "lengthM": 5720,
+          "points": 1144
         }
       ]
     },
@@ -1482,10 +1504,11 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 56,
+      "records": 62,
       "courses": [
         4,
         11,
+        41,
         51,
         116,
         119,
@@ -1522,6 +1545,7 @@
         896,
         898,
         1007,
+        1024,
         1069,
         1163,
         1226,
@@ -1531,15 +1555,16 @@
         1247,
         1249
       ],
-      "updated": 1788601898
+      "updated": 1789414029
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 284,
+      "gates": 310,
       "courses": [
         4,
         11,
+        41,
         51,
         116,
         119,
@@ -1576,6 +1601,7 @@
         896,
         898,
         1007,
+        1024,
         1069,
         1163,
         1226,
@@ -1599,15 +1625,24 @@
         "timeTrial",
         "unknown"
       ],
-      "withHeading": 178,
-      "updated": 1788601983,
+      "withHeading": 198,
+      "updated": 1789414492,
       "tolerance": {
-        "gatesWithWidth": 178,
+        "gatesWithWidth": 198,
         "minM": 8,
-        "medianM": 16.0,
-        "maxM": 19.8,
-        "atFloor": 55,
-        "atCap": 0
+        "medianM": 12.0,
+        "maxM": 19.64,
+        "atFloor": 180,
+        "atCap": 0,
+        "belowFloor": 2,
+        "belowFloorNote": "Written under a lower floor and not refined since. The gate set is mixed-generation; reprocess the library before reading atFloor as a measurement.",
+        "atDefault": 11,
+        "bounds": {
+          "minHalfWidthM": 12,
+          "maxHalfWidthM": 20,
+          "defaultHalfWidthM": 16,
+          "source": "file"
+        }
       }
     }
   }
