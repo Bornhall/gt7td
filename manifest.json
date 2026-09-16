@@ -1572,7 +1572,7 @@
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 310,
+      "gates": 297,
       "courses": [
         4,
         11,
@@ -1634,21 +1634,20 @@
       "contexts": [
         "customRace",
         "lobby",
-        "timeTrial",
-        "unknown"
+        "timeTrial"
       ],
-      "withHeading": 198,
-      "updated": 1789582635,
+      "withHeading": 187,
+      "updated": 1789589841,
       "tolerance": {
-        "gatesWithWidth": 198,
+        "gatesWithWidth": 187,
         "minM": 8,
-        "medianM": 12.0,
-        "maxM": 19.63,
-        "atFloor": 181,
+        "medianM": 12,
+        "maxM": 19.62,
+        "atFloor": 179,
         "atCap": 0,
-        "belowFloor": 2,
+        "belowFloor": 1,
         "belowFloorNote": "Written under a lower floor and not refined since. The gate set is mixed-generation; reprocess the library before reading atFloor as a measurement.",
-        "atDefault": 10,
+        "atDefault": 2,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,
