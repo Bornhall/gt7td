@@ -1,6 +1,16 @@
 {
   "carId" : 2183,
   "carName" : "Chevrolet Corvette C7 Gr.3",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 12,
+    "lapsValid" : 1,
+    "measuredHz" : 59.93950513214658,
+    "source" : "reprocess",
+    "stops" : 1,
+    "tyreChanges" : 1,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "lobby",
     "carClass" : "Gr.3",

@@ -1,6 +1,16 @@
 {
-  "carId" : 3605,
-  "carName" : "Ferrari 499P '23",
+  "carId" : 2183,
+  "carName" : "Chevrolet Corvette C7 Gr.3",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 28,
+    "lapsValid" : 4,
+    "measuredHz" : 60.00015487907815,
+    "source" : "reprocess",
+    "stops" : 3,
+    "tyreChanges" : 3,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "carClass" : "Gr.3",
@@ -27,5 +37,7 @@
   "packetSize" : 368,
   "startTime" : 1788622231,
   "trackName" : "Mount Panorama Motor Racing Circuit",
-  "version" : 8
+  "version" : 8,
+  "wasCarId" : 3605,
+  "wasCarName" : "Ferrari 499P '23"
 }

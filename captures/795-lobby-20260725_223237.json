@@ -1,6 +1,14 @@
 {
   "carId" : 3238,
   "carName" : "Peugeot RCZ Gr.3",
+  "counts" : {
+    "laps" : 4,
+    "lapsValid" : 1,
+    "source" : "reprocess",
+    "stops" : 1,
+    "tyreChanges" : 1,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "lobby",
     "carClass" : "Gr.3",

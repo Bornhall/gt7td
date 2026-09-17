@@ -1,6 +1,16 @@
 {
   "carId" : 3588,
   "carName" : "Ferrari 296 GT3 '23",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 40,
+    "lapsValid" : 6,
+    "measuredHz" : 60.00147175156834,
+    "source" : "reprocess",
+    "stops" : 2,
+    "tyreChanges" : 2,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "carClass" : "Gr.3",

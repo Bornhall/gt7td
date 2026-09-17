@@ -1,6 +1,16 @@
 {
   "carId" : 3419,
   "carName" : "MAZDA RX-VISION GT3 CONCEPT",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 40,
+    "lapsValid" : 7,
+    "measuredHz" : 60,
+    "source" : "reprocess",
+    "stops" : 2,
+    "tyreChanges" : 2,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "carClass" : "Gr.3",

@@ -1,6 +1,16 @@
 {
   "carId" : 2184,
   "carName" : "Jaguar F-type Gr.3",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 40,
+    "lapsValid" : 5,
+    "measuredHz" : 60.00043803933593,
+    "source" : "reprocess",
+    "stops" : 2,
+    "tyreChanges" : 2,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "carClass" : "Gr.3",

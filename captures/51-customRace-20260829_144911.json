@@ -1,6 +1,16 @@
 {
   "carId" : 3531,
   "carName" : "Mercedes-AMG GT3 '20",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 40,
+    "lapsValid" : 5,
+    "measuredHz" : 60.00022115820552,
+    "source" : "reprocess",
+    "stops" : 2,
+    "tyreChanges" : 2,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "carClass" : "Gr.3",

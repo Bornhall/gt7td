@@ -1,6 +1,16 @@
 {
   "carId" : 3600,
   "carName" : "Porsche 911 GT3 R (992) '22",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 13,
+    "lapsValid" : 4,
+    "measuredHz" : 60.00297676000935,
+    "source" : "reprocess",
+    "stops" : 3,
+    "tyreChanges" : 2,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "carClass" : "Gr.3",

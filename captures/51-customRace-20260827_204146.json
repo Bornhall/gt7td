@@ -1,6 +1,16 @@
 {
   "carId" : 2177,
   "carName" : "Lamborghini Huracán GT3 '15",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 40,
+    "lapsValid" : 7,
+    "measuredHz" : 59.998306089607865,
+    "source" : "reprocess",
+    "stops" : 2,
+    "tyreChanges" : 2,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "carClass" : "Gr.3",

@@ -15,8 +15,17 @@
       "rawBytes": 10212368,
       "gzBytes": 5095115,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 6,
+      "lapsValid": 3,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0,
+      "hzSource": "measured"
     },
     {
       "stem": "41-customRace-20260908_234405",
@@ -31,8 +40,17 @@
       "rawBytes": 8532816,
       "gzBytes": 4102653,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 5,
+      "lapsValid": 3,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0028,
+      "hzSource": "measured"
     },
     {
       "stem": "41-customRace-20260908_235609",
@@ -47,8 +65,17 @@
       "rawBytes": 8444128,
       "gzBytes": 4093198,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 5,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0064,
+      "hzSource": "measured"
     },
     {
       "stem": "41-lobby-20260909_000857",
@@ -63,8 +90,17 @@
       "rawBytes": 8613776,
       "gzBytes": 4010650,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 5,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9431,
+      "hzSource": "measured"
     },
     {
       "stem": "51-customRace-20260817_221417",
@@ -79,8 +115,17 @@
       "rawBytes": 81222384,
       "gzBytes": 39829581,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 2,
-      "tyreWearMultiplier": 5
+      "tyreWearMultiplier": 5,
+      "laps": 41,
+      "lapsValid": 8,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0004,
+      "hzSource": "measured"
     },
     {
       "stem": "51-customRace-20260820_191652",
@@ -95,8 +140,17 @@
       "rawBytes": 79963824,
       "gzBytes": 39247264,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 2,
-      "tyreWearMultiplier": 5
+      "tyreWearMultiplier": 5,
+      "laps": 40,
+      "lapsValid": 7,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0,
+      "hzSource": "measured"
     },
     {
       "stem": "51-customRace-20260821_192506",
@@ -111,8 +165,17 @@
       "rawBytes": 81874480,
       "gzBytes": 39532907,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 3,
-      "tyreWearMultiplier": 6
+      "tyreWearMultiplier": 6,
+      "laps": 41,
+      "lapsValid": 6,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0004,
+      "hzSource": "measured"
     },
     {
       "stem": "51-customRace-20260821_215143",
@@ -127,8 +190,17 @@
       "rawBytes": 80969200,
       "gzBytes": 39738631,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 3,
-      "tyreWearMultiplier": 6
+      "tyreWearMultiplier": 6,
+      "laps": 40,
+      "lapsValid": 6,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0015,
+      "hzSource": "measured"
     },
     {
       "stem": "51-customRace-20260827_204146",
@@ -143,8 +215,17 @@
       "rawBytes": 81383936,
       "gzBytes": 39301362,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 3,
-      "tyreWearMultiplier": 6
+      "tyreWearMultiplier": 6,
+      "laps": 40,
+      "lapsValid": 7,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9983,
+      "hzSource": "measured"
     },
     {
       "stem": "51-customRace-20260829_144911",
@@ -159,8 +240,17 @@
       "rawBytes": 80183152,
       "gzBytes": 38642970,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 3,
-      "tyreWearMultiplier": 6
+      "tyreWearMultiplier": 6,
+      "laps": 40,
+      "lapsValid": 5,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0002,
+      "hzSource": "measured"
     },
     {
       "stem": "51-customRace-20260829_195438",
@@ -175,8 +265,17 @@
       "rawBytes": 81422944,
       "gzBytes": 39279554,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 3,
-      "tyreWearMultiplier": 6
+      "tyreWearMultiplier": 6,
+      "laps": 41,
+      "lapsValid": 6,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0007,
+      "hzSource": "measured"
     },
     {
       "stem": "51-customRace-20260830_114650",
@@ -191,8 +290,17 @@
       "rawBytes": 81488080,
       "gzBytes": 40061911,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 3,
-      "tyreWearMultiplier": 6
+      "tyreWearMultiplier": 6,
+      "laps": 41,
+      "lapsValid": 7,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0007,
+      "hzSource": "measured"
     },
     {
       "stem": "51-customRace-20260830_155428",
@@ -207,8 +315,17 @@
       "rawBytes": 83523488,
       "gzBytes": 39188925,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 3,
-      "tyreWearMultiplier": 6
+      "tyreWearMultiplier": 6,
+      "laps": 40,
+      "lapsValid": 5,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0004,
+      "hzSource": "measured"
     },
     {
       "stem": "51-customRace-20260831_203211",
@@ -223,8 +340,17 @@
       "rawBytes": 80362368,
       "gzBytes": 39312967,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 2,
-      "tyreWearMultiplier": 5
+      "tyreWearMultiplier": 5,
+      "laps": 41,
+      "lapsValid": 7,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9412,
+      "hzSource": "measured"
     },
     {
       "stem": "116-customRace-20260905_173031",
@@ -239,8 +365,17 @@
       "rawBytes": 80764224,
       "gzBytes": 39518308,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 5,
-      "tyreWearMultiplier": 5
+      "tyreWearMultiplier": 5,
+      "laps": 28,
+      "lapsValid": 4,
+      "stops": 3,
+      "tyreChanges": 3,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0002,
+      "hzSource": "measured"
     },
     {
       "stem": "116-customRace-20260905_184421",
@@ -255,8 +390,17 @@
       "rawBytes": 21586144,
       "gzBytes": 10464526,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 5,
-      "tyreWearMultiplier": 5
+      "tyreWearMultiplier": 5,
+      "laps": 7,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9995,
+      "hzSource": "measured"
     },
     {
       "stem": "116-customRace-20260907_160114",
@@ -271,8 +415,17 @@
       "rawBytes": 82755840,
       "gzBytes": 40699256,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 2,
-      "tyreWearMultiplier": 5
+      "tyreWearMultiplier": 5,
+      "laps": 29,
+      "lapsValid": 4,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0005,
+      "hzSource": "measured"
     },
     {
       "stem": "116-customRace-20260907_182706",
@@ -287,8 +440,17 @@
       "rawBytes": 50485920,
       "gzBytes": 24749978,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 2,
-      "tyreWearMultiplier": 5
+      "tyreWearMultiplier": 5,
+      "laps": 17,
+      "lapsValid": 5,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0006,
+      "hzSource": "measured"
     },
     {
       "stem": "116-customRace-20260907_190630",
@@ -303,8 +465,17 @@
       "rawBytes": 15140256,
       "gzBytes": 7425903,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 2,
-      "tyreWearMultiplier": 5
+      "tyreWearMultiplier": 5,
+      "laps": 6,
+      "lapsValid": 4,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0028,
+      "hzSource": "measured"
     },
     {
       "stem": "116-customRace-20260907_202833",
@@ -319,8 +490,17 @@
       "rawBytes": 81557264,
       "gzBytes": 40096026,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 2,
-      "tyreWearMultiplier": 5
+      "tyreWearMultiplier": 5,
+      "laps": 29,
+      "lapsValid": 8,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.94,
+      "hzSource": "measured"
     },
     {
       "stem": "349-customRace-20260725_212313",
@@ -335,8 +515,17 @@
       "rawBytes": 17402352,
       "gzBytes": 8734720,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 10,
-      "tyreWearMultiplier": null
+      "tyreWearMultiplier": null,
+      "laps": 8,
+      "lapsValid": 4,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9985,
+      "hzSource": "measured"
     },
     {
       "stem": "356-customRace-20260901_181517",
@@ -351,8 +540,17 @@
       "rawBytes": 13976640,
       "gzBytes": 6494172,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 10
+      "tyreWearMultiplier": 10,
+      "laps": 13,
+      "lapsValid": 4,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0076,
+      "hzSource": "measured"
     },
     {
       "stem": "356-customRace-20260901_222038",
@@ -367,8 +565,17 @@
       "rawBytes": 13845264,
       "gzBytes": 6482136,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 8
+      "tyreWearMultiplier": 8,
+      "laps": 13,
+      "lapsValid": 2,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0096,
+      "hzSource": "measured"
     },
     {
       "stem": "363-lobby-20260909_233041",
@@ -383,8 +590,17 @@
       "rawBytes": 30782832,
       "gzBytes": 14762413,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 3,
-      "tyreWearMultiplier": 6
+      "tyreWearMultiplier": 6,
+      "laps": 12,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9395,
+      "hzSource": "measured"
     },
     {
       "stem": "365-customRace-20260725_195705",
@@ -399,8 +615,17 @@
       "rawBytes": 14081888,
       "gzBytes": 7102666,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": null
+      "tyreWearMultiplier": null,
+      "laps": 6,
+      "lapsValid": 2,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0024,
+      "hzSource": "measured"
     },
     {
       "stem": "365-customRace-20260726_200112",
@@ -415,8 +640,17 @@
       "rawBytes": 27728432,
       "gzBytes": 13516410,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 10,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 11,
+      "lapsValid": 5,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0003,
+      "hzSource": "measured"
     },
     {
       "stem": "365-customRace-20260726_235845",
@@ -431,8 +665,17 @@
       "rawBytes": 14956624,
       "gzBytes": 7193982,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 10,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 6,
+      "lapsValid": 2,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0013,
+      "hzSource": "measured"
     },
     {
       "stem": "365-lobby-20260725_221122",
@@ -447,8 +690,17 @@
       "rawBytes": 9185648,
       "gzBytes": 4276167,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 4,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9401,
+      "hzSource": "measured"
     },
     {
       "stem": "376-lobby-1784734241",
@@ -463,6 +715,7 @@
       "rawBytes": 7159072,
       "gzBytes": 3367524,
       "hasLog": false,
+      "hasClock": false,
       "fuelMultiplier": 8,
       "tyreWearMultiplier": 1
     },
@@ -479,6 +732,7 @@
       "rawBytes": 865168,
       "gzBytes": 261733,
       "hasLog": false,
+      "hasClock": false,
       "fuelMultiplier": null,
       "tyreWearMultiplier": null
     },
@@ -495,6 +749,7 @@
       "rawBytes": 10608704,
       "gzBytes": 5173578,
       "hasLog": false,
+      "hasClock": false,
       "fuelMultiplier": 8,
       "tyreWearMultiplier": 1
     },
@@ -511,8 +766,17 @@
       "rawBytes": 28822864,
       "gzBytes": 13255042,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 26,
+      "lapsValid": 4,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9469,
+      "hzSource": "measured"
     },
     {
       "stem": "462-customRace-20260725_200946",
@@ -527,8 +791,17 @@
       "rawBytes": 10016592,
       "gzBytes": 4927390,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": null,
-      "tyreWearMultiplier": null
+      "tyreWearMultiplier": null,
+      "laps": 4,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0033,
+      "hzSource": "measured"
     },
     {
       "stem": "462-customRace-20260726_112940",
@@ -543,8 +816,17 @@
       "rawBytes": 20240368,
       "gzBytes": 9740211,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 10,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 7,
+      "lapsValid": 3,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0029,
+      "hzSource": "measured"
     },
     {
       "stem": "469-customRace-20260726_100526",
@@ -559,8 +841,17 @@
       "rawBytes": 20999552,
       "gzBytes": 10061955,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 10,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 9,
+      "lapsValid": 4,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0011,
+      "hzSource": "measured"
     },
     {
       "stem": "470-customRace-20260726_211142",
@@ -575,8 +866,17 @@
       "rawBytes": 27107248,
       "gzBytes": 12927055,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 15,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 13,
+      "lapsValid": 4,
+      "stops": 3,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.003,
+      "hzSource": "measured"
     },
     {
       "stem": "602-customRace-20260727_001126",
@@ -591,8 +891,17 @@
       "rawBytes": 15855280,
       "gzBytes": 7592260,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 10,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 6,
+      "lapsValid": 2,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0018,
+      "hzSource": "measured"
     },
     {
       "stem": "602-lobby-20260725_221844",
@@ -607,8 +916,17 @@
       "rawBytes": 8919584,
       "gzBytes": 4224440,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 4,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9382,
+      "hzSource": "measured"
     },
     {
       "stem": "790-lobby-20260725_223553",
@@ -623,8 +941,17 @@
       "rawBytes": 4061616,
       "gzBytes": 1820441,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 4,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.914,
+      "hzSource": "measured"
     },
     {
       "stem": "791-lobby-20260725_222909",
@@ -639,8 +966,17 @@
       "rawBytes": 4040640,
       "gzBytes": 1790776,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 4,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9429,
+      "hzSource": "measured"
     },
     {
       "stem": "792-lobby-20260725_223916",
@@ -655,8 +991,17 @@
       "rawBytes": 4531184,
       "gzBytes": 2017784,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 4,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9462,
+      "hzSource": "measured"
     },
     {
       "stem": "793-lobby-20260725_222551",
@@ -671,8 +1016,17 @@
       "rawBytes": 3999792,
       "gzBytes": 1757440,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 4,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.932,
+      "hzSource": "measured"
     },
     {
       "stem": "794-lobby-20260725_224304",
@@ -687,8 +1041,17 @@
       "rawBytes": 4620608,
       "gzBytes": 2100888,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 4,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9506,
+      "hzSource": "measured"
     },
     {
       "stem": "795-lobby-20260725_223237",
@@ -703,8 +1066,15 @@
       "rawBytes": 3815424,
       "gzBytes": 1690536,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 4,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess"
     },
     {
       "stem": "846-customRace-20260726_222748",
@@ -719,8 +1089,17 @@
       "rawBytes": 8776800,
       "gzBytes": 4149453,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 7,
+      "lapsValid": 2,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9949,
+      "hzSource": "measured"
     },
     {
       "stem": "1024-lobby-20260914_203110",
@@ -735,8 +1114,17 @@
       "rawBytes": 81952496,
       "gzBytes": 39803784,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 2,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 32,
+      "lapsValid": 7,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9393,
+      "hzSource": "measured"
     },
     {
       "stem": "1226-customRace-20260726_233603",
@@ -751,8 +1139,17 @@
       "rawBytes": 9118304,
       "gzBytes": 4225435,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 5,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.001,
+      "hzSource": "measured"
     },
     {
       "stem": "1226-lobby-20260725_224645",
@@ -767,8 +1164,17 @@
       "rawBytes": 6397680,
       "gzBytes": 2934605,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 4,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9489,
+      "hzSource": "measured"
     },
     {
       "stem": "1231-lobby-20260725_225154",
@@ -783,8 +1189,17 @@
       "rawBytes": 8371264,
       "gzBytes": 3919827,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 5,
+      "lapsValid": 2,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9386,
+      "hzSource": "measured"
     },
     {
       "stem": "1232-lobby-20260725_225831",
@@ -799,8 +1214,17 @@
       "rawBytes": 6537888,
       "gzBytes": 3015742,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 4,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9448,
+      "hzSource": "measured"
     },
     {
       "stem": "1233-lobby-20260725_230344",
@@ -815,8 +1239,17 @@
       "rawBytes": 6703488,
       "gzBytes": 3080061,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 2
+      "tyreWearMultiplier": 2,
+      "laps": 4,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9418,
+      "hzSource": "measured"
     },
     {
       "stem": "1247-customRace-20260904_233736",
@@ -831,8 +1264,17 @@
       "rawBytes": 63181920,
       "gzBytes": 31307608,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 6
+      "tyreWearMultiplier": 6,
+      "laps": 7,
+      "lapsValid": 3,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9994,
+      "hzSource": "measured"
     },
     {
       "stem": "1249-customRace-20260726_131014",
@@ -847,8 +1289,17 @@
       "rawBytes": 21797008,
       "gzBytes": 10560080,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": 10,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 10,
+      "lapsValid": 4,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0002,
+      "hzSource": "measured"
     },
     {
       "stem": "1264-customRace-20260725_151553",
@@ -863,8 +1314,17 @@
       "rawBytes": 8714976,
       "gzBytes": 4187843,
       "hasLog": true,
+      "hasClock": false,
       "fuelMultiplier": null,
-      "tyreWearMultiplier": null
+      "tyreWearMultiplier": null,
+      "laps": 4,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9884,
+      "hzSource": "measured"
     }
   ],
   "trackmaps": [
@@ -1646,7 +2106,7 @@
         "atFloor": 179,
         "atCap": 0,
         "belowFloor": 1,
-        "belowFloorNote": "Written under a lower floor and not refined since. The gate set is mixed-generation; reprocess the library before reading atFloor as a measurement.",
+        "belowFloorNote": "Written under a lower floor and not refined since. The gate set is mixed-generation, so atFloor is not a clean measurement. NOTE that a reprocess does not necessarily clear this: a gate only refines from a recording in ITS OWN (course, context), so a pair with no usable capture keeps pre-raise geometry indefinitely. Deep Forest lobby is the worked example -- 27 samples, still at the old floor, and its only lobby recordings are 11-18 second fragments that learn nothing.",
         "atDefault": 2,
         "bounds": {
           "minHalfWidthM": 12,

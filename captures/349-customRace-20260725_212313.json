@@ -1,6 +1,16 @@
 {
   "carId" : 3605,
   "carName" : "Ferrari 499P '23",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 8,
+    "lapsValid" : 4,
+    "measuredHz" : 59.9985217487712,
+    "source" : "reprocess",
+    "stops" : 1,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "carId" : 3605,

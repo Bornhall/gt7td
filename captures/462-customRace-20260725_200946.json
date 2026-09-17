@@ -1,6 +1,16 @@
 {
   "carId" : 2087,
   "carName" : "BMW Vision Gran Turismo",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 4,
+    "lapsValid" : 2,
+    "measuredHz" : 60.00325642967882,
+    "source" : "reprocess",
+    "stops" : 0,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "carId" : 2087,
