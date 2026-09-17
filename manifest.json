@@ -1327,6 +1327,64 @@
       "hzSource": "measured"
     }
   ],
+  "raw": [
+    {
+      "stem": "raw-20260914-200010",
+      "file": "raw/raw-20260914-200010.gt7raw.gz",
+      "rawBytes": 19016400,
+      "gzBytes": 8485787,
+      "hasClock": true,
+      "clockMarks": 51675,
+      "clockSource": "raw",
+      "startedAtUnix": 1789408810.0106149,
+      "spanS": 862.496,
+      "measuredHz": 59.9133,
+      "packets": 51675,
+      "packetSize": 368
+    },
+    {
+      "stem": "raw-20260917-221430",
+      "file": "raw/raw-20260917-221430.gt7raw.gz",
+      "rawBytes": 24159936,
+      "gzBytes": 10285034,
+      "hasClock": true,
+      "clockMarks": 65652,
+      "clockSource": "raw",
+      "startedAtUnix": 1789676070.8683329,
+      "spanS": 1096.407,
+      "measuredHz": 59.8783,
+      "packets": 65652,
+      "packetSize": 368
+    },
+    {
+      "stem": "raw-20260917-223302",
+      "file": "raw/raw-20260917-223302.gt7raw.gz",
+      "rawBytes": 23174800,
+      "gzBytes": 10120981,
+      "hasClock": true,
+      "clockMarks": 62975,
+      "clockSource": "raw",
+      "startedAtUnix": 1789677182.2927551,
+      "spanS": 1051.477,
+      "measuredHz": 59.891,
+      "packets": 62975,
+      "packetSize": 368
+    },
+    {
+      "stem": "raw-20260917-225048",
+      "file": "raw/raw-20260917-225048.gt7raw.gz",
+      "rawBytes": 24303824,
+      "gzBytes": 10342431,
+      "hasClock": true,
+      "clockMarks": 66043,
+      "clockSource": "raw",
+      "startedAtUnix": 1789678248.4279509,
+      "spanS": 1102.728,
+      "measuredHz": 59.8896,
+      "packets": 66043,
+      "packetSize": 368
+    }
+  ],
   "trackmaps": [
     {
       "courseId": 4,
