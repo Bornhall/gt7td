@@ -1,0 +1,31 @@
+{
+  "carId" : 2183,
+  "carName" : "Chevrolet Corvette C7 Gr.3",
+  "declared" : {
+    "captureContext" : "customRace",
+    "carClass" : "Gr.3",
+    "carId" : 2183,
+    "carName" : "Chevrolet Corvette C7 Gr.3",
+    "courseId" : 469,
+    "fuelMultiplier" : 1,
+    "mandatoryTyreChange" : false,
+    "mode" : "race",
+    "notes" : "Sophy AI",
+    "raceLength" : 6,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 3,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 20,
+    "timeBeforeStart" : 20,
+    "trackName" : "Autodromo Nazionale Monza",
+    "tyreWearMultiplier" : 1,
+    "weather" : "dry"
+  },
+  "endTime" : 1789763599,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1789762855,
+  "trackName" : "Autodromo Nazionale Monza",
+  "version" : 8
+}

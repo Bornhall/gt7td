@@ -1,0 +1,138 @@
+# EzioClient session log
+# file:    20260918_220706 - Autodromo Nazionale Monza (469).gt7td
+# started: 2026-09-18T20:07:06Z
+# track:   Autodromo Nazionale Monza (CRS 469)
+# car:     Chevrolet Corvette C7 Gr.3 [gr3]
+# context: customRace
+# ---
+# car:     Chevrolet Corvette C7 Gr.3 (id 2183) — confirmed from telemetry
+🎮 menus → onTrack (pkt 552982, lap 0, flags 0x0009, pos 20, cars 20, tod 57360000)
+🏁 start type: ROLLING_START at pkt 553338 lap 1
+🔀 state UNKNOWN → RACING at pkt 553338 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.09
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 learned: 2 gates matched, all Autodromo Nazionale Monza — using the lap1 gate (10 samples)
+🧭 identified: Autodromo Nazionale Monza (CRS 469) — lap1, 10 sample(s), ±12 m
+🚪 gate refined: Autodromo Nazionale Monza/customRace/lap1 (11 samples, σ 0.28 m, ±12 m, across -0.9…0.0 m)
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 4.3/20.4s, 1 line): surveyGate(lap1, 11)
+🗣 chain (imp 4, cost 3.8s, ledger 8.1/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.5s, ledger 10.6/20.4s, 2 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.6s, ledger 4.6/20.4s, 1 events, 1 lines)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 2:01.451 first fuel_used=2.74
+🎭 mood focused → relaxed
+📊 strategy L2: fuel/lap 2.74 | fuel 97.2 = 35.4 laps | 5.0 laps to go | stops 0
+🔵 lap 1 antics: contact, off
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (71 samples, σ 3.76 m, ±12 m, across -6.6…7.1 m)
+🎭 mood relaxed → focused
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 71)
+🗣 bulletin (imp 6, cost 6.2s, ledger 8.9/20.4s, 2 lines): L2
+🗣 chain (imp 4, cost 2.5s, ledger 11.4/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+📋 lap 2: 1:56.801 clean fuel_used=2.81
+🔵 lap 2 antics: contact, off
+📊 strategy L3: fuel/lap 2.77 | fuel 94.4 = 34.0 laps | 4.0 laps to go | stops 0
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (72 samples, σ 3.92 m, ±12 m, across -10.1…7.1 m)
+🗺 mapper: learned lap 2 (116.801 s, 5770 m, 1154 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 4.1/20.4s, 1 line): surveyLap(2, 116801 ms, 1154 pts)
+🗺 session polyline installed from lap 2 (1154 pts) — minimap + delta live
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.8/20.4s, 1 line): surveyComplete(3 optional missing)
+⏱ class lap kept: Autodromo Nazionale Monza/customRace/Gr.3 → 1:56.801 (2/10 laps, 2 car(s), avg 1:53.699)
+🗣 bulletin (imp 2, cost 7.2s, ledger 14.0/20.4s, 2 lines): L3
+🗣 chain (imp 4, cost 1.6s, ledger 15.7/20.4s, 1 events, 1 lines)
+🗑 speaker: stale, not spoken: "watch track limits"
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 19.2/20.4s, 1 line, protected): strategyUpdate(fuel 34.02L, togo 4, stops 0)
+🗑 dropped (chain, ledger full; cost 2.1s, load 19.2/20.4s, 1 events)
+📋 lap 3: 1:54.342 clean fuel_used=2.81
+🎭 mood focused → relaxed
+🔵 lap 3 antics: off
+📊 strategy L4: fuel/lap 2.81 | fuel 91.6 = 32.6 laps | 3.0 laps to go | stops 0
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (73 samples, σ 3.90 m, ±12 m, across -10.1…7.1 m)
+🗣 spoke (position, imp 4, cost 3.3s, ledger 3.3/20.4s, 1 line): positionChange(P12→P10)
+🗺 mapper: learned lap 3 (114.342 s, 5765 m, 1153 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 7.0/20.4s, 1 line): surveyLap(3, 114342 ms, 1153 pts)
+🗺 session polyline installed from lap 3 (1153 pts) — minimap + delta live
+⏱ class lap kept: Autodromo Nazionale Monza/customRace/Gr.3 → 1:54.342 (3/10 laps, 2 car(s), avg 1:53.913)
+🗣 bulletin (imp 2, cost 8.3s, ledger 15.3/20.4s, 2 lines): L4
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 18.8/20.4s, 1 line, protected): strategyUpdate(fuel 32.63L, togo 3, stops 0)
+🎭 mood relaxed → focused
+🎭 mood focused → concerned
+🎭 mood concerned → annoyed
+🗣 chain (imp 4, cost 9.2s, ledger 9.2/20.4s, 9 events, 2 lines)
+🗑 speaker: stale after pause: "tidy it up"
+🗑 speaker: stale, not spoken: "we need the car in one piece"
+🗣 chain (imp 2, cost 6.2s, ledger 15.4/20.4s, 5 events, 2 lines)
+🗑 speaker: stale, not spoken: "please"
+🗣 chain (imp 2, cost 1.2s, ledger 16.6/20.4s, 1 events, 1 lines)
+📋 lap 4: 2:09.235 clean fuel_used=2.89
+🔵 lap 4 antics: contact, off
+📊 strategy L5: fuel/lap 2.81 | fuel 88.7 = 31.6 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (74 samples, σ 3.91 m, ±12 m, across -10.1…7.1 m)
+🗣 spoke (position, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line): positionChange(P10→P7)
+🗣 bulletin (imp 6, cost 5.8s, ledger 8.9/20.4s, 2 lines): L5
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.4/20.4s, 1 line, protected): strategyUpdate(fuel 31.57L, togo 2, stops 0)
+🎭 mood annoyed → concerned
+🗣 chain (imp 6, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+📋 lap 5: 1:54.076 clean fuel_used=2.83
+🎭 mood concerned → focused
+🔵 lap 5: clean
+📊 strategy L6: fuel/lap 2.81 | fuel 85.8 = 30.5 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (75 samples, σ 3.89 m, ±12 m, across -10.1…7.1 m)
+🗣 spoke (lapPace, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): paceDegradation(0.67s/lap over 4)
+🗣 spoke (position, imp 4, cost 1.4s, ledger 3.9/20.4s, 1 line): positionChange(P7→P6)
+🗺 mapper: learned lap 5 (114.076 s, 5760 m, 1152 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.5s, ledger 8.4/20.4s, 1 line): surveyLap(5, 114076 ms, 1152 pts)
+🗺 session polyline installed from lap 5 (1152 pts) — minimap + delta live
+⏱ class lap kept: Autodromo Nazionale Monza/customRace/Gr.3 → 1:54.076 (4/10 laps, 2 car(s), avg 1:53.954)
+🗣 bulletin (imp 2, cost 5.9s, ledger 14.3/20.4s, 2 lines): L6
+🗣 chain (imp 6, cost 2.1s, ledger 16.3/20.4s, 1 events, 1 lines)
+📋 lap 6: 1:53.588 clean fuel_used=2.81
+🔵 lap 6: clean
+📊 strategy: finish armed at L7 (lap 7 > 6) — awaiting lap-clock freeze
+📊 strategy L7: fuel/lap 2.81 | fuel 83.0 = 29.5 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Autodromo Nazionale Monza/customRace/finishLine (76 samples, σ 4.11 m, ±12 m, across -12.2…7.1 m)
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P6→P4)
+🗺 mapper: learned lap 6 (113.588 s, 5760 m, 1152 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 8.1/20.4s, 1 line): surveyLap(6, 113588 ms, 1152 pts)
+🗺 session polyline installed from lap 6 (1152 pts) — minimap + delta live
+⏱ class lap kept: Autodromo Nazionale Monza/customRace/Gr.3 → 1:53.588 (4/10 laps, 2 car(s), avg 1:53.151)
+🎭 mood focused → concerned
+📊 strategy: race finished at L7 — confirmed, lap clock frozen 0.50 s (handover 0.45 s)
+💾 race preserved (finished): 7 lap(s), 0 stop(s), start ROLLING_START, P4/20
+✂️ capture auto-stop in 20s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 10.1/20.4s, 1 line): raceFinished(L7)
+🗑 speaker: 3 queued line(s) preempted by flag
+🔧 session ended after lap 7
+🎭 mood concerned → relaxed
+🗑 flag: pending commentary cancelled
+🎮 replay handshake armed (off track, race context still valid: pos 20, cars 20)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 129 gate(s) from 306 stored
+📊 strategy: reset
+📊 pit loss: estimated 15.0 s from the unofficial table (Autodromo Nazionale Monza)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=6 eff=6 budget=14 cd=x1.25 lock=60.0->75.0s ttl=6s
+🎮 onTrack → replay (pkt 596664, lap 0, flags 0x0008, pos 20, cars 20, tod 57360000)
+⏸ replay — race commentary suspended
+🧭 polyline [MENU]: 23 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield A Reverse median 8.81 (alignment -0.69)
+🧭 polyline [MENU]: Autodromo Nazionale Monza (CRS 469, map ctx customRace) median 4.92 m, p90 5.11 m, 2% of lap, 30 samples, alignment +1.00 — next course Blue Moon Bay Speedway - Infield A median 7.94/p90 28.16
+🧭 polyline agrees with the declared course (CRS 469)
+🧭 learned: 2 gates matched, all Autodromo Nazionale Monza — using the lap1 gate (11 samples)
+🧭 identified: Autodromo Nazionale Monza (CRS 469) — lap1, 11 sample(s), ±12 m
+🚪 gate refined: Autodromo Nazionale Monza/customRace/lap1 (12 samples, σ 0.36 m, ±12 m, across -0.9…0.0 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 12.8/20.4s, 1 line): surveyGate(lap1, 12)
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 44596 packets
