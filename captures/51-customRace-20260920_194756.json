@@ -1,0 +1,30 @@
+{
+  "carId" : 3590,
+  "carName" : "Hyundai ELANTRA N TC '24",
+  "declared" : {
+    "captureContext" : "customRace",
+    "carClass" : "Gr.3",
+    "carId" : 2183,
+    "carName" : "Chevrolet Corvette C7 Gr.3",
+    "courseId" : 51,
+    "fuelMultiplier" : 1,
+    "mandatoryTyreChange" : false,
+    "mode" : "race",
+    "raceLength" : 6,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 3,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Deep Forest Raceway",
+    "tyreWearMultiplier" : 4,
+    "weather" : "dry"
+  },
+  "endTime" : 1789927148,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1789926476,
+  "trackName" : "Deep Forest Raceway",
+  "version" : 8
+}
