@@ -9,9 +9,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 27751,
-      "durationS": 462.5,
+      "durationS": 463.0,
       "rawBytes": 10212368,
       "gzBytes": 5095115,
       "hasLog": true,
@@ -25,7 +25,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0,
+      "lapTimerRatio": 1.001
     },
     {
       "stem": "41-customRace-20260908_234405",
@@ -34,9 +36,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 23187,
-      "durationS": 386.4,
+      "durationS": 386.8,
       "rawBytes": 8532816,
       "gzBytes": 4102653,
       "hasLog": true,
@@ -50,7 +52,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0028,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0028,
+      "lapTimerRatio": 1.00105
     },
     {
       "stem": "41-customRace-20260908_235609",
@@ -59,9 +63,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 22946,
-      "durationS": 382.4,
+      "durationS": 382.8,
       "rawBytes": 8444128,
       "gzBytes": 4093198,
       "hasLog": true,
@@ -75,7 +79,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0064,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0064,
+      "lapTimerRatio": 1.00111
     },
     {
       "stem": "41-lobby-20260909_000857",
@@ -84,7 +90,7 @@
       "context": "lobby",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 23407,
       "durationS": 390.5,
       "rawBytes": 8613776,
@@ -100,7 +106,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9431,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9431,
+      "lapTimerRatio": 1.00005
     },
     {
       "stem": "51-customRace-20260817_221417",
@@ -109,9 +117,9 @@
       "context": "customRace",
       "car": "MAZDA RX-VISION GT3 CONCEPT",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 220713,
-      "durationS": 3678.6,
+      "durationS": 3682.2,
       "rawBytes": 81222384,
       "gzBytes": 39829581,
       "hasLog": true,
@@ -125,7 +133,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0004,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0004,
+      "lapTimerRatio": 1.00101
     },
     {
       "stem": "51-customRace-20260820_191652",
@@ -134,9 +144,9 @@
       "context": "customRace",
       "car": "MAZDA RX-VISION GT3 CONCEPT",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 217293,
-      "durationS": 3621.6,
+      "durationS": 3625.2,
       "rawBytes": 79963824,
       "gzBytes": 39247264,
       "hasLog": true,
@@ -150,7 +160,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0,
+      "lapTimerRatio": 1.001
     },
     {
       "stem": "51-customRace-20260821_192506",
@@ -159,9 +171,9 @@
       "context": "customRace",
       "car": "Hyundai Genesis Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 222485,
-      "durationS": 3708.1,
+      "durationS": 3711.8,
       "rawBytes": 81874480,
       "gzBytes": 39532907,
       "hasLog": true,
@@ -175,7 +187,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0004,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0004,
+      "lapTimerRatio": 1.00101
     },
     {
       "stem": "51-customRace-20260821_215143",
@@ -184,9 +198,9 @@
       "context": "customRace",
       "car": "Ferrari 296 GT3 '23",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 220025,
-      "durationS": 3667.1,
+      "durationS": 3670.8,
       "rawBytes": 80969200,
       "gzBytes": 39738631,
       "hasLog": true,
@@ -200,7 +214,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0015,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0015,
+      "lapTimerRatio": 1.00102
     },
     {
       "stem": "51-customRace-20260827_204146",
@@ -209,9 +225,9 @@
       "context": "customRace",
       "car": "Lamborghini Hurac\u00e1n GT3 '15",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 221152,
-      "durationS": 3685.9,
+      "durationS": 3689.6,
       "rawBytes": 81383936,
       "gzBytes": 39301362,
       "hasLog": true,
@@ -225,7 +241,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9983,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9983,
+      "lapTimerRatio": 1.00097
     },
     {
       "stem": "51-customRace-20260829_144911",
@@ -234,9 +252,9 @@
       "context": "customRace",
       "car": "Mercedes-AMG GT3 '20",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 217889,
-      "durationS": 3631.5,
+      "durationS": 3635.1,
       "rawBytes": 80183152,
       "gzBytes": 38642970,
       "hasLog": true,
@@ -250,7 +268,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0002,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0002,
+      "lapTimerRatio": 1.001
     },
     {
       "stem": "51-customRace-20260829_195438",
@@ -259,9 +279,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 221258,
-      "durationS": 3687.6,
+      "durationS": 3691.3,
       "rawBytes": 81422944,
       "gzBytes": 39279554,
       "hasLog": true,
@@ -275,7 +295,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0007,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0007,
+      "lapTimerRatio": 1.00101
     },
     {
       "stem": "51-customRace-20260830_114650",
@@ -284,9 +306,9 @@
       "context": "customRace",
       "car": "Subaru WRX Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 221435,
-      "durationS": 3690.6,
+      "durationS": 3694.3,
       "rawBytes": 81488080,
       "gzBytes": 40061911,
       "hasLog": true,
@@ -300,7 +322,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0007,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0007,
+      "lapTimerRatio": 1.00101
     },
     {
       "stem": "51-customRace-20260830_155428",
@@ -309,9 +333,9 @@
       "context": "customRace",
       "car": "Jaguar F-type Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 226966,
-      "durationS": 3782.8,
+      "durationS": 3786.5,
       "rawBytes": 83523488,
       "gzBytes": 39188925,
       "hasLog": true,
@@ -325,7 +349,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0004,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0004,
+      "lapTimerRatio": 1.00101
     },
     {
       "stem": "51-customRace-20260831_203211",
@@ -334,9 +360,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 218376,
-      "durationS": 3639.6,
+      "durationS": 3643.2,
       "rawBytes": 80362368,
       "gzBytes": 39312967,
       "hasLog": true,
@@ -350,7 +376,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9412,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9412,
+      "lapTimerRatio": 1.00002
     },
     {
       "stem": "116-customRace-20260905_173031",
@@ -359,9 +387,9 @@
       "context": "customRace",
       "car": "Ferrari 499P '23",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 219468,
-      "durationS": 3657.8,
+      "durationS": 3661.5,
       "rawBytes": 80764224,
       "gzBytes": 39518308,
       "hasLog": true,
@@ -375,7 +403,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0002,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0002,
+      "lapTimerRatio": 1.001
     },
     {
       "stem": "116-customRace-20260905_184421",
@@ -384,9 +414,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 58658,
-      "durationS": 977.6,
+      "durationS": 978.6,
       "rawBytes": 21586144,
       "gzBytes": 10464526,
       "hasLog": true,
@@ -400,7 +430,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9995,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9995,
+      "lapTimerRatio": 1.00099
     },
     {
       "stem": "116-customRace-20260907_160114",
@@ -409,9 +441,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 224880,
-      "durationS": 3748.0,
+      "durationS": 3751.7,
       "rawBytes": 82755840,
       "gzBytes": 40699256,
       "hasLog": true,
@@ -425,7 +457,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0005,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0005,
+      "lapTimerRatio": 1.00101
     },
     {
       "stem": "116-customRace-20260907_182706",
@@ -434,9 +468,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 137190,
-      "durationS": 2286.5,
+      "durationS": 2288.8,
       "rawBytes": 50485920,
       "gzBytes": 24749978,
       "hasLog": true,
@@ -450,7 +484,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0006,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0006,
+      "lapTimerRatio": 1.00101
     },
     {
       "stem": "116-customRace-20260907_190630",
@@ -459,9 +495,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 41142,
-      "durationS": 685.7,
+      "durationS": 686.4,
       "rawBytes": 15140256,
       "gzBytes": 7425903,
       "hasLog": true,
@@ -475,7 +511,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0028,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0028,
+      "lapTimerRatio": 1.00105
     },
     {
       "stem": "116-customRace-20260907_202833",
@@ -484,9 +522,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 221623,
-      "durationS": 3693.7,
+      "durationS": 3697.4,
       "rawBytes": 81557264,
       "gzBytes": 40096026,
       "hasLog": true,
@@ -500,7 +538,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.94,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.94,
+      "lapTimerRatio": 1.0
     },
     {
       "stem": "349-customRace-20260725_212313",
@@ -509,9 +549,9 @@
       "context": "customRace",
       "car": "Ferrari 499P '23",
       "carClass": null,
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 47289,
-      "durationS": 788.1,
+      "durationS": 788.9,
       "rawBytes": 17402352,
       "gzBytes": 8734720,
       "hasLog": true,
@@ -525,7 +565,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9985,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9985,
+      "lapTimerRatio": 1.00098
     },
     {
       "stem": "356-customRace-20260901_181517",
@@ -534,9 +576,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 37980,
-      "durationS": 633.0,
+      "durationS": 633.6,
       "rawBytes": 13976640,
       "gzBytes": 6494172,
       "hasLog": true,
@@ -550,7 +592,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0076,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0076,
+      "lapTimerRatio": 1.00113
     },
     {
       "stem": "356-customRace-20260901_222038",
@@ -559,9 +603,9 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 37623,
-      "durationS": 627.0,
+      "durationS": 627.7,
       "rawBytes": 13845264,
       "gzBytes": 6482136,
       "hasLog": true,
@@ -575,7 +619,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0096,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0096,
+      "lapTimerRatio": 1.00116
     },
     {
       "stem": "363-lobby-20260909_233041",
@@ -584,7 +630,7 @@
       "context": "lobby",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 83649,
       "durationS": 1395.5,
       "rawBytes": 30782832,
@@ -600,7 +646,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9395,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9395,
+      "lapTimerRatio": 0.99999
     },
     {
       "stem": "365-customRace-20260725_195705",
@@ -609,9 +657,9 @@
       "context": "customRace",
       "car": "Ferrari 296 GTB '22",
       "carClass": null,
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 38266,
-      "durationS": 637.8,
+      "durationS": 638.4,
       "rawBytes": 14081888,
       "gzBytes": 7102666,
       "hasLog": true,
@@ -625,7 +673,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0024,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0024,
+      "lapTimerRatio": 1.00104
     },
     {
       "stem": "365-customRace-20260726_200112",
@@ -634,9 +684,9 @@
       "context": "customRace",
       "car": "Porsche 911 GT3 R (992) '22",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 75349,
-      "durationS": 1255.8,
+      "durationS": 1257.1,
       "rawBytes": 27728432,
       "gzBytes": 13516410,
       "hasLog": true,
@@ -650,7 +700,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0003,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0003,
+      "lapTimerRatio": 1.00101
     },
     {
       "stem": "365-customRace-20260726_235845",
@@ -659,9 +711,9 @@
       "context": "customRace",
       "car": "Porsche 911 GT3 R (992) '22",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 40643,
-      "durationS": 677.4,
+      "durationS": 678.1,
       "rawBytes": 14956624,
       "gzBytes": 7193982,
       "hasLog": true,
@@ -675,7 +727,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0013,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0013,
+      "lapTimerRatio": 1.00102
     },
     {
       "stem": "365-lobby-20260725_221122",
@@ -684,7 +738,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 24961,
       "durationS": 416.4,
       "rawBytes": 9185648,
@@ -700,7 +754,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9401,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9401,
+      "lapTimerRatio": 1.0
     },
     {
       "stem": "376-lobby-1784734241",
@@ -709,7 +765,7 @@
       "context": "lobby",
       "car": "Dodge Viper SRT GT3-R '15",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 19454,
       "durationS": 324.6,
       "rawBytes": 7159072,
@@ -726,7 +782,7 @@
       "context": "lobby",
       "car": "Dodge Viper SRT GT3-R '15",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 2351,
       "durationS": 39.2,
       "rawBytes": 865168,
@@ -743,9 +799,9 @@
       "context": "timeTrial",
       "car": "Dodge Viper SRT GT3-R '15",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 28828,
-      "durationS": 480.5,
+      "durationS": 480.9,
       "rawBytes": 10608704,
       "gzBytes": 5173578,
       "hasLog": false,
@@ -760,7 +816,7 @@
       "context": "lobby",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 78323,
       "durationS": 1306.7,
       "rawBytes": 28822864,
@@ -776,7 +832,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9469,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9469,
+      "lapTimerRatio": 1.00011
     },
     {
       "stem": "462-customRace-20260725_200946",
@@ -785,9 +843,9 @@
       "context": "customRace",
       "car": "BMW Vision Gran Turismo",
       "carClass": null,
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 27219,
-      "durationS": 453.6,
+      "durationS": 454.1,
       "rawBytes": 10016592,
       "gzBytes": 4927390,
       "hasLog": true,
@@ -801,7 +859,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0033,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0033,
+      "lapTimerRatio": 1.00105
     },
     {
       "stem": "462-customRace-20260726_112940",
@@ -810,9 +870,9 @@
       "context": "customRace",
       "car": "Porsche 911 GT3 R (992) '22",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 55001,
-      "durationS": 916.7,
+      "durationS": 917.6,
       "rawBytes": 20240368,
       "gzBytes": 9740211,
       "hasLog": true,
@@ -826,7 +886,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0029,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0029,
+      "lapTimerRatio": 1.00105
     },
     {
       "stem": "469-customRace-20260726_100526",
@@ -835,9 +897,9 @@
       "context": "customRace",
       "car": "Porsche 911 GT3 R (992) '22",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 57064,
-      "durationS": 951.1,
+      "durationS": 952.0,
       "rawBytes": 20999552,
       "gzBytes": 10061955,
       "hasLog": true,
@@ -851,7 +913,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0011,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0011,
+      "lapTimerRatio": 1.00102
     },
     {
       "stem": "469-customRace-20260918_220706",
@@ -860,15 +924,25 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 44596,
-      "durationS": 743.3,
+      "durationS": 744.0,
       "rawBytes": 16411328,
       "gzBytes": 7785747,
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 7,
+      "lapsValid": 4,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9995,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9995,
+      "lapTimerRatio": 1.00099
     },
     {
       "stem": "469-customRace-20260918_222055",
@@ -877,15 +951,25 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 44390,
-      "durationS": 739.8,
+      "durationS": 740.6,
       "rawBytes": 16335520,
       "gzBytes": 7739737,
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 7,
+      "lapsValid": 3,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0024,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0024,
+      "lapTimerRatio": 1.00104
     },
     {
       "stem": "469-customRace-20260919_204339",
@@ -894,15 +978,25 @@
       "context": "customRace",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 43166,
-      "durationS": 719.4,
+      "durationS": 720.2,
       "rawBytes": 15885088,
       "gzBytes": 7528329,
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 7,
+      "lapsValid": 4,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0043,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0043,
+      "lapTimerRatio": 1.00107
     },
     {
       "stem": "469-lobby-20260919_215022",
@@ -911,7 +1005,7 @@
       "context": "lobby",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 45841,
       "durationS": 764.8,
       "rawBytes": 16869488,
@@ -919,7 +1013,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 7,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9376,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9376,
+      "lapTimerRatio": 0.99996
     },
     {
       "stem": "469-lobby-20260919_221014",
@@ -928,7 +1032,7 @@
       "context": "lobby",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 47712,
       "durationS": 796.0,
       "rawBytes": 17558016,
@@ -936,7 +1040,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 7,
+      "lapsValid": 4,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9418,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9418,
+      "lapTimerRatio": 1.00003
     },
     {
       "stem": "469-unknown-20260918_215014",
@@ -945,15 +1059,25 @@
       "context": "unknown",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 46149,
-      "durationS": 769.1,
+      "durationS": 769.9,
       "rawBytes": 16982832,
       "gzBytes": 8025972,
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 1
+      "tyreWearMultiplier": 1,
+      "laps": 7,
+      "lapsValid": 3,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.937,
+      "hzSource": "measured",
+      "lapTimerHz": 59.937,
+      "lapTimerRatio": 0.99995
     },
     {
       "stem": "470-customRace-20260726_211142",
@@ -962,9 +1086,9 @@
       "context": "customRace",
       "car": "Porsche 911 GT3 R (992) '22",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 73661,
-      "durationS": 1227.7,
+      "durationS": 1228.9,
       "rawBytes": 27107248,
       "gzBytes": 12927055,
       "hasLog": true,
@@ -978,7 +1102,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.003,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.003,
+      "lapTimerRatio": 1.00105
     },
     {
       "stem": "602-customRace-20260727_001126",
@@ -987,9 +1113,9 @@
       "context": "customRace",
       "car": "Porsche 911 GT3 R (992) '22",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 43085,
-      "durationS": 718.1,
+      "durationS": 718.8,
       "rawBytes": 15855280,
       "gzBytes": 7592260,
       "hasLog": true,
@@ -1003,7 +1129,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0018,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0018,
+      "lapTimerRatio": 1.00103
     },
     {
       "stem": "602-lobby-20260725_221844",
@@ -1012,7 +1140,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 24238,
       "durationS": 404.4,
       "rawBytes": 8919584,
@@ -1028,7 +1156,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9382,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9382,
+      "lapTimerRatio": 0.99997
     },
     {
       "stem": "790-lobby-20260725_223553",
@@ -1037,7 +1167,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 11037,
       "durationS": 184.1,
       "rawBytes": 4061616,
@@ -1053,7 +1183,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.914,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.914,
+      "lapTimerRatio": 0.99957
     },
     {
       "stem": "791-lobby-20260725_222909",
@@ -1062,7 +1194,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 10980,
       "durationS": 183.2,
       "rawBytes": 4040640,
@@ -1078,7 +1210,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9429,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9429,
+      "lapTimerRatio": 1.00005
     },
     {
       "stem": "792-lobby-20260725_223916",
@@ -1087,7 +1221,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 12313,
       "durationS": 205.4,
       "rawBytes": 4531184,
@@ -1103,7 +1237,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9462,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9462,
+      "lapTimerRatio": 1.0001
     },
     {
       "stem": "793-lobby-20260725_222551",
@@ -1112,7 +1248,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 10869,
       "durationS": 181.3,
       "rawBytes": 3999792,
@@ -1128,7 +1264,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.932,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.932,
+      "lapTimerRatio": 0.99987
     },
     {
       "stem": "794-lobby-20260725_224304",
@@ -1137,7 +1275,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 12556,
       "durationS": 209.5,
       "rawBytes": 4620608,
@@ -1153,7 +1291,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9506,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9506,
+      "lapTimerRatio": 1.00018
     },
     {
       "stem": "795-lobby-20260725_223237",
@@ -1162,7 +1302,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 10368,
       "durationS": 173.0,
       "rawBytes": 3815424,
@@ -1185,9 +1325,9 @@
       "context": "customRace",
       "car": "Porsche 911 GT3 R (992) '22",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 23850,
-      "durationS": 397.5,
+      "durationS": 397.9,
       "rawBytes": 8776800,
       "gzBytes": 4149453,
       "hasLog": true,
@@ -1201,7 +1341,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9949,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9949,
+      "lapTimerRatio": 1.00091
     },
     {
       "stem": "1024-lobby-20260914_203110",
@@ -1210,7 +1352,7 @@
       "context": "lobby",
       "car": "Chevrolet Corvette C7 Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 222697,
       "durationS": 3715.3,
       "rawBytes": 81952496,
@@ -1226,7 +1368,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9393,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9393,
+      "lapTimerRatio": 0.99999
     },
     {
       "stem": "1226-customRace-20260726_233603",
@@ -1235,9 +1379,9 @@
       "context": "customRace",
       "car": "Porsche 911 GT3 R (992) '22",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 24778,
-      "durationS": 413.0,
+      "durationS": 413.4,
       "rawBytes": 9118304,
       "gzBytes": 4225435,
       "hasLog": true,
@@ -1251,7 +1395,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.001,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.001,
+      "lapTimerRatio": 1.00102
     },
     {
       "stem": "1226-lobby-20260725_224645",
@@ -1260,7 +1406,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 17385,
       "durationS": 290.0,
       "rawBytes": 6397680,
@@ -1276,7 +1422,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9489,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9489,
+      "lapTimerRatio": 1.00015
     },
     {
       "stem": "1231-lobby-20260725_225154",
@@ -1285,7 +1433,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 22748,
       "durationS": 379.5,
       "rawBytes": 8371264,
@@ -1301,7 +1449,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9386,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9386,
+      "lapTimerRatio": 0.99998
     },
     {
       "stem": "1232-lobby-20260725_225831",
@@ -1310,7 +1460,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 17766,
       "durationS": 296.4,
       "rawBytes": 6537888,
@@ -1326,7 +1476,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9448,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9448,
+      "lapTimerRatio": 1.00008
     },
     {
       "stem": "1233-lobby-20260725_230344",
@@ -1335,7 +1487,7 @@
       "context": "lobby",
       "car": "Peugeot RCZ Gr.3",
       "carClass": "Gr.3",
-      "hz": 59.94,
+      "hz": 59.94005994005994,
       "packets": 18216,
       "durationS": 303.9,
       "rawBytes": 6703488,
@@ -1351,7 +1503,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9418,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9418,
+      "lapTimerRatio": 1.00003
     },
     {
       "stem": "1247-customRace-20260904_233736",
@@ -1360,9 +1514,9 @@
       "context": "customRace",
       "car": "Ferrari 499P '23",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 171690,
-      "durationS": 2861.5,
+      "durationS": 2864.4,
       "rawBytes": 63181920,
       "gzBytes": 31307608,
       "hasLog": true,
@@ -1376,7 +1530,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9994,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9994,
+      "lapTimerRatio": 1.00099
     },
     {
       "stem": "1249-customRace-20260726_131014",
@@ -1385,9 +1541,9 @@
       "context": "customRace",
       "car": "Porsche 911 GT3 R (992) '22",
       "carClass": "Gr.3",
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 59231,
-      "durationS": 987.2,
+      "durationS": 988.2,
       "rawBytes": 21797008,
       "gzBytes": 10560080,
       "hasLog": true,
@@ -1401,7 +1557,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 60.0002,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 60.0002,
+      "lapTimerRatio": 1.001
     },
     {
       "stem": "1264-customRace-20260725_151553",
@@ -1410,9 +1568,9 @@
       "context": "customRace",
       "car": "Honda S660 '15",
       "carClass": null,
-      "hz": 60.0,
+      "hz": 59.94005994005994,
       "packets": 23682,
-      "durationS": 394.7,
+      "durationS": 395.1,
       "rawBytes": 8714976,
       "gzBytes": 4187843,
       "hasLog": true,
@@ -1426,7 +1584,9 @@
       "countsVersion": 1,
       "countsSource": "reprocess",
       "measuredHz": 59.9884,
-      "hzSource": "measured"
+      "hzSource": "measured",
+      "lapTimerHz": 59.9884,
+      "lapTimerRatio": 1.00081
     }
   ],
   "raw": [
