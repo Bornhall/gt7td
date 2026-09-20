@@ -2831,8 +2831,8 @@
       "versions": [
         {
           "context": "customRace",
-          "lengthM": 4185,
-          "points": 837
+          "lengthM": 4190,
+          "points": 838
         }
       ]
     },
@@ -3040,6 +3040,16 @@
       "file": "reference/trackmaps/469.trackmap.json",
       "versions": [
         {
+          "context": "lobby",
+          "lengthM": 5760,
+          "points": 1152
+        },
+        {
+          "context": null,
+          "lengthM": 5755,
+          "points": 1151
+        },
+        {
           "context": "customRace",
           "lengthM": 5760,
           "points": 1152
@@ -3225,6 +3235,18 @@
       ]
     },
     {
+      "courseId": 841,
+      "track": "Sardegna - Road Track - B",
+      "file": "reference/trackmaps/841.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 3855,
+          "points": 771
+        }
+      ]
+    },
+    {
       "courseId": 846,
       "track": "Red Bull Ring Short Track",
       "file": "reference/trackmaps/846.trackmap.json",
@@ -3262,6 +3284,18 @@
           "context": "lobby",
           "lengthM": 4305,
           "points": 861
+        }
+      ]
+    },
+    {
+      "courseId": 874,
+      "track": "Circuit de Barcelona-Catalunya GP Layout",
+      "file": "reference/trackmaps/874.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 4575,
+          "points": 915
         }
       ]
     },
@@ -3431,7 +3465,7 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 62,
+      "records": 69,
       "courses": [
         4,
         11,
@@ -3466,9 +3500,11 @@
         820,
         822,
         823,
+        841,
         846,
         847,
         853,
+        874,
         896,
         898,
         1007,
@@ -3482,12 +3518,12 @@
         1247,
         1249
       ],
-      "updated": 1789414029
+      "updated": 1789929212
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 297,
+      "gates": 317,
       "courses": [
         4,
         11,
@@ -3522,9 +3558,11 @@
         820,
         822,
         823,
+        841,
         846,
         847,
         853,
+        874,
         896,
         898,
         1007,
@@ -3549,20 +3587,21 @@
       "contexts": [
         "customRace",
         "lobby",
-        "timeTrial"
+        "timeTrial",
+        "unknown"
       ],
-      "withHeading": 187,
-      "updated": 1789589841,
+      "withHeading": 203,
+      "updated": 1789929220,
       "tolerance": {
-        "gatesWithWidth": 187,
+        "gatesWithWidth": 203,
         "minM": 8,
         "medianM": 12,
-        "maxM": 19.62,
-        "atFloor": 179,
-        "atCap": 0,
+        "maxM": 20,
+        "atFloor": 183,
+        "atCap": 1,
         "belowFloor": 1,
         "belowFloorNote": "Written under a lower floor and not refined since. The gate set is mixed-generation, so atFloor is not a clean measurement. NOTE that a reprocess does not necessarily clear this: a gate only refines from a recording in ITS OWN (course, context), so a pair with no usable capture keeps pre-raise geometry indefinitely. Deep Forest lobby is the worked example -- 27 samples, still at the old floor, and its only lobby recordings are 11-18 second fragments that learn nothing.",
-        "atDefault": 2,
+        "atDefault": 8,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,
