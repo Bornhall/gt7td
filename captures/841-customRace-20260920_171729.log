@@ -1,0 +1,158 @@
+# EzioClient session log
+# file:    20260920_171729 - Sardegna - Road Track - B (841).gt7td
+# started: 2026-09-20T15:17:29Z
+# track:   Sardegna - Road Track - B (CRS 841)
+# car:     Chevrolet Corvette C7 Gr.3 [gr3]
+# context: customRace
+# ---
+📊 strategy: declared 8 lap race
+# car:     Alfa Romeo 155 2.5 V6 TI '93 (id 365) — corrected from telemetry, capture setup declared "Chevrolet Corvette C7 Gr.3"
+🎮 menus → onTrack (pkt 134554, lap 0, flags 0x000D, pos 1, cars 19, tod 35400000)
+🔧 session restart: lap-scoped state reset
+🧭 polyline [PRE-GREEN]: 15 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 21.06 (alignment -0.50)
+🧭 polyline [PRE-GREEN]: no fit yet — best Dragon Trail - Seaside median 22.32 m (30 samples, pass 1 of 12)
+🧭 polyline [PRE-GREEN]: 19 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 56.48 (alignment -0.70)
+🧭 polyline [PRE-GREEN]: no fit yet — best Daytona Tri-Oval median 37.44 m (60 samples, pass 2 of 12)
+🧭 polyline [PRE-GREEN]: 15 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 47.99 (alignment -0.53)
+🧭 polyline [PRE-GREEN]: no fit yet — best Daytona Road Course median 12.12 m (90 samples, pass 3 of 12)
+🧭 polyline [PRE-GREEN]: 16 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 46.88 (alignment -0.62)
+🧭 polyline [PRE-GREEN]: no fit yet — best Daytona Road Course median 13.02 m (120 samples, pass 4 of 12)
+🧭 polyline [PRE-GREEN]: 17 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 49.24 (alignment -0.69)
+🧭 polyline [PRE-GREEN]: no fit yet — best Daytona Road Course median 13.34 m (150 samples, pass 5 of 12)
+🧭 polyline [PRE-GREEN]: 16 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 58.91 (alignment -0.74)
+🧭 polyline [PRE-GREEN]: no fit yet — best Daytona Road Course median 14.37 m (180 samples, pass 6 of 12)
+🧭 polyline [PRE-GREEN]: 19 candidate(s) dropped on direction — best of them Watkins Glen Short Course median 40.94 (alignment -0.62)
+🧭 polyline [PRE-GREEN]: no fit yet — best Daytona Road Course median 14.37 m (180 samples, pass 7 of 12)
+🧭 polyline [PRE-GREEN]: 22 candidate(s) dropped on direction — best of them Michelin Raceway Road Atlanta median 37.97 (alignment -0.90)
+🧭 polyline [PRE-GREEN]: no fit yet — best Daytona Road Course median 43.29 m (180 samples, pass 8 of 12)
+🧭 polyline [PRE-GREEN]: 22 candidate(s) dropped on direction — best of them Michelin Raceway Road Atlanta median 26.46 (alignment -0.95)
+🧭 polyline [PRE-GREEN]: no fit yet — best WeatherTech Raceway Laguna Seca median 18.77 m (180 samples, pass 9 of 12)
+🏁 start type: ROLLING_START at pkt 137265 lap 1
+🔀 state UNKNOWN → RACING at pkt 137265 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.86
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 no gate matched at lap 0→1 (new coordinates) — live-learn only; the learner records this crossing if the track is declared
+🚪 gate learned: Sardegna - Road Track - B/customRace/lap1 heading 98°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 3.7/20.4s, 1 line): surveyGate(lap1, 1)
+🧭 polyline [L1]: 21 candidate(s) dropped on direction — best of them Michelin Raceway Road Atlanta median 32.29 (alignment -0.97)
+🧭 polyline [L1]: no fit yet — best WeatherTech Raceway Laguna Seca median 18.77 m (180 samples, pass 10 of 12)
+🧭 polyline [L1]: 17 candidate(s) dropped on direction — best of them Michelin Raceway Road Atlanta median 42.30 (alignment -0.98)
+🧭 polyline [L1]: no fit yet — best WeatherTech Raceway Laguna Seca median 18.77 m (180 samples, pass 11 of 12)
+🧭 polyline [L1]: 16 candidate(s) dropped on direction — best of them Michelin Raceway Road Atlanta median 42.80 (alignment -0.93)
+🧭 polyline [L1]: no fit yet — best WeatherTech Raceway Laguna Seca median 31.82 m (180 samples, pass 12 of 12)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:27.259 first fuel_used=7.35
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 7.36 | fuel 91.8 = 12.5 laps | 7.0 laps to go | stops 0
+🚪 gate learned: Sardegna - Road Track - B/customRace/finishLine heading 98°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 2.1/20.4s, 1 line): surveyGate(finishLine, 1)
+🗣 bulletin (imp 6, cost 4.9s, ledger 7.0/20.4s, 2 lines): L2
+📋 lap 2: 1:25.525 clean fuel_used=6.70
+🔵 lap 2: clean
+📊 strategy L3: fuel/lap 7.03 | fuel 85.1 = 12.1 laps | 6.0 laps to go | stops 0
+🚪 gate refined: Sardegna - Road Track - B/customRace/finishLine (2 samples, σ 0.35 m, ±16 m, across 0.0…0.0 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 2)
+🗺 mapper: learned lap 2 (85.525 s, 3855 m, 771 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 6.4/20.4s, 1 line): surveyLap(2, 85525 ms, 771 pts)
+🗺 session polyline installed from lap 2 (771 pts) — minimap + delta live
+⏱ class lap BEST: Sardegna - Road Track - B/customRace/Gr.4 → 1:25.525 (1/10 laps, 1 car(s), avg 1:25.525)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 10.3/20.4s, 1 line): surveyComplete(3 optional missing)
+🗣 bulletin (imp 2, cost 4.3s, ledger 14.6/20.4s, 2 lines): L3
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 18.1/20.4s, 1 line, protected): strategyUpdate(fuel 12.11L, togo 6, stops 0)
+📋 lap 3: 1:24.677 clean fuel_used=6.16
+🔵 lap 3: clean
+📊 strategy L4: fuel/lap 6.70 | fuel 78.9 = 11.8 laps | 5.0 laps to go | stops 0
+🚪 gate refined: Sardegna - Road Track - B/customRace/finishLine (3 samples, σ 0.97 m, ±12 m, across 0.0…1.6 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 3 (84.677 s, 3850 m, 770 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 6.8/20.4s, 1 line): surveyLap(3, 84677 ms, 770 pts)
+🗺 session polyline installed from lap 3 (770 pts) — minimap + delta live
+⏱ class lap BEST: Sardegna - Road Track - B/customRace/Gr.4 → 1:24.677 (2/10 laps, 1 car(s), avg 1:25.101)
+🗣 bulletin (imp 2, cost 6.0s, ledger 12.8/20.4s, 2 lines): L4
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 16.3/20.4s, 1 line, protected): strategyUpdate(fuel 11.78L, togo 5, stops 0)
+📋 lap 4: 1:25.437 clean fuel_used=6.04
+🔵 lap 4: clean
+📊 strategy L5: fuel/lap 6.43 | fuel 72.9 = 11.3 laps | 4.0 laps to go | stops 0
+🚪 gate refined: Sardegna - Road Track - B/customRace/finishLine (4 samples, σ 4.25 m, ±13 m, across 0.0…8.3 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 4)
+🗣 bulletin (imp 6, cost 6.3s, ledger 9.0/20.4s, 2 lines): L5
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.5/20.4s, 1 line, protected): strategyUpdate(fuel 11.33L, togo 4, stops 0)
+🗣 chain (imp 4, cost 2.9s, ledger 6.4/20.4s, 1 events, 1 lines)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.6s, ledger 4.6/20.4s, 1 events, 1 lines)
+📋 lap 5: 1:32.932 clean fuel_used=6.36
+🎭 mood focused → relaxed
+🔵 lap 5 antics: off
+📊 strategy L6: fuel/lap 6.36 | fuel 66.5 = 10.5 laps | 3.0 laps to go | stops 0
+🚪 gate refined: Sardegna - Road Track - B/customRace/finishLine (5 samples, σ 4.50 m, ±13 m, across -5.8…8.3 m)
+🗣 spoke (lapPace, imp 4, cost 7.6s, ledger 7.6/20.4s, 1 line): paceDegradation(2.30s/lap over 4)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 10.3/20.4s, 1 line): surveyGate(finishLine, 5)
+🗣 bulletin (imp 6, cost 5.8s, ledger 16.1/20.4s, 2 lines): L6
+🗑 speaker: stale after pause: "go again"
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 19.6/20.4s, 1 line, protected): strategyUpdate(fuel 10.45L, togo 3, stops 0)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 5.8/20.4s, 1 events, 1 lines)
+🎭 mood focused → concerned
+🎭 mood concerned → annoyed
+🗣 chain (imp 1, cost 3.4s, ledger 9.2/20.4s, 3 events, 1 lines)
+📋 lap 6: 1:28.814 clean fuel_used=6.72
+🎭 mood annoyed → concerned
+🔵 lap 6 antics: contact, impact, off
+📊 strategy L7: fuel/lap 6.53 | fuel 59.8 = 9.2 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Sardegna - Road Track - B/customRace/finishLine (6 samples, σ 4.09 m, ±12 m, across -5.8…8.3 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 8.9/20.4s, 1 line): surveyGate(finishLine, 6)
+🗣 bulletin (imp 6, cost 6.0s, ledger 12.0/20.4s, 2 lines): L7
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 12.6/20.4s, 1 line, protected): strategyUpdate(fuel 9.15L, togo 2, stops 0)
+📋 lap 7: 1:24.321 clean fuel_used=6.76
+🎭 mood concerned → focused
+🔵 lap 7: clean
+📊 strategy L8: fuel/lap 6.70 | fuel 53.0 = 7.9 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Sardegna - Road Track - B/customRace/finishLine (7 samples, σ 4.25 m, ±13 m, across -5.8…8.3 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 7)
+🗺 mapper: learned lap 7 (84.321 s, 3855 m, 771 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.5s, ledger 6.2/20.4s, 1 line): surveyLap(7, 84321 ms, 771 pts)
+🗺 session polyline installed from lap 7 (771 pts) — minimap + delta live
+⏱ class lap BEST: Sardegna - Road Track - B/customRace/Gr.4 → 1:24.321 (3/10 laps, 1 car(s), avg 1:24.841)
+🗣 bulletin (imp 2, cost 6.7s, ledger 12.9/20.4s, 2 lines): L8
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(high, 85°)
+🎭 mood focused → concerned
+📋 lap 8: 1:24.444 clean fuel_used=6.43
+🔵 lap 8 antics: contact, off
+📊 strategy: finish armed at L9 (lap 9 > 8) — awaiting lap-clock freeze
+📊 strategy L9: fuel/lap 6.57 | fuel 46.6 = 7.1 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Sardegna - Road Track - B/customRace/finishLine (8 samples, σ 5.88 m, ±18 m, across -12.4…8.3 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.2/20.4s, 1 line): surveyGate(finishLine, 8)
+📊 strategy: race finished at L9 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 9 lap(s), 0 stop(s), start ROLLING_START, P1/19
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 6.8/20.4s, 1 line): raceFinished(L9)
+🔧 session ended after lap 9
+🎭 mood concerned → relaxed
+🗑 flag: pending commentary cancelled
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 19)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 134 gate(s) from 311 stored
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 17.0 s from the unofficial table (Sardegna - Road Track - B)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=6 eff=6 budget=14 cd=x1.25 lock=60.0->75.0s ttl=6s
+🎮 onTrack → replay (pkt 180054, lap 0, flags 0x0008, pos 1, cars 19, tod 35400000)
+⏸ replay — race commentary suspended
+🧭 polyline [MENU]: 15 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 21.06 (alignment -0.53)
+🧭 polyline [MENU]: no fit yet — best Dragon Trail - Seaside median 22.32 m (30 samples, pass 1 of 12)
+🧭 polyline [MENU]: 19 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 55.01 (alignment -0.72)
+🧭 polyline [MENU]: no fit yet — best Daytona Tri-Oval median 40.37 m (60 samples, pass 2 of 12)
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 45269 packets

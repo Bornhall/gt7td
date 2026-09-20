@@ -1319,6 +1319,23 @@
       "countsSource": "reprocess"
     },
     {
+      "stem": "841-customRace-20260920_171729",
+      "courseId": 841,
+      "track": "Sardegna - Road Track - B",
+      "context": "customRace",
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "hz": 59.94005994005994,
+      "packets": 45269,
+      "durationS": 755.2,
+      "rawBytes": 16658992,
+      "gzBytes": 8060376,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 4,
+      "tyreWearMultiplier": 6
+    },
+    {
       "stem": "846-customRace-20260726_222748",
       "courseId": 846,
       "track": "Red Bull Ring Short Track",
@@ -1344,6 +1361,23 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9949,
       "lapTimerRatio": 1.00091
+    },
+    {
+      "stem": "874-customRace-20260920_174226",
+      "courseId": 874,
+      "track": "Circuit de Barcelona-Catalunya GP Layout",
+      "context": "customRace",
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "hz": 59.94005994005994,
+      "packets": 50669,
+      "durationS": 845.3,
+      "rawBytes": 18646192,
+      "gzBytes": 9105764,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 4,
+      "tyreWearMultiplier": 6
     },
     {
       "stem": "1024-lobby-20260914_203110",
