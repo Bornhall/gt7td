@@ -1,0 +1,25 @@
+# EzioClient session log
+# file:    20260830_155325 - Deep Forest Raceway (51).gt7td
+# started: 2026-08-30T13:53:25Z
+# track:   Deep Forest Raceway (CRS 51)
+# car:     Jaguar F-type Gr.3 [gr3]
+# context: customRace
+# ---
+# car:     Jaguar F-type Gr.3 (id 2184) — confirmed from telemetry
+🧭 polyline [MENU]: 17 candidate(s) dropped on direction — best of them Autopolis International Racing Course median 5.03 (alignment -0.90)
+🧭 polyline [MENU]: Deep Forest Raceway (CRS 51, map ctx customRace) median 2.03 m, p90 2.62 m, 4% of lap, 30 samples, alignment +1.00 — next course Watkins Glen Short Course median 29.88/p90 64.26
+🧭 polyline agrees with the declared course (CRS 51)
+🎮 menus → onTrack (pkt 6413965, lap 0, flags 0x0009, pos 20, cars 20, tod 61620000)
+🏁 start type: ROLLING_START at pkt 6414321 lap 1
+🔀 state UNKNOWN → RACING at pkt 6414321 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.24
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 learned: 2 gates matched, all Deep Forest Raceway — using the finishLine gate (488 samples)
+🧭 identified: Deep Forest Raceway (CRS 51) — finishLine, 488 sample(s), ±8 m
+🚪 gate refined: Deep Forest Raceway/customRace/lap1 (19 samples, σ 0.50 m, ±8 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 3.9/20.4s, 1 line): surveyGate(lap1, 19)
+🗣 chain (imp 4, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+# --- stopped: 2521 packets

@@ -1,0 +1,41 @@
+# EzioClient session log
+# file:    20260725_150850 - Northern Isle Speedway (354).gt7td
+# started: 2026-07-25T13:08:50Z
+# track:   Northern Isle Speedway (CRS 354)
+# car:     Mercedes-Benz Unimog Type 411 '62
+# context: customRace
+# ---
+📊 strategy L1: no fuel model yet
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+🏁 start type: ROLLING_START at pkt 11492 lap 1
+🔀 state UNKNOWN → RACING at pkt 11492 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📊 strategy: green flag, race clock running
+📊 strategy L1: no fuel model yet
+🧭 learned: 2 gates matched — falling through to legacy
+🧭 identified (legacy): Northern Isle Speedway (CRS 354) — primary gate
+🚪 gate refined: Northern Isle Speedway/customRace/lap1 (3 samples)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+🔵 lap 1: clean
+📊 strategy L2: no fuel model yet
+🚪 gate refined: Northern Isle Speedway/customRace/finishLine (39 samples)
+🔵 lap 2: clean
+📊 strategy L3: no fuel model yet
+🚪 gate refined: Northern Isle Speedway/customRace/finishLine (40 samples)
+🗺 mapper: learned lap 2 (45.904 s, 930 m, 186 pts) — installing as session polyline
+🗺 session polyline installed from lap 2 (186 pts) — minimap + delta live
+🔵 lap 3: clean
+📊 strategy L4: no fuel model yet
+🚪 gate refined: Northern Isle Speedway/customRace/finishLine (41 samples)
+🗺 mapper: learned lap 3 (44.071 s, 915 m, 183 pts) — installing as session polyline
+🗺 session polyline installed from lap 3 (183 pts) — minimap + delta live
+🔵 lap 4: clean
+📊 strategy L5: no fuel model yet
+🚪 gate refined: Northern Isle Speedway/customRace/finishLine (42 samples)
+✂️ capture auto-stop in 5s (race finished)
+🔧 session ended after lap 5
+🗑 flag: pending commentary cancelled
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+# --- stopped: 15174 packets

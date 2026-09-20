@@ -1,0 +1,24 @@
+# EzioClient session log
+# file:    20260831_183314 - Deep Forest Raceway (51).gt7td
+# started: 2026-08-31T16:33:14Z
+# track:   Deep Forest Raceway (CRS 51)
+# car:     Chevrolet Corvette C7 Gr.3 [gr3]
+# context: lobby
+# ---
+📊 strategy: declared 60 min race
+# car:     Chevrolet Corvette C7 Gr.3 (id 2183) — confirmed from telemetry
+🏁 start type: GRID_START at pkt 620334 lap 1
+🔀 state UNKNOWN → RACING at pkt 620334 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.01
+🔧 teleport 134 m on lap 1 — pending reset-vs-pit (2.5 s)
+📊 strategy L1: no fuel model yet
+🧭 no gate matched at lap 0→1 (new coordinates) — live-learn only; the learner records this crossing if the track is declared
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 4.6/20.4s, 1 line): greenFlag
+🎮 entered → onTrack (pkt 620348, lap 1, flags 0x0001, pos 1, cars 1, tod 61756434)
+🔧 reset-to-track confirmed (no pit followed)
+🗣 chain (imp 2, cost 3.4s, ledger 7.9/20.4s, 1 events, 1 lines)
+🧭 polyline [L1]: 14 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway Reverse median 9.53 (alignment -0.93)
+🧭 polyline [L1]: no fit yet — best Blue Moon Bay Speedway median 9.35 m (30 samples, pass 1 of 12)
+# --- stopped: 647 packets

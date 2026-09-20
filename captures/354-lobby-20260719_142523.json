@@ -1,0 +1,35 @@
+{
+  "carId" : 3223,
+  "carName" : "Dodge Viper SRT GT3-R '15",
+  "counts" : {
+    "laps" : 11,
+    "lapsValid" : 2,
+    "source" : "reprocess",
+    "stops" : 1,
+    "tyreChanges" : 1,
+    "version" : 1
+  },
+  "declared" : {
+    "captureContext" : "lobby",
+    "carClass" : "Gr.3",
+    "carId" : 3223,
+    "carName" : "Dodge Viper SRT GT3-R '15",
+    "courseId" : 354,
+    "fuelMultiplier" : 10,
+    "mode" : "race",
+    "raceLengthUnit" : "minutes",
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 15,
+    "timeBeforeStart" : 15,
+    "trackName" : "Northern Isle Speedway",
+    "tyreWearMultiplier" : 1,
+    "weather" : "dry"
+  },
+  "endTime" : 1784464167,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1784463923,
+  "trackName" : "Northern Isle Speedway",
+  "version" : 8
+}
