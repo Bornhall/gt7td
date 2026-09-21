@@ -1,0 +1,166 @@
+# EzioClient session log
+# file:    20260922_001253 - Deep Forest Raceway (51).gt7td
+# started: 2026-09-21T22:12:53Z
+# track:   Deep Forest Raceway (CRS 51)
+# context: customRace
+# ---
+# car:     Chevrolet Corvette C7 Gr.3 [Gr.3] (id 2183) — confirmed from telemetry
+🧭 learned: 3 layouts tied (Circuit de Barcelona-Catalunya GP Layout, Circuit de Sainte-Croix - C, Deep Forest Raceway) — resolving by divergence
+🚪 gate refined: Deep Forest Raceway/customRace/lap1 (168 samples, σ 0.75 m, ±12 m, across -2.3…1.1 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(lap1, 168)
+🧭 divergence: fork at 10 m on course 51 — 1 left (Deep Forest Raceway)
+🧭 divergence: resolved to Deep Forest Raceway
+🧭 identified: Deep Forest Raceway (CRS 51) — finishLine, 4378 sample(s), ±12 m
+📊 strategy L1: no fuel model yet
+📋 lap 1: — clean fuel_used=0.00
+📊 strategy: reset
+🎮 menus → onTrack (pkt 2921818, lap 0, flags 0x0009, pos 1, cars 2, tod 61620000)
+🏁 start type: ROLLING_START at pkt 2922183 lap 1
+🔀 state UNKNOWN → RACING at pkt 2922183 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.00
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.6s, ledger 4.3/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/lap1 (169 samples, σ 0.75 m, ±12 m, across -2.3…1.1 m)
+🗣 chain (imp 4, cost 2.1s, ledger 3.7/20.4s, 2 events, 1 lines)
+🗣 chain (imp 2, cost 4.2s, ledger 7.9/20.4s, 3 events, 1 lines)
+🎭 mood relaxed → focused
+🗑 dropped (chain cooldown): 1 event(s)
+🎭 mood focused → relaxed
+🗣 chain (imp 4, cost 5.5s, ledger 5.5/20.4s, 1 events, 1 lines)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.5s, ledger 8.0/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 2 events, 1 lines)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:56.531 first fuel_used=0.00
+📊 strategy L2: no fuel model yet
+🎭 mood focused → relaxed
+🔵 lap 1 antics: contact, off
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (4379 samples, σ 1.99 m, ±12 m, across -8.9…5.4 m)
+🎭 mood relaxed → focused
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.6/20.4s, 1 line): surveyGate(finishLine, 4379)
+🗣 bulletin (imp 6, cost 6.2s, ledger 11.8/20.4s, 2 lines): L2
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 2.1s, ledger 11.0/20.4s, 2 events, 1 lines)
+🎭 mood concerned → annoyed
+🗣 chain (imp 1, cost 7.9s, ledger 7.9/20.4s, 4 events, 2 lines)
+🗑 speaker: stale, not spoken: "settle it down and rebuild"
+📋 lap 2: 1:50.511 clean fuel_used=0.00
+🎭 mood annoyed → concerned
+📊 strategy L3: no fuel model yet
+🔵 lap 2 antics: impact, off
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (4380 samples, σ 1.99 m, ±12 m, across -8.9…5.4 m)
+🗺 mapper: learned lap 2 (110.511 s, 4205 m, 841 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 4.1/20.4s, 1 line): surveyLap(2, 110511 ms, 841 pts)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.8/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 survey stored → 51.trackmap.json
+🗺 session polyline installed from lap 2 (841 pts) — minimap + delta live
+🗣 bulletin (imp 6, cost 5.6s, ledger 12.4/20.4s, 2 lines): L3
+🗣 chain (imp 6, cost 2.1s, ledger 14.5/20.4s, 1 events, 1 lines)
+🎭 mood concerned → focused
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🎭 mood concerned → focused
+🗣 chain (imp 4, cost 5.5s, ledger 5.5/20.4s, 2 events, 1 lines)
+🔧 huge stop 212 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 2941990 lap 3
+🔵 sub-state FLYING → — lap 3
+🔧 pit-entry anchor learned: 103158 ms into lap (stop on lap 3)
+🔧 pended impact cancelled: pit entry
+🚪 gate refined: Deep Forest Raceway/customRace/pitEntry (210 samples, σ 0.53 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.9s, ledger 8.4/20.4s, 1 line, protected): pittingIn(L3)
+🗑 dropped (in pit): surveyGate(pitEntry, 210)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+📊 strategy: box reached on the ENDING lap (entered L3, counter still L3) — the lap in progress completes on release, counting it as banked
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 10.1/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 2.2s, ledger 12.3/20.4s, 1 line, protected): refuelTarget(1 laps)
+🔀 state PIT → RACING at pkt 2942932 lap 4
+🔵 sub-state — → OUT_LAP lap 4
+🅿️ PIT completed: in L3 → out L4 (no fuel, transit 18.9s, teleport=false)
+🚪 gate refined: Deep Forest Raceway/customRace/pitBox (234 samples, σ 0.05 m, ±0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 234)
+🅿️ entry→box 15.4s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+📋 lap 3: 1:58.845 in fuel_used=0.00
+🔵 lap 3: clean
+🗑 dropped (in pit): lapStarted(4/4, last 118.84s)
+🔧 teleport 173 m on lap 4 — pit release, not a reset
+📊 strategy L4: no fuel model yet
+🗑 dropped (topic pitSequence; 3.5s of 5.0s, pitSequence reopens in 1.5s): exitingPit(+0.00l)
+🚪 gate refined: Deep Forest Raceway/customRace/pitExit (234 samples, σ 0.05 m, ±12 m, across -0.0…0.0 m)
+🗺 mapper: lap 3 rejected (teleport)
+📊 strategy L4: no fuel model yet
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 9.5/20.4s, 1 line): surveyGate(pitExit, 234)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 11.5/20.4s, 1 line): surveyComplete(0 optional missing)
+🗣 chain (imp 6, cost 2.1s, ledger 13.6/20.4s, 1 events, 1 lines)
+🗣 chain (imp 4, cost 2.1s, ledger 12.7/20.4s, 2 events, 1 lines)
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 1 events, 1 lines)
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 4.2s, ledger 8.4/20.4s, 2 events, 1 lines)
+🎭 mood concerned → focused
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 2 events, 1 lines)
+🔵 sub-state OUT_LAP → FLYING lap 5
+📋 lap 4: 1:49.786 out fuel_used=0.00
+📊 strategy: finish armed at L5 (lap 5 > 4) — awaiting lap-clock freeze
+📊 strategy L5: no fuel model yet
+🎭 mood concerned → focused
+🔵 lap 4: clean
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (4381 samples, σ 1.99 m, ±12 m, across -8.9…5.4 m)
+🗺 mapper: lap 4 rejected (teleport)
+📊 strategy: race finished at L5 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 6 lap(s), 1 stop(s), start ROLLING_START, P1/2
+🗑 flag: pending commentary cancelled
+✂️ capture auto-stop in 30s (race finished)
+🗣 spoke (radio, imp 0, cost 1.2s, ledger 4.1/20.4s, 1 line): raceFinished(L5)
+🔧 session ended after lap 5
+🎭 mood focused → relaxed
+🗑 flag: pending commentary cancelled
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 2)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 142 gate(s) from 323 stored
+📊 strategy: reset
+📊 pit loss: estimated 15.0 s from the unofficial table (Deep Forest Raceway)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 onTrack → replay (pkt 2950258, lap 0, flags 0x0008, pos 1, cars 2, tod 61620000)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+📊 pit loss: estimated 15.0 s from the unofficial table (Deep Forest Raceway)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 2950505, lap 0, flags 0x0008, pos —, cars —, tod 61620000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+📊 pit loss: estimated 15.0 s from the unofficial table (Deep Forest Raceway)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🧭 polyline [MENU]: 16 candidate(s) dropped on direction — best of them Red Bull Ring Short Track median 33.13 (alignment -0.93)
+🧭 polyline [MENU]: Deep Forest Raceway (CRS 51, map ctx customRace) median 1.29 m, p90 2.26 m, 3% of lap, 30 samples, alignment +1.00 — next course Autodrome Lago Maggiore - Full Course median 44.83/p90 78.91
+🧭 polyline agrees with the declared course (CRS 51)
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 29961 packets
