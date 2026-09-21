@@ -1,0 +1,28 @@
+{
+  "carClass" : "Gr.3",
+  "carId" : 2183,
+  "carName" : "Chevrolet Corvette C7 Gr.3",
+  "declared" : {
+    "captureContext" : "lobby",
+    "courseId" : 829,
+    "fuelMultiplier" : 2,
+    "raceLength" : 90,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 10,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Circuit de Sainte-Croix - C",
+    "tyreCompounds" : "RH,RS,RS,RM,RS",
+    "tyreWearMultiplier" : 3,
+    "weather" : "dry"
+  },
+  "endTime" : 1790021110,
+  "granularity" : 1,
+  "observedDurationS" : 5400,
+  "packetSize" : 368,
+  "startTime" : 1790015329,
+  "trackName" : "Circuit de Sainte-Croix - C",
+  "version" : 8
+}

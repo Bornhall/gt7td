@@ -1,0 +1,571 @@
+# EzioClient session log
+# file:    20260921_202849 - Circuit de Sainte-Croix - C (829).gt7td
+# started: 2026-09-21T18:28:49Z
+# track:   Circuit de Sainte-Croix - C (CRS 829)
+# context: lobby
+# ---
+📊 strategy: declared 90 min race
+# car:     Chevrolet Corvette C7 Gr.3 [Gr.3] (id 2183) — confirmed from telemetry
+🎮 replay handshake armed (off track, race context still valid: pos 8, cars 11)
+🎮 entered → replay (pkt 2117014, lap 0, flags 0x0040, pos 8, cars 11, tod 44531128)
+⏸ replay — race commentary suspended
+🎮 replay → entered (pkt 2117515, lap 0, flags 0x0041, pos 8, cars 11, tod 44597992)
+▶️ replay ended — race commentary resumed
+🎮 entered → onTrack (pkt 2127906, lap 0, flags 0x0001, pos 6, cars 11, tod 45984976)
+🏁 start type: GRID_START at pkt 2129366 lap 0
+🔀 state UNKNOWN → RACING at pkt 2129366 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): greenFlag
+📋 lap 0: — clean fuel_used=0.52
+📊 strategy L1: no fuel model yet
+🧭 no gate matched at lap 0→1 (new coordinates) — live-learn only; the learner records this crossing if the track is declared
+🚪 gate learned: Circuit de Sainte-Croix - C/lobby/lap1 heading -53°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 4.6/20.4s, 1 line): surveyGate(lap1, 1)
+🧭 polyline [L1]: 15 candidate(s) dropped on direction — best of them Dragon Trail - Gardens median 146.74 (alignment -0.90)
+🧭 polyline [L1]: no fit yet — best Dragon Trail - Gardens Reverse median 146.47 m (30 samples, pass 1 of 12)
+🧭 polyline [L1]: 14 candidate(s) dropped on direction — best of them Dragon Trail - Gardens median 185.60 (alignment -0.82)
+🧭 polyline [L1]: no fit yet — best Dragon Trail - Gardens Reverse median 185.22 m (60 samples, pass 2 of 12)
+🧭 polyline [L1]: 6 candidate(s) dropped on direction — best of them Daytona Road Course median 437.39 (alignment -0.96)
+🧭 polyline [L1]: no fit yet — best Autodromo Nazionale Monza median 167.17 m (90 samples, pass 3 of 12)
+🗣 chain (imp 2, cost 2.5s, ledger 7.0/20.4s, 2 events, 1 lines)
+🧭 polyline [L1]: 6 candidate(s) dropped on direction — best of them Daytona Road Course median 470.78 (alignment -0.84)
+🧭 polyline [L1]: no fit yet — best Autodromo Nazionale Monza median 165.39 m (120 samples, pass 4 of 12)
+🧭 polyline [L1]: 6 candidate(s) dropped on direction — best of them Daytona Road Course median 515.06 (alignment -0.82)
+🧭 polyline [L1]: no fit yet — best Autodromo Nazionale Monza median 201.37 m (150 samples, pass 5 of 12)
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them Mount Panorama Motor Racing Circuit median 524.45 (alignment -0.84)
+🧭 polyline [L1]: no fit yet — best Autodromo Nazionale Monza median 230.72 m (180 samples, pass 6 of 12)
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them Mount Panorama Motor Racing Circuit median 513.27 (alignment -0.83)
+🧭 polyline [L1]: no fit yet — best Autodromo Nazionale Monza median 230.72 m (180 samples, pass 7 of 12)
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them Mount Panorama Motor Racing Circuit median 481.37 (alignment -0.86)
+🧭 polyline [L1]: no fit yet — best Autodromo Nazionale Monza median 235.04 m (180 samples, pass 8 of 12)
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them Mount Panorama Motor Racing Circuit median 395.37 (alignment -0.87)
+🧭 polyline [L1]: no fit yet — best Autodromo Nazionale Monza median 235.04 m (180 samples, pass 9 of 12)
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them Mount Panorama Motor Racing Circuit median 342.84 (alignment -0.79)
+🧭 polyline [L1]: no fit yet — best Autodromo Nazionale Monza median 235.04 m (180 samples, pass 10 of 12)
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them Mount Panorama Motor Racing Circuit median 317.28 (alignment -0.60)
+🧭 polyline [L1]: no fit yet — best Autodromo Nazionale Monza median 133.22 m (180 samples, pass 11 of 12)
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them Mount Panorama Motor Racing Circuit median 290.36 (alignment -0.63)
+🧭 polyline [L1]: no fit yet — best Autodromo Nazionale Monza median 101.93 m (180 samples, pass 12 of 12)
+🗣 chain (imp 4, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+🔧 huge stop 202 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 2143447 lap 1
+🔵 sub-state FIRST_LAP → — lap 1
+🔧 pit-entry anchor learned: 235616 ms into lap (stop on lap 1)
+🔧 pended impact cancelled: pit entry
+🚪 gate learned: Circuit de Sainte-Croix - C/lobby/pitEntry (no heading)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line, protected): pittingIn(L1)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+📊 strategy: box reached on the ENDING lap (entered L1, counter still L1) — the lap in progress completes on release, counting it as banked
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 2.8/20.4s, 1 line, protected): inPitBox
+🔀 state PIT → RACING at pkt 2144421 lap 2
+🔵 sub-state — → OUT_LAP lap 2
+🅿️ PIT completed: in L1 → out L2 (no fuel, transit 19.7s, teleport=false)
+🚪 gate learned: Circuit de Sainte-Croix - C/lobby/pitBox (no heading)
+🅿️ entry→box 13.8s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+📋 lap 1: 4:11.852 first fuel_used=9.41
+🔵 lap 1 antics: spin, contact
+🗑 dropped (in pit): lapStarted(2, last 251.85s)
+🔧 teleport 133 m on lap 2 — pit release, not a reset
+📊 strategy L2: fuel/lap 9.41, 9.6 laps of fuel, race length unknown — fuel horizon
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 4.5/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(inferred)
+🚪 gate learned: Circuit de Sainte-Croix - C/lobby/pitExit heading -53°
+📊 strategy L2: fuel/lap 9.41, 9.6 laps of fuel, race length unknown — fuel horizon
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 6.5/20.4s, 1 line): surveyGate(pitExit, 1)
+🔧 fresh tyres confirmed: 60.0° across all four (was 81.0° at pit entry, step 21.0°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+🔵 sub-state OUT_LAP → FLYING lap 3
+📋 lap 2: 3:33.924 out fuel_used=9.13
+🔵 lap 2 antics: contact
+📊 strategy L3: fuel/lap 9.27, 8.8 laps of fuel, race length unknown — fuel horizon
+🚪 gate learned: Circuit de Sainte-Croix - C/lobby/finishLine heading -52°
+🗺 mapper: lap 2 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): surveyGate(finishLine, 1)
+🗣 bulletin (imp 6, cost 5.4s, ledger 7.0/20.4s, 2 lines): L3
+🗣 spoke (tyres, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(overheating, 108°, frontLeft)
+🗣 chain (imp 4, cost 3.8s, ledger 6.3/20.4s, 1 events, 1 lines)
+🗑 dropped (cooldown tyretemps; 10.2s of 22.5s via tyres x0.50): tyreTemps(inWindow, 80°)
+📋 lap 3: 3:32.988 clean fuel_used=9.47
+🔵 lap 3 antics: contact
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P7→P8)
+📊 laps-left model: elapsed 678.1 s, remaining 4721.9 s, median lap 213.0 s -> 22 (no-stop 23, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L4: fuel/lap 9.41 | fuel 71.8 = 7.6 laps | 22.0 laps to go | stops 2
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (2 samples, σ 4.70 m, ±16 m, across -6.6…0.0 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.9/20.4s, 1 line): surveyGate(finishLine, 2)
+🗺 mapper: learned lap 3 (212.988 s, 10745 m, 2149 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 9.0/20.4s, 1 line): surveyLap(3, 212988 ms, 2149 pts)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 11.9/20.4s, 1 line): surveyComplete(0 optional missing)
+🗺 survey stored → 829.trackmap.json
+🗺 session polyline installed from lap 3 (2149 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Sainte-Croix - C/lobby/Gr.3 → 3:32.988 (1/10 laps, 1 car(s), avg 3:32.988)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L5/L7/L10, stops 2) | pitWindowState(beforeOpen, now L4, L5/L7/L10, stops 2) | pitStopsToGo(2, 22 to go)
+🗣 spoke (strategy, imp 2, cost 2.8s, ledger 14.8/20.4s, 1 line, protected): pitWindow(L5/L7/L10, stops 2)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 17.4/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L4, L5/L7/L10, stops 2)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 20.1/20.4s, 1 line, protected): pitStopsToGo(2, 22 to go)
+🗑 dropped (bulletin, ledger full; cost 4.3s, load 20.1/20.4s, 2 lines): L4
+🗑 dropped (ledger full; cost 2.5s, load 20.1/20.4s): radioCheck(P8, fuel 71%)
+🗑 speaker: stale after pause: "survey complete"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): strategyUpdate(fuel 7.63L, togo 22, stops 2)
+🗣 chain (imp 4, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+📋 lap 4: 3:32.886 clean fuel_used=9.25
+🎭 mood focused → relaxed
+🔵 lap 4 antics: contact, off
+📊 laps-left model: elapsed 891.0 s, remaining 4509.0 s, median lap 212.9 s -> 21 (no-stop 22, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L5: fuel/lap 9.33 | fuel 62.5 = 6.7 laps | 21.0 laps to go | stops 2
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (3 samples, σ 6.15 m, ±18 m, across -6.6…8.9 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 4 (212.886 s, 10755 m, 2151 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 6.8/20.4s, 1 line): surveyLap(4, 212886 ms, 2151 pts)
+🗺 survey stored → 829.trackmap.json
+🗺 session polyline installed from lap 4 (2151 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Sainte-Croix - C/lobby/Gr.3 → 3:32.886 (2/10 laps, 1 car(s), avg 3:32.937)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L5, L5/L7/L10, stops 2) | fuelStatus(lapsToGo, 7, 21 to go, 6.70 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 11.3/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L5, L5/L7/L10, stops 2)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 14.0/20.4s, 1 line, protected): fuelStatus(lapsToGo, 7, 21 to go, 6.70 fuel-laps)
+🗣 bulletin (imp 2, cost 6.0s, ledger 20.0/20.4s, 2 lines): L5
+🗑 dropped (ledger full; cost 2.2s, load 20.0/20.4s): radioCheck(P8, fuel 62%)
+🗑 speaker: stale, not spoken: "on lap 5"
+🗣 spoke (strategy, imp 2, cost 4.7s, ledger 4.7/20.4s, 1 line, protected): strategyUpdate(fuel 6.70L, togo 21, stops 2)
+📋 lap 5: 3:33.862 clean fuel_used=9.46
+🔵 lap 5: clean
+📊 laps-left model: elapsed 1104.8 s, remaining 4295.2 s, median lap 213.0 s -> 20 (no-stop 21, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L6: fuel/lap 9.41 | fuel 53.0 = 5.6 laps | 20.0 laps to go | stops 2
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (4 samples, σ 5.21 m, ±16 m, across -6.6…8.9 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 4)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L6, L6/L7/L10, stops 2) | fuelStatus(lapsToGo, 6, 20 to go, 5.64 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.8s, ledger 7.5/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L6, L6/L7/L10, stops 2)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 11.4/20.4s, 1 line, protected): fuelStatus(lapsToGo, 6, 20 to go, 5.64 fuel-laps)
+🗣 bulletin (imp 6, cost 4.6s, ledger 16.0/20.4s, 2 lines): L6
+🗣 spoke (chatter, imp 10, cost 2.2s, ledger 18.3/20.4s, 1 line): radioCheck(P8, fuel 53%)
+🗑 speaker: stale, not spoken: "radio check"
+🗑 speaker: stale, not spoken: "P 8"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): strategyUpdate(fuel 5.64L, togo 20, stops 2)
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🔧 huge stop 188 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 2208477 lap 6
+🔵 sub-state FLYING → — lap 6
+🔧 pit-entry anchor learned: 215021 ms into lap (stop on lap 6)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 1 more
+📊 laps-left model: elapsed 1319.8 s, remaining 4080.2 s, median lap 213.0 s -> 19 (no-stop 20, pit loss 14.0 s, rate 10 l/s)
+📊 strategy: refuel still needed — 4.6 laps of fuel against 19 to go (need 20.9 with margin)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 2.4/20.4s, 1 line, protected): pittingIn(L6)
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/pitEntry (2 samples, σ 0.58 m, ±0 m, across 0.0…0.0 m)
+🗑 dropped (in pit): surveyGate(pitEntry, 2)
+📊 strategy: box reached on the ENDING lap (entered L6, counter still L6) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 1330.3 s, remaining 4069.7 s, median lap 213.0 s -> 19 (no-stop 20, pit loss 14.0 s, rate 10 l/s)
+📊 strategy: refuel target 19 capped to tank (10.6 laps of capacity)
+🗣 spoke (pitSequence, imp 2, cost 1.2s, ledger 3.6/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 3.5s, ledger 7.1/20.4s, 1 line, protected): refuelTarget(10 laps)
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🔀 state PIT → RACING at pkt 2209710 lap 7
+🔵 sub-state — → OUT_LAP lap 7
+🅿️ PIT completed: in L6 → out L7 (+31.9 fuel, transit 23.9s, teleport=false)
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/pitBox (2 samples, σ 0.00 m, ±0 m, across 0.0…0.0 m)
+🅿️ entry→box 13.8s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 2)
+📋 lap 6: 3:55.573 in fuel_used=9.34
+🔵 lap 6 antics: off
+🗑 dropped (in pit): lapStarted(7, last 235.57s)
+🗑 dropped (in pit): positionChange(P8→P11)
+🔧 teleport 133 m on lap 7 — pit release, not a reset
+📊 laps-left model: elapsed 1340.4 s, remaining 4059.6 s, median lap 213.0 s -> 19 (no-stop 20, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L7: fuel/lap 9.41 | fuel 75.6 = 8.0 laps | 19.0 laps to go | stops 2
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 7.1/20.4s, 1 line, protected): exitingPit(+31.87l)
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 9.8/20.4s, 1 line, protected): stopsPlanChanged(1→2)
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/pitExit (2 samples, σ 0.00 m, ±16 m, across 0.0…0.0 m)
+🗺 mapper: lap 6 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 12.5/20.4s, 1 line): surveyGate(pitExit, 2)
+📊 laps-left model: elapsed 1340.4 s, remaining 4045.6 s, median lap 213.0 s -> 19 (no-stop 19, pit loss 14.0 s, rate 10 l/s), out-lap -14.0s
+📊 strategy L7: fuel/lap 9.41 | fuel 75.6 = 8.0 laps | 19.0 laps to go | stops 2 (post-stop recalc)
+🔧 fresh tyres confirmed: 60.0° across all four (was 81.7° at pit entry, step 21.7°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via tyres x0.50): freshTyres(confirmed 59.99°)
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L7/L7/L14, stops 2) | fuelStatus(extendStint, 8, 19 to go, 8.03 fuel-laps) | strategyUpdate(fuel 8.03L, togo 19, stops 2, post-stop) | pitWindowState(openToLatest, now L7, L7/L7/L14, stops 2, close)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 14.7/20.4s, 1 line, protected): pitWindow(L7/L7/L14, stops 2)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 18.5/20.4s, 1 line, protected): fuelStatus(extendStint, 8, 19 to go, 8.03 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 21.6/20.4s, 1 line, protected): strategyUpdate(fuel 8.03L, togo 19, stops 2, post-stop)
+🗑 dropped (burst cap 3): pitWindowState(openToLatest, now L7, L7/L7/L14, stops 2, close)
+🗑 dropped (ledger full; cost 2.2s, load 21.6/20.4s): radioCheck(P11, fuel 75%)
+🗑 dropped (cooldown strategy; 31.9s of 75.0s via strategy x0.50): strategyUpdate(fuel 8.03L, togo 19, stops 2)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔵 sub-state OUT_LAP → FLYING lap 8
+📋 lap 7: 3:32.973 out fuel_used=9.82
+🔵 lap 7: clean
+📊 laps-left model: elapsed 1553.4 s, remaining 3846.6 s, median lap 213.0 s -> 18 (no-stop 19, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L8: fuel/lap 9.43 | fuel 65.8 = 7.0 laps | 18.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 3.3s, ledger 3.3/20.4s, 1 line): positionChange(P11→P9)
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (5 samples, σ 4.51 m, ±14 m, across -6.6…8.9 m)
+🗺 mapper: lap 7 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.9/20.4s, 1 line): surveyGate(finishLine, 5)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 6, 18 to go, 6.97 fuel-laps) | pitWindowState(openToLatest, now L8, L8/L8/L13, stops 2, close)
+🗑 dropped (unchanged; said 213s ago, repeats after 300s): fuelStatus(extendStint, 6, 18 to go, 6.97 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 9.9/20.4s, 1 line, protected): pitWindowState(openToLatest, now L8, L8/L8/L13, stops 2, close)
+🗣 bulletin (imp 6, cost 4.6s, ledger 14.5/20.4s, 2 lines): L8
+🗣 spoke (chatter, imp 10, cost 2.5s, ledger 17.0/20.4s, 1 line): radioCheck(P9, fuel 65%)
+🗑 speaker: stale, not spoken: "all quiet on the wall"
+🗣 spoke (strategy, imp 2, cost 4.7s, ledger 4.7/20.4s, 1 line, protected): strategyUpdate(fuel 6.97L, togo 18, stops 2)
+🗣 spoke (tyres, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(overheating, 103°, frontLeft)
+🗑 dropped (cooldown tyretemps; 14.8s of 22.5s via tyres x0.50): tyreTemps(inWindow, 80°)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🗣 spoke (tyres, imp 2, cost 4.2s, ledger 8.4/20.4s, 1 line): tyreTemps(overheating, 99°, frontLeft)
+📋 lap 8: 3:31.672 clean fuel_used=9.55
+🔵 lap 8 antics: contact, off, gained 2
+📊 laps-left model: elapsed 1765.0 s, remaining 3635.0 s, median lap 212.9 s -> 17 (no-stop 18, pit loss 14.0 s, rate 10 l/s)
+🗣 spoke (position, imp 4, cost 3.5s, ledger 7.7/20.4s, 1 line): positionChange(P9→P7)
+📊 strategy L9: fuel/lap 9.46 | fuel 56.2 = 5.9 laps | 17.0 laps to go | stops 2
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (6 samples, σ 4.24 m, ±13 m, across -6.6…8.9 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 10.4/20.4s, 1 line): surveyGate(finishLine, 6)
+🗺 mapper: learned lap 8 (211.672 s, 10755 m, 2151 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 14.1/20.4s, 1 line): surveyLap(8, 211672 ms, 2151 pts)
+🗺 survey stored → 829.trackmap.json
+🗺 session polyline installed from lap 8 (2151 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Sainte-Croix - C/lobby/Gr.3 → 3:31.672 (3/10 laps, 1 car(s), avg 3:32.515)
+📋 strategy burst: 3 event(s), releasing best-first — fuelStatus(extendStint, 5, 17 to go, 5.94 fuel-laps) | pitWindowState(openToLatest, now L9, L9/L9/L13, stops 2, close) | pitStopsToGo(2, 17 to go)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 17.9/20.4s, 1 line, protected): fuelStatus(extendStint, 5, 17 to go, 5.94 fuel-laps)
+🗑 dropped (unchanged; said 212s ago, repeats after 300s): pitWindowState(openToLatest, now L9, L9/L9/L13, stops 2, close)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 20.5/20.4s, 1 line, protected): pitStopsToGo(2, 17 to go)
+🗑 dropped (bulletin, ledger full; cost 6.2s, load 20.5/20.4s, 2 lines): L9
+🗑 dropped (unchanged; said 212s ago, repeats after 300s): radioCheck(P7, fuel 56%)
+🎭 mood focused → relaxed
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(inWindow, 80°)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 4.7/20.4s, 1 line, protected): strategyUpdate(fuel 5.94L, togo 17, stops 2)
+🗣 spoke (tyres, imp 2, cost 4.2s, ledger 4.2/20.4s, 1 line): tyreTemps(overheating, 99°, frontLeft)
+🗑 dropped (cooldown tyretemps; 18.0s of 22.5s via tyres x0.50): tyreTemps(inWindow, 80°)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+📋 lap 9: 3:32.962 clean fuel_used=9.58
+🔵 lap 9 antics: off, gained 2
+📊 laps-left model: elapsed 1978.0 s, remaining 3422.0 s, median lap 213.0 s -> 16 (no-stop 17, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L10: fuel/lap 9.47 | fuel 46.6 = 4.9 laps | 16.0 laps to go | stops 2
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (7 samples, σ 4.23 m, ±13 m, across -6.6…8.9 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 7)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 4, 16 to go, 4.92 fuel-laps) | pitWindowState(openToLatest, now L10, L10/L10/L13, stops 2, close)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 7.3/20.4s, 1 line, protected): fuelStatus(extendStint, 4, 16 to go, 4.92 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 11.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L10, L10/L10/L13, stops 2, close)
+🗣 bulletin (imp 6, cost 4.6s, ledger 15.8/20.4s, 2 lines): L10
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 18.1/20.4s, 1 line): radioCheck(P7, fuel 46%)
+🗑 speaker: stale, not spoken: "radio check"
+🗑 speaker: stale, not spoken: "P 7"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): strategyUpdate(fuel 4.92L, togo 16, stops 2)
+🗣 spoke (tyres, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(overheating, 100°, frontLeft)
+🗑 dropped (cooldown tyretemps; 17.0s of 22.5s via tyres x0.50): tyreTemps(inWindow, 80°)
+📋 lap 10: 3:32.938 clean fuel_used=9.36
+🔵 lap 10: clean
+📊 laps-left model: elapsed 2190.9 s, remaining 3209.1 s, median lap 212.9 s -> 15 (no-stop 16, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L11: fuel/lap 9.47 | fuel 37.3 = 3.9 laps | 15.0 laps to go | stops 2
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (8 samples, σ 4.09 m, ±12 m, across -6.6…8.9 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 8)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 3, 15 to go, 3.94 fuel-laps) | pitWindowState(openToLatest, now L11, L11/L11/L13, stops 2, close)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 6.4/20.4s, 1 line, protected): fuelStatus(extendStint, 3, 15 to go, 3.94 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 10.8/20.4s, 1 line, protected): pitWindowState(openToLatest, now L11, L11/L11/L13, stops 2, close)
+🗣 bulletin (imp 6, cost 4.6s, ledger 15.4/20.4s, 2 lines): L11
+🗑 dropped (unchanged; said 213s ago, repeats after 300s): radioCheck(P7, fuel 37%)
+🗣 spoke (strategy, imp 2, cost 5.6s, ledger 5.6/20.4s, 1 line, protected): strategyUpdate(fuel 3.94L, togo 15, stops 2)
+🎭 mood relaxed → focused
+🗣 spoke (tyres, imp 2, cost 2.9s, ledger 2.9/20.4s, 1 line): tyreTemps(overheating, 119°)
+🗣 chain (imp 4, cost 4.2s, ledger 7.1/20.4s, 3 events, 1 lines)
+🎭 mood focused → concerned
+🗑 speaker: stale, not spoken: "contact and off the road"
+🗑 speaker: stale, not spoken: "check the car"
+🗑 dropped (cooldown tyretemps; 5.5s of 22.5s via tyres x0.50): tyreTemps(high, 85°)
+🗣 chain (imp 4, cost 2.9s, ledger 10.1/20.4s, 1 events, 1 lines)
+🗑 dropped (cooldown tyretemps; 15.2s of 22.5s via tyres x0.50): tyreTemps(high, 88°, frontLeft)
+🔧 huge stop 173 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 2274924 lap 11
+🔵 sub-state FLYING → — lap 11
+🔧 pit-entry anchor learned: 237453 ms into lap (stop on lap 11)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 1 more
+📊 laps-left model: elapsed 2428.4 s, remaining 2971.6 s, median lap 212.9 s -> 14 (no-stop 14, pit loss 14.0 s, rate 10 l/s)
+📊 strategy: refuel still needed — 3.0 laps of fuel against 14 to go (need 15.7 with margin)
+🎭 mood concerned → focused
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/pitEntry (3 samples, σ 0.52 m, ±0 m, across 0.0…0.0 m)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 0.8/20.4s, 1 line, protected): pittingIn(L11)
+🗑 dropped (in pit): surveyGate(pitEntry, 3)
+📊 strategy: box reached on the ENDING lap (entered L11, counter still L11) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 2438.7 s, remaining 2961.3 s, median lap 212.9 s -> 14 (no-stop 14, pit loss 14.0 s, rate 10 l/s)
+📊 strategy: refuel target 14 capped to tank (10.6 laps of capacity)
+🗣 spoke (pitSequence, imp 2, cost 1.2s, ledger 2.0/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 4.4s, ledger 6.4/20.4s, 1 line, protected): refuelTarget(10 laps)
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🔀 state PIT → RACING at pkt 2276389 lap 12
+🔵 sub-state — → OUT_LAP lap 12
+🅿️ PIT completed: in L11 → out L12 (+71.9 fuel, transit 27.9s, teleport=false)
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/pitBox (3 samples, σ 0.00 m, ±0 m, across 0.0…0.0 m)
+🅿️ entry→box 13.8s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 3)
+📋 lap 11: 4:21.888 in fuel_used=9.18
+🔵 lap 11 antics: contact, off
+🗑 dropped (in pit): lapStarted(12, last 261.89s)
+🗑 dropped (in pit): positionChange(P7→P11)
+🔧 teleport 133 m on lap 12 — pit release, not a reset
+🗣 spoke (pitSequence, imp 2, cost 3.4s, ledger 8.9/20.4s, 1 line, protected): exitingPit(+71.92l)
+📊 laps-left model: elapsed 2452.8 s, remaining 2947.2 s, median lap 212.9 s -> 14 (no-stop 14, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L12: fuel/lap 9.47 | fuel 100.0 = 10.6 laps | 14.0 laps to go | stops 1
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/pitExit (3 samples, σ 0.00 m, ±12 m, across -0.0…0.0 m)
+🗺 mapper: lap 11 rejected (teleport)
+📊 laps-left model: elapsed 2452.9 s, remaining 2933.1 s, median lap 212.9 s -> 14 (no-stop 14, pit loss 14.0 s, rate 10 l/s), out-lap -14.0s
+📊 strategy L12: fuel/lap 9.47 | fuel 100.0 = 10.6 laps | 14.0 laps to go | stops 1 (post-stop recalc)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 11.6/20.4s, 1 line): surveyGate(pitExit, 3)
+🔧 fresh tyres confirmed: 60.0° across all four (was 76.7° at pit entry, step 16.7°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via tyres x0.50): freshTyres(confirmed 60.00°)
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L15/L15/L21, stops 1) | strategyUpdate(fuel 10.56L, togo 14, stops 1, post-stop) | pitWindowState(beforeOpen, now L12, L15/L15/L21, stops 1) | pitStopsToGo(1, 14 to go)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 13.8/20.4s, 1 line, protected): pitWindow(L15/L15/L21, stops 1)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 16.9/20.4s, 1 line, protected): strategyUpdate(fuel 10.56L, togo 14, stops 1, post-stop)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 19.6/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L12, L15/L15/L21, stops 1)
+🗑 dropped (burst cap 3): pitStopsToGo(1, 14 to go)
+🗑 dropped (ledger full; cost 2.2s, load 19.6/20.4s): radioCheck(P11, fuel 100%)
+🗑 dropped (cooldown strategy; 31.8s of 75.0s via strategy x0.50): strategyUpdate(fuel 10.56L, togo 14, stops 1)
+🎭 mood focused → relaxed
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 2.9/20.4s, 1 line): tyreTemps(inWindow, 72°)
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🔵 sub-state OUT_LAP → FLYING lap 13
+📋 lap 12: 3:49.922 out fuel_used=9.76
+🔵 lap 12 antics: off, lost 4
+📊 laps-left model: elapsed 2682.8 s, remaining 2717.2 s, median lap 212.9 s -> 13 (no-stop 13, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L13: fuel/lap 9.51 | fuel 90.2 = 9.5 laps | 13.0 laps to go | stops 1
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (9 samples, σ 4.20 m, ±13 m, across -6.6…8.9 m)
+🗺 mapper: lap 12 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 9)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 7.0/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L13, L15/L15/L21, stops 1)
+🗣 bulletin (imp 6, cost 5.8s, ledger 12.8/20.4s, 2 lines): L13
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 15.1/20.4s, 1 line): radioCheck(P11, fuel 90%)
+🗑 speaker: stale, not spoken: "radio check"
+🗑 speaker: stale, not spoken: "P 11"
+🗣 spoke (strategy, imp 2, cost 4.7s, ledger 4.7/20.4s, 1 line, protected): strategyUpdate(fuel 9.49L, togo 13, stops 1)
+📋 lap 13: 3:33.732 clean fuel_used=9.17
+🔵 lap 13: clean
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P11→P10)
+📊 laps-left model: elapsed 2896.5 s, remaining 2503.5 s, median lap 213.0 s -> 12 (no-stop 12, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L14: fuel/lap 9.51 | fuel 81.1 = 8.5 laps | 12.0 laps to go | stops 1
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (10 samples, σ 4.06 m, ±12 m, across -6.6…8.9 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.4/20.4s, 1 line): surveyGate(finishLine, 10)
+🗑 dropped (unchanged; said 214s ago, repeats after 300s): pitWindowState(beforeOpen, now L14, L15/L15/L21, stops 1)
+🗣 bulletin (imp 6, cost 7.3s, ledger 13.7/20.4s, 2 lines): L14
+🗣 spoke (radio, imp 10, cost 2.5s, ledger 16.2/20.4s, 1 line): radioCheck(P10, fuel 81%)
+🗑 speaker: stale, not spoken: "all quiet on the wall"
+🗣 spoke (strategy, imp 2, cost 5.6s, ledger 5.6/20.4s, 1 line, protected): strategyUpdate(fuel 8.53L, togo 12, stops 1)
+🗣 spoke (tyres, imp 4, cost 2.7s, ledger 2.7/20.4s, 1 line): tyreTemps(high, 85°)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+📋 lap 14: 3:34.329 clean fuel_used=9.66
+🔵 lap 14 antics: off, gained 1
+📊 laps-left model: elapsed 3110.8 s, remaining 2289.2 s, median lap 213.0 s -> 11 (no-stop 11, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L15: fuel/lap 9.57 | fuel 71.4 = 7.5 laps | 11.0 laps to go | stops 1
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (11 samples, σ 4.15 m, ±12 m, across -6.6…8.9 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L15, L15/L15/L21, stops 1) | fuelStatus(lapsToGo, 7, 11 to go, 7.46 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L15, L15/L15/L21, stops 1)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 8.8/20.4s, 1 line, protected): fuelStatus(lapsToGo, 7, 11 to go, 7.46 fuel-laps)
+🗣 bulletin (imp 6, cost 4.5s, ledger 13.3/20.4s, 2 lines): L15
+🗣 spoke (chatter, imp 10, cost 2.2s, ledger 15.5/20.4s, 1 line): radioCheck(P10, fuel 71%)
+🗑 speaker: stale, not spoken: "radio check"
+🗑 speaker: stale, not spoken: "P 10"
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.6s, ledger 17.1/20.4s, 1 events, 1 lines)
+🗣 spoke (strategy, imp 2, cost 4.7s, ledger 6.4/20.4s, 1 line, protected): strategyUpdate(fuel 7.46L, togo 11, stops 1)
+🗣 chain (imp 4, cost 1.2s, ledger 5.9/20.4s, 1 events, 1 lines)
+🎭 mood focused → relaxed
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): tyreTemps(inWindow, 80°)
+📋 lap 15: 3:38.033 clean fuel_used=9.62
+🔵 lap 15 antics: contact
+🗣 spoke (lapPace, imp 4, cost 7.6s, ledger 7.6/20.4s, 1 line): paceDegradation(0.65s/lap over 5)
+📊 laps-left model: elapsed 3328.9 s, remaining 2071.1 s, median lap 213.3 s -> 10 (no-stop 10, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L16: fuel/lap 9.60 | fuel 61.8 = 6.4 laps | 10.0 laps to go | stops 1
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (12 samples, σ 4.21 m, ±13 m, across -6.6…8.9 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L16, L16/L16/L21, stops 1) | fuelStatus(lapsToGo, 6, 10 to go, 6.43 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 11.6/20.4s, 1 line, protected): pitWindowState(openToLatest, now L16, L16/L16/L21, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.2s, ledger 13.8/20.4s, 1 line, protected): fuelStatus(lapsToGo, 6, 10 to go, 6.43 fuel-laps)
+🗣 bulletin (imp 6, cost 5.4s, ledger 19.2/20.4s, 2 lines): L16
+🗑 dropped (unchanged; said 218s ago, repeats after 300s): radioCheck(P10, fuel 61%)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): strategyUpdate(fuel 6.43L, togo 10, stops 1)
+🗣 chain (imp 4, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+📋 lap 16: 3:36.032 clean fuel_used=9.82
+🔵 lap 16 antics: contact
+📊 laps-left model: elapsed 3544.9 s, remaining 1855.1 s, median lap 213.8 s -> 9 (no-stop 9, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L17: fuel/lap 9.60 | fuel 52.0 = 5.4 laps | 9.0 laps to go | stops 1
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (13 samples, σ 4.04 m, ±12 m, across -6.6…8.9 m)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindowState(openToLatest, now L17, L17/L17/L21, stops 1) | pitStopsToGo(1, 9 to go) | fuelStatus(lapsToGo, 5, 9 to go, 5.41 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L17, L17/L17/L21, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 7.3/20.4s, 1 line, protected): pitStopsToGo(1, 9 to go)
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 10.4/20.4s, 1 line, protected): fuelStatus(lapsToGo, 5, 9 to go, 5.41 fuel-laps)
+🗣 bulletin (imp 6, cost 4.3s, ledger 14.7/20.4s, 2 lines): L17
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 17.0/20.4s, 1 line): radioCheck(P10, fuel 51%)
+🗑 speaker: stale, not spoken: "radio check"
+🗑 speaker: stale, not spoken: "P 10"
+🗣 spoke (strategy, imp 2, cost 5.6s, ledger 5.6/20.4s, 1 line, protected): strategyUpdate(fuel 5.41L, togo 9, stops 1)
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+📋 lap 17: 3:34.516 clean fuel_used=9.58
+📊 laps-left model: elapsed 3759.4 s, remaining 1640.6 s, median lap 214.0 s -> 8 (no-stop 8, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L18: fuel/lap 9.61 | fuel 42.4 = 4.4 laps | 8.0 laps to go | stops 1
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (14 samples, σ 3.97 m, ±12 m, across -6.6…8.9 m)
+🔵 lap 17 antics: contact
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L18, L18/L18/L21, stops 1) | fuelStatus(lapsToGo, 4, 8 to go, 4.41 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line, protected): pitWindowState(openToLatest, now L18, L18/L18/L21, stops 1)
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 7.5/20.4s, 1 line, protected): fuelStatus(lapsToGo, 4, 8 to go, 4.41 fuel-laps)
+🗣 bulletin (imp 6, cost 4.1s, ledger 11.6/20.4s, 2 lines): L18
+🗑 dropped (unchanged; said 215s ago, repeats after 300s): radioCheck(P10, fuel 42%)
+🗣 chain (imp 4, cost 1.2s, ledger 12.8/20.4s, 1 events, 1 lines)
+🗑 speaker: stale, not spoken: "light contact"
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 3.7/20.4s, 1 line, protected): strategyUpdate(fuel 4.41L, togo 8, stops 1)
+🗣 spoke (tyres, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line): tyreTemps(overheating, 131°)
+🗑 dropped (cooldown tyretemps; 8.3s of 22.5s via tyres x0.50): tyreTemps(high, 85°, frontLeft)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+📋 lap 18: 3:44.449 clean fuel_used=9.59
+🔵 lap 18 antics: contact, off
+🗣 spoke (lapPace, imp 4, cost 7.6s, ledger 7.6/20.4s, 1 line): paceDegradation(1.67s/lap over 5)
+📊 laps-left model: elapsed 3983.9 s, remaining 1416.1 s, median lap 214.4 s -> 7 (no-stop 7, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L19: fuel/lap 9.61 | fuel 32.8 = 3.4 laps | 7.0 laps to go | stops 1
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (15 samples, σ 3.90 m, ±12 m, across -6.6…8.9 m)
+🗣 spoke (position, imp 4, cost 2.2s, ledger 9.9/20.4s, 1 line): positionChange(P10→P11)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L19, L19/L19/L21, stops 1) | fuelStatus(lapsToGo, 3, 7 to go, 3.41 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 13.8/20.4s, 1 line, protected): pitWindowState(openToLatest, now L19, L19/L19/L21, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 16.5/20.4s, 1 line, protected): fuelStatus(lapsToGo, 3, 7 to go, 3.41 fuel-laps)
+🗑 dropped (bulletin, ledger full; cost 6.0s, load 16.5/20.4s, 2 lines): L19
+🗣 spoke (chatter, imp 10, cost 2.5s, ledger 19.0/20.4s, 1 line): radioCheck(P11, fuel 32%)
+🗑 speaker: stale, not spoken: "all quiet on the wall"
+🗣 spoke (strategy, imp 2, cost 4.7s, ledger 4.7/20.4s, 1 line, protected): strategyUpdate(fuel 3.41L, togo 7, stops 1)
+📋 lap 19: 3:36.914 clean fuel_used=9.86
+🔵 lap 19: clean
+📊 laps-left model: elapsed 4200.8 s, remaining 1199.2 s, median lap 215.3 s -> 6 (no-stop 6, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L20: fuel/lap 9.64 | fuel 22.9 = 2.4 laps | 6.0 laps to go | stops 1
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (16 samples, σ 3.87 m, ±12 m, across -6.6…8.9 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L20, L20/L20/L21, stops 1) | fuelStatus(lapsToGo, 2, 6 to go, 2.38 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L20, L20/L20/L21, stops 1)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 8.8/20.4s, 1 line, protected): fuelStatus(lapsToGo, 2, 6 to go, 2.38 fuel-laps)
+🗣 bulletin (imp 6, cost 6.2s, ledger 15.0/20.4s, 2 lines): L20
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 17.2/20.4s, 1 line): radioCheck(P11, fuel 22%)
+🗑 speaker: stale, not spoken: "P 11"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): strategyUpdate(fuel 2.38L, togo 6, stops 1)
+📋 lap 20: 3:35.502 clean fuel_used=9.40
+🔵 lap 20: clean
+📊 laps-left model: elapsed 4416.3 s, remaining 983.7 s, median lap 215.8 s -> 5 (no-stop 5, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L21: fuel/lap 9.61 | fuel 13.5 = 1.4 laps | 5.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P11→P10)
+📊 strategy L21: box confirmed at 70% (1.4 laps of fuel, was 1.4 at the crossing)
+🗣 spoke (strategy, imp 0, cost 3.8s, ledger 7.5/20.4s, 1 line, protected): pitWindowState(atLatest, now L21, —/L21/L21, stops 1)
+🔧 box reminder auto-armed (boxThisLap)
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (17 samples, σ 3.84 m, ±12 m, across -6.6…8.9 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindow(—/L21/L21, stops 1) | fuelStatus(lapsToGo, 1, 5 to go, 1.41 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 11.4/20.4s, 1 line, protected): pitWindow(—/L21/L21, stops 1)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 14.9/20.4s, 1 line, protected): fuelStatus(lapsToGo, 1, 5 to go, 1.41 fuel-laps)
+🗣 bulletin (imp 6, cost 4.9s, ledger 19.9/20.4s, 2 lines): L21
+🗑 dropped (ledger full; cost 2.5s, load 19.9/20.4s): radioCheck(P10, fuel 13%)
+🗣 spoke (strategy, imp 0, cost 1.6s, ledger 21.5/20.4s, 1 line, protected): boxThisLap(1.41 laps fuel)
+🗑 speaker: stale, not spoken: "3 35 point five oh"
+🗣 spoke (strategy, imp 2, cost 5.6s, ledger 5.6/20.4s, 1 line, protected): strategyUpdate(fuel 1.41L, togo 5, stops 1)
+🗣 chain (imp 4, cost 3.8s, ledger 9.4/20.4s, 1 events, 1 lines)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 2 events, 1 lines)
+🔧 huge stop 194 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 2407206 lap 21
+🔵 sub-state FLYING → — lap 21
+🔧 pit-entry anchor learned: 219036 ms into lap (stop on lap 21)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 4635.3 s, remaining 764.7 s, median lap 215.8 s -> 4 (no-stop 4, pit loss 14.0 s, rate 10 l/s)
+📊 strategy: refuel still needed — 0.4 laps of fuel against 4 to go (need 5.2 with margin)
+🎭 mood focused → relaxed
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/pitEntry (4 samples, σ 0.43 m, ±0 m, across 0.0…0.0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line, protected): pittingIn(L21)
+🗑 dropped (in pit): surveyGate(pitEntry, 4)
+📊 strategy: box reached on the ENDING lap (entered L21, counter still L21) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 4645.7 s, remaining 754.3 s, median lap 215.8 s -> 4 (no-stop 4, pit loss 14.0 s, rate 10 l/s)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 4.1/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 3.1s, ledger 7.2/20.4s, 1 line, protected): refuelTarget(4 laps)
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🔀 state PIT → RACING at pkt 2408475 lap 22
+🔵 sub-state — → OUT_LAP lap 22
+🅿️ PIT completed: in L21 → out L22 (+37.9 fuel, transit 24.5s, teleport=false)
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/pitBox (4 samples, σ 0.00 m, ±0 m, across 0.0…0.0 m)
+🅿️ entry→box 13.8s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 4)
+📋 lap 21: 4:00.205 in fuel_used=9.30
+🔵 lap 21 antics: contact, off, gained 1
+🗑 dropped (in pit): lapStarted(22, last 240.21s)
+🗑 dropped (in pit): positionChange(P10→P11)
+🗣 spoke (pitSequence, imp 2, cost 3.4s, ledger 10.6/20.4s, 1 line, protected): exitingPit(+37.87l)
+🔧 teleport 133 m on lap 22 — pit release, not a reset
+📊 laps-left model: elapsed 4656.5 s, remaining 743.5 s, median lap 215.8 s -> 4 (no-stop 4, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L22: fuel/lap 9.61 | fuel 42.1 = 4.4 laps | 4.0 laps to go | stops 0
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/pitExit (4 samples, σ 0.00 m, ±12 m, across -0.0…0.0 m)
+🗺 mapper: lap 21 rejected (teleport)
+📊 laps-left model: elapsed 4656.5 s, remaining 729.5 s, median lap 215.8 s -> 4 (no-stop 4, pit loss 14.0 s, rate 10 l/s), out-lap -14.0s
+📊 strategy L22: fuel/lap 9.61 | fuel 42.1 = 4.4 laps | 4.0 laps to go | stops 0 (post-stop recalc)
+🔧 fresh tyres confirmed: 60.0° across all four (was 78.3° at pit entry, step 18.3°)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 13.2/20.4s, 1 line): surveyGate(pitExit, 4)
+🗑 dropped (cooldown pit; 0.2s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(noMoreStops, 4, 4 to go, 4.38 fuel-laps) | strategyUpdate(fuel 4.38L, togo 4, stops 0, post-stop)
+🗣 spoke (strategy, imp 2, cost 2.1s, ledger 15.3/20.4s, 1 line, protected): fuelStatus(noMoreStops, 4, 4 to go, 4.38 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 18.2/20.4s, 1 line, protected): strategyUpdate(fuel 4.38L, togo 4, stops 0, post-stop)
+🗑 dropped (ledger full; cost 2.2s, load 18.2/20.4s): radioCheck(P11, fuel 42%)
+🗑 dropped (cooldown strategy; 33.5s of 75.0s via strategy x0.50): strategyUpdate(fuel 4.38L, togo 4, stops 0)
+🗣 spoke (tyres, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔵 sub-state OUT_LAP → FLYING lap 23
+📋 lap 22: 3:32.969 out fuel_used=9.57
+🔵 lap 22: clean
+📊 laps-left model: elapsed 4869.5 s, remaining 530.5 s, median lap 215.8 s -> 3 (no-stop 3, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L23: fuel/lap 9.61 | fuel 32.5 = 3.4 laps | 3.0 laps to go | stops 0
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (18 samples, σ 3.78 m, ±12 m, across -6.6…8.9 m)
+🗺 mapper: lap 22 rejected (teleport)
+🗣 spoke (strategy, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line, protected): fuelStatus(noMoreStops, 3, 3 to go, 3.39 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 8.3/20.4s, 2 lines): L23
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 10.5/20.4s, 1 line): radioCheck(P11, fuel 32%)
+🗣 spoke (strategy, imp 2, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): strategyUpdate(fuel 3.39L, togo 3, stops 0)
+🎭 mood relaxed → focused
+🗣 chain (imp 1, cost 3.4s, ledger 3.4/20.4s, 2 events, 1 lines)
+🗑 speaker: stale after pause: "check the car"
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 2.9/20.4s, 1 line): tyreTemps(low, 65°)
+📋 lap 23: 3:45.089 clean fuel_used=9.73
+🎭 mood focused → relaxed
+🔵 lap 23 antics: impact, off
+🗣 spoke (lapPace, imp 4, cost 7.6s, ledger 7.6/20.4s, 1 line): paceDegradation(1.12s/lap over 5)
+📊 laps-left model: elapsed 5094.5 s, remaining 305.5 s, median lap 216.5 s -> 2 (no-stop 2, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L24: fuel/lap 9.61 | fuel 22.8 = 2.4 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (19 samples, σ 3.87 m, ±12 m, across -6.6…8.9 m)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 10.6/20.4s, 1 line, protected): fuelStatus(noMoreStops, 2, 2 to go, 2.37 fuel-laps)
+🗣 bulletin (imp 6, cost 6.4s, ledger 17.0/20.4s, 2 lines): L24
+🗑 dropped (unchanged; said 225s ago, repeats after 300s): radioCheck(P11, fuel 22%)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.6s, ledger 18.6/20.4s, 1 events, 1 lines)
+⏱ speaker: no callback after 8 s and the synthesizer is idle — restarting the queue pump
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 5.2/20.4s, 1 line, protected): strategyUpdate(fuel 2.37L, togo 2, stops 0)
+🎭 mood focused → relaxed
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+📋 lap 24: 3:35.858 clean fuel_used=10.36
+🎭 mood focused → relaxed
+🔵 lap 24 antics: contact
+📊 laps-left model: elapsed 5310.4 s, remaining 89.6 s, median lap 216.5 s -> 1 (no-stop 1, pit loss 14.0 s, rate 10 l/s)
+📊 strategy L25: fuel/lap 9.66 | fuel 12.4 = 1.3 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (20 samples, σ 4.07 m, ±12 m, across -6.9…8.9 m)
+🗣 bulletin (imp 6, cost 4.5s, ledger 7.0/20.4s, 2 lines): L25
+🗣 spoke (chatter, imp 10, cost 2.2s, ledger 9.2/20.4s, 1 line): radioCheck(P11, fuel 12%)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.5s, ledger 9.2/20.4s, 1 events, 1 lines)
+🎭 mood focused → relaxed
+🎭 mood relaxed → focused
+📋 lap 25: 3:31.652 clean fuel_used=9.53
+🔵 lap 25 antics: contact, off
+📊 strategy: finish armed at L26 (clock 5522.0 s of 5400) — awaiting lap-clock freeze
+📊 laps-left model: elapsed 5522.0 s, remaining -122.0 s, median lap 215.9 s -> 0 (expired)
+📊 strategy L26: fuel/lap 9.59 | fuel 2.9 = 0.3 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Circuit de Sainte-Croix - C/lobby/finishLine (21 samples, σ 4.40 m, ±13 m, across -8.7…8.9 m)
+🗺 mapper: learned lap 25 (211.652 s, 10750 m, 2150 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 4.1/20.4s, 1 line): surveyLap(25, 211652 ms, 2150 pts)
+🗺 survey stored → 829.trackmap.json
+🗺 session polyline installed from lap 25 (2150 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Sainte-Croix - C/lobby/Gr.3 → 3:31.652 (3/10 laps, 1 car(s), avg 3:32.070)
+📊 strategy: race finished at L26 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 26 lap(s), 4 stop(s), start GRID_START, P11/11
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 6.6/20.4s, 1 line): raceFinished(L26)
+🗑 speaker: 1 queued line(s) preempted by flag
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 334620 packets
