@@ -1,0 +1,27 @@
+{
+  "carClass" : "Gr.3",
+  "carId" : 2160,
+  "carName" : "Hyundai Genesis Gr.3",
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 51,
+    "fuelMultiplier" : 0,
+    "raceLength" : 4,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 10,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Deep Forest Raceway",
+    "tyreCompounds" : "RS",
+    "tyreWearMultiplier" : 4,
+    "weather" : "dry"
+  },
+  "endTime" : 1790111340,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1790110934,
+  "trackName" : "Deep Forest Raceway",
+  "version" : 8
+}
