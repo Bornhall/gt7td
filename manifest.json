@@ -2865,6 +2865,26 @@
       "lapTimerRatio": 1.00093
     },
     {
+      "stem": "827-customRace-20260923_215253",
+      "courseId": 827,
+      "track": "Circuit de Sainte-Croix - B",
+      "context": "customRace",
+      "carId": 2184,
+      "car": "Jaguar F-type Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 46433,
+      "durationS": 774.7,
+      "rawBytes": 17087344,
+      "gzBytes": 7958575,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 4,
+      "tyreWearMultiplier": 4
+    },
+    {
       "stem": "829-lobby-20260921_202849",
       "courseId": 829,
       "track": "Circuit de Sainte-Croix - C",

@@ -1,0 +1,199 @@
+# EzioClient session log
+# file:    20260923_215253 - Circuit de Sainte-Croix - B (827).gt7td
+# started: 2026-09-23T19:52:53Z
+# track:   Circuit de Sainte-Croix - B (CRS 827)
+# context: customRace
+# ---
+🅿️ no pitEntry gate for course 827 — approach call stays on the time anchor
+# car:     Jaguar F-type Gr.3 [Gr.3] (id 2184) — confirmed from telemetry
+🔓 learning resumed — player on track
+🎮 menus → onTrack (pkt 725274, lap 0, flags 0x0005, pos 8, cars 12, tod 66360000)
+🏁 start type: GRID_START at pkt 725663 lap 0
+🔀 state UNKNOWN → RACING at pkt 725663 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): greenFlag
+📋 lap 0: — clean fuel_used=0.36
+📊 strategy L1: no fuel model yet
+🧭 learned: 2 layouts tied (Circuit de Sainte-Croix - B, Circuit de Sainte-Croix - C) — resolving by divergence
+🚪 gate refined: Circuit de Sainte-Croix - B/customRace/lap1 (5 samples, σ 2.15 m, ±12 m, across -4.8…0.0 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 3.9/20.4s, 1 line): surveyGate(lap1, 5)
+🛞 compound: window opened — raceStart, lap 1
+🧭 divergence: fork at 200 m on course 827 — 1 left (Circuit de Sainte-Croix - B)
+🧭 divergence: resolved to Circuit de Sainte-Croix - B
+🧭 identified: Circuit de Sainte-Croix - B (CRS 827) — finishLine, 12 sample(s), ±19 m
+🗣 chain (imp 4, cost 2.5s, ledger 6.4/20.4s, 2 events, 1 lines)
+🛞 compound: family racing (H+ 0.262, locked for the race)
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 3.7/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🛞 compound: racingSoft (low confidence, C 0.78, margin 0.086)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(raceStart, RS, low)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 2:21.724 first fuel_used=11.59
+🔵 lap 1 antics: contact
+📊 strategy L2: fuel/lap 11.59 | fuel 88.0 = 7.6 laps | 4.0 laps to go | stops 0
+🚪 gate refined: Circuit de Sainte-Croix - B/customRace/finishLine (13 samples, σ 5.99 m, ±18 m, across -10.2…8.5 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 13)
+🗣 bulletin (imp 6, cost 4.8s, ledger 7.4/20.4s, 2 lines): L2
+📋 lap 2: 2:12.190 clean fuel_used=11.11
+🔵 lap 2: clean
+📊 strategy L3: fuel/lap 11.35 | fuel 76.9 = 6.8 laps | 3.0 laps to go | stops 0
+🚪 gate refined: Circuit de Sainte-Croix - B/customRace/finishLine (14 samples, σ 5.78 m, ±17 m, across -10.2…8.5 m)
+🗺 mapper: learned lap 2 (132.190 s, 6995 m, 1399 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 3.7/20.4s, 1 line): surveyLap(2, 132190 ms, 1399 pts)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 7.6/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 survey stored → 827.trackmap.json (lap 2, 132.190 s)
+⏱ class lap BEST: Circuit de Sainte-Croix - B/customRace/Gr.3 → 2:12.190 (3/10 laps, 2 car(s), avg 2:17.155)
+🗣 bulletin (imp 2, cost 3.9s, ledger 11.5/20.4s, 2 lines): L3
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 13.8/20.4s, 1 line): radioCheck(P1, fuel 76%)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 17.3/20.4s, 1 line, protected): strategyUpdate(fuel 6.78L, togo 3, stops 0)
+🔧 huge stop 193 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 749947 lap 3
+🔵 sub-state FLYING → — lap 3
+🔧 pit-entry anchor learned: 131269 ms into lap (stop on lap 3)
+🔧 pended impact cancelled: pit entry
+📊 strategy: no refuel needed — 5.8 laps of fuel against 3 to go (margin 4.2)
+🚪 gate learned: Circuit de Sainte-Croix - B/customRace/pitEntry (no heading)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line, protected): pittingIn(L3)
+🗣 spoke (strategy, imp 0, cost 3.4s, ledger 4.6/20.4s, 1 line, protected): refuelNotNeeded(3 laps to go)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🛞 compound: stop without a tyre change — compound unchanged
+🗣 spoke (pitSequence, imp 2, cost 1.2s, ledger 5.8/20.4s, 1 line, protected): inPitBox
+🛞 compound: tyre change seen (ride-height lift)
+🛞 compound: window opened — pitExit, lap 3
+🔀 state PIT → RACING at pkt 750832 lap 4
+🔵 sub-state — → OUT_LAP lap 4
+🅿️ PIT completed: in L3 → out L4 (no fuel, transit 17.8s, teleport=false)
+🚪 gate learned: Circuit de Sainte-Croix - B/customRace/pitBox (no heading)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 11.9s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 6784 m of 6988 m (13.2 m off the line), lead 20 s
+📋 lap 3: 2:26.004 in fuel_used=11.17
+🔵 lap 3: clean
+🗑 dropped (in pit): lapStarted(4/5, last 146.00s)
+🔧 teleport 143 m on lap 4 — pit release, not a reset
+🔧 fresh tyres confirmed: 60.0° across all four (was 77.1° at pit entry, step 17.1°)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 7.4/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+📊 strategy L4: fuel/lap 11.17 | fuel 65.8 = 5.9 laps | 2.0 laps to go | stops 0
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+🚪 gate learned: Circuit de Sainte-Croix - B/customRace/pitExit heading -55°
+🗺 mapper: lap 3 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 9.0/20.4s, 1 line): surveyGate(pitExit, 1)
+📊 strategy L4: fuel/lap 11.17 | fuel 65.8 = 5.9 laps | 2.0 laps to go | stops 0 (post-stop recalc)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 12.0/20.4s, 1 line): surveyComplete(0 optional missing)
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 14.5/20.4s, 1 line): tyreTemps(low, 60°)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(plusLaps, 3, 2 to go, 5.89 fuel-laps) | strategyUpdate(fuel 5.89L, togo 2, stops 0, post-stop)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 17.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 3, 2 to go, 5.89 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 20.5/20.4s, 1 line, protected): strategyUpdate(fuel 5.89L, togo 2, stops 0, post-stop)
+🗑 dropped (unchanged; said 146s ago, repeats after 300s): radioCheck(P1, fuel 65%)
+🗑 dropped (cooldown strategy; 19.8s of 75.0s via strategy x0.50): strategyUpdate(fuel 5.89L, togo 2, stops 0)
+🛞 compound: racingMedium (low confidence, C 0.92, margin 0.033)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RM, low)
+🗣 spoke (tyres, imp 4, cost 4.2s, ledger 6.3/20.4s, 1 line): tyreTemps(high, 91°, frontLeft)
+🔧 huge stop 192 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 758896 lap 4
+🔵 sub-state OUT_LAP → — lap 4
+🔧 pit-entry anchor learned: 134415 ms into lap (stop on lap 4)
+🔧 pended impact cancelled: pit entry
+📊 strategy: no refuel needed — 4.9 laps of fuel against 2 to go (margin 3.1)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 0.8/20.4s, 1 line, protected): pittingIn(L4)
+🚪 gate refined: Circuit de Sainte-Croix - B/customRace/pitEntry (2 samples, σ 0.15 m, ±0 m, across 0.0…0.0 m)
+🗣 spoke (strategy, imp 0, cost 4.2s, ledger 5.0/20.4s, 1 line, protected): refuelNotNeeded(2 laps to go)
+🗑 dropped (in pit): surveyGate(pitEntry, 2)
+🛞 compound: stop without a tyre change — compound unchanged
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 6.6/20.4s, 1 line, protected): inPitBox
+🛞 compound: tyre change seen (ride-height lift)
+🛞 compound: window opened — pitExit, lap 4
+🔀 state PIT → RACING at pkt 759781 lap 5
+🔵 sub-state — → OUT_LAP lap 5
+🅿️ PIT completed: in L4 → out L5 (no fuel, transit 17.8s, teleport=false)
+🚪 gate refined: Circuit de Sainte-Croix - B/customRace/pitBox (2 samples, σ 0.00 m, ±0 m, across 0.0…0.0 m)
+🅿️ entry→box 11.9s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 2)
+🔧 pit approach: entry at station 6784 m of 6988 m (13.1 m off the line), lead 20 s
+📋 lap 4: 2:29.150 in_out fuel_used=10.85
+🔵 lap 4: clean
+🗑 dropped (in pit): lapStarted(5/5, last 149.15s)
+🔧 teleport 143 m on lap 5 — pit release, not a reset
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 8.3/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+📊 strategy L5: fuel/lap 11.14 | fuel 54.9 = 4.9 laps | 1.0 laps to go | stops 0
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(inferred)
+🚪 gate refined: Circuit de Sainte-Croix - B/customRace/pitExit (2 samples, σ 0.00 m, ±16 m, across 0.0…0.0 m)
+🗺 mapper: lap 4 rejected (teleport)
+🔧 fresh tyres confirmed: 60.0° across all four (was 73.5° at pit entry, step 13.5°)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 10.9/20.4s, 1 line): surveyGate(pitExit, 2)
+📊 strategy L5: fuel/lap 11.14 | fuel 54.9 = 4.9 laps | 1.0 laps to go | stops 0 (post-stop recalc)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 13.0/20.4s, 1 line): tyreTemps(low, 60°)
+🗑 dropped (unchanged; said 149s ago, repeats after 300s): strategyUpdate(fuel 4.93L, togo 1, stops 0, post-stop)
+🗑 dropped (unchanged; said 296s ago, repeats after 300s): radioCheck(P1, fuel 54%)
+🗣 spoke (tyres, imp 2, cost 4.2s, ledger 4.2/20.4s, 1 line): tyreTemps(overheating, 106°, rearRight)
+🎭 mood relaxed → focused
+🗣 chain (imp 1, cost 2.5s, ledger 6.7/20.4s, 1 events, 1 lines)
+🛞 compound: racingHard (low confidence, C 1.03, margin 0.139)
+🗑 dropped (topic tyres; 11.4s of 12.5s, tyres reopens in 1.1s): compoundEstimate(pitExit, RH, low)
+🔵 sub-state OUT_LAP → FLYING lap 6
+📋 lap 5: 2:24.438 out fuel_used=11.62
+🎭 mood focused → relaxed
+🔵 lap 5 antics: impact
+📊 strategy: finish armed at L6 (lap 6 > 5) — awaiting lap-clock freeze
+📊 strategy L6: fuel/lap 11.17 | fuel 43.3 = 3.9 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Circuit de Sainte-Croix - B/customRace/finishLine (15 samples, σ 5.59 m, ±17 m, across -10.2…8.5 m)
+🗺 mapper: lap 5 rejected (teleport)
+📊 strategy: race finished at L6 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 6 lap(s), 2 stop(s), start GRID_START, P1/12
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): raceFinished(L6)
+🔧 session ended after lap 6
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🗑 flag: pending commentary cancelled
+🎮 replay handshake armed (off track, race context still valid: pos 8, cars 12)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 139 gate(s) from 319 stored
+📊 strategy: reset
+📊 pit loss: estimated 14.0 s from the unofficial table (Circuit de Sainte-Croix - B)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 onTrack → replay (pkt 769743, lap 0, flags 0x0000, pos 8, cars 12, tod 66360000)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+📊 pit loss: estimated 14.0 s from the unofficial table (Circuit de Sainte-Croix - B)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 769980, lap 0, flags 0x000C, pos —, cars —, tod 66360000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 14.0 s from the unofficial table (Circuit de Sainte-Croix - B)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🧭 polyline [MENU]: 6 candidate(s) dropped on direction — best of them Sardegna - Road Track - B median 392.88 (alignment -0.98)
+🧭 polyline [MENU]: 2 layouts share this road (Circuit de Sainte-Croix - B, Circuit de Sainte-Croix - C) — watching for the fork
+🧭 polyline [MENU]: ambiguous — Circuit de Sainte-Croix - B median 1.43/p90 2.34 vs Circuit de Sainte-Croix - C median 2.52/p90 6.20 (30 samples), abstaining
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 46433 packets

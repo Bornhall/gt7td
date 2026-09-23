@@ -1,0 +1,27 @@
+{
+  "carClass" : "Gr.3",
+  "carId" : 2184,
+  "carName" : "Jaguar F-type Gr.3",
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 827,
+    "fuelMultiplier" : 4,
+    "raceLength" : 5,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 3,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Circuit de Sainte-Croix - B",
+    "tyreCompounds" : "RS,RM,RH",
+    "tyreWearMultiplier" : 4,
+    "weather" : "dry"
+  },
+  "endTime" : 1790193958,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1790193173,
+  "trackName" : "Circuit de Sainte-Croix - B",
+  "version" : 8
+}
