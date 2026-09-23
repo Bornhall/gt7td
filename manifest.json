@@ -1303,6 +1303,26 @@
       "lapTimerRatio": 0.99998
     },
     {
+      "stem": "122-powerPackRace-20260923_230221",
+      "courseId": 122,
+      "track": "Willow Springs International Raceway: Big Willow",
+      "context": "powerPackRace",
+      "carId": 3537,
+      "car": "MAZDA3 Gr.4",
+      "carClass": "Gr.4",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 28140,
+      "durationS": 469.5,
+      "rawBytes": 10355520,
+      "gzBytes": 4867341,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 0
+    },
+    {
       "stem": "346-lobby-20260721_205103",
       "courseId": 346,
       "track": "Brands Hatch Indy Circuit",
@@ -3453,6 +3473,26 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9994,
       "lapTimerRatio": 1.00099
+    },
+    {
+      "stem": "1248-powerPackRace-20260923_224011",
+      "courseId": 1248,
+      "track": "N\u00fcrburgring Sprint",
+      "context": "powerPackRace",
+      "carId": 3268,
+      "car": "Porsche 911 GT3 RS (991) '16",
+      "carClass": null,
+      "carClassSource": null,
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 25434,
+      "durationS": 424.3,
+      "rawBytes": 9359712,
+      "gzBytes": 4261551,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 0
     },
     {
       "stem": "1249-customRace-20260726_131014",

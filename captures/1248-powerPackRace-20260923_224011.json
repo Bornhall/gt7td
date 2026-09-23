@@ -1,0 +1,45 @@
+{
+  "carId" : 3268,
+  "carName" : "Porsche 911 GT3 RS (991) '16",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "road",
+      "familyConfidence" : "high",
+      "heating" : -0.048119598505476154,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest SS at 0.172"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 966,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 0.9173749999999999,
+      "source" : "telemetry",
+      "startPacketId" : 895567,
+      "trigger" : "raceStart"
+    }
+  ],
+  "declared" : {
+    "captureContext" : "powerPackRace",
+    "courseId" : 1248,
+    "fuelMultiplier" : 0,
+    "raceLength" : 4,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 3,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Nürburgring Sprint",
+    "tyreCompounds" : "SS",
+    "tyreWearMultiplier" : 0,
+    "weather" : "dry"
+  },
+  "endTime" : 1790196447,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1790196011,
+  "trackName" : "Nürburgring Endurance",
+  "version" : 8
+}

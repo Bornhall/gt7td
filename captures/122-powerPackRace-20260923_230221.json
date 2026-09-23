@@ -1,0 +1,46 @@
+{
+  "carClass" : "Gr.4",
+  "carId" : 3537,
+  "carName" : "MAZDA3 Gr.4",
+  "compoundObservations" : [
+    {
+      "compound" : "RH",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RH",
+      "heating" : 0.5475077796334477,
+      "lap" : 1,
+      "outcome" : "unchallenged",
+      "samples" : 847,
+      "seconds" : 84.2676009342676,
+      "slipPerG" : 1.101875,
+      "source" : "telemetry",
+      "startPacketId" : 975030,
+      "trigger" : "raceStart"
+    }
+  ],
+  "declared" : {
+    "captureContext" : "powerPackRace",
+    "courseId" : 122,
+    "fuelMultiplier" : 0,
+    "raceLength" : 5,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 3,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Willow Springs International Raceway: Big Willow",
+    "tyreCompounds" : "RH",
+    "tyreWearMultiplier" : 0,
+    "weather" : "dry"
+  },
+  "endTime" : 1790197819,
+  "granularity" : 1,
+  "packetSize" : 368,
+  "startTime" : 1790197341,
+  "trackName" : "Nürburgring Sprint",
+  "version" : 8
+}
