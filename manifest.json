@@ -2685,6 +2685,26 @@
       "lapTimerRatio": 1.00027
     },
     {
+      "stem": "827-customRace-20260923_200619",
+      "courseId": 827,
+      "track": "Circuit de Sainte-Croix - B",
+      "context": "customRace",
+      "carId": 2160,
+      "car": "Hyundai Genesis Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 29723,
+      "durationS": 495.9,
+      "rawBytes": 10938064,
+      "gzBytes": 5180033,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 4,
+      "tyreWearMultiplier": 4
+    },
+    {
       "stem": "829-lobby-20260921_202849",
       "courseId": 829,
       "track": "Circuit de Sainte-Croix - C",

@@ -1,0 +1,191 @@
+# EzioClient session log
+# file:    20260923_200619 - Circuit de Sainte-Croix - B (827).gt7td
+# started: 2026-09-23T18:06:19Z
+# track:   Circuit de Sainte-Croix - B (CRS 827)
+# context: customRace
+# ---
+# car:     Hyundai Genesis Gr.3 [Gr.3] (id 2160) — confirmed from telemetry
+🧭 polyline [MENU]: 7 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - West median 185.68 (alignment -0.85)
+🧭 polyline [MENU]: no fit yet — best Circuit de Spa-Francorchamps median 15.18 m (30 samples, pass 1 of 12)
+🧭 polyline [MENU]: 10 candidate(s) dropped on direction — best of them Mount Panorama Motor Racing Circuit median 78.02 (alignment -0.41)
+🧭 polyline [MENU]: no fit yet — best Circuit de Spa-Francorchamps median 17.66 m (60 samples, pass 2 of 12)
+🧭 polyline [MENU]: 11 candidate(s) dropped on direction — best of them Daytona Tri-Oval median 29.98 (alignment -0.59)
+🧭 polyline [MENU]: no fit yet — best Circuit de Spa-Francorchamps median 57.72 m (90 samples, pass 3 of 12)
+🧭 polyline [MENU]: 12 candidate(s) dropped on direction — best of them Daytona Tri-Oval median 48.65 (alignment -0.57)
+🧭 polyline [MENU]: no fit yet — best Autodrome Lago Maggiore - Full Course Reverse median 67.45 m (120 samples, pass 4 of 12)
+🧭 polyline [MENU]: 10 candidate(s) dropped on direction — best of them Kyoto Driving Park - Yamagiwa median 87.48 (alignment -0.56)
+🧭 polyline [MENU]: no fit yet — best Autodrome Lago Maggiore - Full Course Reverse median 80.12 m (150 samples, pass 5 of 12)
+🧭 polyline [MENU]: 10 candidate(s) dropped on direction — best of them Kyoto Driving Park - Yamagiwa median 89.85 (alignment -0.60)
+🧭 polyline [MENU]: no fit yet — best Trial Mountain Circuit median 101.77 m (180 samples, pass 6 of 12)
+🧭 learned: 2 gates matched, all Circuit de Sainte-Croix - C — using the finishLine gate (42 samples)
+🧭 identified: Circuit de Sainte-Croix - C (CRS 829) — finishLine, 42 sample(s), ±13 m
+🏁 announcing track: Circuit de Sainte-Croix - C (CRS 829) from gates
+🗣 spoke (radio, imp 2, cost 3.4s, ledger 3.4/20.4s, 1 line): trackIdentified(Circuit de Sainte-Croix - C, CRS 829)
+🧭 polyline [MENU]: 12 candidate(s) dropped on direction — best of them Dragon Trail - Gardens median 76.84 (alignment -0.61)
+🧭 polyline [MENU]: no fit yet — best Dragon Trail - Gardens Reverse median 79.02 m (180 samples, pass 7 of 12)
+🧭 polyline [MENU]: 7 candidate(s) dropped on direction — best of them Dragon Trail - Gardens median 88.42 (alignment -0.75)
+🧭 polyline [MENU]: no fit yet — best Circuit de Sainte-Croix - C median 20.60 m (180 samples, pass 8 of 12)
+🧭 polyline [MENU]: 6 candidate(s) dropped on direction — best of them Dragon Trail - Gardens median 111.82 (alignment -0.74)
+🧭 polyline [MENU]: no fit yet — best Circuit de Sainte-Croix - C median 10.05 m (180 samples, pass 9 of 12)
+🧭 polyline [MENU]: 5 candidate(s) dropped on direction — best of them Daytona Road Course median 435.55 (alignment -0.76)
+🧭 polyline [MENU]: no fit yet — best Circuit de Sainte-Croix - C median 10.05 m (180 samples, pass 10 of 12)
+🧭 polyline [MENU]: 3 candidate(s) dropped on direction — best of them Daytona Road Course median 431.48 (alignment -0.62)
+🧭 polyline [MENU]: no fit yet — best Circuit de Sainte-Croix - C median 10.05 m (180 samples, pass 11 of 12)
+🧭 polyline [MENU]: 2 candidate(s) dropped on direction — best of them Daytona Road Course median 416.43 (alignment -0.46)
+🧭 polyline [MENU]: no fit yet — best Circuit de Spa-Francorchamps median 76.52 m (180 samples, pass 12 of 12)
+📊 strategy L1: no fuel model yet
+🔓 learning resumed — player on track
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+📊 pit loss: estimated 14.0 s from the unofficial table (Circuit de Sainte-Croix - B)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 menus → onTrack (pkt 345026, lap 0, flags 0x0005, pos 3, cars 4, tod 66360000)
+🏁 start type: GRID_START at pkt 345414 lap 0
+🔀 state UNKNOWN → RACING at pkt 345414 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): greenFlag
+📋 lap 0: — clean fuel_used=0.29
+📊 strategy L1: no fuel model yet
+🧭 learned: 2 gates matched, all Circuit de Sainte-Croix - C — using the finishLine gate (42 samples)
+🧭 identified: Circuit de Sainte-Croix - C (CRS 829) — finishLine, 42 sample(s), ±13 m
+🏁 announcing track: Circuit de Sainte-Croix - C (CRS 829) from gates
+🚪 gate learned: Circuit de Sainte-Croix - B/customRace/lap1 heading -53°
+🗣 spoke (radio, imp 2, cost 2.9s, ledger 4.1/20.4s, 1 line): trackIdentified(Circuit de Sainte-Croix - C, CRS 829)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 6.2/20.4s, 1 line): surveyGate(lap1, 1)
+🛞 compound: window opened — raceStart, lap 1
+🧭 polyline [L1]: 16 candidate(s) dropped on direction — best of them Dragon Trail - Gardens median 167.77 (alignment -0.87)
+🧭 polyline [L1]: no fit yet — best Circuit de Sainte-Croix - C median 10.08 m (30 samples, pass 1 of 12)
+🧭 polyline [L1]: 11 candidate(s) dropped on direction — best of them Dragon Trail - Gardens median 204.69 (alignment -0.79)
+🧭 polyline [L1]: no fit yet — best Circuit de Sainte-Croix - C median 8.68 m (60 samples, pass 2 of 12)
+🧭 polyline [L1]: 10 candidate(s) dropped on direction — best of them Dragon Trail - Gardens median 269.42 (alignment -0.77)
+🧭 polyline [L1]: no fit yet — best Circuit de Sainte-Croix - C median 8.68 m (90 samples, pass 3 of 12)
+🧭 polyline [L1]: 9 candidate(s) dropped on direction — best of them Dragon Trail - Gardens median 360.55 (alignment -0.82)
+🧭 polyline [L1]: no fit yet — best Circuit de Sainte-Croix - C median 9.22 m (120 samples, pass 4 of 12)
+🧭 polyline [L1]: 6 candidate(s) dropped on direction — best of them Sardegna - Road Track - B median 412.49 (alignment -0.82)
+🧭 polyline [L1]: no fit yet — best Circuit de Sainte-Croix - C median 11.11 m (150 samples, pass 5 of 12)
+🧭 polyline [L1]: 6 candidate(s) dropped on direction — best of them Sardegna - Road Track - B median 410.05 (alignment -0.79)
+🧭 polyline [L1]: no fit yet — best Circuit de Sainte-Croix - C median 58.97 m (180 samples, pass 6 of 12)
+🛞 compound: family road (H+ -0.052, locked for the race)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(raceStart, road, high)
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them Daytona Road Course median 296.40 (alignment -0.43)
+🧭 polyline [L1]: no fit yet — best Circuit de Spa-Francorchamps median 69.33 m (180 samples, pass 7 of 12)
+🧭 polyline [L1]: 2 candidate(s) dropped on direction — best of them WeatherTech Raceway Laguna Seca median 153.53 (alignment -0.76)
+🧭 polyline [L1]: no fit yet — best Circuit de Spa-Francorchamps median 69.53 m (180 samples, pass 8 of 12)
+🧭 polyline [L1]: 2 candidate(s) dropped on direction — best of them WeatherTech Raceway Laguna Seca median 134.85 (alignment -0.74)
+🧭 polyline [L1]: no fit yet — best Circuit de Spa-Francorchamps median 82.76 m (180 samples, pass 9 of 12)
+🧭 polyline [L1]: 3 candidate(s) dropped on direction — best of them High Speed Ring median 69.43 (alignment -0.46)
+🧭 polyline [L1]: no fit yet — best High Speed Ring Reverse median 68.22 m (180 samples, pass 10 of 12)
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them Trial Mountain Circuit median 54.60 (alignment -0.59)
+🧭 polyline [L1]: Circuit de Sainte-Croix - C (CRS 829, map ctx lobby) median 2.86 m, p90 265.94 m, 6% of lap, 180 samples, alignment +0.86 — next course Red Bull Ring median 56.97/p90 152.97
+🧭 polyline DISAGREES with the DECLARED course: Circuit de Sainte-Croix - C (CRS 829) vs CRS 827 — declaration wins
+🛞 compound: sportsSoft (low confidence, C 1.07, margin 0.161)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(raceStart, SS, low)
+🗣 chain (imp 1, cost 4.2s, ledger 4.2/20.4s, 3 events, 1 lines)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 2:36.121 first fuel_used=10.45
+🔵 lap 1 antics: impact, off
+📊 strategy L2: fuel/lap 10.45 | fuel 89.3 = 8.5 laps | 2.0 laps to go | stops 0
+🚪 gate learned: Circuit de Sainte-Croix - B/customRace/finishLine heading -52°
+🎭 mood relaxed → focused
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 2.1/20.4s, 1 line): surveyGate(finishLine, 1)
+🗣 bulletin (imp 6, cost 5.4s, ledger 7.4/20.4s, 2 lines): L2
+🗣 spoke (tyres, imp 2, cost 2.9s, ledger 2.9/20.4s, 1 line): tyreTemps(overheating, 147°)
+🗣 chain (imp 4, cost 2.5s, ledger 5.4/20.4s, 1 events, 1 lines)
+🗑 dropped (cooldown tyretemps; 7.3s of 22.5s via tyres x0.50): tyreTemps(high, 83°, rearLeft)
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+📋 lap 2: 2:23.044 clean fuel_used=9.99
+🔵 lap 2 antics: contact
+📊 strategy L3: fuel/lap 10.22 | fuel 79.3 = 7.8 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Circuit de Sainte-Croix - B/customRace/finishLine (2 samples, σ 6.03 m, ±16 m, across 0.0…8.5 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.3/20.4s, 1 line): surveyGate(finishLine, 2)
+🗺 mapper: learned lap 2 (143.044 s, 7020 m, 1404 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 8.0/20.4s, 1 line): surveyLap(2, 143044 ms, 1404 pts)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 11.9/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 survey stored → 827.trackmap.json
+🗺 session polyline installed from lap 2 (1404 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Sainte-Croix - B/customRace/Gr.3 → 2:23.044 (1/10 laps, 1 car(s), avg 2:23.044)
+🗣 bulletin (imp 2, cost 4.6s, ledger 16.5/20.4s, 2 lines): L3
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 18.8/20.4s, 1 line): radioCheck(P1, fuel 79%)
+🗑 speaker: stale, not spoken: "radio check"
+🗑 speaker: stale, not spoken: "P 1"
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 20.6/20.4s, 1 line, protected): strategyUpdate(fuel 8.54L, togo 2, stops 0)
+🗣 chain (imp 4, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+📋 lap 3: 2:16.231 clean fuel_used=9.86
+🔵 lap 3 antics: contact
+📊 strategy: finish armed at L4 (lap 4 > 3) — awaiting lap-clock freeze
+📊 strategy L4: fuel/lap 10.00 | fuel 69.4 = 6.9 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Circuit de Sainte-Croix - B/customRace/finishLine (3 samples, σ 7.29 m, ±20 m, across -10.2…8.5 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 3 (136.231 s, 6990 m, 1398 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 6.4/20.4s, 1 line): surveyLap(3, 136231 ms, 1398 pts)
+🗺 survey stored → 827.trackmap.json
+🗺 session polyline installed from lap 3 (1398 pts) — minimap + delta live
+⏱ class lap BEST: Circuit de Sainte-Croix - B/customRace/Gr.3 → 2:16.231 (2/10 laps, 1 car(s), avg 2:19.637)
+📊 strategy: race finished at L4 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 4 lap(s), 0 stop(s), start GRID_START, P1/4
+🗑 flag: pending commentary cancelled
+✂️ capture auto-stop in 30s (race finished)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 8.0/20.4s, 1 line): raceFinished(L4)
+🗑 speaker: 3 queued line(s) preempted by flag
+🔧 session ended after lap 4
+🎭 mood focused → relaxed
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🗑 flag: pending commentary cancelled
+🎮 replay handshake armed (off track, race context still valid: pos 3, cars 4)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 144 gate(s) from 325 stored
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 14.0 s from the unofficial table (Circuit de Sainte-Croix - B)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 onTrack → replay (pkt 372213, lap 0, flags 0x0000, pos 3, cars 4, tod 66360000)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 14.0 s from the unofficial table (Circuit de Sainte-Croix - B)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 372497, lap 0, flags 0x000C, pos —, cars —, tod 66360000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+📊 pit loss: estimated 14.0 s from the unofficial table (Circuit de Sainte-Croix - B)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🧭 polyline [MENU]: 9 candidate(s) dropped on direction — best of them Dragon Trail - Gardens Reverse median 136.87 (alignment -1.00)
+🧭 polyline [MENU]: Circuit de Sainte-Croix - B (CRS 827, map ctx customRace) median 2.13 m, p90 2.70 m, 2% of lap, 30 samples, alignment +1.00 — next course Circuit de Spa-Francorchamps median 14.73/p90 30.84
+🏁 announcing track: Circuit de Sainte-Croix - B (CRS 827) from map matcher
+🧭 polyline agrees with the declared course (CRS 827)
+🗣 spoke (radio, imp 2, cost 3.8s, ledger 11.8/20.4s, 1 line): trackIdentified(Circuit de Sainte-Croix - B, CRS 827)
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 29723 packets
