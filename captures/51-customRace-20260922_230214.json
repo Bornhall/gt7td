@@ -2,6 +2,16 @@
   "carClass" : "Gr.3",
   "carId" : 2160,
   "carName" : "Hyundai Genesis Gr.3",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 5,
+    "lapsValid" : 2,
+    "measuredHz" : 60.00386974880777,
+    "source" : "reprocess",
+    "stops" : 0,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "courseId" : 51,

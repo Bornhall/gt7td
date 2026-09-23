@@ -552,7 +552,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 7,
+      "lapsValid": 2,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9995,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9995,
+      "lapTimerRatio": 1.00099
     },
     {
       "stem": "51-customRace-20260920_200122",
@@ -572,7 +582,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 7,
+      "lapsValid": 2,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9991,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9991,
+      "lapTimerRatio": 1.00098
     },
     {
       "stem": "51-customRace-20260920_201818",
@@ -592,7 +612,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 1,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 7,
+      "lapsValid": 2,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0005,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0005,
+      "lapTimerRatio": 1.00101
     },
     {
       "stem": "51-customRace-20260921_231111",
@@ -612,7 +642,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0027,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0027,
+      "lapTimerRatio": 1.00104
     },
     {
       "stem": "51-customRace-20260921_231918",
@@ -632,7 +672,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0058,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0058,
+      "lapTimerRatio": 1.0011
     },
     {
       "stem": "51-customRace-20260921_232712",
@@ -652,7 +702,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 0,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.002,
+      "hzSource": "measured",
+      "lapTimerHz": 60.002,
+      "lapTimerRatio": 1.00103
     },
     {
       "stem": "51-customRace-20260921_233440",
@@ -672,7 +732,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.001,
+      "hzSource": "measured",
+      "lapTimerHz": 60.001,
+      "lapTimerRatio": 1.00102
     },
     {
       "stem": "51-customRace-20260921_234202",
@@ -692,7 +762,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0086,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0086,
+      "lapTimerRatio": 1.00114
     },
     {
       "stem": "51-customRace-20260921_234928",
@@ -712,7 +792,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0006,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0006,
+      "lapTimerRatio": 1.00101
     },
     {
       "stem": "51-customRace-20260921_235704",
@@ -732,7 +822,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0052,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0052,
+      "lapTimerRatio": 1.00109
     },
     {
       "stem": "51-customRace-20260922_000444",
@@ -752,7 +852,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0019,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0019,
+      "lapTimerRatio": 1.00103
     },
     {
       "stem": "51-customRace-20260922_001253",
@@ -772,7 +882,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0025,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0025,
+      "lapTimerRatio": 1.00104
     },
     {
       "stem": "51-customRace-20260922_230214",
@@ -792,7 +912,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0039,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0039,
+      "lapTimerRatio": 1.00106
     },
     {
       "stem": "51-customRace-20260922_230946",
@@ -812,7 +942,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 1,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0052,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0052,
+      "lapTimerRatio": 1.00109
     },
     {
       "stem": "51-customRace-20260922_231729",
@@ -832,7 +972,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 5,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0032,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0032,
+      "lapTimerRatio": 1.00105
     },
     {
       "stem": "51-lobby-20260831_175448",
@@ -2689,8 +2839,8 @@
       "courseId": 827,
       "track": "Circuit de Sainte-Croix - B",
       "context": "customRace",
-      "carId": 2160,
-      "car": "Hyundai Genesis Gr.3",
+      "carId": 3600,
+      "car": "Porsche 911 GT3 R (992) '22",
       "carClass": "Gr.3",
       "carClassSource": "observed",
       "declaredCarMismatch": false,
@@ -2702,7 +2852,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 4,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9955,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9955,
+      "lapTimerRatio": 1.00093
     },
     {
       "stem": "829-lobby-20260921_202849",
@@ -2722,7 +2882,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 2,
-      "tyreWearMultiplier": 3
+      "tyreWearMultiplier": 3,
+      "laps": 26,
+      "lapsValid": 4,
+      "stops": 4,
+      "tyreChanges": 4,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9405,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9405,
+      "lapTimerRatio": 1.00001
     },
     {
       "stem": "841-customRace-20260920_171729",
@@ -2742,7 +2912,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 6
+      "tyreWearMultiplier": 6,
+      "laps": 9,
+      "lapsValid": 3,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0018,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0018,
+      "lapTimerRatio": 1.00103
     },
     {
       "stem": "846-customRace-20260726_222748",
@@ -2882,7 +3062,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 6
+      "tyreWearMultiplier": 6,
+      "laps": 8,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9995,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9995,
+      "lapTimerRatio": 1.00099
     },
     {
       "stem": "896-lobby-20260721_202811",
@@ -3426,8 +3616,8 @@
       "versions": [
         {
           "context": "customRace",
-          "lengthM": 4190,
-          "points": 838
+          "lengthM": 4185,
+          "points": 837
         }
       ]
     },
@@ -3830,6 +4020,30 @@
       ]
     },
     {
+      "courseId": 827,
+      "track": "Circuit de Sainte-Croix - B",
+      "file": "reference/trackmaps/827.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 6990,
+          "points": 1398
+        }
+      ]
+    },
+    {
+      "courseId": 829,
+      "track": "Circuit de Sainte-Croix - C",
+      "file": "reference/trackmaps/829.trackmap.json",
+      "versions": [
+        {
+          "context": "lobby",
+          "lengthM": 10750,
+          "points": 2150
+        }
+      ]
+    },
+    {
       "courseId": 841,
       "track": "Sardegna - Road Track - B",
       "file": "reference/trackmaps/841.trackmap.json",
@@ -4060,7 +4274,7 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 69,
+      "records": 71,
       "courses": [
         4,
         11,
@@ -4095,6 +4309,8 @@
         820,
         822,
         823,
+        827,
+        829,
         841,
         846,
         847,
@@ -4113,12 +4329,12 @@
         1247,
         1249
       ],
-      "updated": 1789929212
+      "updated": 1790187304
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 317,
+      "gates": 325,
       "courses": [
         4,
         11,
@@ -4153,6 +4369,8 @@
         820,
         822,
         823,
+        827,
+        829,
         841,
         846,
         847,
@@ -4185,14 +4403,14 @@
         "timeTrial",
         "unknown"
       ],
-      "withHeading": 203,
-      "updated": 1789929220,
+      "withHeading": 209,
+      "updated": 1790187669,
       "tolerance": {
-        "gatesWithWidth": 203,
+        "gatesWithWidth": 209,
         "minM": 8,
         "medianM": 12,
         "maxM": 20,
-        "atFloor": 183,
+        "atFloor": 187,
         "atCap": 1,
         "belowFloor": 1,
         "belowFloorNote": "Written under a lower floor and not refined since. The gate set is mixed-generation, so atFloor is not a clean measurement. NOTE that a reprocess does not necessarily clear this: a gate only refines from a recording in ITS OWN (course, context), so a pair with no usable capture keeps pre-raise geometry indefinitely. Deep Forest lobby is the worked example -- 27 samples, still at the old floor, and its only lobby recordings are 11-18 second fragments that learn nothing.",

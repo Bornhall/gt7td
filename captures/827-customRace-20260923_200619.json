@@ -1,7 +1,17 @@
 {
   "carClass" : "Gr.3",
-  "carId" : 2160,
-  "carName" : "Hyundai Genesis Gr.3",
+  "carId" : 3600,
+  "carName" : "Porsche 911 GT3 R (992) '22",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 4,
+    "lapsValid" : 2,
+    "measuredHz" : 59.99552585218534,
+    "source" : "reprocess",
+    "stops" : 0,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "courseId" : 827,
@@ -14,7 +24,7 @@
     "timeAfterFinish" : 30,
     "timeBeforeStart" : 30,
     "trackName" : "Circuit de Sainte-Croix - B",
-    "tyreCompounds" : "RH",
+    "tyreCompounds" : "RM",
     "tyreWearMultiplier" : 4,
     "weather" : "dry"
   },
@@ -22,6 +32,8 @@
   "granularity" : 1,
   "packetSize" : 368,
   "startTime" : 1790186779,
-  "trackName" : "Circuit de Sainte-Croix - C",
-  "version" : 8
+  "trackName" : "Circuit de Sainte-Croix - B",
+  "version" : 8,
+  "wasCarId" : 2160,
+  "wasCarName" : "Hyundai Genesis Gr.3"
 }

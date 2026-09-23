@@ -1,6 +1,16 @@
 {
   "carId" : 365,
   "carName" : "Alfa Romeo 155 2.5 V6 TI '93",
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 9,
+    "lapsValid" : 3,
+    "measuredHz" : 60.00180151777873,
+    "source" : "reprocess",
+    "stops" : 0,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "customRace",
     "carClass" : "Gr.3",
@@ -8,8 +18,6 @@
     "carName" : "Chevrolet Corvette C7 Gr.3",
     "courseId" : 841,
     "fuelMultiplier" : 4,
-    "mandatoryTyreChange" : false,
-    "mode" : "race",
     "notes" : "RH tyres. Power Pack DLC: European Oldtimers",
     "raceLength" : 8,
     "raceLengthUnit" : "laps",
