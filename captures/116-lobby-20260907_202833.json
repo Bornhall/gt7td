@@ -12,14 +12,12 @@
     "version" : 1
   },
   "declared" : {
-    "captureContext" : "customRace",
+    "captureContext" : "lobby",
     "carClass" : "Gr.3",
     "carId" : 2183,
     "carName" : "Chevrolet Corvette C7 Gr.3",
     "courseId" : 116,
     "fuelMultiplier" : 2,
-    "mandatoryTyreChange" : false,
-    "mode" : "race",
     "raceLength" : 60,
     "raceLengthUnit" : "minutes",
     "refuelRateLps" : 10,
