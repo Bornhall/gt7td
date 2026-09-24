@@ -3713,6 +3713,11 @@
           "context": "customRace",
           "lengthM": 4180,
           "points": 836
+        },
+        {
+          "context": "lobby",
+          "lengthM": 4185,
+          "points": 837
         }
       ]
     },
@@ -3728,8 +3733,8 @@
         },
         {
           "context": "lobby",
-          "lengthM": 6150,
-          "points": 1230
+          "lengthM": 6155,
+          "points": 1231
         }
       ]
     },
@@ -3943,6 +3948,11 @@
         },
         {
           "context": "customRace",
+          "lengthM": 5755,
+          "points": 1151
+        },
+        {
+          "context": "sportDailyRace",
           "lengthM": 5755,
           "points": 1151
         }
@@ -4398,7 +4408,7 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 74,
+      "records": 75,
       "courses": [
         4,
         11,
@@ -4454,12 +4464,12 @@
         1247,
         1249
       ],
-      "updated": 1790231360
+      "updated": 1790234055
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 323,
+      "gates": 330,
       "courses": [
         4,
         11,
@@ -4528,20 +4538,19 @@
         "customRace",
         "lobby",
         "powerPackRace",
+        "sportDailyRace",
         "timeTrial"
       ],
-      "withHeading": 208,
-      "updated": 1790231527,
+      "withHeading": 213,
+      "updated": 1790239623,
       "tolerance": {
-        "gatesWithWidth": 208,
-        "minM": 8,
-        "medianM": 12.0,
+        "gatesWithWidth": 213,
+        "minM": 12,
+        "medianM": 12,
         "maxM": 20,
-        "atFloor": 185,
+        "atFloor": 192,
         "atCap": 1,
-        "belowFloor": 1,
-        "belowFloorNote": "Written under a lower floor and not refined since. The gate set is mixed-generation, so atFloor is not a clean measurement. NOTE that a reprocess does not necessarily clear this: a gate only refines from a recording in ITS OWN (course, context), so a pair with no usable capture keeps pre-raise geometry indefinitely. Deep Forest lobby is the worked example -- 27 samples, still at the old floor, and its only lobby recordings are 11-18 second fragments that learn nothing.",
-        "atDefault": 10,
+        "atDefault": 9,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,

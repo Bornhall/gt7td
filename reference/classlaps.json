@@ -740,6 +740,12 @@
     "courseId" : 116,
     "laps" : [
       {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 126603,
+        "recorded" : 1790234021
+      },
+      {
         "carId" : 3223,
         "carName" : "Dodge Viper SRT GT3-R '15",
         "lapMs" : 126862,
@@ -747,7 +753,7 @@
       }
     ],
     "trackName" : "Mount Panorama Motor Racing Circuit",
-    "updated" : 1785274886
+    "updated" : 1790234021
   },
   {
     "carClass" : "Gr.3",
@@ -901,6 +907,12 @@
       {
         "carId" : 2183,
         "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 88008,
+        "recorded" : 1790234055
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
         "lapMs" : 88177,
         "recorded" : 1788192149
       },
@@ -909,16 +921,10 @@
         "carName" : "Chevrolet Corvette C7 Gr.3",
         "lapMs" : 88278,
         "recorded" : 1788191884
-      },
-      {
-        "carId" : 2183,
-        "carName" : "Chevrolet Corvette C7 Gr.3",
-        "lapMs" : 88893,
-        "recorded" : 1788195167
       }
     ],
     "trackName" : "Deep Forest Raceway",
-    "updated" : 1788195167
+    "updated" : 1790234055
   },
   {
     "carClass" : "Gr.3",
@@ -1404,5 +1410,32 @@
     ],
     "trackName" : "Nürburgring Endurance",
     "updated" : 1790231360
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "sportDailyRace",
+    "courseId" : 469,
+    "laps" : [
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 112620,
+        "recorded" : 1790234011
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 112985,
+        "recorded" : 1790234011
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 113229,
+        "recorded" : 1790234012
+      }
+    ],
+    "trackName" : "Autodromo Nazionale Monza",
+    "updated" : 1790234012
   }
 ]
