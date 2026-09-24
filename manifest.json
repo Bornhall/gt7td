@@ -30,7 +30,15 @@
       "measuredHz": 59.9354,
       "hzSource": "measured",
       "lapTimerHz": 59.9354,
-      "lapTimerRatio": 0.99992
+      "lapTimerRatio": 0.99992,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "11-lobby-20260721_235320",
@@ -60,7 +68,15 @@
       "measuredHz": 59.9429,
       "hzSource": "measured",
       "lapTimerHz": 59.9429,
-      "lapTimerRatio": 1.00005
+      "lapTimerRatio": 1.00005,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "41-customRace-20260908_230318",
@@ -90,7 +106,15 @@
       "measuredHz": 60.0,
       "hzSource": "measured",
       "lapTimerHz": 60.0,
-      "lapTimerRatio": 1.001
+      "lapTimerRatio": 1.001,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "41-customRace-20260908_234405",
@@ -120,7 +144,15 @@
       "measuredHz": 60.0028,
       "hzSource": "measured",
       "lapTimerHz": 60.0028,
-      "lapTimerRatio": 1.00105
+      "lapTimerRatio": 1.00105,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "41-customRace-20260908_235609",
@@ -150,7 +182,15 @@
       "measuredHz": 60.0064,
       "hzSource": "measured",
       "lapTimerHz": 60.0064,
-      "lapTimerRatio": 1.00111
+      "lapTimerRatio": 1.00111,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "41-lobby-20260909_000857",
@@ -180,7 +220,16 @@
       "measuredHz": 59.9431,
       "hzSource": "measured",
       "lapTimerHz": 59.9431,
-      "lapTimerRatio": 1.00005
+      "lapTimerRatio": 1.00005,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260817_221417",
@@ -210,7 +259,29 @@
       "measuredHz": 60.0004,
       "hzSource": "measured",
       "lapTimerHz": 60.0004,
-      "lapTimerRatio": 1.00101
+      "lapTimerRatio": 1.00101,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 18,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 32,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260820_191652",
@@ -240,7 +311,30 @@
       "measuredHz": 60.0,
       "hzSource": "measured",
       "lapTimerHz": 60.0,
-      "lapTimerRatio": 1.001
+      "lapTimerRatio": 1.001,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 19,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 35,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260821_192506",
@@ -270,7 +364,30 @@
       "measuredHz": 60.0004,
       "hzSource": "measured",
       "lapTimerHz": 60.0004,
-      "lapTimerRatio": 1.00101
+      "lapTimerRatio": 1.00101,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 21,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260821_215143",
@@ -300,7 +417,30 @@
       "measuredHz": 60.0015,
       "hzSource": "measured",
       "lapTimerHz": 60.0015,
-      "lapTimerRatio": 1.00102
+      "lapTimerRatio": 1.00102,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 21,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260827_204146",
@@ -330,7 +470,30 @@
       "measuredHz": 59.9983,
       "hzSource": "measured",
       "lapTimerHz": 59.9983,
-      "lapTimerRatio": 1.00097
+      "lapTimerRatio": 1.00097,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 21,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260829_144911",
@@ -360,7 +523,29 @@
       "measuredHz": 60.0002,
       "hzSource": "measured",
       "lapTimerHz": 60.0002,
-      "lapTimerRatio": 1.001
+      "lapTimerRatio": 1.001,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 21,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260829_195438",
@@ -390,7 +575,29 @@
       "measuredHz": 60.0007,
       "hzSource": "measured",
       "lapTimerHz": 60.0007,
-      "lapTimerRatio": 1.00101
+      "lapTimerRatio": 1.00101,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 21,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260830_114540",
@@ -446,7 +653,30 @@
       "measuredHz": 60.0007,
       "hzSource": "measured",
       "lapTimerHz": 60.0007,
-      "lapTimerRatio": 1.00101
+      "lapTimerRatio": 1.00101,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 21,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260830_155325",
@@ -502,7 +732,30 @@
       "measuredHz": 60.0004,
       "hzSource": "measured",
       "lapTimerHz": 60.0004,
-      "lapTimerRatio": 1.00101
+      "lapTimerRatio": 1.00101,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 21,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260920_194756",
@@ -532,7 +785,22 @@
       "measuredHz": 59.9995,
       "hzSource": "measured",
       "lapTimerHz": 59.9995,
-      "lapTimerRatio": 1.00099
+      "lapTimerRatio": 1.00099,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 4,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260920_200122",
@@ -562,7 +830,21 @@
       "measuredHz": 59.9991,
       "hzSource": "measured",
       "lapTimerHz": 59.9991,
-      "lapTimerRatio": 1.00098
+      "lapTimerRatio": 1.00098,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 3,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260920_201818",
@@ -592,7 +874,23 @@
       "measuredHz": 60.0005,
       "hzSource": "measured",
       "lapTimerHz": 60.0005,
-      "lapTimerRatio": 1.00101
+      "lapTimerRatio": 1.00101,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "sports",
+          "compound": "SS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 2,
+          "family": "sports",
+          "compound": "SS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "51-customRace-20260921_231111",
@@ -622,7 +920,19 @@
       "measuredHz": 60.0027,
       "hzSource": "measured",
       "lapTimerHz": 60.0027,
-      "lapTimerRatio": 1.00104
+      "lapTimerRatio": 1.00104,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
     },
     {
       "stem": "51-customRace-20260921_231918",
@@ -652,7 +962,19 @@
       "measuredHz": 60.0058,
       "hzSource": "measured",
       "lapTimerHz": 60.0058,
-      "lapTimerRatio": 1.0011
+      "lapTimerRatio": 1.0011,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "RM"
+      ]
     },
     {
       "stem": "51-customRace-20260921_232712",
@@ -682,7 +1004,19 @@
       "measuredHz": 60.002,
       "hzSource": "measured",
       "lapTimerHz": 60.002,
-      "lapTimerRatio": 1.00103
+      "lapTimerRatio": 1.00103,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "RH"
+      ]
     },
     {
       "stem": "51-customRace-20260921_233440",
@@ -712,7 +1046,19 @@
       "measuredHz": 60.001,
       "hzSource": "measured",
       "lapTimerHz": 60.001,
-      "lapTimerRatio": 1.00102
+      "lapTimerRatio": 1.00102,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "sports",
+          "compound": "SS",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "SS"
+      ]
     },
     {
       "stem": "51-customRace-20260921_234202",
@@ -742,7 +1088,19 @@
       "measuredHz": 60.0086,
       "hzSource": "measured",
       "lapTimerHz": 60.0086,
-      "lapTimerRatio": 1.00114
+      "lapTimerRatio": 1.00114,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "sports",
+          "compound": "SM",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "SM"
+      ]
     },
     {
       "stem": "51-customRace-20260921_234928",
@@ -772,7 +1130,18 @@
       "measuredHz": 60.0006,
       "hzSource": "measured",
       "lapTimerHz": 60.0006,
-      "lapTimerRatio": 1.00101
+      "lapTimerRatio": 1.00101,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "SH"
+      ]
     },
     {
       "stem": "51-customRace-20260921_235704",
@@ -802,7 +1171,19 @@
       "measuredHz": 60.0052,
       "hzSource": "measured",
       "lapTimerHz": 60.0052,
-      "lapTimerRatio": 1.00109
+      "lapTimerRatio": 1.00109,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "comfort",
+          "compound": "CS",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "CS"
+      ]
     },
     {
       "stem": "51-customRace-20260922_000444",
@@ -832,7 +1213,19 @@
       "measuredHz": 60.0019,
       "hzSource": "measured",
       "lapTimerHz": 60.0019,
-      "lapTimerRatio": 1.00103
+      "lapTimerRatio": 1.00103,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "comfort",
+          "compound": "CM",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "CM"
+      ]
     },
     {
       "stem": "51-customRace-20260922_001253",
@@ -862,7 +1255,19 @@
       "measuredHz": 60.0025,
       "hzSource": "measured",
       "lapTimerHz": 60.0025,
-      "lapTimerRatio": 1.00104
+      "lapTimerRatio": 1.00104,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "comfort",
+          "compound": "CH",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "CH"
+      ]
     },
     {
       "stem": "51-customRace-20260922_230214",
@@ -892,7 +1297,19 @@
       "measuredHz": 60.0039,
       "hzSource": "measured",
       "lapTimerHz": 60.0039,
-      "lapTimerRatio": 1.00106
+      "lapTimerRatio": 1.00106,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
     },
     {
       "stem": "51-customRace-20260922_230946",
@@ -922,7 +1339,18 @@
       "measuredHz": 60.0052,
       "hzSource": "measured",
       "lapTimerHz": 60.0052,
-      "lapTimerRatio": 1.00109
+      "lapTimerRatio": 1.00109,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "RH"
+      ]
     },
     {
       "stem": "51-customRace-20260922_231729",
@@ -952,7 +1380,18 @@
       "measuredHz": 60.0032,
       "hzSource": "measured",
       "lapTimerHz": 60.0032,
-      "lapTimerRatio": 1.00105
+      "lapTimerRatio": 1.00105,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "RM"
+      ]
     },
     {
       "stem": "51-lobby-20260831_175448",
@@ -1060,7 +1499,23 @@
       "measuredHz": 59.9412,
       "hzSource": "measured",
       "lapTimerHz": 59.9412,
-      "lapTimerRatio": 1.00002
+      "lapTimerRatio": 1.00002,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 24,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "116-customRace-20260905_173031",
@@ -1090,7 +1545,36 @@
       "measuredHz": 60.0002,
       "hzSource": "measured",
       "lapTimerHz": 60.0002,
-      "lapTimerRatio": 1.001
+      "lapTimerRatio": 1.001,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 10,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 17,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 24,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "116-customRace-20260905_184421",
@@ -1120,7 +1604,15 @@
       "measuredHz": 59.9995,
       "hzSource": "measured",
       "lapTimerHz": 59.9995,
-      "lapTimerRatio": 1.00099
+      "lapTimerRatio": 1.00099,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "116-customRace-20260907_160114",
@@ -1150,7 +1642,23 @@
       "measuredHz": 60.0005,
       "hzSource": "measured",
       "lapTimerHz": 60.0005,
-      "lapTimerRatio": 1.00101
+      "lapTimerRatio": 1.00101,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 18,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "116-customRace-20260907_182706",
@@ -1180,7 +1688,23 @@
       "measuredHz": 60.0006,
       "hzSource": "measured",
       "lapTimerHz": 60.0006,
-      "lapTimerRatio": 1.00101
+      "lapTimerRatio": 1.00101,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 16,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "116-customRace-20260907_190630",
@@ -1210,7 +1734,16 @@
       "measuredHz": 60.0028,
       "hzSource": "measured",
       "lapTimerHz": 60.0028,
-      "lapTimerRatio": 1.00105
+      "lapTimerRatio": 1.00105,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "116-lobby-20260721_172648",
@@ -1240,7 +1773,15 @@
       "measuredHz": 59.9414,
       "hzSource": "measured",
       "lapTimerHz": 59.9414,
-      "lapTimerRatio": 1.00002
+      "lapTimerRatio": 1.00002,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "116-lobby-20260907_202833",
@@ -1270,7 +1811,22 @@
       "measuredHz": 59.94,
       "hzSource": "measured",
       "lapTimerHz": 59.94,
-      "lapTimerRatio": 1.0
+      "lapTimerRatio": 1.0,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "sports",
+          "compound": "SS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 17,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "119-lobby-20260721_204241",
@@ -1300,7 +1856,21 @@
       "measuredHz": 59.9387,
       "hzSource": "measured",
       "lapTimerHz": 59.9387,
-      "lapTimerRatio": 0.99998
+      "lapTimerRatio": 0.99998,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 4,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "122-powerPackRace-20260923_230221",
@@ -1330,7 +1900,19 @@
       "measuredHz": 59.9992,
       "hzSource": "measured",
       "lapTimerHz": 59.9992,
-      "lapTimerRatio": 1.00099
+      "lapTimerRatio": 1.00099,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "RH"
+      ]
     },
     {
       "stem": "346-lobby-20260721_205103",
@@ -1360,7 +1942,21 @@
       "measuredHz": 59.9448,
       "hzSource": "measured",
       "lapTimerHz": 59.9448,
-      "lapTimerRatio": 1.00008
+      "lapTimerRatio": 1.00008,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 6,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "349-customRace-20260725_212313",
@@ -1390,7 +1986,15 @@
       "measuredHz": 59.9985,
       "hzSource": "measured",
       "lapTimerHz": 59.9985,
-      "lapTimerRatio": 1.00098
+      "lapTimerRatio": 1.00098,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "354-customRace-20260719_143116",
@@ -1416,7 +2020,21 @@
       "stops": 1,
       "tyreChanges": 1,
       "countsVersion": 1,
-      "countsSource": "reprocess"
+      "countsSource": "reprocess",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 9,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "354-customRace-20260725_150850",
@@ -1442,7 +2060,15 @@
       "stops": 0,
       "tyreChanges": 0,
       "countsVersion": 1,
-      "countsSource": "reprocess"
+      "countsSource": "reprocess",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "354-lobby-20260719_142523",
@@ -1468,7 +2094,21 @@
       "stops": 1,
       "tyreChanges": 1,
       "countsVersion": 1,
-      "countsSource": "reprocess"
+      "countsSource": "reprocess",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 6,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "356-customRace-20260901_181517",
@@ -1498,7 +2138,22 @@
       "measuredHz": 60.0076,
       "hzSource": "measured",
       "lapTimerHz": 60.0076,
-      "lapTimerRatio": 1.00113
+      "lapTimerRatio": 1.00113,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 9,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "356-customRace-20260901_222038",
@@ -1528,7 +2183,21 @@
       "measuredHz": 60.0096,
       "hzSource": "measured",
       "lapTimerHz": 60.0096,
-      "lapTimerRatio": 1.00116
+      "lapTimerRatio": 1.00116,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 6,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "356-lobby-20260722_000336",
@@ -1558,7 +2227,15 @@
       "measuredHz": 59.9316,
       "hzSource": "measured",
       "lapTimerHz": 59.9316,
-      "lapTimerRatio": 0.99986
+      "lapTimerRatio": 0.99986,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "357-lobby-20260721_232412",
@@ -1584,7 +2261,15 @@
       "stops": 1,
       "tyreChanges": 1,
       "countsVersion": 1,
-      "countsSource": "reprocess"
+      "countsSource": "reprocess",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "363-lobby-20260721_201236",
@@ -1614,7 +2299,21 @@
       "measuredHz": 59.9414,
       "hzSource": "measured",
       "lapTimerHz": 59.9414,
-      "lapTimerRatio": 1.00002
+      "lapTimerRatio": 1.00002,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 5,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "363-lobby-20260909_233041",
@@ -1644,7 +2343,23 @@
       "measuredHz": 59.9395,
       "hzSource": "measured",
       "lapTimerHz": 59.9395,
-      "lapTimerRatio": 0.99999
+      "lapTimerRatio": 0.99999,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 5,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "365-customRace-20260725_195705",
@@ -1674,7 +2389,22 @@
       "measuredHz": 60.0024,
       "hzSource": "measured",
       "lapTimerHz": 60.0024,
-      "lapTimerRatio": 1.00104
+      "lapTimerRatio": 1.00104,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 3,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "365-customRace-20260726_200112",
@@ -1704,7 +2434,23 @@
       "measuredHz": 60.0003,
       "hzSource": "measured",
       "lapTimerHz": 60.0003,
-      "lapTimerRatio": 1.00101
+      "lapTimerRatio": 1.00101,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 5,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "365-customRace-20260726_235845",
@@ -1734,7 +2480,23 @@
       "measuredHz": 60.0013,
       "hzSource": "measured",
       "lapTimerHz": 60.0013,
-      "lapTimerRatio": 1.00102
+      "lapTimerRatio": 1.00102,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 3,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "365-lobby-20260725_221122",
@@ -1764,7 +2526,21 @@
       "measuredHz": 59.9401,
       "hzSource": "measured",
       "lapTimerHz": 59.9401,
-      "lapTimerRatio": 1.0
+      "lapTimerRatio": 1.0,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 1,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "376-customRace-20260722_122453",
@@ -1794,7 +2570,29 @@
       "measuredHz": 59.9996,
       "hzSource": "measured",
       "lapTimerHz": 59.9996,
-      "lapTimerRatio": 1.00099
+      "lapTimerRatio": 1.00099,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 4,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "376-customRace-20260722_131514",
@@ -1824,7 +2622,16 @@
       "measuredHz": 60.0,
       "hzSource": "measured",
       "lapTimerHz": 60.0,
-      "lapTimerRatio": 1.001
+      "lapTimerRatio": 1.001,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "376-customRace-20260722_132802",
@@ -1854,7 +2661,15 @@
       "measuredHz": 59.9981,
       "hzSource": "measured",
       "lapTimerHz": 59.9981,
-      "lapTimerRatio": 1.00097
+      "lapTimerRatio": 1.00097,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "376-lobby-1784734241",
@@ -1924,7 +2739,16 @@
       "measuredHz": 59.9336,
       "hzSource": "measured",
       "lapTimerHz": 59.9336,
-      "lapTimerRatio": 0.99989
+      "lapTimerRatio": 0.99989,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "376-lobby-20260722_174000",
@@ -2000,7 +2824,15 @@
       "measuredHz": 59.9989,
       "hzSource": "measured",
       "lapTimerHz": 59.9989,
-      "lapTimerRatio": 1.00098
+      "lapTimerRatio": 1.00098,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "444-lobby-20260721_232851",
@@ -2026,7 +2858,21 @@
       "stops": 1,
       "tyreChanges": 1,
       "countsVersion": 1,
-      "countsSource": "reprocess"
+      "countsSource": "reprocess",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 4,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "449-lobby-20260722_000800",
@@ -2056,7 +2902,15 @@
       "measuredHz": 59.9517,
       "hzSource": "measured",
       "lapTimerHz": 59.9517,
-      "lapTimerRatio": 1.00019
+      "lapTimerRatio": 1.00019,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "449-lobby-20260830_193748",
@@ -2086,7 +2940,27 @@
       "measuredHz": 59.9469,
       "hzSource": "measured",
       "lapTimerHz": 59.9469,
-      "lapTimerRatio": 1.00011
+      "lapTimerRatio": 1.00011,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 10,
+          "outcome": "unchallenged",
+          "abstained": true
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 17,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "454-lobby-20260721_165922",
@@ -2116,7 +2990,15 @@
       "measuredHz": 59.9431,
       "hzSource": "measured",
       "lapTimerHz": 59.9431,
-      "lapTimerRatio": 1.00005
+      "lapTimerRatio": 1.00005,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "462-customRace-20260725_200946",
@@ -2146,7 +3028,15 @@
       "measuredHz": 60.0033,
       "hzSource": "measured",
       "lapTimerHz": 60.0033,
-      "lapTimerRatio": 1.00105
+      "lapTimerRatio": 1.00105,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "462-customRace-20260726_112940",
@@ -2176,7 +3066,21 @@
       "measuredHz": 60.0029,
       "hzSource": "measured",
       "lapTimerHz": 60.0029,
-      "lapTimerRatio": 1.00105
+      "lapTimerRatio": 1.00105,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 5,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "469-customRace-20260726_100526",
@@ -2206,7 +3110,21 @@
       "measuredHz": 60.0011,
       "hzSource": "measured",
       "lapTimerHz": 60.0011,
-      "lapTimerRatio": 1.00102
+      "lapTimerRatio": 1.00102,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 6,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "469-customRace-20260918_220706",
@@ -2236,7 +3154,16 @@
       "measuredHz": 59.9995,
       "hzSource": "measured",
       "lapTimerHz": 59.9995,
-      "lapTimerRatio": 1.00099
+      "lapTimerRatio": 1.00099,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "469-customRace-20260918_222055",
@@ -2266,7 +3193,15 @@
       "measuredHz": 60.0024,
       "hzSource": "measured",
       "lapTimerHz": 60.0024,
-      "lapTimerRatio": 1.00104
+      "lapTimerRatio": 1.00104,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "469-customRace-20260919_204339",
@@ -2296,7 +3231,15 @@
       "measuredHz": 60.0043,
       "hzSource": "measured",
       "lapTimerHz": 60.0043,
-      "lapTimerRatio": 1.00107
+      "lapTimerRatio": 1.00107,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "469-sportDailyRace-20260918_215014",
@@ -2326,7 +3269,16 @@
       "measuredHz": 59.937,
       "hzSource": "measured",
       "lapTimerHz": 59.937,
-      "lapTimerRatio": 0.99995
+      "lapTimerRatio": 0.99995,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "sports",
+          "compound": "SS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "469-sportDailyRace-20260919_215022",
@@ -2356,7 +3308,16 @@
       "measuredHz": 59.9376,
       "hzSource": "measured",
       "lapTimerHz": 59.9376,
-      "lapTimerRatio": 0.99996
+      "lapTimerRatio": 0.99996,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "469-sportDailyRace-20260919_221014",
@@ -2386,7 +3347,16 @@
       "measuredHz": 59.9418,
       "hzSource": "measured",
       "lapTimerHz": 59.9418,
-      "lapTimerRatio": 1.00003
+      "lapTimerRatio": 1.00003,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "470-customRace-20260726_211142",
@@ -2416,7 +3386,23 @@
       "measuredHz": 60.003,
       "hzSource": "measured",
       "lapTimerHz": 60.003,
-      "lapTimerRatio": 1.00105
+      "lapTimerRatio": 1.00105,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 5,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "470-lobby-20260721_205930",
@@ -2446,7 +3432,21 @@
       "measuredHz": 59.9469,
       "hzSource": "measured",
       "lapTimerHz": 59.9469,
-      "lapTimerRatio": 1.00011
+      "lapTimerRatio": 1.00011,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 4,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "471-lobby-20260722_003008",
@@ -2476,7 +3476,15 @@
       "measuredHz": 59.9464,
       "hzSource": "measured",
       "lapTimerHz": 59.9464,
-      "lapTimerRatio": 1.00011
+      "lapTimerRatio": 1.00011,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "601-lobby-20260721_234638",
@@ -2506,7 +3514,15 @@
       "measuredHz": 59.9407,
       "hzSource": "measured",
       "lapTimerHz": 59.9407,
-      "lapTimerRatio": 1.00001
+      "lapTimerRatio": 1.00001,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "602-customRace-20260727_001126",
@@ -2536,7 +3552,23 @@
       "measuredHz": 60.0018,
       "hzSource": "measured",
       "lapTimerHz": 60.0018,
-      "lapTimerRatio": 1.00103
+      "lapTimerRatio": 1.00103,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 3,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "602-lobby-20260725_221844",
@@ -2566,7 +3598,15 @@
       "measuredHz": 59.9382,
       "hzSource": "measured",
       "lapTimerHz": 59.9382,
-      "lapTimerRatio": 0.99997
+      "lapTimerRatio": 0.99997,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "790-lobby-20260725_223553",
@@ -2596,7 +3636,15 @@
       "measuredHz": 59.914,
       "hzSource": "measured",
       "lapTimerHz": 59.914,
-      "lapTimerRatio": 0.99957
+      "lapTimerRatio": 0.99957,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "791-lobby-20260725_222909",
@@ -2626,7 +3674,15 @@
       "measuredHz": 59.9429,
       "hzSource": "measured",
       "lapTimerHz": 59.9429,
-      "lapTimerRatio": 1.00005
+      "lapTimerRatio": 1.00005,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "792-lobby-20260725_223916",
@@ -2656,7 +3712,15 @@
       "measuredHz": 59.9462,
       "hzSource": "measured",
       "lapTimerHz": 59.9462,
-      "lapTimerRatio": 1.0001
+      "lapTimerRatio": 1.0001,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "793-lobby-20260725_222551",
@@ -2686,7 +3750,15 @@
       "measuredHz": 59.932,
       "hzSource": "measured",
       "lapTimerHz": 59.932,
-      "lapTimerRatio": 0.99987
+      "lapTimerRatio": 0.99987,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "794-lobby-20260725_224304",
@@ -2716,7 +3788,15 @@
       "measuredHz": 59.9506,
       "hzSource": "measured",
       "lapTimerHz": 59.9506,
-      "lapTimerRatio": 1.00018
+      "lapTimerRatio": 1.00018,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "795-lobby-20260725_223237",
@@ -2742,7 +3822,15 @@
       "stops": 1,
       "tyreChanges": 1,
       "countsVersion": 1,
-      "countsSource": "reprocess"
+      "countsSource": "reprocess",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "819-lobby-20260722_002228",
@@ -2772,7 +3860,15 @@
       "measuredHz": 59.9457,
       "hzSource": "measured",
       "lapTimerHz": 59.9457,
-      "lapTimerRatio": 1.00009
+      "lapTimerRatio": 1.00009,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "820-lobby-20260722_001130",
@@ -2802,7 +3898,15 @@
       "measuredHz": 59.9429,
       "hzSource": "measured",
       "lapTimerHz": 59.9429,
-      "lapTimerRatio": 1.00005
+      "lapTimerRatio": 1.00005,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "822-lobby-20260722_001606",
@@ -2832,7 +3936,15 @@
       "measuredHz": 59.9382,
       "hzSource": "measured",
       "lapTimerHz": 59.9382,
-      "lapTimerRatio": 0.99997
+      "lapTimerRatio": 0.99997,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "823-lobby-20260722_002618",
@@ -2862,7 +3974,15 @@
       "measuredHz": 59.9565,
       "hzSource": "measured",
       "lapTimerHz": 59.9565,
-      "lapTimerRatio": 1.00027
+      "lapTimerRatio": 1.00027,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "827-customRace-20260923_200619",
@@ -2892,7 +4012,19 @@
       "measuredHz": 59.9955,
       "hzSource": "measured",
       "lapTimerHz": 59.9955,
-      "lapTimerRatio": 1.00093
+      "lapTimerRatio": 1.00093,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "RM"
+      ]
     },
     {
       "stem": "827-customRace-20260923_215253",
@@ -2922,7 +4054,35 @@
       "measuredHz": 59.9981,
       "hzSource": "measured",
       "lapTimerHz": 59.9981,
-      "lapTimerRatio": 1.00097
+      "lapTimerRatio": 1.00097,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 3,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 4,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM",
+        "RH"
+      ]
     },
     {
       "stem": "829-lobby-20260921_202849",
@@ -2952,7 +4112,51 @@
       "measuredHz": 59.9405,
       "hzSource": "measured",
       "lapTimerHz": 59.9405,
-      "lapTimerRatio": 1.00001
+      "lapTimerRatio": 1.00001,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 6,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 11,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 21,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "RH",
+        "RS",
+        "RS",
+        "RM",
+        "RS"
+      ]
     },
     {
       "stem": "841-customRace-20260920_171729",
@@ -2982,7 +4186,16 @@
       "measuredHz": 60.0018,
       "hzSource": "measured",
       "lapTimerHz": 60.0018,
-      "lapTimerRatio": 1.00103
+      "lapTimerRatio": 1.00103,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "846-customRace-20260726_222748",
@@ -3012,7 +4225,15 @@
       "measuredHz": 59.9949,
       "hzSource": "measured",
       "lapTimerHz": 59.9949,
-      "lapTimerRatio": 1.00091
+      "lapTimerRatio": 1.00091,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "846-lobby-20260721_210655",
@@ -3042,7 +4263,15 @@
       "measuredHz": 59.9447,
       "hzSource": "measured",
       "lapTimerHz": 59.9447,
-      "lapTimerRatio": 1.00008
+      "lapTimerRatio": 1.00008,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "847-lobby-20260721_233336",
@@ -3072,7 +4301,15 @@
       "measuredHz": 59.9269,
       "hzSource": "measured",
       "lapTimerHz": 59.9269,
-      "lapTimerRatio": 0.99978
+      "lapTimerRatio": 0.99978,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "853-lobby-20260721_234007",
@@ -3102,7 +4339,15 @@
       "measuredHz": 59.9364,
       "hzSource": "measured",
       "lapTimerHz": 59.9364,
-      "lapTimerRatio": 0.99994
+      "lapTimerRatio": 0.99994,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "874-customRace-20260920_174226",
@@ -3132,7 +4377,16 @@
       "measuredHz": 59.9995,
       "hzSource": "measured",
       "lapTimerHz": 59.9995,
-      "lapTimerRatio": 1.00099
+      "lapTimerRatio": 1.00099,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "896-lobby-20260721_202811",
@@ -3162,7 +4416,21 @@
       "measuredHz": 59.9396,
       "hzSource": "measured",
       "lapTimerHz": 59.9396,
-      "lapTimerRatio": 0.99999
+      "lapTimerRatio": 0.99999,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 6,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "898-lobby-20260721_163910",
@@ -3192,7 +4460,27 @@
       "measuredHz": 59.9412,
       "hzSource": "measured",
       "lapTimerHz": 59.9412,
-      "lapTimerRatio": 1.00002
+      "lapTimerRatio": 1.00002,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 6,
+          "outcome": "unchallenged",
+          "abstained": true
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "outcome": "unchallenged",
+          "abstained": true
+        }
+      ]
     },
     {
       "stem": "1007-customRace-20260721_125437",
@@ -3222,7 +4510,23 @@
       "measuredHz": 60.0017,
       "hzSource": "measured",
       "lapTimerHz": 60.0017,
-      "lapTimerRatio": 1.00103
+      "lapTimerRatio": 1.00103,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "1024-lobby-20260914_203110",
@@ -3252,7 +4556,23 @@
       "measuredHz": 59.9393,
       "hzSource": "measured",
       "lapTimerHz": 59.9393,
-      "lapTimerRatio": 0.99999
+      "lapTimerRatio": 0.99999,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 20,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "1069-lobby-20260721_235824",
@@ -3282,7 +4602,15 @@
       "measuredHz": 59.9435,
       "hzSource": "measured",
       "lapTimerHz": 59.9435,
-      "lapTimerRatio": 1.00006
+      "lapTimerRatio": 1.00006,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "1163-lobby-20260722_004024",
@@ -3312,7 +4640,15 @@
       "measuredHz": 59.9423,
       "hzSource": "measured",
       "lapTimerHz": 59.9423,
-      "lapTimerRatio": 1.00004
+      "lapTimerRatio": 1.00004,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "1226-customRace-20260726_233603",
@@ -3342,7 +4678,23 @@
       "measuredHz": 60.001,
       "hzSource": "measured",
       "lapTimerHz": 60.001,
-      "lapTimerRatio": 1.00102
+      "lapTimerRatio": 1.00102,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 3,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "1226-lobby-20260725_224645",
@@ -3372,7 +4724,15 @@
       "measuredHz": 59.9489,
       "hzSource": "measured",
       "lapTimerHz": 59.9489,
-      "lapTimerRatio": 1.00015
+      "lapTimerRatio": 1.00015,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "1231-lobby-20260725_225154",
@@ -3402,7 +4762,15 @@
       "measuredHz": 59.9386,
       "hzSource": "measured",
       "lapTimerHz": 59.9386,
-      "lapTimerRatio": 0.99998
+      "lapTimerRatio": 0.99998,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "1232-lobby-20260725_225831",
@@ -3432,7 +4800,15 @@
       "measuredHz": 59.9448,
       "hzSource": "measured",
       "lapTimerHz": 59.9448,
-      "lapTimerRatio": 1.00008
+      "lapTimerRatio": 1.00008,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "1233-lobby-20260725_230344",
@@ -3462,7 +4838,15 @@
       "measuredHz": 59.9418,
       "hzSource": "measured",
       "lapTimerHz": 59.9418,
-      "lapTimerRatio": 1.00003
+      "lapTimerRatio": 1.00003,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "1247-customRace-20260904_233736",
@@ -3492,7 +4876,22 @@
       "measuredHz": 59.9994,
       "hzSource": "measured",
       "lapTimerHz": 59.9994,
-      "lapTimerRatio": 1.00099
+      "lapTimerRatio": 1.00099,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 3,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "1248-powerPackRace-20260923_224011",
@@ -3522,7 +4921,18 @@
       "measuredHz": 60.0022,
       "hzSource": "measured",
       "lapTimerHz": 60.0022,
-      "lapTimerRatio": 1.00104
+      "lapTimerRatio": 1.00104,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "SS"
+      ]
     },
     {
       "stem": "1249-customRace-20260726_131014",
@@ -3552,7 +4962,23 @@
       "measuredHz": 60.0002,
       "hzSource": "measured",
       "lapTimerHz": 60.0002,
-      "lapTimerRatio": 1.001
+      "lapTimerRatio": 1.001,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ]
     },
     {
       "stem": "1264-customRace-20260725_151553",
@@ -3582,7 +5008,16 @@
       "measuredHz": 59.9884,
       "hzSource": "measured",
       "lapTimerHz": 59.9884,
-      "lapTimerRatio": 1.00081
+      "lapTimerRatio": 1.00081,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "comfort",
+          "compound": "CM",
+          "outcome": "unchallenged"
+        }
+      ]
     }
   ],
   "raw": [
@@ -4542,15 +5977,15 @@
         "timeTrial"
       ],
       "withHeading": 213,
-      "updated": 1790239623,
+      "updated": 1790242749,
       "tolerance": {
         "gatesWithWidth": 213,
         "minM": 12,
         "medianM": 12,
         "maxM": 20,
-        "atFloor": 192,
+        "atFloor": 195,
         "atCap": 1,
-        "atDefault": 9,
+        "atDefault": 6,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,

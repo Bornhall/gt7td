@@ -1,7 +1,44 @@
 {
   "carId" : 3223,
   "carName" : "Dodge Viper SRT GT3-R '15",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "heating" : 0.807357710183208,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 0.216"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 386,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.6201249999999999,
+      "source" : "telemetry",
+      "startPacketId" : 526082,
+      "trigger" : "raceStart"
+    },
+    {
+      "estimatorVersion" : "v1r4",
+      "filedBy" : "reprocess",
+      "heating" : 0.5781651115761126,
+      "lap" : 6,
+      "notes" : [
+        "no dry fit — nearest RS at 0.438"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 365,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.49712499999999993,
+      "source" : "telemetry",
+      "startPacketId" : 531880,
+      "trigger" : "pitExit"
+    }
+  ],
   "counts" : {
+    "hzSource" : "assumed-from-context",
     "laps" : 11,
     "lapsValid" : 2,
     "source" : "reprocess",
@@ -16,7 +53,6 @@
     "carName" : "Dodge Viper SRT GT3-R '15",
     "courseId" : 354,
     "fuelMultiplier" : 10,
-    "mode" : "race",
     "raceLengthUnit" : "minutes",
     "startType" : "grid",
     "startingFuelPercent" : 100,

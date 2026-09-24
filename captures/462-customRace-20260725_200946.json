@@ -1,6 +1,26 @@
 {
   "carId" : 2087,
   "carName" : "BMW Vision Gran Turismo",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "heating" : 0.22844259824983396,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 0.397"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 789,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 0.517625,
+      "source" : "telemetry",
+      "startPacketId" : 1092432,
+      "trigger" : "raceStart"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 4,
@@ -16,7 +36,6 @@
     "carId" : 2087,
     "carName" : "BMW Vision Gran Turismo",
     "courseId" : 462,
-    "mode" : "race",
     "raceLength" : 5,
     "raceLengthUnit" : "minutes",
     "timeAfterFinish" : 5,

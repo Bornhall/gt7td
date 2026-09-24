@@ -1,6 +1,26 @@
 {
   "carId" : 3605,
   "carName" : "Ferrari 499P '23",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "heating" : 0.33724911926327494,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 1.005"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 1201,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 0.281875,
+      "source" : "telemetry",
+      "startPacketId" : 1356956,
+      "trigger" : "raceStart"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 8,
@@ -17,7 +37,6 @@
     "carName" : "Ferrari 499P '23",
     "courseId" : 349,
     "fuelMultiplier" : 10,
-    "mode" : "race",
     "raceLength" : 7,
     "raceLengthUnit" : "laps",
     "timeAfterFinish" : 5,

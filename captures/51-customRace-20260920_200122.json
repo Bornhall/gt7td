@@ -1,6 +1,40 @@
 {
   "carId" : 3585,
   "carName" : "Hyundai ELANTRA N '23",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "low",
+      "filedBy" : "reprocess",
+      "heating" : 0.10340266403690329,
+      "lap" : 1,
+      "notes" : [
+        "ambiguous — SM vs SH, margin 0.000"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 1501,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 1.347875,
+      "source" : "telemetry",
+      "startPacketId" : 722225,
+      "trigger" : "raceStart"
+    },
+    {
+      "estimatorVersion" : "v1r4",
+      "filedBy" : "reprocess",
+      "lap" : 3,
+      "notes" : [
+        "too few samples"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 0,
+      "seconds" : 60.010010010010014,
+      "source" : "telemetry",
+      "startPacketId" : 743412,
+      "trigger" : "pitExit"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 7,

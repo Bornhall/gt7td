@@ -1,6 +1,43 @@
 {
   "carId" : 3482,
   "carName" : "Volvo V40 T5 R-Design '13",
+  "compoundObservations" : [
+    {
+      "compound" : "SS",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r4",
+      "family" : "sports",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "finalLabel" : "SS",
+      "heating" : -0.08559619334631918,
+      "lap" : 1,
+      "outcome" : "unchallenged",
+      "samples" : 1293,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 1.040375,
+      "source" : "telemetry",
+      "startPacketId" : 783006,
+      "trigger" : "raceStart"
+    },
+    {
+      "compound" : "SS",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r4",
+      "family" : "sports",
+      "filedBy" : "reprocess",
+      "finalLabel" : "SS",
+      "heating" : 0.0022800584404501847,
+      "lap" : 2,
+      "outcome" : "unchallenged",
+      "samples" : 1318,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 1.0916249999999998,
+      "source" : "telemetry",
+      "startPacketId" : 798369,
+      "trigger" : "pitExit"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 7,

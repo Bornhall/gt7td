@@ -1,7 +1,24 @@
 {
   "carId" : 3556,
   "carName" : "Mercedes-Benz Unimog Type 411 '62",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "filedBy" : "reprocess",
+      "lap" : 1,
+      "notes" : [
+        "too few samples"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 0,
+      "seconds" : 60.24357691024358,
+      "source" : "telemetry",
+      "startPacketId" : 11492,
+      "trigger" : "raceStart"
+    }
+  ],
   "counts" : {
+    "hzSource" : "assumed-from-context",
     "laps" : 5,
     "lapsValid" : 2,
     "source" : "reprocess",
@@ -14,11 +31,8 @@
     "carId" : 3556,
     "carName" : "Mercedes-Benz Unimog Type 411 '62",
     "courseId" : 354,
-    "declaredFuelMap" : 1,
-    "mode" : "race",
     "raceLength" : 3,
     "raceLengthUnit" : "minutes",
-    "runPlanTemplate" : "freeform",
     "timeAfterFinish" : 5,
     "timeBeforeStart" : 5,
     "trackName" : "Northern Isle Speedway"

@@ -1,6 +1,26 @@
 {
   "carId" : 365,
   "carName" : "Alfa Romeo 155 2.5 V6 TI '93",
+  "compoundObservations" : [
+    {
+      "compound" : "RH",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "finalLabel" : "RH",
+      "heating" : 0.643077401482179,
+      "lap" : 1,
+      "outcome" : "unchallenged",
+      "samples" : 855,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 1.009625,
+      "source" : "telemetry",
+      "startPacketId" : 225165,
+      "trigger" : "raceStart"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 8,

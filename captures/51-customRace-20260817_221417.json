@@ -1,6 +1,60 @@
 {
   "carId" : 3419,
   "carName" : "MAZDA RX-VISION GT3 CONCEPT",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "low",
+      "filedBy" : "reprocess",
+      "heating" : 0.06273104283829647,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 0.152"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 1163,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 0.661125,
+      "source" : "telemetry",
+      "startPacketId" : 3521810,
+      "trigger" : "raceStart"
+    },
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "filedBy" : "reprocess",
+      "finalLabel" : "RS",
+      "heating" : 0.2796379225801367,
+      "lap" : 18,
+      "outcome" : "unchallenged",
+      "samples" : 701,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.6713749999999999,
+      "source" : "telemetry",
+      "startPacketId" : 3621417,
+      "trigger" : "pitExit"
+    },
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "filedBy" : "reprocess",
+      "finalLabel" : "RS",
+      "heating" : 0.2882376600490024,
+      "lap" : 32,
+      "outcome" : "unchallenged",
+      "samples" : 676,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.6201249999999999,
+      "source" : "telemetry",
+      "startPacketId" : 3698488,
+      "trigger" : "pitExit"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 41,
@@ -18,9 +72,6 @@
     "carName" : "MAZDA RX-VISION GT3 CONCEPT",
     "courseId" : 51,
     "fuelMultiplier" : 2,
-    "mandatoryCompoundRule" : "RH",
-    "mandatoryTyreChange" : true,
-    "mode" : "race",
     "raceLength" : 60,
     "raceLengthUnit" : "minutes",
     "refuelRateLps" : 5,

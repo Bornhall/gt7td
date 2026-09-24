@@ -1,6 +1,26 @@
 {
   "carId" : 3357,
   "carName" : "Honda S660 '15",
+  "compoundObservations" : [
+    {
+      "compound" : "CM",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r4",
+      "family" : "comfort",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "finalLabel" : "CM",
+      "heating" : -0.5621940056312975,
+      "lap" : 1,
+      "outcome" : "unchallenged",
+      "samples" : 1104,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 1.8808749999999999,
+      "source" : "telemetry",
+      "startPacketId" : 36338,
+      "trigger" : "raceStart"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 4,
@@ -16,7 +36,6 @@
     "carId" : 3357,
     "carName" : "Honda S660 '15",
     "courseId" : 1264,
-    "mode" : "race",
     "raceLength" : 5,
     "raceLengthUnit" : "minutes",
     "timeAfterFinish" : 5,

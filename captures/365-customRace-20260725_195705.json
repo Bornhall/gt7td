@@ -1,6 +1,43 @@
 {
   "carId" : 3587,
   "carName" : "Ferrari 296 GTB '22",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "heating" : 0.5128943174818793,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 0.200"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 966,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 0.6303749999999999,
+      "source" : "telemetry",
+      "startPacketId" : 1047276,
+      "trigger" : "raceStart"
+    },
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "filedBy" : "reprocess",
+      "finalLabel" : "RS",
+      "heating" : 0.5755135244761641,
+      "lap" : 3,
+      "outcome" : "unchallenged",
+      "samples" : 732,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.691875,
+      "source" : "telemetry",
+      "startPacketId" : 1069722,
+      "trigger" : "pitExit"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 6,
@@ -17,7 +54,6 @@
     "carName" : "Ferrari 296 GTB '22",
     "courseId" : 365,
     "fuelMultiplier" : 1,
-    "mode" : "race",
     "raceLength" : 10,
     "raceLengthUnit" : "minutes",
     "timeAfterFinish" : 5,

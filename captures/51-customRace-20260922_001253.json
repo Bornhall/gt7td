@@ -2,6 +2,26 @@
   "carClass" : "Gr.3",
   "carId" : 2183,
   "carName" : "Chevrolet Corvette C7 Gr.3",
+  "compoundObservations" : [
+    {
+      "compound" : "CH",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r4",
+      "family" : "comfort",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "finalLabel" : "CH",
+      "heating" : -0.22174061613835044,
+      "lap" : 1,
+      "outcome" : "unchallenged",
+      "samples" : 2442,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 2.116625,
+      "source" : "telemetry",
+      "startPacketId" : 2922183,
+      "trigger" : "raceStart"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 5,

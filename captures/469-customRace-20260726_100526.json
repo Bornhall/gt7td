@@ -1,6 +1,42 @@
 {
   "carId" : 3600,
   "carName" : "Porsche 911 GT3 R (992) '22",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "road",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "heating" : 0.26597940283389926,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest SS at 0.343"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 757,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 0.773875,
+      "source" : "telemetry",
+      "startPacketId" : 2462579,
+      "trigger" : "raceStart"
+    },
+    {
+      "estimatorVersion" : "v1r4",
+      "filedBy" : "reprocess",
+      "heating" : 0.4812898509254102,
+      "lap" : 6,
+      "notes" : [
+        "no dry fit — nearest SS at 0.411"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 726,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 0.7226249999999999,
+      "source" : "telemetry",
+      "startPacketId" : 2498694,
+      "trigger" : "pitExit"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 9,
@@ -18,7 +54,6 @@
     "carName" : "Porsche 911 GT3 R (992) '22",
     "courseId" : 469,
     "fuelMultiplier" : 10,
-    "mode" : "race",
     "raceLength" : 15,
     "raceLengthUnit" : "minutes",
     "startType" : "rolling",

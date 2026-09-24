@@ -2,6 +2,26 @@
   "carClass" : "Gr.3",
   "carId" : 2160,
   "carName" : "Hyundai Genesis Gr.3",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "heating" : 0.2999512178221804,
+      "lap" : 1,
+      "notes" : [
+        "ambiguous — RM vs RS, margin 0.016"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 938,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 0.825125,
+      "source" : "telemetry",
+      "startPacketId" : 86350,
+      "trigger" : "raceStart"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 5,

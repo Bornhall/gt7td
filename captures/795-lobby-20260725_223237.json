@@ -1,7 +1,28 @@
 {
   "carId" : 3238,
   "carName" : "Peugeot RCZ Gr.3",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "heating" : 0.27511764894989804,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 0.378"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 709,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.527875,
+      "source" : "telemetry",
+      "startPacketId" : 1606640,
+      "trigger" : "raceStart"
+    }
+  ],
   "counts" : {
+    "hzSource" : "assumed-from-context",
     "laps" : 4,
     "lapsValid" : 1,
     "source" : "reprocess",
@@ -16,7 +37,6 @@
     "carName" : "Peugeot RCZ Gr.3",
     "courseId" : 795,
     "fuelMultiplier" : 4,
-    "mode" : "survey",
     "raceLengthUnit" : "minutes",
     "startType" : "pit",
     "startingFuelPercent" : 100,

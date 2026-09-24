@@ -1,6 +1,43 @@
 {
   "carId" : 2183,
   "carName" : "Chevrolet Corvette C7 Gr.3",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "heating" : 0.5053271510405756,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RH at 0.169"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 207,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 1.183875,
+      "source" : "telemetry",
+      "startPacketId" : 2538142,
+      "trigger" : "raceStart"
+    },
+    {
+      "compound" : "RH",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "filedBy" : "reprocess",
+      "finalLabel" : "RH",
+      "heating" : 0.6384922805302629,
+      "lap" : 9,
+      "outcome" : "unchallenged",
+      "samples" : 229,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 1.132625,
+      "source" : "telemetry",
+      "startPacketId" : 2562994,
+      "trigger" : "pitExit"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 13,
@@ -18,8 +55,6 @@
     "carName" : "Chevrolet Corvette C7 Gr.3",
     "courseId" : 356,
     "fuelMultiplier" : 1,
-    "mandatoryTyreChange" : false,
-    "mode" : "race",
     "raceLength" : 10,
     "raceLengthUnit" : "minutes",
     "refuelRateLps" : 3,

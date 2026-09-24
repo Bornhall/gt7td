@@ -1,6 +1,26 @@
 {
   "carId" : 2183,
   "carName" : "Chevrolet Corvette C7 Gr.3",
+  "compoundObservations" : [
+    {
+      "compound" : "RH",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "finalLabel" : "RH",
+      "heating" : 0.36629962864679516,
+      "lap" : 1,
+      "outcome" : "unchallenged",
+      "samples" : 816,
+      "seconds" : 74.87487487487488,
+      "slipPerG" : 1.009625,
+      "source" : "telemetry",
+      "startPacketId" : 3330517,
+      "trigger" : "raceStart"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 5,
@@ -18,8 +38,6 @@
     "carName" : "Chevrolet Corvette C7 Gr.3",
     "courseId" : 41,
     "fuelMultiplier" : 1,
-    "mandatoryTyreChange" : false,
-    "mode" : "race",
     "notes" : "Multiplayer lobby, ~5 min",
     "raceLength" : 5,
     "raceLengthUnit" : "minutes",

@@ -1,7 +1,28 @@
 {
   "carId" : 3223,
   "carName" : "Dodge Viper SRT GT3-R '15",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "heating" : 0.2936516425317181,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 0.267"
+      ],
+      "outcome" : "unchallenged",
+      "samples" : 351,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.589375,
+      "source" : "telemetry",
+      "startPacketId" : 4332980,
+      "trigger" : "raceStart"
+    }
+  ],
   "counts" : {
+    "hzSource" : "assumed-from-context",
     "laps" : 6,
     "lapsValid" : 2,
     "source" : "reprocess",
@@ -16,7 +37,6 @@
     "carName" : "Dodge Viper SRT GT3-R '15",
     "courseId" : 357,
     "fuelMultiplier" : 8,
-    "mode" : "survey",
     "notes" : "Practice lobby, 2xT, 4xF, 5l\/s",
     "raceLength" : 20,
     "raceLengthUnit" : "laps",

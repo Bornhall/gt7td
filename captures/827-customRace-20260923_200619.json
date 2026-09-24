@@ -2,6 +2,26 @@
   "carClass" : "Gr.3",
   "carId" : 3600,
   "carName" : "Porsche 911 GT3 R (992) '22",
+  "compoundObservations" : [
+    {
+      "compound" : "RH",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r4",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "finalLabel" : "RH",
+      "heating" : 0.37274176875063,
+      "lap" : 1,
+      "outcome" : "unchallenged",
+      "samples" : 753,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 1.0711249999999999,
+      "source" : "telemetry",
+      "startPacketId" : 345590,
+      "trigger" : "raceStart"
+    }
+  ],
   "counts" : {
     "hzSource" : "measured",
     "laps" : 4,
