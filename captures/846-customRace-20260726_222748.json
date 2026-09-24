@@ -3,14 +3,14 @@
   "carName" : "Porsche 911 GT3 R (992) '22",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "road",
       "familyConfidence" : "low",
       "filedBy" : "reprocess",
       "heating" : 0.03107786008089317,
       "lap" : 1,
       "notes" : [
-        "no dry fit — nearest RS at 0.285"
+        "no dry fit — nearest RS at 0.493"
       ],
       "outcome" : "unchallenged",
       "samples" : 492,
@@ -51,6 +51,8 @@
   },
   "endTime" : 1785098116,
   "granularity" : 1,
+  "identifiedCourseId" : 846,
+  "identifiedTrackName" : "Red Bull Ring Short Track",
   "observedDurationS" : 300,
   "packetSize" : 368,
   "startTime" : 1785097668,

@@ -3,7 +3,7 @@
   "carName" : "Dodge Viper SRT GT3-R '15",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "road",
       "familyConfidence" : "low",
       "filedBy" : "reprocess",
@@ -51,6 +51,8 @@
   },
   "endTime" : 1784671876,
   "granularity" : 1,
+  "identifiedCourseId" : 449,
+  "identifiedTrackName" : "Blue Moon Bay Speedway Reverse",
   "packetSize" : 368,
   "startTime" : 1784671680,
   "trackName" : "Blue Moon Bay Speedway: Full Course Reverse",

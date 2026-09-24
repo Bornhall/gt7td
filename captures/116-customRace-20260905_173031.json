@@ -3,15 +3,15 @@
   "carName" : "Chevrolet Corvette C7 Gr.3",
   "compoundObservations" : [
     {
-      "compound" : "RH",
-      "compoundConfidence" : "high",
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
-      "finalLabel" : "RH",
       "heating" : 0.27610314391656476,
       "lap" : 1,
+      "notes" : [
+        "ambiguous — RM vs RH, margin 0.000"
+      ],
       "outcome" : "unchallenged",
       "samples" : 1180,
       "seconds" : 90.00667334000667,
@@ -21,12 +21,12 @@
       "trigger" : "raceStart"
     },
     {
-      "compound" : "RM",
+      "compound" : "RS",
       "compoundConfidence" : "medium",
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "filedBy" : "reprocess",
-      "finalLabel" : "RM",
+      "finalLabel" : "RS",
       "heating" : 0.43374388403466396,
       "lap" : 10,
       "outcome" : "unchallenged",
@@ -38,12 +38,12 @@
       "trigger" : "pitExit"
     },
     {
-      "compound" : "RM",
+      "compound" : "RS",
       "compoundConfidence" : "medium",
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "filedBy" : "reprocess",
-      "finalLabel" : "RM",
+      "finalLabel" : "RS",
       "heating" : 0.41891482853085527,
       "lap" : 17,
       "outcome" : "unchallenged",
@@ -55,13 +55,14 @@
       "trigger" : "pitExit"
     },
     {
-      "estimatorVersion" : "v1r4",
+      "compound" : "RH",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
+      "family" : "racing",
       "filedBy" : "reprocess",
+      "finalLabel" : "RH",
       "heating" : 0.4309758154453714,
       "lap" : 24,
-      "notes" : [
-        "no dry fit — nearest RH at 0.201"
-      ],
       "outcome" : "unchallenged",
       "samples" : 880,
       "seconds" : 90.00667334000667,
@@ -101,6 +102,8 @@
   },
   "endTime" : 1788625929,
   "granularity" : 1,
+  "identifiedCourseId" : 116,
+  "identifiedTrackName" : "Mount Panorama Motor Racing Circuit",
   "observedDurationS" : 3600,
   "packetSize" : 368,
   "startTime" : 1788622231,

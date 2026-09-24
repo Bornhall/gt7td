@@ -3,15 +3,15 @@
   "carName" : "Porsche 911 GT3 R (992) '22",
   "compoundObservations" : [
     {
-      "compound" : "RS",
-      "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
-      "finalLabel" : "RS",
       "heating" : 0.2738737918797471,
       "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 0.243"
+      ],
       "outcome" : "unchallenged",
       "samples" : 803,
       "seconds" : 84.40106773440107,
@@ -21,14 +21,13 @@
       "trigger" : "raceStart"
     },
     {
-      "compound" : "RS",
-      "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
-      "family" : "racing",
+      "estimatorVersion" : "v1r5",
       "filedBy" : "reprocess",
-      "finalLabel" : "RS",
       "heating" : 0.43714846833555293,
       "lap" : 3,
+      "notes" : [
+        "no dry fit — nearest RS at 0.286"
+      ],
       "outcome" : "unchallenged",
       "samples" : 558,
       "seconds" : 60.010010010010014,
@@ -68,6 +67,8 @@
   },
   "endTime" : 1785102187,
   "granularity" : 1,
+  "identifiedCourseId" : 1226,
+  "identifiedTrackName" : "Autodrome Lago Maggiore - East",
   "packetSize" : 368,
   "startTime" : 1785101763,
   "trackName" : "Autodrome Lago Maggiore - East",

@@ -4,15 +4,15 @@
   "carName" : "Chevrolet Corvette C7 Gr.3",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
-      "family" : "road",
+      "compound" : "SH",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
+      "family" : "sports",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
+      "finalLabel" : "SH",
       "heating" : -0.015662376267116963,
       "lap" : 1,
-      "notes" : [
-        "ambiguous — CS vs SH, margin 0.017"
-      ],
       "outcome" : "unchallenged",
       "samples" : 1135,
       "seconds" : 90.00667334000667,
@@ -51,6 +51,8 @@
   },
   "endTime" : 1790027807,
   "granularity" : 1,
+  "identifiedCourseId" : 51,
+  "identifiedTrackName" : "Deep Forest Raceway",
   "packetSize" : 368,
   "startTime" : 1790027368,
   "trackName" : "Deep Forest Raceway",

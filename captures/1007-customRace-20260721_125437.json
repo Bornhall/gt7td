@@ -5,7 +5,7 @@
     {
       "compound" : "RS",
       "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
@@ -23,7 +23,7 @@
     {
       "compound" : "RS",
       "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "filedBy" : "reprocess",
       "finalLabel" : "RS",
@@ -68,6 +68,8 @@
   },
   "endTime" : 1784632144,
   "granularity" : 1,
+  "identifiedCourseId" : 1007,
+  "identifiedTrackName" : "Michelin Raceway Road Atlanta",
   "packetSize" : 368,
   "startTime" : 1784631277,
   "trackName" : "Michelin Raceway Road Atlanta: Full Course",

@@ -3,15 +3,15 @@
   "carName" : "Hyundai ELANTRA N '23",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
-      "family" : "racing",
+      "compound" : "SH",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
+      "family" : "sports",
       "familyConfidence" : "low",
       "filedBy" : "reprocess",
+      "finalLabel" : "SH",
       "heating" : 0.10340266403690329,
       "lap" : 1,
-      "notes" : [
-        "ambiguous — SM vs SH, margin 0.000"
-      ],
       "outcome" : "unchallenged",
       "samples" : 1501,
       "seconds" : 90.00667334000667,
@@ -21,7 +21,7 @@
       "trigger" : "raceStart"
     },
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "filedBy" : "reprocess",
       "lap" : 3,
       "notes" : [
@@ -66,6 +66,8 @@
   },
   "endTime" : 1789928101,
   "granularity" : 1,
+  "identifiedCourseId" : 51,
+  "identifiedTrackName" : "Deep Forest Raceway",
   "observedDurationS" : 600,
   "observedTotalLaps" : 6,
   "packetSize" : 368,

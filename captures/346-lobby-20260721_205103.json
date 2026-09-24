@@ -3,7 +3,7 @@
   "carName" : "Dodge Viper SRT GT3-R '15",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
@@ -21,7 +21,7 @@
       "trigger" : "raceStart"
     },
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "filedBy" : "reprocess",
       "heating" : 0.4295407320619578,
       "lap" : 6,
@@ -67,6 +67,8 @@
   },
   "endTime" : 1784660339,
   "granularity" : 1,
+  "identifiedCourseId" : 346,
+  "identifiedTrackName" : "Brands Hatch Indy Circuit",
   "packetSize" : 368,
   "startTime" : 1784659863,
   "trackName" : "Brands Hatch Indy Circuit",

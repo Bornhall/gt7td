@@ -4,15 +4,15 @@
   "carName" : "Hyundai Genesis Gr.3",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "compound" : "RM",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
+      "finalLabel" : "RM",
       "heating" : 0.2999512178221804,
       "lap" : 1,
-      "notes" : [
-        "ambiguous — RM vs RS, margin 0.016"
-      ],
       "outcome" : "unchallenged",
       "samples" : 938,
       "seconds" : 90.00667334000667,
@@ -50,6 +50,8 @@
   },
   "endTime" : 1790112283,
   "granularity" : 1,
+  "identifiedCourseId" : 51,
+  "identifiedTrackName" : "Deep Forest Raceway",
   "packetSize" : 368,
   "startTime" : 1790111849,
   "trackName" : "Deep Forest Raceway",

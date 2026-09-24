@@ -3,7 +3,7 @@
   "carName" : "Peugeot RCZ Gr.3",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
@@ -49,6 +49,8 @@
   },
   "endTime" : 1785012393,
   "granularity" : 1,
+  "identifiedCourseId" : 794,
+  "identifiedTrackName" : "Autodrome Lago Maggiore - West End Reverse",
   "packetSize" : 368,
   "startTime" : 1785012184,
   "trackName" : "Autodrome Lago Maggiore: West End Reverse",

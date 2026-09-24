@@ -3,7 +3,7 @@
   "carName" : "Peugeot RCZ Gr.3",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
@@ -21,7 +21,7 @@
       "trigger" : "raceStart"
     },
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "filedBy" : "reprocess",
       "heating" : 0.443877753533936,
       "lap" : 1,
@@ -65,6 +65,8 @@
   },
   "endTime" : 1785010699,
   "granularity" : 1,
+  "identifiedCourseId" : 365,
+  "identifiedTrackName" : "Autodrome Lago Maggiore - Full Course",
   "packetSize" : 368,
   "startTime" : 1785010282,
   "trackName" : "Autodrome Lago Maggiore: Full Course",

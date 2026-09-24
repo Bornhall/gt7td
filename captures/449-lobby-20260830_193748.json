@@ -3,15 +3,15 @@
   "carName" : "Chevrolet Corvette C7 Gr.3",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "compound" : "RH",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
+      "finalLabel" : "RH",
       "heating" : 0.48029105217936713,
       "lap" : 1,
-      "notes" : [
-        "no dry fit — nearest RH at 0.194"
-      ],
       "outcome" : "unchallenged",
       "samples" : 185,
       "seconds" : 60.010010010010014,
@@ -21,13 +21,14 @@
       "trigger" : "raceStart"
     },
     {
-      "estimatorVersion" : "v1r4",
+      "compound" : "RH",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
+      "family" : "racing",
       "filedBy" : "reprocess",
+      "finalLabel" : "RH",
       "heating" : 0.5307555995618818,
       "lap" : 10,
-      "notes" : [
-        "no dry fit — nearest RH at 0.228"
-      ],
       "outcome" : "unchallenged",
       "samples" : 222,
       "seconds" : 60.010010010010014,
@@ -37,13 +38,14 @@
       "trigger" : "pitExit"
     },
     {
-      "estimatorVersion" : "v1r4",
+      "compound" : "RH",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
+      "family" : "racing",
       "filedBy" : "reprocess",
+      "finalLabel" : "RH",
       "heating" : 0.5421542575733898,
       "lap" : 17,
-      "notes" : [
-        "no dry fit — nearest RH at 0.314"
-      ],
       "outcome" : "unchallenged",
       "samples" : 177,
       "seconds" : 60.010010010010014,
@@ -83,6 +85,8 @@
   },
   "endTime" : 1788112808,
   "granularity" : 1,
+  "identifiedCourseId" : 449,
+  "identifiedTrackName" : "Blue Moon Bay Speedway Reverse",
   "packetSize" : 368,
   "startTime" : 1788111468,
   "trackName" : "Blue Moon Bay Speedway Reverse",

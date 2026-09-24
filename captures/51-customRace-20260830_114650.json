@@ -4,8 +4,8 @@
   "compoundObservations" : [
     {
       "compound" : "RM",
-      "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
@@ -22,8 +22,8 @@
     },
     {
       "compound" : "RS",
-      "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "filedBy" : "reprocess",
       "finalLabel" : "RS",
@@ -39,8 +39,8 @@
     },
     {
       "compound" : "RH",
-      "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "filedBy" : "reprocess",
       "finalLabel" : "RH",
@@ -55,6 +55,29 @@
       "trigger" : "pitExit"
     }
   ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RM",
+        "lap" : 1,
+        "startPacketId" : 5527315,
+        "trigger" : "raceStart"
+      },
+      {
+        "compound" : "RS",
+        "lap" : 13,
+        "startPacketId" : 5599251,
+        "trigger" : "pitExit"
+      },
+      {
+        "compound" : "RH",
+        "lap" : 21,
+        "startPacketId" : 5643485,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790277057.987082
+  },
   "counts" : {
     "hzSource" : "measured",
     "laps" : 41,
@@ -85,6 +108,8 @@
   },
   "endTime" : 1788086905,
   "granularity" : 1,
+  "identifiedCourseId" : 51,
+  "identifiedTrackName" : "Deep Forest Raceway",
   "observedDurationS" : 3600,
   "packetSize" : 368,
   "startTime" : 1788083210,

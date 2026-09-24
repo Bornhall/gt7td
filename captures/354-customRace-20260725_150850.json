@@ -3,7 +3,7 @@
   "carName" : "Mercedes-Benz Unimog Type 411 '62",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "filedBy" : "reprocess",
       "lap" : 1,
       "notes" : [
@@ -39,6 +39,8 @@
   },
   "endTime" : 1784985206,
   "granularity" : 1,
+  "identifiedCourseId" : 354,
+  "identifiedTrackName" : "Northern Isle Speedway",
   "packetSize" : 368,
   "startTime" : 1784984930,
   "trackName" : "Northern Isle Speedway",

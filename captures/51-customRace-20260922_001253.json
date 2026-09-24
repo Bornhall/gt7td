@@ -5,8 +5,8 @@
   "compoundObservations" : [
     {
       "compound" : "CH",
-      "compoundConfidence" : "high",
-      "estimatorVersion" : "v1r4",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
       "family" : "comfort",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
@@ -22,6 +22,17 @@
       "trigger" : "raceStart"
     }
   ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "CH",
+        "lap" : 1,
+        "startPacketId" : 2922183,
+        "trigger" : "raceStart"
+      }
+    ],
+    "verifiedAt" : 1790276987.4928808
+  },
   "counts" : {
     "hzSource" : "measured",
     "laps" : 5,
@@ -51,6 +62,8 @@
   },
   "endTime" : 1790029273,
   "granularity" : 1,
+  "identifiedCourseId" : 51,
+  "identifiedTrackName" : "Deep Forest Raceway",
   "packetSize" : 368,
   "startTime" : 1790028773,
   "trackName" : "Deep Forest Raceway",

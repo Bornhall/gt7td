@@ -17,10 +17,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 17,
+      "samples" : 18,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
-      "updated" : 1790242600,
+      "updated" : 1790277443,
       "yMax" : 15.288548469543457,
       "yMin" : 9.288548469543457
     },
@@ -28,23 +28,23 @@
       "context" : "customRace",
       "courseId" : 602,
       "halfWidthM" : 12,
-      "headingRad" : 2.4894436549090213,
+      "headingRad" : 2.489443655758293,
       "kind" : "finishLine",
       "lineA" : [
-        -23.94529073813561,
-        32.225194810301986
+        -23.945290746235436,
+        32.22519481648702
       ],
       "lineB" : [
-        -38.510789698570946,
-        13.150440813629912
+        -38.51078969047112,
+        13.150440807444879
       ],
-      "m2" : 826.4219420284719,
+      "m2" : 875.0349974419114,
       "offsetMaxM" : 5.66789728885616,
       "offsetMinM" : -4.067428207251826,
-      "samples" : 68,
-      "spreadM" : 3.512072870993884,
+      "samples" : 72,
+      "spreadM" : 3.5106176926132093,
       "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
-      "updated" : 1790242601,
+      "updated" : 1790277446,
       "yMax" : 15.282794952392578,
       "yMin" : 9.264032363891602
     },
@@ -62,10 +62,10 @@
         -89.0323257446289
       ],
       "m2" : 0,
-      "samples" : 17,
+      "samples" : 18,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
-      "updated" : 1790242600,
+      "updated" : 1790277446,
       "yMax" : 15.324370384216309,
       "yMin" : 9.324370384216309
     },
@@ -86,10 +86,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 17,
+      "samples" : 18,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
-      "updated" : 1790242600,
+      "updated" : 1790277446,
       "yMax" : 15.206000328063965,
       "yMin" : 9.206000328063965
     },
@@ -107,10 +107,10 @@
         26.77845001220703
       ],
       "m2" : 0,
-      "samples" : 17,
+      "samples" : 18,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
-      "updated" : 1790242600,
+      "updated" : 1790277446,
       "yMax" : 15.29046630859375,
       "yMin" : 9.29046630859375
     },
@@ -118,47 +118,47 @@
       "context" : "customRace",
       "courseId" : 365,
       "halfWidthM" : 12,
-      "headingRad" : -0.6451865599917598,
+      "headingRad" : -0.6452051013145778,
       "kind" : "lap1",
       "lineA" : [
-        -34.91668176944245,
-        17.273397328305578
+        -34.918123122239166,
+        17.272072377790852
       ],
       "lineB" : [
-        -20.48434157511763,
-        36.44909957138591
+        -20.485427387509596,
+        36.44750702289652
       ],
-      "m2" : 11.504412321014202,
-      "offsetMaxM" : 0.2898449204715268,
+      "m2" : 12.092321288508238,
+      "offsetMaxM" : 0.2920522948189724,
       "offsetMinM" : -0.6331508089784541,
-      "samples" : 55,
-      "spreadM" : 0.4615676251768251,
+      "samples" : 58,
+      "spreadM" : 0.46059308235978574,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790242663,
+      "updated" : 1790277703,
       "yMax" : 15.309538841247559,
       "yMin" : 9.284297943115234
     },
     {
       "context" : "customRace",
       "courseId" : 365,
-      "halfWidthM" : 13.668508733736894,
-      "headingRad" : -0.6406071890923004,
+      "halfWidthM" : 13.667190588333018,
+      "headingRad" : -0.6406071881031824,
       "kind" : "finishLine",
       "lineA" : [
-        -37.482698685582875,
-        13.875730363557528
+        -37.4819108424954,
+        13.876787156146198
       ],
       "lineB" : [
-        -21.143845705824827,
-        35.79271937488887
+        -21.144633548912303,
+        35.791662582300205
       ],
-      "m2" : 5978.500192135736,
+      "m2" : 6330.1766740260755,
       "offsetMaxM" : 5.400912828429702,
       "offsetMinM" : -8.625945102907638,
-      "samples" : 289,
-      "spreadM" : 4.556169577912298,
+      "samples" : 306,
+      "spreadM" : 4.555730196111006,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790242664,
+      "updated" : 1790277718,
       "yMax" : 15.285134315490723,
       "yMin" : 9.25675106048584
     },
@@ -169,17 +169,17 @@
       "kind" : "pitEntry",
       "lineA" : [
         -201.14829508463544,
-        136.21379597981772
+        136.2137959798177
       ],
       "lineB" : [
         -201.14829508463544,
-        136.21379597981772
+        136.2137959798177
       ],
-      "m2" : 4.610511067478619,
-      "samples" : 51,
-      "spreadM" : 0.30366135965837404,
+      "m2" : 4.881717600859715,
+      "samples" : 54,
+      "spreadM" : 0.3034927993569272,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790242664,
+      "updated" : 1790277718,
       "yMax" : 15.003626823425293,
       "yMin" : 8.989023208618164
     },
@@ -187,7 +187,7 @@
       "context" : "customRace",
       "courseId" : 365,
       "halfWidthM" : 12,
-      "headingRad" : -0.6120722721556604,
+      "headingRad" : -0.6120722721556606,
       "kind" : "pitExit",
       "lineA" : [
         77.23770982779509,
@@ -197,13 +197,13 @@
         91.02726413053831,
         -69.40012953942941
       ],
-      "m2" : 0.12868232481803024,
+      "m2" : 0.13625187333673772,
       "offsetMaxM" : 0.00022313296954527828,
-      "offsetMinM" : -0.0001139881527091012,
-      "samples" : 51,
-      "spreadM" : 0.05073111960484023,
+      "offsetMinM" : -0.00011408862875120912,
+      "samples" : 54,
+      "spreadM" : 0.050702959114407864,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790242664,
+      "updated" : 1790277718,
       "yMax" : 15.313491821289062,
       "yMin" : 9.297624588012695
     },
@@ -220,11 +220,11 @@
         -64.25467427571616,
         26.366984685262047
       ],
-      "m2" : 0.13555318973036692,
-      "samples" : 51,
-      "spreadM" : 0.05206787680141508,
+      "m2" : 0.14352690677333,
+      "samples" : 54,
+      "spreadM" : 0.05203897428639242,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790242664,
+      "updated" : 1790277718,
       "yMax" : 15.299373626708984,
       "yMin" : 9.290283203125
     },
@@ -245,10 +245,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 17,
+      "samples" : 18,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East",
-      "updated" : 1790242605,
+      "updated" : 1790277466,
       "yMax" : 15.287691116333008,
       "yMin" : 9.287691116333008
     },
@@ -256,23 +256,23 @@
       "context" : "customRace",
       "courseId" : 1226,
       "halfWidthM" : 12,
-      "headingRad" : -0.6416116166301249,
+      "headingRad" : -0.6416116166165501,
       "kind" : "finishLine",
       "lineA" : [
-        -36.70376760176025,
-        15.145842415131384
+        -36.70376760162975,
+        15.145842415033894
       ],
       "lineB" : [
-        -22.34007153499919,
-        34.373016812367
+        -22.340071535129688,
+        34.3730168124645
       ],
-      "m2" : 553.7456204904909,
+      "m2" : 586.3188922840491,
       "offsetMaxM" : 4.6658182437396745,
       "offsetMinM" : -3.667376540145315,
-      "samples" : 51,
-      "spreadM" : 3.327899098501909,
+      "samples" : 54,
+      "spreadM" : 3.3260518049382517,
       "trackName" : "Autodrome Lago Maggiore - East",
-      "updated" : 1790242606,
+      "updated" : 1790277483,
       "yMax" : 15.286961555480957,
       "yMin" : 9.268195152282715
     },
@@ -290,10 +290,10 @@
         138.99658203125
       ],
       "m2" : 0,
-      "samples" : 17,
+      "samples" : 18,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East",
-      "updated" : 1790242605,
+      "updated" : 1790277482,
       "yMax" : 14.97011947631836,
       "yMin" : 8.97011947631836
     },
@@ -314,10 +314,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 17,
+      "samples" : 18,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East",
-      "updated" : 1790242605,
+      "updated" : 1790277482,
       "yMax" : 15.282670974731445,
       "yMin" : 9.282670974731445
     },
@@ -335,10 +335,10 @@
         26.34160804748535
       ],
       "m2" : 0,
-      "samples" : 17,
+      "samples" : 18,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East",
-      "updated" : 1790242605,
+      "updated" : 1790277482,
       "yMax" : 15.289485931396484,
       "yMin" : 9.289485931396484
     },
@@ -359,10 +359,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 20,
+      "samples" : 21,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring Short Track",
-      "updated" : 1790242607,
+      "updated" : 1790277484,
       "yMax" : -24.98182487487793,
       "yMin" : -30.98182487487793
     },
@@ -380,10 +380,10 @@
         207.07846069335938
       ],
       "m2" : 0,
-      "samples" : 20,
+      "samples" : 21,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring Short Track",
-      "updated" : 1790242607,
+      "updated" : 1790277486,
       "yMax" : -22.70833969116211,
       "yMin" : -28.70833969116211
     },
@@ -404,10 +404,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 20,
+      "samples" : 21,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring Short Track",
-      "updated" : 1790242607,
+      "updated" : 1790277486,
       "yMax" : -23.687679290771484,
       "yMin" : -29.687679290771484
     },
@@ -425,10 +425,10 @@
         290.5203857421875
       ],
       "m2" : 0,
-      "samples" : 20,
+      "samples" : 21,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring Short Track",
-      "updated" : 1790242607,
+      "updated" : 1790277486,
       "yMax" : -25.03792381286621,
       "yMin" : -31.03792381286621
     },
@@ -436,23 +436,23 @@
       "context" : "customRace",
       "courseId" : 846,
       "halfWidthM" : 12,
-      "headingRad" : 2.886996076787238,
+      "headingRad" : 2.886996076475338,
       "kind" : "finishLine",
       "lineA" : [
-        567.1713445962281,
-        282.69309612493214
+        567.1713445998503,
+        282.69309612398956
       ],
       "lineB" : [
-        561.1268243490841,
-        259.4667366387391
+        561.126824345462,
+        259.4667366396818
       ],
-      "m2" : 600.8433521278213,
-      "offsetMaxM" : 2.8647444385566088,
+      "m2" : 630.8855197342122,
+      "offsetMaxM" : 2.864744438656801,
       "offsetMinM" : -3.2327643948053697,
-      "samples" : 100,
-      "spreadM" : 2.463559369889001,
+      "samples" : 105,
+      "spreadM" : 2.46296709692218,
       "trackName" : "Red Bull Ring Short Track",
-      "updated" : 1790242607,
+      "updated" : 1790277487,
       "yMax" : -24.80753517150879,
       "yMin" : -30.9185733795166
     },
@@ -473,10 +473,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring",
-      "updated" : 1790242608,
+      "updated" : 1790277488,
       "yMax" : -24.858739852905273,
       "yMin" : -30.858739852905273
     },
@@ -484,23 +484,23 @@
       "context" : "customRace",
       "courseId" : 470,
       "halfWidthM" : 12,
-      "headingRad" : 2.8870189574489493,
+      "headingRad" : 2.8870189529168573,
       "kind" : "finishLine",
       "lineA" : [
-        568.0568590431308,
-        285.6204595169108
+        568.0568590957631,
+        285.6204595032149
       ],
       "lineB" : [
-        562.0128702320433,
-        262.39396173417464
+        562.0128701794109,
+        262.39396174787066
       ],
-      "m2" : 225.1427877552605,
+      "m2" : 236.99240816343212,
       "offsetMaxM" : 2.720956852590457,
       "offsetMinM" : -0.9093978349058371,
-      "samples" : 171,
-      "spreadM" : 1.1508124694044755,
+      "samples" : 180,
+      "spreadM" : 1.1506432695991935,
       "trackName" : "Red Bull Ring",
-      "updated" : 1790242610,
+      "updated" : 1790277492,
       "yMax" : -24.784202575683594,
       "yMin" : -30.864953994750977
     },
@@ -517,11 +517,11 @@
         728.1069946289061,
         209.23135884602866
       ],
-      "m2" : 6.783614498718344,
-      "samples" : 57,
-      "spreadM" : 0.34804593546168444,
+      "m2" : 7.140646840756151,
+      "samples" : 60,
+      "spreadM" : 0.34789066178210215,
       "trackName" : "Red Bull Ring",
-      "updated" : 1790242610,
+      "updated" : 1790277492,
       "yMax" : -22.749168395996094,
       "yMin" : -28.753692626953125
     },
@@ -539,13 +539,13 @@
         294.8526266477432,
         318.1404064375261
       ],
-      "m2" : 4.718701044202767e-08,
+      "m2" : 4.9670537307668945e-08,
       "offsetMaxM" : 1.957877172915932e-05,
       "offsetMinM" : -4.1460987876474335e-05,
-      "samples" : 57,
-      "spreadM" : 2.9028006932353794e-05,
+      "samples" : 60,
+      "spreadM" : 2.901505667217116e-05,
       "trackName" : "Red Bull Ring",
-      "updated" : 1790242610,
+      "updated" : 1790277492,
       "yMax" : -23.68794822692871,
       "yMin" : -29.68810272216797
     },
@@ -562,11 +562,11 @@
         411.88165283203125,
         290.5204264322917
       ],
-      "m2" : 8.257726828158766e-08,
-      "samples" : 57,
-      "spreadM" : 3.8400443701302755e-05,
+      "m2" : 8.692344029659778e-08,
+      "samples" : 60,
+      "spreadM" : 3.8383312117310535e-05,
       "trackName" : "Red Bull Ring",
-      "updated" : 1790242610,
+      "updated" : 1790277492,
       "yMax" : -25.036497116088867,
       "yMin" : -31.036550521850586
     },
@@ -587,10 +587,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Circuit de Barcelona-Catalunya GP Layout No Chicane",
-      "updated" : 1790242621,
+      "updated" : 1790277518,
       "yMax" : -3.783508777618408,
       "yMin" : -9.783508777618408
     },
@@ -598,23 +598,23 @@
       "context" : "customRace",
       "courseId" : 1249,
       "halfWidthM" : 12,
-      "headingRad" : 2.141211035678355,
+      "headingRad" : 2.1412110349261746,
       "kind" : "finishLine",
       "lineA" : [
-        248.48095897660656,
-        -88.64246011404376
+        248.48095898148054,
+        -88.64246012164085
       ],
       "lineB" : [
-        228.2807082749804,
-        -101.60200762124683
+        228.2807082701065,
+        -101.6020076136497
       ],
-      "m2" : 680.0333885507293,
+      "m2" : 715.8246195270835,
       "offsetMaxM" : 5.093034061637049,
-      "offsetMinM" : -1.665439329917864,
-      "samples" : 152,
-      "spreadM" : 2.1221527688901527,
+      "offsetMinM" : -1.6664208703517498,
+      "samples" : 160,
+      "spreadM" : 2.1218015063256526,
       "trackName" : "Circuit de Barcelona-Catalunya GP Layout No Chicane",
-      "updated" : 1790242622,
+      "updated" : 1790277541,
       "yMax" : -3.567404270172119,
       "yMin" : -9.72402048110962
     },
@@ -632,10 +632,10 @@
         -229.63992309570312
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Circuit de Barcelona-Catalunya GP Layout No Chicane",
-      "updated" : 1790242621,
+      "updated" : 1790277541,
       "yMax" : -2.4008045196533203,
       "yMin" : -8.40080451965332
     },
@@ -656,10 +656,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Circuit de Barcelona-Catalunya GP Layout No Chicane",
-      "updated" : 1790242622,
+      "updated" : 1790277541,
       "yMax" : -3.9592933654785156,
       "yMin" : -9.959293365478516
     },
@@ -677,10 +677,10 @@
         -20.478363037109375
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Circuit de Barcelona-Catalunya GP Layout No Chicane",
-      "updated" : 1790242622,
+      "updated" : 1790277541,
       "yMax" : -3.5885229110717773,
       "yMin" : -9.588522911071777
     },
@@ -688,23 +688,23 @@
       "context" : "customRace",
       "courseId" : 462,
       "halfWidthM" : 12,
-      "headingRad" : -2.1196499481045303,
+      "headingRad" : -2.1196471551525398,
       "kind" : "lap1",
       "lineA" : [
-        -385.0744695389175,
-        -691.385473627403
+        -385.0735115994117,
+        -691.3858760605439
       ],
       "lineB" : [
-        -364.59951371710446,
-        -703.9065033013079
+        -364.5985208070437,
+        -703.9068485488311
       ],
-      "m2" : 4.580581373476779,
+      "m2" : 4.836592357850655,
       "offsetMaxM" : 0.4683772600240552,
-      "offsetMinM" : -0.3306352864145077,
-      "samples" : 36,
-      "spreadM" : 0.36176477651632694,
+      "offsetMinM" : -0.33178351712991366,
+      "samples" : 38,
+      "spreadM" : 0.3615504285356913,
       "trackName" : "Circuit de Spa-Francorchamps",
-      "updated" : 1790242662,
+      "updated" : 1790277702,
       "yMax" : 121.05751037597656,
       "yMin" : 115.04257202148438
     },
@@ -712,23 +712,23 @@
       "context" : "customRace",
       "courseId" : 462,
       "halfWidthM" : 12,
-      "headingRad" : -2.1059330404408003,
+      "headingRad" : -2.105928274829757,
       "kind" : "finishLine",
       "lineA" : [
-        -317.9821472811681,
-        -586.2218999584071
+        -317.98313701635055,
+        -586.2213122587125
       ],
       "lineB" : [
-        -297.33737322497217,
-        -598.4609074413944
+        -297.33830463403984,
+        -598.4602213565977
       ],
-      "m2" : 506.3207897443205,
-      "offsetMaxM" : 2.5340145297865737,
+      "m2" : 533.7822162561339,
+      "offsetMaxM" : 2.534327421439366,
       "offsetMinM" : -2.526448605399293,
-      "samples" : 146,
-      "spreadM" : 1.8686539314378336,
+      "samples" : 154,
+      "spreadM" : 1.867825649055299,
       "trackName" : "Circuit de Spa-Francorchamps",
-      "updated" : 1790242663,
+      "updated" : 1790277703,
       "yMax" : 118.80120086669922,
       "yMin" : 112.68500518798828
     },
@@ -746,10 +746,10 @@
         -452.3104248046875
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Circuit de Spa-Francorchamps",
-      "updated" : 1790242626,
+      "updated" : 1790277546,
       "yMax" : 115.24689483642578,
       "yMin" : 109.24689483642578
     },
@@ -770,10 +770,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Circuit de Spa-Francorchamps",
-      "updated" : 1790242626,
+      "updated" : 1790277546,
       "yMax" : 122.68344116210938,
       "yMin" : 116.68344116210938
     },
@@ -791,10 +791,10 @@
         -736.8074951171875
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Circuit de Spa-Francorchamps",
-      "updated" : 1790242626,
+      "updated" : 1790277546,
       "yMax" : 121.28309631347656,
       "yMin" : 115.28309631347656
     },
@@ -802,47 +802,47 @@
       "context" : "customRace",
       "courseId" : 469,
       "halfWidthM" : 12,
-      "headingRad" : -1.4774055535474468,
+      "headingRad" : -1.4773513789967214,
       "kind" : "lap1",
       "lineA" : [
-        -506.8308699022769,
-        110.66964113465288
+        -506.8381415338201,
+        110.66892145769287
       ],
       "lineB" : [
-        -482.9354558922899,
-        112.9077629569221
+        -482.9428488081423,
+        112.90833779999554
       ],
-      "m2" : 11.513247742121871,
+      "m2" : 12.198141430426158,
       "offsetMaxM" : 0.6959984859321752,
       "offsetMinM" : -0.9044322113501321,
-      "samples" : 55,
-      "spreadM" : 0.46174483377811104,
+      "samples" : 59,
+      "spreadM" : 0.4585987170536019,
       "trackName" : "Autodromo Nazionale Monza",
-      "updated" : 1790242631,
+      "updated" : 1790277551,
       "yMax" : 180.20809936523438,
       "yMin" : 174.1975555419922
     },
     {
       "context" : "customRace",
       "courseId" : 469,
-      "halfWidthM" : 15.203191716806428,
-      "headingRad" : -1.4951835168017549,
+      "halfWidthM" : 15.259411352928968,
+      "headingRad" : -1.4954590540179347,
       "kind" : "finishLine",
       "lineA" : [
-        -537.7438017442951,
-        420.4923654103146
+        -537.8286051993551,
+        420.4898648182575
       ],
       "lineB" : [
-        -507.42429806865744,
-        422.7892873451831
+        -507.3963494501044,
+        422.78689537177434
       ],
-      "m2" : 8166.842022688331,
-      "offsetMaxM" : 8.749004823446464,
+      "m2" : 8874.15830548876,
+      "offsetMaxM" : 8.778517909317918,
       "offsetMinM" : -12.216630771798776,
-      "samples" : 319,
-      "spreadM" : 5.067730572268809,
+      "samples" : 344,
+      "spreadM" : 5.086470450976322,
       "trackName" : "Autodromo Nazionale Monza",
-      "updated" : 1790242633,
+      "updated" : 1790277553,
       "yMax" : 178.62582397460938,
       "yMin" : 172.4571990966797
     },
@@ -860,10 +860,10 @@
         509.33563232421875
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodromo Nazionale Monza",
-      "updated" : 1790242632,
+      "updated" : 1790277553,
       "yMax" : 178.10826110839844,
       "yMin" : 172.10826110839844
     },
@@ -884,10 +884,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodromo Nazionale Monza",
-      "updated" : 1790242632,
+      "updated" : 1790277553,
       "yMax" : 179.96868896484375,
       "yMin" : 173.96868896484375
     },
@@ -905,10 +905,10 @@
         302.98974609375
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodromo Nazionale Monza",
-      "updated" : 1790242632,
+      "updated" : 1790277553,
       "yMax" : 179.25326538085938,
       "yMin" : 173.25326538085938
     },
@@ -929,10 +929,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West Reverse",
-      "updated" : 1790242636,
+      "updated" : 1790277557,
       "yMax" : 14.953812599182129,
       "yMin" : 8.953812599182129
     },
@@ -940,23 +940,23 @@
       "context" : "lobby",
       "courseId" : 1233,
       "halfWidthM" : 12,
-      "headingRad" : 2.501939736721349,
+      "headingRad" : 2.5019397367209097,
       "kind" : "finishLine",
       "lineA" : [
-        -22.186603806615175,
-        33.89597308212973
+        -22.18660380661095,
+        33.89597308212658
       ],
       "lineB" : [
-        -36.512612082361876,
-        14.64070141738199
+        -36.512612082366104,
+        14.640701417385136
       ],
-      "m2" : 402.1334354214718,
+      "m2" : 423.2983530752335,
       "offsetMaxM" : 3.5487154990922303,
-      "offsetMinM" : -3.25299118102227,
-      "samples" : 38,
-      "spreadM" : 3.296736451038716,
+      "offsetMinM" : -3.2529911810222796,
+      "samples" : 40,
+      "spreadM" : 3.2945111814965795,
       "trackName" : "Autodrome Lago Maggiore - West Reverse",
-      "updated" : 1790242636,
+      "updated" : 1790277571,
       "yMax" : 15.287863731384277,
       "yMin" : 9.274666786193848
     },
@@ -974,10 +974,10 @@
         -88.79708099365234
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West Reverse",
-      "updated" : 1790242636,
+      "updated" : 1790277571,
       "yMax" : 15.324646949768066,
       "yMin" : 9.324646949768066
     },
@@ -998,10 +998,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West Reverse",
-      "updated" : 1790242636,
+      "updated" : 1790277571,
       "yMax" : 15.207257270812988,
       "yMin" : 9.207257270812988
     },
@@ -1019,10 +1019,10 @@
         26.756990432739258
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West Reverse",
-      "updated" : 1790242636,
+      "updated" : 1790277571,
       "yMax" : 15.290789604187012,
       "yMin" : 9.290789604187012
     },
@@ -1043,34 +1043,34 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West",
-      "updated" : 1790242638,
+      "updated" : 1790277573,
       "yMax" : 15.31714153289795,
       "yMin" : 9.31714153289795
     },
     {
       "context" : "lobby",
       "courseId" : 1232,
-      "halfWidthM" : 13.243842996086162,
-      "headingRad" : -0.6359798458983605,
+      "halfWidthM" : 13.234903512788748,
+      "headingRad" : -0.6359798459158027,
       "kind" : "finishLine",
       "lineA" : [
-        -37.689726237801395,
-        13.558654912680538
+        -37.68441648817438,
+        13.565846638518137
       ],
       "lineB" : [
-        -21.956939335318726,
-        34.86773573520763
+        -21.962249084945743,
+        34.86054400937003
       ],
-      "m2" : 721.0863289204751,
+      "m2" : 759.0382409689212,
       "offsetMaxM" : 4.7515234771115304,
-      "offsetMinM" : -4.355584063259641,
-      "samples" : 38,
-      "spreadM" : 4.41461433202872,
+      "offsetMinM" : -4.355584063260946,
+      "samples" : 40,
+      "spreadM" : 4.411634504262916,
       "trackName" : "Autodrome Lago Maggiore - West",
-      "updated" : 1790242638,
+      "updated" : 1790277579,
       "yMax" : 15.284490585327148,
       "yMin" : 9.265240669250488
     },
@@ -1088,10 +1088,10 @@
         139.3018798828125
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West",
-      "updated" : 1790242638,
+      "updated" : 1790277579,
       "yMax" : 14.968913078308105,
       "yMin" : 8.968913078308105
     },
@@ -1099,7 +1099,7 @@
       "context" : "lobby",
       "courseId" : 1232,
       "halfWidthM" : 12,
-      "headingRad" : -0.6331787089647762,
+      "headingRad" : -0.6331787089647763,
       "kind" : "pitExit",
       "lineA" : [
         71.14679894465945,
@@ -1112,10 +1112,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West",
-      "updated" : 1790242639,
+      "updated" : 1790277579,
       "yMax" : 15.281598091125488,
       "yMin" : 9.281598091125488
     },
@@ -1133,10 +1133,10 @@
         26.37334442138672
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West",
-      "updated" : 1790242639,
+      "updated" : 1790277579,
       "yMax" : 15.290148735046387,
       "yMin" : 9.290148735046387
     },
@@ -1157,10 +1157,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East Reverse",
-      "updated" : 1790242640,
+      "updated" : 1790277581,
       "yMax" : 15.006369590759277,
       "yMin" : 9.006369590759277
     },
@@ -1168,23 +1168,23 @@
       "context" : "lobby",
       "courseId" : 1231,
       "halfWidthM" : 12,
-      "headingRad" : 2.5155387147295407,
+      "headingRad" : 2.515538714728751,
       "kind" : "finishLine",
       "lineA" : [
-        -22.084222071397978,
-        34.895919066463776
+        -22.0842220713903,
+        34.89591906645822
       ],
       "lineB" : [
-        -36.147061752251105,
-        15.447614767357823
+        -36.14706175225878,
+        15.44761476736338
       ],
-      "m2" : 49.28505218178483,
+      "m2" : 51.8790022966156,
       "offsetMaxM" : 0.999893595769921,
       "offsetMinM" : -1.1753896740211727,
-      "samples" : 57,
-      "spreadM" : 0.9381312368383604,
+      "samples" : 60,
+      "spreadM" : 0.9377127084941586,
       "trackName" : "Autodrome Lago Maggiore - East Reverse",
-      "updated" : 1790242640,
+      "updated" : 1790277585,
       "yMax" : 15.284730911254883,
       "yMin" : 9.279889106750488
     },
@@ -1202,10 +1202,10 @@
         -85.42314910888672
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East Reverse",
-      "updated" : 1790242640,
+      "updated" : 1790277585,
       "yMax" : 15.323474884033203,
       "yMin" : 9.323474884033203
     },
@@ -1226,10 +1226,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East Reverse",
-      "updated" : 1790242640,
+      "updated" : 1790277585,
       "yMax" : 14.94881820678711,
       "yMin" : 8.94881820678711
     },
@@ -1247,10 +1247,10 @@
         26.756986618041992
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East Reverse",
-      "updated" : 1790242640,
+      "updated" : 1790277585,
       "yMax" : 15.29086971282959,
       "yMin" : 9.29086971282959
     },
@@ -1271,10 +1271,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East",
-      "updated" : 1790242642,
+      "updated" : 1790277586,
       "yMax" : 15.318007469177246,
       "yMin" : 9.318007469177246
     },
@@ -1282,23 +1282,23 @@
       "context" : "lobby",
       "courseId" : 1226,
       "halfWidthM" : 12,
-      "headingRad" : -0.6375840872425659,
+      "headingRad" : -0.6375840872438722,
       "kind" : "finishLine",
       "lineA" : [
-        -36.376329132195934,
-        15.655378685119647
+        -36.376329132208525,
+        15.655378685128976
       ],
       "lineB" : [
-        -22.090187362555035,
-        34.94024719226071
+        -22.090187362542434,
+        34.94024719225139
       ],
-      "m2" : 35.250379817247,
+      "m2" : 37.10566296552316,
       "offsetMaxM" : 1.011538716986176,
       "offsetMinM" : -0.9272111816493772,
-      "samples" : 38,
-      "spreadM" : 0.9760701655279208,
+      "samples" : 40,
+      "spreadM" : 0.9754113263266092,
       "trackName" : "Autodrome Lago Maggiore - East",
-      "updated" : 1790242642,
+      "updated" : 1790277601,
       "yMax" : 15.281230926513672,
       "yMin" : 9.278660774230957
     },
@@ -1316,10 +1316,10 @@
         139.12355041503906
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East",
-      "updated" : 1790242642,
+      "updated" : 1790277601,
       "yMax" : 14.970511436462402,
       "yMin" : 8.970511436462402
     },
@@ -1340,10 +1340,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East",
-      "updated" : 1790242642,
+      "updated" : 1790277601,
       "yMax" : 15.282624244689941,
       "yMin" : 9.282624244689941
     },
@@ -1361,10 +1361,10 @@
         26.373348236083984
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East",
-      "updated" : 1790242642,
+      "updated" : 1790277601,
       "yMax" : 15.290128707885742,
       "yMin" : 9.290128707885742
     },
@@ -1385,10 +1385,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West End Reverse",
-      "updated" : 1790242644,
+      "updated" : 1790277603,
       "yMax" : 37.91263198852539,
       "yMin" : 31.91263198852539
     },
@@ -1396,23 +1396,23 @@
       "context" : "lobby",
       "courseId" : 794,
       "halfWidthM" : 12,
-      "headingRad" : 2.006458358169097,
+      "headingRad" : 2.006458357587655,
       "kind" : "finishLine",
       "lineA" : [
-        -600.0221395782553,
-        -160.3065954996363
+        -600.0221395753108,
+        -160.30659550596187
       ],
       "lineB" : [
-        -621.7803201385416,
-        -170.43485194909417
+        -621.7803201414861,
+        -170.4348519427686
       ],
-      "m2" : 31.643381896283245,
+      "m2" : 33.308823048719205,
       "offsetMaxM" : 0.8984004203783627,
       "offsetMinM" : -0.9802396766706059,
-      "samples" : 38,
-      "spreadM" : 0.9247845899112858,
+      "samples" : 40,
+      "spreadM" : 0.9241603680447431,
       "trackName" : "Autodrome Lago Maggiore - West End Reverse",
-      "updated" : 1790242644,
+      "updated" : 1790277621,
       "yMax" : 53.393943786621094,
       "yMin" : 47.3562126159668
     },
@@ -1430,10 +1430,10 @@
         -257.6317138671875
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West End Reverse",
-      "updated" : 1790242644,
+      "updated" : 1790277621,
       "yMax" : 54.82969665527344,
       "yMin" : 48.82969665527344
     },
@@ -1454,10 +1454,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West End Reverse",
-      "updated" : 1790242644,
+      "updated" : 1790277621,
       "yMax" : 53.17169952392578,
       "yMin" : 47.17169952392578
     },
@@ -1475,10 +1475,10 @@
         -172.8129119873047
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West End Reverse",
-      "updated" : 1790242644,
+      "updated" : 1790277621,
       "yMax" : 54.017417907714844,
       "yMin" : 48.017417907714844
     },
@@ -1499,10 +1499,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West End",
-      "updated" : 1790242645,
+      "updated" : 1790277622,
       "yMax" : 54.705265045166016,
       "yMin" : 48.705265045166016
     },
@@ -1510,23 +1510,23 @@
       "context" : "lobby",
       "courseId" : 792,
       "halfWidthM" : 12,
-      "headingRad" : -1.1347034826105178,
+      "headingRad" : -1.1347034825982634,
       "kind" : "finishLine",
       "lineA" : [
-        -621.4483339709227,
-        -170.25550207557185
+        -621.4483339708606,
+        -170.25550207570515
       ],
       "lineB" : [
-        -599.6945188122804,
-        -160.117872863393
+        -599.6945188123425,
+        -160.1178728632597
       ],
-      "m2" : 184.18727150870836,
+      "m2" : 193.88133843021933,
       "offsetMaxM" : 2.3942689100768013,
       "offsetMinM" : -2.1947005697972615,
-      "samples" : 38,
-      "spreadM" : 2.2311509059452312,
+      "samples" : 40,
+      "spreadM" : 2.2296448977372214,
       "trackName" : "Autodrome Lago Maggiore - West End",
-      "updated" : 1790242645,
+      "updated" : 1790277626,
       "yMax" : 53.42298126220703,
       "yMin" : 47.37014389038086
     },
@@ -1544,10 +1544,10 @@
         72.42508697509766
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West End",
-      "updated" : 1790242645,
+      "updated" : 1790277626,
       "yMax" : 40.52411651611328,
       "yMin" : 34.52411651611328
     },
@@ -1568,10 +1568,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West End",
-      "updated" : 1790242645,
+      "updated" : 1790277626,
       "yMax" : 54.67763900756836,
       "yMin" : 48.67763900756836
     },
@@ -1589,10 +1589,10 @@
         -172.75912475585938
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - West End",
-      "updated" : 1790242645,
+      "updated" : 1790277626,
       "yMax" : 54.01567459106445,
       "yMin" : 48.01567459106445
     },
@@ -1613,10 +1613,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East End Reverse",
-      "updated" : 1790242648,
+      "updated" : 1790277629,
       "yMax" : -20.438505172729492,
       "yMin" : -26.438505172729492
     },
@@ -1624,23 +1624,23 @@
       "context" : "lobby",
       "courseId" : 790,
       "halfWidthM" : 12,
-      "headingRad" : 1.3470715595190819,
+      "headingRad" : 1.3470715600209169,
       "kind" : "finishLine",
       "lineA" : [
-        640.6354737178634,
-        104.72165893641728
+        640.6354737191995,
+        104.72165894228922
       ],
       "lineB" : [
-        617.2336058719803,
-        110.04637313755732
+        617.2336058706443,
+        110.04637313168539
       ],
-      "m2" : 16.347394611766504,
+      "m2" : 17.207783801859478,
       "offsetMaxM" : 0.6304927895863401,
       "offsetMinM" : -0.5776690805643059,
-      "samples" : 38,
-      "spreadM" : 0.6646965292475125,
+      "samples" : 40,
+      "spreadM" : 0.6642478646474557,
       "trackName" : "Autodrome Lago Maggiore - East End Reverse",
-      "updated" : 1790242648,
+      "updated" : 1790277643,
       "yMax" : 1.5695838928222656,
       "yMin" : -4.439336895942688
     },
@@ -1658,10 +1658,10 @@
         -39.945186614990234
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East End Reverse",
-      "updated" : 1790242648,
+      "updated" : 1790277643,
       "yMax" : 0.01595306396484375,
       "yMin" : -5.984046936035156
     },
@@ -1682,10 +1682,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East End Reverse",
-      "updated" : 1790242648,
+      "updated" : 1790277643,
       "yMax" : 0.18205595016479492,
       "yMin" : -5.817944049835205
     },
@@ -1703,10 +1703,10 @@
         95.28533172607422
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East End Reverse",
-      "updated" : 1790242648,
+      "updated" : 1790277643,
       "yMax" : 1.5798324346542358,
       "yMin" : -4.420167565345764
     },
@@ -1727,10 +1727,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East End",
-      "updated" : 1790242649,
+      "updated" : 1790277645,
       "yMax" : -0.7419304847717285,
       "yMin" : -6.7419304847717285
     },
@@ -1738,23 +1738,23 @@
       "context" : "lobby",
       "courseId" : 795,
       "halfWidthM" : 12,
-      "headingRad" : -1.9162557365164998,
+      "headingRad" : -1.9162557363063473,
       "kind" : "finishLine",
       "lineA" : [
-        620.8457094780555,
-        109.83688990162639
+        620.8457094772015,
+        109.83688989925355
       ],
       "lineB" : [
-        643.4277890571008,
-        101.70979436351033
+        643.4277890579548,
+        101.70979436588317
       ],
-      "m2" : 78.69862343685236,
+      "m2" : 82.84065624931827,
       "offsetMaxM" : 1.562567935162909,
       "offsetMinM" : -1.4322587630739863,
-      "samples" : 38,
-      "spreadM" : 1.4584203175414252,
+      "samples" : 40,
+      "spreadM" : 1.4574358960201854,
       "trackName" : "Autodrome Lago Maggiore - East End",
-      "updated" : 1790242649,
+      "updated" : 1790277648,
       "yMax" : 1.5817067623138428,
       "yMin" : -4.42156457901001
     },
@@ -1772,10 +1772,10 @@
         197.4513397216797
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East End",
-      "updated" : 1790242649,
+      "updated" : 1790277648,
       "yMax" : -20.89496421813965,
       "yMin" : -26.89496421813965
     },
@@ -1796,10 +1796,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East End",
-      "updated" : 1790242649,
+      "updated" : 1790277648,
       "yMax" : 1.6035144329071045,
       "yMin" : -4.3964855670928955
     },
@@ -1817,10 +1817,10 @@
         95.57035064697266
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - East End",
-      "updated" : 1790242649,
+      "updated" : 1790277648,
       "yMax" : 1.5788313150405884,
       "yMin" : -4.421168684959412
     },
@@ -1841,10 +1841,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Centre Reverse",
-      "updated" : 1790242649,
+      "updated" : 1790277649,
       "yMax" : 14.973063468933105,
       "yMin" : 8.973063468933105
     },
@@ -1852,23 +1852,23 @@
       "context" : "lobby",
       "courseId" : 791,
       "halfWidthM" : 12,
-      "headingRad" : 2.5073223068228807,
+      "headingRad" : 2.507322306793806,
       "kind" : "finishLine",
       "lineA" : [
-        -22.98920394582794,
-        33.06052224390419
+        -22.9892039455469,
+        33.06052224369744
       ],
       "lineB" : [
-        -37.21136234598114,
-        13.728419139457648
+        -37.21136234626218,
+        13.728419139664398
       ],
-      "m2" : 0.7749847536133561,
+      "m2" : 0.8157734248561642,
       "offsetMaxM" : 0.14562058204206865,
       "offsetMinM" : -0.13346764047135004,
-      "samples" : 38,
-      "spreadM" : 0.14472571948842422,
+      "samples" : 40,
+      "spreadM" : 0.1446280308377467,
       "trackName" : "Autodrome Lago Maggiore - Centre Reverse",
-      "updated" : 1790242650,
+      "updated" : 1790277652,
       "yMax" : 15.278279304504395,
       "yMin" : 9.277959823608398
     },
@@ -1886,10 +1886,10 @@
         -87.6964340209961
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Centre Reverse",
-      "updated" : 1790242650,
+      "updated" : 1790277652,
       "yMax" : 15.325882911682129,
       "yMin" : 9.325882911682129
     },
@@ -1910,10 +1910,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Centre Reverse",
-      "updated" : 1790242650,
+      "updated" : 1790277652,
       "yMax" : 15.103507041931152,
       "yMin" : 9.103507041931152
     },
@@ -1931,10 +1931,10 @@
         26.756994247436523
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Centre Reverse",
-      "updated" : 1790242650,
+      "updated" : 1790277652,
       "yMax" : 15.290668487548828,
       "yMin" : 9.290668487548828
     },
@@ -1955,10 +1955,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Centre",
-      "updated" : 1790242651,
+      "updated" : 1790277653,
       "yMax" : 15.3124418258667,
       "yMin" : 9.3124418258667
     },
@@ -1966,23 +1966,23 @@
       "context" : "lobby",
       "courseId" : 793,
       "halfWidthM" : 12,
-      "headingRad" : -0.6286146633256272,
+      "headingRad" : -0.6286146633255176,
       "kind" : "finishLine",
       "lineA" : [
-        -38.670141551787374,
-        12.088337432101543
+        -38.67014155178631,
+        12.08833743210077
       ],
       "lineB" : [
-        -24.55754628390599,
-        31.500566948696797
+        -24.55754628390705,
+        31.500566948697568
       ],
-      "m2" : 307.51844400739856,
-      "offsetMaxM" : 2.8180611736852677,
+      "m2" : 323.70362527094585,
+      "offsetMaxM" : 2.8180611736853134,
       "offsetMinM" : -3.074225293458078,
-      "samples" : 38,
-      "spreadM" : 2.882934147270322,
+      "samples" : 40,
+      "spreadM" : 2.880988190823641,
       "trackName" : "Autodrome Lago Maggiore - Centre",
-      "updated" : 1790242651,
+      "updated" : 1790277660,
       "yMax" : 15.275964736938477,
       "yMin" : 9.26555347442627
     },
@@ -2000,10 +2000,10 @@
         137.95529174804688
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Centre",
-      "updated" : 1790242651,
+      "updated" : 1790277660,
       "yMax" : 14.97742748260498,
       "yMin" : 8.97742748260498
     },
@@ -2024,10 +2024,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Centre",
-      "updated" : 1790242651,
+      "updated" : 1790277660,
       "yMax" : 15.281001091003418,
       "yMin" : 9.281001091003418
     },
@@ -2045,10 +2045,10 @@
         26.37335777282715
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Centre",
-      "updated" : 1790242651,
+      "updated" : 1790277660,
       "yMax" : 15.290006637573242,
       "yMin" : 9.290006637573242
     },
@@ -2069,10 +2069,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
-      "updated" : 1790242652,
+      "updated" : 1790277661,
       "yMax" : 14.953696250915527,
       "yMin" : 8.953696250915527
     },
@@ -2080,23 +2080,23 @@
       "context" : "lobby",
       "courseId" : 602,
       "halfWidthM" : 12,
-      "headingRad" : 2.499930815709946,
+      "headingRad" : 2.499930815801042,
       "kind" : "finishLine",
       "lineA" : [
-        -20.455058352357604,
-        36.469380946944334
+        -20.455058353233333,
+        36.469380947598616
       ],
       "lineB" : [
-        -34.819720013731256,
-        17.24292793672266
+        -34.81972001285553,
+        17.242927936068376
       ],
-      "m2" : 52.17206453470863,
+      "m2" : 54.91796266811435,
       "offsetMaxM" : 1.2623110839087084,
-      "offsetMinM" : -1.1572134549890167,
-      "samples" : 38,
-      "spreadM" : 1.187457703766904,
+      "offsetMinM" : -1.157213455007013,
+      "samples" : 40,
+      "spreadM" : 1.1866561797445834,
       "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
-      "updated" : 1790242652,
+      "updated" : 1790277675,
       "yMax" : 15.288758277893066,
       "yMin" : 9.2853364944458
     },
@@ -2114,10 +2114,10 @@
         -88.67369079589844
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
-      "updated" : 1790242652,
+      "updated" : 1790277676,
       "yMax" : 15.325105667114258,
       "yMin" : 9.325105667114258
     },
@@ -2138,10 +2138,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
-      "updated" : 1790242652,
+      "updated" : 1790277676,
       "yMax" : 15.206149101257324,
       "yMin" : 9.206149101257324
     },
@@ -2159,10 +2159,10 @@
         26.75698471069336
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course Reverse",
-      "updated" : 1790242652,
+      "updated" : 1790277676,
       "yMax" : 15.290908813476562,
       "yMin" : 9.290908813476562
     },
@@ -2170,7 +2170,7 @@
       "context" : "lobby",
       "courseId" : 365,
       "halfWidthM" : 12,
-      "headingRad" : -0.47944390662348163,
+      "headingRad" : -0.4794439066234817,
       "kind" : "lap1",
       "lineA" : [
         118.6372763780229,
@@ -2183,10 +2183,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790242655,
+      "updated" : 1790277678,
       "yMax" : 15.306398391723633,
       "yMin" : 9.306398391723633
     },
@@ -2204,10 +2204,10 @@
         136.4912567138672
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790242655,
+      "updated" : 1790277693,
       "yMax" : 14.989425659179688,
       "yMin" : 8.989425659179688
     },
@@ -2215,7 +2215,7 @@
       "context" : "lobby",
       "courseId" : 365,
       "halfWidthM" : 12,
-      "headingRad" : -0.6120031655253197,
+      "headingRad" : -0.6120031655253196,
       "kind" : "pitExit",
       "lineA" : [
         77.23153483626123,
@@ -2228,10 +2228,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790242655,
+      "updated" : 1790277693,
       "yMax" : 15.297294616699219,
       "yMin" : 9.297294616699219
     },
@@ -2249,10 +2249,10 @@
         26.37334442138672
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790242655,
+      "updated" : 1790277693,
       "yMax" : 15.28999137878418,
       "yMin" : 9.28999137878418
     },
@@ -2260,23 +2260,23 @@
       "context" : "lobby",
       "courseId" : 365,
       "halfWidthM" : 12,
-      "headingRad" : -0.6369454815878298,
+      "headingRad" : -0.6369454816894662,
       "kind" : "finishLine",
       "lineA" : [
-        -34.48921140591236,
-        17.70727036679378
+        -34.48921140689285,
+        17.707270367519147
       ],
       "lineB" : [
-        -20.21538797458083,
-        37.001258151882965
+        -20.21538797360034,
+        37.0012581511576
       ],
-      "m2" : 10.534377228452298,
+      "m2" : 11.088818135212945,
       "offsetMaxM" : 0.38488727275553225,
       "offsetMinM" : -0.3526042695400604,
-      "samples" : 38,
-      "spreadM" : 0.5335849492501435,
+      "samples" : 40,
+      "spreadM" : 0.5332247838704286,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790242655,
+      "updated" : 1790277693,
       "yMax" : 15.284627914428711,
       "yMin" : 9.283863067626953
     },
@@ -2297,10 +2297,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Nürburgring GP",
-      "updated" : 1790242659,
+      "updated" : 1790277697,
       "yMax" : 145.07913208007812,
       "yMin" : 139.07913208007812
     },
@@ -2308,23 +2308,23 @@
       "context" : "customRace",
       "courseId" : 349,
       "halfWidthM" : 12,
-      "headingRad" : 2.3496913317456514,
+      "headingRad" : 2.349691332181641,
       "kind" : "finishLine",
       "lineA" : [
-        -1066.452342229264,
-        1889.9495033213898
+        -1066.4523422329396,
+        1889.9495033251133
       ],
       "lineB" : [
-        -1083.5329076079743,
-        1873.0896609038696
+        -1083.5329076042988,
+        1873.089660900146
       ],
-      "m2" : 850.6386471527318,
+      "m2" : 895.4091022660339,
       "offsetMaxM" : 6.0648080660024135,
-      "offsetMinM" : -1.919557422143133,
-      "samples" : 114,
-      "spreadM" : 2.743679215673682,
+      "offsetMinM" : -1.9213441245097065,
+      "samples" : 120,
+      "spreadM" : 2.743072408364332,
       "trackName" : "Nürburgring GP",
-      "updated" : 1790242660,
+      "updated" : 1790277700,
       "yMax" : 147.1090850830078,
       "yMin" : 140.9499053955078
     },
@@ -2342,10 +2342,10 @@
         1986.4676513671875
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Nürburgring GP",
-      "updated" : 1790242660,
+      "updated" : 1790277700,
       "yMax" : 145.56149291992188,
       "yMin" : 139.56149291992188
     },
@@ -2366,10 +2366,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Nürburgring GP",
-      "updated" : 1790242660,
+      "updated" : 1790277700,
       "yMax" : 144.290771484375,
       "yMin" : 138.290771484375
     },
@@ -2387,10 +2387,10 @@
         1986.4676513671875
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Nürburgring GP",
-      "updated" : 1790242660,
+      "updated" : 1790277700,
       "yMax" : 145.56149291992188,
       "yMin" : 139.56149291992188
     },
@@ -2433,10 +2433,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 17,
+      "samples" : 18,
       "spreadM" : 0,
       "trackName" : "Watkins Glen Short Course",
-      "updated" : 1790242666,
+      "updated" : 1790277720,
       "yMax" : 9.130905151367188,
       "yMin" : 3.1309051513671875
     },
@@ -2444,23 +2444,23 @@
       "context" : "customRace",
       "courseId" : 1264,
       "halfWidthM" : 12,
-      "headingRad" : -1.5083533084417058,
+      "headingRad" : -1.5083533081712104,
       "kind" : "finishLine",
       "lineA" : [
-        -353.60821987303933,
-        -517.902373476276
+        -353.60821987283686,
+        -517.9023734795156
       ],
       "lineB" : [
-        -329.6549942382889,
-        -516.4047147398697
+        -329.6549942384915,
+        -516.4047147366301
       ],
-      "m2" : 378.39380059468914,
+      "m2" : 400.65225945320043,
       "offsetMaxM" : 4.100654428509815,
-      "offsetMinM" : -2.5832099944484335,
-      "samples" : 51,
-      "spreadM" : 2.7509772830566566,
+      "offsetMinM" : -2.584567187166836,
+      "samples" : 54,
+      "spreadM" : 2.749450234766327,
       "trackName" : "Watkins Glen Short Course",
-      "updated" : 1790242666,
+      "updated" : 1790277721,
       "yMax" : 9.169125080108643,
       "yMin" : 3.142488956451416
     },
@@ -2468,23 +2468,23 @@
       "context" : "customRace",
       "courseId" : 354,
       "halfWidthM" : 12,
-      "headingRad" : -0.007394911509620312,
+      "headingRad" : -0.007394910894458196,
       "kind" : "lap1",
       "lineA" : [
-        -0.2656032320636211,
-        79.22381023876021
+        -0.2656032246818775,
+        79.22381023870562
       ],
       "lineB" : [
-        -0.08812697338286075,
-        103.22315402515581
+        -0.0881269807646043,
+        103.22315402521039
       ],
-      "m2" : 297.53435326478086,
-      "offsetMaxM" : 2.798146532373164,
+      "m2" : 313.1940560681904,
+      "offsetMaxM" : 2.7981465323831314,
       "offsetMinM" : -3.052506007212667,
-      "samples" : 38,
-      "spreadM" : 2.8357484033595504,
+      "samples" : 40,
+      "spreadM" : 2.833834296895514,
       "trackName" : "Northern Isle Speedway",
-      "updated" : 1790242748,
+      "updated" : 1790277934,
       "yMax" : 3.8521665930747986,
       "yMin" : -2.751996636390686
     },
@@ -2492,23 +2492,23 @@
       "context" : "customRace",
       "courseId" : 354,
       "halfWidthM" : 12,
-      "headingRad" : 0.0013374320025469398,
+      "headingRad" : 0.0013374288679795163,
       "kind" : "finishLine",
       "lineA" : [
-        -0.10745075043119945,
-        84.61510048056124
+        -0.10745078804597488,
+        84.6151004805109
       ],
       "lineB" : [
-        -0.13954910892313804,
-        108.61507901587211
+        -0.1395490713083626,
+        108.61507901592239
       ],
-      "m2" : 2235.270077478728,
+      "m2" : 2352.9158710302413,
       "offsetMaxM" : 2.0397006795897865,
-      "offsetMinM" : -6.238674073805574,
-      "samples" : 437,
-      "spreadM" : 2.2642363464862445,
+      "offsetMinM" : -6.2393945259881445,
+      "samples" : 460,
+      "spreadM" : 2.2641065275860157,
       "trackName" : "Northern Isle Speedway",
-      "updated" : 1790242748,
+      "updated" : 1790277935,
       "yMax" : 3.8403581976890564,
       "yMin" : -2.6651918590068817
     },
@@ -2529,10 +2529,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242667,
+      "updated" : 1790277723,
       "yMax" : 111.00959777832031,
       "yMin" : 105.00959777832031
     },
@@ -2553,10 +2553,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242667,
+      "updated" : 1790277723,
       "yMax" : 110.73250579833984,
       "yMin" : 104.73250579833984
     },
@@ -2564,23 +2564,23 @@
       "context" : "lobby",
       "courseId" : 376,
       "halfWidthM" : 12,
-      "headingRad" : 0.01786734178045096,
+      "headingRad" : 0.017867341846309708,
       "kind" : "finishLine",
       "lineA" : [
-        30.78770992977572,
-        -7.9887123651988725
+        30.7877099305659,
+        -7.988712365184752
       ],
       "lineB" : [
-        30.358916542697425,
-        16.007456833887844
+        30.358916541907245,
+        16.00745683387372
       ],
-      "m2" : 2.167404054861321,
+      "m2" : 2.2814779524856017,
       "offsetMaxM" : 0.08632532628494008,
-      "offsetMinM" : -0.07923582260866453,
-      "samples" : 38,
-      "spreadM" : 0.2420299319696324,
+      "offsetMinM" : -0.07923582262460982,
+      "samples" : 40,
+      "spreadM" : 0.2418665637890405,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242667,
+      "updated" : 1790277724,
       "yMax" : 110.98873138427734,
       "yMin" : 104.98605346679688
     },
@@ -2598,10 +2598,10 @@
         -15.676310539245605
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242667,
+      "updated" : 1790277724,
       "yMax" : 111.05595397949219,
       "yMin" : 105.05595397949219
     },
@@ -2609,7 +2609,7 @@
       "context" : "lobby",
       "courseId" : 376,
       "halfWidthM" : 12,
-      "headingRad" : 0.08087125688037718,
+      "headingRad" : 0.08087125688037716,
       "kind" : "pitExit",
       "lineA" : [
         39.68161684475873,
@@ -2622,10 +2622,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242667,
+      "updated" : 1790277724,
       "yMax" : 110.9654312133789,
       "yMin" : 104.9654312133789
     },
@@ -2643,10 +2643,10 @@
         -21.62148094177246
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242667,
+      "updated" : 1790277724,
       "yMax" : 111.15338134765625,
       "yMin" : 105.15338134765625
     },
@@ -2667,10 +2667,10 @@
       "m2" : 3.1554436208840472e-30,
       "offsetMaxM" : 8.880447023455578e-16,
       "offsetMinM" : 0,
-      "samples" : 19,
-      "spreadM" : 4.1869132231567334e-16,
+      "samples" : 20,
+      "spreadM" : 4.075242079270001e-16,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242670,
+      "updated" : 1790277727,
       "yMax" : 110.98614501953125,
       "yMin" : 104.98614501953125
     },
@@ -2678,23 +2678,23 @@
       "context" : "timeTrial",
       "courseId" : 376,
       "halfWidthM" : 12,
-      "headingRad" : 0.017711161289130896,
+      "headingRad" : 0.017711161317065616,
       "kind" : "finishLine",
       "lineA" : [
-        30.604357655422092,
-        -9.051675050606441
+        30.60435765575725,
+        -9.051675050600505
       ],
       "lineB" : [
-        30.17931200705351,
-        14.944560824980442
+        30.179312006718344,
+        14.944560824974506
       ],
-      "m2" : 309.14062705340734,
-      "offsetMaxM" : 1.861477114921689,
+      "m2" : 325.41118637200776,
+      "offsetMaxM" : 1.8618007499439824,
       "offsetMinM" : -3.416938397553895,
-      "samples" : 95,
-      "spreadM" : 1.8134856147861356,
+      "samples" : 100,
+      "spreadM" : 1.8130034971078604,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242671,
+      "updated" : 1790277728,
       "yMax" : 110.9896469116211,
       "yMin" : 104.98503875732422
     },
@@ -2702,23 +2702,23 @@
       "context" : "customRace",
       "courseId" : 376,
       "halfWidthM" : 12,
-      "headingRad" : -0.0020590377953692536,
+      "headingRad" : -0.002404308661380674,
       "kind" : "lap1",
       "lineA" : [
-        30.447441704253183,
-        -10.657547406979218
+        30.447125789172283,
+        -10.69774210230218
       ],
       "lineB" : [
-        30.496858576423765,
-        13.342401717399044
+        30.504829141451083,
+        13.302188529329564
       ],
-      "m2" : 636.202190210566,
+      "m2" : 659.8776083087072,
       "offsetMaxM" : 3.3996613541033893,
       "offsetMinM" : -4.512780195256182,
-      "samples" : 72,
-      "spreadM" : 2.9934251666473695,
+      "samples" : 75,
+      "spreadM" : 2.9861789928175257,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242673,
+      "updated" : 1790277730,
       "yMax" : 110.99754333496094,
       "yMin" : 104.99465942382812
     },
@@ -2726,23 +2726,23 @@
       "context" : "customRace",
       "courseId" : 376,
       "halfWidthM" : 12,
-      "headingRad" : 0.017381049660247606,
+      "headingRad" : 0.01739392760563698,
       "kind" : "finishLine",
       "lineA" : [
-        30.618697763808626,
-        -9.305111094551362
+        30.618445323772367,
+        -9.297915451570228
       ],
       "lineB" : [
-        30.201573574967526,
-        14.691263786065159
+        30.20101211096061,
+        14.698454055353976
       ],
-      "m2" : 2401.4796257035764,
+      "m2" : 2502.4430075112564,
       "offsetMaxM" : 2.814733151332429,
       "offsetMinM" : -7.339204409407401,
-      "samples" : 417,
-      "spreadM" : 2.4026625984077423,
+      "samples" : 436,
+      "spreadM" : 2.3984875538561563,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242675,
+      "updated" : 1790277732,
       "yMax" : 111.00374603271484,
       "yMin" : 104.9865493774414
     },
@@ -2759,11 +2759,11 @@
         -202.8575897216797,
         -16.47450828552246
       ],
-      "m2" : 3.4491992918410688,
-      "samples" : 38,
-      "spreadM" : 0.3053221290411015,
+      "m2" : 3.6307360966748092,
+      "samples" : 40,
+      "spreadM" : 0.30511603915663976,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242674,
+      "updated" : 1790277732,
       "yMax" : 111.05602264404297,
       "yMin" : 105.05574035644531
     },
@@ -2781,13 +2781,13 @@
         37.742986228479886,
         -0.43786976066849803
       ],
-      "m2" : 3.456079866666038e-09,
+      "m2" : 3.637978807020624e-09,
       "offsetMaxM" : 1.0369730858824663e-05,
       "offsetMinM" : -9.505584844068282e-06,
-      "samples" : 38,
-      "spreadM" : 9.6647588673462e-06,
+      "samples" : 40,
+      "spreadM" : 9.658235235917776e-06,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242674,
+      "updated" : 1790277732,
       "yMax" : 110.96544647216797,
       "yMin" : 104.96538543701172
     },
@@ -2804,11 +2804,11 @@
         -64.39909744262695,
         -21.62148666381836
       ],
-      "m2" : 5.529727786779404e-10,
-      "samples" : 38,
-      "spreadM" : 3.865903546978239e-06,
+      "m2" : 5.820766091346741e-10,
+      "samples" : 40,
+      "spreadM" : 3.863294094404856e-06,
       "trackName" : "Kyoto Driving Park - Yamagiwa",
-      "updated" : 1790242674,
+      "updated" : 1790277732,
       "yMax" : 111.15434265136719,
       "yMin" : 105.15399932861328
     },
@@ -2829,10 +2829,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Daytona Road Course",
-      "updated" : 1790242678,
+      "updated" : 1790277735,
       "yMax" : 3.2383012175559998,
       "yMin" : -2.7616987824440002
     },
@@ -2840,23 +2840,23 @@
       "context" : "lobby",
       "courseId" : 1163,
       "halfWidthM" : 12,
-      "headingRad" : 2.207129760666713,
+      "headingRad" : 2.207129760703748,
       "kind" : "finishLine",
       "lineA" : [
-        -388.31649714494654,
-        -281.17573384842495
+        -388.31649714521063,
+        -281.1757338480675
       ],
       "lineB" : [
-        -407.61921757673315,
-        -295.43774576583286
+        -407.61921757646905,
+        -295.4377457661903
       ],
-      "m2" : 343.7960693209898,
+      "m2" : 361.8905992852524,
       "offsetMaxM" : 3.0056103832900973,
       "offsetMinM" : -3.2788959971443004,
-      "samples" : 38,
-      "spreadM" : 3.0482430443329234,
+      "samples" : 40,
+      "spreadM" : 3.046185505762788,
       "trackName" : "Daytona Road Course",
-      "updated" : 1790242678,
+      "updated" : 1790277737,
       "yMax" : 6.486751556396484,
       "yMin" : -1.4593117237091064
     },
@@ -2874,10 +2874,10 @@
         -407.7997131347656
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Daytona Road Course",
-      "updated" : 1790242678,
+      "updated" : 1790277737,
       "yMax" : 3.521262526512146,
       "yMin" : -2.478737473487854
     },
@@ -2898,10 +2898,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Daytona Road Course",
-      "updated" : 1790242678,
+      "updated" : 1790277737,
       "yMax" : 3.5903812646865845,
       "yMin" : -2.4096187353134155
     },
@@ -2919,10 +2919,10 @@
         -205.27272033691406
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Daytona Road Course",
-      "updated" : 1790242678,
+      "updated" : 1790277737,
       "yMax" : 3.540066957473755,
       "yMin" : -2.459933042526245
     },
@@ -2943,10 +2943,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Daytona Tri-Oval",
-      "updated" : 1790242681,
+      "updated" : 1790277741,
       "yMax" : 3.437628298997879,
       "yMin" : -2.562371701002121
     },
@@ -2954,23 +2954,23 @@
       "context" : "lobby",
       "courseId" : 4,
       "halfWidthM" : 12,
-      "headingRad" : 2.205332307238156,
+      "headingRad" : 2.2053323072182938,
       "kind" : "finishLine",
       "lineA" : [
-        -387.37828259579845,
-        -279.99462978921497
+        -387.37828259565714,
+        -279.99462978940693
       ],
       "lineB" : [
-        -406.7066071340193,
-        -294.22192294516026
+        -406.7066071341606,
+        -294.2219229449683
       ],
-      "m2" : 423.26733947234754,
+      "m2" : 445.54456786562906,
       "offsetMaxM" : 3.99900216899957,
-      "offsetMinM" : -2.417538149524794,
-      "samples" : 57,
-      "spreadM" : 2.749244504899572,
+      "offsetMinM" : -2.418793388514332,
+      "samples" : 60,
+      "spreadM" : 2.7480179848720336,
       "trackName" : "Daytona Tri-Oval",
-      "updated" : 1790242681,
+      "updated" : 1790277751,
       "yMax" : 6.261716842651367,
       "yMin" : -1.7472175359725952
     },
@@ -2988,10 +2988,10 @@
         -408.184326171875
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Daytona Tri-Oval",
-      "updated" : 1790242681,
+      "updated" : 1790277751,
       "yMax" : 3.547412157058716,
       "yMin" : -2.452587842941284
     },
@@ -3012,10 +3012,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Daytona Tri-Oval",
-      "updated" : 1790242681,
+      "updated" : 1790277751,
       "yMax" : 3.546826481819153,
       "yMin" : -2.453173518180847
     },
@@ -3033,10 +3033,10 @@
         -205.27267456054688
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Daytona Tri-Oval",
-      "updated" : 1790242681,
+      "updated" : 1790277751,
       "yMax" : 3.540051579475403,
       "yMin" : -2.459948420524597
     },
@@ -3057,10 +3057,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Tsukuba Circuit",
-      "updated" : 1790242682,
+      "updated" : 1790277752,
       "yMax" : 15.270500183105469,
       "yMin" : 9.270500183105469
     },
@@ -3068,23 +3068,23 @@
       "context" : "lobby",
       "courseId" : 471,
       "halfWidthM" : 12,
-      "headingRad" : 0.041809270550971486,
+      "headingRad" : 0.04180927032713766,
       "kind" : "finishLine",
       "lineA" : [
-        -151.22128189194993,
-        -190.74160643429843
+        -151.22128189463356,
+        -190.7416064344107
       ],
       "lineB" : [
-        -152.22441207777663,
-        -166.7625795601677
+        -152.224412075093,
+        -166.76257956005543
       ],
-      "m2" : 18.569210027965397,
+      "m2" : 19.546536871542532,
       "offsetMaxM" : 0.7381986572004007,
       "offsetMinM" : -0.5016703566937885,
-      "samples" : 57,
-      "spreadM" : 0.575841155366363,
+      "samples" : 60,
+      "spreadM" : 0.5755842554404094,
       "trackName" : "Tsukuba Circuit",
-      "updated" : 1790242682,
+      "updated" : 1790277753,
       "yMax" : 13.399195671081543,
       "yMin" : 7.386300086975098
     },
@@ -3102,10 +3102,10 @@
         -8.812407493591309
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Tsukuba Circuit",
-      "updated" : 1790242683,
+      "updated" : 1790277753,
       "yMax" : 13.418508529663086,
       "yMin" : 7.418508529663086
     },
@@ -3126,10 +3126,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Tsukuba Circuit",
-      "updated" : 1790242683,
+      "updated" : 1790277753,
       "yMax" : 14.1626558303833,
       "yMin" : 8.1626558303833
     },
@@ -3147,10 +3147,10 @@
         -158.54580688476562
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Tsukuba Circuit",
-      "updated" : 1790242683,
+      "updated" : 1790277753,
       "yMax" : 13.300863265991211,
       "yMin" : 7.300863265991211
     },
@@ -3171,10 +3171,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield B Reverse",
-      "updated" : 1790242684,
+      "updated" : 1790277755,
       "yMax" : 3.054322063922882,
       "yMin" : -2.945677936077118
     },
@@ -3182,23 +3182,23 @@
       "context" : "lobby",
       "courseId" : 823,
       "halfWidthM" : 12,
-      "headingRad" : 3.139195177329916,
+      "headingRad" : 3.139195177323984,
       "kind" : "finishLine",
       "lineA" : [
-        -11.513214393710648,
-        380.9256933569003
+        -11.513214393639462,
+        380.9256933569001
       ],
       "lineB" : [
-        -11.570753768825973,
-        356.92576233157627
+        -11.57075376889716,
+        356.92576233157644
       ],
-      "m2" : 40.284759937749186,
-      "offsetMaxM" : 1.0290681196016884,
+      "m2" : 42.40501046078862,
+      "offsetMaxM" : 1.029068119601904,
       "offsetMinM" : -1.1226120880231678,
-      "samples" : 38,
-      "spreadM" : 1.0434449173841631,
+      "samples" : 40,
+      "spreadM" : 1.042740600788634,
       "trackName" : "Blue Moon Bay Speedway - Infield B Reverse",
-      "updated" : 1790242684,
+      "updated" : 1790277760,
       "yMax" : 2.977729231119156,
       "yMin" : -3.057279795408249
     },
@@ -3216,10 +3216,10 @@
         344.0751037597656
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield B Reverse",
-      "updated" : 1790242684,
+      "updated" : 1790277760,
       "yMax" : 3.063712179660797,
       "yMin" : -2.936287820339203
     },
@@ -3240,10 +3240,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield B Reverse",
-      "updated" : 1790242684,
+      "updated" : 1790277760,
       "yMax" : 3.0690414905548096,
       "yMin" : -2.9309585094451904
     },
@@ -3261,10 +3261,10 @@
         331.83160400390625
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield B Reverse",
-      "updated" : 1790242684,
+      "updated" : 1790277760,
       "yMax" : 3.042585402727127,
       "yMin" : -2.957414597272873
     },
@@ -3285,10 +3285,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield B",
-      "updated" : 1790242686,
+      "updated" : 1790277762,
       "yMax" : 3.059573382139206,
       "yMin" : -2.940426617860794
     },
@@ -3296,23 +3296,23 @@
       "context" : "lobby",
       "courseId" : 819,
       "halfWidthM" : 12,
-      "headingRad" : 0.0015433116714099217,
+      "headingRad" : 0.0015433115148653497,
       "kind" : "finishLine",
       "lineA" : [
-        -11.23199072147269,
-        356.68452356820643
+        -11.231990723351222,
+        356.68452356820353
       ],
       "lineB" : [
-        -11.269030186883024,
-        380.68449498648107
+        -11.26903018500449,
+        380.68449498648397
       ],
-      "m2" : 54.86701552737611,
+      "m2" : 57.754753186711696,
       "offsetMaxM" : 1.258612660888452,
       "offsetMinM" : -1.1535206385749381,
-      "samples" : 38,
-      "spreadM" : 1.217740658576655,
+      "samples" : 40,
+      "spreadM" : 1.216918693813018,
       "trackName" : "Blue Moon Bay Speedway - Infield B",
-      "updated" : 1790242687,
+      "updated" : 1790277767,
       "yMax" : 2.9765414893627167,
       "yMin" : -3.061858594417572
     },
@@ -3330,10 +3330,10 @@
         343.777099609375
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield B",
-      "updated" : 1790242687,
+      "updated" : 1790277767,
       "yMax" : 3.068999260663986,
       "yMin" : -2.931000739336014
     },
@@ -3354,10 +3354,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield B",
-      "updated" : 1790242687,
+      "updated" : 1790277767,
       "yMax" : 3.0641024708747864,
       "yMin" : -2.9358975291252136
     },
@@ -3375,10 +3375,10 @@
         331.888427734375
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield B",
-      "updated" : 1790242687,
+      "updated" : 1790277767,
       "yMax" : 3.0336826145648956,
       "yMin" : -2.9663173854351044
     },
@@ -3399,10 +3399,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield A Reverse",
-      "updated" : 1790242688,
+      "updated" : 1790277769,
       "yMax" : 3.05593940615654,
       "yMin" : -2.94406059384346
     },
@@ -3410,23 +3410,23 @@
       "context" : "lobby",
       "courseId" : 822,
       "halfWidthM" : 12,
-      "headingRad" : 3.1372393306057926,
+      "headingRad" : 3.1372393306019326,
       "kind" : "finishLine",
       "lineA" : [
-        -11.206407731059164,
-        378.2354107870963
+        -11.206407731012844,
+        378.2354107870961
       ],
       "lineB" : [
-        -11.310887152668863,
-        354.23563820378916
+        -11.310887152715184,
+        354.2356382037894
       ],
-      "m2" : 142.0559786702554,
-      "offsetMaxM" : 1.5183092559461946,
+      "m2" : 149.5326091265847,
+      "offsetMaxM" : 1.5183092559469857,
       "offsetMinM" : -2.237267464375678,
-      "samples" : 57,
-      "spreadM" : 1.5927064716469226,
+      "samples" : 60,
+      "spreadM" : 1.5919959177540324,
       "trackName" : "Blue Moon Bay Speedway - Infield A Reverse",
-      "updated" : 1790242688,
+      "updated" : 1790277774,
       "yMax" : 2.9495840668678284,
       "yMin" : -3.0734214782714844
     },
@@ -3444,10 +3444,10 @@
         343.3564147949219
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield A Reverse",
-      "updated" : 1790242688,
+      "updated" : 1790277774,
       "yMax" : 3.064308285713196,
       "yMin" : -2.935691714286804
     },
@@ -3468,10 +3468,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield A Reverse",
-      "updated" : 1790242688,
+      "updated" : 1790277774,
       "yMax" : 3.073158860206604,
       "yMin" : -2.926841139793396
     },
@@ -3489,10 +3489,10 @@
         331.83160400390625
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield A Reverse",
-      "updated" : 1790242688,
+      "updated" : 1790277774,
       "yMax" : 3.0427226126194,
       "yMin" : -2.9572773873806
     },
@@ -3500,7 +3500,7 @@
       "context" : "lobby",
       "courseId" : 820,
       "halfWidthM" : 12,
-      "headingRad" : 0.007855567437954989,
+      "headingRad" : 0.007855567437954987,
       "kind" : "lap1",
       "lineA" : [
         236.96831216540886,
@@ -3513,10 +3513,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield A",
-      "updated" : 1790242692,
+      "updated" : 1790277778,
       "yMax" : 3.059173732995987,
       "yMin" : -2.940826267004013
     },
@@ -3524,23 +3524,23 @@
       "context" : "lobby",
       "courseId" : 820,
       "halfWidthM" : 12,
-      "headingRad" : 0.0018546658565469156,
+      "headingRad" : 0.0018546658561293698,
       "kind" : "finishLine",
       "lineA" : [
-        -11.60204092609097,
+        -11.602040926095981,
         354.39080585599186
       ],
       "lineB" : [
-        -11.64655288112949,
+        -11.646552881124478,
         378.39076457857846
       ],
-      "m2" : 216.20612469489186,
+      "m2" : 227.58539441567564,
       "offsetMaxM" : 2.5902232273260926,
-      "offsetMinM" : -2.374390814342361,
-      "samples" : 38,
-      "spreadM" : 2.417314372508801,
+      "offsetMinM" : -2.3743908143424632,
+      "samples" : 40,
+      "spreadM" : 2.4156827055172774,
       "trackName" : "Blue Moon Bay Speedway - Infield A",
-      "updated" : 1790242692,
+      "updated" : 1790277783,
       "yMax" : 2.955277681350708,
       "yMin" : -3.0734872817993164
     },
@@ -3558,10 +3558,10 @@
         343.1776428222656
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield A",
-      "updated" : 1790242692,
+      "updated" : 1790277783,
       "yMax" : 3.0676106214523315,
       "yMin" : -2.9323893785476685
     },
@@ -3582,10 +3582,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield A",
-      "updated" : 1790242692,
+      "updated" : 1790277783,
       "yMax" : 3.0644311010837555,
       "yMin" : -2.9355688989162445
     },
@@ -3603,10 +3603,10 @@
         331.888427734375
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway - Infield A",
-      "updated" : 1790242692,
+      "updated" : 1790277783,
       "yMax" : 3.033712089061737,
       "yMin" : -2.966287910938263
     },
@@ -3614,47 +3614,47 @@
       "context" : "lobby",
       "courseId" : 449,
       "halfWidthM" : 12,
-      "headingRad" : 3.10303940919413,
+      "headingRad" : 3.103039409193997,
       "kind" : "lap1",
       "lineA" : [
-        -257.5772934762278,
-        355.4716356619866
+        -257.5772934762262,
+        355.47163566198657
       ],
       "lineB" : [
-        -258.5023421438894,
-        331.48946968469306
+        -258.502342143891,
+        331.4894696846931
       ],
-      "m2" : 0.35495192161761224,
-      "offsetMaxM" : 0.017842186951401686,
+      "m2" : 0.37363360170274973,
+      "offsetMaxM" : 0.017842186951415265,
       "offsetMinM" : -0.01945814081885671,
-      "samples" : 38,
-      "spreadM" : 0.09794536833793818,
+      "samples" : 40,
+      "spreadM" : 0.09787925603318084,
       "trackName" : "Blue Moon Bay Speedway Reverse",
-      "updated" : 1790242695,
+      "updated" : 1790277786,
       "yMax" : 3.057489275932312,
       "yMin" : -2.9445905685424805
     },
     {
       "context" : "lobby",
       "courseId" : 449,
-      "halfWidthM" : 16.157504053687646,
-      "headingRad" : 3.1332738041979575,
+      "halfWidthM" : 16.15665193206937,
+      "headingRad" : 3.1332738015035986,
       "kind" : "finishLine",
       "lineA" : [
-        -11.116568349023561,
-        381.50180460011427
+        -11.116575394082894,
+        381.50095250761836
       ],
       "lineB" : [
-        -11.385388933996476,
-        349.1879146381672
+        -11.385381888937143,
+        349.18876673066285
       ],
-      "m2" : 13749.420028233122,
-      "offsetMaxM" : 14.743821323982603,
+      "m2" : 14473.0737139296,
+      "offsetMaxM" : 14.74406358065379,
       "offsetMinM" : -6.459854370294167,
-      "samples" : 475,
-      "spreadM" : 5.385834684562549,
+      "samples" : 500,
+      "spreadM" : 5.385550644023123,
       "trackName" : "Blue Moon Bay Speedway Reverse",
-      "updated" : 1790242695,
+      "updated" : 1790277791,
       "yMax" : 3.046910583972931,
       "yMin" : -3.0754218697547913
     },
@@ -3671,11 +3671,11 @@
         232.64558919270831,
         340.86832682291663
       ],
-      "m2" : 4.045819740587205,
-      "samples" : 57,
-      "spreadM" : 0.2687876133342353,
+      "m2" : 4.25875762167074,
+      "samples" : 60,
+      "spreadM" : 0.2686676991576965,
       "trackName" : "Blue Moon Bay Speedway Reverse",
-      "updated" : 1790242695,
+      "updated" : 1790277791,
       "yMax" : 3.0656622648239136,
       "yMin" : -2.934799611568451
     },
@@ -3683,23 +3683,23 @@
       "context" : "lobby",
       "courseId" : 449,
       "halfWidthM" : 12,
-      "headingRad" : -3.1389711632346957,
+      "headingRad" : -3.1389711632346677,
       "kind" : "pitExit",
       "lineA" : [
-        -239.1848849722537,
+        -239.18488497225405,
         355.12615912482653
       ],
       "lineB" : [
-        -239.1219692757931,
+        -239.12196927579276,
         331.12624159131946
       ],
-      "m2" : 0.22646888081605238,
-      "offsetMaxM" : 0.00018602017264138034,
+      "m2" : 0.2383882955958441,
+      "offsetMaxM" : 0.00018612539470547486,
       "offsetMinM" : -0.0003382213132136921,
-      "samples" : 57,
-      "spreadM" : 0.06359313765988833,
+      "samples" : 60,
+      "spreadM" : 0.06356476686317852,
       "trackName" : "Blue Moon Bay Speedway Reverse",
-      "updated" : 1790242695,
+      "updated" : 1790277791,
       "yMax" : 3.0774906873703003,
       "yMin" : -2.922625780105591
     },
@@ -3716,11 +3716,11 @@
         32.03415743509928,
         331.833526611328
       ],
-      "m2" : 0.22559946314383117,
-      "samples" : 57,
-      "spreadM" : 0.06347095274103051,
+      "m2" : 0.23747311909876948,
+      "samples" : 60,
+      "spreadM" : 0.06344263645465978,
       "trackName" : "Blue Moon Bay Speedway Reverse",
-      "updated" : 1790242695,
+      "updated" : 1790277791,
       "yMax" : 3.0431580245494843,
       "yMin" : -2.95740807056427
     },
@@ -3741,10 +3741,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway",
-      "updated" : 1790242698,
+      "updated" : 1790277794,
       "yMax" : 3.0570799112319946,
       "yMin" : -2.9429200887680054
     },
@@ -3752,23 +3752,23 @@
       "context" : "lobby",
       "courseId" : 356,
       "halfWidthM" : 12,
-      "headingRad" : 0.004253908749395427,
+      "headingRad" : 0.004253908759269742,
       "kind" : "finishLine",
       "lineA" : [
-        -11.087022719685836,
-        356.6019559050035
+        -11.087022719567344,
+        356.601955905004
       ],
       "lineB" : [
-        -11.189116221761102,
-        380.6017387564551
+        -11.189116221879594,
+        380.6017387564546
       ],
-      "m2" : 292.7628140062885,
+      "m2" : 308.1713831645142,
       "offsetMaxM" : 2.9553847272917886,
-      "offsetMinM" : -2.700848145481678,
-      "samples" : 57,
-      "spreadM" : 2.2864617628487554,
+      "offsetMinM" : -2.7009315530886373,
+      "samples" : 60,
+      "spreadM" : 2.2854417040146515,
       "trackName" : "Blue Moon Bay Speedway",
-      "updated" : 1790242698,
+      "updated" : 1790277796,
       "yMax" : 3.01650607585907,
       "yMin" : -3.076366811990738
     },
@@ -3786,10 +3786,10 @@
         341.5121154785156
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway",
-      "updated" : 1790242698,
+      "updated" : 1790277796,
       "yMax" : 3.066167652606964,
       "yMin" : -2.933832347393036
     },
@@ -3810,10 +3810,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway",
-      "updated" : 1790242698,
+      "updated" : 1790277796,
       "yMax" : 3.0677039325237274,
       "yMin" : -2.9322960674762726
     },
@@ -3831,10 +3831,10 @@
         331.888427734375
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Blue Moon Bay Speedway",
-      "updated" : 1790242698,
+      "updated" : 1790277796,
       "yMax" : 3.0337561666965485,
       "yMin" : -2.9662438333034515
     },
@@ -3842,7 +3842,7 @@
       "context" : "lobby",
       "courseId" : 1069,
       "halfWidthM" : 12,
-      "headingRad" : -0.0643492156756738,
+      "headingRad" : -0.06434921567567378,
       "kind" : "lap1",
       "lineA" : [
         307.3549901680248,
@@ -3855,10 +3855,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "High Speed Ring Reverse",
-      "updated" : 1790242699,
+      "updated" : 1790277797,
       "yMax" : 3.0762964487075806,
       "yMin" : -2.9237035512924194
     },
@@ -3866,23 +3866,23 @@
       "context" : "lobby",
       "courseId" : 1069,
       "halfWidthM" : 12,
-      "headingRad" : 0.012438313886791152,
+      "headingRad" : 0.012438313278959228,
       "kind" : "finishLine",
       "lineA" : [
-        76.34864060729814,
-        -397.8868814954717
+        76.34864060000471,
+        -397.8868814955624
       ],
       "lineB" : [
-        76.05012877136397,
-        -373.88873801136424
+        76.0501287786574,
+        -373.8887380112735
       ],
-      "m2" : 40.16300314207184,
-      "offsetMaxM" : 1.0205288716028142,
+      "m2" : 42.276845412707196,
+      "offsetMaxM" : 1.02052887168398,
       "offsetMinM" : -1.1131721022145171,
-      "samples" : 38,
-      "spreadM" : 1.0418668683701133,
+      "samples" : 40,
+      "spreadM" : 1.0411636169444753,
       "trackName" : "High Speed Ring Reverse",
-      "updated" : 1790242700,
+      "updated" : 1790277798,
       "yMax" : 3.056362360715866,
       "yMin" : -2.9436626732349396
     },
@@ -3900,10 +3900,10 @@
         -366.9288024902344
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "High Speed Ring Reverse",
-      "updated" : 1790242700,
+      "updated" : 1790277798,
       "yMax" : 3.062359392642975,
       "yMin" : -2.937640607357025
     },
@@ -3924,10 +3924,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "High Speed Ring Reverse",
-      "updated" : 1790242700,
+      "updated" : 1790277798,
       "yMax" : 3.071989208459854,
       "yMin" : -2.928010791540146
     },
@@ -3945,10 +3945,10 @@
         -358.2336120605469
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "High Speed Ring Reverse",
-      "updated" : 1790242700,
+      "updated" : 1790277798,
       "yMax" : 3.0722274780273438,
       "yMin" : -2.9277725219726562
     },
@@ -3969,10 +3969,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "High Speed Ring",
-      "updated" : 1790242701,
+      "updated" : 1790277800,
       "yMax" : 3.054407060146332,
       "yMin" : -2.945592939853668
     },
@@ -3980,23 +3980,23 @@
       "context" : "lobby",
       "courseId" : 11,
       "halfWidthM" : 12,
-      "headingRad" : 3.140341111808761,
+      "headingRad" : 3.1403411117503697,
       "kind" : "finishLine",
       "lineA" : [
-        75.63028911207569,
-        -369.06971154657725
+        75.63028911277638,
+        -369.0697115465781
       ],
       "lineB" : [
-        75.60025211717236,
-        -393.06969275029775
+        75.60025211647167,
+        -393.0696927502969
       ],
-      "m2" : 64.35764965603448,
-      "offsetMaxM" : 1.2838066774814207,
+      "m2" : 67.74489437477314,
+      "offsetMaxM" : 1.2838066774947996,
       "offsetMinM" : -1.4004128229897317,
-      "samples" : 38,
-      "spreadM" : 1.31886160632933,
+      "samples" : 40,
+      "spreadM" : 1.31797138577138,
       "trackName" : "High Speed Ring",
-      "updated" : 1790242701,
+      "updated" : 1790277805,
       "yMax" : 3.055873453617096,
       "yMin" : -2.94660684466362
     },
@@ -4017,10 +4017,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "High Speed Ring",
-      "updated" : 1790242702,
+      "updated" : 1790277805,
       "yMax" : 3.0629040002822876,
       "yMin" : -2.9370959997177124
     },
@@ -4041,10 +4041,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "High Speed Ring",
-      "updated" : 1790242702,
+      "updated" : 1790277805,
       "yMax" : 3.0705699026584625,
       "yMin" : -2.9294300973415375
     },
@@ -4062,10 +4062,10 @@
         -357.8665466308594
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "High Speed Ring",
-      "updated" : 1790242702,
+      "updated" : 1790277805,
       "yMax" : 3.0718894302845,
       "yMin" : -2.9281105697155
     },
@@ -4086,10 +4086,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Seaside Reverse",
-      "updated" : 1790242705,
+      "updated" : 1790277808,
       "yMax" : 2.32550311088562,
       "yMin" : -3.67449688911438
     },
@@ -4097,23 +4097,23 @@
       "context" : "lobby",
       "courseId" : 601,
       "halfWidthM" : 12,
-      "headingRad" : 1.8252800646362095,
+      "headingRad" : 1.8252800641822013,
       "kind" : "finishLine",
       "lineA" : [
-        -334.5599335868124,
-        376.7687829371483
+        -334.5599335854409,
+        376.76878293187565
       ],
       "lineB" : [
-        -357.78697498252353,
-        370.726883566758
+        -357.78697498389505,
+        370.7268835720306
       ],
-      "m2" : 225.36621104215737,
+      "m2" : 237.22759057069197,
       "offsetMaxM" : 2.6560896461715027,
-      "offsetMinM" : -2.434793561258717,
-      "samples" : 38,
-      "spreadM" : 2.467990817814172,
+      "offsetMinM" : -2.434793561282964,
+      "samples" : 40,
+      "spreadM" : 2.4663249446457467,
       "trackName" : "Dragon Trail - Seaside Reverse",
-      "updated" : 1790242705,
+      "updated" : 1790277812,
       "yMax" : 2.323050856590271,
       "yMin" : -3.6856897473335266
     },
@@ -4131,10 +4131,10 @@
         140.5952911376953
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Seaside Reverse",
-      "updated" : 1790242705,
+      "updated" : 1790277812,
       "yMax" : 1.8191964626312256,
       "yMin" : -4.180803537368774
     },
@@ -4155,10 +4155,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Seaside Reverse",
-      "updated" : 1790242705,
+      "updated" : 1790277812,
       "yMax" : 2.8024885654449463,
       "yMin" : -3.1975114345550537
     },
@@ -4176,10 +4176,10 @@
         279.0235595703125
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Seaside Reverse",
-      "updated" : 1790242705,
+      "updated" : 1790277812,
       "yMax" : 1.6720083951950073,
       "yMin" : -4.327991604804993
     },
@@ -4200,10 +4200,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Gardens Reverse",
-      "updated" : 1790242709,
+      "updated" : 1790277816,
       "yMax" : 7.589975357055664,
       "yMin" : 1.589975357055664
     },
@@ -4211,23 +4211,23 @@
       "context" : "lobby",
       "courseId" : 853,
       "halfWidthM" : 12,
-      "headingRad" : 1.7914105046753288,
+      "headingRad" : 1.7914105046846807,
       "kind" : "finishLine",
       "lineA" : [
-        -447.78643903771103,
-        108.31162786752972
+        -447.7864390377356,
+        108.31162786763922
       ],
       "lineB" : [
-        -471.2047566409999,
-        103.05973291127887
+        -471.20475664097535,
+        103.05973291116938
       ],
-      "m2" : 175.82990984409116,
-      "offsetMaxM" : 2.150863973679842,
+      "m2" : 185.08411562535912,
+      "offsetMaxM" : 2.1508639736801407,
       "offsetMinM" : -2.3463891491092874,
-      "samples" : 38,
-      "spreadM" : 2.179944890476816,
+      "samples" : 40,
+      "spreadM" : 2.1784734459011403,
       "trackName" : "Dragon Trail - Gardens Reverse",
-      "updated" : 1790242710,
+      "updated" : 1790277823,
       "yMax" : 7.567634105682373,
       "yMin" : 1.5674047470092773
     },
@@ -4245,10 +4245,10 @@
         -138.68211364746094
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Gardens Reverse",
-      "updated" : 1790242710,
+      "updated" : 1790277823,
       "yMax" : 7.626658916473389,
       "yMin" : 1.6266589164733887
     },
@@ -4269,10 +4269,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Gardens Reverse",
-      "updated" : 1790242710,
+      "updated" : 1790277823,
       "yMax" : 7.564877033233643,
       "yMin" : 1.5648770332336426
     },
@@ -4290,10 +4290,10 @@
         -16.87782096862793
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Gardens Reverse",
-      "updated" : 1790242710,
+      "updated" : 1790277823,
       "yMax" : 7.597705364227295,
       "yMin" : 1.597705364227295
     },
@@ -4314,10 +4314,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Gardens",
-      "updated" : 1790242714,
+      "updated" : 1790277827,
       "yMax" : 7.616379737854004,
       "yMin" : 1.616379737854004
     },
@@ -4325,23 +4325,23 @@
       "context" : "lobby",
       "courseId" : 847,
       "halfWidthM" : 12,
-      "headingRad" : -1.3576484684957384,
+      "headingRad" : -1.3576484684956447,
       "kind" : "finishLine",
       "lineA" : [
-        -440.97840026814083,
-        -29.57983690361282
+        -440.9784002681406,
+        -29.579836903613916
       ],
       "lineB" : [
-        -417.52152343791386,
-        -24.50293535133103
+        -417.5215234379141,
+        -24.50293535132993
       ],
-      "m2" : 153.18623249218717,
+      "m2" : 161.24866578124966,
       "offsetMaxM" : 2.181220207403599,
       "offsetMinM" : -1.9994423381194915,
-      "samples" : 38,
-      "spreadM" : 2.034740387797615,
+      "samples" : 40,
+      "spreadM" : 2.0333669550472675,
       "trackName" : "Dragon Trail - Gardens",
-      "updated" : 1790242714,
+      "updated" : 1790277831,
       "yMax" : 7.589444637298584,
       "yMin" : 1.5891518592834473
     },
@@ -4359,10 +4359,10 @@
         164.8994598388672
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Gardens",
-      "updated" : 1790242714,
+      "updated" : 1790277831,
       "yMax" : 7.564945220947266,
       "yMin" : 1.5649452209472656
     },
@@ -4383,10 +4383,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Gardens",
-      "updated" : 1790242714,
+      "updated" : 1790277831,
       "yMax" : 7.622995853424072,
       "yMin" : 1.6229958534240723
     },
@@ -4404,10 +4404,10 @@
         -17.761978149414062
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Gardens",
-      "updated" : 1790242714,
+      "updated" : 1790277831,
       "yMax" : 7.596046447753906,
       "yMin" : 1.5960464477539062
     },
@@ -4415,7 +4415,7 @@
       "context" : "lobby",
       "courseId" : 444,
       "halfWidthM" : 12,
-      "headingRad" : -0.23016946814741981,
+      "headingRad" : -0.23016946814741987,
       "kind" : "lap1",
       "lineA" : [
         -216.20792515216044,
@@ -4428,10 +4428,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "BB Raceway Reverse",
-      "updated" : 1790242716,
+      "updated" : 1790277833,
       "yMax" : 3.0939499139785767,
       "yMin" : -2.9060500860214233
     },
@@ -4439,23 +4439,23 @@
       "context" : "lobby",
       "courseId" : 444,
       "halfWidthM" : 12,
-      "headingRad" : 3.1414558067255367,
+      "headingRad" : 3.141455806387137,
       "kind" : "finishLine",
       "lineA" : [
-        0.0023621097338595042,
-        212.5876372167392
+        0.0023621137946538335,
+        212.58763721673864
       ],
       "lineB" : [
-        -0.0009222149980463736,
-        188.58763744146398
+        -0.0009222190588407037,
+        188.58763744146455
       ],
-      "m2" : 1415.6770791342828,
+      "m2" : 1490.1863990887189,
       "offsetMaxM" : 6.278535395170423,
       "offsetMinM" : -3.4821389039331057,
-      "samples" : 95,
-      "spreadM" : 3.880772404931182,
+      "samples" : 100,
+      "spreadM" : 3.879740696178421,
       "trackName" : "BB Raceway Reverse",
-      "updated" : 1790242716,
+      "updated" : 1790277841,
       "yMax" : 3.2616447508335114,
       "yMin" : -3.051173895597458
     },
@@ -4473,10 +4473,10 @@
         82.58211517333984
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "BB Raceway Reverse",
-      "updated" : 1790242716,
+      "updated" : 1790277840,
       "yMax" : 3.0665768682956696,
       "yMin" : -2.9334231317043304
     },
@@ -4497,10 +4497,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "BB Raceway Reverse",
-      "updated" : 1790242716,
+      "updated" : 1790277841,
       "yMax" : 3.066436856985092,
       "yMin" : -2.933563143014908
     },
@@ -4518,10 +4518,10 @@
         172.72735595703125
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "BB Raceway Reverse",
-      "updated" : 1790242716,
+      "updated" : 1790277841,
       "yMax" : 3.057947486639023,
       "yMin" : -2.942052513360977
     },
@@ -4542,10 +4542,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "BB Raceway",
-      "updated" : 1790242717,
+      "updated" : 1790277842,
       "yMax" : 3.067904621362686,
       "yMin" : -2.932095378637314
     },
@@ -4553,23 +4553,23 @@
       "context" : "lobby",
       "courseId" : 357,
       "halfWidthM" : 12,
-      "headingRad" : 0.006900145802355775,
+      "headingRad" : 0.006900145331830131,
       "kind" : "finishLine",
       "lineA" : [
-        -0.019282273794058002,
-        191.56408839005533
+        -0.019282279440231323,
+        191.56408839001637
       ],
       "lineB" : [
-        -0.18488445893442343,
-        215.5635170481771
+        -0.1848844532882501,
+        215.56351704821606
       ],
-      "m2" : 71.27274938864971,
+      "m2" : 75.02394672489443,
       "offsetMaxM" : 1.2574840425374982,
-      "offsetMinM" : -1.4399918229324853,
-      "samples" : 76,
-      "spreadM" : 0.9748350245974937,
+      "offsetMinM" : -1.4400862469268014,
+      "samples" : 80,
+      "spreadM" : 0.9745102419715888,
       "trackName" : "BB Raceway",
-      "updated" : 1790242717,
+      "updated" : 1790277845,
       "yMax" : 3.3186482787132263,
       "yMin" : -2.8770647644996643
     },
@@ -4587,10 +4587,10 @@
         -76.6255111694336
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "BB Raceway",
-      "updated" : 1790242717,
+      "updated" : 1790277845,
       "yMax" : 3.089439630508423,
       "yMin" : -2.910560369491577
     },
@@ -4611,10 +4611,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "BB Raceway",
-      "updated" : 1790242717,
+      "updated" : 1790277845,
       "yMax" : 3.0674453675746918,
       "yMin" : -2.9325546324253082
     },
@@ -4632,10 +4632,10 @@
         170.7880401611328
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "BB Raceway",
-      "updated" : 1790242717,
+      "updated" : 1790277845,
       "yMax" : 3.054244101047516,
       "yMin" : -2.945755898952484
     },
@@ -4656,10 +4656,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring Short Track",
-      "updated" : 1790242718,
+      "updated" : 1790277846,
       "yMax" : -8.187509536743164,
       "yMin" : -14.187509536743164
     },
@@ -4667,23 +4667,23 @@
       "context" : "lobby",
       "courseId" : 846,
       "halfWidthM" : 12,
-      "headingRad" : 2.876028735553217,
+      "headingRad" : 2.8760287355676035,
       "kind" : "finishLine",
       "lineA" : [
-        568.4187286239132,
-        286.5905357761016
+        568.4187286237467,
+        286.59053577614685
       ],
       "lineB" : [
-        562.1198455948368,
-        263.4318641262419
+        562.1198455950033,
+        263.43186412619656
       ],
-      "m2" : 10.554441469255798,
-      "offsetMaxM" : 0.47905188895172995,
+      "m2" : 11.109938388690324,
+      "offsetMaxM" : 0.4790518889535129,
       "offsetMinM" : -0.2856665676677927,
-      "samples" : 76,
-      "spreadM" : 0.37513449089192524,
+      "samples" : 80,
+      "spreadM" : 0.37500950854932885,
       "trackName" : "Red Bull Ring Short Track",
-      "updated" : 1790242718,
+      "updated" : 1790277860,
       "yMax" : -24.770978927612305,
       "yMin" : -30.79447364807129
     },
@@ -4701,10 +4701,10 @@
         207.2786102294922
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring Short Track",
-      "updated" : 1790242718,
+      "updated" : 1790277860,
       "yMax" : -22.709453582763672,
       "yMin" : -28.709453582763672
     },
@@ -4725,10 +4725,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring Short Track",
-      "updated" : 1790242718,
+      "updated" : 1790277860,
       "yMax" : -23.681964874267578,
       "yMin" : -29.681964874267578
     },
@@ -4746,10 +4746,10 @@
         290.5415344238281
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring Short Track",
-      "updated" : 1790242718,
+      "updated" : 1790277860,
       "yMax" : -25.038921356201172,
       "yMin" : -31.038921356201172
     },
@@ -4770,10 +4770,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring",
-      "updated" : 1790242719,
+      "updated" : 1790277861,
       "yMax" : -8.27511978149414,
       "yMin" : -14.27511978149414
     },
@@ -4781,23 +4781,23 @@
       "context" : "lobby",
       "courseId" : 470,
       "halfWidthM" : 12,
-      "headingRad" : 2.8790400780629346,
+      "headingRad" : 2.8790400780654166,
       "kind" : "finishLine",
       "lineA" : [
-        568.1454620753029,
-        286.2739022436734
+        568.1454620752742,
+        286.2739022436811
       ],
       "lineB" : [
-        561.9163461929263,
-        263.09636753171736
+        561.9163461929551,
+        263.09636753170963
       ],
-      "m2" : 16.715545446767255,
+      "m2" : 17.59531099659711,
       "offsetMaxM" : 0.7850213364602608,
       "offsetMinM" : -0.39152592925720625,
-      "samples" : 57,
-      "spreadM" : 0.5463441067477407,
+      "samples" : 60,
+      "spreadM" : 0.546100366335544,
       "trackName" : "Red Bull Ring",
-      "updated" : 1790242720,
+      "updated" : 1790277866,
       "yMax" : -24.78011703491211,
       "yMin" : -30.8110408782959
     },
@@ -4815,10 +4815,10 @@
         208.95689392089844
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring",
-      "updated" : 1790242720,
+      "updated" : 1790277866,
       "yMax" : -22.75314712524414,
       "yMin" : -28.75314712524414
     },
@@ -4839,10 +4839,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring",
-      "updated" : 1790242720,
+      "updated" : 1790277866,
       "yMax" : -23.682363510131836,
       "yMin" : -29.682363510131836
     },
@@ -4860,10 +4860,10 @@
         290.5415344238281
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Red Bull Ring",
-      "updated" : 1790242720,
+      "updated" : 1790277866,
       "yMax" : -25.03879165649414,
       "yMin" : -31.03879165649414
     },
@@ -4884,10 +4884,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Brands Hatch Indy Circuit",
-      "updated" : 1790242723,
+      "updated" : 1790277869,
       "yMax" : -1.1643261909484863,
       "yMin" : -7.164326190948486
     },
@@ -4895,23 +4895,23 @@
       "context" : "lobby",
       "courseId" : 346,
       "halfWidthM" : 12,
-      "headingRad" : -0.4514841661747441,
+      "headingRad" : -0.4514841656568352,
       "kind" : "finishLine",
       "lineA" : [
-        -147.76781801688156,
-        -414.7829537995744
+        -147.76781801128936,
+        -414.78295380228593
       ],
       "lineB" : [
-        -137.29658279227004,
-        -393.18774060611753
+        -137.2965827978622,
+        -393.18774060340587
       ],
-      "m2" : 46.45022849803464,
-      "offsetMaxM" : 0.644034587043926,
+      "m2" : 48.89497736635224,
+      "offsetMaxM" : 0.6441517798650633,
       "offsetMinM" : -1.0504399914322224,
-      "samples" : 133,
-      "spreadM" : 0.5932079487326989,
+      "samples" : 140,
+      "spreadM" : 0.5930956306499477,
       "trackName" : "Brands Hatch Indy Circuit",
-      "updated" : 1790242723,
+      "updated" : 1790277876,
       "yMax" : 0.06456565856933594,
       "yMin" : -6.0500328540802
     },
@@ -4929,10 +4929,10 @@
         -264.0721740722656
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Brands Hatch Indy Circuit",
-      "updated" : 1790242723,
+      "updated" : 1790277875,
       "yMax" : 3.075756996870041,
       "yMin" : -2.924243003129959
     },
@@ -4940,7 +4940,7 @@
       "context" : "lobby",
       "courseId" : 346,
       "halfWidthM" : 12,
-      "headingRad" : -0.35499370701407507,
+      "headingRad" : -0.354993707014075,
       "kind" : "pitExit",
       "lineA" : [
         -134.22789834121795,
@@ -4953,10 +4953,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 38,
+      "samples" : 40,
       "spreadM" : 0,
       "trackName" : "Brands Hatch Indy Circuit",
-      "updated" : 1790242723,
+      "updated" : 1790277876,
       "yMax" : -0.8927285671234131,
       "yMin" : -6.892733573913574
     },
@@ -4973,11 +4973,11 @@
         -164.7999725341797,
         -369.1975860595703
       ],
-      "m2" : 1.353677362203598e-06,
-      "samples" : 38,
-      "spreadM" : 0.00019127434395169494,
+      "m2" : 1.4249235391616821e-06,
+      "samples" : 40,
+      "spreadM" : 0.00019114523536867378,
       "trackName" : "Brands Hatch Indy Circuit",
-      "updated" : 1790242723,
+      "updated" : 1790277876,
       "yMax" : -1.5363926887512207,
       "yMin" : -7.537482738494873
     },
@@ -4995,10 +4995,10 @@
         -369.1976318359375
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Brands Hatch Indy Circuit",
-      "updated" : 1790242723,
+      "updated" : 1790277876,
       "yMax" : -1.536393165588379,
       "yMin" : -7.536393165588379
     },
@@ -5016,10 +5016,10 @@
         -401.68890380859375
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Brands Hatch Indy Circuit",
-      "updated" : 1790242723,
+      "updated" : 1790277876,
       "yMax" : -0.33911871910095215,
       "yMin" : -6.339118719100952
     },
@@ -5040,10 +5040,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Brands Hatch Grand Prix Circuit",
-      "updated" : 1790242724,
+      "updated" : 1790277877,
       "yMax" : -1.1622681617736816,
       "yMin" : -7.162268161773682
     },
@@ -5051,23 +5051,23 @@
       "context" : "lobby",
       "courseId" : 119,
       "halfWidthM" : 12,
-      "headingRad" : -0.4540588056211301,
+      "headingRad" : -0.45405880557181605,
       "kind" : "finishLine",
       "lineA" : [
-        -147.43392858448993,
-        -414.08150386890816
+        -147.43392858395814,
+        -414.08150386916765
       ],
       "lineB" : [
-        -136.90712823924065,
-        -392.51332187572064
+        -136.90712823977245,
+        -392.51332187546103
       ],
-      "m2" : 52.361956872744805,
+      "m2" : 55.11784933973131,
       "offsetMaxM" : 1.2188509754588772,
       "offsetMinM" : -0.9722333174207605,
-      "samples" : 76,
-      "spreadM" : 0.8355593485623453,
+      "samples" : 80,
+      "spreadM" : 0.8352809679620605,
       "trackName" : "Brands Hatch Grand Prix Circuit",
-      "updated" : 1790242725,
+      "updated" : 1790277884,
       "yMax" : 0.010129213333129883,
       "yMin" : -6.148828983306885
     },
@@ -5085,10 +5085,10 @@
         -369.1976318359375
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Brands Hatch Grand Prix Circuit",
-      "updated" : 1790242725,
+      "updated" : 1790277883,
       "yMax" : -1.5363163948059082,
       "yMin" : -7.536316394805908
     },
@@ -5109,10 +5109,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Brands Hatch Grand Prix Circuit",
-      "updated" : 1790242725,
+      "updated" : 1790277883,
       "yMax" : -1.0172171592712402,
       "yMin" : -7.01721715927124
     },
@@ -5130,10 +5130,10 @@
         -369.1976318359375
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Brands Hatch Grand Prix Circuit",
-      "updated" : 1790242725,
+      "updated" : 1790277883,
       "yMax" : -1.5363154411315918,
       "yMin" : -7.536315441131592
     },
@@ -5154,10 +5154,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autopolis International Racing Course",
-      "updated" : 1790242727,
+      "updated" : 1790277886,
       "yMax" : -10.500556945800781,
       "yMin" : -16.50055694580078
     },
@@ -5165,23 +5165,23 @@
       "context" : "lobby",
       "courseId" : 896,
       "halfWidthM" : 12,
-      "headingRad" : 0.5747640555930373,
+      "headingRad" : 0.5747640555078607,
       "kind" : "finishLine",
       "lineA" : [
-        -85.62093575255385,
-        -20.464106326467856
+        -85.62093575341174,
+        -20.464106327023522
       ],
       "lineB" : [
-        -98.66821830018058,
-        -0.32041207436020436
+        -98.66821829932269,
+        -0.3204120738045422
       ],
-      "m2" : 140.94764705529315,
+      "m2" : 148.36594426872963,
       "offsetMaxM" : 2.372846998393728,
-      "offsetMinM" : -1.022330419502526,
-      "samples" : 114,
-      "spreadM" : 1.1168367428697146,
+      "offsetMinM" : -1.0229091702249455,
+      "samples" : 120,
+      "spreadM" : 1.1165897370626754,
       "trackName" : "Autopolis International Racing Course",
-      "updated" : 1790242728,
+      "updated" : 1790277899,
       "yMax" : -9.015532493591309,
       "yMin" : -15.059624671936035
     },
@@ -5202,10 +5202,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autopolis International Racing Course",
-      "updated" : 1790242728,
+      "updated" : 1790277898,
       "yMax" : -9.671721458435059,
       "yMin" : -15.671721458435059
     },
@@ -5213,7 +5213,7 @@
       "context" : "lobby",
       "courseId" : 896,
       "halfWidthM" : 12,
-      "headingRad" : 0.5974131300180511,
+      "headingRad" : 0.5974131300180512,
       "kind" : "pitExit",
       "lineA" : [
         146.02872261288712,
@@ -5226,10 +5226,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autopolis International Racing Course",
-      "updated" : 1790242728,
+      "updated" : 1790277898,
       "yMax" : -10.451833724975586,
       "yMin" : -16.451833724975586
     },
@@ -5247,10 +5247,10 @@
         42.70783615112305
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autopolis International Racing Course",
-      "updated" : 1790242728,
+      "updated" : 1790277898,
       "yMax" : -9.805276870727539,
       "yMin" : -15.805276870727539
     },
@@ -5271,10 +5271,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Seaside",
-      "updated" : 1790242730,
+      "updated" : 1790277900,
       "yMax" : 1.8544484376907349,
       "yMin" : -4.145551562309265
     },
@@ -5282,23 +5282,23 @@
       "context" : "lobby",
       "courseId" : 363,
       "halfWidthM" : 12,
-      "headingRad" : -1.3240736349488245,
+      "headingRad" : -1.3240601024677578,
       "kind" : "finishLine",
       "lineA" : [
-        -326.10419194124677,
-        238.48605052309122
+        -326.1099602765472,
+        238.48333864607687
       ],
       "lineB" : [
-        -302.83095908074165,
-        244.34750360408609
+        -302.83680673817594,
+        244.3451066711181
       ],
-      "m2" : 343.99424346511563,
-      "offsetMaxM" : 3.104544247906022,
+      "m2" : 364.06772086040746,
+      "offsetMaxM" : 3.110091372341167,
       "offsetMinM" : -2.0935737189688455,
-      "samples" : 244,
-      "spreadM" : 1.1897958525050991,
+      "samples" : 260,
+      "spreadM" : 1.1856082303648658,
       "trackName" : "Dragon Trail - Seaside",
-      "updated" : 1790242731,
+      "updated" : 1790277904,
       "yMax" : 1.57163405418396,
       "yMin" : -4.43804407119751
     },
@@ -5308,18 +5308,18 @@
       "halfWidthM" : 0,
       "kind" : "pitEntry",
       "lineA" : [
-        -342.9975891113281,
-        437.67980289459234
+        -342.99903779871323,
+        437.679791618796
       ],
       "lineB" : [
-        -342.9975891113281,
-        437.67980289459234
+        -342.99903779871323,
+        437.679791618796
       ],
-      "m2" : 0.532694154855557,
-      "samples" : 32,
-      "spreadM" : 0.1310865455136239,
+      "m2" : 0.5683424181359598,
+      "samples" : 34,
+      "spreadM" : 0.13123451344547862,
       "trackName" : "Dragon Trail - Seaside",
-      "updated" : 1790242731,
+      "updated" : 1790277904,
       "yMax" : 2.9820353984832764,
       "yMin" : -3.0190654695034027
     },
@@ -5327,23 +5327,23 @@
       "context" : "lobby",
       "courseId" : 363,
       "halfWidthM" : 12,
-      "headingRad" : -1.330415169658139,
+      "headingRad" : -1.33040847866782,
       "kind" : "pitExit",
       "lineA" : [
-        -293.21198876797274,
-        189.32965363040228
+        -293.2121438382039,
+        189.3302930066213
       ],
       "lineB" : [
-        -269.90205351413175,
-        195.04340182766657
+        -269.9022468155186,
+        195.04419717030882
       ],
-      "m2" : 0.13831049491273528,
+      "m2" : 0.1475663294139203,
       "offsetMaxM" : 0.00022529556968407805,
-      "offsetMinM" : -0.00012304051949001311,
-      "samples" : 32,
-      "spreadM" : 0.06679542550319409,
+      "offsetMinM" : -0.0001248113251481938,
+      "samples" : 34,
+      "spreadM" : 0.06687082287468114,
       "trackName" : "Dragon Trail - Seaside",
-      "updated" : 1790242731,
+      "updated" : 1790277904,
       "yMax" : 1.618307113647461,
       "yMin" : -4.382051467895508
     },
@@ -5353,18 +5353,18 @@
       "halfWidthM" : 0,
       "kind" : "pitBox",
       "lineA" : [
-        -297.4373865127564,
-        303.8720779418946
+        -297.4376741297105,
+        303.8727578555837
       ],
       "lineB" : [
-        -297.4373865127564,
-        303.8720779418946
+        -297.4376741297105,
+        303.8727578555837
       ],
-      "m2" : 0.1383259487047234,
-      "samples" : 32,
-      "spreadM" : 0.06679915701243334,
+      "m2" : 0.14758281738441248,
+      "samples" : 34,
+      "spreadM" : 0.06687455859597459,
       "trackName" : "Dragon Trail - Seaside",
-      "updated" : 1790242731,
+      "updated" : 1790277904,
       "yMax" : 1.8138779401779175,
       "yMin" : -4.187199592590332
     },
@@ -5385,10 +5385,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : -0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Mount Panorama Motor Racing Circuit",
-      "updated" : 1790242734,
+      "updated" : 1790277907,
       "yMax" : -63.3836669921875,
       "yMin" : -69.3836669921875
     },
@@ -5396,23 +5396,23 @@
       "context" : "lobby",
       "courseId" : 116,
       "halfWidthM" : 12,
-      "headingRad" : -2.9694144835844787,
+      "headingRad" : -2.969318582254919,
       "kind" : "finishLine",
       "lineA" : [
-        355.85559941928625,
-        -1038.6551175186416
+        355.856884194297,
+        -1038.635136619266
       ],
       "lineB" : [
-        359.96748863232995,
-        -1062.3002516290596
+        359.9710409882273,
+        -1062.2798762853092
       ],
-      "m2" : 172.9270499718691,
-      "offsetMaxM" : 1.1670507189749175,
+      "m2" : 228.5627872418043,
+      "offsetMaxM" : 1.1947965523340545,
       "offsetMinM" : -6.662743518454205,
-      "samples" : 138,
-      "spreadM" : 1.12349510042126,
+      "samples" : 168,
+      "spreadM" : 1.1698886462230935,
       "trackName" : "Mount Panorama Motor Racing Circuit",
-      "updated" : 1790242735,
+      "updated" : 1790277909,
       "yMax" : -71.74935150146484,
       "yMin" : -77.95982360839844
     },
@@ -5422,18 +5422,18 @@
       "halfWidthM" : 0,
       "kind" : "pitEntry",
       "lineA" : [
-        553.7021928267045,
-        -985.4949840198863
+        553.6995035807291,
+        -985.5007324218749
       ],
       "lineB" : [
-        553.7021928267045,
-        -985.4949840198863
+        553.6995035807291,
+        -985.5007324218749
       ],
-      "m2" : 0.1136392117901661,
-      "samples" : 22,
-      "spreadM" : 0.07356215764662533,
+      "m2" : 0.1462024947008045,
+      "samples" : 24,
+      "spreadM" : 0.07972847800116846,
       "trackName" : "Mount Panorama Motor Racing Circuit",
-      "updated" : 1790242735,
+      "updated" : 1790277909,
       "yMax" : -76.13037872314453,
       "yMin" : -82.13622283935547
     },
@@ -5441,23 +5441,23 @@
       "context" : "lobby",
       "courseId" : 116,
       "halfWidthM" : 12,
-      "headingRad" : 1.8892917066979873,
+      "headingRad" : 1.8893361811463487,
       "kind" : "pitExit",
       "lineA" : [
-        135.40459868440675,
-        -1029.4598792487543
+        135.40579397838428,
+        -1029.4632527560836
       ],
       "lineB" : [
-        112.61161516613484,
-        -1036.9751904422967
+        112.61314472197384,
+        -1036.9795776475619
       ],
-      "m2" : 0.04772106393252644,
-      "offsetMaxM" : 0.0003713880659503878,
+      "m2" : 0.06139552084887472,
+      "offsetMaxM" : 0.0004510490033539146,
       "offsetMinM" : -0.00262816597424647,
-      "samples" : 22,
-      "spreadM" : 0.047670028485774917,
+      "samples" : 24,
+      "spreadM" : 0.051665950796343674,
       "trackName" : "Mount Panorama Motor Racing Circuit",
-      "updated" : 1790242735,
+      "updated" : 1790277909,
       "yMax" : -64.4688720703125,
       "yMin" : -70.47531127929688
     },
@@ -5467,18 +5467,18 @@
       "halfWidthM" : 0,
       "kind" : "pitBox",
       "lineA" : [
-        340.70225524902344,
-        -1031.684814453125
+        340.70629374186194,
+        -1031.6844075520833
       ],
       "lineB" : [
-        340.70225524902344,
-        -1031.684814453125
+        340.70629374186194,
+        -1031.6844075520833
       ],
-      "m2" : 0.04648419236765265,
-      "samples" : 22,
-      "spreadM" : 0.04704819837026941,
+      "m2" : 0.05980422409873147,
+      "samples" : 24,
+      "spreadM" : 0.05099199600394738,
       "trackName" : "Mount Panorama Motor Racing Circuit",
-      "updated" : 1790242735,
+      "updated" : 1790277909,
       "yMax" : -71.3357162475586,
       "yMin" : -77.33580780029297
     },
@@ -5499,10 +5499,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "24 Heures du Mans Racing Circuit",
-      "updated" : 1790242737,
+      "updated" : 1790277910,
       "yMax" : 3.1653569042682648,
       "yMin" : -2.8346430957317352
     },
@@ -5510,23 +5510,23 @@
       "context" : "lobby",
       "courseId" : 454,
       "halfWidthM" : 12,
-      "headingRad" : -1.5368261128523297,
+      "headingRad" : -1.5368261128083929,
       "kind" : "finishLine",
       "lineA" : [
-        -1358.258427154989,
-        -1242.0264911722027
+        -1358.2584271549713,
+        -1242.0264911727295
       ],
       "lineB" : [
-        -1334.2722735286047,
-        -1241.2113628317036
+        -1334.2722735286225,
+        -1241.2113628311768
       ],
-      "m2" : 13.536456879228354,
+      "m2" : 14.248901978135109,
       "offsetMaxM" : 0.6503156984997521,
       "offsetMinM" : -0.5961108144742727,
-      "samples" : 38,
-      "spreadM" : 0.6048555083035043,
+      "samples" : 40,
+      "spreadM" : 0.6044472358922848,
       "trackName" : "24 Heures du Mans Racing Circuit",
-      "updated" : 1790242737,
+      "updated" : 1790277911,
       "yMax" : -1.842331886291504,
       "yMin" : -7.8648905754089355
     },
@@ -5544,10 +5544,10 @@
         -1008.0506591796875
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "24 Heures du Mans Racing Circuit",
-      "updated" : 1790242738,
+      "updated" : 1790277912,
       "yMax" : -3.390529155731201,
       "yMin" : -9.390529155731201
     },
@@ -5568,10 +5568,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "24 Heures du Mans Racing Circuit",
-      "updated" : 1790242738,
+      "updated" : 1790277912,
       "yMax" : 2.3548752069473267,
       "yMin" : -3.6451247930526733
     },
@@ -5589,10 +5589,10 @@
         -1385.7528076171875
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "24 Heures du Mans Racing Circuit",
-      "updated" : 1790242738,
+      "updated" : 1790277912,
       "yMax" : -0.28519487380981445,
       "yMin" : -6.2851948738098145
     },
@@ -5613,10 +5613,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autopolis International Racing Course - Short Course",
-      "updated" : 1790242740,
+      "updated" : 1790277914,
       "yMax" : -10.505367279052734,
       "yMin" : -16.505367279052734
     },
@@ -5624,23 +5624,23 @@
       "context" : "lobby",
       "courseId" : 898,
       "halfWidthM" : 12,
-      "headingRad" : 0.5763837301607816,
+      "headingRad" : 0.5763837301709044,
       "kind" : "finishLine",
       "lineA" : [
-        -86.55266205519878,
-        -19.367258916638292
+        -86.55266205509693,
+        -19.36725891657209
       ],
       "lineB" : [
-        -99.63255370407852,
-        0.7552765710572427
+        -99.63255370418037,
+        0.7552765709910432
       ],
-      "m2" : 20.306668977453505,
+      "m2" : 21.375441028898425,
       "offsetMaxM" : 0.5856336295712385,
       "offsetMinM" : -0.4919027266652841,
-      "samples" : 95,
-      "spreadM" : 0.464788546951369,
+      "samples" : 100,
+      "spreadM" : 0.46466498226835296,
       "trackName" : "Autopolis International Racing Course - Short Course",
-      "updated" : 1790242741,
+      "updated" : 1790277927,
       "yMax" : -9.036754608154297,
       "yMin" : -15.052263259887695
     },
@@ -5661,10 +5661,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Autopolis International Racing Course - Short Course",
-      "updated" : 1790242740,
+      "updated" : 1790277927,
       "yMax" : -9.672150611877441,
       "yMin" : -15.672150611877441
     },
@@ -5672,7 +5672,7 @@
       "context" : "lobby",
       "courseId" : 898,
       "halfWidthM" : 12,
-      "headingRad" : 0.5896768898847563,
+      "headingRad" : 0.5896768898847566,
       "kind" : "pitExit",
       "lineA" : [
         150.044585322168,
@@ -5682,13 +5682,13 @@
         136.69836511728514,
         130.68696868389932
       ],
-      "m2" : 2.2118911149310115e-09,
+      "m2" : 2.3283064367579463e-09,
       "offsetMaxM" : 6.642900041737215e-06,
       "offsetMinM" : -6.3409454467476044e-06,
-      "samples" : 76,
-      "spreadM" : 5.430642828654219e-06,
+      "samples" : 80,
+      "spreadM" : 5.428833518969141e-06,
       "trackName" : "Autopolis International Racing Course - Short Course",
-      "updated" : 1790242741,
+      "updated" : 1790277927,
       "yMax" : -10.469229698181152,
       "yMin" : -16.469265937805176
     },
@@ -5698,18 +5698,18 @@
       "halfWidthM" : 0,
       "kind" : "pitBox",
       "lineA" : [
-        38.25990486145019,
+        38.25990486145018,
         42.70783710479737
       ],
       "lineB" : [
-        38.25990486145019,
+        38.25990486145018,
         42.70783710479737
       ],
-      "m2" : 2.1427695175940215e-09,
-      "samples" : 76,
-      "spreadM" : 5.345115549226878e-06,
+      "m2" : 2.2555468605975542e-09,
+      "samples" : 80,
+      "spreadM" : 5.343334734368917e-06,
       "trackName" : "Autopolis International Racing Course - Short Course",
-      "updated" : 1790242741,
+      "updated" : 1790277927,
       "yMax" : -9.805436134338379,
       "yMin" : -15.805683135986328
     },
@@ -5720,17 +5720,17 @@
       "kind" : "pitEntry",
       "lineA" : [
         -91.55938975016277,
-        -43.19157282511392
+        -43.19157282511393
       ],
       "lineB" : [
         -91.55938975016277,
-        -43.19157282511392
+        -43.19157282511393
       ],
-      "m2" : 13.225031141356657,
-      "samples" : 57,
-      "spreadM" : 0.4859642686261706,
+      "m2" : 13.92108541195437,
+      "samples" : 60,
+      "spreadM" : 0.48574746546185543,
       "trackName" : "Autopolis International Racing Course - Short Course",
-      "updated" : 1790242741,
+      "updated" : 1790277927,
       "yMax" : -9.008405685424805,
       "yMin" : -15.020118713378906
     },
@@ -5751,10 +5751,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Michelin Raceway Road Atlanta",
-      "updated" : 1790242744,
+      "updated" : 1790277931,
       "yMax" : -4.6532063484191895,
       "yMin" : -10.65320634841919
     },
@@ -5762,23 +5762,23 @@
       "context" : "customRace",
       "courseId" : 1007,
       "halfWidthM" : 12,
-      "headingRad" : 0.5353230276904127,
+      "headingRad" : 0.5353230264831617,
       "kind" : "finishLine",
       "lineA" : [
-        38.664446347612156,
-        -779.415274748497
+        38.66444633515182,
+        -779.415274755887
       ],
       "lineB" : [
-        26.421592665720578,
-        -758.7727813495931
+        26.421592678180915,
+        -758.7727813422028
       ],
-      "m2" : 66.32255241391374,
+      "m2" : 69.81321306727763,
       "offsetMaxM" : 1.1762889690839933,
       "offsetMinM" : -0.8503415442689233,
-      "samples" : 171,
-      "spreadM" : 0.624606004820892,
+      "samples" : 180,
+      "spreadM" : 0.6245141712535618,
       "trackName" : "Michelin Raceway Road Atlanta",
-      "updated" : 1790242746,
+      "updated" : 1790277932,
       "yMax" : -4.6432976722717285,
       "yMin" : -10.67738962173462
     },
@@ -5799,10 +5799,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Michelin Raceway Road Atlanta",
-      "updated" : 1790242745,
+      "updated" : 1790277932,
       "yMax" : -7.428173065185547,
       "yMin" : -13.428173065185547
     },
@@ -5823,10 +5823,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Michelin Raceway Road Atlanta",
-      "updated" : 1790242745,
+      "updated" : 1790277932,
       "yMax" : -9.719796180725098,
       "yMin" : -15.719796180725098
     },
@@ -5844,10 +5844,10 @@
         -642.2835083007812
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Michelin Raceway Road Atlanta",
-      "updated" : 1790242745,
+      "updated" : 1790277932,
       "yMax" : -7.7147016525268555,
       "yMin" : -13.714701652526855
     },
@@ -5865,10 +5865,10 @@
         -69.486083984375
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Northern Isle Speedway",
-      "updated" : 1790242748,
+      "updated" : 1790277935,
       "yMax" : 3.2529467344284058,
       "yMin" : -2.7470532655715942
     },
@@ -5889,10 +5889,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Northern Isle Speedway",
-      "updated" : 1790242748,
+      "updated" : 1790277935,
       "yMax" : 3.2589001953601837,
       "yMin" : -2.7410998046398163
     },
@@ -5910,10 +5910,10 @@
         66.84873962402344
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Northern Isle Speedway",
-      "updated" : 1790242748,
+      "updated" : 1790277935,
       "yMax" : 3.257378488779068,
       "yMin" : -2.742621511220932
     },
@@ -5934,10 +5934,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Northern Isle Speedway",
-      "updated" : 1790242748,
+      "updated" : 1790277936,
       "yMax" : 3.268957555294037,
       "yMin" : -2.731042444705963
     },
@@ -5945,23 +5945,23 @@
       "context" : "lobby",
       "courseId" : 354,
       "halfWidthM" : 12,
-      "headingRad" : -0.004691056436455014,
+      "headingRad" : -0.004691057875927139,
       "kind" : "finishLine",
       "lineA" : [
-        -0.18115658418843833,
-        84.26954630177136
+        -0.18115660146191373,
+        84.26954630185237
       ],
       "lineB" : [
-        -0.06857164263881224,
-        108.26928223012973
+        -0.06857162536533679,
+        108.26928223004869
       ],
-      "m2" : 483.4664117148558,
-      "offsetMaxM" : 1.6926629236217556,
+      "m2" : 508.9120123314271,
+      "offsetMaxM" : 1.6928584931621349,
       "offsetMinM" : -3.445567703031882,
-      "samples" : 171,
-      "spreadM" : 1.6863926200357129,
+      "samples" : 180,
+      "spreadM" : 1.68614467581324,
       "trackName" : "Northern Isle Speedway",
-      "updated" : 1790242749,
+      "updated" : 1790277938,
       "yMax" : 3.774767756462097,
       "yMin" : -2.6237780153751373
     },
@@ -5979,10 +5979,10 @@
         -69.81853485107422
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Northern Isle Speedway",
-      "updated" : 1790242749,
+      "updated" : 1790277938,
       "yMax" : 3.253626197576523,
       "yMin" : -2.746373802423477
     },
@@ -6003,10 +6003,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Northern Isle Speedway",
-      "updated" : 1790242749,
+      "updated" : 1790277938,
       "yMax" : 3.258903682231903,
       "yMin" : -2.741096317768097
     },
@@ -6024,10 +6024,10 @@
         66.8487319946289
       ],
       "m2" : 0,
-      "samples" : 19,
+      "samples" : 20,
       "spreadM" : 0,
       "trackName" : "Northern Isle Speedway",
-      "updated" : 1790242749,
+      "updated" : 1790277938,
       "yMax" : 3.2574157416820526,
       "yMin" : -2.7425842583179474
     },
@@ -6035,23 +6035,23 @@
       "context" : "customRace",
       "courseId" : 51,
       "halfWidthM" : 12,
-      "headingRad" : 3.1402133757386523,
+      "headingRad" : 3.140285799061318,
       "kind" : "lap1",
       "lineA" : [
-        -51.903659402307,
-        -250.26390679956168
+        -51.90437561725446,
+        -250.27845956583656
       ],
       "lineB" : [
-        -51.93676206023859,
-        -274.2638839706766
+        -51.93574011701013,
+        -274.27843907141437
       ],
-      "m2" : 193.923020874183,
+      "m2" : 199.8531630390152,
       "offsetMaxM" : 1.1333392892272651,
       "offsetMinM" : -2.658770052811126,
-      "samples" : 392,
-      "spreadM" : 0.7042491074220939,
+      "samples" : 418,
+      "spreadM" : 0.6922890869786095,
       "trackName" : "Deep Forest Raceway",
-      "updated" : 1790242591,
+      "updated" : 1790277431,
       "yMax" : 10.169020652770996,
       "yMin" : 4.071803092956543
     },
@@ -6059,23 +6059,23 @@
       "context" : "customRace",
       "courseId" : 51,
       "halfWidthM" : 12,
-      "headingRad" : -3.1414237832224754,
+      "headingRad" : -3.1414432852556198,
       "kind" : "finishLine",
       "lineA" : [
-        -51.98664546859481,
-        -248.53098240961154
+        -51.986788979209486,
+        -248.52468812428424
       ],
       "lineB" : [
-        -51.98259257979844,
-        -272.53098206740515
+        -51.98320413920265,
+        -272.52468785655344
       ],
-      "m2" : 32490.244181091843,
-      "offsetMaxM" : 5.434101136036426,
+      "m2" : 34310.752686851985,
+      "offsetMaxM" : 5.4408980995789245,
       "offsetMinM" : -8.852551415151764,
-      "samples" : 7716,
-      "spreadM" : 2.052147261726044,
+      "samples" : 8107,
+      "spreadM" : 2.0573672534696246,
       "trackName" : "Deep Forest Raceway",
-      "updated" : 1790242596,
+      "updated" : 1790277436,
       "yMax" : 10.16311502456665,
       "yMin" : 4.041131019592285
     },
@@ -6085,18 +6085,18 @@
       "halfWidthM" : 0,
       "kind" : "pitEntry",
       "lineA" : [
-        497.18625538332884,
-        -166.29562437018384
+        497.18891276128824,
+        -166.29248004398707
       ],
       "lineB" : [
-        497.18625538332884,
-        -166.29562437018384
+        497.18891276128824,
+        -166.29248004398707
       ],
-      "m2" : 127.31369120443972,
-      "samples" : 439,
-      "spreadM" : 0.5391386907503649,
+      "m2" : 135.6161739611707,
+      "samples" : 467,
+      "spreadM" : 0.5394643941306053,
       "trackName" : "Deep Forest Raceway",
-      "updated" : 1790242595,
+      "updated" : 1790277435,
       "yMax" : 1.2257134914398193,
       "yMin" : -5.064556121826172
     },
@@ -6106,18 +6106,18 @@
       "halfWidthM" : 0,
       "kind" : "pitBox",
       "lineA" : [
-        14.421641208433662,
-        -241.1517573537807
+        14.421486862047727,
+        -241.15174988632356
       ],
       "lineB" : [
-        14.421641208433662,
-        -241.1517573537807
+        14.421486862047727,
+        -241.15174988632356
       ],
-      "m2" : 1.2363199633315913,
-      "samples" : 479,
-      "spreadM" : 0.05085708837450488,
+      "m2" : 1.3121589531297166,
+      "samples" : 509,
+      "spreadM" : 0.05082312529957182,
       "trackName" : "Deep Forest Raceway",
-      "updated" : 1790242595,
+      "updated" : 1790277435,
       "yMax" : 10.096852779388428,
       "yMin" : 4.043527126312256
     },
@@ -6125,23 +6125,23 @@
       "context" : "customRace",
       "courseId" : 51,
       "halfWidthM" : 12,
-      "headingRad" : 3.130224060233071,
+      "headingRad" : 3.130226722011109,
       "kind" : "pitExit",
       "lineA" : [
-        -173.02341005908158,
-        -233.94285236517928
+        -173.0235995014438,
+        -233.94285150568126
       ],
       "lineB" : [
-        -173.29625042234937,
-        -257.94130144290455
+        -173.2963759861659,
+        -257.941301309562
       ],
-      "m2" : 1.2394198935853238,
+      "m2" : 1.3160424951340475,
       "offsetMaxM" : 0.0003803668281122947,
-      "offsetMinM" : -0.0003785975645354061,
-      "samples" : 479,
-      "spreadM" : 0.05092080761013165,
+      "offsetMinM" : -0.00037990506056442635,
+      "samples" : 509,
+      "spreadM" : 0.050898279272889355,
       "trackName" : "Deep Forest Raceway",
-      "updated" : 1790242595,
+      "updated" : 1790277435,
       "yMax" : 13.934005737304688,
       "yMin" : 7.850272178649902
     },
@@ -6159,13 +6159,13 @@
         50.22786337122598,
         -258.0632311009856
       ],
-      "m2" : 3.637978807091713e-09,
+      "m2" : 3.819877747446299e-09,
       "offsetMaxM" : 4.657498543703562e-08,
       "offsetMinM" : -4.3247941640514564e-08,
-      "samples" : 40,
-      "spreadM" : 9.65823523601214e-06,
+      "samples" : 42,
+      "spreadM" : 9.65234427161167e-06,
       "trackName" : "Deep Forest Raceway",
-      "updated" : 1790242566,
+      "updated" : 1790277405,
       "yMax" : 10.056797981262207,
       "yMin" : 4.05633544921875
     },
@@ -6173,23 +6173,23 @@
       "context" : "lobby",
       "courseId" : 51,
       "halfWidthM" : 12,
-      "headingRad" : 3.140697480654518,
+      "headingRad" : 3.1407974142039863,
       "kind" : "finishLine",
       "lineA" : [
-        -51.94052144666405,
-        -249.84885717752746
+        -51.94268938498928,
+        -249.8595951690657
       ],
       "lineB" : [
-        -51.96200559424133,
-        -273.8488475615131
+        -51.961775128236994,
+        -273.8595875801979
       ],
-      "m2" : 79.53842717598675,
+      "m2" : 97.05963890059778,
       "offsetMaxM" : 1.1807143388837318,
-      "offsetMinM" : -1.1869237343968357,
-      "samples" : 144,
-      "spreadM" : 0.7457967400401083,
+      "offsetMinM" : -1.196525078702348,
+      "samples" : 183,
+      "spreadM" : 0.7302703055951636,
       "trackName" : "Deep Forest Raceway",
-      "updated" : 1790242507,
+      "updated" : 1790277338,
       "yMax" : 10.076554298400879,
       "yMin" : 4.067194938659668
     },
@@ -6197,47 +6197,47 @@
       "context" : "customRace",
       "courseId" : 356,
       "halfWidthM" : 12,
-      "headingRad" : -0.003967299369065741,
+      "headingRad" : -0.003971798685298358,
       "kind" : "lap1",
       "lineA" : [
-        -11.275046656499766,
-        358.5535570373698
+        -11.274618927671407,
+        358.5525412888191
       ],
       "lineB" : [
-        -11.17983172141466,
-        382.55336816404616
+        -11.179296009847482,
+        382.5523519868504
       ],
-      "m2" : 3.221846188890221,
-      "offsetMaxM" : -0.020557438394864565,
+      "m2" : 3.3509975560144305,
+      "offsetMaxM" : -0.019437858263360284,
       "offsetMinM" : -0.06907770485093287,
-      "samples" : 40,
-      "spreadM" : 0.28742206028900236,
+      "samples" : 42,
+      "spreadM" : 0.285887473855832,
       "trackName" : "Blue Moon Bay Speedway",
-      "updated" : 1790242500,
+      "updated" : 1790277329,
       "yMax" : 3.0179122388362885,
       "yMin" : -2.997438609600067
     },
     {
       "context" : "customRace",
       "courseId" : 356,
-      "halfWidthM" : 19.595420251828592,
-      "headingRad" : 0.0023956477943696724,
+      "halfWidthM" : 19.594245572077405,
+      "headingRad" : 0.0023956477709793857,
       "kind" : "finishLine",
       "lineA" : [
-        -11.293820950521201,
-        345.62760434005537
+        -11.29382376509578,
+        345.62877901643463
       ],
       "lineB" : [
-        -11.387708311327952,
-        384.8183323831343
+        -11.387705496753377,
+        384.81715770675504
       ],
-      "m2" : 17791.096261187537,
+      "m2" : 18727.46974861846,
       "offsetMaxM" : 7.014380955186354,
-      "offsetMinM" : -14.899973550645411,
-      "samples" : 418,
-      "spreadM" : 6.531806750609531,
+      "offsetMinM" : -14.900201362146792,
+      "samples" : 440,
+      "spreadM" : 6.531415190692469,
       "trackName" : "Blue Moon Bay Speedway",
-      "updated" : 1790242500,
+      "updated" : 1790277331,
       "yMax" : 3.0547386705875397,
       "yMin" : -3.0764313638210297
     },
@@ -6254,11 +6254,11 @@
         -253.13961029052734,
         345.0271911621094
       ],
-      "m2" : 15.001090434729122,
-      "samples" : 38,
-      "spreadM" : 0.6367376827346569,
+      "m2" : 15.79062151024118,
+      "samples" : 40,
+      "spreadM" : 0.6363078901222466,
       "trackName" : "Blue Moon Bay Speedway",
-      "updated" : 1790242500,
+      "updated" : 1790277330,
       "yMax" : 3.0655587017536163,
       "yMin" : -2.9356938302516937
     },
@@ -6275,11 +6275,11 @@
         24.60310173034668,
         331.88963317871094
       ],
-      "m2" : 8.847564458847046e-09,
-      "samples" : 38,
-      "spreadM" : 1.5463614187912955e-05,
+      "m2" : 9.313225746154785e-09,
+      "samples" : 40,
+      "spreadM" : 1.5453176377619425e-05,
       "trackName" : "Blue Moon Bay Speedway",
-      "updated" : 1790242500,
+      "updated" : 1790277330,
       "yMax" : 3.0337751507759094,
       "yMin" : -2.9663024246692657
     },
@@ -6287,7 +6287,7 @@
       "context" : "customRace",
       "courseId" : 356,
       "halfWidthM" : 12,
-      "headingRad" : -0.00019835437374147446,
+      "headingRad" : -0.0001983543737415884,
       "kind" : "pitExit",
       "lineA" : [
         134.10295116842914,
@@ -6297,13 +6297,13 @@
         134.10771167336773,
         356.8712461018239
       ],
-      "m2" : 3.5390257835388184e-08,
+      "m2" : 3.725290298461914e-08,
       "offsetMaxM" : 3.0517577524651223e-05,
       "offsetMinM" : -3.329190281617577e-05,
-      "samples" : 38,
-      "spreadM" : 3.092722837582591e-05,
+      "samples" : 40,
+      "spreadM" : 3.090635275523885e-05,
       "trackName" : "Blue Moon Bay Speedway",
-      "updated" : 1790242500,
+      "updated" : 1790277330,
       "yMax" : 3.0677352249622345,
       "yMin" : -2.9322712123394012
     },
@@ -6311,23 +6311,23 @@
       "context" : "customRace",
       "courseId" : 116,
       "halfWidthM" : 12,
-      "headingRad" : -2.9554688135773874,
+      "headingRad" : -2.9560532102313135,
       "kind" : "lap1",
       "lineA" : [
-        355.8119765984224,
-        -1038.920553040181
+        355.82264746615846,
+        -1038.9400266672785
       ],
       "lineB" : [
-        360.2532025236995,
-        -1062.5060467233889
+        360.25008935024795,
+        -1062.5281117604566
       ],
-      "m2" : 214.1256641628558,
+      "m2" : 220.98890187462587,
       "offsetMaxM" : 1.065597664078289,
       "offsetMinM" : -3.0504092145401964,
-      "samples" : 95,
-      "spreadM" : 1.509282146411727,
+      "samples" : 100,
+      "spreadM" : 1.4940586099771072,
       "trackName" : "Mount Panorama Motor Racing Circuit",
-      "updated" : 1790242468,
+      "updated" : 1790277297,
       "yMax" : -71.78472900390625,
       "yMin" : -77.96341705322266
     },
@@ -6335,23 +6335,23 @@
       "context" : "customRace",
       "courseId" : 116,
       "halfWidthM" : 12,
-      "headingRad" : -2.970987165402233,
+      "headingRad" : -2.971018248331213,
       "kind" : "finishLine",
       "lineA" : [
-        355.7345381432779,
-        -1037.808421906638
+        355.7328688987808,
+        -1037.799393169157
       ],
       "lineB" : [
-        359.8092360141322,
-        -1061.459993466711
+        359.8068316075478,
+        -1061.451091371349
       ],
-      "m2" : 6329.907536671866,
-      "offsetMaxM" : 4.031561959656303,
+      "m2" : 6681.588043154375,
+      "offsetMaxM" : 4.037725415029132,
       "offsetMinM" : -6.221341026203893,
-      "samples" : 1522,
-      "spreadM" : 2.040018359979753,
+      "samples" : 1599,
+      "spreadM" : 2.04480293690736,
       "trackName" : "Mount Panorama Motor Racing Circuit",
-      "updated" : 1790242474,
+      "updated" : 1790277302,
       "yMax" : -71.73954772949219,
       "yMin" : -78.087158203125
     },
@@ -6361,18 +6361,18 @@
       "halfWidthM" : 0,
       "kind" : "pitEntry",
       "lineA" : [
-        553.6509284125432,
-        -985.6731248643665
+        553.651053017064,
+        -985.6730905633224
       ],
       "lineB" : [
-        553.6509284125432,
-        -985.6731248643665
+        553.651053017064,
+        -985.6730905633224
       ],
-      "m2" : 3.158830397741735,
-      "samples" : 90,
-      "spreadM" : 0.18839447013944072,
+      "m2" : 3.363823500510988,
+      "samples" : 95,
+      "spreadM" : 0.1891701783802478,
       "trackName" : "Mount Panorama Motor Racing Circuit",
-      "updated" : 1790242473,
+      "updated" : 1790277302,
       "yMax" : -76.12126159667969,
       "yMin" : -82.1388931274414
     },
@@ -6382,18 +6382,18 @@
       "halfWidthM" : 0,
       "kind" : "pitBox",
       "lineA" : [
-        340.8173468695745,
-        -1031.6732394748262
+        340.81734683388146,
+        -1031.6732396175987
       ],
       "lineB" : [
-        340.8173468695745,
-        -1031.6732394748262
+        340.81734683388146,
+        -1031.6732396175987
       ],
-      "m2" : 2.0828511987297756e-07,
-      "samples" : 90,
-      "spreadM" : 4.83764637583587e-05,
+      "m2" : 2.2098814191869456e-07,
+      "samples" : 95,
+      "spreadM" : 4.848646904019834e-05,
       "trackName" : "Mount Panorama Motor Racing Circuit",
-      "updated" : 1790242473,
+      "updated" : 1790277302,
       "yMax" : -71.33562469482422,
       "yMin" : -77.33641815185547
     },
@@ -6401,23 +6401,23 @@
       "context" : "customRace",
       "courseId" : 116,
       "halfWidthM" : 12,
-      "headingRad" : 1.890556440874011,
+      "headingRad" : 1.8905565497701955,
       "kind" : "pitExit",
       "lineA" : [
-        135.43866717794327,
-        -1029.55605887974
+        135.43866671810162,
+        -1029.5560576392243
       ],
       "lineB" : [
-        112.65520675733222,
-        -1037.10019112026
+        112.65520711901792,
+        -1037.1001923607757
       ],
-      "m2" : 1.9427712281146387e-07,
+      "m2" : 2.0673768103404926e-07,
       "offsetMaxM" : 7.111009806547223e-05,
-      "offsetMinM" : -5.794129456772649e-05,
-      "samples" : 90,
-      "spreadM" : 4.6721397885268016e-05,
+      "offsetMinM" : -5.79412946711132e-05,
+      "samples" : 95,
+      "spreadM" : 4.689708980605427e-05,
       "trackName" : "Mount Panorama Motor Racing Circuit",
-      "updated" : 1790242473,
+      "updated" : 1790277302,
       "yMax" : -64.47523498535156,
       "yMin" : -70.47535705566406
     },
@@ -6447,23 +6447,23 @@
       "context" : "customRace",
       "courseId" : 41,
       "halfWidthM" : 12,
-      "headingRad" : 2.1526825175140125,
+      "headingRad" : 2.152779945080275,
       "kind" : "lap1",
       "lineA" : [
-        -266.1089052151746,
-        -235.8913118115201
+        -266.10828152260905,
+        -235.88999374228464
       ],
       "lineB" : [
-        -286.15916485318456,
-        -249.08172834961277
+        -286.15725595527994,
+        -249.0823636657711
       ],
-      "m2" : 2.4595935973245067,
+      "m2" : 2.535084012381767,
       "offsetMaxM" : 1.0211886386271174,
       "offsetMinM" : -0.17007764567431072,
-      "samples" : 50,
-      "spreadM" : 0.22404416462050541,
+      "samples" : 53,
+      "spreadM" : 0.2207976802929014,
       "trackName" : "WeatherTech Raceway Laguna Seca",
-      "updated" : 1790242440,
+      "updated" : 1790277267,
       "yMax" : -18.149578094482422,
       "yMin" : -24.172687530517578
     },
@@ -6471,23 +6471,23 @@
       "context" : "customRace",
       "courseId" : 41,
       "halfWidthM" : 12,
-      "headingRad" : 2.181996657663444,
+      "headingRad" : 2.182059325355238,
       "kind" : "finishLine",
       "lineA" : [
-        -267.9377816685449,
-        -236.9519261467014
+        -267.9376367355527,
+        -236.9507721848824
       ],
       "lineB" : [
-        -287.5928167975691,
-        -250.72434765044665
+        -287.59180874011645,
+        -250.7244253972667
       ],
-      "m2" : 1441.4440880016566,
+      "m2" : 1540.37781443516,
       "offsetMaxM" : 7.690193044409055,
       "offsetMinM" : -4.76311160261362,
-      "samples" : 186,
-      "spreadM" : 2.791341911137691,
+      "samples" : 199,
+      "spreadM" : 2.7892088361201473,
       "trackName" : "WeatherTech Raceway Laguna Seca",
-      "updated" : 1790242440,
+      "updated" : 1790277268,
       "yMax" : -18.151695251464844,
       "yMin" : -24.397905349731445
     },
@@ -6508,10 +6508,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 14,
+      "samples" : 15,
       "spreadM" : 0,
       "trackName" : "WeatherTech Raceway Laguna Seca",
-      "updated" : 1790242437,
+      "updated" : 1790277258,
       "yMax" : -23.07695960998535,
       "yMin" : -29.07695960998535
     },
@@ -6519,23 +6519,23 @@
       "context" : "lobby",
       "courseId" : 41,
       "halfWidthM" : 12,
-      "headingRad" : 2.1597607084298893,
+      "headingRad" : 2.1597607012701863,
       "kind" : "finishLine",
       "lineA" : [
-        -267.5280095792999,
-        -237.002925898894
+        -267.52800953157333,
+        -237.00292597033493
       ],
       "lineB" : [
-        -287.4844034456023,
-        -250.3349303938306
+        -287.4844034933289,
+        -250.33493032238968
       ],
-      "m2" : 94.1967372121579,
-      "offsetMaxM" : 2.2077336857951995,
+      "m2" : 100.92507558445487,
+      "offsetMaxM" : 2.207733687963171,
       "offsetMinM" : -2.7667567219622584,
-      "samples" : 56,
-      "spreadM" : 1.3086894013905521,
+      "samples" : 60,
+      "spreadM" : 1.3078969766122401,
       "trackName" : "WeatherTech Raceway Laguna Seca",
-      "updated" : 1790242437,
+      "updated" : 1790277264,
       "yMax" : -18.17324447631836,
       "yMin" : -24.194791793823242
     },
@@ -6556,10 +6556,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 13,
+      "samples" : 14,
       "spreadM" : 0,
       "trackName" : "Dragon Trail - Seaside",
-      "updated" : 1790242433,
+      "updated" : 1790277253,
       "yMax" : 1.5813891887664795,
       "yMin" : -4.4186108112335205
     },
@@ -6580,10 +6580,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 13,
+      "samples" : 14,
       "spreadM" : 0,
       "trackName" : "Trial Mountain Circuit",
-      "updated" : 1790242423,
+      "updated" : 1790277242,
       "yMax" : -12.941423416137695,
       "yMin" : -18.941423416137695
     },
@@ -6591,23 +6591,23 @@
       "context" : "lobby",
       "courseId" : 1024,
       "halfWidthM" : 12,
-      "headingRad" : 0.08863510809495065,
+      "headingRad" : 0.08863511246244532,
       "kind" : "finishLine",
       "lineA" : [
-        144.76514029957923,
-        298.7449308479075
+        144.76514035178346,
+        298.74493085254676
       ],
       "lineB" : [
-        142.6406819457007,
-        322.6507183627047
+        142.64068189349652,
+        322.65071835806543
       ],
-      "m2" : 1887.3193406874097,
+      "m2" : 2032.4977515095184,
       "offsetMaxM" : 5.639819469917769,
       "offsetMinM" : -9.933291358551555,
-      "samples" : 390,
-      "spreadM" : 2.202662177944585,
+      "samples" : 420,
+      "spreadM" : 2.2024599782674765,
       "trackName" : "Trial Mountain Circuit",
-      "updated" : 1790242428,
+      "updated" : 1790277248,
       "yMax" : -12.950213432312012,
       "yMin" : -18.96316909790039
     },
@@ -6627,10 +6627,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 13,
+      "samples" : 14,
       "spreadM" : 0,
       "trackName" : "Trial Mountain Circuit",
-      "updated" : 1790242426,
+      "updated" : 1790277246,
       "yMax" : -9.022892951965332,
       "yMin" : -15.022892951965332
     },
@@ -6650,10 +6650,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 13,
+      "samples" : 14,
       "spreadM" : 0,
       "trackName" : "Trial Mountain Circuit",
-      "updated" : 1790242426,
+      "updated" : 1790277246,
       "yMax" : -12.926248550415039,
       "yMin" : -18.92624855041504
     },
@@ -6674,10 +6674,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 13,
+      "samples" : 14,
       "spreadM" : 0,
       "trackName" : "Trial Mountain Circuit",
-      "updated" : 1790242426,
+      "updated" : 1790277246,
       "yMax" : -12.896551132202148,
       "yMin" : -18.89655113220215
     },
@@ -6770,34 +6770,34 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : 0,
-      "samples" : 10,
+      "samples" : 11,
       "spreadM" : 0,
       "trackName" : "Sardegna - Road Track - B",
-      "updated" : 1790242414,
+      "updated" : 1790277232,
       "yMax" : 11.689017295837402,
       "yMin" : 5.689017295837402
     },
     {
       "context" : "customRace",
       "courseId" : 841,
-      "halfWidthM" : 16.61416452353367,
-      "headingRad" : 1.706514848550306,
+      "halfWidthM" : 16.604613407755227,
+      "headingRad" : 1.7065148461897002,
       "kind" : "finishLine",
       "lineA" : [
-        -374.4698017802192,
-        210.05610433275203
+        -374.4792650621613,
+        210.05481200636166
       ],
       "lineB" : [
-        -407.39257538652873,
-        205.5602363044549
+        -407.38311210458664,
+        205.56152863084526
       ],
-      "m2" : 2422.9340624876154,
-      "offsetMaxM" : 9.376909398917158,
+      "m2" : 2665.227468736378,
+      "offsetMaxM" : 9.381103695186138,
       "offsetMinM" : -12.37473402710261,
-      "samples" : 80,
-      "spreadM" : 5.53805484117789,
+      "samples" : 88,
+      "spreadM" : 5.534871135918409,
       "trackName" : "Sardegna - Road Track - B",
-      "updated" : 1790242415,
+      "updated" : 1790277233,
       "yMax" : 11.685073852539062,
       "yMin" : 5.621408462524414
     },
@@ -6889,34 +6889,34 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : 0,
-      "samples" : 10,
+      "samples" : 11,
       "spreadM" : 0,
       "trackName" : "Circuit de Barcelona-Catalunya GP Layout",
-      "updated" : 1790242413,
+      "updated" : 1790277204,
       "yMax" : -3.589606285095215,
       "yMin" : -9.589606285095215
     },
     {
       "context" : "customRace",
       "courseId" : 874,
-      "halfWidthM" : 12.96562843053604,
-      "headingRad" : 2.142202830277444,
+      "halfWidthM" : 12.95709560405701,
+      "headingRad" : 2.142202831210134,
       "kind" : "finishLine",
       "lineA" : [
-        248.96549389913028,
-        -88.63752952385755
+        248.95831658113164,
+        -88.64214419980149
       ],
       "lineB" : [
-        227.15364672586966,
-        -102.66155909047
+        227.1608240438683,
+        -102.65694441452604
       ],
-      "m2" : 1288.8243245902208,
+      "m2" : 1417.706757049243,
       "offsetMaxM" : 11.702954826825547,
-      "offsetMinM" : -2.642651315727988,
-      "samples" : 70,
-      "spreadM" : 4.321876143512013,
+      "offsetMinM" : -2.6426513159699185,
+      "samples" : 77,
+      "spreadM" : 4.319031868019003,
       "trackName" : "Circuit de Barcelona-Catalunya GP Layout",
-      "updated" : 1790242414,
+      "updated" : 1790277231,
       "yMax" : -3.54202938079834,
       "yMin" : -9.846466541290283
     },
@@ -6961,10 +6961,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 9,
+      "samples" : 10,
       "spreadM" : 0,
       "trackName" : "Circuit de Sainte-Croix - C",
-      "updated" : 1790242371,
+      "updated" : 1790277156,
       "yMax" : 19.164213180541992,
       "yMin" : 13.164213180541992
     },
@@ -6974,20 +6974,20 @@
       "halfWidthM" : 0,
       "kind" : "pitEntry",
       "lineA" : [
-        -782.3943481445312,
+        -782.3943481445314,
         -446.9832382202148
       ],
       "lineB" : [
-        -782.3943481445312,
+        -782.3943481445314,
         -446.9832382202148
       ],
-      "m2" : 4.8999576203060995,
+      "m2" : 5.444397355895573,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 36,
-      "spreadM" : 0.37416412060966353,
+      "samples" : 40,
+      "spreadM" : 0.3736307431173867,
       "trackName" : "Circuit de Sainte-Croix - C",
-      "updated" : 1790242378,
+      "updated" : 1790277165,
       "yMax" : 19.1857852935791,
       "yMin" : 13.183294296264648
     },
@@ -6997,20 +6997,20 @@
       "halfWidthM" : 0,
       "kind" : "pitBox",
       "lineA" : [
-        -676.9948577880858,
+        -676.9948577880859,
         -570.071044921875
       ],
       "lineB" : [
-        -676.9948577880858,
+        -676.9948577880859,
         -570.071044921875
       ],
-      "m2" : 2.5145709516616517e-08,
+      "m2" : 2.793967723312665e-08,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 36,
-      "spreadM" : 2.680389604762525e-05,
+      "samples" : 40,
+      "spreadM" : 2.676568662180331e-05,
       "trackName" : "Circuit de Sainte-Croix - C",
-      "updated" : 1790242378,
+      "updated" : 1790277165,
       "yMax" : 19.172618865966797,
       "yMin" : 13.171113967895508
     },
@@ -7018,7 +7018,7 @@
       "context" : "lobby",
       "courseId" : 829,
       "halfWidthM" : 12,
-      "headingRad" : -0.9237583935803472,
+      "headingRad" : -0.9237583935803466,
       "kind" : "pitExit",
       "lineA" : [
         -608.6238675737065,
@@ -7028,37 +7028,37 @@
         -589.4749178266845,
         -680.9645321409122
       ],
-      "m2" : 5.0291419023196164e-08,
+      "m2" : 5.5879354473061284e-08,
       "offsetMaxM" : 2.849720974388406e-05,
       "offsetMinM" : -8.549213741245545e-05,
-      "samples" : 36,
-      "spreadM" : 3.7906433311207654e-05,
+      "samples" : 40,
+      "spreadM" : 3.78523970290882e-05,
       "trackName" : "Circuit de Sainte-Croix - C",
-      "updated" : 1790242378,
+      "updated" : 1790277165,
       "yMax" : 19.238325119018555,
       "yMin" : 13.238229751586914
     },
     {
       "context" : "lobby",
       "courseId" : 829,
-      "halfWidthM" : 12.907716264844463,
-      "headingRad" : -0.9211248968026383,
+      "halfWidthM" : 12.904284730485045,
+      "headingRad" : -0.9211248968032283,
       "kind" : "finishLine",
       "lineA" : [
-        -686.6524632800573,
-        -614.2148197530006
+        -686.6497308089546,
+        -614.2127439327453
       ],
       "lineB" : [
-        -666.096083501936,
-        -598.5984242946189
+        -666.098815973039,
+        -598.600500114874
       ],
-      "m2" : 3480.279796073477,
+      "m2" : 3866.977551192751,
       "offsetMaxM" : 8.91969345229861,
       "offsetMinM" : -8.67557838270463,
-      "samples" : 189,
-      "spreadM" : 4.3025720882814875,
+      "samples" : 210,
+      "spreadM" : 4.301428243495015,
       "trackName" : "Circuit de Sainte-Croix - C",
-      "updated" : 1790242379,
+      "updated" : 1790277166,
       "yMax" : 19.17600440979004,
       "yMin" : 13.153175354003906
     },
@@ -7090,47 +7090,47 @@
       "context" : "customRace",
       "courseId" : 827,
       "halfWidthM" : 12,
-      "headingRad" : -0.9023051418615179,
+      "headingRad" : -0.901832673289598,
       "kind" : "lap1",
       "lineA" : [
-        -685.1526884192642,
-        -613.3565726172698
+        -685.1824432033136,
+        -613.3881784421037
       ],
       "lineB" : [
-        -666.3185029869858,
-        -598.4813092884223
+        -666.3552879673407,
+        -598.5040182131697
       ],
-      "m2" : 79.32430215712091,
-      "offsetMaxM" : 2.2197788094157835,
+      "m2" : 91.09900325856853,
+      "offsetMaxM" : 2.2444516807637562,
       "offsetMinM" : -4.806402626525967,
-      "samples" : 14,
-      "spreadM" : 2.4701962263556325,
+      "samples" : 16,
+      "spreadM" : 2.464399903405405,
       "trackName" : "Circuit de Sainte-Croix - B",
-      "updated" : 1790242362,
+      "updated" : 1790277143,
       "yMax" : 19.175539016723633,
       "yMin" : 13.171318054199219
     },
     {
       "context" : "customRace",
       "courseId" : 827,
-      "halfWidthM" : 14.22063339177948,
-      "headingRad" : -0.9151087310150321,
+      "halfWidthM" : 14.106714231513518,
+      "headingRad" : -0.9151745839944653,
       "kind" : "finishLine",
       "lineA" : [
-        -689.2511798880616,
-        -616.1511856786547
+        -689.1680636935663,
+        -616.0871055534667
       ],
       "lineB" : [
-        -666.7078102998103,
-        -598.810420301628
+        -666.8041525946825,
+        -598.8867268948568
       ],
-      "m2" : 921.2536640665704,
+      "m2" : 1039.2190179167271,
       "offsetMaxM" : 8.509031611512011,
       "offsetMinM" : -10.231125198650627,
-      "samples" : 42,
-      "spreadM" : 4.74021113059316,
+      "samples" : 48,
+      "spreadM" : 4.702238077171173,
       "trackName" : "Circuit de Sainte-Croix - B",
-      "updated" : 1790242362,
+      "updated" : 1790277144,
       "yMax" : 19.168275833129883,
       "yMin" : 13.156356811523438
     },
@@ -7147,13 +7147,13 @@
         -791.0564880371094,
         -435.5235137939453
       ],
-      "m2" : 0.13135954644531012,
+      "m2" : 0.15325280418619514,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 12,
-      "spreadM" : 0.10927843771565206,
+      "samples" : 14,
+      "spreadM" : 0.10857567519979755,
       "trackName" : "Circuit de Sainte-Croix - B",
-      "updated" : 1790242357,
+      "updated" : 1790277138,
       "yMax" : 19.227693557739258,
       "yMin" : 13.227664947509766
     },
@@ -7170,13 +7170,13 @@
         -676.9555053710938,
         -570.1153259277344
       ],
-      "m2" : 1.1175870895385742e-08,
+      "m2" : 1.30385160446167e-08,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 12,
-      "spreadM" : 3.187457079266928e-05,
+      "samples" : 14,
+      "spreadM" : 3.1669587503831227e-05,
       "trackName" : "Circuit de Sainte-Croix - B",
-      "updated" : 1790242357,
+      "updated" : 1790277138,
       "yMax" : 19.172176361083984,
       "yMin" : 13.171968460083008
     },
@@ -7184,7 +7184,7 @@
       "context" : "customRace",
       "courseId" : 827,
       "halfWidthM" : 12,
-      "headingRad" : -0.9547218952170655,
+      "headingRad" : -0.9547218952170653,
       "kind" : "pitExit",
       "lineA" : [
         -602.374403283711,
@@ -7194,13 +7194,13 @@
         -582.786729528789,
         -688.997306373877
       ],
-      "m2" : 8.940696716308594e-08,
+      "m2" : 1.043081283569336e-07,
       "offsetMaxM" : 0.0001701630008775716,
       "offsetMinM" : -8.508232601319777e-05,
-      "samples" : 12,
-      "spreadM" : 9.015490061962847e-05,
+      "samples" : 14,
+      "spreadM" : 8.957512032535922e-05,
       "trackName" : "Circuit de Sainte-Croix - B",
-      "updated" : 1790242357,
+      "updated" : 1790277138,
       "yMax" : 19.231287002563477,
       "yMin" : 13.231267929077148
     },
@@ -7221,10 +7221,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 6,
+      "samples" : 7,
       "spreadM" : 0,
       "trackName" : "Willow Springs International Raceway: Big Willow",
-      "updated" : 1790242355,
+      "updated" : 1790277131,
       "yMax" : -33.652008056640625,
       "yMin" : -39.652008056640625
     },
@@ -7232,23 +7232,23 @@
       "context" : "powerPackRace",
       "courseId" : 122,
       "halfWidthM" : 20,
-      "headingRad" : -2.533802949738234,
+      "headingRad" : -2.5338029442163603,
       "kind" : "finishLine",
       "lineA" : [
-        71.63812683524866,
-        394.57206828049914
+        71.63812674458919,
+        394.5720682174334
       ],
       "lineB" : [
-        94.48030273018104,
-        361.735579424579
+        94.4803028208405,
+        361.7355794876448
       ],
-      "m2" : 1563.7717143180319,
-      "offsetMaxM" : 3.957709976640029,
+      "m2" : 1824.4003333710364,
+      "offsetMaxM" : 3.980896700854199,
       "offsetMinM" : -18.002478516133,
-      "samples" : 30,
-      "spreadM" : 7.343239241825827,
+      "samples" : 35,
+      "spreadM" : 7.325218995664379,
       "trackName" : "Willow Springs International Raceway: Big Willow",
-      "updated" : 1790242356,
+      "updated" : 1790277132,
       "yMax" : -33.64549255371094,
       "yMin" : -39.80172348022461
     },
@@ -7269,34 +7269,34 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : 0,
-      "samples" : 4,
+      "samples" : 5,
       "spreadM" : 0,
       "trackName" : "Nürburgring Sprint",
-      "updated" : 1790242356,
+      "updated" : 1790277132,
       "yMax" : 145.228271484375,
       "yMin" : 139.228271484375
     },
     {
       "context" : "powerPackRace",
       "courseId" : 1248,
-      "halfWidthM" : 16.20843192962205,
-      "headingRad" : 2.3501121223954704,
+      "halfWidthM" : 16.101444411052945,
+      "headingRad" : 2.350112098551826,
       "kind" : "finishLine",
       "lineA" : [
-        -1064.8837926589044,
-        1891.327403500449
+        -1064.9599027276217,
+        1891.2522131648363
       ],
       "lineB" : [
-        -1087.9449732102357,
-        1868.5450635405666
+        -1087.8688631415184,
+        1868.6202538761793
       ],
-      "m2" : 437.85544269531925,
+      "m2" : 547.3193033691483,
       "offsetMaxM" : 12.199896037115286,
       "offsetMinM" : -5.298325633359649,
-      "samples" : 16,
-      "spreadM" : 5.40281064320735,
+      "samples" : 20,
+      "spreadM" : 5.367148137017648,
       "trackName" : "Nürburgring Sprint",
-      "updated" : 1790242356,
+      "updated" : 1790277137,
       "yMax" : 147.14712524414062,
       "yMin" : 140.86050415039062
     },
@@ -7317,34 +7317,34 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : 0,
-      "samples" : 4,
+      "samples" : 5,
       "spreadM" : 0,
       "trackName" : "Nürburgring Endurance",
-      "updated" : 1790242483,
+      "updated" : 1790277311,
       "yMax" : 145.1818084716797,
       "yMin" : 139.1818084716797
     },
     {
       "context" : "customRace",
       "courseId" : 1247,
-      "halfWidthM" : 12.385864861510594,
-      "headingRad" : 2.34930507128336,
+      "halfWidthM" : 12.321186273939173,
+      "headingRad" : 2.349305071649491,
       "kind" : "finishLine",
       "lineA" : [
-        -1069.02892104639,
-        1887.4890871507212
+        -1069.0749697148474,
+        1887.4436686542297
       ],
       "lineB" : [
-        -1086.6654393051733,
-        1870.0939206617788
+        -1086.619390636716,
+        1870.1393391582703
       ],
-      "m2" : 323.86481322049485,
+      "m2" : 404.83101652561885,
       "offsetMaxM" : 8.506540619237224,
-      "offsetMinM" : -4.1534650026898765,
-      "samples" : 20,
-      "spreadM" : 4.128621620503531,
+      "offsetMinM" : -4.153465002899534,
+      "samples" : 25,
+      "spreadM" : 4.1070620913130576,
       "trackName" : "Nürburgring Endurance",
-      "updated" : 1790242487,
+      "updated" : 1790277316,
       "yMax" : 147.06394958496094,
       "yMin" : 140.8164825439453
     },
@@ -7365,10 +7365,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : 0,
-      "samples" : 4,
+      "samples" : 5,
       "spreadM" : 0,
       "trackName" : "Nürburgring Endurance",
-      "updated" : 1790242484,
+      "updated" : 1790277313,
       "yMax" : 147.60618591308594,
       "yMin" : 141.60618591308594
     },
@@ -7389,10 +7389,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : 0,
-      "samples" : 4,
+      "samples" : 5,
       "spreadM" : 0,
       "trackName" : "Nürburgring Endurance",
-      "updated" : 1790242484,
+      "updated" : 1790277313,
       "yMax" : 144.27328491210938,
       "yMin" : 138.27328491210938
     },
@@ -7412,10 +7412,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 4,
+      "samples" : 5,
       "spreadM" : 0,
       "trackName" : "Nürburgring Endurance",
-      "updated" : 1790242484,
+      "updated" : 1790277313,
       "yMax" : 146.94847106933594,
       "yMin" : 140.94847106933594
     },
@@ -7423,23 +7423,23 @@
       "context" : "sportDailyRace",
       "courseId" : 469,
       "halfWidthM" : 12,
-      "headingRad" : -1.4755806034484062,
+      "headingRad" : -1.4755806024846878,
       "kind" : "lap1",
       "lineA" : [
-        -507.85461603095035,
-        110.43504311312698
+        -507.85461602985083,
+        110.43504310161475
       ],
       "lineB" : [
-        -483.9633262704819,
-        112.71676912238733
+        -483.9633262715813,
+        112.71676913389956
       ],
-      "m2" : 8.707094972603931,
+      "m2" : 11.609459963471902,
       "offsetMaxM" : 1.3157220419679645,
       "offsetMinM" : -1.729380661132484,
-      "samples" : 9,
-      "spreadM" : 1.0432578164459116,
+      "samples" : 12,
+      "spreadM" : 1.0273292808173622,
       "trackName" : "Autodromo Nazionale Monza",
-      "updated" : 1790242421,
+      "updated" : 1790277241,
       "yMax" : 180.19664001464844,
       "yMin" : 174.1737823486328
     },
@@ -7447,23 +7447,23 @@
       "context" : "sportDailyRace",
       "courseId" : 469,
       "halfWidthM" : 12,
-      "headingRad" : -1.4934172260668857,
+      "headingRad" : -1.4934172231514125,
       "kind" : "finishLine",
       "lineA" : [
-        -533.7121854216422,
-        420.77897435475376
+        -533.7121854189379,
+        420.77897431987276
       ],
       "lineB" : [
-        -509.783999881092,
-        422.6342200896908
+        -509.7839998837965,
+        422.6342201245718
       ],
-      "m2" : 769.1679376278371,
-      "offsetMaxM" : 7.702201432480073,
+      "m2" : 1025.5572501704478,
+      "offsetMaxM" : 7.710665884304964,
       "offsetMinM" : -9.999834656097146,
-      "samples" : 54,
-      "spreadM" : 3.809540995546792,
+      "samples" : 72,
+      "spreadM" : 3.8005878903479955,
       "trackName" : "Autodromo Nazionale Monza",
-      "updated" : 1790242423,
+      "updated" : 1790277242,
       "yMax" : 178.6216278076172,
       "yMin" : 172.46798706054688
     },
@@ -7484,10 +7484,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 3,
+      "samples" : 4,
       "spreadM" : 0,
       "trackName" : "Mount Panorama Motor Racing Circuit",
-      "updated" : 1790242440,
+      "updated" : 1790277268,
       "yMax" : -71.78472900390625,
       "yMin" : -77.78472900390625
     },
@@ -7508,10 +7508,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : 0,
-      "samples" : 3,
+      "samples" : 4,
       "spreadM" : 0,
       "trackName" : "Deep Forest Raceway",
-      "updated" : 1790242502,
+      "updated" : 1790277332,
       "yMax" : 10.080102920532227,
       "yMin" : 4.080102920532227
     },
@@ -7531,10 +7531,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 3,
+      "samples" : 4,
       "spreadM" : 0,
       "trackName" : "Deep Forest Raceway",
-      "updated" : 1790242505,
+      "updated" : 1790277335,
       "yMax" : 0.992241382598877,
       "yMin" : -5.007758617401123
     },
@@ -7555,10 +7555,10 @@
       "m2" : 0,
       "offsetMaxM" : -0,
       "offsetMinM" : 0,
-      "samples" : 3,
+      "samples" : 4,
       "spreadM" : 0,
       "trackName" : "Deep Forest Raceway",
-      "updated" : 1790242505,
+      "updated" : 1790277335,
       "yMax" : 13.853395462036133,
       "yMin" : 7.853395462036133
     },
@@ -7578,10 +7578,10 @@
       "m2" : 0,
       "offsetMaxM" : 0,
       "offsetMinM" : 0,
-      "samples" : 3,
+      "samples" : 4,
       "spreadM" : 0,
       "trackName" : "Deep Forest Raceway",
-      "updated" : 1790242505,
+      "updated" : 1790277335,
       "yMax" : 10.04500436782837,
       "yMin" : 4.045004367828369
     }

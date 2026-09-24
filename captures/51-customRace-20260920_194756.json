@@ -3,13 +3,13 @@
   "carName" : "Hyundai ELANTRA N TC '24",
   "compoundObservations" : [
     {
-      "compound" : "RS",
-      "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
+      "compound" : "RH",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
-      "finalLabel" : "RS",
+      "finalLabel" : "RH",
       "heating" : 0.3463380580586268,
       "lap" : 1,
       "outcome" : "unchallenged",
@@ -21,12 +21,12 @@
       "trigger" : "raceStart"
     },
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "filedBy" : "reprocess",
       "heating" : 0.6304685487547279,
       "lap" : 4,
       "notes" : [
-        "no dry fit — nearest RS at 0.212"
+        "ambiguous — RS vs RM, margin 0.023"
       ],
       "outcome" : "unchallenged",
       "samples" : 698,
@@ -67,6 +67,8 @@
   },
   "endTime" : 1789927148,
   "granularity" : 1,
+  "identifiedCourseId" : 51,
+  "identifiedTrackName" : "Deep Forest Raceway",
   "packetSize" : 368,
   "startTime" : 1789926476,
   "trackName" : "Deep Forest Raceway",

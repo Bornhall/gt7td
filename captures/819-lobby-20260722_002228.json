@@ -3,7 +3,7 @@
   "carName" : "Dodge Viper SRT GT3-R '15",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "low",
       "filedBy" : "reprocess",
@@ -51,6 +51,8 @@
   },
   "endTime" : 1784672753,
   "granularity" : 1,
+  "identifiedCourseId" : 819,
+  "identifiedTrackName" : "Blue Moon Bay Speedway - Infield B",
   "packetSize" : 368,
   "startTime" : 1784672548,
   "trackName" : "Blue Moon Bay Speedway: Infield B",

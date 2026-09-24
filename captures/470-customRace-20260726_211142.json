@@ -3,15 +3,15 @@
   "carName" : "Porsche 911 GT3 R (992) '22",
   "compoundObservations" : [
     {
-      "compound" : "RS",
-      "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
-      "finalLabel" : "RS",
       "heating" : 0.26048694724640653,
       "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 0.216"
+      ],
       "outcome" : "unchallenged",
       "samples" : 832,
       "seconds" : 90.00667334000667,
@@ -21,14 +21,13 @@
       "trigger" : "raceStart"
     },
     {
-      "compound" : "RS",
-      "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
-      "family" : "racing",
+      "estimatorVersion" : "v1r5",
       "filedBy" : "reprocess",
-      "finalLabel" : "RS",
       "heating" : 0.5133145575791112,
       "lap" : 5,
+      "notes" : [
+        "no dry fit — nearest RS at 0.271"
+      ],
       "outcome" : "unchallenged",
       "samples" : 902,
       "seconds" : 90.00667334000667,
@@ -68,6 +67,8 @@
   },
   "endTime" : 1785094350,
   "granularity" : 1,
+  "identifiedCourseId" : 470,
+  "identifiedTrackName" : "Red Bull Ring",
   "packetSize" : 368,
   "startTime" : 1785093102,
   "trackName" : "Red Bull Ring: Full Course",

@@ -3,15 +3,15 @@
   "carName" : "Mercedes-AMG GT3 '20",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "compound" : "RM",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
+      "finalLabel" : "RM",
       "heating" : 0.13960644972563754,
       "lap" : 1,
-      "notes" : [
-        "ambiguous — RM vs RH, margin 0.011"
-      ],
       "outcome" : "unchallenged",
       "samples" : 1189,
       "seconds" : 90.00667334000667,
@@ -21,12 +21,12 @@
       "trigger" : "raceStart"
     },
     {
-      "compound" : "RM",
-      "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
+      "compound" : "RS",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "filedBy" : "reprocess",
-      "finalLabel" : "RM",
+      "finalLabel" : "RS",
       "heating" : 0.41330136906534687,
       "lap" : 13,
       "outcome" : "unchallenged",
@@ -39,8 +39,8 @@
     },
     {
       "compound" : "RH",
-      "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "filedBy" : "reprocess",
       "finalLabel" : "RH",
@@ -85,6 +85,8 @@
   },
   "endTime" : 1788011405,
   "granularity" : 1,
+  "identifiedCourseId" : 51,
+  "identifiedTrackName" : "Deep Forest Raceway",
   "observedDurationS" : 3600,
   "packetSize" : 368,
   "startTime" : 1788007751,

@@ -3,7 +3,7 @@
   "carName" : "Peugeot RCZ Gr.3",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
@@ -48,6 +48,8 @@
   },
   "endTime" : 1785011738,
   "granularity" : 1,
+  "identifiedCourseId" : 795,
+  "identifiedTrackName" : "Autodrome Lago Maggiore - East End",
   "packetSize" : 368,
   "startTime" : 1785011557,
   "trackName" : "Autodrome Lago Maggiore: East End",

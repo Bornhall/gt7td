@@ -3,7 +3,7 @@
   "carName" : "Dodge Viper SRT GT3-R '15",
   "compoundObservations" : [
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
       "filedBy" : "reprocess",
@@ -21,7 +21,7 @@
       "trigger" : "raceStart"
     },
     {
-      "estimatorVersion" : "v1r4",
+      "estimatorVersion" : "v1r5",
       "filedBy" : "reprocess",
       "heating" : 0.641589753407824,
       "lap" : 6,
@@ -67,6 +67,8 @@
   },
   "endTime" : 1784659324,
   "granularity" : 1,
+  "identifiedCourseId" : 896,
+  "identifiedTrackName" : "Autopolis International Racing Course",
   "packetSize" : 368,
   "startTime" : 1784658491,
   "trackName" : "Autopolis International Racing Course",

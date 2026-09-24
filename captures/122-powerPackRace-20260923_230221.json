@@ -5,10 +5,11 @@
   "compoundObservations" : [
     {
       "compound" : "RH",
-      "compoundConfidence" : "low",
-      "estimatorVersion" : "v1r4",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
       "family" : "racing",
       "familyConfidence" : "high",
+      "filedBy" : "reprocess",
       "finalLabel" : "RH",
       "heating" : 0.5475077796334477,
       "lap" : 1,
@@ -21,6 +22,17 @@
       "trigger" : "raceStart"
     }
   ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RH",
+        "lap" : 1,
+        "startPacketId" : 975030,
+        "trigger" : "raceStart"
+      }
+    ],
+    "verifiedAt" : 1790276956.3453999
+  },
   "counts" : {
     "hzSource" : "measured",
     "laps" : 6,
@@ -49,6 +61,8 @@
   },
   "endTime" : 1790197819,
   "granularity" : 1,
+  "identifiedCourseId" : 122,
+  "identifiedTrackName" : "Willow Springs International Raceway: Big Willow",
   "packetSize" : 368,
   "startTime" : 1790197341,
   "trackName" : "Nürburgring Sprint",

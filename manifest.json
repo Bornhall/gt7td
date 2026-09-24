@@ -31,6 +31,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9354,
       "lapTimerRatio": 0.99992,
+      "identifiedCourseId": 4,
+      "identifiedTrackName": "Daytona Tri-Oval",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -69,6 +71,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9429,
       "lapTimerRatio": 1.00005,
+      "identifiedCourseId": 11,
+      "identifiedTrackName": "High Speed Ring",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -107,11 +111,14 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0,
       "lapTimerRatio": 1.001,
+      "identifiedCourseId": 41,
+      "identifiedTrackName": "WeatherTech Raceway Laguna Seca",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
+          "compound": "RS",
           "outcome": "unchallenged"
         }
       ]
@@ -145,11 +152,14 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0028,
       "lapTimerRatio": 1.00105,
+      "identifiedCourseId": 41,
+      "identifiedTrackName": "WeatherTech Raceway Laguna Seca",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
+          "compound": "RS",
           "outcome": "unchallenged"
         }
       ]
@@ -183,6 +193,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0064,
       "lapTimerRatio": 1.00111,
+      "identifiedCourseId": 41,
+      "identifiedTrackName": "WeatherTech Raceway Laguna Seca",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -221,6 +233,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9431,
       "lapTimerRatio": 1.00005,
+      "identifiedCourseId": 41,
+      "identifiedTrackName": "WeatherTech Raceway Laguna Seca",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -260,6 +274,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0004,
       "lapTimerRatio": 1.00101,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -312,6 +328,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0,
       "lapTimerRatio": 1.001,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -365,6 +383,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0004,
       "lapTimerRatio": 1.00101,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -418,19 +438,21 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0015,
       "lapTimerRatio": 1.00102,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RH",
+          "compound": "RM",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 13,
           "family": "racing",
-          "compound": "RM",
+          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
@@ -471,19 +493,21 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9983,
       "lapTimerRatio": 1.00097,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RH",
+          "compound": "RM",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 13,
           "family": "racing",
-          "compound": "RM",
+          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
@@ -524,18 +548,21 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0002,
       "lapTimerRatio": 1.001,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
+          "compound": "RM",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 13,
           "family": "racing",
-          "compound": "RM",
+          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
@@ -576,18 +603,21 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0007,
       "lapTimerRatio": 1.00101,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
+          "compound": "RM",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 13,
           "family": "racing",
-          "compound": "RM",
+          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
@@ -623,7 +653,9 @@
       "stops": 0,
       "tyreChanges": 0,
       "countsVersion": 1,
-      "countsSource": "reprocess"
+      "countsSource": "reprocess",
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway"
     },
     {
       "stem": "51-customRace-20260830_114650",
@@ -654,6 +686,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0007,
       "lapTimerRatio": 1.00101,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -702,7 +736,9 @@
       "stops": 0,
       "tyreChanges": 0,
       "countsVersion": 1,
-      "countsSource": "reprocess"
+      "countsSource": "reprocess",
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway"
     },
     {
       "stem": "51-customRace-20260830_155428",
@@ -733,6 +769,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0004,
       "lapTimerRatio": 1.00101,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -786,12 +824,14 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9995,
       "lapTimerRatio": 1.00099,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RS",
+          "compound": "RH",
           "outcome": "unchallenged"
         },
         {
@@ -831,11 +871,14 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9991,
       "lapTimerRatio": 1.00098,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
-          "family": "racing",
+          "family": "sports",
+          "compound": "SH",
           "outcome": "unchallenged"
         },
         {
@@ -875,20 +918,20 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0005,
       "lapTimerRatio": 1.00101,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
-          "family": "sports",
-          "compound": "SS",
+          "family": "road",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 2,
-          "family": "sports",
-          "compound": "SS",
-          "outcome": "unchallenged"
+          "outcome": "unchallenged",
+          "abstained": true
         }
       ]
     },
@@ -921,6 +964,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0027,
       "lapTimerRatio": 1.00104,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -963,6 +1008,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0058,
       "lapTimerRatio": 1.0011,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1005,6 +1052,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.002,
       "lapTimerRatio": 1.00103,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1047,6 +1096,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.001,
       "lapTimerRatio": 1.00102,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1089,6 +1140,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0086,
       "lapTimerRatio": 1.00114,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1131,11 +1184,14 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0006,
       "lapTimerRatio": 1.00101,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
-          "family": "road",
+          "family": "sports",
+          "compound": "SH",
           "outcome": "unchallenged"
         }
       ],
@@ -1172,6 +1228,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0052,
       "lapTimerRatio": 1.00109,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1214,6 +1272,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0019,
       "lapTimerRatio": 1.00103,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1256,6 +1316,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0025,
       "lapTimerRatio": 1.00104,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1298,6 +1360,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0039,
       "lapTimerRatio": 1.00106,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1340,11 +1404,14 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0052,
       "lapTimerRatio": 1.00109,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
+          "compound": "RH",
           "outcome": "unchallenged"
         }
       ],
@@ -1381,11 +1448,14 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0032,
       "lapTimerRatio": 1.00105,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
+          "compound": "RM",
           "outcome": "unchallenged"
         }
       ],
@@ -1500,6 +1570,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9412,
       "lapTimerRatio": 1.00002,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1546,33 +1618,35 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0002,
       "lapTimerRatio": 1.001,
+      "identifiedCourseId": 116,
+      "identifiedTrackName": "Mount Panorama Motor Racing Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RH",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 10,
           "family": "racing",
-          "compound": "RM",
+          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 17,
           "family": "racing",
-          "compound": "RM",
+          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 24,
-          "outcome": "unchallenged",
-          "abstained": true
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
         }
       ]
     },
@@ -1605,11 +1679,14 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9995,
       "lapTimerRatio": 1.00099,
+      "identifiedCourseId": 116,
+      "identifiedTrackName": "Mount Panorama Motor Racing Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
+          "compound": "RH",
           "outcome": "unchallenged"
         }
       ]
@@ -1643,6 +1720,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0005,
       "lapTimerRatio": 1.00101,
+      "identifiedCourseId": 116,
+      "identifiedTrackName": "Mount Panorama Motor Racing Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1689,19 +1768,21 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0006,
       "lapTimerRatio": 1.00101,
+      "identifiedCourseId": 116,
+      "identifiedTrackName": "Mount Panorama Motor Racing Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RH",
+          "compound": "RM",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 16,
           "family": "racing",
-          "compound": "RH",
+          "compound": "RM",
           "outcome": "unchallenged"
         }
       ]
@@ -1735,6 +1816,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0028,
       "lapTimerRatio": 1.00105,
+      "identifiedCourseId": 116,
+      "identifiedTrackName": "Mount Panorama Motor Racing Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1774,6 +1857,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9414,
       "lapTimerRatio": 1.00002,
+      "identifiedCourseId": 116,
+      "identifiedTrackName": "Mount Panorama Motor Racing Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1812,6 +1897,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.94,
       "lapTimerRatio": 1.0,
+      "identifiedCourseId": 116,
+      "identifiedTrackName": "Mount Panorama Motor Racing Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1857,6 +1944,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9387,
       "lapTimerRatio": 0.99998,
+      "identifiedCourseId": 119,
+      "identifiedTrackName": "Brands Hatch Grand Prix Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1901,6 +1990,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9992,
       "lapTimerRatio": 1.00099,
+      "identifiedCourseId": 122,
+      "identifiedTrackName": "Willow Springs International Raceway: Big Willow",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1943,6 +2034,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9448,
       "lapTimerRatio": 1.00008,
+      "identifiedCourseId": 346,
+      "identifiedTrackName": "Brands Hatch Indy Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -1987,6 +2080,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9985,
       "lapTimerRatio": 1.00098,
+      "identifiedCourseId": 349,
+      "identifiedTrackName": "N\u00fcrburgring GP",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2021,6 +2116,8 @@
       "tyreChanges": 1,
       "countsVersion": 1,
       "countsSource": "reprocess",
+      "identifiedCourseId": 354,
+      "identifiedTrackName": "Northern Isle Speedway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2061,6 +2158,8 @@
       "tyreChanges": 0,
       "countsVersion": 1,
       "countsSource": "reprocess",
+      "identifiedCourseId": 354,
+      "identifiedTrackName": "Northern Isle Speedway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2095,6 +2194,8 @@
       "tyreChanges": 1,
       "countsVersion": 1,
       "countsSource": "reprocess",
+      "identifiedCourseId": 354,
+      "identifiedTrackName": "Northern Isle Speedway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2139,11 +2240,14 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0076,
       "lapTimerRatio": 1.00113,
+      "identifiedCourseId": 356,
+      "identifiedTrackName": "Blue Moon Bay Speedway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
+          "compound": "RH",
           "outcome": "unchallenged"
         },
         {
@@ -2184,6 +2288,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0096,
       "lapTimerRatio": 1.00116,
+      "identifiedCourseId": 356,
+      "identifiedTrackName": "Blue Moon Bay Speedway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2228,6 +2334,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9316,
       "lapTimerRatio": 0.99986,
+      "identifiedCourseId": 356,
+      "identifiedTrackName": "Blue Moon Bay Speedway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2262,6 +2370,8 @@
       "tyreChanges": 1,
       "countsVersion": 1,
       "countsSource": "reprocess",
+      "identifiedCourseId": 357,
+      "identifiedTrackName": "BB Raceway",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2300,6 +2410,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9414,
       "lapTimerRatio": 1.00002,
+      "identifiedCourseId": 363,
+      "identifiedTrackName": "Dragon Trail - Seaside",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2344,6 +2456,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9395,
       "lapTimerRatio": 0.99999,
+      "identifiedCourseId": 363,
+      "identifiedTrackName": "Dragon Trail - Seaside",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2390,6 +2504,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0024,
       "lapTimerRatio": 1.00104,
+      "identifiedCourseId": 365,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2435,20 +2551,20 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0003,
       "lapTimerRatio": 1.00101,
+      "identifiedCourseId": 365,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 5,
-          "family": "racing",
-          "compound": "RM",
-          "outcome": "unchallenged"
+          "outcome": "unchallenged",
+          "abstained": true
         }
       ]
     },
@@ -2481,20 +2597,20 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0013,
       "lapTimerRatio": 1.00102,
+      "identifiedCourseId": 365,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 3,
-          "family": "racing",
-          "compound": "RS",
-          "outcome": "unchallenged"
+          "outcome": "unchallenged",
+          "abstained": true
         }
       ]
     },
@@ -2527,6 +2643,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9401,
       "lapTimerRatio": 1.0,
+      "identifiedCourseId": 365,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2571,6 +2689,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9996,
       "lapTimerRatio": 1.00099,
+      "identifiedCourseId": 376,
+      "identifiedTrackName": "Kyoto Driving Park - Yamagiwa",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2623,6 +2743,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0,
       "lapTimerRatio": 1.001,
+      "identifiedCourseId": 376,
+      "identifiedTrackName": "Kyoto Driving Park - Yamagiwa",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2662,6 +2784,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9981,
       "lapTimerRatio": 1.00097,
+      "identifiedCourseId": 376,
+      "identifiedTrackName": "Kyoto Driving Park - Yamagiwa",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2740,6 +2864,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9336,
       "lapTimerRatio": 0.99989,
+      "identifiedCourseId": 122,
+      "identifiedTrackName": "Willow Springs International Raceway: Big Willow",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2774,7 +2900,9 @@
       "stops": 0,
       "tyreChanges": 0,
       "countsVersion": 1,
-      "countsSource": "reprocess"
+      "countsSource": "reprocess",
+      "identifiedCourseId": 122,
+      "identifiedTrackName": "Willow Springs International Raceway: Big Willow"
     },
     {
       "stem": "376-timeTrial-1784733334",
@@ -2825,6 +2953,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9989,
       "lapTimerRatio": 1.00098,
+      "identifiedCourseId": 376,
+      "identifiedTrackName": "Kyoto Driving Park - Yamagiwa",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2859,6 +2989,8 @@
       "tyreChanges": 1,
       "countsVersion": 1,
       "countsSource": "reprocess",
+      "identifiedCourseId": 444,
+      "identifiedTrackName": "BB Raceway Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2903,6 +3035,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9517,
       "lapTimerRatio": 1.00019,
+      "identifiedCourseId": 449,
+      "identifiedTrackName": "Blue Moon Bay Speedway Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -2941,24 +3075,29 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9469,
       "lapTimerRatio": 1.00011,
+      "identifiedCourseId": 449,
+      "identifiedTrackName": "Blue Moon Bay Speedway Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
+          "compound": "RH",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 10,
-          "outcome": "unchallenged",
-          "abstained": true
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 17,
-          "outcome": "unchallenged",
-          "abstained": true
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "unchallenged"
         }
       ]
     },
@@ -2991,6 +3130,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9431,
       "lapTimerRatio": 1.00005,
+      "identifiedCourseId": 454,
+      "identifiedTrackName": "24 Heures du Mans Racing Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3029,6 +3170,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0033,
       "lapTimerRatio": 1.00105,
+      "identifiedCourseId": 462,
+      "identifiedTrackName": "Circuit de Spa-Francorchamps",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3067,6 +3210,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0029,
       "lapTimerRatio": 1.00105,
+      "identifiedCourseId": 462,
+      "identifiedTrackName": "Circuit de Spa-Francorchamps",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3111,6 +3256,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0011,
       "lapTimerRatio": 1.00102,
+      "identifiedCourseId": 469,
+      "identifiedTrackName": "Autodromo Nazionale Monza",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3155,6 +3302,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9995,
       "lapTimerRatio": 1.00099,
+      "identifiedCourseId": 469,
+      "identifiedTrackName": "Autodromo Nazionale Monza",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3194,11 +3343,14 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0024,
       "lapTimerRatio": 1.00104,
+      "identifiedCourseId": 469,
+      "identifiedTrackName": "Autodromo Nazionale Monza",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
-          "family": "racing",
+          "family": "sports",
+          "compound": "SM",
           "outcome": "unchallenged"
         }
       ]
@@ -3232,6 +3384,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0043,
       "lapTimerRatio": 1.00107,
+      "identifiedCourseId": 469,
+      "identifiedTrackName": "Autodromo Nazionale Monza",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3270,6 +3424,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.937,
       "lapTimerRatio": 0.99995,
+      "identifiedCourseId": 469,
+      "identifiedTrackName": "Autodromo Nazionale Monza",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3309,6 +3465,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9376,
       "lapTimerRatio": 0.99996,
+      "identifiedCourseId": 469,
+      "identifiedTrackName": "Autodromo Nazionale Monza",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3348,6 +3506,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9418,
       "lapTimerRatio": 1.00003,
+      "identifiedCourseId": 469,
+      "identifiedTrackName": "Autodromo Nazionale Monza",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3387,20 +3547,20 @@
       "hzSource": "measured",
       "lapTimerHz": 60.003,
       "lapTimerRatio": 1.00105,
+      "identifiedCourseId": 470,
+      "identifiedTrackName": "Red Bull Ring",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 5,
-          "family": "racing",
-          "compound": "RS",
-          "outcome": "unchallenged"
+          "outcome": "unchallenged",
+          "abstained": true
         }
       ]
     },
@@ -3433,6 +3593,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9469,
       "lapTimerRatio": 1.00011,
+      "identifiedCourseId": 470,
+      "identifiedTrackName": "Red Bull Ring",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3477,6 +3639,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9464,
       "lapTimerRatio": 1.00011,
+      "identifiedCourseId": 471,
+      "identifiedTrackName": "Tsukuba Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3515,6 +3679,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9407,
       "lapTimerRatio": 1.00001,
+      "identifiedCourseId": 601,
+      "identifiedTrackName": "Dragon Trail - Seaside Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3553,20 +3719,20 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0018,
       "lapTimerRatio": 1.00103,
+      "identifiedCourseId": 602,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 3,
-          "family": "racing",
-          "compound": "RS",
-          "outcome": "unchallenged"
+          "outcome": "unchallenged",
+          "abstained": true
         }
       ]
     },
@@ -3599,6 +3765,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9382,
       "lapTimerRatio": 0.99997,
+      "identifiedCourseId": 602,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3637,6 +3805,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.914,
       "lapTimerRatio": 0.99957,
+      "identifiedCourseId": 790,
+      "identifiedTrackName": "Autodrome Lago Maggiore - East End Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3675,6 +3845,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9429,
       "lapTimerRatio": 1.00005,
+      "identifiedCourseId": 791,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Centre Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3713,6 +3885,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9462,
       "lapTimerRatio": 1.0001,
+      "identifiedCourseId": 792,
+      "identifiedTrackName": "Autodrome Lago Maggiore - West End",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3751,6 +3925,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.932,
       "lapTimerRatio": 0.99987,
+      "identifiedCourseId": 793,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Centre",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3789,6 +3965,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9506,
       "lapTimerRatio": 1.00018,
+      "identifiedCourseId": 794,
+      "identifiedTrackName": "Autodrome Lago Maggiore - West End Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3823,6 +4001,8 @@
       "tyreChanges": 1,
       "countsVersion": 1,
       "countsSource": "reprocess",
+      "identifiedCourseId": 795,
+      "identifiedTrackName": "Autodrome Lago Maggiore - East End",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3861,6 +4041,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9457,
       "lapTimerRatio": 1.00009,
+      "identifiedCourseId": 819,
+      "identifiedTrackName": "Blue Moon Bay Speedway - Infield B",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3899,6 +4081,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9429,
       "lapTimerRatio": 1.00005,
+      "identifiedCourseId": 820,
+      "identifiedTrackName": "Blue Moon Bay Speedway - Infield A",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3937,6 +4121,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9382,
       "lapTimerRatio": 0.99997,
+      "identifiedCourseId": 822,
+      "identifiedTrackName": "Blue Moon Bay Speedway - Infield A Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -3975,6 +4161,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9565,
       "lapTimerRatio": 1.00027,
+      "identifiedCourseId": 823,
+      "identifiedTrackName": "Blue Moon Bay Speedway - Infield B Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4013,12 +4201,14 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9955,
       "lapTimerRatio": 1.00093,
+      "identifiedCourseId": 827,
+      "identifiedTrackName": "Circuit de Sainte-Croix - B",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RH",
+          "compound": "RM",
           "outcome": "unchallenged"
         }
       ],
@@ -4055,6 +4245,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9981,
       "lapTimerRatio": 1.00097,
+      "identifiedCourseId": 827,
+      "identifiedTrackName": "Circuit de Sainte-Croix - B",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4113,6 +4305,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9405,
       "lapTimerRatio": 1.00001,
+      "identifiedCourseId": 829,
+      "identifiedTrackName": "Circuit de Sainte-Croix - C",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4187,6 +4381,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0018,
       "lapTimerRatio": 1.00103,
+      "identifiedCourseId": 841,
+      "identifiedTrackName": "Sardegna - Road Track - B",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4226,6 +4422,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9949,
       "lapTimerRatio": 1.00091,
+      "identifiedCourseId": 846,
+      "identifiedTrackName": "Red Bull Ring Short Track",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4264,6 +4462,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9447,
       "lapTimerRatio": 1.00008,
+      "identifiedCourseId": 846,
+      "identifiedTrackName": "Red Bull Ring Short Track",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4302,6 +4502,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9269,
       "lapTimerRatio": 0.99978,
+      "identifiedCourseId": 847,
+      "identifiedTrackName": "Dragon Trail - Gardens",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4340,6 +4542,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9364,
       "lapTimerRatio": 0.99994,
+      "identifiedCourseId": 853,
+      "identifiedTrackName": "Dragon Trail - Gardens Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4378,6 +4582,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9995,
       "lapTimerRatio": 1.00099,
+      "identifiedCourseId": 874,
+      "identifiedTrackName": "Circuit de Barcelona-Catalunya GP Layout",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4417,6 +4623,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9396,
       "lapTimerRatio": 0.99999,
+      "identifiedCourseId": 896,
+      "identifiedTrackName": "Autopolis International Racing Course",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4461,6 +4669,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9412,
       "lapTimerRatio": 1.00002,
+      "identifiedCourseId": 898,
+      "identifiedTrackName": "Autopolis International Racing Course - Short Course",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4511,6 +4721,8 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0017,
       "lapTimerRatio": 1.00103,
+      "identifiedCourseId": 1007,
+      "identifiedTrackName": "Michelin Raceway Road Atlanta",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4557,6 +4769,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9393,
       "lapTimerRatio": 0.99999,
+      "identifiedCourseId": 1024,
+      "identifiedTrackName": "Trial Mountain Circuit",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4603,6 +4817,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9435,
       "lapTimerRatio": 1.00006,
+      "identifiedCourseId": 827,
+      "identifiedTrackName": "Circuit de Sainte-Croix - B",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4641,6 +4857,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9423,
       "lapTimerRatio": 1.00004,
+      "identifiedCourseId": 1163,
+      "identifiedTrackName": "Daytona Road Course",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4679,20 +4897,20 @@
       "hzSource": "measured",
       "lapTimerHz": 60.001,
       "lapTimerRatio": 1.00102,
+      "identifiedCourseId": 1226,
+      "identifiedTrackName": "Autodrome Lago Maggiore - East",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 3,
-          "family": "racing",
-          "compound": "RS",
-          "outcome": "unchallenged"
+          "outcome": "unchallenged",
+          "abstained": true
         }
       ]
     },
@@ -4725,6 +4943,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9489,
       "lapTimerRatio": 1.00015,
+      "identifiedCourseId": 1226,
+      "identifiedTrackName": "Autodrome Lago Maggiore - East",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4763,6 +4983,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9386,
       "lapTimerRatio": 0.99998,
+      "identifiedCourseId": 1231,
+      "identifiedTrackName": "Autodrome Lago Maggiore - East Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4801,6 +5023,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9448,
       "lapTimerRatio": 1.00008,
+      "identifiedCourseId": 1232,
+      "identifiedTrackName": "Autodrome Lago Maggiore - West",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4839,6 +5063,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9418,
       "lapTimerRatio": 1.00003,
+      "identifiedCourseId": 1233,
+      "identifiedTrackName": "Autodrome Lago Maggiore - West Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4877,6 +5103,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9994,
       "lapTimerRatio": 1.00099,
+      "identifiedCourseId": 1247,
+      "identifiedTrackName": "N\u00fcrburgring Endurance",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4922,11 +5150,14 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0022,
       "lapTimerRatio": 1.00104,
+      "identifiedCourseId": 349,
+      "identifiedTrackName": "N\u00fcrburgring GP",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
-          "family": "road",
+          "family": "sports",
+          "compound": "SS",
           "outcome": "unchallenged"
         }
       ],
@@ -4963,20 +5194,20 @@
       "hzSource": "measured",
       "lapTimerHz": 60.0002,
       "lapTimerRatio": 1.001,
+      "identifiedCourseId": 1249,
+      "identifiedTrackName": "Circuit de Barcelona-Catalunya GP Layout No Chicane",
       "compoundObservations": [
         {
           "trigger": "raceStart",
           "lap": 1,
           "family": "racing",
-          "compound": "RS",
           "outcome": "unchallenged"
         },
         {
           "trigger": "pitExit",
           "lap": 7,
-          "family": "racing",
-          "compound": "RS",
-          "outcome": "unchallenged"
+          "outcome": "unchallenged",
+          "abstained": true
         }
       ]
     },
@@ -5009,6 +5240,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9884,
       "lapTimerRatio": 1.00081,
+      "identifiedCourseId": 1264,
+      "identifiedTrackName": "Watkins Glen Short Course",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -5977,7 +6210,7 @@
         "timeTrial"
       ],
       "withHeading": 213,
-      "updated": 1790242749,
+      "updated": 1790277938,
       "tolerance": {
         "gatesWithWidth": 213,
         "minM": 12,
