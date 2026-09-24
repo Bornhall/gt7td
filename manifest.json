@@ -1320,7 +1320,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 0
+      "tyreWearMultiplier": 0,
+      "laps": 6,
+      "lapsValid": 1,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9992,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9992,
+      "lapTimerRatio": 1.00099
     },
     {
       "stem": "346-lobby-20260721_205103",
@@ -2902,7 +2912,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 4,
-      "tyreWearMultiplier": 4
+      "tyreWearMultiplier": 4,
+      "laps": 6,
+      "lapsValid": 1,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9981,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9981,
+      "lapTimerRatio": 1.00097
     },
     {
       "stem": "829-lobby-20260921_202849",
@@ -3492,7 +3512,17 @@
       "hasLog": true,
       "hasClock": true,
       "fuelMultiplier": 0,
-      "tyreWearMultiplier": 0
+      "tyreWearMultiplier": 0,
+      "laps": 5,
+      "lapsValid": 1,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0022,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0022,
+      "lapTimerRatio": 1.00104
     },
     {
       "stem": "1249-customRace-20260726_131014",
@@ -3664,8 +3694,8 @@
         },
         {
           "context": "customRace",
-          "lengthM": 3565,
-          "points": 713
+          "lengthM": 3555,
+          "points": 711
         }
       ]
     },
@@ -3675,9 +3705,14 @@
       "file": "reference/trackmaps/51.trackmap.json",
       "versions": [
         {
+          "context": null,
+          "lengthM": 4195,
+          "points": 839
+        },
+        {
           "context": "customRace",
-          "lengthM": 4185,
-          "points": 837
+          "lengthM": 4180,
+          "points": 836
         }
       ]
     },
@@ -3707,6 +3742,18 @@
           "context": "lobby",
           "lengthM": 3890,
           "points": 778
+        }
+      ]
+    },
+    {
+      "courseId": 122,
+      "track": "Willow Springs International Raceway: Big Willow",
+      "file": "reference/trackmaps/122.trackmap.json",
+      "versions": [
+        {
+          "context": "powerPackRace",
+          "lengthM": 3925,
+          "points": 785
         }
       ]
     },
@@ -3804,8 +3851,8 @@
         },
         {
           "context": "customRace",
-          "lengthM": 5720,
-          "points": 1144
+          "lengthM": 5705,
+          "points": 1141
         }
       ]
     },
@@ -3826,8 +3873,8 @@
         },
         {
           "context": "customRace",
-          "lengthM": 4850,
-          "points": 970
+          "lengthM": 4840,
+          "points": 968
         }
       ]
     },
@@ -3885,19 +3932,19 @@
       "file": "reference/trackmaps/469.trackmap.json",
       "versions": [
         {
-          "context": "lobby",
-          "lengthM": 5760,
-          "points": 1152
-        },
-        {
           "context": null,
           "lengthM": 5755,
           "points": 1151
         },
         {
+          "context": "lobby",
+          "lengthM": 5755,
+          "points": 1151
+        },
+        {
           "context": "customRace",
-          "lengthM": 5760,
-          "points": 1152
+          "lengthM": 5755,
+          "points": 1151
         }
       ]
     },
@@ -4311,6 +4358,18 @@
       ]
     },
     {
+      "courseId": 1248,
+      "track": "N\u00fcrburgring Sprint",
+      "file": "reference/trackmaps/1248.trackmap.json",
+      "versions": [
+        {
+          "context": "powerPackRace",
+          "lengthM": 3570,
+          "points": 714
+        }
+      ]
+    },
+    {
       "courseId": 1249,
       "track": "Circuit de Barcelona-Catalunya GP Layout No Chicane",
       "file": "reference/trackmaps/1249.trackmap.json",
@@ -4339,7 +4398,7 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 71,
+      "records": 74,
       "courses": [
         4,
         11,
@@ -4347,6 +4406,7 @@
         51,
         116,
         119,
+        122,
         346,
         349,
         354,
@@ -4394,12 +4454,12 @@
         1247,
         1249
       ],
-      "updated": 1790187304
+      "updated": 1790231360
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 325,
+      "gates": 323,
       "courses": [
         4,
         11,
@@ -4407,6 +4467,7 @@
         51,
         116,
         119,
+        122,
         346,
         349,
         354,
@@ -4452,6 +4513,7 @@
         1232,
         1233,
         1247,
+        1248,
         1249,
         1264
       ],
@@ -4465,21 +4527,21 @@
       "contexts": [
         "customRace",
         "lobby",
-        "timeTrial",
-        "unknown"
+        "powerPackRace",
+        "timeTrial"
       ],
-      "withHeading": 209,
-      "updated": 1790187669,
+      "withHeading": 208,
+      "updated": 1790231527,
       "tolerance": {
-        "gatesWithWidth": 209,
+        "gatesWithWidth": 208,
         "minM": 8,
-        "medianM": 12,
+        "medianM": 12.0,
         "maxM": 20,
-        "atFloor": 187,
+        "atFloor": 185,
         "atCap": 1,
         "belowFloor": 1,
         "belowFloorNote": "Written under a lower floor and not refined since. The gate set is mixed-generation, so atFloor is not a clean measurement. NOTE that a reprocess does not necessarily clear this: a gate only refines from a recording in ITS OWN (course, context), so a pair with no usable capture keeps pre-raise geometry indefinitely. Deep Forest lobby is the worked example -- 27 samples, still at the old floor, and its only lobby recordings are 11-18 second fragments that learn nothing.",
-        "atDefault": 8,
+        "atDefault": 10,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,

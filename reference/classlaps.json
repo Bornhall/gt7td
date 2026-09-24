@@ -950,39 +950,6 @@
   {
     "carClass" : "Gr.1",
     "context" : "customRace",
-    "courseId" : 1247,
-    "laps" : [
-      {
-        "carId" : 2183,
-        "carName" : "Chevrolet Corvette C7 Gr.3",
-        "lapMs" : 456166,
-        "recorded" : 1788560720
-      },
-      {
-        "carId" : 3605,
-        "carName" : "Ferrari 499P '23",
-        "lapMs" : 456166,
-        "recorded" : 1788601771
-      },
-      {
-        "carId" : 2183,
-        "carName" : "Chevrolet Corvette C7 Gr.3",
-        "lapMs" : 463630,
-        "recorded" : 1788560263
-      },
-      {
-        "carId" : 2183,
-        "carName" : "Chevrolet Corvette C7 Gr.3",
-        "lapMs" : 485996,
-        "recorded" : 1788559799
-      }
-    ],
-    "trackName" : "Nürburgring Endurance",
-    "updated" : 1788601771
-  },
-  {
-    "carClass" : "Gr.1",
-    "context" : "customRace",
     "courseId" : 349,
     "laps" : [
       {
@@ -1339,6 +1306,12 @@
     "courseId" : 827,
     "laps" : [
       {
+        "carId" : 2184,
+        "carName" : "Jaguar F-type Gr.3",
+        "lapMs" : 132190,
+        "recorded" : 1790193487
+      },
+      {
         "carId" : 3600,
         "carName" : "Porsche 911 GT3 R (992) '22",
         "lapMs" : 136231,
@@ -1352,6 +1325,84 @@
       }
     ],
     "trackName" : "Circuit de Sainte-Croix - B",
-    "updated" : 1790187304
+    "updated" : 1790193487
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "unknown",
+    "courseId" : 827,
+    "laps" : [
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 136231,
+        "recorded" : 1790188899
+      },
+      {
+        "carId" : 3600,
+        "carName" : "Porsche 911 GT3 R (992) '22",
+        "lapMs" : 143044,
+        "recorded" : 1790188865
+      }
+    ],
+    "trackName" : "Circuit de Sainte-Croix - B",
+    "updated" : 1790188899
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "unknown",
+    "courseId" : 51,
+    "laps" : [
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 87589,
+        "recorded" : 1790189130
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 88958,
+        "recorded" : 1790189286
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 91822,
+        "recorded" : 1790189406
+      }
+    ],
+    "trackName" : "Deep Forest Raceway",
+    "updated" : 1790189406
+  },
+  {
+    "carClass" : "Gr.4",
+    "context" : "powerPackRace",
+    "courseId" : 122,
+    "laps" : [
+      {
+        "carId" : 3537,
+        "carName" : "MAZDA3 Gr.4",
+        "lapMs" : 79083,
+        "recorded" : 1790197544
+      }
+    ],
+    "trackName" : "Willow Springs International Raceway: Big Willow",
+    "updated" : 1790197544
+  },
+  {
+    "carClass" : "Gr.1",
+    "context" : "customRace",
+    "courseId" : 1247,
+    "laps" : [
+      {
+        "carId" : 3605,
+        "carName" : "Ferrari 499P '23",
+        "lapMs" : 456166,
+        "recorded" : 1790231360
+      }
+    ],
+    "trackName" : "Nürburgring Endurance",
+    "updated" : 1790231360
   }
 ]

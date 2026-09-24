@@ -20,6 +20,16 @@
       "trigger" : "raceStart"
     }
   ],
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 5,
+    "lapsValid" : 1,
+    "measuredHz" : 60.00221043324491,
+    "source" : "reprocess",
+    "stops" : 0,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
   "declared" : {
     "captureContext" : "powerPackRace",
     "courseId" : 1248,
