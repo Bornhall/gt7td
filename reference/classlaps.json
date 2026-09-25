@@ -1437,5 +1437,20 @@
     ],
     "trackName" : "Autodromo Nazionale Monza",
     "updated" : 1790234012
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "customRace",
+    "courseId" : 1240,
+    "laps" : [
+      {
+        "carId" : 3218,
+        "carName" : "BMW M6 GT3 Endurance Model '16",
+        "lapMs" : 106994,
+        "recorded" : 1790371971
+      }
+    ],
+    "trackName" : "Watkins Glen Long Course",
+    "updated" : 1790371971
   }
 ]

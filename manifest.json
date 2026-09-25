@@ -1482,6 +1482,16 @@
       "hasClock": true,
       "fuelMultiplier": 0,
       "tyreWearMultiplier": 1,
+      "laps": 4,
+      "lapsValid": 0,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0046,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0046,
+      "lapTimerRatio": 1.00108,
       "identifiedCourseId": 51,
       "identifiedTrackName": "Deep Forest Raceway",
       "compoundObservations": [
@@ -2898,8 +2908,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9336,
       "lapTimerRatio": 0.99989,
-      "identifiedCourseId": 122,
-      "identifiedTrackName": "Willow Springs International Raceway: Big Willow",
+      "identifiedCourseId": 376,
+      "identifiedTrackName": "Kyoto Driving Park - Yamagiwa",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -4851,8 +4861,8 @@
       "hzSource": "measured",
       "lapTimerHz": 59.9435,
       "lapTimerRatio": 1.00006,
-      "identifiedCourseId": 827,
-      "identifiedTrackName": "Circuit de Sainte-Croix - B",
+      "identifiedCourseId": 1069,
+      "identifiedTrackName": "High Speed Ring Reverse",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -5113,8 +5123,8 @@
       "courseId": 1240,
       "track": "Watkins Glen Long Course",
       "context": "customRace",
-      "carId": 3474,
-      "car": "Subaru BRZ GT300 '21",
+      "carId": 3218,
+      "car": "BMW M6 GT3 Endurance Model '16",
       "carClass": "Gr.3",
       "carClassSource": "observed",
       "declaredCarMismatch": false,
@@ -5127,8 +5137,18 @@
       "hasClock": true,
       "fuelMultiplier": 0,
       "tyreWearMultiplier": 1,
-      "identifiedCourseId": 1264,
-      "identifiedTrackName": "Watkins Glen Short Course",
+      "laps": 6,
+      "lapsValid": 2,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0018,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0018,
+      "lapTimerRatio": 1.00103,
+      "identifiedCourseId": 1240,
+      "identifiedTrackName": "Watkins Glen Long Course",
       "compoundObservations": [
         {
           "trigger": "raceStart",
@@ -5348,6 +5368,16 @@
       "hasClock": true,
       "fuelMultiplier": 0,
       "tyreWearMultiplier": 1,
+      "laps": 4,
+      "lapsValid": 0,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0026,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0026,
+      "lapTimerRatio": 1.00104,
       "identifiedCourseId": 1264,
       "identifiedTrackName": "Watkins Glen Short Course",
       "compoundObservations": [
@@ -6200,7 +6230,7 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 75,
+      "records": 76,
       "courses": [
         4,
         11,
@@ -6253,10 +6283,11 @@
         1231,
         1232,
         1233,
+        1240,
         1247,
         1249
       ],
-      "updated": 1790234055
+      "updated": 1790371971
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
@@ -6335,15 +6366,15 @@
         "timeTrial"
       ],
       "withHeading": 219,
-      "updated": 1790371239,
+      "updated": 1790373469,
       "tolerance": {
         "gatesWithWidth": 219,
         "minM": 12,
         "medianM": 12,
         "maxM": 20,
-        "atFloor": 195,
+        "atFloor": 200,
         "atCap": 1,
-        "atDefault": 11,
+        "atDefault": 6,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,

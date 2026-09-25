@@ -1,7 +1,7 @@
 {
   "carClass" : "Gr.3",
-  "carId" : 3474,
-  "carName" : "Subaru BRZ GT300 '21",
+  "carId" : 3218,
+  "carName" : "BMW M6 GT3 Endurance Model '16",
   "compoundObservations" : [
     {
       "compound" : "SS",
@@ -52,7 +52,17 @@
         "trigger" : "pitExit"
       }
     ],
-    "verifiedAt" : 1790371257.9847078
+    "verifiedAt" : 1790373439.858193
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 6,
+    "lapsValid" : 2,
+    "measuredHz" : 60.00181274358742,
+    "source" : "reprocess",
+    "stops" : 1,
+    "tyreChanges" : 0,
+    "version" : 1
   },
   "courseId" : 1240,
   "declared" : {
@@ -73,10 +83,12 @@
   },
   "endTime" : 1790371193,
   "granularity" : 1,
-  "identifiedCourseId" : 1264,
-  "identifiedTrackName" : "Watkins Glen Short Course",
+  "identifiedCourseId" : 1240,
+  "identifiedTrackName" : "Watkins Glen Long Course",
   "packetSize" : 368,
   "startTime" : 1790370518,
   "trackName" : "Watkins Glen Long Course",
-  "version" : 8
+  "version" : 8,
+  "wasCarId" : 3474,
+  "wasCarName" : "Subaru BRZ GT300 '21"
 }

@@ -31,6 +31,16 @@
     ],
     "verifiedAt" : 1790368895.813153
   },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 4,
+    "lapsValid" : 0,
+    "measuredHz" : 60.00460188677358,
+    "source" : "reprocess",
+    "stops" : 1,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
   "courseId" : 51,
   "declared" : {
     "captureContext" : "customRace",
