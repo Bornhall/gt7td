@@ -38,6 +38,21 @@
       "trigger" : "pitExit"
     }
   ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "lap" : 1,
+        "startPacketId" : 2538142,
+        "trigger" : "raceStart"
+      },
+      {
+        "lap" : 9,
+        "startPacketId" : 2562994,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790278310.6301808
+  },
   "counts" : {
     "hzSource" : "measured",
     "laps" : 13,

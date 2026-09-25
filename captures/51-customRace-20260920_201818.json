@@ -40,19 +40,19 @@
   "compoundVerification" : {
     "stints" : [
       {
-        "compound" : "SS",
+        "compound" : "CS",
         "lap" : 1,
         "startPacketId" : 783006,
         "trigger" : "raceStart"
       },
       {
-        "compound" : "SS",
+        "compound" : "CS",
         "lap" : 2,
         "startPacketId" : 798369,
         "trigger" : "pitExit"
       }
     ],
-    "verifiedAt" : 1790277038.114555
+    "verifiedAt" : 1790329538.755775
   },
   "counts" : {
     "hzSource" : "measured",

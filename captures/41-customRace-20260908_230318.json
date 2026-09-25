@@ -21,6 +21,16 @@
       "trigger" : "raceStart"
     }
   ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "lap" : 1,
+        "startPacketId" : 3092839,
+        "trigger" : "raceStart"
+      }
+    ],
+    "verifiedAt" : 1790278302.1983519
+  },
   "counts" : {
     "hzSource" : "measured",
     "laps" : 6,

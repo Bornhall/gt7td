@@ -90,6 +90,41 @@
       "trigger" : "pitExit"
     }
   ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RH",
+        "lap" : 1,
+        "startPacketId" : 2129625,
+        "trigger" : "raceStart"
+      },
+      {
+        "compound" : "RS",
+        "lap" : 1,
+        "startPacketId" : 2144372,
+        "trigger" : "pitExit"
+      },
+      {
+        "compound" : "RS",
+        "lap" : 6,
+        "startPacketId" : 2209661,
+        "trigger" : "pitExit"
+      },
+      {
+        "compound" : "RM",
+        "lap" : 11,
+        "startPacketId" : 2276340,
+        "trigger" : "pitExit"
+      },
+      {
+        "compound" : "RS",
+        "lap" : 21,
+        "startPacketId" : 2408426,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790278194.673578
+  },
   "counts" : {
     "hzSource" : "measured",
     "laps" : 26,

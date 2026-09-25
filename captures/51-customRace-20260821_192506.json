@@ -55,6 +55,29 @@
       "trigger" : "pitExit"
     }
   ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RM",
+        "lap" : 1,
+        "startPacketId" : 1278453,
+        "trigger" : "raceStart"
+      },
+      {
+        "compound" : "RS",
+        "lap" : 13,
+        "startPacketId" : 1350595,
+        "trigger" : "pitExit"
+      },
+      {
+        "compound" : "RH",
+        "lap" : 21,
+        "startPacketId" : 1394779,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790278388.3567948
+  },
   "counts" : {
     "hzSource" : "measured",
     "laps" : 41,
