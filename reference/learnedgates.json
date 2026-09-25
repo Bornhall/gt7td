@@ -2420,49 +2420,49 @@
       "context" : "customRace",
       "courseId" : 1264,
       "halfWidthM" : 12,
-      "headingRad" : -1.5122386663085154,
+      "headingRad" : -1.5119429533515996,
       "kind" : "lap1",
       "lineA" : [
-        -349.03318859460455,
-        -517.6503494883256
+        -349.73619840040965,
+        -517.6970060025918
       ],
       "lineB" : [
-        -325.0743248331298,
-        -516.2457686757369
+        -325.77775103922943,
+        -516.2853403050718
       ],
-      "m2" : 0,
+      "m2" : 99.02669022303292,
       "offsetMaxM" : 0,
-      "offsetMinM" : 0,
-      "samples" : 19,
-      "spreadM" : 0,
+      "offsetMinM" : -7.397626948789314,
+      "samples" : 21,
+      "spreadM" : 2.225159434995984,
       "trackName" : "Watkins Glen Short Course",
-      "updated" : 1790330145,
+      "updated" : 1790371231,
       "yMax" : 9.130905151367188,
-      "yMin" : 3.1309051513671875
+      "yMin" : 3.0911312103271484
     },
     {
       "context" : "customRace",
       "courseId" : 1264,
       "halfWidthM" : 12,
-      "headingRad" : -1.508353307923907,
+      "headingRad" : -1.5072290320346056,
       "kind" : "finishLine",
       "lineA" : [
-        -353.60821987265166,
-        -517.9023734824774
+        -353.29592702142855,
+        -517.8960109363389
       ],
       "lineB" : [
-        -329.6549942386767,
-        -516.4047147336684
+        -329.34440030711295,
+        -516.3714231056691
       ],
-      "m2" : 422.91071831171155,
-      "offsetMaxM" : 4.100654428509815,
+      "m2" : 577.1164918811052,
+      "offsetMaxM" : 8.918656310197932,
       "offsetMinM" : -2.5857763222263075,
-      "samples" : 57,
-      "spreadM" : 2.748086081750194,
+      "samples" : 61,
+      "spreadM" : 3.101388108253854,
       "trackName" : "Watkins Glen Short Course",
-      "updated" : 1790330146,
+      "updated" : 1790371233,
       "yMax" : 9.169125080108643,
-      "yMin" : 3.142488956451416
+      "yMin" : 2.9689078330993652
     },
     {
       "context" : "customRace",
@@ -7584,6 +7584,196 @@
       "updated" : 1790329763,
       "yMax" : 10.04500436782837,
       "yMin" : 4.045004367828369
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1264,
+      "halfWidthM" : 16,
+      "headingRad" : -1.2539551032156235,
+      "kind" : "pitEntry",
+      "lineA" : [
+        -339.3734500589688,
+        -501.38316698736844
+      ],
+      "lineB" : [
+        -308.9662716207187,
+        -491.4130366259128
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Watkins Glen Short Course",
+      "updated" : 1790371233,
+      "yMax" : 9.137319564819336,
+      "yMin" : 3.137319564819336
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1264,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        -318.7441101074219,
+        -521.2459716796875
+      ],
+      "lineB" : [
+        -318.7441101074219,
+        -521.2459716796875
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Watkins Glen Short Course",
+      "updated" : 1790371233,
+      "yMax" : 8.908311367034912,
+      "yMin" : 2.908311367034912
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1264,
+      "halfWidthM" : 16,
+      "headingRad" : -1.4492818288594125,
+      "kind" : "pitExit",
+      "lineA" : [
+        -328.77120976867667,
+        -732.9071632191643
+      ],
+      "lineB" : [
+        -297.0071715789796,
+        -729.0282615855232
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Watkins Glen Short Course",
+      "updated" : 1790371233,
+      "yMax" : 3.8254884481430054,
+      "yMin" : -2.1745115518569946
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1240,
+      "halfWidthM" : 16,
+      "headingRad" : -1.5060749360790688,
+      "kind" : "lap1",
+      "lineA" : [
+        -360.70285947130526,
+        -518.4168384891792
+      ],
+      "lineB" : [
+        -328.769857813851,
+        -516.3471995967583
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Watkins Glen Long Course",
+      "updated" : 1790371236,
+      "yMax" : 9.088455200195312,
+      "yMin" : 3.0884552001953125
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1240,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        -318.7615966796875,
+        -521.0885009765625
+      ],
+      "lineB" : [
+        -318.7615966796875,
+        -521.0885009765625
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Watkins Glen Long Course",
+      "updated" : 1790371238,
+      "yMax" : 8.910325527191162,
+      "yMin" : 2.910325527191162
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1240,
+      "halfWidthM" : 18.587335304078792,
+      "headingRad" : -1.520247898749067,
+      "kind" : "finishLine",
+      "lineA" : [
+        -360.7141292882708,
+        -518.454922842701
+      ],
+      "lineB" : [
+        -323.5869418787214,
+        -516.5766018155022
+      ],
+      "m2" : 115.16301123541794,
+      "offsetMaxM" : 11.277555194071365,
+      "offsetMinM" : -6.27189022044178,
+      "samples" : 4,
+      "spreadM" : 6.19577843469293,
+      "trackName" : "Watkins Glen Long Course",
+      "updated" : 1790371239,
+      "yMax" : 9.086160659790039,
+      "yMin" : 2.9730892181396484
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1240,
+      "halfWidthM" : 16,
+      "headingRad" : -1.254375827400591,
+      "kind" : "pitEntry",
+      "lineA" : [
+        -339.4212308652604,
+        -501.2254638763303
+      ],
+      "lineB" : [
+        -309.00986044333337,
+        -491.26812743226344
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Watkins Glen Long Course",
+      "updated" : 1790371238,
+      "yMax" : 9.138278007507324,
+      "yMin" : 3.138278007507324
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1240,
+      "halfWidthM" : 16,
+      "headingRad" : -1.4492141803753127,
+      "kind" : "pitExit",
+      "lineA" : [
+        -328.77928775994405,
+        -732.7643777459607
+      ],
+      "lineB" : [
+        -297.01551204474345,
+        -728.8833273321643
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Watkins Glen Long Course",
+      "updated" : 1790371238,
+      "yMax" : 3.8308029174804688,
+      "yMin" : -2.1691970825195312
     }
   ],
   "schemaVersion" : 2,

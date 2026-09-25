@@ -5109,6 +5109,49 @@
       ]
     },
     {
+      "stem": "1240-customRace-20260925_230838",
+      "courseId": 1240,
+      "track": "Watkins Glen Long Course",
+      "context": "customRace",
+      "carId": 3474,
+      "car": "Subaru BRZ GT300 '21",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 39058,
+      "durationS": 651.6,
+      "rawBytes": 14373344,
+      "gzBytes": 6898740,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 1,
+      "identifiedCourseId": 1264,
+      "identifiedTrackName": "Watkins Glen Short Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "sports",
+          "compound": "SS",
+          "outcome": "corrected",
+          "finalLabel": "RH"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 4,
+          "outcome": "corrected",
+          "finalLabel": "RS",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RH",
+        "RS"
+      ]
+    },
+    {
       "stem": "1247-customRace-20260904_233736",
       "courseId": 1247,
       "track": "N\u00fcrburgring Endurance",
@@ -6093,6 +6136,18 @@
       ]
     },
     {
+      "courseId": 1240,
+      "track": "Watkins Glen Long Course",
+      "file": "reference/trackmaps/1240.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 5400,
+          "points": 1080
+        }
+      ]
+    },
+    {
       "courseId": 1247,
       "track": "N\u00fcrburgring Endurance",
       "file": "reference/trackmaps/1247.trackmap.json",
@@ -6206,7 +6261,7 @@
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 330,
+      "gates": 338,
       "courses": [
         4,
         11,
@@ -6259,6 +6314,7 @@
         1231,
         1232,
         1233,
+        1240,
         1247,
         1248,
         1249,
@@ -6278,16 +6334,16 @@
         "sportDailyRace",
         "timeTrial"
       ],
-      "withHeading": 213,
-      "updated": 1790368864,
+      "withHeading": 219,
+      "updated": 1790371239,
       "tolerance": {
-        "gatesWithWidth": 213,
+        "gatesWithWidth": 219,
         "minM": 12,
         "medianM": 12,
         "maxM": 20,
         "atFloor": 195,
         "atCap": 1,
-        "atDefault": 6,
+        "atDefault": 11,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,

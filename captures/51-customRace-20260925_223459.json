@@ -20,6 +20,17 @@
       "trigger" : "raceStart"
     }
   ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RS",
+        "lap" : 1,
+        "startPacketId" : 1901470,
+        "trigger" : "raceStart"
+      }
+    ],
+    "verifiedAt" : 1790368895.813153
+  },
   "courseId" : 51,
   "declared" : {
     "captureContext" : "customRace",

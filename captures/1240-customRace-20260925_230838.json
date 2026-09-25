@@ -1,0 +1,82 @@
+{
+  "carClass" : "Gr.3",
+  "carId" : 3474,
+  "carName" : "Subaru BRZ GT300 '21",
+  "compoundObservations" : [
+    {
+      "compound" : "SS",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r5",
+      "family" : "sports",
+      "familyConfidence" : "low",
+      "finalLabel" : "RH",
+      "heating" : 0.302911907808504,
+      "lap" : 1,
+      "outcome" : "corrected",
+      "samples" : 800,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 1.1121249999999998,
+      "source" : "telemetry",
+      "startPacketId" : 2024444,
+      "trigger" : "raceStart"
+    },
+    {
+      "estimatorVersion" : "v1r5",
+      "finalLabel" : "RS",
+      "heating" : 0.45653263428603513,
+      "lap" : 4,
+      "notes" : [
+        "no dry fit — nearest SS at 0.336"
+      ],
+      "outcome" : "corrected",
+      "samples" : 745,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 0.7943749999999999,
+      "source" : "telemetry",
+      "startPacketId" : 2046090,
+      "trigger" : "pitExit"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RH",
+        "lap" : 1,
+        "startPacketId" : 2024444,
+        "trigger" : "raceStart"
+      },
+      {
+        "compound" : "RS",
+        "lap" : 4,
+        "startPacketId" : 2046090,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790371257.9847078
+  },
+  "courseId" : 1240,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 1240,
+    "fuelMultiplier" : 0,
+    "raceLength" : 5,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 3,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Watkins Glen Long Course",
+    "tyreCompounds" : "RH,RS",
+    "tyreWearMultiplier" : 1,
+    "weather" : "dry"
+  },
+  "endTime" : 1790371193,
+  "granularity" : 1,
+  "identifiedCourseId" : 1264,
+  "identifiedTrackName" : "Watkins Glen Short Course",
+  "packetSize" : 368,
+  "startTime" : 1790370518,
+  "trackName" : "Watkins Glen Long Course",
+  "version" : 8
+}
