@@ -5285,6 +5285,41 @@
           "outcome": "unchallenged"
         }
       ]
+    },
+    {
+      "stem": "1264-customRace-20260925_225205",
+      "courseId": 1264,
+      "track": "Watkins Glen Short Course",
+      "context": "customRace",
+      "carId": 3474,
+      "car": "Subaru BRZ GT300 '21",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 18028,
+      "durationS": 300.8,
+      "rawBytes": 6634304,
+      "gzBytes": 3159788,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 1,
+      "identifiedCourseId": 1264,
+      "identifiedTrackName": "Watkins Glen Short Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "sports",
+          "compound": "SS",
+          "outcome": "corrected",
+          "finalLabel": "RS"
+        }
+      ],
+      "tyreCompounds": [
+        "RH"
+      ]
     }
   ],
   "raw": [

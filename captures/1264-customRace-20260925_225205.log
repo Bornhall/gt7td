@@ -1,0 +1,168 @@
+# EzioClient session log
+# file:    20260925_225205 - Watkins Glen Short Course (1264).gt7td
+# started: 2026-09-25T20:52:05Z
+# track:   Watkins Glen Short Course (CRS 1264)
+# context: customRace
+# ---
+📊 ignoring pit loss from a map for course 51 — we are on 1264
+📊 pit loss: estimated 10.0 s from the unofficial table (Watkins Glen Short Course)
+📊 strategy: track pit loss 10.0 s
+# car:     Subaru BRZ GT300 '21 [Gr.3] (id 3474) — confirmed from telemetry
+🅿️ no pit speaking budget for this track
+📊 strategy L1: no fuel model yet
+🔓 learning resumed — player on track
+🛞 compound: car 3474 — no reference — generic ladder
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 10.0 s from the unofficial table (Watkins Glen Short Course)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+🛞 compound: car 3474 — no reference — generic ladder
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 menus → onTrack (pkt 1962657, lap 0, flags 0x0019, pos 1, cars 2, tod 64440000)
+🧭 polyline [PRE-GREEN]: 16 candidate(s) dropped on direction — best of them Dragon Trail - Gardens Reverse median 40.00 (alignment -0.85)
+🏁 start type: ROLLING_START at pkt 1963016 lap 1
+🔀 state UNKNOWN → RACING at pkt 1963016 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.00
+📊 strategy: green flag (speed) at pkt 1963016, race clock running
+🗣 spoke (lapPace, imp 0, cost 3.4s, ledger 3.4/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 learned: 2 gates matched, all Watkins Glen Short Course — using the finishLine gate (57 samples)
+🧭 identified: Watkins Glen Short Course (CRS 1264) — finishLine, 57 sample(s), ±12 m
+🏁 announcing track: Watkins Glen Short Course (CRS 1264) from gates
+🗣 spoke (radio, imp 2, cost 2.5s, ledger 5.8/20.4s, 1 line): trackIdentified(Watkins Glen Short Course, CRS 1264)
+🗺 stored map loaded on identification (gates): course 1264, 777 pts
+🚪 gate refined: Watkins Glen Short Course/customRace/lap1 (20 samples, σ 1.65 m, ±12 m, across -7.4…0.0 m)
+🛞 compound: window opened — raceStart, lap 1
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 8.9/20.4s, 1 line): surveyGate(lap1, 20)
+🅿️ no pitEntry gate for course 1264 — approach call stays on the time anchor
+🧭 polyline [L1]: 15 candidate(s) dropped on direction — best of them Dragon Trail - Gardens Reverse median 84.31 (alignment -0.69)
+🧭 polyline [L1]: 11 candidate(s) dropped on direction — best of them Dragon Trail - Gardens Reverse median 163.23 (alignment -0.45)
+🧭 polyline [L1]: Watkins Glen Short Course fits (median 2.48 m) but on 547 m of road — waiting for 800 m
+🧭 polyline [L1]: 9 candidate(s) dropped on direction — best of them Daytona Tri-Oval median 251.63 (alignment -0.71)
+🧭 polyline [L1]: Watkins Glen Short Course fits (median 2.31 m) but on 770 m of road — waiting for 800 m
+🧭 polyline [L1]: 6 candidate(s) dropped on direction — best of them Daytona Road Course median 202.90 (alignment -0.59)
+🧭 polyline [L1]: Watkins Glen Short Course (CRS 1264, map ctx customRace) median 2.13 m, p90 6.23 m, 18% of lap, 150 samples, alignment +1.00 — next course Michelin Raceway Road Atlanta median 36.45/p90 111.54
+🧭 polyline agrees with the declared course (CRS 1264)
+🛞 compound: family racing (H+ 0.115, unclear — not locked)
+🗑 dropped (no catalog lines; tyres): compoundEstimate(raceStart, racing, low)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:14.493 first fuel_used=0.00
+🔵 lap 1: clean
+📊 strategy L2: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (58 samples, σ 2.72 m, ±12 m, across -2.6…4.1 m)
+🛞 compound: sportsSoft (low confidence, C 1.07, margin 0.051, generic reference)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 58)
+🛞 compound prompt: raceStart lap 1, estimate SS
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 4.3/20.4s, 1 line): compoundEstimate(raceStart, SS, low)
+🗣 bulletin (imp 6, cost 4.9s, ledger 9.2/20.4s, 2 lines): L2
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 3.4s, ledger 12.6/20.4s, 2 events, 1 lines)
+🎭 mood focused → concerned
+🗑 dropped (chain cooldown): 1 event(s)
+🛞 compound prompt corrected: RS
+🔧 teleport 186 m on lap 2 — pending reset-vs-pit (2.5 s)
+🔀 state RACING → PIT at pkt 1972454 lap 2
+🔵 sub-state FLYING → — lap 2
+🔧 pit-entry anchor learned: 82790 ms into lap (stop on lap 2)
+🔧 pended reset cancelled: pit entry
+🎭 mood concerned → focused
+🚪 gate learned: Watkins Glen Short Course/customRace/pitEntry heading -72°
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 0.8/20.4s, 1 line, protected): pittingIn(L2)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+📋 lap 2: 1:24.313 in fuel_used=0.00
+🔵 lap 2 antics: contact, impact, off
+🗺 mapper: lap 2 rejected (teleport)
+🗑 dropped (in pit): lapStarted(3/3, last 84.31s)
+🗑 dropped (topic pitSequence; 2.7s of 5.0s, pitSequence reopens in 2.3s): inPitBox
+🗣 spoke (strategy, imp 0, cost 3.1s, ledger 3.9/20.4s, 1 line, protected): refuelTarget(1 laps)
+🔀 state PIT → RACING at pkt 1973678 lap 3
+🔵 sub-state — → OUT_LAP lap 3
+🅿️ PIT completed: in L2 → out L3 (no fuel, transit 20.9s, teleport=true)
+🚪 gate learned: Watkins Glen Short Course/customRace/pitBox (no heading)
+🅿️ entry→box 3.2s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🔧 pit approach: entry at station 3862 m of 3882 m (21.1 m off the line), lead 20 s
+📊 strategy L3: no fuel model yet
+🚪 gate learned: Watkins Glen Short Course/customRace/pitExit heading -83°
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 5.5/20.4s, 1 line, protected): exitingPit(+0.00l)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 7.1/20.4s, 1 line): surveyGate(pitExit, 1)
+📊 strategy L3: no fuel model yet
+🔵 sub-state OUT_LAP → FLYING lap 4
+📋 lap 3: 1:30.153 out fuel_used=0.00
+📊 strategy: finish armed at L4 (lap 4 > 3) — awaiting lap-clock freeze
+🎭 mood focused → relaxed
+📊 strategy L4: no fuel model yet
+🔵 lap 3: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (59 samples, σ 2.94 m, ±12 m, across -2.6…8.9 m)
+🗺 mapper: lap 3 rejected (pit)
+📊 strategy: race finished at L4 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 4 lap(s), 1 stop(s), start ROLLING_START, P1/2
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): raceFinished(L4)
+🔧 session ended after lap 4
+🗑 flag: pending commentary cancelled
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 2)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 147 gate(s) from 333 stored, 60 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 10.0 s from the unofficial table (Watkins Glen Short Course)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 onTrack → replay (pkt 1978629, lap 0, flags 0x0018, pos 1, cars 2, tod 64440000)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 10.0 s from the unofficial table (Watkins Glen Short Course)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 1978730, lap 0, flags 0x0018, pos —, cars —, tod 64440000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 10.0 s from the unofficial table (Watkins Glen Short Course)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🧭 polyline [MENU]: 32 candidate(s) dropped on direction — best of them BB Raceway Reverse median 10.05 (alignment -0.96)
+🧭 polyline [MENU]: Watkins Glen Short Course fits (median 2.99 m) but on 164 m of road — waiting for 800 m
+🧭 polyline [MENU]: 21 candidate(s) dropped on direction — best of them BB Raceway Reverse median 21.56 (alignment -0.55)
+🧭 polyline [MENU]: Watkins Glen Short Course fits (median 2.78 m) but on 382 m of road — waiting for 800 m
+🧭 polyline [MENU]: 11 candidate(s) dropped on direction — best of them Daytona Road Course median 42.47 (alignment -0.50)
+🧭 polyline [MENU]: Watkins Glen Short Course fits (median 4.20 m) but on 647 m of road — waiting for 800 m
+🧭 learned: 2 gates matched, all Watkins Glen Short Course — using the finishLine gate (59 samples)
+🧭 identified: Watkins Glen Short Course (CRS 1264) — finishLine, 59 sample(s), ±12 m
+🏁 Watkins Glen Short Course already announced 277s ago (gates) — not repeated
+🗺 stored map loaded on identification (gates): course 1264, 777 pts
+🔧 pit approach: entry at station 3862 m of 3882 m (21.1 m off the line), lead 20 s
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 18028 packets
