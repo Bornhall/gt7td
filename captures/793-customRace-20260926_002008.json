@@ -1,0 +1,114 @@
+{
+  "carClass" : "Gr.3",
+  "carId" : 3352,
+  "carName" : "Toyota GR Supra Racing Concept '18",
+  "compoundObservations" : [
+    {
+      "compound" : "RH",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r5",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RH",
+      "heating" : 0.4491949545415284,
+      "lap" : 1,
+      "outcome" : "confirmed",
+      "samples" : 531,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 1.009625,
+      "source" : "telemetry",
+      "startPacketId" : 2279404,
+      "trigger" : "raceStart"
+    },
+    {
+      "estimatorVersion" : "v1r5",
+      "finalLabel" : "RS",
+      "heating" : 0.5019561674686969,
+      "lap" : 2,
+      "notes" : [
+        "no dry fit — nearest RS at 0.294"
+      ],
+      "outcome" : "corrected",
+      "samples" : 791,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.579125,
+      "source" : "telemetry",
+      "startPacketId" : 2286150,
+      "trigger" : "pitExit"
+    },
+    {
+      "estimatorVersion" : "v1r5",
+      "finalLabel" : "RM",
+      "heating" : 0.5042386142731735,
+      "lap" : 4,
+      "notes" : [
+        "no dry fit — nearest RS at 0.387"
+      ],
+      "outcome" : "corrected",
+      "samples" : 822,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.527875,
+      "source" : "telemetry",
+      "startPacketId" : 2292675,
+      "trigger" : "pitExit"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RH",
+        "lap" : 1,
+        "startPacketId" : 2279404,
+        "trigger" : "raceStart"
+      },
+      {
+        "compound" : "RS",
+        "lap" : 2,
+        "startPacketId" : 2286150,
+        "trigger" : "pitExit"
+      },
+      {
+        "compound" : "RM",
+        "lap" : 4,
+        "startPacketId" : 2292675,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790375209.847297
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 6,
+    "lapsValid" : 0,
+    "measuredHz" : 60.00721466773318,
+    "source" : "reprocess",
+    "stops" : 2,
+    "tyreChanges" : 2,
+    "version" : 1
+  },
+  "courseId" : 793,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 793,
+    "fuelMultiplier" : 0,
+    "raceLength" : 5,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 3,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Autodrome Lago Maggiore - Centre",
+    "tyreCompounds" : "RH,RS,RM",
+    "tyreWearMultiplier" : 1,
+    "weather" : "dry"
+  },
+  "endTime" : 1790375126,
+  "granularity" : 1,
+  "identifiedCourseId" : 793,
+  "identifiedTrackName" : "Autodrome Lago Maggiore - Centre",
+  "packetSize" : 368,
+  "startTime" : 1790374808,
+  "trackName" : "Autodrome Lago Maggiore - Centre",
+  "version" : 8
+}

@@ -2659,6 +2659,67 @@
       ]
     },
     {
+      "stem": "365-customRace-20260926_000530",
+      "courseId": 365,
+      "track": "Autodrome Lago Maggiore - Full Course",
+      "context": "customRace",
+      "carId": 3311,
+      "car": "Porsche 911 RSR (991) '17",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 42312,
+      "durationS": 705.9,
+      "rawBytes": 15570816,
+      "gzBytes": 7224399,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 1,
+      "laps": 6,
+      "lapsValid": 1,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0,
+      "lapTimerRatio": 1.001,
+      "identifiedCourseId": 365,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 2,
+          "outcome": "corrected",
+          "finalLabel": "RS",
+          "abstained": true
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 3,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "corrected",
+          "finalLabel": "RM"
+        }
+      ],
+      "tyreCompounds": [
+        "RH",
+        "RS",
+        "RM"
+      ]
+    },
+    {
       "stem": "365-lobby-20260725_221122",
       "courseId": 365,
       "track": "Autodrome Lago Maggiore - Full Course",
@@ -3941,6 +4002,110 @@
       ]
     },
     {
+      "stem": "793-customRace-20260926_002008",
+      "courseId": 793,
+      "track": "Autodrome Lago Maggiore - Centre",
+      "context": "customRace",
+      "carId": 3352,
+      "car": "Toyota GR Supra Racing Concept '18",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 19092,
+      "durationS": 318.5,
+      "rawBytes": 7025856,
+      "gzBytes": 3177266,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 1,
+      "laps": 6,
+      "lapsValid": 0,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0072,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0072,
+      "lapTimerRatio": 1.00112,
+      "identifiedCourseId": 793,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Centre",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 2,
+          "outcome": "corrected",
+          "finalLabel": "RS",
+          "abstained": true
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 4,
+          "outcome": "corrected",
+          "finalLabel": "RM",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RH",
+        "RS",
+        "RM"
+      ]
+    },
+    {
+      "stem": "793-customRace-20260926_002707",
+      "courseId": 793,
+      "track": "Autodrome Lago Maggiore - Centre",
+      "context": "customRace",
+      "carId": 3352,
+      "car": "Toyota GR Supra Racing Concept '18",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 17549,
+      "durationS": 292.8,
+      "rawBytes": 6458032,
+      "gzBytes": 3060441,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 1,
+      "laps": 6,
+      "lapsValid": 2,
+      "stops": 1,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9997,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9997,
+      "lapTimerRatio": 1.00099,
+      "identifiedCourseId": 793,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Centre",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "corrected",
+          "finalLabel": "RS"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
+    },
+    {
       "stem": "793-lobby-20260725_222551",
       "courseId": 793,
       "track": "Autodrome Lago Maggiore - Centre",
@@ -5039,6 +5204,59 @@
       ]
     },
     {
+      "stem": "1232-customRace-20260926_003418",
+      "courseId": 1232,
+      "track": "Autodrome Lago Maggiore - West",
+      "context": "customRace",
+      "carId": 3352,
+      "car": "Toyota GR Supra Racing Concept '18",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 29460,
+      "durationS": 491.5,
+      "rawBytes": 10841280,
+      "gzBytes": 5031739,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 1,
+      "laps": 6,
+      "lapsValid": 1,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0009,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0009,
+      "lapTimerRatio": 1.00102,
+      "identifiedCourseId": 1232,
+      "identifiedTrackName": "Autodrome Lago Maggiore - West",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "corrected",
+          "finalLabel": "RS"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 3,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "corrected",
+          "finalLabel": "RM"
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM"
+      ]
+    },
+    {
       "stem": "1232-lobby-20260725_225831",
       "courseId": 1232,
       "track": "Autodrome Lago Maggiore - West",
@@ -5871,6 +6089,11 @@
           "context": "lobby",
           "lengthM": 1980,
           "points": 396
+        },
+        {
+          "context": "customRace",
+          "lengthM": 1970,
+          "points": 394
         }
       ]
     },
@@ -6150,6 +6373,11 @@
           "context": "lobby",
           "lengthM": 4095,
           "points": 819
+        },
+        {
+          "context": "customRace",
+          "lengthM": 4095,
+          "points": 819
         }
       ]
     },
@@ -6230,7 +6458,7 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 76,
+      "records": 78,
       "courses": [
         4,
         11,
@@ -6287,12 +6515,12 @@
         1247,
         1249
       ],
-      "updated": 1790371971
+      "updated": 1790375845
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 338,
+      "gates": 348,
       "courses": [
         4,
         11,
@@ -6365,16 +6593,16 @@
         "sportDailyRace",
         "timeTrial"
       ],
-      "withHeading": 219,
-      "updated": 1790373469,
+      "withHeading": 225,
+      "updated": 1790376197,
       "tolerance": {
-        "gatesWithWidth": 219,
+        "gatesWithWidth": 225,
         "minM": 12,
         "medianM": 12,
         "maxM": 20,
-        "atFloor": 200,
+        "atFloor": 203,
         "atCap": 1,
-        "atDefault": 6,
+        "atDefault": 8,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,

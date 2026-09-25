@@ -1,0 +1,114 @@
+{
+  "carClass" : "Gr.3",
+  "carId" : 3311,
+  "carName" : "Porsche 911 RSR (991) '17",
+  "compoundObservations" : [
+    {
+      "compound" : "RH",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r5",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RH",
+      "heating" : 0.3372064469329083,
+      "lap" : 1,
+      "outcome" : "confirmed",
+      "samples" : 944,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 1.132625,
+      "source" : "telemetry",
+      "startPacketId" : 2226855,
+      "trigger" : "raceStart"
+    },
+    {
+      "estimatorVersion" : "v1r5",
+      "finalLabel" : "RS",
+      "heating" : 0.43591691740421673,
+      "lap" : 2,
+      "notes" : [
+        "ambiguous — RM vs RS, margin 0.001"
+      ],
+      "outcome" : "corrected",
+      "samples" : 703,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.9276249999999999,
+      "source" : "telemetry",
+      "startPacketId" : 2242783,
+      "trigger" : "pitExit"
+    },
+    {
+      "compound" : "RH",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r5",
+      "family" : "racing",
+      "finalLabel" : "RM",
+      "heating" : 0.5080850816215543,
+      "lap" : 3,
+      "outcome" : "corrected",
+      "samples" : 622,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 1.0813749999999998,
+      "source" : "telemetry",
+      "startPacketId" : 2251673,
+      "trigger" : "pitExit"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RH",
+        "lap" : 1,
+        "startPacketId" : 2226855,
+        "trigger" : "raceStart"
+      },
+      {
+        "compound" : "RS",
+        "lap" : 2,
+        "startPacketId" : 2242783,
+        "trigger" : "pitExit"
+      },
+      {
+        "compound" : "RM",
+        "lap" : 3,
+        "startPacketId" : 2251673,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790374708.9356031
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 6,
+    "lapsValid" : 1,
+    "measuredHz" : 60,
+    "source" : "reprocess",
+    "stops" : 2,
+    "tyreChanges" : 2,
+    "version" : 1
+  },
+  "courseId" : 365,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 365,
+    "fuelMultiplier" : 0,
+    "raceLength" : 5,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 3,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Autodrome Lago Maggiore - Full Course",
+    "tyreCompounds" : "RH,RS,RM",
+    "tyreWearMultiplier" : 1,
+    "weather" : "dry"
+  },
+  "endTime" : 1790374636,
+  "granularity" : 1,
+  "identifiedCourseId" : 365,
+  "identifiedTrackName" : "Autodrome Lago Maggiore - Full Course",
+  "packetSize" : 368,
+  "startTime" : 1790373930,
+  "trackName" : "Autodrome Lago Maggiore - Full Course",
+  "version" : 8
+}

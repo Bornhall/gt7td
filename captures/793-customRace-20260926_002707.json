@@ -1,0 +1,72 @@
+{
+  "carClass" : "Gr.3",
+  "carId" : 3352,
+  "carName" : "Toyota GR Supra Racing Concept '18",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r5",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.36885254977211357,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 0.193"
+      ],
+      "outcome" : "corrected",
+      "samples" : 651,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.702125,
+      "source" : "telemetry",
+      "startPacketId" : 2304645,
+      "trigger" : "raceStart"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RS",
+        "lap" : 1,
+        "startPacketId" : 2304645,
+        "trigger" : "raceStart"
+      }
+    ],
+    "verifiedAt" : 1790375582.801136
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 6,
+    "lapsValid" : 2,
+    "measuredHz" : 59.999670059554255,
+    "source" : "reprocess",
+    "stops" : 1,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
+  "courseId" : 793,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 793,
+    "fuelMultiplier" : 0,
+    "raceLength" : 5,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 3,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Autodrome Lago Maggiore - Centre",
+    "tyreCompounds" : "RS",
+    "tyreWearMultiplier" : 1,
+    "weather" : "dry"
+  },
+  "endTime" : 1790375520,
+  "granularity" : 1,
+  "identifiedCourseId" : 793,
+  "identifiedTrackName" : "Autodrome Lago Maggiore - Centre",
+  "observedTotalLaps" : 5,
+  "packetSize" : 368,
+  "startTime" : 1790375227,
+  "trackName" : "Autodrome Lago Maggiore - Centre",
+  "version" : 8
+}

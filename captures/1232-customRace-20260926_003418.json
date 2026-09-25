@@ -1,0 +1,93 @@
+{
+  "carClass" : "Gr.3",
+  "carId" : 3352,
+  "carName" : "Toyota GR Supra Racing Concept '18",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r5",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.2755417415994012,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RH at 0.202"
+      ],
+      "outcome" : "corrected",
+      "samples" : 828,
+      "seconds" : 85.15181848515182,
+      "slipPerG" : 0.825125,
+      "source" : "telemetry",
+      "startPacketId" : 2330332,
+      "trigger" : "raceStart"
+    },
+    {
+      "compound" : "RH",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r5",
+      "family" : "racing",
+      "finalLabel" : "RM",
+      "heating" : 0.44705693650890593,
+      "lap" : 3,
+      "outcome" : "corrected",
+      "samples" : 675,
+      "seconds" : 60.010010010010014,
+      "slipPerG" : 0.8866249999999999,
+      "source" : "telemetry",
+      "startPacketId" : 2346633,
+      "trigger" : "pitExit"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RS",
+        "lap" : 1,
+        "startPacketId" : 2330332,
+        "trigger" : "raceStart"
+      },
+      {
+        "compound" : "RM",
+        "lap" : 3,
+        "startPacketId" : 2346633,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790376220.822813
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 6,
+    "lapsValid" : 1,
+    "measuredHz" : 60.000948631598924,
+    "source" : "reprocess",
+    "stops" : 1,
+    "tyreChanges" : 1,
+    "version" : 1
+  },
+  "courseId" : 1232,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 1232,
+    "fuelMultiplier" : 0,
+    "raceLength" : 5,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 3,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Autodrome Lago Maggiore - West",
+    "tyreCompounds" : "RS,RM",
+    "tyreWearMultiplier" : 1,
+    "weather" : "dry"
+  },
+  "endTime" : 1790376150,
+  "granularity" : 1,
+  "identifiedCourseId" : 1232,
+  "identifiedTrackName" : "Autodrome Lago Maggiore - West",
+  "packetSize" : 368,
+  "startTime" : 1790375658,
+  "trackName" : "Autodrome Lago Maggiore - West",
+  "version" : 8
+}
