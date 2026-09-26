@@ -1,0 +1,142 @@
+{
+  "carCategory" : "GR3",
+  "carClass" : "Gr.3",
+  "carId" : 3450,
+  "carName" : "Nissan GT-R NISMO GT3 '18",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.2313518902698816,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 0.152"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 16,
+      "samples" : 13023,
+      "seconds" : 1012.6626626626627,
+      "slipPerG" : 0.691875,
+      "source" : "telemetry",
+      "startPacketId" : 3287109,
+      "trigger" : "raceStart"
+    },
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "finalLabel" : "RS",
+      "heating" : 0.2184051853126348,
+      "lap" : 12,
+      "outcome" : "confirmed",
+      "revisions" : 16,
+      "samples" : 11823,
+      "seconds" : 1004.0373707040374,
+      "slipPerG" : 0.702125,
+      "source" : "telemetry",
+      "startPacketId" : 3349821,
+      "trigger" : "pitExit"
+    },
+    {
+      "compound" : "RH",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "finalLabel" : "RH",
+      "heating" : 0.3662810632108607,
+      "lap" : 24,
+      "outcome" : "confirmed",
+      "revisions" : 4,
+      "samples" : 2837,
+      "seconds" : 256.7233900567234,
+      "slipPerG" : 0.8968749999999999,
+      "source" : "telemetry",
+      "startPacketId" : 3412017,
+      "trigger" : "pitExit"
+    },
+    {
+      "compound" : "RM",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "finalLabel" : "RM",
+      "heating" : 0.2951479340687422,
+      "lap" : 27,
+      "outcome" : "confirmed",
+      "revisions" : 21,
+      "samples" : 15636,
+      "seconds" : 1287.404070737404,
+      "slipPerG" : 0.773875,
+      "source" : "telemetry",
+      "startPacketId" : 3429563,
+      "trigger" : "pitExit"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RS",
+        "lap" : 1,
+        "startPacketId" : 3287109,
+        "trigger" : "raceStart"
+      },
+      {
+        "compound" : "RS",
+        "lap" : 12,
+        "startPacketId" : 3349821,
+        "trigger" : "pitExit"
+      },
+      {
+        "compound" : "RH",
+        "lap" : 24,
+        "startPacketId" : 3412017,
+        "trigger" : "pitExit"
+      },
+      {
+        "compound" : "RM",
+        "lap" : 27,
+        "startPacketId" : 3429563,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790446136.300273
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 43,
+    "lapsValid" : 6,
+    "measuredHz" : 60.00000000000001,
+    "source" : "reprocess",
+    "stops" : 3,
+    "tyreChanges" : 3,
+    "version" : 1
+  },
+  "courseId" : 41,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 41,
+    "fuelMultiplier" : 2,
+    "raceLength" : 60,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 7,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "WeatherTech Raceway Laguna Seca",
+    "tyreWearMultiplier" : 3,
+    "weather" : "dry"
+  },
+  "endTime" : 1790434409,
+  "granularity" : 1,
+  "identifiedCourseId" : 41,
+  "identifiedTrackName" : "WeatherTech Raceway Laguna Seca",
+  "maxSpeedKmh" : 273,
+  "packetSize" : 368,
+  "startTime" : 1790430661,
+  "trackName" : "WeatherTech Raceway Laguna Seca",
+  "version" : 8
+}

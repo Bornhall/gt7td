@@ -1,0 +1,676 @@
+# EzioClient session log
+# file:    20260926_155101 - WeatherTech Raceway Laguna Seca (41).gt7td
+# started: 2026-09-26T13:51:01Z
+# track:   WeatherTech Raceway Laguna Seca (CRS 41)
+# context: customRace
+# ---
+📊 pit loss: estimated 32.0 s from the unofficial table (WeatherTech Raceway Laguna Seca)
+📊 strategy: track pit loss 32.0 s
+# car:     Nissan GT-R NISMO GT3 '18 [Gr.3] (id 3450) — confirmed from telemetry
+🧭 polyline [MENU]: 2 candidate(s) dropped on direction — best of them Circuit de Sainte-Croix - C median 290.66 (alignment -0.91)
+🧭 polyline [MENU]: no fit yet — best Nürburgring Endurance median 1042.49 m (60 samples, pass 2 of 12)
+🧭 polyline [MENU]: 2 candidate(s) dropped on direction — best of them Circuit de Sainte-Croix - C median 325.82 (alignment -0.53)
+🧭 polyline [MENU]: no fit yet — best Nürburgring Endurance median 1143.30 m (90 samples, pass 3 of 12)
+🧭 learned: 3 gates matched, all WeatherTech Raceway Laguna Seca — using the finishLine gate (225 samples)
+🧭 identified: WeatherTech Raceway Laguna Seca (CRS 41) — finishLine, 225 sample(s), ±12 m
+🏁 announcing track: WeatherTech Raceway Laguna Seca (CRS 41) from gates
+🗣 spoke (radio, imp 2, cost 3.4s, ledger 3.4/20.4s, 1 line): trackIdentified(WeatherTech Raceway Laguna Seca, CRS 41)
+🗺 stored map loaded on identification (gates): course 41, 711 pts
+🅿️ no pitEntry gate for course 41 — approach call stays on the time anchor
+📊 strategy L1: no fuel model yet
+🔓 learning resumed — player on track
+🛞 compound: car 3450 — no reference — generic ladder
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 32.0 s from the unofficial table (WeatherTech Raceway Laguna Seca)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🛞 compound: car 3450 — no reference — generic ladder
+🎮 menus → onTrack (pkt 3286621, lap 0, flags 0x0011, pos 1, cars 2, tod 61680000)
+🏁 start type: GRID_START at pkt 3287017 lap 0
+🔀 state UNKNOWN → RACING at pkt 3287017 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag (speed) at pkt 3287017, race clock running
+🗣 spoke (lapPace, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): greenFlag
+📋 lap 0: — clean fuel_used=0.08
+📊 strategy L1: no fuel model yet
+🧭 learned: 3 gates matched, all WeatherTech Raceway Laguna Seca — using the finishLine gate (225 samples)
+🧭 identified: WeatherTech Raceway Laguna Seca (CRS 41) — finishLine, 225 sample(s), ±12 m
+🏁 WeatherTech Raceway Laguna Seca already announced 31s ago (gates) — not repeated
+🗺 stored map loaded on identification (gates): course 41, 711 pts
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/lap1 (60 samples, σ 0.67 m, ±12 m, across -0.2…4.9 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.2/20.4s, 1 line): surveyGate(lap1, 60)
+🛞 compound: window opened — raceStart, lap 1
+🅿️ no pitEntry gate for course 41 — approach call stays on the time anchor
+🛞 compound: family racing (H+ 0.202, locked for the race)
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 1.2/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:31.174 first fuel_used=2.86
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 2.86, 33.9 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (226 samples, σ 2.78 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 226)
+🛞 compound: no call — no dry fit — nearest RS at 0.152 (C 0.66)
+🛞 compound prompt: raceStart lap 1, estimate none
+🗑 dropped (no catalog lines; tyres): compoundEstimate(raceStart, abstained: no dry fit — nearest RS at 0.152)
+🗣 bulletin (imp 6, cost 4.9s, ledger 7.6/20.4s, 2 lines): L2
+🛞 compound prompt corrected: RS
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.661 over 149 s (1940 samples)
+📋 lap 2: 1:28.600 clean fuel_used=2.46
+🔵 lap 2: clean
+📊 laps-left model: elapsed 179.3 s, remaining 3420.7 s, median lap 88.6 s -> 39 (no-stop 39, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L3: fuel/lap 2.66 | fuel 94.6 = 35.5 laps | 39.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (227 samples, σ 2.78 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: learned lap 2 (88.600 s, 3565 m, 713 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 3.7/20.4s, 1 line): surveyLap(2, 88600 ms, 713 pts)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 7.6/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 lap 2 (88.600 s) not stored — the stored map's lap is faster (83.452 s)
+⏱ class lap kept: WeatherTech Raceway Laguna Seca/customRace/Gr.3 → 1:28.600 (4/10 laps, 2 car(s), avg 1:25.207)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L5/L20/L37, stops 1) | pitWindowState(beforeOpen, now L3, L5/L20/L37, stops 1) | pitStopsToGo(1, 39 to go)
+🗣 spoke (strategy, imp 2, cost 4.1s, ledger 11.8/20.4s, 1 line, protected): pitWindow(L5/L20/L37, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 14.4/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L3, L5/L20/L37, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 16.9/20.4s, 1 line, protected): pitStopsToGo(1, 39 to go)
+🗑 dropped (bulletin, ledger full; cost 4.3s, load 16.9/20.4s, 2 lines): L3
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.2/20.4s, 1 line, protected): strategyUpdate(fuel 35.53L, togo 39, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.661 over 209 s (2916 samples)
+📋 lap 3: 1:24.640 clean fuel_used=2.44
+🔵 lap 3: clean
+📊 laps-left model: elapsed 264.1 s, remaining 3335.9 s, median lap 86.6 s -> 39 (no-stop 39, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L4: fuel/lap 2.46 | fuel 92.1 = 37.4 laps | 39.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (228 samples, σ 2.78 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: learned lap 3 (84.640 s, 3560 m, 712 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.5s, ledger 4.5/20.4s, 1 line): surveyLap(3, 84640 ms, 712 pts)
+🗺 lap 3 (84.640 s) not stored — the stored map's lap is faster (83.452 s)
+⏱ class lap kept: WeatherTech Raceway Laguna Seca/customRace/Gr.3 → 1:24.640 (5/10 laps, 2 car(s), avg 1:25.093)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindow(L4/L21/L40, stops 1) | pitWindowState(openTargetAhead, now L4, L4/L21/L40, stops 1)
+🗣 spoke (strategy, imp 2, cost 2.8s, ledger 7.4/20.4s, 1 line, protected): pitWindow(L4/L21/L40, stops 1)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 10.9/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L4, L4/L21/L40, stops 1)
+🗣 bulletin (imp 2, cost 6.6s, ledger 17.5/20.4s, 2 lines): L4
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.671 over 269 s (3761 samples)
+🗑 speaker: stale after pause: "that's lap 4"
+🗑 dropped (unchanged; said 84s ago, repeats after 300s): strategyUpdate(fuel 37.39L, togo 39, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.671 over 329 s (4558 samples)
+📋 lap 4: 1:23.727 clean fuel_used=2.59
+🔵 lap 4: clean
+📊 laps-left model: elapsed 347.9 s, remaining 3252.1 s, median lap 84.6 s -> 38-39 (no-stop 39, pit loss 32.0 s, rate 7 l/s, tyre-decisive)
+📊 strategy L5: fuel/lap 2.53 | fuel 89.6 = 35.4 laps | 39.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (229 samples, σ 2.77 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: learned lap 4 (83.727 s, 3555 m, 711 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 3.7/20.4s, 1 line): surveyLap(4, 83727 ms, 711 pts)
+🗺 lap 4 (83.727 s) not stored — the stored map's lap is faster (83.452 s)
+⏱ class lap kept: WeatherTech Raceway Laguna Seca/customRace/Gr.3 → 1:23.727 (6/10 laps, 2 car(s), avg 1:24.865)
+🗣 spoke (strategy, imp 4, cost 4.8s, ledger 8.5/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L5, L5/L21/L39, stops 1)
+🗣 bulletin (imp 2, cost 6.0s, ledger 14.5/20.4s, 2 lines): L5
+🗣 spoke (strategy, imp 2, cost 4.5s, ledger 19.1/20.4s, 1 line, protected): strategyUpdate(fuel 35.43L, togo 38-39/tyres, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.682 over 389 s (5233 samples)
+📋 lap 5: 1:23.183 clean fuel_used=2.54
+🔵 lap 5: clean
+📊 laps-left model: elapsed 431.1 s, remaining 3168.9 s, median lap 84.2 s -> 38 (no-stop 38, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L6: fuel/lap 2.54 | fuel 87.0 = 34.3 laps | 38.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (230 samples, σ 2.77 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: learned lap 5 (83.183 s, 3555 m, 711 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 3.7/20.4s, 1 line): surveyLap(5, 83183 ms, 711 pts)
+🗺 frame vs lobby: median 2.0 m, centroid offset 0.4 m
+🗺 survey stored → 41.trackmap.json (lap 5, 83.183 s)
+⏱ class lap BEST: WeatherTech Raceway Laguna Seca/customRace/Gr.3 → 1:23.183 (6/10 laps, 2 car(s), avg 1:23.963)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 8.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L6, L6/L21/L39, stops 1)
+🗣 bulletin (imp 2, cost 5.6s, ledger 13.8/20.4s, 2 lines): L6
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.1/20.4s, 1 line, protected): strategyUpdate(fuel 34.28L, togo 38, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.682 over 449 s (6091 samples)
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.682 over 509 s (6998 samples)
+📋 lap 6: 1:24.142 clean fuel_used=2.52
+🔵 lap 6: clean
+📊 laps-left model: elapsed 515.4 s, remaining 3084.6 s, median lap 84.1 s -> 37 (no-stop 37, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L7: fuel/lap 2.53 | fuel 84.5 = 33.4 laps | 37.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (231 samples, σ 2.76 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 4, cost 4.8s, ledger 4.8/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L7, L7/L21/L39, stops 1)
+🗣 bulletin (imp 6, cost 4.9s, ledger 9.8/20.4s, 2 lines): L7
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 13.4/20.4s, 1 line, protected): strategyUpdate(fuel 33.38L, togo 37, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 8 — C 0.682 over 569 s (7713 samples)
+📋 lap 7: 1:24.019 clean fuel_used=2.61
+🔵 lap 7: clean
+📊 laps-left model: elapsed 599.5 s, remaining 3000.5 s, median lap 84.1 s -> 36 (no-stop 36, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L8: fuel/lap 2.54 | fuel 81.9 = 32.3 laps | 36.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (232 samples, σ 2.76 m, ±12 m, across -4.8…7.7 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L8, L8/L21/L39, stops 1) | pitStopsToGo(1, 36 to go)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L8, L8/L21/L39, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 7.3/20.4s, 1 line, protected): pitStopsToGo(1, 36 to go)
+🗣 bulletin (imp 6, cost 5.4s, ledger 12.7/20.4s, 2 lines): L8
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 14.9/20.4s, 1 line, protected): strategyUpdate(fuel 32.26L, togo 36, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 9 — C 0.682 over 629 s (8592 samples)
+📋 lap 8: 1:23.952 clean fuel_used=2.54
+🔵 lap 8: clean
+📊 laps-left model: elapsed 683.5 s, remaining 2916.5 s, median lap 84.0 s -> 35 (no-stop 35, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L9: fuel/lap 2.54 | fuel 79.3 = 31.3 laps | 35.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (233 samples, σ 2.75 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 4.5/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L9, L9/L21/L39, stops 1)
+🗣 bulletin (imp 6, cost 4.6s, ledger 9.1/20.4s, 2 lines): L9
+🛞 compound: stint raceStart lap 1, refinement 10 — C 0.682 over 689 s (9321 samples)
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 12.8/20.4s, 1 line, protected): strategyUpdate(fuel 31.27L, togo 35, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 11 — C 0.692 over 749 s (9970 samples)
+📋 lap 9: 1:24.577 clean fuel_used=2.55
+🔵 lap 9: clean
+📊 laps-left model: elapsed 768.2 s, remaining 2831.8 s, median lap 84.1 s -> 34 (no-stop 34, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L10: fuel/lap 2.54 | fuel 76.8 = 30.3 laps | 34.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (234 samples, σ 2.76 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L10, L10/L21/L39, stops 1)
+🗣 bulletin (imp 6, cost 5.2s, ledger 10.4/20.4s, 2 lines): L10
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 12.7/20.4s, 1 line, protected): strategyUpdate(fuel 30.26L, togo 34, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 12 — C 0.692 over 809 s (10576 samples)
+📋 lap 10: 1:24.935 clean fuel_used=2.55
+🔵 lap 10: clean
+📊 laps-left model: elapsed 853.2 s, remaining 2746.8 s, median lap 84.1 s -> 33 (no-stop 33, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L11: fuel/lap 2.54 | fuel 74.2 = 29.2 laps | 33.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (235 samples, σ 2.75 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 4, cost 4.8s, ledger 4.8/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L11, L11/L21/L39, stops 1)
+🗣 bulletin (imp 6, cost 4.9s, ledger 9.8/20.4s, 2 lines): L11
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 13.4/20.4s, 1 line, protected): strategyUpdate(fuel 29.17L, togo 33, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 13 — C 0.692 over 869 s (11364 samples)
+🛞 compound: stint raceStart lap 1, refinement 14 — C 0.692 over 929 s (11952 samples)
+📋 lap 11: 1:24.732 clean fuel_used=2.57
+🔵 lap 11: clean
+📊 laps-left model: elapsed 938.0 s, remaining 2662.0 s, median lap 84.1 s -> 32 (no-stop 32, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L12: fuel/lap 2.55 | fuel 71.7 = 28.1 laps | 32.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (236 samples, σ 2.76 m, ±12 m, across -4.8…7.7 m)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 28, 32 to go, 28.07 fuel-laps) | pitWindowState(openTargetAhead, now L12, L12/L21/L39, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 5.1s, ledger 5.1/20.4s, 1 line, protected): fuelStatus(extendStint, 28, 32 to go, 28.07 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 8.6/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L12, L12/L21/L39, stops 1, close)
+🗣 bulletin (imp 6, cost 5.4s, ledger 14.0/20.4s, 2 lines): L12
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.2/20.4s, 1 line, protected): strategyUpdate(fuel 28.07L, togo 32, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 15 — C 0.692 over 989 s (12800 samples)
+🔧 huge stop 182 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 3347831 lap 12
+🔵 sub-state FLYING → — lap 12
+🔧 pit-entry anchor learned: 76502 ms into lap (stop on lap 12)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 1014.6 s, remaining 2585.4 s, median lap 84.1 s -> 31 (no-stop 31, pit loss 32.0 s, rate 7 l/s)
+📊 strategy: refuel still needed — 27.2 laps of fuel against 31 to go (need 33.6 with margin)
+🚪 gate learned: WeatherTech Raceway Laguna Seca/customRace/pitEntry (no heading)
+🗣 spoke (pitSequence, imp 0, cost 2.9s, ledger 2.9/20.4s, 1 line, protected): pittingIn(L12)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+📊 strategy: box reached on the ENDING lap (entered L12, counter still L12) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 1041.4 s, remaining 2558.6 s, median lap 84.1 s -> 30-31 (no-stop 31, pit loss 32.0 s, rate 7 l/s, tyre-decisive)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 1.6/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 5.0s, ledger 6.6/20.4s, 1 line, protected): refuelTarget(30-31/tyres laps)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 compound: stint raceStart lap 1, refinement 16 (final) — C 0.692 over 1013 s (13023 samples)
+🛞 compound: window opened — pitExit, lap 12
+🔀 state PIT → RACING at pkt 3349870 lap 13
+🔵 sub-state — → OUT_LAP lap 13
+🅿️ PIT completed: in L12 → out L13 (no fuel, transit 36.8s, teleport=false)
+🚪 gate learned: WeatherTech Raceway Laguna Seca/customRace/pitBox (no heading)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 29.6s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 3170 m of 3554 m (19.9 m off the line), lead 20 s
+📋 lap 12: 1:50.483 in fuel_used=2.34
+🔵 lap 12: clean
+🗑 dropped (in pit): lapStarted(13, last 110.48s)
+🔧 teleport 214 m on lap 13 — pit release, not a reset
+📊 laps-left model: elapsed 1048.6 s, remaining 2551.4 s, median lap 84.1 s -> 30 (no-stop 31, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L13: fuel/lap 2.54 | fuel 69.3 = 27.2 laps | 30.0 laps to go | stops 1
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 8.2/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🚪 gate learned: WeatherTech Raceway Laguna Seca/customRace/pitExit heading 122°
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 10.9/20.4s, 1 line, protected): stopsPlanChanged(0→1)
+🗺 mapper: lap 12 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 12.6/20.4s, 1 line): surveyGate(pitExit, 1)
+📊 laps-left model: elapsed 1048.6 s, remaining 2519.4 s, median lap 84.1 s -> 30 (no-stop 30, pit loss 32.0 s, rate 7 l/s), out-lap -32.0s
+📊 strategy L13: fuel/lap 2.54 | fuel 69.3 = 27.2 laps | 30.0 laps to go | stops 1 (post-stop recalc)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 15.5/20.4s, 1 line): surveyComplete(0 optional missing)
+🔧 fresh tyres confirmed: 60.0° across all four (was 72.0° at pit entry, step 12.0°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via tyres x0.50): freshTyres(confirmed 59.99°)
+📋 strategy burst: 3 event(s), releasing best-first — strategyUpdate(fuel 27.24L, togo 30, stops 1, post-stop) | pitWindowState(openTargetAhead, now L13, L13/L21/L39, stops 1) | pitStopsToGo(1, 30 to go)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 18.6/20.4s, 1 line, protected): strategyUpdate(fuel 27.24L, togo 30, stops 1, post-stop)
+🗑 dropped (unchanged; said 111s ago, repeats after 300s): pitWindowState(openTargetAhead, now L13, L13/L21/L39, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 20.6/20.4s, 1 line, protected): pitStopsToGo(1, 30 to go)
+🗑 dropped (ledger full; cost 2.1s, load 20.6/20.4s): tyreTemps(low, 60°)
+🗑 dropped (cooldown strategy; 12.6s of 75.0s via strategy x0.50): strategyUpdate(fuel 27.24L, togo 30, stops 1)
+🛞 compound: racingSoft (high confidence, C 0.69, margin 0.122, relative to RS (truth), generic reference)
+🛞 compound prompt: pitExit lap 12, estimate RS
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RS, high)
+🛞 compound prompt confirmed: RS
+🛞 compound: RS confirmed by the driver — anchor
+🔵 sub-state OUT_LAP → FLYING lap 14
+📋 lap 13: 1:26.594 out fuel_used=2.66
+🔵 lap 13: clean
+📊 laps-left model: elapsed 1135.3 s, remaining 2464.7 s, median lap 84.1 s -> 29 (no-stop 30, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L14: fuel/lap 2.55 | fuel 66.7 = 26.1 laps | 29.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (237 samples, σ 2.76 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: lap 13 rejected (teleport)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L14, L14/L21/L39, stops 1)
+🗣 bulletin (imp 6, cost 6.4s, ledger 11.6/20.4s, 2 lines): L14
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 13.9/20.4s, 1 line, protected): strategyUpdate(fuel 26.11L, togo 29, stops 1)
+🛞 compound: stint pitExit lap 12, refinement 1 — C 0.692 over 120 s (1580 samples)
+📋 lap 14: 1:23.043 clean fuel_used=2.61
+🔵 lap 14: clean
+📊 laps-left model: elapsed 1218.4 s, remaining 2381.6 s, median lap 84.1 s -> 28 (no-stop 29, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L15: fuel/lap 2.57 | fuel 64.1 = 25.0 laps | 28.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (238 samples, σ 2.75 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: learned lap 14 (83.043 s, 3560 m, 712 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 3.1/20.4s, 1 line): surveyLap(14, 83043 ms, 712 pts)
+🗺 frame vs lobby: median 1.2 m, centroid offset 0.3 m
+🗺 survey stored → 41.trackmap.json (lap 14, 83.043 s)
+⏱ class lap BEST: WeatherTech Raceway Laguna Seca/customRace/Gr.3 → 1:23.043 (6/10 laps, 2 car(s), avg 1:23.696)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L15/L21/L38, stops 1) | fuelStatus(extendStint, 24, 28 to go, 24.97 fuel-laps) | pitWindowState(openTargetAhead, now L15, L15/L21/L38, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 2.8s, ledger 5.9/20.4s, 1 line, protected): pitWindow(L15/L21/L38, stops 1)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 10.6/20.4s, 1 line, protected): fuelStatus(extendStint, 24, 28 to go, 24.97 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 14.1/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L15, L15/L21/L38, stops 1, close)
+🗣 bulletin (imp 2, cost 6.0s, ledger 20.1/20.4s, 2 lines): L15
+🛞 compound: stint pitExit lap 12, refinement 2 — C 0.692 over 180 s (2171 samples)
+🗑 speaker: stale, not spoken: "lap 15 now"
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 22.4/20.4s, 1 line, protected): strategyUpdate(fuel 24.97L, togo 28, stops 1)
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 2.9/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🛞 compound: stint pitExit lap 12, refinement 3 — C 0.682 over 240 s (2945 samples)
+📋 lap 15: 1:22.928 clean fuel_used=2.66
+🔵 lap 15: clean
+📊 laps-left model: elapsed 1301.4 s, remaining 2298.6 s, median lap 84.1 s -> 27 (no-stop 28, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L16: fuel/lap 2.57 | fuel 61.4 = 23.9 laps | 27.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (239 samples, σ 2.75 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: learned lap 15 (82.928 s, 3555 m, 711 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.5s, ledger 7.5/20.4s, 1 line): surveyLap(15, 82928 ms, 711 pts)
+🗺 frame vs lobby: median 1.5 m, centroid offset 0.5 m
+🗺 survey stored → 41.trackmap.json (lap 15, 82.928 s)
+⏱ class lap BEST: WeatherTech Raceway Laguna Seca/customRace/Gr.3 → 1:22.928 (6/10 laps, 2 car(s), avg 1:23.563)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 23, 27 to go, 23.93 fuel-laps) | pitWindowState(openTargetAhead, now L16, L16/L21/L38, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 11.2/20.4s, 1 line, protected): fuelStatus(extendStint, 23, 27 to go, 23.93 fuel-laps)
+🗑 dropped (unchanged; said 83s ago, repeats after 300s): pitWindowState(openTargetAhead, now L16, L16/L21/L38, stops 1, close)
+🗣 bulletin (imp 2, cost 5.6s, ledger 16.9/20.4s, 2 lines): L16
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.2/20.4s, 1 line, protected): strategyUpdate(fuel 23.93L, togo 27, stops 1)
+🛞 compound: stint pitExit lap 12, refinement 4 — C 0.682 over 300 s (3600 samples)
+📋 lap 16: 1:22.992 clean fuel_used=2.61
+🔵 lap 16: clean
+📊 laps-left model: elapsed 1384.5 s, remaining 2215.5 s, median lap 84.0 s -> 26 (no-stop 27, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L17: fuel/lap 2.59 | fuel 58.8 = 22.7 laps | 26.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (240 samples, σ 2.74 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 4, cost 4.8s, ledger 4.8/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L17, L17/L21/L38, stops 1)
+🗣 bulletin (imp 6, cost 5.0s, ledger 9.8/20.4s, 2 lines): L17
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 13.5/20.4s, 1 line, protected): strategyUpdate(fuel 22.69L, togo 26, stops 1)
+🛞 compound: stint pitExit lap 12, refinement 5 — C 0.692 over 360 s (4272 samples)
+🛞 compound: stint pitExit lap 12, refinement 6 — C 0.692 over 420 s (4917 samples)
+📋 lap 17: 1:24.082 clean fuel_used=2.49
+🔵 lap 17: clean
+📊 laps-left model: elapsed 1468.7 s, remaining 2131.3 s, median lap 84.0 s -> 25 (no-stop 26, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L18: fuel/lap 2.59 | fuel 56.3 = 21.7 laps | 25.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (241 samples, σ 2.74 m, ±12 m, across -4.8…7.7 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L18, L18/L21/L38, stops 1) | pitStopsToGo(1, 25 to go)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 4.5/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L18, L18/L21/L38, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 6.6/20.4s, 1 line, protected): pitStopsToGo(1, 25 to go)
+🗣 bulletin (imp 6, cost 5.8s, ledger 12.4/20.4s, 2 lines): L18
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 14.7/20.4s, 1 line, protected): strategyUpdate(fuel 21.73L, togo 25, stops 1)
+🛞 compound: stint pitExit lap 12, refinement 7 — C 0.702 over 480 s (5755 samples)
+📋 lap 18: 1:22.928 clean fuel_used=2.59
+🔵 lap 18: clean
+📊 laps-left model: elapsed 1551.7 s, remaining 2048.3 s, median lap 83.6 s -> 25 (no-stop 25, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L19: fuel/lap 2.60 | fuel 53.7 = 20.7 laps | 25.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (242 samples, σ 2.74 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L19, L19/L21/L38, stops 1)
+🗣 bulletin (imp 6, cost 3.9s, ledger 9.2/20.4s, 2 lines): L19
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 12.8/20.4s, 1 line, protected): strategyUpdate(fuel 20.66L, togo 25, stops 1)
+🛞 compound: stint pitExit lap 12, refinement 8 — C 0.702 over 540 s (6363 samples)
+📋 lap 19: 1:22.999 clean fuel_used=2.60
+🔵 lap 19: clean
+📊 laps-left model: elapsed 1634.8 s, remaining 1965.2 s, median lap 83.0 s -> 24 (no-stop 24, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L20: fuel/lap 2.60 | fuel 51.1 = 19.6 laps | 24.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (243 samples, σ 2.73 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L20, L20/L21/L38, stops 1)
+🗣 bulletin (imp 6, cost 4.6s, ledger 8.1/20.4s, 2 lines): L20
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 10.4/20.4s, 1 line, protected): strategyUpdate(fuel 19.62L, togo 24, stops 1)
+🛞 compound: stint pitExit lap 12, refinement 9 — C 0.702 over 600 s (7172 samples)
+🛞 compound: stint pitExit lap 12, refinement 10 — C 0.702 over 660 s (7752 samples)
+📋 lap 20: 1:27.697 clean fuel_used=2.63
+🔵 lap 20: clean
+📊 laps-left model: elapsed 1722.5 s, remaining 1877.5 s, median lap 83.0 s -> 23 (no-stop 23, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L21: fuel/lap 2.61 | fuel 48.5 = 18.6 laps | 23.0 laps to go | stops 1
+🗣 spoke (lapPace, imp 4, cost 5.5s, ledger 5.5/20.4s, 1 line): paceDegradation(0.83s/lap over 5)
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (244 samples, σ 2.73 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 9.9/20.4s, 1 line, protected): pitWindowState(openToLatest, now L21, L21/L21/L38, stops 1)
+🗣 bulletin (imp 6, cost 6.4s, ledger 16.3/20.4s, 2 lines): L21
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 18.5/20.4s, 1 line, protected): strategyUpdate(fuel 18.60L, togo 23, stops 1)
+🛞 compound: stint pitExit lap 12, refinement 11 — C 0.702 over 720 s (8437 samples)
+📋 lap 21: 1:23.820 clean fuel_used=2.58
+🔵 lap 21: clean
+📊 laps-left model: elapsed 1806.4 s, remaining 1793.6 s, median lap 83.0 s -> 22 (no-stop 22, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L22: fuel/lap 2.60 | fuel 45.9 = 17.6 laps | 22.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (245 samples, σ 2.72 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L22, L22/L22/L38, stops 1)
+🗣 bulletin (imp 6, cost 6.7s, ledger 11.9/20.4s, 2 lines): L22
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 14.1/20.4s, 1 line, protected): strategyUpdate(fuel 17.61L, togo 22, stops 1)
+🛞 compound: stint pitExit lap 12, refinement 12 — C 0.702 over 780 s (9247 samples)
+🛞 compound: stint pitExit lap 12, refinement 13 — C 0.702 over 840 s (9784 samples)
+📋 lap 22: 1:23.684 clean fuel_used=2.79
+🔵 lap 22: clean
+📊 laps-left model: elapsed 1890.2 s, remaining 1709.8 s, median lap 83.3 s -> 21 (no-stop 21, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L23: fuel/lap 2.60 | fuel 43.1 = 16.5 laps | 21.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (246 samples, σ 2.73 m, ±12 m, across -4.8…7.7 m)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L23, L23/L23/L38, stops 1) | pitStopsToGo(1, 21 to go)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line, protected): pitWindowState(openToLatest, now L23, L23/L23/L38, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 6.4/20.4s, 1 line, protected): pitStopsToGo(1, 21 to go)
+🗣 bulletin (imp 6, cost 5.8s, ledger 12.2/20.4s, 2 lines): L23
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 14.5/20.4s, 1 line, protected): strategyUpdate(fuel 16.54L, togo 21, stops 1)
+🛞 compound: stint pitExit lap 12, refinement 14 — C 0.702 over 900 s (10649 samples)
+📋 lap 23: 1:25.473 clean fuel_used=2.71
+🔵 lap 23: clean
+📊 laps-left model: elapsed 1975.8 s, remaining 1624.2 s, median lap 83.8 s -> 19 (no-stop 20, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L24: fuel/lap 2.60 | fuel 40.4 = 15.5 laps | 19.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (247 samples, σ 2.73 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L24, L24/L24/L38, stops 1)
+🗣 bulletin (imp 6, cost 4.9s, ledger 10.2/20.4s, 2 lines): L24
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 13.9/20.4s, 1 line, protected): strategyUpdate(fuel 15.50L, togo 19, stops 1)
+🛞 compound: stint pitExit lap 12, refinement 15 — C 0.702 over 960 s (11376 samples)
+🔧 huge stop 184 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 3410027 lap 24
+🔵 sub-state FLYING → — lap 24
+🔧 pit-entry anchor learned: 76379 ms into lap (stop on lap 24)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 2052.2 s, remaining 1547.8 s, median lap 83.8 s -> 19 (no-stop 19, pit loss 32.0 s, rate 7 l/s)
+📊 strategy: refuel still needed — 14.6 laps of fuel against 19 to go (need 20.9 with margin)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line, protected): pittingIn(L24)
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/pitEntry (2 samples, σ 0.18 m, ±0 m, across 0.0…0.0 m)
+🗑 dropped (in pit): surveyGate(pitEntry, 2)
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+📊 strategy: box reached on the ENDING lap (entered L24, counter still L24) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 2079.0 s, remaining 1521.0 s, median lap 83.8 s -> 18 (no-stop 19, pit loss 32.0 s, rate 7 l/s)
+🗣 spoke (pitSequence, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 3.1s, ledger 5.6/20.4s, 1 line, protected): refuelTarget(18 laps)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 compound: stint pitExit lap 12, refinement 16 (final) — C 0.702 over 1004 s (11823 samples)
+🛞 compound: window opened — pitExit, lap 24
+🔀 state PIT → RACING at pkt 3412066 lap 25
+🔵 sub-state — → OUT_LAP lap 25
+🅿️ PIT completed: in L24 → out L25 (no fuel, transit 36.8s, teleport=false)
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/pitBox (2 samples, σ 0.00 m, ±0 m, across 0.0…0.0 m)
+🅿️ entry→box 29.6s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 2)
+🔧 pit approach: entry at station 3170 m of 3554 m (19.8 m off the line), lead 20 s
+📋 lap 24: 1:50.360 in fuel_used=2.39
+🔵 lap 24: clean
+🗑 dropped (in pit): lapStarted(25, last 110.36s)
+🔧 teleport 214 m on lap 25 — pit release, not a reset
+📊 laps-left model: elapsed 2086.2 s, remaining 1513.8 s, median lap 83.8 s -> 18 (no-stop 19, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L25: fuel/lap 2.60 | fuel 38.0 = 14.6 laps | 18.0 laps to go | stops 1
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 7.2/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/pitExit (2 samples, σ 0.00 m, ±16 m, across 0.0…0.0 m)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 9.9/20.4s, 1 line, protected): stopsPlanChanged(0→1)
+🗺 mapper: lap 24 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 12.6/20.4s, 1 line): surveyGate(pitExit, 2)
+📊 laps-left model: elapsed 2086.3 s, remaining 1481.7 s, median lap 83.8 s -> 18 (no-stop 18, pit loss 32.0 s, rate 7 l/s), out-lap -32.0s
+📊 strategy L25: fuel/lap 2.60 | fuel 38.0 = 14.6 laps | 18.0 laps to go | stops 1 (post-stop recalc)
+🔧 fresh tyres confirmed: 60.0° across all four (was 71.2° at pit entry, step 11.2°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via tyres x0.50): freshTyres(confirmed 60.00°)
+📋 strategy burst: 2 event(s), releasing best-first — strategyUpdate(fuel 14.63L, togo 18, stops 1, post-stop) | pitWindowState(openToLatest, now L25, L25/L25/L38, stops 1)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 15.6/20.4s, 1 line, protected): strategyUpdate(fuel 14.63L, togo 18, stops 1, post-stop)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 19.6/20.4s, 1 line, protected): pitWindowState(openToLatest, now L25, L25/L25/L38, stops 1)
+🗑 dropped (ledger full; cost 2.1s, load 19.6/20.4s): tyreTemps(low, 60°)
+🗑 dropped (cooldown strategy; 12.5s of 75.0s via strategy x0.50): strategyUpdate(fuel 14.63L, togo 18, stops 1)
+🛞 compound: racingHard (high confidence, C 0.89, margin 0.083, relative to RS (truth), generic reference)
+🛞 compound prompt: pitExit lap 24, estimate RH
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RH, high)
+🛞 compound prompt confirmed: RH
+🛞 compound: RH confirmed by the driver — anchor
+🔵 sub-state OUT_LAP → FLYING lap 26
+📋 lap 25: 1:30.602 out fuel_used=2.57
+🔵 lap 25: clean
+📊 laps-left model: elapsed 2176.9 s, remaining 1423.1 s, median lap 83.8 s -> 17 (no-stop 17, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L26: fuel/lap 2.60 | fuel 35.4 = 13.6 laps | 17.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (248 samples, σ 2.72 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: lap 25 rejected (teleport)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line, protected): pitWindowState(openToLatest, now L26, L26/L26/L38, stops 1)
+🗣 bulletin (imp 6, cost 6.2s, ledger 10.6/20.4s, 2 lines): L26
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 12.8/20.4s, 1 line, protected): strategyUpdate(fuel 13.64L, togo 17, stops 1)
+🛞 compound: stint pitExit lap 24, refinement 1 — C 0.897 over 120 s (1369 samples)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): tyreTemps(inWindow, 70°)
+📋 lap 26: 1:26.848 clean fuel_used=2.60
+🔵 lap 26: clean
+📊 laps-left model: elapsed 2263.9 s, remaining 1336.1 s, median lap 84.0 s -> 16 (no-stop 16, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L27: fuel/lap 2.60 | fuel 32.8 = 12.6 laps | 16.0 laps to go | stops 1
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (249 samples, σ 2.72 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L27, L27/L27/L38, stops 1)
+🛞 compound: stint pitExit lap 24, refinement 2 — C 0.887 over 180 s (1951 samples)
+🗣 bulletin (imp 6, cost 6.4s, ledger 11.6/20.4s, 2 lines): L27
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 13.9/20.4s, 1 line, protected): strategyUpdate(fuel 12.61L, togo 16, stops 1)
+🛞 compound: stint pitExit lap 24, refinement 3 — C 0.897 over 240 s (2705 samples)
+🔧 huge stop 178 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 3427426 lap 27
+🔵 sub-state FLYING → — lap 27
+🔧 pit-entry anchor learned: 78552 ms into lap (stop on lap 27)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 2342.5 s, remaining 1257.5 s, median lap 84.0 s -> 15 (no-stop 15, pit loss 32.0 s, rate 7 l/s)
+📊 strategy: refuel still needed — 11.8 laps of fuel against 15 to go (need 16.8 with margin)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 0.8/20.4s, 1 line, protected): pittingIn(L27)
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/pitEntry (3 samples, σ 0.16 m, ±0 m, across 0.0…0.0 m)
+🗑 dropped (in pit): surveyGate(pitEntry, 3)
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+📊 strategy: box reached on the ENDING lap (entered L27, counter still L27) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 2369.3 s, remaining 1230.7 s, median lap 84.0 s -> 15 (no-stop 15, pit loss 32.0 s, rate 7 l/s)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 1.6/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 3.1s, ledger 4.7/20.4s, 1 line, protected): refuelTarget(15 laps)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 compound: stint pitExit lap 24, refinement 4 (final) — C 0.897 over 257 s (2837 samples)
+🛞 compound: window opened — pitExit, lap 27
+🔀 state PIT → RACING at pkt 3429612 lap 28
+🔵 sub-state — → OUT_LAP lap 28
+🅿️ PIT completed: in L27 → out L28 (+11.9 fuel, transit 39.3s, teleport=false)
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/pitBox (3 samples, σ 0.00 m, ±0 m, across 0.0…0.0 m)
+🅿️ entry→box 29.6s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 3)
+🔧 pit approach: entry at station 3170 m of 3554 m (19.7 m off the line), lead 20 s
+📋 lap 27: 1:54.983 in fuel_used=2.20
+🔵 lap 27: clean
+🗑 dropped (in pit): lapStarted(28, last 114.98s)
+🔧 teleport 214 m on lap 28 — pit release, not a reset
+📊 laps-left model: elapsed 2379.0 s, remaining 1221.0 s, median lap 84.0 s -> 15 (no-stop 15, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L28: fuel/lap 2.60 | fuel 42.5 = 16.3 laps | 15.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 6.4/20.4s, 1 line, protected): exitingPit(+11.89l, tyres)
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/pitExit (3 samples, σ 0.00 m, ±12 m, across 0.0…0.0 m)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🗺 mapper: lap 27 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 9.0/20.4s, 1 line): surveyGate(pitExit, 3)
+📊 laps-left model: elapsed 2379.0 s, remaining 1189.0 s, median lap 84.0 s -> 15 (no-stop 15, pit loss 32.0 s, rate 7 l/s), out-lap -32.0s
+📊 strategy L28: fuel/lap 2.60 | fuel 42.5 = 16.3 laps | 15.0 laps to go | stops 0 (post-stop recalc)
+🔧 fresh tyres confirmed: 60.0° across all four (was 74.9° at pit entry, step 14.9°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via tyres x0.50): freshTyres(confirmed 59.99°)
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 11.9/20.4s, 1 line): tyreTemps(low, 60°)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(plusLaps, 1, 15 to go, 16.33 fuel-laps) | strategyUpdate(fuel 16.33L, togo 15, stops 0, post-stop)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 15.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 15 to go, 16.33 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 18.4/20.4s, 1 line, protected): strategyUpdate(fuel 16.33L, togo 15, stops 0, post-stop)
+🗑 dropped (cooldown strategy; 12.6s of 75.0s via strategy x0.50): strategyUpdate(fuel 16.33L, togo 15, stops 0)
+🛞 compound: racingMedium (high confidence, C 0.76, margin 0.079, relative to RH (truth), generic reference)
+🛞 compound prompt: pitExit lap 27, estimate RM
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RM, high)
+🛞 compound prompt confirmed: RM
+🛞 compound: RM confirmed by the driver — anchor
+🔵 sub-state OUT_LAP → FLYING lap 29
+📋 lap 28: 1:27.590 out fuel_used=2.62
+🔵 lap 28: clean
+📊 laps-left model: elapsed 2466.6 s, remaining 1133.4 s, median lap 84.0 s -> 14 (no-stop 14, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L29: fuel/lap 2.61 | fuel 39.9 = 15.3 laps | 14.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (250 samples, σ 2.71 m, ±12 m, across -4.8…7.7 m)
+🗺 mapper: lap 28 rejected (teleport)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 14 to go, 15.28 fuel-laps)
+🗣 bulletin (imp 6, cost 6.4s, ledger 9.9/20.4s, 2 lines): L29
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.4/20.4s, 1 line, protected): strategyUpdate(fuel 15.28L, togo 14, stops 0)
+🛞 compound: stint pitExit lap 27, refinement 1 — C 0.784 over 120 s (1263 samples)
+🗣 spoke (tyres, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line): tyreTemps(inWindow, 70°)
+📋 lap 29: 1:24.336 clean fuel_used=2.52
+🔵 lap 29: clean
+📊 laps-left model: elapsed 2551.1 s, remaining 1048.9 s, median lap 84.1 s -> 13 (no-stop 13, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L30: fuel/lap 2.59 | fuel 37.4 = 14.4 laps | 13.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (251 samples, σ 2.72 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 6.6/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 13 to go, 14.41 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 12.4/20.4s, 2 lines): L30
+🛞 compound: stint pitExit lap 27, refinement 2 — C 0.774 over 180 s (2104 samples)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.8/20.4s, 1 line, protected): strategyUpdate(fuel 14.41L, togo 13, stops 0)
+🛞 compound: stint pitExit lap 27, refinement 3 — C 0.774 over 240 s (2701 samples)
+📋 lap 30: 1:23.670 clean fuel_used=2.60
+🔵 lap 30: clean
+📊 laps-left model: elapsed 2634.8 s, remaining 965.2 s, median lap 84.1 s -> 12 (no-stop 12, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L31: fuel/lap 2.60 | fuel 34.8 = 13.4 laps | 12.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (252 samples, σ 2.71 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 3.1/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 12 to go, 13.35 fuel-laps)
+🗣 bulletin (imp 6, cost 6.7s, ledger 9.8/20.4s, 2 lines): L31
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.4/20.4s, 1 line, protected): strategyUpdate(fuel 13.35L, togo 12, stops 0)
+🛞 compound: stint pitExit lap 27, refinement 4 — C 0.784 over 300 s (3496 samples)
+📋 lap 31: 1:24.281 clean fuel_used=2.64
+🔵 lap 31: clean
+📊 laps-left model: elapsed 2719.2 s, remaining 880.8 s, median lap 84.3 s -> 11 (no-stop 11, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L32: fuel/lap 2.60 | fuel 32.1 = 12.3 laps | 11.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (253 samples, σ 2.71 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 11 to go, 12.34 fuel-laps)
+🗣 bulletin (imp 6, cost 7.3s, ledger 10.9/20.4s, 2 lines): L32
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 14.4/20.4s, 1 line, protected): strategyUpdate(fuel 12.34L, togo 11, stops 0)
+🛞 compound: stint pitExit lap 27, refinement 5 — C 0.774 over 360 s (4224 samples)
+🛞 compound: stint pitExit lap 27, refinement 6 — C 0.774 over 420 s (4821 samples)
+📋 lap 32: 1:26.596 clean fuel_used=2.56
+🔵 lap 32: clean
+📊 laps-left model: elapsed 2805.9 s, remaining 794.1 s, median lap 84.3 s -> 10 (no-stop 10, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L33: fuel/lap 2.59 | fuel 29.6 = 11.4 laps | 10.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (254 samples, σ 2.70 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 10 to go, 11.43 fuel-laps)
+🗣 bulletin (imp 6, cost 6.0s, ledger 9.5/20.4s, 2 lines): L33
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.0/20.4s, 1 line, protected): strategyUpdate(fuel 11.43L, togo 10, stops 0)
+🎭 mood relaxed → focused
+🗣 chain (imp 2, cost 3.8s, ledger 3.8/20.4s, 4 events, 1 lines)
+🗑 dropped (chain cooldown): 1 event(s)
+🛞 compound: stint pitExit lap 27, refinement 7 — C 0.784 over 480 s (5594 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 6.7/20.4s, 1 events, 1 lines)
+📋 lap 33: 1:42.627 clean fuel_used=2.66
+🔵 lap 33 antics: off
+📊 laps-left model: elapsed 2908.6 s, remaining 691.4 s, median lap 84.9 s -> 9 (no-stop 9, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L34: fuel/lap 2.60 | fuel 26.9 = 10.3 laps | 9.0 laps to go | stops 0
+🗣 spoke (lapPace, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): paceDegradation(3.95s/lap over 5)
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (255 samples, σ 2.70 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 5.6/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 9 to go, 10.34 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 11.4/20.4s, 2 lines): L34
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 14.9/20.4s, 1 line, protected): strategyUpdate(fuel 10.34L, togo 9, stops 0)
+🛞 compound: stint pitExit lap 27, refinement 8 — C 0.784 over 540 s (6393 samples)
+🛞 compound: stint pitExit lap 27, refinement 9 — C 0.784 over 600 s (7068 samples)
+📋 lap 34: 1:24.700 clean fuel_used=2.67
+🎭 mood focused → relaxed
+🔵 lap 34: clean
+📊 laps-left model: elapsed 2993.4 s, remaining 606.6 s, median lap 85.1 s -> 8 (no-stop 8, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L35: fuel/lap 2.61 | fuel 24.3 = 9.3 laps | 8.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (256 samples, σ 2.69 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 8 to go, 9.28 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 9.3/20.4s, 2 lines): L35
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.8/20.4s, 1 line, protected): strategyUpdate(fuel 9.28L, togo 8, stops 0)
+🛞 compound: stint pitExit lap 27, refinement 10 — C 0.774 over 660 s (7882 samples)
+📋 lap 35: 1:24.427 clean fuel_used=2.71
+🔵 lap 35: clean
+📊 laps-left model: elapsed 3077.9 s, remaining 522.1 s, median lap 84.6 s -> 7 (no-stop 7, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L36: fuel/lap 2.63 | fuel 21.5 = 8.2 laps | 7.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (257 samples, σ 2.69 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 2.7s, ledger 2.7/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 7 to go, 8.19 fuel-laps)
+🗣 bulletin (imp 6, cost 4.5s, ledger 7.2/20.4s, 2 lines): L36
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 11.1/20.4s, 1 line, protected): strategyUpdate(fuel 8.19L, togo 7, stops 0)
+🛞 compound: stint pitExit lap 27, refinement 11 — C 0.774 over 720 s (8669 samples)
+📋 lap 36: 1:24.337 clean fuel_used=2.66
+🔵 lap 36: clean
+📊 laps-left model: elapsed 3162.3 s, remaining 437.7 s, median lap 84.4 s -> 6 (no-stop 6, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L37: fuel/lap 2.65 | fuel 18.9 = 7.1 laps | 6.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (258 samples, σ 2.69 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 6 to go, 7.13 fuel-laps)
+🗣 bulletin (imp 6, cost 6.9s, ledger 10.4/20.4s, 2 lines): L37
+🛞 compound: stint pitExit lap 27, refinement 12 — C 0.774 over 780 s (9453 samples)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 14.0/20.4s, 1 line, protected): strategyUpdate(fuel 7.13L, togo 6, stops 0)
+🎭 mood relaxed → focused
+🗣 chain (imp 1, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+🛞 compound: stint pitExit lap 27, refinement 13 — C 0.774 over 840 s (10049 samples)
+📋 lap 37: 1:27.855 clean fuel_used=2.59
+🔵 lap 37 antics: impact
+📊 laps-left model: elapsed 3250.3 s, remaining 349.7 s, median lap 84.6 s -> 5 (no-stop 5, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L38: fuel/lap 2.65 | fuel 16.3 = 6.2 laps | 5.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (259 samples, σ 2.68 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 3.1/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 5 to go, 6.15 fuel-laps)
+🗣 bulletin (imp 6, cost 6.8s, ledger 9.9/20.4s, 2 lines): L38
+🎭 mood focused → relaxed
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.4/20.4s, 1 line, protected): strategyUpdate(fuel 6.15L, togo 5, stops 0)
+🛞 compound: stint pitExit lap 27, refinement 14 — C 0.774 over 900 s (10947 samples)
+📋 lap 38: 1:24.800 clean fuel_used=2.67
+🔵 lap 38: clean
+📊 laps-left model: elapsed 3335.1 s, remaining 264.9 s, median lap 84.8 s -> 4 (no-stop 4, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L39: fuel/lap 2.66 | fuel 13.6 = 5.1 laps | 4.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (260 samples, σ 2.68 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 3.1/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 4 to go, 5.13 fuel-laps)
+🗣 bulletin (imp 6, cost 4.3s, ledger 7.4/20.4s, 2 lines): L39
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 11.4/20.4s, 1 line, protected): strategyUpdate(fuel 5.13L, togo 4, stops 0)
+🛞 compound: stint pitExit lap 27, refinement 15 — C 0.774 over 960 s (11548 samples)
+🛞 compound: stint pitExit lap 27, refinement 16 — C 0.774 over 1020 s (12288 samples)
+📋 lap 39: 1:24.581 clean fuel_used=2.41
+🔵 lap 39: clean
+📊 laps-left model: elapsed 3419.8 s, remaining 180.2 s, median lap 84.8 s -> 3 (no-stop 3, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L40: fuel/lap 2.66 | fuel 11.2 = 4.2 laps | 3.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (261 samples, σ 2.67 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 3 to go, 4.22 fuel-laps)
+🗣 bulletin (imp 6, cost 5.4s, ledger 8.9/20.4s, 2 lines): L40
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.4/20.4s, 1 line, protected): strategyUpdate(fuel 4.22L, togo 3, stops 0)
+🛞 compound: stint pitExit lap 27, refinement 17 — C 0.774 over 1080 s (13140 samples)
+📋 lap 40: 1:25.519 clean fuel_used=2.43
+🔵 lap 40: clean
+📊 laps-left model: elapsed 3505.4 s, remaining 94.6 s, median lap 84.8 s -> 2 (no-stop 2, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L41: fuel/lap 2.66 | fuel 8.8 = 3.3 laps | 2.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (262 samples, σ 2.67 m, ±12 m, across -4.8…7.7 m)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 2 to go, 3.31 fuel-laps)
+🗣 bulletin (imp 6, cost 6.2s, ledger 9.8/20.4s, 2 lines): L41
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.3/20.4s, 1 line, protected): strategyUpdate(fuel 3.31L, togo 2, stops 0)
+🛞 compound: stint pitExit lap 27, refinement 18 — C 0.774 over 1140 s (13876 samples)
+🛞 compound: stint pitExit lap 27, refinement 19 — C 0.774 over 1200 s (14604 samples)
+📋 lap 41: 1:25.500 clean fuel_used=2.54
+🔵 lap 41: clean
+📊 laps-left model: elapsed 3591.0 s, remaining 9.0 s, median lap 84.8 s -> 1 (no-stop 1, pit loss 32.0 s, rate 7 l/s)
+📊 strategy L42: fuel/lap 2.62 | fuel 6.2 = 2.4 laps | 1.0 laps to go | stops 0
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (263 samples, σ 2.66 m, ±12 m, across -4.8…7.7 m)
+🗣 bulletin (imp 6, cost 4.9s, ledger 4.9/20.4s, 2 lines): L42
+🛞 compound: stint pitExit lap 27, refinement 20 — C 0.774 over 1260 s (15341 samples)
+📋 lap 42: 1:24.656 clean fuel_used=2.64
+📊 strategy: finish armed at L43 (clock 3675.7 s of 3600) — awaiting lap-clock freeze
+📊 laps-left model: elapsed 3675.7 s, remaining -75.7 s, median lap 84.7 s -> 0 (expired)
+📊 strategy L43: fuel/lap 2.61 | fuel 3.6 = 1.4 laps | 0.0 laps to go | stops 0
+🔵 lap 42 antics: contact
+🚪 gate refined: WeatherTech Raceway Laguna Seca/customRace/finishLine (264 samples, σ 2.71 m, ±12 m, across -4.8…8.6 m)
+📊 strategy: race finished at L43 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+🗑 flag: pending commentary cancelled
+🛞 compound: stint pitExit lap 27, refinement 21 (final) — C 0.774 over 1287 s (15636 samples)
+🗣 spoke (radio, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): raceFinished(L43)
+💾 race preserved (finished): 43 lap(s), 3 stop(s), start GRID_START, P1/2
+✂️ capture auto-stop in 30s (race finished)
+🔧 session ended after lap 43
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🗑 flag: pending commentary cancelled
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 2)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 153 gate(s) from 351 stored, 64 pit exit(s)
+📊 strategy: reset
+📊 pit loss: estimated 32.0 s from the unofficial table (WeatherTech Raceway Laguna Seca)
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 onTrack → replay (pkt 3508577, lap 0, flags 0x0010, pos 1, cars 2, tod 61680600)
+⏸ replay — race commentary suspended
+🧭 learned: 3 gates matched, all WeatherTech Raceway Laguna Seca — using the finishLine gate (264 samples)
+🧭 identified: WeatherTech Raceway Laguna Seca (CRS 41) — finishLine, 264 sample(s), ±12 m
+🏁 WeatherTech Raceway Laguna Seca identified during a replay (gates) — held until the replay ends
+🗺 stored map loaded on identification (gates): course 41, 711 pts
+🔧 pit approach: entry at station 3170 m of 3557 m (19.8 m off the line), lead 20 s
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 223948 packets

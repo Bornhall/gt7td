@@ -6447,49 +6447,49 @@
       "context" : "customRace",
       "courseId" : 41,
       "halfWidthM" : 12,
-      "headingRad" : 2.15294507656546,
+      "headingRad" : 2.153920565457719,
       "kind" : "lap1",
       "lineA" : [
-        -266.10722463398906,
-        -235.887759869461
+        -266.2449644127238,
+        -235.97181544903557
       ],
       "lineB" : [
-        -286.1540203176794,
-        -249.0834403299895
+        -286.27887832069075,
+        -249.18704505461452
       ],
-      "m2" : 2.685601305871547,
-      "offsetMaxM" : 1.0211886386271174,
+      "m2" : 49.550872695377834,
+      "offsetMaxM" : 4.918474153195678,
       "offsetMinM" : -0.17007764567431072,
-      "samples" : 59,
-      "spreadM" : 0.21518241282895018,
+      "samples" : 61,
+      "spreadM" : 0.908761727988309,
       "trackName" : "WeatherTech Raceway Laguna Seca",
-      "updated" : 1790372215,
+      "updated" : 1790446095,
       "yMax" : -18.149578094482422,
-      "yMin" : -24.172687530517578
+      "yMin" : -24.229583740234375
     },
     {
       "context" : "customRace",
       "courseId" : 41,
       "halfWidthM" : 12,
-      "headingRad" : 2.182162943362741,
+      "headingRad" : 2.1733292196423895,
       "kind" : "finishLine",
       "lineA" : [
-        -267.93739724878975,
-        -236.94886428771815
+        -267.8559349106998,
+        -237.0074095647264
       ],
       "lineB" : [
-        -287.5901419493437,
-        -250.72455395229935
+        -287.6296018723485,
+        -250.60895708292458
       ],
-      "m2" : 1738.244653455653,
-      "offsetMaxM" : 7.690193044409055,
+      "m2" : 2126.506315663662,
+      "offsetMaxM" : 8.623478593691416,
       "offsetMinM" : -4.76311160261362,
-      "samples" : 225,
-      "spreadM" : 2.7856813842138504,
+      "samples" : 303,
+      "spreadM" : 2.6535658351113893,
       "trackName" : "WeatherTech Raceway Laguna Seca",
-      "updated" : 1790372215,
-      "yMax" : -18.151695251464844,
-      "yMin" : -24.397905349731445
+      "updated" : 1790446104,
+      "yMax" : -18.14777183532715,
+      "yMin" : -24.442331314086914
     },
     {
       "context" : "lobby",
@@ -8010,6 +8010,76 @@
       "updated" : 1790376196,
       "yMax" : 15.276605606079102,
       "yMin" : 9.276605606079102
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 41,
+      "halfWidthM" : 0,
+      "kind" : "pitEntry",
+      "lineA" : [
+        -62.13876215616862,
+        -423.1538391113281
+      ],
+      "lineB" : [
+        -62.13876215616862,
+        -423.1538391113281
+      ],
+      "m2" : 0.10166925810820854,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 6,
+      "spreadM" : 0.14259681490707185,
+      "trackName" : "WeatherTech Raceway Laguna Seca",
+      "updated" : 1790446102,
+      "yMax" : -17.49785614013672,
+      "yMin" : -23.50255012512207
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 41,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        -145.1775614420573,
+        -389.48286946614587
+      ],
+      "lineB" : [
+        -145.1775614420573,
+        -389.48286946614587
+      ],
+      "m2" : 1.5522042920015796e-09,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 6,
+      "spreadM" : 1.761933195102232e-05,
+      "trackName" : "WeatherTech Raceway Laguna Seca",
+      "updated" : 1790446102,
+      "yMax" : -19.428672790527344,
+      "yMin" : -25.429353713989258
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 41,
+      "halfWidthM" : 12,
+      "headingRad" : 2.126432796906882,
+      "kind" : "pitExit",
+      "lineA" : [
+        -274.8106738601225,
+        -209.7767985169446
+      ],
+      "lineB" : [
+        -295.2002310877941,
+        -222.43641762888876
+      ],
+      "m2" : 1.2728075186476592e-08,
+      "offsetMaxM" : 0.00010997470607648943,
+      "offsetMinM" : -5.662571965045921e-05,
+      "samples" : 6,
+      "spreadM" : 5.045408841011121e-05,
+      "trackName" : "WeatherTech Raceway Laguna Seca",
+      "updated" : 1790446102,
+      "yMax" : -17.271738052368164,
+      "yMin" : -23.27178955078125
     }
   ],
   "schemaVersion" : 2,

@@ -1007,6 +1007,24 @@
     "courseId" : 41,
     "laps" : [
       {
+        "carId" : 3450,
+        "carName" : "Nissan GT-R NISMO GT3 '18",
+        "lapMs" : 82928,
+        "recorded" : 1790432004
+      },
+      {
+        "carId" : 3450,
+        "carName" : "Nissan GT-R NISMO GT3 '18",
+        "lapMs" : 83043,
+        "recorded" : 1790431921
+      },
+      {
+        "carId" : 3450,
+        "carName" : "Nissan GT-R NISMO GT3 '18",
+        "lapMs" : 83183,
+        "recorded" : 1790431134
+      },
+      {
         "carId" : 2183,
         "carName" : "Chevrolet Corvette C7 Gr.3",
         "lapMs" : 83452,
@@ -1026,7 +1044,7 @@
       }
     ],
     "trackName" : "WeatherTech Raceway Laguna Seca",
-    "updated" : 1788904847
+    "updated" : 1790432004
   },
   {
     "carClass" : "Gr.3",
