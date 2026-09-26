@@ -1518,5 +1518,26 @@
     ],
     "trackName" : "Autodrome Lago Maggiore - West",
     "updated" : 1790375845
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "customRace",
+    "courseId" : 152,
+    "laps" : [
+      {
+        "carId" : 2131,
+        "carName" : "Aston Martin V12 Vantage GT3 '12",
+        "lapMs" : 94023,
+        "recorded" : 1790450557
+      },
+      {
+        "carId" : 2131,
+        "carName" : "Aston Martin V12 Vantage GT3 '12",
+        "lapMs" : 95159,
+        "recorded" : 1790450463
+      }
+    ],
+    "trackName" : "Autódromo de Interlagos",
+    "updated" : 1790450557
   }
 ]

@@ -1,0 +1,96 @@
+{
+  "carCategory" : "GR3",
+  "carClass" : "Gr.3",
+  "carId" : 2131,
+  "carName" : "Aston Martin V12 Vantage GT3 '12",
+  "compoundObservations" : [
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.37430281632589,
+      "lap" : 1,
+      "outcome" : "confirmed",
+      "revisions" : 6,
+      "samples" : 5021,
+      "seconds" : 391.2078745412079,
+      "slipPerG" : 0.7328749999999999,
+      "source" : "telemetry",
+      "startPacketId" : 4459753,
+      "trigger" : "raceStart"
+    },
+    {
+      "compound" : "RM",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "heating" : 0.46232485471763396,
+      "lap" : 5,
+      "outcome" : "timedOut",
+      "revisions" : 6,
+      "samples" : 5059,
+      "seconds" : 391.8084751418085,
+      "slipPerG" : 0.835375,
+      "source" : "telemetry",
+      "startPacketId" : 4484748,
+      "trigger" : "pitExit"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RS",
+        "lap" : 1,
+        "startPacketId" : 4459753,
+        "trigger" : "raceStart"
+      },
+      {
+        "compound" : "RM",
+        "lap" : 5,
+        "startPacketId" : 4484748,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790451155.3894491
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 9,
+    "lapsValid" : 2,
+    "measuredHz" : 60.001043133573255,
+    "source" : "reprocess",
+    "stops" : 1,
+    "tyreChanges" : 1,
+    "version" : 1
+  },
+  "courseId" : 152,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 152,
+    "fuelMultiplier" : 2,
+    "raceLength" : 8,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 7,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Autódromo de Interlagos",
+    "tyreCompounds" : "RS,RM",
+    "tyreWearMultiplier" : 4,
+    "weather" : "dry"
+  },
+  "endTime" : 1790451108,
+  "granularity" : 1,
+  "identifiedCourseId" : 152,
+  "identifiedTrackName" : "Autódromo de Interlagos",
+  "maxSpeedKmh" : 269,
+  "observedTotalLaps" : 8,
+  "packetSize" : 368,
+  "startTime" : 1790450234,
+  "trackName" : "Autódromo de Interlagos",
+  "version" : 8
+}

@@ -8080,6 +8080,124 @@
       "updated" : 1790446102,
       "yMax" : -17.271738052368164,
       "yMin" : -23.27178955078125
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 152,
+      "halfWidthM" : 16,
+      "headingRad" : 1.342199701674838,
+      "kind" : "lap1",
+      "lineA" : [
+        -352.8772172918678,
+        225.1303446859801
+      ],
+      "lineB" : [
+        -384.0447492608666,
+        232.38189286284802
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Autódromo de Interlagos",
+      "updated" : 1790451136,
+      "yMax" : 20.311555862426758,
+      "yMin" : 14.311555862426758
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 152,
+      "halfWidthM" : 14.295422972371053,
+      "headingRad" : 1.3178787518072455,
+      "kind" : "finishLine",
+      "lineA" : [
+        -360.9449177404358,
+        195.2860688144959
+      ],
+      "lineB" : [
+        -388.62618821659544,
+        202.4403498169215
+      ],
+      "m2" : 295.18539260743586,
+      "offsetMaxM" : 5.465193269754677,
+      "offsetMinM" : -9.382921345967507,
+      "samples" : 14,
+      "spreadM" : 4.765140990790351,
+      "trackName" : "Autódromo de Interlagos",
+      "updated" : 1790451141,
+      "yMax" : 19.38056755065918,
+      "yMin" : 13.335063934326172
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 152,
+      "halfWidthM" : 0,
+      "kind" : "pitEntry",
+      "lineA" : [
+        -388.3074645996094,
+        72.28787994384766
+      ],
+      "lineB" : [
+        -388.3074645996094,
+        72.28787994384766
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Autódromo de Interlagos",
+      "updated" : 1790451140,
+      "yMax" : 16.697420120239258,
+      "yMin" : 10.697420120239258
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 152,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        -323.7938232421875,
+        294.2255859375
+      ],
+      "lineB" : [
+        -323.7938232421875,
+        294.2255859375
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Autódromo de Interlagos",
+      "updated" : 1790451140,
+      "yMax" : 22.211620330810547,
+      "yMin" : 16.211620330810547
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 152,
+      "halfWidthM" : 16,
+      "headingRad" : 1.3634005273052023,
+      "kind" : "pitExit",
+      "lineA" : [
+        -272.1922377294878,
+        466.83327333642046
+      ],
+      "lineB" : [
+        -303.5064927392622,
+        473.42246396826704
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Autódromo de Interlagos",
+      "updated" : 1790451140,
+      "yMax" : 22.23845672607422,
+      "yMin" : 16.23845672607422
     }
   ],
   "schemaVersion" : 2,
