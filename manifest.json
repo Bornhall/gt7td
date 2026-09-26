@@ -5437,6 +5437,51 @@
       ]
     },
     {
+      "stem": "1247-customRace-20260926_121340",
+      "courseId": 1247,
+      "track": "N\u00fcrburgring Endurance",
+      "context": "customRace",
+      "carId": 3605,
+      "car": "Ferrari 499P '23",
+      "carClass": "Gr.1",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 140665,
+      "durationS": 2346.8,
+      "rawBytes": 51764720,
+      "gzBytes": 25755196,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 2,
+      "laps": 6,
+      "lapsValid": 3,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9993,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9993,
+      "lapTimerRatio": 1.00099,
+      "identifiedCourseId": 1247,
+      "identifiedTrackName": "N\u00fcrburgring Endurance",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "corrected",
+          "finalLabel": "RH"
+        }
+      ],
+      "tyreCompounds": [
+        "RH"
+      ]
+    },
+    {
       "stem": "1248-powerPackRace-20260923_224011",
       "courseId": 1248,
       "track": "N\u00fcrburgring Sprint",
@@ -6412,8 +6457,8 @@
       "versions": [
         {
           "context": "customRace",
-          "lengthM": 24210,
-          "points": 4842
+          "lengthM": 24195,
+          "points": 4839
         }
       ]
     },
@@ -6515,7 +6560,7 @@
         1247,
         1249
       ],
-      "updated": 1790375845
+      "updated": 1790419985
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
@@ -6594,7 +6639,7 @@
         "timeTrial"
       ],
       "withHeading": 225,
-      "updated": 1790376197,
+      "updated": 1790419985,
       "tolerance": {
         "gatesWithWidth": 225,
         "minM": 12,

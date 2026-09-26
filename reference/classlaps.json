@@ -1410,12 +1410,18 @@
       {
         "carId" : 3605,
         "carName" : "Ferrari 499P '23",
+        "lapMs" : 448664,
+        "recorded" : 1790419985
+      },
+      {
+        "carId" : 3605,
+        "carName" : "Ferrari 499P '23",
         "lapMs" : 456166,
         "recorded" : 1790231360
       }
     ],
     "trackName" : "Nürburgring Endurance",
-    "updated" : 1790231360
+    "updated" : 1790419985
   },
   {
     "carClass" : "Gr.3",

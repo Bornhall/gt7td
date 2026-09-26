@@ -1,0 +1,70 @@
+{
+  "carClass" : "Gr.1",
+  "carId" : 3605,
+  "carName" : "Ferrari 499P '23",
+  "compoundObservations" : [
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r5",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RH",
+      "heating" : 0.1889596430600022,
+      "lap" : 1,
+      "outcome" : "corrected",
+      "samples" : 962,
+      "seconds" : 90.00667334000667,
+      "slipPerG" : 0.712375,
+      "source" : "telemetry",
+      "startPacketId" : 2504132,
+      "trigger" : "raceStart"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RH",
+        "lap" : 1,
+        "startPacketId" : 2504132,
+        "trigger" : "raceStart"
+      }
+    ],
+    "verifiedAt" : 1790419997.030744
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 6,
+    "lapsValid" : 3,
+    "measuredHz" : 59.99934319274009,
+    "source" : "reprocess",
+    "stops" : 0,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
+  "courseId" : 1247,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 1247,
+    "fuelMultiplier" : 2,
+    "raceLength" : 5,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 3,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Nürburgring Endurance",
+    "tyreCompounds" : "RH",
+    "tyreWearMultiplier" : 2,
+    "weather" : "dry"
+  },
+  "endTime" : 1790419967,
+  "granularity" : 1,
+  "identifiedCourseId" : 1247,
+  "identifiedTrackName" : "Nürburgring Endurance",
+  "packetSize" : 368,
+  "startTime" : 1790417620,
+  "trackName" : "Nürburgring Endurance",
+  "version" : 8
+}

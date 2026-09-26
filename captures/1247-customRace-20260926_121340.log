@@ -1,0 +1,167 @@
+# EzioClient session log
+# file:    20260926_121340 - Nürburgring Endurance (1247).gt7td
+# started: 2026-09-26T10:13:40Z
+# track:   Nürburgring Endurance (CRS 1247)
+# context: customRace
+# ---
+📊 pit loss: estimated 22.0 s from the unofficial table (Nürburgring Endurance)
+📊 strategy: track pit loss 22.0 s
+# car:     Ferrari 499P '23 [Gr.1] (id 3605) — confirmed from telemetry
+🧭 polyline [MENU]: ambiguous — Nürburgring Sprint median 1.90/p90 2.88 vs Nürburgring Endurance median 2.10/p90 4.21 (180 samples), abstaining
+🧭 polyline [MENU]: ambiguous — Nürburgring Sprint median 2.01/p90 3.48 vs Nürburgring GP median 2.03/p90 8.53 (180 samples), abstaining
+📊 strategy L1: no fuel model yet
+🔓 learning resumed — player on track
+🛞 compound: car 3605 — no reference — generic ladder
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 22.0 s from the unofficial table (Nürburgring Endurance)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+🛞 compound: car 3605 — no reference — generic ladder
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 menus → onTrack (pkt 2503699, lap 0, flags 0x0015, pos 1, cars 2, tod 62700000)
+🏁 start type: GRID_START at pkt 2504089 lap 0
+🔀 state UNKNOWN → RACING at pkt 2504089 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag (speed) at pkt 2504089, race clock running
+🗣 spoke (lapPace, imp 0, cost 3.4s, ledger 3.4/20.4s, 1 line): greenFlag
+📋 lap 0: — clean fuel_used=0.08
+📊 strategy L1: no fuel model yet
+🧭 learned (line): Nürburgring family, 3 layouts (Nürburgring Endurance, Nürburgring GP, Nürburgring Sprint) — resolving at the fork
+🚪 gate refined: Nürburgring Endurance/customRace/lap1 (8 samples, σ 0.13 m, ±12 m, across 0.0…0.4 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.0/20.4s, 1 line): surveyGate(lap1, 8)
+🛞 compound: window opened — raceStart, lap 1
+🧭 polyline [L1]: 1 candidate(s) dropped on direction — best of them 24 Heures du Mans Racing Circuit median 542.62 (alignment -0.44)
+🧭 polyline [L1]: Nürburgring Sprint fits (median 2.78 m) but on 118 m of road — waiting for 800 m
+🧭 polyline [L1]: 1 candidate(s) dropped on direction — best of them 24 Heures du Mans Racing Circuit median 622.98 (alignment -0.37)
+🧭 polyline [L1]: Nürburgring Endurance fits (median 2.33 m) but on 358 m of road — waiting for 800 m
+🧭 polyline [L1]: Nürburgring Endurance fits (median 2.36 m) but on 474 m of road — waiting for 800 m
+🧭 polyline [L1]: Nürburgring Sprint fits (median 2.39 m) but on 639 m of road — waiting for 800 m
+🧭 polyline [L1]: 3 layouts share this road (Nürburgring Endurance, Nürburgring GP, Nürburgring Sprint) — watching for the fork
+🧭 polyline [L1]: ambiguous — Nürburgring Sprint median 2.39/p90 3.27 vs Nürburgring Endurance median 2.42/p90 4.07 (150 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 2.32/p90 3.96 vs Nürburgring Sprint median 2.42/p90 3.27 (180 samples), abstaining
+🛞 compound: family racing (H+ 0.248, locked for the race)
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 1.2/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🧭 polyline [L1]: ambiguous — Nürburgring Sprint median 2.16/p90 3.18 vs Nürburgring Endurance median 2.20/p90 3.66 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Sprint median 2.11/p90 3.16 vs Nürburgring Endurance median 2.20/p90 3.66 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Sprint median 2.18/p90 3.33 vs Nürburgring Endurance median 2.22/p90 3.37 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 2.12/p90 3.34 vs Nürburgring Sprint median 2.22/p90 3.52 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Sprint median 2.14/p90 3.50 vs Nürburgring Endurance median 2.16/p90 3.35 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Sprint median 1.91/p90 3.49 vs Nürburgring Endurance median 2.15/p90 3.34 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Sprint median 2.08/p90 3.86 vs Nürburgring Endurance median 2.14/p90 3.23 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 2.12/p90 3.23 vs Nürburgring GP median 2.15/p90 18.46 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 2.05/p90 3.50 vs Nürburgring GP median 2.17/p90 8.88 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 2.09/p90 3.37 vs Nürburgring GP median 2.46/p90 76.03 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 2.05/p90 3.10 vs Nürburgring GP median 4.25/p90 170.16 (180 samples), abstaining
+🧭 polyline [L1]: Nürburgring Endurance (CRS 1247, map ctx customRace) median 2.16 m, p90 3.25 m, 4% of lap, 180 samples, alignment +1.00 — next course Nürburgring GP median 31.93/p90 170.16
+🏁 announcing track: Nürburgring Endurance (CRS 1247) from map matcher
+🗣 spoke (radio, imp 2, cost 1.6s, ledger 1.6/20.4s, 1 line): trackIdentified(Nürburgring Endurance, CRS 1247)
+🗺 stored map loaded on identification (map matcher): course 1247, 4842 pts
+🧭 polyline agrees with the declared course (CRS 1247)
+📊 pit loss: measured 17.4 s
+📊 strategy: track pit loss 17.4 s
+🅿️ pit speaking budget 11.4s (entry to box)
+🔧 pit approach: entry at station 24038 m of 24208 m (12.5 m off the line), lead 20 s
+🛞 compound: racingSoft (low confidence, C 0.71, margin 0.122, generic reference)
+🛞 compound prompt: raceStart lap 1, estimate RS
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 3.3/20.4s, 1 line): compoundEstimate(raceStart, RS, low)
+🛞 compound prompt corrected: RH
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 2 events, 1 lines)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 7:37.751 first fuel_used=13.80
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 13.80 | fuel 86.1 = 6.2 laps | 4.0 laps to go | stops 0
+🚪 gate refined: Nürburgring Endurance/customRace/finishLine (36 samples, σ 4.07 m, ±12 m, across -4.2…8.5 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 36)
+🗣 bulletin (imp 6, cost 4.5s, ledger 7.2/20.4s, 2 lines): L2
+🧭 divergence: fork at 205 m on course 1247 — 2 left (Nürburgring Endurance, Nürburgring GP)
+🧭 divergence: 2 gate(s) for 2 candidates at 1585m, 1600m
+🧭 divergence: fork at 205 m on course 1248 — 1 left (Nürburgring GP)
+🧭 divergence: resolved to Nürburgring GP
+🧭 identified: Nürburgring GP (CRS 349) — lap1, 22 sample(s), ±12 m
+🏁 identification DISAGREES with the track already announced: Nürburgring GP (CRS 349) from gates vs Nürburgring Endurance (CRS 1247) — logged, not spoken
+⚠️ identity conflict — gates say Nürburgring GP (CRS 349), declared CRS 1247: nothing is learned or stored this session; the recording is still filed as declared
+🎭 mood relaxed → focused
+🗣 chain (imp 1, cost 2.9s, ledger 2.9/20.4s, 3 events, 1 lines)
+🗣 chain (imp 6, cost 2.1s, ledger 5.0/20.4s, 1 events, 1 lines)
+🗣 chain (imp 6, cost 4.2s, ledger 4.2/20.4s, 1 events, 1 lines)
+🎭 mood focused → concerned
+🗣 chain (imp 2, cost 3.4s, ledger 3.4/20.4s, 4 events, 1 lines)
+🗣 chain (imp 4, cost 2.9s, ledger 6.3/20.4s, 2 events, 1 lines)
+📋 lap 2: 7:36.755 clean fuel_used=14.53
+🎭 mood concerned → relaxed
+🔵 lap 2 antics: contact, impact, off
+📊 strategy L3: fuel/lap 14.16 | fuel 71.6 = 5.1 laps | 3.0 laps to go | stops 0
+🗣 bulletin (imp 2, cost 4.3s, ledger 4.3/20.4s, 2 lines): L3
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 6.5/20.4s, 1 line): radioCheck(P1, fuel 71%)
+🗣 spoke (strategy, imp 2, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): strategyUpdate(fuel 5.05L, togo 3, stops 0)
+🎭 mood relaxed → focused
+🗣 chain (imp 1, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🎭 mood focused → concerned
+🗣 chain (imp 2, cost 3.4s, ledger 7.6/20.4s, 2 events, 1 lines)
+🎭 mood concerned → annoyed
+🗣 chain (imp 1, cost 6.2s, ledger 6.2/20.4s, 5 events, 2 lines)
+🗑 dropped (chain cooldown): 1 event(s)
+🗑 speaker: stale after pause: "settle it down and rebuild"
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 8.5/20.4s, 1 line): radioCheck(P1, fuel 62%)
+📋 lap 3: 7:58.182 clean fuel_used=14.49
+🎭 mood annoyed → focused
+🔵 lap 3 antics: contact, impact, off
+📊 strategy L4: fuel/lap 14.49 | fuel 57.1 = 3.9 laps | 2.0 laps to go | stops 0
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 3.1/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 2 to go, 3.94 fuel-laps)
+🗣 bulletin (imp 6, cost 5.5s, ledger 8.6/20.4s, 2 lines): L4
+🗑 dropped (unchanged; said 159s ago, repeats after 300s): radioCheck(P1, fuel 57%)
+🎭 mood focused → relaxed
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 4.0/20.4s, 1 line, protected): strategyUpdate(fuel 3.94L, togo 2, stops 0)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🎭 mood focused → relaxed
+🗣 spoke (radio, imp 10, cost 5.4s, ledger 5.4/20.4s, 1 line): radioCheck(P1, fuel 47%)
+📋 lap 4: 7:32.885 clean fuel_used=14.20
+🔵 lap 4 antics: off
+📊 strategy L5: fuel/lap 14.35 | fuel 42.9 = 3.0 laps | 1.0 laps to go | stops 0
+🗣 bulletin (imp 2, cost 8.6s, ledger 8.6/20.4s, 2 lines): L5
+🗣 spoke (chatter, imp 10, cost 2.2s, ledger 10.8/20.4s, 1 line): radioCheck(P1, fuel 42%)
+🗑 speaker: stale, not spoken: "P 1"
+🗣 spoke (chatter, imp 10, cost 5.8s, ledger 5.8/20.4s, 1 line): radioCheck(P1, fuel 33%)
+📋 lap 5: 7:28.664 clean fuel_used=14.01
+🔵 lap 5: clean
+📊 strategy: finish armed at L6 (lap 6 > 5) — awaiting lap-clock freeze
+📊 strategy L6: fuel/lap 14.20 | fuel 28.9 = 2.0 laps | 0.0 laps to go | stops 0
+📊 strategy: race finished at L6 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 6 lap(s), 0 stop(s), start GRID_START, P1/2
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 2.1/20.4s, 1 line): raceFinished(L6)
+🔧 session ended after lap 6
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🗑 flag: pending commentary cancelled
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 2)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 153 gate(s) from 348 stored, 63 pit exit(s)
+📊 strategy: reset
+📊 pit loss: estimated 22.0 s from the unofficial table (Nürburgring Endurance)
+📊 strategy: track pit loss 22.0 s
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🅿️ no pit speaking budget for this track
+🎮 onTrack → replay (pkt 2642675, lap 0, flags 0x0010, pos 1, cars 2, tod 62700000)
+⏸ replay — race commentary suspended
+🧭 learned (line): Nürburgring family, 3 layouts (Nürburgring Endurance, Nürburgring GP, Nürburgring Sprint) — resolving at the fork
+🧭 polyline [MENU]: 1 candidate(s) dropped on direction — best of them 24 Heures du Mans Racing Circuit median 542.62 (alignment -0.44)
+🧭 polyline [MENU]: Nürburgring Sprint fits (median 2.78 m) but on 118 m of road — waiting for 800 m
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 140665 packets
