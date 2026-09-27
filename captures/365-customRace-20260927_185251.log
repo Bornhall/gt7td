@@ -1,0 +1,265 @@
+# EzioClient session log
+# file:    20260927_185251 - Autodrome Lago Maggiore - Full Course (365).gt7td
+# started: 2026-09-27T16:52:51Z
+# track:   Autodrome Lago Maggiore - Full Course (CRS 365)
+# context: customRace
+# ---
+🔧 pit approach: entry at station 5499 m of 5703 m (18.2 m off the line), lead 20 s
+# car:     Chevrolet Corvette C7 Gr.3 [Gr.3] (id 2183) — confirmed from telemetry
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🔄 new session on the same connection — resetting track-scoped state
+💾 race preserved (leftRace): 1 lap(s), 0 stop(s), start ROLLING_START, P65535/65535
+🧭 learned pool: 155 gate(s) from 357 stored, 65 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 17.0 s from the unofficial table (Autodrome Lago Maggiore - Full Course)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 strategy: track pit loss 17.0 s
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🅿️ no pit speaking budget for this track
+🎮 onTrack → menus (pkt 5838571, lap 0, flags 0x000C, pos —, cars —, tod 62160000)
+🎮 back to the menus — ending the session
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+📊 pit loss: estimated 17.0 s from the unofficial table (Autodrome Lago Maggiore - Full Course)
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🧭 polyline [MENU]: 37 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - West End Reverse median 1.56 (alignment -1.00)
+🧭 polyline [MENU]: Autodrome Lago Maggiore - Full Course fits (median 1.48 m) but on 176 m of road — waiting for 800 m
+🧭 polyline [MENU]: 37 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - West End Reverse median 1.84 (alignment -1.00)
+🧭 polyline [MENU]: Autodrome Lago Maggiore - Full Course fits (median 1.48 m) but on 404 m of road — waiting for 800 m
+🔓 learning resumed — player on track
+🛞 compound: car 2183 — reference: CH CM CS RH RM RS SH SM SS
+🎮 menus → onTrack (pkt 5839336, lap 0, flags 0x000D, pos 1, cars 2, tod 62160000)
+🔧 session restart: lap-scoped state reset
+🧭 polyline [PRE-GREEN]: 28 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 1.99 (alignment -1.00)
+🧭 polyline [PRE-GREEN]: Autodrome Lago Maggiore - Full Course fits (median 1.57 m) but on 743 m of road — waiting for 800 m
+🏁 start type: ROLLING_START at pkt 5839695 lap 1
+🔀 state UNKNOWN → RACING at pkt 5839695 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.00
+📊 strategy: green flag (speed) at pkt 5839695, race clock running
+🗣 spoke (lapPace, imp 0, cost 3.4s, ledger 3.4/20.4s, 1 line): greenFlag
+🔊 green flag
+📊 strategy L1: no fuel model yet
+🧭 learned (line): Autodrome Lago Maggiore family, 4 layouts (Autodrome Lago Maggiore - Centre, Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - Full Course, Autodrome Lago Maggiore - West) — resolving at the fork
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/lap1 (76 samples, σ 0.63 m, ±12 m, across -1.5…1.1 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.0/20.4s, 1 line): surveyGate(lap1, 76)
+🛞 compound: window opened — raceStart, lap 1
+🔊 mind the first corner
+🔊 identification gate refined
+🧭 polyline [L1]: 19 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 1.96 (alignment -1.00)
+🧭 polyline [L1]: 2 layouts share this road (Autodrome Lago Maggiore - Full Course, Autodrome Lago Maggiore - West) — watching for the fork
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - West median 1.55/p90 2.54 vs Autodrome Lago Maggiore - Full Course median 1.57/p90 2.67 (120 samples), abstaining
+🔊 76 crossings
+🧭 polyline [L1]: 19 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 1.94 (alignment -1.00)
+🧭 polyline [L1]: 6 layouts share this road (Autodrome Lago Maggiore - Centre, Autodrome Lago Maggiore - Centre Reverse, Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - East Reverse, Autodrome Lago Maggiore - Full Course, Autodrome Lago Maggiore - West) — watching for the fork
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - Full Course median 1.48/p90 2.50 vs Autodrome Lago Maggiore - West median 1.53/p90 2.50 (150 samples), abstaining
+🧭 polyline [L1]: 19 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 2.08 (alignment -0.99)
+🧭 polyline [L1]: 4 layouts share this road (Autodrome Lago Maggiore - Centre, Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - Full Course, Autodrome Lago Maggiore - West) — watching for the fork
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - Full Course median 1.53/p90 2.50 vs Autodrome Lago Maggiore - West median 1.61/p90 2.47 (180 samples), abstaining
+🧭 polyline [L1]: 15 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 2.03 (alignment -1.00)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - Full Course median 1.59/p90 2.50 vs Autodrome Lago Maggiore - West median 1.74/p90 2.67 (180 samples), abstaining
+🧭 divergence: fork at 600 m on course 1226 — 2 left (Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - Full Course)
+🧭 divergence: 2 gate(s) for 2 candidates at 3111m, 3125m
+🧭 polyline divergence: fork at 600 m on course 365 — 2 left (Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - Full Course)
+🧭 polyline divergence: 2 gate(s) for 2 candidates at 3117m, 3114m
+🧭 polyline [L1]: 15 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 2.23 (alignment -0.99)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - Full Course median 1.82/p90 3.57 vs Autodrome Lago Maggiore - West median 2.03/p90 103.06 (180 samples), abstaining
+🧭 polyline [L1]: 20 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 2.25 (alignment -0.99)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - Full Course median 1.83/p90 3.87 vs Autodrome Lago Maggiore - East median 2.10/p90 3.42 (180 samples), abstaining
+🧭 polyline [L1]: 20 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 2.14 (alignment -1.00)
+🧭 polyline [L1]: 2 layouts share this road (Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - Full Course) — watching for the fork
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - Full Course median 1.76/p90 3.87 vs Autodrome Lago Maggiore - East median 1.86/p90 2.99 (180 samples), abstaining
+🛞 compound: family racing from the declaration (RS)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 we're on racing rubber
+🧭 polyline [L1]: 13 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 2.12 (alignment -1.00)
+🧭 polyline [L1]: 3 layouts share this road (Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - East End, Autodrome Lago Maggiore - Full Course) — watching for the fork
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - Full Course median 1.78/p90 3.87 vs Autodrome Lago Maggiore - East median 1.80/p90 2.99 (180 samples), abstaining
+🧭 polyline [L1]: 13 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 2.06 (alignment -1.00)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 1.79/p90 2.91 vs Autodrome Lago Maggiore - Full Course median 1.88/p90 4.31 (180 samples), abstaining
+🧭 polyline [L1]: 9 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East Reverse median 2.02 (alignment -1.00)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 1.77/p90 3.53 vs Autodrome Lago Maggiore - Full Course median 2.04/p90 4.31 (180 samples), abstaining
+🧭 polyline [L1]: 8 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 1.97 (alignment -1.00)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 1.90/p90 3.53 vs Autodrome Lago Maggiore - Full Course median 2.00/p90 3.87 (180 samples), abstaining
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East Reverse median 1.85 (alignment -1.00)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 1.80/p90 3.53 vs Autodrome Lago Maggiore - Full Course median 1.87/p90 3.78 (180 samples), abstaining
+🧭 polyline [L1]: 8 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East Reverse median 1.95 (alignment -1.00)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 1.74/p90 3.53 vs Autodrome Lago Maggiore - Full Course median 1.82/p90 2.97 (180 samples), abstaining
+🧭 polyline [L1]: 9 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 1.86 (alignment -1.00)
+🧭 polyline [L1]: 2 layouts share this road (Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - Full Course) — watching for the fork
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - Full Course median 1.71/p90 2.75 vs Autodrome Lago Maggiore - East median 1.94/p90 3.53 (180 samples), abstaining
+🧭 divergence: fork at 3111 m on course 365 — 1 left (Autodrome Lago Maggiore - Full Course)
+🧭 divergence: resolved to Autodrome Lago Maggiore - Full Course
+🧭 identified: Autodrome Lago Maggiore - Full Course (CRS 365) — finishLine, 449 sample(s), ±13 m
+🏁 Autodrome Lago Maggiore - Full Course already announced 162s ago (gates) — not repeated
+🗺 stored map loaded on identification (gates): course 365, 1141 pts
+📊 pit loss: measured 12.2 s
+📊 strategy: track pit loss 12.2 s
+🅿️ pit speaking budget 13.2s (entry to box)
+🔧 pit approach: entry at station 5500 m of 5702 m (18.3 m off the line), lead 20 s
+🛞 compound: racingSoft (high confidence, C 0.83, margin 0.106, own reference)
+🛞 compound prompt: raceStart lap 1, estimate RS
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(raceStart, RS, high)
+🔊 probably racing softs
+🛞 compound prompt confirmed: RS
+🛞 compound: RS confirmed by the driver — anchor
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:58.590 first fuel_used=0.00
+📊 strategy L2: no fuel model yet
+🔵 lap 1: clean
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/finishLine (450 samples, σ 4.34 m, ±13 m, across -9.4…5.4 m)
+🛞 wear (test) lap 1 done: FL 13.2 FR 11.6 RL 9.2 RR 8.5 % — RS ×4 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 450)
+🔊 finish line sharpened
+🔊 450 samples
+🗣 bulletin (imp 6, cost 5.8s, ledger 8.5/20.4s, 2 lines): L2
+🔊 on lap 2
+🔊 laptime 1 58 point five nine oh
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.815 over 150 s (1268 samples)
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.846 over 210 s (1906 samples)
+📋 lap 2: 1:57.051 clean fuel_used=0.00
+🔵 lap 2: clean
+📊 strategy L3: no fuel model yet
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/finishLine (451 samples, σ 4.34 m, ±13 m, across -9.4…5.4 m)
+🗺 mapper: learned lap 2 (117.051 s, 5715 m, 1143 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 3.7/20.4s, 1 line): surveyLap(2, 117051 ms, 1143 pts)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.4/20.4s, 1 line): surveyComplete(3 optional missing)
+🔊 clean lap banked
+🗺 lap 2 (117.051 s) not stored — the stored map's lap is faster (116.316 s)
+🛞 wear (test) lap 2 done: FL 26.8 FR 24.0 RL 18.3 RR 16.9 % — RS ×4 (tap)
+⏱ class lap kept: Autodrome Lago Maggiore - Full Course/customRace/Gr.3 → 1:57.051 (10/10 laps, 6 car(s), avg 1:57.729)
+🔊 1 57 point one
+🗣 bulletin (imp 2, cost 7.2s, ledger 13.6/20.4s, 2 lines): L3
+🔊 essentials recorded
+🔊 3 optional outstanding
+🔊 new fastest lap
+🔊 1 57 point one
+🔊 that's lap 3
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.835 over 270 s (2378 samples)
+🗣 spoke (tyres, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(overheating, 90°, frontRight)
+🔊 front right is really hot
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.846 over 330 s (2945 samples)
+📋 lap 3: 1:57.028 clean fuel_used=0.00
+🔵 lap 3: clean
+📊 strategy L4: no fuel model yet
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/finishLine (452 samples, σ 4.34 m, ±13 m, across -9.4…5.4 m)
+🗺 mapper: learned lap 3 (117.028 s, 5705 m, 1141 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 5.1s, ledger 5.1/20.4s, 1 line): surveyLap(3, 117028 ms, 1141 pts)
+🔊 lap 3 banked as the map
+🗺 lap 3 (117.028 s) not stored — the stored map's lap is faster (116.316 s)
+🛞 wear (test) lap 3 done: FL 40.2 FR 36.2 RL 27.1 RR 25.1 % — RS ×4 (tap)
+⏱ class lap kept: Autodrome Lago Maggiore - Full Course/customRace/Gr.3 → 1:57.028 (10/10 laps, 6 car(s), avg 1:57.481)
+🔊 1 57 point oh
+🗣 bulletin (imp 2, cost 6.0s, ledger 11.2/20.4s, 2 lines): L4
+🔊 personal best
+🔊 point oh quicker
+🔊 on lap 4
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.835 over 390 s (3416 samples)
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.856 over 450 s (3955 samples)
+📋 lap 4: 1:59.412 clean fuel_used=0.00
+🔵 lap 4: clean
+📊 strategy L5: no fuel model yet
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/finishLine (453 samples, σ 4.33 m, ±13 m, across -9.4…5.4 m)
+🛞 wear (test) lap 4 done: FL 53.4 FR 48.4 RL 35.9 RR 33.4 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 5.8s, ledger 5.8/20.4s, 2 lines): L5
+🔊 lap 5
+🔊 last lap was a 1 59 point four
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.856 over 510 s (4448 samples)
+🛞 compound: stint raceStart lap 1, refinement 8 — C 0.856 over 570 s (5089 samples)
+📋 lap 5: 2:00.896 clean fuel_used=0.00
+🔵 lap 5: clean
+📊 strategy L6: no fuel model yet
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/finishLine (454 samples, σ 4.33 m, ±13 m, across -9.4…5.4 m)
+🗣 spoke (lapPace, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): paceDegradation(1.39s/lap over 4)
+🔊 lost a lot of pace
+🛞 wear (test) lap 5 done: FL 66.5 FR 60.1 RL 44.7 RR 41.5 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 7.8s, ledger 10.3/20.4s, 2 lines): L6
+🔊 last lap
+🔊 get it over the line
+🔊 last lap was a 2 00 point nine
+🛞 compound: stint raceStart lap 1, refinement 9 — C 0.846 over 630 s (5745 samples)
+🗣 spoke (tyres, imp 4, cost 4.2s, ledger 4.2/20.4s, 1 line): tyreTemps(high, 85°, frontRight)
+🔊 watch the right front tyre
+🔊 it is getting hot
+🛞 compound: stint raceStart lap 1, refinement 10 — C 0.856 over 690 s (6588 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 7.1/20.4s, 1 events, 1 lines)
+🔊 keep it inside the white lines
+📋 lap 6: 2:14.123 clean fuel_used=0.00
+🔵 lap 6 antics: off
+📊 strategy: finish armed at L7 (lap 7 > 6) — awaiting lap-clock freeze
+📊 strategy L7: no fuel model yet
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/customRace/finishLine (455 samples, σ 4.33 m, ±13 m, across -9.4…5.4 m)
+🛞 compound: stint raceStart lap 1, refinement 11 (final) — C 0.846 over 728 s (7352 samples)
+🛞 wear (test) lap 6 done: FL 77.3 FR 70.1 RL 51.7 RR 48.1 % — RS ×4 (tap)
+📊 strategy: race finished at L7 — confirmed, lap clock frozen 0.50 s (handover 0.48 s)
+💾 race preserved (finished): 7 lap(s), 0 stop(s), start ROLLING_START, P1/2
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): raceFinished(L7)
+🔊 race over
+🔈 speaker=on latched=no queued=0 wedged=no bg=on (app active)
+🗑 flag: pending commentary cancelled
+🔧 session ended after lap 7
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 2)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 155 gate(s) from 357 stored, 65 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 17.0 s from the unofficial table (Autodrome Lago Maggiore - Full Course)
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+📊 strategy: track pit loss 17.0 s
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🅿️ no pit speaking budget for this track
+🎮 onTrack → replay (pkt 5884425, lap 0, flags 0x0008, pos 1, cars 2, tod 62160000)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 17.0 s from the unofficial table (Autodrome Lago Maggiore - Full Course)
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 5884596, lap 0, flags 0x000C, pos —, cars —, tod 62160000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 17.0 s from the unofficial table (Autodrome Lago Maggiore - Full Course)
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🧭 polyline [MENU]: 37 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - West End Reverse median 1.48 (alignment -1.00)
+🧭 polyline [MENU]: Autodrome Lago Maggiore - West fits (median 1.49 m) but on 177 m of road — waiting for 800 m
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 46918 packets

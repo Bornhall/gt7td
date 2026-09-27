@@ -2816,6 +2816,182 @@
       ]
     },
     {
+      "stem": "365-customRace-20260927_173835",
+      "courseId": 365,
+      "track": "Autodrome Lago Maggiore - Full Course",
+      "context": "customRace",
+      "carId": 3450,
+      "car": "Nissan GT-R NISMO GT3 '18",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 46426,
+      "durationS": 774.5,
+      "rawBytes": 17084768,
+      "gzBytes": 8203405,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 4,
+      "laps": 7,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.997,
+      "hzSource": "measured",
+      "lapTimerHz": 59.997,
+      "lapTimerRatio": 1.00095,
+      "identifiedCourseId": 365,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
+    },
+    {
+      "stem": "365-customRace-20260927_181724",
+      "courseId": 365,
+      "track": "Autodrome Lago Maggiore - Full Course",
+      "context": "customRace",
+      "carId": 2131,
+      "car": "Aston Martin V12 Vantage GT3 '12",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 46236,
+      "durationS": 771.4,
+      "rawBytes": 17014848,
+      "gzBytes": 8139519,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 4,
+      "laps": 7,
+      "lapsValid": 1,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0002,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0002,
+      "lapTimerRatio": 1.001,
+      "identifiedCourseId": 365,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "unchallenged"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
+    },
+    {
+      "stem": "365-customRace-20260927_183740",
+      "courseId": 365,
+      "track": "Autodrome Lago Maggiore - Full Course",
+      "context": "customRace",
+      "carId": 2160,
+      "car": "Hyundai Genesis Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 45175,
+      "durationS": 753.7,
+      "rawBytes": 16624400,
+      "gzBytes": 7909979,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 4,
+      "laps": 7,
+      "lapsValid": 1,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.998,
+      "hzSource": "measured",
+      "lapTimerHz": 59.998,
+      "lapTimerRatio": 1.00097,
+      "identifiedCourseId": 365,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
+    },
+    {
+      "stem": "365-customRace-20260927_185251",
+      "courseId": 365,
+      "track": "Autodrome Lago Maggiore - Full Course",
+      "context": "customRace",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 46918,
+      "durationS": 782.7,
+      "rawBytes": 17265824,
+      "gzBytes": 8241933,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 4,
+      "laps": 7,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0027,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0027,
+      "lapTimerRatio": 1.00105,
+      "identifiedCourseId": 365,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
+    },
+    {
       "stem": "365-lobby-20260725_221122",
       "courseId": 365,
       "track": "Autodrome Lago Maggiore - Full Course",
@@ -6609,7 +6785,7 @@
         1247,
         1249
       ],
-      "updated": 1790512588
+      "updated": 1790528348
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
@@ -6690,7 +6866,7 @@
         "unknown"
       ],
       "withHeading": 229,
-      "updated": 1790513611,
+      "updated": 1790529230,
       "tolerance": {
         "gatesWithWidth": 229,
         "minM": 12,

@@ -1,0 +1,63 @@
+{
+  "carCategory" : "GR3",
+  "carClass" : "Gr.3",
+  "carId" : 2131,
+  "carName" : "Aston Martin V12 Vantage GT3 '12",
+  "compoundObservations" : [
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "filedBy" : "reprocess",
+      "finalLabel" : "RS",
+      "heating" : 0.32988209477967884,
+      "lap" : 1,
+      "outcome" : "unchallenged",
+      "revisions" : 11,
+      "samples" : 5860,
+      "seconds" : 717.3340006673341,
+      "slipPerG" : 0.773875,
+      "source" : "telemetry",
+      "startPacketId" : 5711784,
+      "trigger" : "raceStart"
+    }
+  ],
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 7,
+    "lapsValid" : 1,
+    "measuredHz" : 60.000153511970105,
+    "source" : "reprocess",
+    "stops" : 0,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
+  "courseId" : 365,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 365,
+    "fuelMultiplier" : 0,
+    "raceLength" : 6,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 8,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Autodrome Lago Maggiore - Full Course",
+    "tyreCompounds" : "RS",
+    "tyreWearMultiplier" : 4,
+    "weather" : "dry"
+  },
+  "endTime" : 1790526616,
+  "granularity" : 1,
+  "identifiedCourseId" : 365,
+  "identifiedTrackName" : "Autodrome Lago Maggiore - Full Course",
+  "maxSpeedKmh" : 269,
+  "packetSize" : 368,
+  "startTime" : 1790525844,
+  "trackName" : "Autodrome Lago Maggiore - Full Course",
+  "version" : 8
+}

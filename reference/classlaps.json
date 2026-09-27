@@ -26,10 +26,34 @@
         "recorded" : 1785274784
       },
       {
+        "carId" : 2160,
+        "carName" : "Hyundai Genesis Gr.3",
+        "lapMs" : 116320,
+        "recorded" : 1790527306
+      },
+      {
         "carId" : 2183,
         "carName" : "Chevrolet Corvette C7 Gr.3",
         "lapMs" : 116655,
         "recorded" : 1790512588
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 117028,
+        "recorded" : 1790528348
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 117051,
+        "recorded" : 1790528231
+      },
+      {
+        "carId" : 2131,
+        "carName" : "Aston Martin V12 Vantage GT3 '12",
+        "lapMs" : 117434,
+        "recorded" : 1790526228
       },
       {
         "carId" : 3600,
@@ -38,16 +62,16 @@
         "recorded" : 1785274773
       },
       {
-        "carId" : 2183,
-        "carName" : "Chevrolet Corvette C7 Gr.3",
-        "lapMs" : 119512,
-        "recorded" : 1790511726
+        "carId" : 3450,
+        "carName" : "Nissan GT-R NISMO GT3 '18",
+        "lapMs" : 117795,
+        "recorded" : 1790523902
       },
       {
-        "carId" : 2183,
-        "carName" : "Chevrolet Corvette C7 Gr.3",
-        "lapMs" : 119910,
-        "recorded" : 1790511607
+        "carId" : 3450,
+        "carName" : "Nissan GT-R NISMO GT3 '18",
+        "lapMs" : 118489,
+        "recorded" : 1790523784
       },
       {
         "carId" : 3311,
@@ -57,7 +81,7 @@
       }
     ],
     "trackName" : "Autodrome Lago Maggiore - Full Course",
-    "updated" : 1790512588
+    "updated" : 1790528348
   },
   {
     "carClass" : "Gr.3",
