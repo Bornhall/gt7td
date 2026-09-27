@@ -2992,6 +2992,50 @@
       ]
     },
     {
+      "stem": "365-customRace-20260927_201205",
+      "courseId": 365,
+      "track": "Autodrome Lago Maggiore - Full Course",
+      "context": "customRace",
+      "carId": 3588,
+      "car": "Ferrari 296 GT3 '23",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 44973,
+      "durationS": 750.3,
+      "rawBytes": 16550064,
+      "gzBytes": 8083185,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 4,
+      "laps": 7,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0032,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0032,
+      "lapTimerRatio": 1.00105,
+      "identifiedCourseId": 365,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
+    },
+    {
       "stem": "365-lobby-20260725_221122",
       "courseId": 365,
       "track": "Autodrome Lago Maggiore - Full Course",
