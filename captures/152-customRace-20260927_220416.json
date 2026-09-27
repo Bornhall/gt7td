@@ -1,0 +1,73 @@
+{
+  "carCategory" : "GR3",
+  "carClass" : "Gr.3",
+  "carId" : 2183,
+  "carName" : "Chevrolet Corvette C7 Gr.3",
+  "compoundObservations" : [
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.34683399717496677,
+      "lap" : 1,
+      "outcome" : "confirmed",
+      "revisions" : 8,
+      "samples" : 6774,
+      "seconds" : 562.6626626626627,
+      "slipPerG" : 0.814875,
+      "source" : "telemetry",
+      "startPacketId" : 6527165,
+      "trigger" : "raceStart"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RS",
+        "lap" : 1,
+        "startPacketId" : 6527165,
+        "trigger" : "raceStart"
+      }
+    ],
+    "verifiedAt" : 1790540081.797862
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 7,
+    "lapsValid" : 2,
+    "measuredHz" : 60.00345467893078,
+    "source" : "reprocess",
+    "stops" : 0,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
+  "courseId" : 152,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 152,
+    "fuelMultiplier" : 0,
+    "raceLength" : 6,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 8,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Autódromo de Interlagos",
+    "tyreCompounds" : "RS",
+    "tyreWearMultiplier" : 4,
+    "weather" : "dry"
+  },
+  "endTime" : 1790540059,
+  "granularity" : 1,
+  "identifiedCourseId" : 152,
+  "identifiedTrackName" : "Autódromo de Interlagos",
+  "maxSpeedKmh" : 277,
+  "packetSize" : 368,
+  "startTime" : 1790539456,
+  "trackName" : "Autódromo de Interlagos",
+  "version" : 8
+}

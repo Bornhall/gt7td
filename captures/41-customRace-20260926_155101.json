@@ -127,6 +127,7 @@
     "timeAfterFinish" : 30,
     "timeBeforeStart" : 30,
     "trackName" : "WeatherTech Raceway Laguna Seca",
+    "tyreCompounds" : "RS,RS,RH,RM",
     "tyreWearMultiplier" : 3,
     "weather" : "dry"
   },

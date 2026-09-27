@@ -1,0 +1,183 @@
+# EzioClient session log
+# file:    20260927_222358 - Autódromo de Interlagos (152).gt7td
+# started: 2026-09-27T20:23:58Z
+# track:   Autódromo de Interlagos (CRS 152)
+# context: customRace
+# ---
+# car:     Chevrolet Corvette C7 Gr.3 [Gr.3] (id 2183) — confirmed from telemetry
+🧭 polyline [MENU]: 33 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 14.39 (alignment -0.91)
+🧭 polyline [MENU]: Autódromo de Interlagos fits (median 1.68 m) but on 336 m of road — waiting for 800 m
+🧭 polyline [MENU]: 25 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 15.68 (alignment -0.65)
+🧭 polyline [MENU]: Autódromo de Interlagos fits (median 1.56 m) but on 495 m of road — waiting for 800 m
+# car:     provisional car #2183 from the menus replaced by the car on track (#2131)
+# car:     Aston Martin V12 Vantage GT3 '12 [Gr.3] (id 2131) — corrected from telemetry, capture setup declared "Chevrolet Corvette C7 Gr.3"
+🔓 learning resumed — player on track
+🛞 compound: car 2131 — reference: RM RS
+🎮 menus → onTrack (pkt 6598994, lap 0, flags 0x000D, pos 1, cars 2, tod 54600000)
+🧭 polyline [PRE-GREEN]: 20 candidate(s) dropped on direction — best of them Brands Hatch Grand Prix Circuit median 47.64 (alignment -0.56)
+🧭 polyline [PRE-GREEN]: Autódromo de Interlagos (CRS 152, map ctx customRace) median 1.73 m, p90 3.99 m, 10% of lap, 90 samples, alignment +1.00 — next course Sardegna - Road Track - B median 15.19/p90 65.99
+🏁 announcing track: Autódromo de Interlagos (CRS 152) from map matcher
+🗣 spoke (radio, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line): trackIdentified(Autódromo de Interlagos, CRS 152)
+🔊 we're at Autódromo de Interlagos
+🗺 stored map loaded on identification (map matcher): course 152, 846 pts
+🧭 polyline agrees with the declared course (CRS 152)
+🔤 IPA: Autódromo, de, Interlagos
+🔧 pit approach: entry at station 4099 m of 4228 m (12.3 m off the line), lead 20 s
+🏁 start type: ROLLING_START at pkt 6599355 lap 1
+🔀 state UNKNOWN → RACING at pkt 6599355 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.00
+📊 strategy: green flag (speed) at pkt 6599355, race clock running
+🗣 spoke (lapPace, imp 0, cost 2.5s, ledger 5.0/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 identified: Autódromo de Interlagos (CRS 152) — lap1, 10 sample(s), ±12 m
+🚪 gate refined: Autódromo de Interlagos/customRace/lap1 (11 samples, σ 0.19 m, ±12 m, across 0.0…0.2 m)
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 8.1/20.4s, 1 line): surveyGate(lap1, 11)
+🛞 compound: window opened — raceStart, lap 1
+🔊 lights out
+🔊 keep it clean
+🔊 lap one gate now 11 crossings
+🛞 compound: family racing from the declaration (RS)
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 1.2/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 racing tyres
+🔤 IPA: tyres
+🛞 compound: racingSoft (high confidence, C 0.70, margin 0.103, own reference)
+🛞 compound prompt: raceStart lap 1, estimate RS
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(raceStart, RS, high)
+🔊 probably racing softs
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:33.704 first fuel_used=0.00
+📊 strategy L2: no fuel model yet
+🔵 lap 1: clean
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (51 samples, σ 4.37 m, ±13 m, across -9.4…7.2 m)
+🛞 wear (test) lap 1 done: FL 6.3 FR 12.1 RL 5.3 RR 8.3 % — RS ×4 (declared)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.3/20.4s, 1 line): surveyGate(finishLine, 51)
+🔊 finish line now 51 crossings
+🗣 bulletin (imp 6, cost 5.4s, ledger 9.7/20.4s, 2 lines): L2
+🛞 compound prompt confirmed: RS
+🛞 compound: RS confirmed by the driver — anchor
+🔊 that's lap 2
+🔊 last lap 1 33 point seven
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.692 over 150 s (1530 samples)
+📋 lap 2: 1:32.524 clean fuel_used=0.00
+🔵 lap 2: clean
+📊 strategy L3: no fuel model yet
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (52 samples, σ 4.37 m, ±13 m, across -9.4…7.2 m)
+🗺 mapper: learned lap 2 (92.524 s, 4215 m, 843 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.5s, ledger 4.5/20.4s, 1 line): surveyLap(2, 92524 ms, 843 pts)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 7.2/20.4s, 1 line): surveyComplete(3 optional missing)
+🔊 clean lap banked
+🗺 lap 2 (92.524 s) not stored — the stored map's lap is faster (92.200 s)
+🛞 wear (test) lap 2 done: FL 13.0 FR 24.3 RL 10.3 RR 16.0 % — RS ×4 (tap)
+⏱ class lap kept: Autódromo de Interlagos/customRace/Gr.3 → 1:32.524 (9/10 laps, 4 car(s), avg 1:33.116)
+🗣 bulletin (imp 2, cost 7.2s, ledger 14.4/20.4s, 2 lines): L3
+🔊 1 32 point five two four
+🔤 IPA: four
+🔊 essentials recorded
+🔊 3 optional outstanding
+🔊 new fastest lap
+🔊 1 32 point five
+🗑 speaker: stale, not spoken: "lap 3 now"
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.702 over 210 s (2478 samples)
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.692 over 270 s (3218 samples)
+📋 lap 3: 1:32.234 clean fuel_used=0.00
+🔵 lap 3: clean
+📊 strategy L4: no fuel model yet
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (53 samples, σ 4.46 m, ±13 m, across -9.4…7.2 m)
+🗺 mapper: learned lap 3 (92.234 s, 4215 m, 843 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 4.1/20.4s, 1 line): surveyLap(3, 92234 ms, 843 pts)
+🔊 got a clean lap
+🗺 lap 3 (92.234 s) not stored — the stored map's lap is faster (92.200 s)
+🛞 wear (test) lap 3 done: FL 19.9 FR 36.6 RL 15.3 RR 23.8 % — RS ×4 (tap)
+⏱ class lap kept: Autódromo de Interlagos/customRace/Gr.3 → 1:32.234 (9/10 laps, 4 car(s), avg 1:32.791)
+🗣 bulletin (imp 2, cost 7.7s, ledger 11.8/20.4s, 2 lines): L4
+🔊 1 32 point two
+🔊 best lap so far
+🔊 1 32 point two
+🔊 on lap 4
+🔤 IPA: 4
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.712 over 330 s (3815 samples)
+📋 lap 4: 1:32.574 clean fuel_used=0.00
+📊 strategy L5: no fuel model yet
+🔵 lap 4: clean
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (54 samples, σ 4.43 m, ±13 m, across -9.4…7.2 m)
+🛞 wear (test) lap 4 done: FL 26.8 FR 49.1 RL 20.4 RR 31.7 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L5
+🔊 lap 5 now
+🔊 keep those good laps coming
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.712 over 390 s (4779 samples)
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.702 over 450 s (5457 samples)
+📋 lap 5: 1:33.705 clean fuel_used=0.00
+📊 strategy L6: no fuel model yet
+🔵 lap 5: clean
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (55 samples, σ 4.40 m, ±13 m, across -9.4…7.2 m)
+🛞 wear (test) lap 5 done: FL 33.4 FR 61.1 RL 25.3 RR 39.3 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 10.2s, ledger 10.2/20.4s, 2 lines): L6
+🔊 last lap
+🔊 get it over the line
+🔊 that was an ok lap
+🔊 1 point five down on your best lap
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.712 over 510 s (6054 samples)
+📋 lap 6: 1:33.593 clean fuel_used=0.00
+📊 strategy: finish armed at L7 (lap 7 > 6) — awaiting lap-clock freeze
+📊 strategy L7: no fuel model yet
+🔵 lap 6: clean
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (56 samples, σ 4.41 m, ±13 m, across -9.4…7.2 m)
+🛞 compound: stint raceStart lap 1, refinement 8 (final) — C 0.723 over 559 s (6903 samples)
+🛞 wear (test) lap 6 done: FL 40.1 FR 73.2 RL 30.3 RR 47.1 % — RS ×4 (tap)
+📊 strategy: race finished at L7 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 7 lap(s), 0 stop(s), start ROLLING_START, P1/2
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 2.1/20.4s, 1 line): raceFinished(L7)
+🔊 chequered flag
+🔤 IPA: chequered
+🔊 well driven
+🔈 speaker=on latched=no queued=0 wedged=no bg=on (app active)
+🔧 session ended after lap 7
+🗑 flag: pending commentary cancelled
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 2)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 155 gate(s) from 357 stored, 65 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 pit loss: estimated 30.0 s from the unofficial table (Autódromo de Interlagos)
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 onTrack → replay (pkt 6633929, lap 0, flags 0x0008, pos 1, cars 2, tod 54600000)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 pit loss: estimated 30.0 s from the unofficial table (Autódromo de Interlagos)
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 6634084, lap 0, flags 0x000C, pos —, cars —, tod 54600000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+📊 pit loss: estimated 30.0 s from the unofficial table (Autódromo de Interlagos)
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 37172 packets

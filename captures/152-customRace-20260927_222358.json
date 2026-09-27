@@ -1,0 +1,73 @@
+{
+  "carCategory" : "GR3",
+  "carClass" : "Gr.3",
+  "carId" : 2131,
+  "carName" : "Aston Martin V12 Vantage GT3 '12",
+  "compoundObservations" : [
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.28108456690657796,
+      "lap" : 1,
+      "outcome" : "confirmed",
+      "revisions" : 8,
+      "samples" : 6903,
+      "seconds" : 558.908908908909,
+      "slipPerG" : 0.7226249999999999,
+      "source" : "telemetry",
+      "startPacketId" : 6599355,
+      "trigger" : "raceStart"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RS",
+        "lap" : 1,
+        "startPacketId" : 6599355,
+        "trigger" : "raceStart"
+      }
+    ],
+    "verifiedAt" : 1790541284.51138
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 7,
+    "lapsValid" : 2,
+    "measuredHz" : 60.00448751509194,
+    "source" : "reprocess",
+    "stops" : 0,
+    "tyreChanges" : 0,
+    "version" : 1
+  },
+  "courseId" : 152,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 152,
+    "fuelMultiplier" : 0,
+    "raceLength" : 6,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 8,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Autódromo de Interlagos",
+    "tyreCompounds" : "RS",
+    "tyreWearMultiplier" : 4,
+    "weather" : "dry"
+  },
+  "endTime" : 1790541261,
+  "granularity" : 1,
+  "identifiedCourseId" : 152,
+  "identifiedTrackName" : "Autódromo de Interlagos",
+  "maxSpeedKmh" : 269,
+  "packetSize" : 368,
+  "startTime" : 1790540638,
+  "trackName" : "Autódromo de Interlagos",
+  "version" : 8
+}

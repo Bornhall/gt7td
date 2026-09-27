@@ -264,6 +264,12 @@
           "compound": "RM",
           "outcome": "confirmed"
         }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RS",
+        "RH",
+        "RM"
       ]
     },
     {
@@ -2114,6 +2120,138 @@
       "hzSource": "measured",
       "lapTimerHz": 60.003,
       "lapTimerRatio": 1.00105,
+      "identifiedCourseId": 152,
+      "identifiedTrackName": "Aut\u00f3dromo de Interlagos",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
+    },
+    {
+      "stem": "152-customRace-20260927_214317",
+      "courseId": 152,
+      "track": "Aut\u00f3dromo de Interlagos",
+      "context": "customRace",
+      "carId": 2160,
+      "car": "Hyundai Genesis Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 38009,
+      "durationS": 634.1,
+      "rawBytes": 13987312,
+      "gzBytes": 6734893,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 4,
+      "laps": 7,
+      "lapsValid": 1,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9983,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9983,
+      "lapTimerRatio": 1.00097,
+      "identifiedCourseId": 152,
+      "identifiedTrackName": "Aut\u00f3dromo de Interlagos",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
+    },
+    {
+      "stem": "152-customRace-20260927_220416",
+      "courseId": 152,
+      "track": "Aut\u00f3dromo de Interlagos",
+      "context": "customRace",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 36173,
+      "durationS": 603.5,
+      "rawBytes": 13311664,
+      "gzBytes": 6399404,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 4,
+      "laps": 7,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0035,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0035,
+      "lapTimerRatio": 1.00106,
+      "identifiedCourseId": 152,
+      "identifiedTrackName": "Aut\u00f3dromo de Interlagos",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
+    },
+    {
+      "stem": "152-customRace-20260927_222358",
+      "courseId": 152,
+      "track": "Aut\u00f3dromo de Interlagos",
+      "context": "customRace",
+      "carId": 2131,
+      "car": "Aston Martin V12 Vantage GT3 '12",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 37172,
+      "durationS": 620.2,
+      "rawBytes": 13679296,
+      "gzBytes": 6383796,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 4,
+      "laps": 7,
+      "lapsValid": 2,
+      "stops": 0,
+      "tyreChanges": 0,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 60.0045,
+      "hzSource": "measured",
+      "lapTimerHz": 60.0045,
+      "lapTimerRatio": 1.00107,
       "identifiedCourseId": 152,
       "identifiedTrackName": "Aut\u00f3dromo de Interlagos",
       "compoundObservations": [
@@ -5782,6 +5920,66 @@
       ]
     },
     {
+      "stem": "1247-customRace-20260927_234759",
+      "courseId": 1247,
+      "track": "N\u00fcrburgring Endurance",
+      "context": "customRace",
+      "carId": 3605,
+      "car": "Ferrari 499P '23",
+      "carClass": "Gr.1",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 347599,
+      "durationS": 5799.1,
+      "rawBytes": 127916432,
+      "gzBytes": 63952944,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 1,
+      "tyreWearMultiplier": 2,
+      "laps": 13,
+      "lapsValid": 2,
+      "stops": 2,
+      "tyreChanges": 2,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9996,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9996,
+      "lapTimerRatio": 1.00099,
+      "identifiedCourseId": 1247,
+      "identifiedTrackName": "N\u00fcrburgring Endurance",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "corrected",
+          "finalLabel": "RM"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 6,
+          "outcome": "corrected",
+          "finalLabel": "W",
+          "abstained": true
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 8,
+          "outcome": "corrected",
+          "finalLabel": "RH",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RM",
+        "W",
+        "RH"
+      ]
+    },
+    {
       "stem": "1248-powerPackRace-20260923_224011",
       "courseId": 1248,
       "track": "N\u00fcrburgring Sprint",
@@ -6769,8 +6967,8 @@
       "versions": [
         {
           "context": "customRace",
-          "lengthM": 24195,
-          "points": 4839
+          "lengthM": 24180,
+          "points": 4836
         }
       ]
     },
@@ -6873,7 +7071,7 @@
         1247,
         1249
       ],
-      "updated": 1790528348
+      "updated": 1790547499
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
@@ -6954,7 +7152,7 @@
         "unknown"
       ],
       "withHeading": 229,
-      "updated": 1790529230,
+      "updated": 1790551506,
       "tolerance": {
         "gatesWithWidth": 229,
         "minM": 12,
@@ -6962,7 +7160,7 @@
         "maxM": 20,
         "atFloor": 204,
         "atCap": 1,
-        "atDefault": 10,
+        "atDefault": 9,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,

@@ -1,0 +1,120 @@
+{
+  "carCategory" : "GR1",
+  "carClass" : "Gr.1",
+  "carId" : 3605,
+  "carName" : "Ferrari 499P '23",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "low",
+      "finalLabel" : "RM",
+      "heating" : 0.07277241878358644,
+      "lap" : 1,
+      "notes" : [
+        "ambiguous — RM vs RH, margin 0.009"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 37,
+      "samples" : 26085,
+      "seconds" : 2283.24991658325,
+      "slipPerG" : 0.640625,
+      "source" : "telemetry",
+      "startPacketId" : 6900482,
+      "trigger" : "raceStart"
+    },
+    {
+      "estimatorVersion" : "v1r8",
+      "finalLabel" : "W",
+      "heating" : 0.10668410833502222,
+      "lap" : 6,
+      "notes" : [
+        "no dry fit — nearest RH at 0.285"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 17,
+      "samples" : 15471,
+      "seconds" : 1072.7227227227227,
+      "slipPerG" : 1.122375,
+      "source" : "telemetry",
+      "startPacketId" : 7038456,
+      "trigger" : "pitExit"
+    },
+    {
+      "estimatorVersion" : "v1r8",
+      "finalLabel" : "RH",
+      "heating" : 0.2044477183759287,
+      "lap" : 8,
+      "notes" : [
+        "no candidates"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 38,
+      "samples" : 26869,
+      "seconds" : 2348.5652318985653,
+      "slipPerG" : 0.7226249999999999,
+      "source" : "telemetry",
+      "startPacketId" : 7103491,
+      "trigger" : "pitExit"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RM",
+        "lap" : 1,
+        "startPacketId" : 6900482,
+        "trigger" : "raceStart"
+      },
+      {
+        "compound" : "W",
+        "lap" : 6,
+        "startPacketId" : 7038456,
+        "trigger" : "pitExit"
+      },
+      {
+        "compound" : "RH",
+        "lap" : 8,
+        "startPacketId" : 7103491,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790551537.114901
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 13,
+    "lapsValid" : 2,
+    "measuredHz" : 59.9995970341715,
+    "source" : "reprocess",
+    "stops" : 2,
+    "tyreChanges" : 2,
+    "version" : 1
+  },
+  "courseId" : 1247,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 1247,
+    "fuelMultiplier" : 1,
+    "raceLength" : 90,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 3,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Nürburgring Endurance",
+    "tyreCompounds" : "RM,W,RH",
+    "tyreWearMultiplier" : 2,
+    "weather" : "variable"
+  },
+  "endTime" : 1790551478,
+  "granularity" : 1,
+  "identifiedCourseId" : 1247,
+  "identifiedTrackName" : "Nürburgring Endurance",
+  "maxSpeedKmh" : 318,
+  "packetSize" : 368,
+  "startTime" : 1790545679,
+  "trackName" : "Nürburgring Endurance",
+  "version" : 8
+}

@@ -38,6 +38,18 @@
         "recorded" : 1790512588
       },
       {
+        "carId" : 3588,
+        "carName" : "Ferrari 296 GT3 '23",
+        "lapMs" : 116756,
+        "recorded" : 1790533090
+      },
+      {
+        "carId" : 3588,
+        "carName" : "Ferrari 296 GT3 '23",
+        "lapMs" : 116955,
+        "recorded" : 1790532973
+      },
+      {
         "carId" : 2183,
         "carName" : "Chevrolet Corvette C7 Gr.3",
         "lapMs" : 117028,
@@ -66,22 +78,10 @@
         "carName" : "Nissan GT-R NISMO GT3 '18",
         "lapMs" : 117795,
         "recorded" : 1790523902
-      },
-      {
-        "carId" : 3450,
-        "carName" : "Nissan GT-R NISMO GT3 '18",
-        "lapMs" : 118489,
-        "recorded" : 1790523784
-      },
-      {
-        "carId" : 3311,
-        "carName" : "Porsche 911 RSR (991) '17",
-        "lapMs" : 120140,
-        "recorded" : 1790374605
       }
     ],
     "trackName" : "Autodrome Lago Maggiore - Full Course",
-    "updated" : 1790528348
+    "updated" : 1790533090
   },
   {
     "carClass" : "Gr.3",
@@ -1470,18 +1470,24 @@
       {
         "carId" : 3605,
         "carName" : "Ferrari 499P '23",
-        "lapMs" : 448664,
-        "recorded" : 1790419985
+        "lapMs" : 438333,
+        "recorded" : 1790547499
       },
       {
         "carId" : 3605,
         "carName" : "Ferrari 499P '23",
-        "lapMs" : 456166,
-        "recorded" : 1790231360
+        "lapMs" : 442275,
+        "recorded" : 1790546617
+      },
+      {
+        "carId" : 3605,
+        "carName" : "Ferrari 499P '23",
+        "lapMs" : 448664,
+        "recorded" : 1790419985
       }
     ],
     "trackName" : "Nürburgring Endurance",
-    "updated" : 1790419985
+    "updated" : 1790547499
   },
   {
     "carClass" : "Gr.3",
@@ -1567,19 +1573,61 @@
     "courseId" : 152,
     "laps" : [
       {
-        "carId" : 2131,
-        "carName" : "Aston Martin V12 Vantage GT3 '12",
-        "lapMs" : 94023,
-        "recorded" : 1790450557
+        "carId" : 2160,
+        "carName" : "Hyundai Genesis Gr.3",
+        "lapMs" : 92200,
+        "recorded" : 1790538414
       },
       {
         "carId" : 2131,
         "carName" : "Aston Martin V12 Vantage GT3 '12",
-        "lapMs" : 95159,
-        "recorded" : 1790450463
+        "lapMs" : 92234,
+        "recorded" : 1790540949
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 92265,
+        "recorded" : 1790539745
+      },
+      {
+        "carId" : 2131,
+        "carName" : "Aston Martin V12 Vantage GT3 '12",
+        "lapMs" : 92524,
+        "recorded" : 1790540857
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 92628,
+        "recorded" : 1790539653
+      },
+      {
+        "carId" : 3588,
+        "carName" : "Ferrari 296 GT3 '23",
+        "lapMs" : 92788,
+        "recorded" : 1790536539
+      },
+      {
+        "carId" : 3588,
+        "carName" : "Ferrari 296 GT3 '23",
+        "lapMs" : 93062,
+        "recorded" : 1790536446
+      },
+      {
+        "carId" : 3588,
+        "carName" : "Ferrari 296 GT3 '23",
+        "lapMs" : 93403,
+        "recorded" : 1790536353
+      },
+      {
+        "carId" : 2131,
+        "carName" : "Aston Martin V12 Vantage GT3 '12",
+        "lapMs" : 94023,
+        "recorded" : 1790450557
       }
     ],
     "trackName" : "Autódromo de Interlagos",
-    "updated" : 1790450557
+    "updated" : 1790540949
   }
 ]

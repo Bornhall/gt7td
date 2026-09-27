@@ -68,13 +68,12 @@
         "trigger" : "pitExit"
       },
       {
-        "compound" : "RM",
         "lap" : 4,
         "startPacketId" : 2292675,
         "trigger" : "pitExit"
       }
     ],
-    "verifiedAt" : 1790375209.847297
+    "verifiedAt" : 1790417492.592804
   },
   "counts" : {
     "hzSource" : "measured",
