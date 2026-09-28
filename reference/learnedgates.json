@@ -8221,6 +8221,197 @@
       "updated" : 1790453279,
       "yMax" : -19.428672790527344,
       "yMin" : -25.429353713989258
+    },
+    {
+      "context" : "unknown",
+      "courseId" : 1247,
+      "halfWidthM" : 12,
+      "headingRad" : 2.3493352413091175,
+      "kind" : "lap1",
+      "lineA" : [
+        -1308.6214987526846,
+        2112.3055904988746
+      ],
+      "lineB" : [
+        -1325.708066677003,
+        2095.451831376125
+      ],
+      "m2" : 0.05647134631869927,
+      "offsetMaxM" : 0.007453727059846919,
+      "offsetMinM" : 0,
+      "samples" : 5,
+      "spreadM" : 0.11881850268234664,
+      "trackName" : "Nürburgring Endurance",
+      "updated" : 1790616994,
+      "yMax" : 143.87869262695312,
+      "yMin" : 137.85842895507812
+    },
+    {
+      "context" : "unknown",
+      "courseId" : 1247,
+      "halfWidthM" : 12,
+      "headingRad" : 2.345528352082184,
+      "kind" : "finishLine",
+      "lineA" : [
+        -1071.222127689659,
+        1885.1400338778124
+      ],
+      "lineB" : [
+        -1088.372732040455,
+        1868.3514433949147
+      ],
+      "m2" : 117.32382597977366,
+      "offsetMaxM" : 4.145971876464615,
+      "offsetMinM" : -8.056922746465931,
+      "samples" : 11,
+      "spreadM" : 3.4252565740360774,
+      "trackName" : "Nürburgring Endurance",
+      "updated" : 1790620230,
+      "yMax" : 147.0569305419922,
+      "yMin" : 140.80589294433594
+    },
+    {
+      "context" : "unknown",
+      "courseId" : 1247,
+      "halfWidthM" : 16,
+      "headingRad" : 2.350979951911129,
+      "kind" : "lap1",
+      "lineA" : [
+        -1233.6528404447993,
+        2059.28312363591
+      ],
+      "lineB" : [
+        -1256.3979408052007,
+        2036.7740052703398
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Nürburgring Endurance",
+      "updated" : 1790618568,
+      "yMax" : 145.04971313476562,
+      "yMin" : 139.04971313476562
+    },
+    {
+      "context" : "lobby",
+      "courseId" : 1247,
+      "halfWidthM" : 16,
+      "headingRad" : 2.3203861666458696,
+      "kind" : "lap1",
+      "lineA" : [
+        -1235.0712816649082,
+        2057.1257216884947
+      ],
+      "lineB" : [
+        -1258.4942700929043,
+        2035.3228867099428
+      ],
+      "m2" : 0,
+      "offsetMaxM" : -0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Nürburgring Endurance",
+      "updated" : 1790628685,
+      "yMax" : 144.99488830566406,
+      "yMin" : 138.99488830566406
+    },
+    {
+      "context" : "lobby",
+      "courseId" : 1247,
+      "halfWidthM" : 12,
+      "headingRad" : 2.3410368407488025,
+      "kind" : "finishLine",
+      "lineA" : [
+        -1069.0967926249116,
+        1887.105694632297
+      ],
+      "lineB" : [
+        -1086.322629871537,
+        1870.394305367703
+      ],
+      "m2" : 317.178704879496,
+      "offsetMaxM" : 3.166732590373723,
+      "offsetMinM" : -11.506906378890108,
+      "samples" : 22,
+      "spreadM" : 3.886354056362412,
+      "trackName" : "Nürburgring Endurance",
+      "updated" : 1790628700,
+      "yMax" : 147.1971893310547,
+      "yMin" : 140.8793182373047
+    },
+    {
+      "context" : "lobby",
+      "courseId" : 1247,
+      "halfWidthM" : 16,
+      "headingRad" : 2.336766726204165,
+      "kind" : "pitEntry",
+      "lineA" : [
+        -956.3479127746346,
+        1758.68187511294
+      ],
+      "lineB" : [
+        -979.4106321472404,
+        1736.49830066831
+      ],
+      "m2" : 0,
+      "offsetMaxM" : -0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Nürburgring Endurance",
+      "updated" : 1790628695,
+      "yMax" : 147.58523559570312,
+      "yMin" : 141.58523559570312
+    },
+    {
+      "context" : "lobby",
+      "courseId" : 1247,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        -1087.6859130859375,
+        1867.606201171875
+      ],
+      "lineB" : [
+        -1087.6859130859375,
+        1867.606201171875
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Nürburgring Endurance",
+      "updated" : 1790628695,
+      "yMax" : 146.92945861816406,
+      "yMin" : 140.92945861816406
+    },
+    {
+      "context" : "lobby",
+      "courseId" : 1247,
+      "halfWidthM" : 16,
+      "headingRad" : 2.362353601781987,
+      "kind" : "pitExit",
+      "lineA" : [
+        -1285.983116754668,
+        2095.1229219551715
+      ],
+      "lineB" : [
+        -1308.470740667207,
+        2072.3565702323285
+      ],
+      "m2" : 0,
+      "offsetMaxM" : -0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Nürburgring Endurance",
+      "updated" : 1790628695,
+      "yMax" : 144.25482177734375,
+      "yMin" : 138.25482177734375
     }
   ],
   "schemaVersion" : 2,

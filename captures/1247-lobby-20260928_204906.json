@@ -1,0 +1,96 @@
+{
+  "carCategory" : "GR1",
+  "carClass" : "Gr.1",
+  "carId" : 3604,
+  "carName" : "BMW M Hybrid V8 '25",
+  "compoundObservations" : [
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RH",
+      "heating" : 0.15085380821929562,
+      "lap" : 1,
+      "outcome" : "corrected",
+      "revisions" : 45,
+      "samples" : 31000,
+      "seconds" : 2733.833833833834,
+      "slipPerG" : 0.7328749999999999,
+      "source" : "telemetry",
+      "startPacketId" : 8198007,
+      "trigger" : "raceStart"
+    },
+    {
+      "compound" : "RM",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "finalLabel" : "RM",
+      "heating" : 0.2853722646809951,
+      "lap" : 7,
+      "outcome" : "confirmed",
+      "revisions" : 43,
+      "samples" : 28964,
+      "seconds" : 2660.7941274607942,
+      "slipPerG" : 0.6303749999999999,
+      "source" : "telemetry",
+      "startPacketId" : 8363638,
+      "trigger" : "pitExit"
+    }
+  ],
+  "compoundVerification" : {
+    "stints" : [
+      {
+        "compound" : "RH",
+        "lap" : 1,
+        "startPacketId" : 8198007,
+        "trigger" : "raceStart"
+      },
+      {
+        "compound" : "RM",
+        "lap" : 7,
+        "startPacketId" : 8363638,
+        "trigger" : "pitExit"
+      }
+    ],
+    "verifiedAt" : 1790628715.5566502
+  },
+  "counts" : {
+    "hzSource" : "measured",
+    "laps" : 13,
+    "lapsValid" : 5,
+    "measuredHz" : 59.939716699723576,
+    "source" : "reprocess",
+    "stops" : 1,
+    "tyreChanges" : 1,
+    "version" : 1
+  },
+  "courseId" : 1247,
+  "declared" : {
+    "captureContext" : "lobby",
+    "courseId" : 1247,
+    "fuelMultiplier" : 1,
+    "raceLength" : 90,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 3,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Nürburgring Endurance",
+    "tyreWearMultiplier" : 2,
+    "weather" : "variable"
+  },
+  "endTime" : 1790626905,
+  "granularity" : 1,
+  "identifiedCourseId" : 1247,
+  "identifiedTrackName" : "Nürburgring Endurance",
+  "maxSpeedKmh" : 314,
+  "observedDurationS" : 5400,
+  "packetSize" : 368,
+  "startTime" : 1790621346,
+  "trackName" : "Nürburgring Endurance",
+  "version" : 8
+}

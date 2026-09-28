@@ -1629,5 +1629,65 @@
     ],
     "trackName" : "Autódromo de Interlagos",
     "updated" : 1790540949
+  },
+  {
+    "carClass" : "Gr.1",
+    "context" : "unknown",
+    "courseId" : 1247,
+    "laps" : [
+      {
+        "carId" : 3604,
+        "carName" : "BMW M Hybrid V8 '25",
+        "lapMs" : 419760,
+        "recorded" : 1790619770
+      },
+      {
+        "carId" : 3604,
+        "carName" : "BMW M Hybrid V8 '25",
+        "lapMs" : 421551,
+        "recorded" : 1790619350
+      },
+      {
+        "carId" : 3607,
+        "carName" : "Porsche 963 '24",
+        "lapMs" : 424872,
+        "recorded" : 1790613259
+      },
+      {
+        "carId" : 3605,
+        "carName" : "Ferrari 499P '23",
+        "lapMs" : 459199,
+        "recorded" : 1790611452
+      }
+    ],
+    "trackName" : "Nürburgring Endurance",
+    "updated" : 1790619770
+  },
+  {
+    "carClass" : "Gr.1",
+    "context" : "lobby",
+    "courseId" : 1247,
+    "laps" : [
+      {
+        "carId" : 3604,
+        "carName" : "BMW M Hybrid V8 '25",
+        "lapMs" : 435398,
+        "recorded" : 1790626875
+      },
+      {
+        "carId" : 3604,
+        "carName" : "BMW M Hybrid V8 '25",
+        "lapMs" : 436041,
+        "recorded" : 1790626440
+      },
+      {
+        "carId" : 3604,
+        "carName" : "BMW M Hybrid V8 '25",
+        "lapMs" : 443177,
+        "recorded" : 1790623237
+      }
+    ],
+    "trackName" : "Nürburgring Endurance",
+    "updated" : 1790626875
   }
 ]

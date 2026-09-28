@@ -5980,6 +5980,55 @@
       ]
     },
     {
+      "stem": "1247-lobby-20260928_204906",
+      "courseId": 1247,
+      "track": "N\u00fcrburgring Endurance",
+      "context": "lobby",
+      "carId": 3604,
+      "car": "BMW M Hybrid V8 '25",
+      "carClass": "Gr.1",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 329472,
+      "durationS": 5496.7,
+      "rawBytes": 121245696,
+      "gzBytes": 61277630,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 1,
+      "tyreWearMultiplier": 2,
+      "laps": 13,
+      "lapsValid": 5,
+      "stops": 1,
+      "tyreChanges": 1,
+      "countsVersion": 1,
+      "countsSource": "reprocess",
+      "measuredHz": 59.9397,
+      "hzSource": "measured",
+      "lapTimerHz": 59.9397,
+      "lapTimerRatio": 0.99999,
+      "identifiedCourseId": 1247,
+      "identifiedTrackName": "N\u00fcrburgring Endurance",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "corrected",
+          "finalLabel": "RH"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "confirmed"
+        }
+      ]
+    },
+    {
       "stem": "1248-powerPackRace-20260923_224011",
       "courseId": 1248,
       "track": "N\u00fcrburgring Sprint",
@@ -6969,6 +7018,16 @@
           "context": "customRace",
           "lengthM": 24180,
           "points": 4836
+        },
+        {
+          "context": null,
+          "lengthM": 24180,
+          "points": 4836
+        },
+        {
+          "context": "lobby",
+          "lengthM": 24195,
+          "points": 4839
         }
       ]
     },
@@ -7013,7 +7072,7 @@
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 79,
+      "records": 81,
       "courses": [
         4,
         11,
@@ -7071,12 +7130,12 @@
         1247,
         1249
       ],
-      "updated": 1790547499
+      "updated": 1790626875
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 357,
+      "gates": 365,
       "courses": [
         4,
         11,
@@ -7151,16 +7210,16 @@
         "timeTrial",
         "unknown"
       ],
-      "withHeading": 229,
-      "updated": 1790551506,
+      "withHeading": 236,
+      "updated": 1790628700,
       "tolerance": {
-        "gatesWithWidth": 229,
+        "gatesWithWidth": 236,
         "minM": 12,
-        "medianM": 12,
+        "medianM": 12.0,
         "maxM": 20,
-        "atFloor": 204,
+        "atFloor": 207,
         "atCap": 1,
-        "atDefault": 9,
+        "atDefault": 13,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,

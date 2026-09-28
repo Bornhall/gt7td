@@ -1,0 +1,679 @@
+# EzioClient session log
+# file:    20260928_204906 - Nürburgring Endurance (1247).gt7td
+# started: 2026-09-28T18:49:06Z
+# track:   Nürburgring Endurance (CRS 1247)
+# context: lobby
+# ---
+# car:     BMW M Hybrid V8 '25 [Gr.1] (id 3604) — confirmed from telemetry
+🎮 entered → onTrack (pkt 8196260, lap 0, flags 0x0011, pos 14, cars 16, tod 67189152)
+🏁 start type: GRID_START at pkt 8197760 lap 0
+🔀 state UNKNOWN → RACING at pkt 8197760 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag (speed) at pkt 8197760, race clock running
+🗣 spoke (lapPace, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): greenFlag
+🔊 lights out
+🗣 language: first preferred sv-SE — synthesizer primed in en-GB for IPA
+🗣 voice: Fiona (Enhanced) (en-GB-u-sd-gbsct, enhanced, com.apple.voice.enhanced.en-GB-u-sd-gbsct.Fiona) — name "Fiona (Enhanced)"
+🔊 keep it clean
+📋 lap 0: — clean fuel_used=0.09
+📊 strategy L1: no fuel model yet
+🧭 learned (line): Nürburgring family, 3 layouts (Nürburgring Endurance, Nürburgring GP, Nürburgring Sprint) — resolving at the fork
+🚪 gate learned: Nürburgring Endurance/lobby/lap1 heading 133°
+🛞 compound: window opened — raceStart, lap 1
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 4.6/20.4s, 1 line): surveyGate(lap1, 1)
+🔊 got the identification gate
+🧭 polyline [L1]: 1 candidate(s) dropped on direction — best of them 24 Heures du Mans Racing Circuit median 482.24 (alignment -0.51)
+🧭 polyline [L1]: Nürburgring Endurance fits (median 4.81 m) but on 115 m of road — waiting for 800 m
+🧭 polyline [L1]: 1 candidate(s) dropped on direction — best of them 24 Heures du Mans Racing Circuit median 556.50 (alignment -0.44)
+🧭 polyline [L1]: Nürburgring Endurance fits (median 4.86 m) but on 378 m of road — waiting for 800 m
+🧭 polyline [L1]: Nürburgring Endurance fits (median 4.86 m) but on 498 m of road — waiting for 800 m
+🧭 polyline [L1]: Nürburgring Endurance fits (median 4.62 m) but on 655 m of road — waiting for 800 m
+🧭 polyline [L1]: 3 layouts share this road (Nürburgring Endurance, Nürburgring GP, Nürburgring Sprint) — watching for the fork
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 4.62/p90 5.83 vs Nürburgring Sprint median 4.80/p90 9.44 (150 samples), abstaining
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+🔊 that's contact
+🔊 keep it clean
+🧭 polyline [L1]: ambiguous — Nürburgring Sprint median 3.98/p90 9.04 vs Nürburgring GP median 4.35/p90 9.49 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 2.94/p90 6.19 vs Nürburgring Sprint median 2.98/p90 6.44 (180 samples), abstaining
+🛞 compound: family racing (H+ 0.160, locked for the race)
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 3.7/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 racing tyres
+🧭 polyline [L1]: ambiguous — Nürburgring Sprint median 2.36/p90 5.40 vs Nürburgring Endurance median 2.37/p90 5.67 (180 samples), abstaining
+🧭 divergence: fork at 1590 m on course 1248 — 2 left (Nürburgring Endurance, Nürburgring Sprint)
+🧭 divergence: 2 gate(s) for 2 candidates at 3005m, 3000m
+🧭 polyline divergence: fork at 1590 m on course 1248 — 2 left (Nürburgring Endurance, Nürburgring Sprint)
+🧭 polyline divergence: 2 gate(s) for 2 candidates at 3005m, 3000m
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 2.32/p90 5.88 vs Nürburgring Sprint median 2.42/p90 5.58 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 2.23/p90 5.88 vs Nürburgring Sprint median 2.26/p90 5.43 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 2.06/p90 3.42 vs Nürburgring Sprint median 2.21/p90 5.12 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 1.97/p90 3.16 vs Nürburgring Sprint median 2.13/p90 4.42 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 1.86/p90 3.25 vs Nürburgring Sprint median 2.14/p90 3.66 (180 samples), abstaining
+🧭 polyline [L1]: ambiguous — Nürburgring Endurance median 1.76/p90 3.21 vs Nürburgring Sprint median 2.05/p90 3.67 (180 samples), abstaining
+🧭 divergence: fork at 3005 m on course 1247 — 1 left (Nürburgring Endurance)
+🧭 divergence: resolved to Nürburgring Endurance
+🧭 identified: Nürburgring Endurance (CRS 1247) — lap1, 13 sample(s), ±12 m
+🏁 announcing track: Nürburgring Endurance (CRS 1247) from gates
+🗣 spoke (radio, imp 2, cost 2.1s, ledger 2.1/20.4s, 1 line): trackIdentified(Nürburgring Endurance, CRS 1247)
+🔊 we're at Nürburgring Endurance
+🗺 stored map loaded on identification (gates): course 1247, 4836 pts
+🔧 pit approach: entry at station 24008 m of 24178 m (9.9 m off the line), lead 20 s
+🛞 compound: racingSoft (low confidence, C 0.72, margin 0.122, generic reference)
+🛞 compound prompt: raceStart lap 1, estimate RS
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 3.7/20.4s, 1 line): compoundEstimate(raceStart, RS, low)
+🔊 possibly racing softs
+🛞 compound prompt corrected: RH
+🛞 compound: RH confirmed by the driver — anchor
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.723 over 150 s (1694 samples)
+🎭 mood relaxed → focused
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.733 over 210 s (2377 samples)
+🗣 chain (imp 2, cost 3.4s, ledger 3.4/20.4s, 4 events, 1 lines)
+🔊 contact and off
+🔊 check the car
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.743 over 270 s (3084 samples)
+🎭 mood focused → relaxed
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🔊 you're spinning the wheels everywhere
+🔊 easy on the throttle
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.743 over 330 s (4020 samples)
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.753 over 390 s (4751 samples)
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.753 over 450 s (5291 samples)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 7:40.043 first fuel_used=7.93
+🔵 lap 1 antics: contact, off
+📊 strategy L2: fuel/lap 7.93, 11.6 laps of fuel, race length unknown — fuel horizon
+🚪 gate learned: Nürburgring Endurance/lobby/finishLine heading 134°
+🛞 wear (test) lap 1 done: FL 10.5 FR 10.3 RL 7.3 RR 7.2 % — RH ×2 (tap)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 2.1/20.4s, 1 line): surveyGate(finishLine, 1)
+🔊 start finish line recorded
+🗣 bulletin (imp 6, cost 5.4s, ledger 7.4/20.4s, 2 lines): L2
+🔊 that's lap 2
+🔊 last lap was a 7 40
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.743 over 510 s (5948 samples)
+🛞 compound: stint raceStart lap 1, refinement 8 — C 0.743 over 570 s (6505 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 2 events, 1 lines)
+🔊 bit wide there
+🛞 compound: stint raceStart lap 1, refinement 9 — C 0.743 over 630 s (7338 samples)
+🔊 watch track limits
+🛞 compound: stint raceStart lap 1, refinement 10 — C 0.743 over 690 s (7889 samples)
+🛞 compound: stint raceStart lap 1, refinement 11 — C 0.743 over 750 s (8671 samples)
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🔊 tcs is saving you corner after corner
+🗑 speaker: stale after pause: "ease up"
+🛞 compound: stint raceStart lap 1, refinement 12 — C 0.743 over 810 s (9524 samples)
+🛞 compound: stint raceStart lap 1, refinement 13 — C 0.743 over 870 s (10107 samples)
+📋 lap 2: 7:27.798 clean fuel_used=8.12
+🔵 lap 2 antics: off
+📊 laps-left model: elapsed 907.1 s, remaining 4492.9 s, median lap 447.8 s -> 10-11 (no-stop 11, pit loss 22.0 s, rate 3 l/s, fuel-decisive)
+📊 strategy L3: fuel/lap 8.03 | fuel 83.9 = 10.4 laps | 11.0 laps to go | stops 1
+🚪 gate refined: Nürburgring Endurance/lobby/finishLine (2 samples, σ 0.24 m, ±16 m, across 0.0…0.3 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 2)
+🔊 finish line sharpened
+🗺 mapper: learned lap 2 (447.798 s, 24205 m, 4841 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.3s, ledger 5.9/20.4s, 1 line): surveyLap(2, 447798 ms, 4841 pts)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 9.9/20.4s, 1 line): surveyComplete(3 optional missing)
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L3/L6/L12, stops 1) | pitWindowState(openTargetAhead, now L3, L3/L6/L12, stops 1) | pitStopsToGo(1, 11 to go)
+🗣 spoke (strategy, imp 2, cost 2.8s, ledger 12.7/20.4s, 1 line, protected): pitWindow(L3/L6/L12, stops 1)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 16.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L3, L3/L6/L12, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 18.7/20.4s, 1 line, protected): pitStopsToGo(1, 11 to go)
+🔊 2 samples
+🗑 dropped (bulletin, ledger full; cost 4.3s, load 18.7/20.4s, 2 lines): L3
+🗑 dropped (ledger full; cost 2.2s, load 18.7/20.4s): radioCheck(P7, fuel 83%)
+🗺 frame vs customRace: median 1.9 m, centroid offset 0.9 m
+🗺 frame vs no context: median 1.4 m, centroid offset 1.5 m
+🗺 survey stored → 1247.trackmap.json (lap 2, 447.798 s)
+🛞 wear (test) lap 2 done: FL 21.6 FR 21.0 RL 14.8 RR 14.5 % — RH ×2 (tap)
+⏱ class lap BEST: Nürburgring Endurance/lobby/Gr.1 → 7:27.798 (1/10 laps, 1 car(s), avg 7:27.798)
+🔊 got a clean lap
+🔊 7 27
+🔊 we've got the essentials
+🔊 3 optional to go
+🔊 window
+🔊 lap 3 to 12
+🔊 pit window open
+🔊 pit before lap 12
+🔊 one more stop to go
+🛞 compound: stint raceStart lap 1, refinement 14 — C 0.733 over 930 s (10582 samples)
+🗣 spoke (strategy, imp 2, cost 5.8s, ledger 5.8/20.4s, 1 line, protected): strategyUpdate(fuel 10.45L, togo 10-11/fuel, stops 1)
+🔊 10 or 11 to go
+🎭 mood relaxed → focused
+🔊 the fuel you take decides it
+🗣 chain (imp 4, cost 1.6s, ledger 7.5/20.4s, 1 events, 1 lines)
+🔊 watch track limits
+🗣 chain (imp 6, cost 4.2s, ledger 11.7/20.4s, 1 events, 1 lines)
+🔊 you're sliding
+🔊 a bit greedy on the throttle there
+🛞 compound: stint raceStart lap 1, refinement 15 — C 0.733 over 990 s (11274 samples)
+🛞 compound: stint raceStart lap 1, refinement 16 — C 0.733 over 1050 s (12049 samples)
+🎭 mood focused → relaxed
+🛞 compound: stint raceStart lap 1, refinement 17 — C 0.743 over 1110 s (12729 samples)
+🛞 compound: stint raceStart lap 1, refinement 18 — C 0.733 over 1170 s (13427 samples)
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🔊 tcs is saving you corner after corner
+🗑 speaker: stale after pause: "ease up"
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 6.4/20.4s, 1 line): radioCheck(P8, fuel 78%)
+🔊 radio check
+🔊 P 8
+🛞 compound: stint raceStart lap 1, refinement 19 — C 0.733 over 1230 s (14306 samples)
+🛞 compound: stint raceStart lap 1, refinement 20 — C 0.733 over 1290 s (15019 samples)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 2 events, 1 lines)
+🔊 that was contact
+🔊 check the car
+📋 lap 3: 7:25.430 clean fuel_used=8.30
+🔵 lap 3 antics: contact, off
+📊 laps-left model: elapsed 1352.6 s, remaining 4047.4 s, median lap 446.6 s -> 9-10 (no-stop 10, pit loss 22.0 s, rate 3 l/s, fuel-decisive)
+📊 strategy L4: fuel/lap 8.12 | fuel 75.6 = 9.3 laps | 10.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 4.4s, ledger 7.3/20.4s, 1 line): positionChange(P7→P9)
+🚪 gate refined: Nürburgring Endurance/lobby/finishLine (3 samples, σ 1.53 m, ±12 m, across -2.6…0.3 m)
+🔊 down to P 9
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 10.0/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 3 (445.430 s, 24210 m, 4842 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 2.8s, ledger 12.8/20.4s, 1 line): surveyLap(3, 445430 ms, 4842 pts)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 16.3/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L4, L4/L6/L12, stops 1)
+🔊 head down
+🗑 dropped (bulletin, ledger full; cost 6.6s, load 16.3/20.4s, 2 lines): L4
+🗣 spoke (radio, imp 10, cost 2.5s, ledger 18.8/20.4s, 1 line): radioCheck(P9, fuel 75%)
+🔊 get it back
+🔊 finish line refined
+🗺 frame vs customRace: median 1.6 m, centroid offset 2.3 m
+🗺 frame vs no context: median 2.1 m, centroid offset 0.6 m
+🗺 survey stored → 1247.trackmap.json (lap 3, 445.430 s)
+🛞 wear (test) lap 3 done: FL 32.7 FR 31.8 RL 22.3 RR 21.8 % — RH ×2 (tap)
+⏱ class lap BEST: Nürburgring Endurance/lobby/Gr.1 → 7:25.430 (2/10 laps, 1 car(s), avg 7:26.614)
+🛞 compound: stint raceStart lap 1, refinement 21 — C 0.733 over 1350 s (15393 samples)
+🔊 3 crossings
+🔊 map lap recorded
+🔊 7 25
+🔊 pit window open
+🔊 pit before lap 12
+🗑 speaker: stale, not spoken: "all quiet on the wall"
+🛞 compound: stint raceStart lap 1, refinement 22 — C 0.733 over 1410 s (15995 samples)
+🎭 mood focused → relaxed
+🗣 spoke (strategy, imp 2, cost 6.3s, ledger 6.3/20.4s, 1 line, protected): strategyUpdate(fuel 9.30L, togo 9-10/fuel, stops 1)
+🔊 9 to 10 left
+🔊 it hinges on how much we take on
+🛞 compound: stint raceStart lap 1, refinement 23 — C 0.733 over 1470 s (16569 samples)
+🗣 chain (imp 4, cost 5.5s, ledger 5.5/20.4s, 2 events, 1 lines)
+🔊 corner after corner saved by the electronics
+🗑 speaker: stale after pause: "back it off a bit"
+🛞 compound: stint raceStart lap 1, refinement 24 — C 0.733 over 1530 s (17461 samples)
+🛞 compound: stint raceStart lap 1, refinement 25 — C 0.733 over 1590 s (17947 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 2 events, 1 lines)
+🔊 you're sliding a lot out there
+🛞 compound: stint raceStart lap 1, refinement 26 — C 0.733 over 1650 s (18909 samples)
+🗣 spoke (chatter, imp 10, cost 2.2s, ledger 5.2/20.4s, 1 line): radioCheck(P9, fuel 69%)
+🔊 radio check
+🔊 P 9
+🛞 compound: stint raceStart lap 1, refinement 27 — C 0.733 over 1710 s (19578 samples)
+🛞 compound: stint raceStart lap 1, refinement 28 — C 0.733 over 1770 s (20004 samples)
+📋 lap 4: 7:23.177 clean fuel_used=8.44
+🔵 lap 4: clean
+📊 laps-left model: elapsed 1795.7 s, remaining 3604.3 s, median lap 445.4 s -> 9 (no-stop 9, pit loss 22.0 s, rate 3 l/s)
+📊 strategy L5: fuel/lap 8.21 | fuel 67.1 = 8.2 laps | 9.0 laps to go | stops 1
+🚪 gate refined: Nürburgring Endurance/lobby/finishLine (4 samples, σ 1.82 m, ±12 m, across -2.6…2.6 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 4)
+🔊 finish line sharpened
+🗺 mapper: learned lap 4 (443.177 s, 24195 m, 4839 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.3s, ledger 5.9/20.4s, 1 line): surveyLap(4, 443177 ms, 4839 pts)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L5, L5/L6/L12, stops 1) | fuelStatus(lapsToGo, 8, 9 to go, 8.18 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 10.3/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L5, L5/L6/L12, stops 1)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 14.3/20.4s, 1 line, protected): fuelStatus(lapsToGo, 8, 9 to go, 8.18 fuel-laps)
+🔊 4 samples
+🗑 dropped (bulletin, ledger full; cost 6.6s, load 14.3/20.4s, 2 lines): L5
+🗑 dropped (unchanged; said 130s ago, repeats after 300s): radioCheck(P9, fuel 67%)
+🔊 got a clean lap
+🗺 frame vs customRace: median 1.8 m, centroid offset 1.4 m
+🗺 frame vs no context: median 1.9 m, centroid offset 1.8 m
+🗺 survey stored → 1247.trackmap.json (lap 4, 443.177 s)
+🛞 wear (test) lap 4 done: FL 43.9 FR 42.6 RL 29.9 RR 29.2 % — RH ×2 (tap)
+⏱ class lap BEST: Nürburgring Endurance/lobby/Gr.1 → 7:23.177 (3/10 laps, 1 car(s), avg 7:25.468)
+🔊 7 23
+🔊 you can pit now
+🔊 or go to lap 12
+🔊 pit for fuel in the next 8 laps
+🛞 compound: stint raceStart lap 1, refinement 29 — C 0.733 over 1830 s (20499 samples)
+🗣 spoke (strategy, imp 2, cost 5.6s, ledger 5.6/20.4s, 1 line, protected): strategyUpdate(fuel 8.18L, togo 9, stops 1)
+🔊 fuel for 8 laps
+🔊 9 to go
+🔊 plan is 1 stop
+🛞 compound: stint raceStart lap 1, refinement 30 — C 0.733 over 1890 s (21047 samples)
+🛞 compound: stint raceStart lap 1, refinement 31 — C 0.733 over 1950 s (21971 samples)
+🛞 compound: stint raceStart lap 1, refinement 32 — C 0.733 over 2010 s (22664 samples)
+🎭 mood relaxed → focused
+🎭 mood focused → concerned
+🗣 chain (imp 1, cost 3.4s, ledger 3.4/20.4s, 4 events, 1 lines)
+🔊 you got shoved wide there
+🎭 mood concerned → annoyed
+🔊 check everything
+🗣 chain (imp 4, cost 7.1s, ledger 10.4/20.4s, 3 events, 2 lines)
+🔊 messy moment
+🔊 take a breath
+🔊 let's bring it home in one piece
+🎭 mood annoyed → concerned
+🎭 mood concerned → annoyed
+🛞 compound: stint raceStart lap 1, refinement 33 — C 0.733 over 2070 s (23473 samples)
+🗣 chain (imp 2, cost 4.2s, ledger 4.2/20.4s, 3 events, 1 lines)
+🔊 contact and off the road
+🔊 check the car
+🎭 mood annoyed → concerned
+🗣 spoke (radio, imp 10, cost 5.4s, ledger 5.4/20.4s, 1 line): radioCheck(P13, fuel 61%)
+🔊 all quiet on the wall
+🎭 mood concerned → annoyed
+🔊 P 13
+🗣 chain (imp 6, cost 3.8s, ledger 9.2/20.4s, 1 events, 1 lines)
+🔊 fuel at 61 percent
+🔊 easy on the throttle
+🗑 speaker: stale after pause: "let them hook up"
+🛞 compound: stint raceStart lap 1, refinement 34 — C 0.733 over 2130 s (24348 samples)
+🛞 compound: stint raceStart lap 1, refinement 35 — C 0.733 over 2190 s (25055 samples)
+🎭 mood annoyed → focused
+🗣 chain (imp 6, cost 3.4s, ledger 3.4/20.4s, 1 events, 1 lines)
+🔊 come on
+🔊 feed the power in gently
+🎭 mood focused → concerned
+🛞 compound: stint raceStart lap 1, refinement 36 — C 0.743 over 2250 s (25550 samples)
+🗣 chain (imp 4, cost 4.6s, ledger 4.6/20.4s, 4 events, 1 lines)
+🔊 settle down
+🔊 banging wheels and sliding isn't the fastest
+📋 lap 5: 7:55.778 clean fuel_used=8.49
+🔵 lap 5 antics: contact, impact, off
+📊 laps-left model: elapsed 2271.5 s, remaining 3128.5 s, median lap 446.6 s -> 7-8 (no-stop 8, pit loss 22.0 s, rate 3 l/s, fuel-decisive)
+📊 strategy L6: fuel/lap 8.30 | fuel 58.6 = 7.1 laps | 8.0 laps to go | stops 1
+🗣 spoke (lapPace, imp 4, cost 2.5s, ledger 7.1/20.4s, 1 line): paceDegradation(8.17s/lap over 4)
+🚪 gate refined: Nürburgring Endurance/lobby/finishLine (5 samples, σ 1.79 m, ±12 m, across -2.6…2.6 m)
+🔊 lost a lot of pace
+🗣 spoke (position, imp 4, cost 2.2s, ledger 9.4/20.4s, 1 line): positionChange(P9→P14)
+🛞 wear (test) lap 5 done: FL 54.4 FR 52.6 RL 37.1 RR 36.2 % — RH ×2 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 12.0/20.4s, 1 line): surveyGate(finishLine, 5)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 7, 8 to go, 7.07 fuel-laps) | pitWindowState(openToLatest, now L6, L6/L6/L12, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 15.8/20.4s, 1 line, protected): fuelStatus(extendStint, 7, 8 to go, 7.07 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 19.8/20.4s, 1 line, protected): pitWindowState(openToLatest, now L6, L6/L6/L12, stops 1, close)
+🔊 down to P 14
+🗑 dropped (bulletin, ledger full; cost 5.2s, load 19.8/20.4s, 2 lines): L6
+🗑 dropped (ledger full; cost 2.5s, load 19.8/20.4s): radioCheck(P14, fuel 58%)
+🔊 finish line now 5 crossings
+🔊 save a little to go an extra lap
+🔊 pit window is open
+🔊 pit on lap 12
+🛞 compound: stint raceStart lap 1, refinement 37 — C 0.733 over 2310 s (26157 samples)
+🎭 mood concerned → focused
+🗣 spoke (strategy, imp 2, cost 4.5s, ledger 4.5/20.4s, 1 line, protected): strategyUpdate(fuel 7.07L, togo 7-8/fuel, stops 1)
+🔊 looks like 7
+🔊 maybe 8
+🔊 depending on the fill
+🛞 compound: stint raceStart lap 1, refinement 38 — C 0.733 over 2370 s (26746 samples)
+🗣 chain (imp 4, cost 3.4s, ledger 3.4/20.4s, 2 events, 1 lines)
+🔊 contact and off
+🎭 mood focused → concerned
+🔊 check the car
+🗣 chain (imp 2, cost 1.2s, ledger 4.6/20.4s, 3 events, 1 lines)
+🔊 wide again
+🗑 dropped (chain cooldown): 1 event(s)
+🗣 chain (imp 2, cost 3.4s, ledger 7.9/20.4s, 1 events, 1 lines)
+🔊 come on
+🔊 get back on the track
+🗑 dropped (chain cooldown): 1 event(s)
+🎭 mood concerned → annoyed
+🛞 compound: stint raceStart lap 1, refinement 39 — C 0.733 over 2430 s (27548 samples)
+🗣 chain (imp 4, cost 2.5s, ledger 10.4/20.4s, 1 events, 1 lines)
+🔊 that's contact
+🔊 keep it clean
+🛞 compound: stint raceStart lap 1, refinement 40 — C 0.733 over 2490 s (28160 samples)
+🎭 mood annoyed → concerned
+🗣 chain (imp 2, cost 3.4s, ledger 3.4/20.4s, 3 events, 1 lines)
+🔊 you got shoved wide there
+🔊 check everything
+🛞 compound: stint raceStart lap 1, refinement 41 — C 0.733 over 2550 s (28980 samples)
+🗣 spoke (chatter, imp 10, cost 2.2s, ledger 5.6/20.4s, 1 line): radioCheck(P14, fuel 53%)
+🔊 radio check
+🔊 P 14
+🗣 chain (imp 6, cost 2.1s, ledger 4.3/20.4s, 1 events, 1 lines)
+🔊 easy on the throttle
+🛞 compound: stint raceStart lap 1, refinement 42 — C 0.733 over 2610 s (29943 samples)
+🎭 mood concerned → focused
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🔊 watch track limits
+🛞 compound: stint raceStart lap 1, refinement 43 — C 0.733 over 2670 s (30676 samples)
+🔧 huge stop 197 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔧 teleport 40 m on lap 6 — pending reset-vs-pit (2.5 s)
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🔀 state RACING → PIT at pkt 8362779 lap 6
+🔵 sub-state FLYING → — lap 6
+🔧 pit-entry anchor learned: 481574 ms into lap (stop on lap 6)
+🔧 pended impact cancelled: pit entry
+🔧 pended reset cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 2753.1 s, remaining 2646.9 s, median lap 446.6 s -> 6 (no-stop 6, pit loss 22.0 s, rate 3 l/s)
+📊 strategy: refuel still needed — 6.0 laps of fuel against 6 to go (need 7.3 with margin)
+🚪 gate learned: Nürburgring Endurance/lobby/pitEntry heading 134°
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line, protected): pittingIn(L6)
+🔊 box box
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+📊 strategy: box reached on the ENDING lap (entered L6, counter still L6) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 2756.6 s, remaining 2643.4 s, median lap 446.6 s -> 6 (no-stop 6, pit loss 22.0 s, rate 3 l/s)
+🗑 dropped (topic pitSequence; 3.6s of 5.0s, pitSequence reopens in 1.4s): inPitBox
+🗣 spoke (strategy, imp 0, cost 2.2s, ledger 3.4/20.4s, 1 line, protected): refuelTarget(6 laps)
+🔊 fuel for 6 laps
+📋 lap 6: 8:05.205 in fuel_used=8.55
+🗺 mapper: lap 6 rejected (teleport)
+🔵 lap 6 antics: contact, off, lost 5
+🗑 dropped (in pit): lapStarted(7, last 485.20s)
+🛞 wear (test) lap 6 done: FL 65.0 FR 62.6 RL 44.3 RR 43.0 % — RH ×2 (tap)
+🛞 compound: stint raceStart lap 1, refinement 44 — C 0.733 over 2730 s (31000 samples)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test) stint 0 ended at tyre change: FL 65.0 FR 62.6 RL 44.3 RR 43.0 % — RH ×2 (tap)
+🛞 compound: stint raceStart lap 1, refinement 45 (final) — C 0.733 over 2734 s (31000 samples)
+🛞 compound: window opened — pitExit, lap 7
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🔀 state PIT → RACING at pkt 8364028 lap 7
+🔵 sub-state — → OUT_LAP lap 7
+🅿️ PIT completed: in L6 → out L7 (no fuel, transit 21.3s, teleport=true)
+🚪 gate learned: Nürburgring Endurance/lobby/pitBox (no heading)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🅿️ entry→box 4.0s (speaking budget)
+🔧 pit approach: entry at station 24008 m of 24178 m (9.9 m off the line), lead 20 s
+🔧 teleport 26 m on lap 7 — pit release, not a reset
+📊 laps-left model: elapsed 2773.9 s, remaining 2626.1 s, median lap 446.6 s -> 6 (no-stop 6, pit loss 22.0 s, rate 3 l/s)
+📊 strategy L7: fuel/lap 8.37 | fuel 50.1 = 6.0 laps | 6.0 laps to go | stops 1
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 5.1/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🔊 tyres are cold
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 7.7/20.4s, 1 line, protected): stopsPlanChanged(0→1)
+🚪 gate learned: Nürburgring Endurance/lobby/pitExit heading 135°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 9.8/20.4s, 1 line): surveyGate(pitExit, 1)
+📊 laps-left model: elapsed 2773.9 s, remaining 2604.1 s, median lap 446.6 s -> 6 (no-stop 6, pit loss 22.0 s, rate 3 l/s), out-lap -22.0s
+📊 strategy L7: fuel/lap 8.37 | fuel 50.1 = 6.0 laps | 6.0 laps to go | stops 1 (post-stop recalc)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 11.9/20.4s, 1 line): surveyComplete(0 optional missing)
+🔧 fresh tyres confirmed: 60.0° across all four (was 72.5° at pit entry, step 12.5°)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+📋 strategy burst: 3 event(s), releasing best-first — fuelStatus(extendStint, 5, 6 to go, 5.99 fuel-laps) | strategyUpdate(fuel 5.99L, togo 6, stops 1, post-stop) | pitWindowState(openToLatest, now L7, L7/L7/L11, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 15.6/20.4s, 1 line, protected): fuelStatus(extendStint, 5, 6 to go, 5.99 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 18.7/20.4s, 1 line, protected): strategyUpdate(fuel 5.99L, togo 6, stops 1, post-stop)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 22.7/20.4s, 1 line, protected): pitWindowState(openToLatest, now L7, L7/L7/L11, stops 1, close)
+🔊 fuel plan changed
+🔊 1 stop
+🔊 got the pit exit
+🔊 survey complete
+🔊 everything recorded
+🔊 save a little to go an extra lap
+🔊 clean stop
+🔊 1 stop to go
+🔊 pit window is open
+🔊 pit on lap 11
+🎭 mood focused → relaxed
+🗑 dropped (cooldown strategy; 49.7s of 75.0s via strategy x0.50): strategyUpdate(fuel 5.99L, togo 6, stops 1)
+🛞 compound: racingMedium (high confidence, C 0.63, margin 0.099, relative to RH (truth), generic reference)
+🛞 compound prompt: pitExit lap 7, estimate RM
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RM, high)
+🔊 reads like racing mediums
+🛞 compound prompt confirmed: RM
+🛞 compound: RM confirmed by the driver — anchor
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 2.2/20.4s, 1 line): radioCheck(P15, fuel 47%)
+🔊 radio check
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 3.9/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔊 P 15
+🛞 compound: stint pitExit lap 7, refinement 1 — C 0.630 over 150 s (1777 samples)
+🔊 tyres are good
+🛞 compound: stint pitExit lap 7, refinement 2 — C 0.630 over 210 s (2399 samples)
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🔊 watch track limits
+🛞 compound: stint pitExit lap 7, refinement 3 — C 0.630 over 270 s (3062 samples)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🔊 you're spinning the wheels everywhere
+🔊 easy on the throttle
+🎭 mood focused → relaxed
+🗑 dropped (unchanged; said 157s ago, repeats after 300s): radioCheck(P15, fuel 44%)
+🛞 compound: stint pitExit lap 7, refinement 4 — C 0.630 over 330 s (3835 samples)
+🛞 compound: stint pitExit lap 7, refinement 5 — C 0.630 over 390 s (4488 samples)
+🔵 sub-state OUT_LAP → FLYING lap 8
+📋 lap 7: 7:28.217 out fuel_used=8.49
+🔵 lap 7 antics: off
+📊 laps-left model: elapsed 3204.9 s, remaining 2195.1 s, median lap 446.6 s -> 5 (no-stop 5, pit loss 22.0 s, rate 3 l/s)
+📊 strategy L8: fuel/lap 8.44 | fuel 41.6 = 4.9 laps | 5.0 laps to go | stops 1
+🚪 gate refined: Nürburgring Endurance/lobby/finishLine (6 samples, σ 1.61 m, ±12 m, across -2.6…2.6 m)
+🗺 mapper: lap 7 rejected (teleport)
+🛞 wear (test) lap 7 done: FL 15.3 FR 14.7 RL 10.4 RR 10.1 % — RM ×2 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 6)
+🔊 finish line refined
+📋 strategy burst: 3 event(s), releasing best-first — fuelStatus(extendStint, 4, 5 to go, 4.93 fuel-laps) | pitWindowState(openToLatest, now L8, L8/L8/L11, stops 1, close) | pitStopsToGo(1, 5 to go)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 7.3/20.4s, 1 line, protected): fuelStatus(extendStint, 4, 5 to go, 4.93 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 11.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L8, L8/L8/L11, stops 1, close)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 13.7/20.4s, 1 line, protected): pitStopsToGo(1, 5 to go)
+🔊 6 crossings
+🗣 bulletin (imp 6, cost 3.7s, ledger 17.4/20.4s, 2 lines): L8
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 19.6/20.4s, 1 line): radioCheck(P14, fuel 41%)
+🔊 save some fuel if you can
+🔊 to extend the stint
+🔊 pit window is open
+🔊 pit on lap 11
+🔊 one more stop to go
+🔊 on lap 8
+🔊 7 28
+🗑 speaker: stale, not spoken: "radio check"
+🗑 speaker: stale, not spoken: "P 14"
+🛞 compound: stint pitExit lap 7, refinement 6 — C 0.630 over 450 s (4806 samples)
+🗣 spoke (strategy, imp 2, cost 4.7s, ledger 4.7/20.4s, 1 line, protected): strategyUpdate(fuel 4.93L, togo 5, stops 1)
+🔊 fuel for 4
+🔊 5 to go
+🔊 1 stop
+🛞 compound: stint pitExit lap 7, refinement 7 — C 0.630 over 510 s (5482 samples)
+🛞 compound: stint pitExit lap 7, refinement 8 — C 0.620 over 570 s (6377 samples)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🔊 contact and off the road
+🔊 check the car
+🎭 mood focused → concerned
+🗣 chain (imp 2, cost 1.2s, ledger 5.4/20.4s, 5 events, 1 lines)
+🔊 wide again
+🛞 compound: stint pitExit lap 7, refinement 9 — C 0.630 over 630 s (7055 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 keep it inside the white lines
+🛞 compound: stint pitExit lap 7, refinement 10 — C 0.630 over 690 s (7873 samples)
+🎭 mood concerned → focused
+🗣 chain (imp 6, cost 4.6s, ledger 4.6/20.4s, 1 events, 1 lines)
+🔊 you're working the tcs hard
+🔊 smoother on the exits
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 6.9/20.4s, 1 line): radioCheck(P15, fuel 36%)
+🛞 compound: stint pitExit lap 7, refinement 11 — C 0.630 over 750 s (8843 samples)
+🔊 radio check
+🔊 P 15
+🛞 compound: stint pitExit lap 7, refinement 12 — C 0.630 over 810 s (9587 samples)
+🛞 compound: stint pitExit lap 7, refinement 13 — C 0.630 over 870 s (10128 samples)
+📋 lap 8: 7:40.135 clean fuel_used=8.55
+🎭 mood focused → relaxed
+🔵 lap 8 antics: contact, off
+📊 laps-left model: elapsed 3665.1 s, remaining 1734.9 s, median lap 447.8 s -> 4 (no-stop 4, pit loss 22.0 s, rate 3 l/s)
+📊 strategy L9: fuel/lap 8.46 | fuel 33.0 = 3.9 laps | 4.0 laps to go | stops 1
+🚪 gate refined: Nürburgring Endurance/lobby/finishLine (7 samples, σ 1.98 m, ±12 m, across -3.4…2.6 m)
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P14→P15)
+🔊 down to P 15
+🛞 wear (test) lap 8 done: FL 30.0 FR 28.3 RL 20.2 RR 19.4 % — RM ×2 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.9/20.4s, 1 line): surveyGate(finishLine, 7)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 3, 4 to go, 3.90 fuel-laps) | pitWindowState(openToLatest, now L9, L9/L9/L11, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 9.5/20.4s, 1 line, protected): fuelStatus(extendStint, 3, 4 to go, 3.90 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 13.5/20.4s, 1 line, protected): pitWindowState(openToLatest, now L9, L9/L9/L11, stops 1, close)
+🔊 finish line now 7 crossings
+🗣 bulletin (imp 6, cost 4.1s, ledger 17.6/20.4s, 2 lines): L9
+🗣 spoke (chatter, imp 10, cost 2.5s, ledger 20.1/20.4s, 1 line): radioCheck(P15, fuel 33%)
+🔊 save some fuel if you can
+🔊 to extend the stint
+🔊 pit window is open
+🔊 pit on lap 11
+🔊 lap 9
+🔊 last lap 7 40
+🗑 speaker: stale, not spoken: "all quiet on the wall"
+🛞 compound: stint pitExit lap 7, refinement 14 — C 0.630 over 930 s (10650 samples)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): strategyUpdate(fuel 3.90L, togo 4, stops 1)
+🔊 4 laps to go
+🛞 compound: stint pitExit lap 7, refinement 15 — C 0.630 over 990 s (11201 samples)
+🛞 compound: stint pitExit lap 7, refinement 16 — C 0.630 over 1050 s (11929 samples)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 3.4s, ledger 3.4/20.4s, 3 events, 1 lines)
+🔊 contact and off
+🔊 check the car
+🛞 compound: stint pitExit lap 7, refinement 17 — C 0.630 over 1110 s (12571 samples)
+🛞 compound: stint pitExit lap 7, refinement 18 — C 0.630 over 1170 s (13321 samples)
+🎭 mood focused → relaxed
+🗣 spoke (radio, imp 10, cost 5.8s, ledger 5.8/20.4s, 1 line): radioCheck(P15, fuel 27%)
+🔊 radio check
+🔊 P 15
+🔊 all under control
+🔊 fuel showing 27 percent
+🛞 compound: stint pitExit lap 7, refinement 19 — C 0.630 over 1230 s (14115 samples)
+🛞 compound: stint pitExit lap 7, refinement 20 — C 0.630 over 1290 s (14754 samples)
+📋 lap 9: 7:25.910 clean fuel_used=8.09
+🔵 lap 9 antics: contact, off, lost 1
+📊 laps-left model: elapsed 4111.0 s, remaining 1289.0 s, median lap 446.9 s -> 3 (no-stop 3, pit loss 22.0 s, rate 3 l/s)
+📊 strategy L10: fuel/lap 8.46 | fuel 24.9 = 2.9 laps | 3.0 laps to go | stops 1
+🚪 gate refined: Nürburgring Endurance/lobby/finishLine (8 samples, σ 2.07 m, ±12 m, across -3.4…2.6 m)
+🛞 wear (test) lap 9 done: FL 44.8 FR 42.4 RL 30.2 RR 29.0 % — RM ×2 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 8)
+🔊 finish line sharpened
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 2, 3 to go, 2.95 fuel-laps) | pitWindowState(openToLatest, now L10, L10/L10/L11, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 7.3/20.4s, 1 line, protected): fuelStatus(extendStint, 2, 3 to go, 2.95 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 11.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L10, L10/L10/L11, stops 1, close)
+🗣 bulletin (imp 6, cost 4.6s, ledger 15.8/20.4s, 2 lines): L10
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 18.1/20.4s, 1 line): radioCheck(P15, fuel 24%)
+🔊 8 samples
+🔊 save a little fuel to make it an extra lap
+🔊 pit window is open
+🔊 pit on lap 11
+🔊 on lap 10
+🔊 keep the good laps coming
+🗑 speaker: stale, not spoken: "radio check"
+🗑 speaker: stale, not spoken: "P 15"
+🛞 compound: stint pitExit lap 7, refinement 21 — C 0.630 over 1350 s (15146 samples)
+🗣 spoke (strategy, imp 2, cost 5.6s, ledger 5.6/20.4s, 1 line, protected): strategyUpdate(fuel 2.95L, togo 3, stops 1)
+🔊 fuel for 2 laps
+🔊 3 to go
+🔊 plan is 1 stop
+🛞 compound: stint pitExit lap 7, refinement 22 — C 0.630 over 1410 s (15577 samples)
+🛞 compound: stint pitExit lap 7, refinement 23 — C 0.630 over 1470 s (16394 samples)
+🎭 mood relaxed → focused
+🗣 chain (imp 2, cost 4.2s, ledger 4.2/20.4s, 2 events, 1 lines)
+🔊 you spun around
+🔊 keep the engine alive
+🗑 speaker: stale after pause: "rejoin safe"
+🛞 compound: stint pitExit lap 7, refinement 24 — C 0.630 over 1530 s (16985 samples)
+🛞 compound: stint pitExit lap 7, refinement 25 — C 0.630 over 1590 s (17427 samples)
+🎭 mood focused → relaxed
+🛞 compound: stint pitExit lap 7, refinement 26 — C 0.630 over 1650 s (18383 samples)
+🗣 spoke (chatter, imp 10, cost 5.4s, ledger 5.4/20.4s, 1 line): radioCheck(P15, fuel 20%)
+🔊 all quiet on the wall
+🔊 P 15
+🔊 fuel showing 20 percent
+🛞 compound: stint pitExit lap 7, refinement 27 — C 0.630 over 1710 s (19071 samples)
+🎭 mood relaxed → focused
+🎭 mood focused → concerned
+🗣 chain (imp 2, cost 3.4s, ledger 3.4/20.4s, 4 events, 1 lines)
+🔊 you got shoved wide there
+🔊 check everything
+🛞 compound: stint pitExit lap 7, refinement 28 — C 0.630 over 1770 s (19498 samples)
+📋 lap 10: 7:31.258 clean fuel_used=6.91
+🎭 mood concerned → focused
+🔵 lap 10 antics: spin, contact, off
+📊 laps-left model: elapsed 4562.2 s, remaining 837.8 s, median lap 447.8 s -> 2 (no-stop 2, pit loss 22.0 s, rate 3 l/s)
+📊 strategy L11: fuel/lap 8.46 | fuel 18.0 = 2.1 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Nürburgring Endurance/lobby/finishLine (9 samples, σ 2.00 m, ±12 m, across -3.4…2.6 m)
+🛞 wear (test) lap 10 done: FL 59.7 FR 56.7 RL 40.3 RR 38.8 % — RM ×2 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 9)
+🔊 finish line refined
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 5.6/20.4s, 1 line, protected): fuelStatus(noMoreStops, 2, 2 to go, 2.13 fuel-laps)
+🔊 9 crossings
+🗣 bulletin (imp 6, cost 3.7s, ledger 9.2/20.4s, 2 lines): L11
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 11.5/20.4s, 1 line): radioCheck(P15, fuel 18%)
+🔊 you have fuel to the end
+🔊 lap 11 now
+🔊 7 31
+🔊 radio check
+🔊 P 15
+🛞 compound: stint pitExit lap 7, refinement 29 — C 0.630 over 1830 s (20007 samples)
+🗣 spoke (strategy, imp 2, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): strategyUpdate(fuel 2.13L, togo 2, stops 0)
+🔊 fuel is good to the end
+🔊 2 laps to go
+🛞 compound: stint pitExit lap 7, refinement 30 — C 0.630 over 1890 s (20479 samples)
+🛞 compound: stint pitExit lap 7, refinement 31 — C 0.630 over 1950 s (21390 samples)
+🛞 compound: stint pitExit lap 7, refinement 32 — C 0.630 over 2010 s (22083 samples)
+🛞 compound: stint pitExit lap 7, refinement 33 — C 0.630 over 2070 s (22768 samples)
+🎭 mood focused → relaxed
+🗣 spoke (radio, imp 10, cost 5.4s, ledger 5.4/20.4s, 1 line): radioCheck(P14, fuel 12%)
+🔊 all quiet on the wall
+🔊 P 14
+🔊 we're on 12 percent
+🛞 compound: stint pitExit lap 7, refinement 34 — C 0.630 over 2130 s (23386 samples)
+🛞 compound: stint pitExit lap 7, refinement 35 — C 0.630 over 2190 s (23991 samples)
+📋 lap 11: 7:16.041 clean fuel_used=7.96
+🔵 lap 11: clean
+📊 laps-left model: elapsed 4998.3 s, remaining 401.7 s, median lap 446.9 s -> 1 (no-stop 1, pit loss 22.0 s, rate 3 l/s)
+📊 strategy L12: fuel/lap 8.46 | fuel 10.1 = 1.2 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Nürburgring Endurance/lobby/finishLine (10 samples, σ 2.06 m, ±12 m, across -3.4…2.6 m)
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P15→P14)
+🔊 nice
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.4/20.4s, 1 line): surveyGate(finishLine, 10)
+🗺 mapper: learned lap 11 (436.041 s, 24190 m, 4838 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 2.8s, ledger 9.2/20.4s, 1 line): surveyLap(11, 436041 ms, 4838 pts)
+🔊 1 position gained
+🗣 bulletin (imp 2, cost 6.6s, ledger 15.8/20.4s, 2 lines): L12
+🗣 spoke (chatter, imp 10, cost 2.5s, ledger 18.3/20.4s, 1 line): radioCheck(P14, fuel 10%)
+🔊 you're P 14
+🗺 frame vs customRace: median 1.6 m, centroid offset 2.0 m
+🗺 frame vs no context: median 1.7 m, centroid offset 1.1 m
+🗺 survey stored → 1247.trackmap.json (lap 11, 436.041 s)
+🛞 wear (test) lap 11 done: FL 74.9 FR 71.4 RL 50.5 RR 48.7 % — RM ×2 (tap)
+⏱ class lap BEST: Nürburgring Endurance/lobby/Gr.1 → 7:16.041 (3/10 laps, 1 car(s), avg 7:21.549)
+🔊 finish line sharpened
+🔊 10 samples
+🔊 map lap recorded
+🔊 7 16
+🔊 personal best
+🔊 7 point one quicker
+🗑 speaker: stale after pause: "on lap 12"
+🗑 speaker: stale, not spoken: "all quiet on the wall"
+🛞 compound: stint pitExit lap 7, refinement 36 — C 0.630 over 2250 s (24459 samples)
+🛞 compound: stint pitExit lap 7, refinement 37 — C 0.630 over 2310 s (24957 samples)
+🛞 compound: stint pitExit lap 7, refinement 38 — C 0.630 over 2370 s (25746 samples)
+🛞 compound: stint pitExit lap 7, refinement 39 — C 0.630 over 2430 s (26408 samples)
+🛞 compound: stint pitExit lap 7, refinement 40 — C 0.630 over 2490 s (27207 samples)
+🗣 spoke (chatter, imp 10, cost 5.8s, ledger 5.8/20.4s, 1 line): radioCheck(P14, fuel 5%)
+🔊 radio check
+🔊 P 14
+🔊 all under control
+🔊 5 percent fuel left
+🛞 compound: stint pitExit lap 7, refinement 41 — C 0.630 over 2550 s (27883 samples)
+🗣 chain (imp 4, cost 1.2s, ledger 7.0/20.4s, 1 events, 1 lines)
+🔊 light contact
+🛞 compound: stint pitExit lap 7, refinement 42 — C 0.630 over 2610 s (28613 samples)
+🎭 mood relaxed → focused
+📋 lap 12: 7:15.398 clean fuel_used=7.43
+🔵 lap 12 antics: contact, off, gained 1
+📊 strategy: finish armed at L13 (clock 5433.7 s of 5400) — awaiting lap-clock freeze
+📊 laps-left model: elapsed 5433.7 s, remaining -33.7 s, median lap 445.7 s -> 0 (expired)
+📊 strategy L13: fuel/lap 8.29 | fuel 2.6 = 0.3 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Nürburgring Endurance/lobby/finishLine (11 samples, σ 3.98 m, ±12 m, across -11.5…2.6 m)
+🗺 mapper: learned lap 12 (435.398 s, 24195 m, 4839 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.3s, ledger 4.3/20.4s, 1 line): surveyLap(12, 435398 ms, 4839 pts)
+🔊 lap 12 banked as the map
+🔊 7 15
+🗣 bulletin (imp 2, cost 8.2s, ledger 12.5/20.4s, 2 lines): L13
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 14.7/20.4s, 1 line): radioCheck(P14, fuel 2%)
+🗣 chain (imp 4, cost 3.4s, ledger 18.1/20.4s, 2 events, 1 lines)
+🔊 best lap so far
+🗺 frame vs customRace: median 1.5 m, centroid offset 2.2 m
+🗺 frame vs no context: median 1.8 m, centroid offset 1.0 m
+🗺 survey stored → 1247.trackmap.json (lap 12, 435.398 s)
+🛞 wear (test) lap 12 done: FL 90.2 FR 86.0 RL 60.7 RR 58.6 % — RM ×2 (tap)
+⏱ class lap BEST: Nürburgring Endurance/lobby/Gr.1 → 7:15.398 (3/10 laps, 1 car(s), avg 7:18.205)
+📊 strategy: race finished at L13 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+🗑 flag: pending commentary cancelled
+🛞 compound: stint pitExit lap 7, refinement 43 (final) — C 0.630 over 2661 s (28964 samples)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 20.1/20.4s, 1 line): raceFinished(L13)
+💾 race preserved (finished): 13 lap(s), 1 stop(s), start GRID_START, P14/16
+✂️ capture auto-stop in 30s (race finished)
+🗑 speaker: 6 queued line(s) preempted by flag
+🔊 chequered flag
+🔊 well driven
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 329472 packets
