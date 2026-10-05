@@ -314,6 +314,44 @@
       ]
     },
     {
+      "stem": "41-lobby-20261005_202725",
+      "courseId": 41,
+      "track": "WeatherTech Raceway Laguna Seca",
+      "context": "lobby",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 220592,
+      "durationS": 3680.2,
+      "rawBytes": 81177856,
+      "gzBytes": 39420477,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 3,
+      "identifiedCourseId": 41,
+      "identifiedTrackName": "WeatherTech Raceway Laguna Seca",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 30,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        }
+      ]
+    },
+    {
       "stem": "51-customRace-20260817_221417",
       "courseId": 51,
       "track": "Deep Forest Raceway",
