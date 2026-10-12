@@ -1,0 +1,51 @@
+{
+  "carCategory" : "GRN",
+  "carId" : 451,
+  "carName" : "Subaru Impreza 22B-STi Version '98",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RH",
+      "heating" : 0.5438761068934108,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RH at 0.275"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 10,
+      "samples" : 6995,
+      "seconds" : 677.293960627294,
+      "slipPerG" : 1.296625,
+      "source" : "telemetry",
+      "startPacketId" : 4657618,
+      "trigger" : "raceStart"
+    }
+  ],
+  "courseId" : 896,
+  "declared" : {
+    "captureContext" : "powerPackRace",
+    "courseId" : 896,
+    "fuelMultiplier" : 2,
+    "raceLength" : 6,
+    "raceLengthUnit" : "laps",
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Autopolis International Racing Course",
+    "tyreCompounds" : "RH",
+    "tyreWearMultiplier" : 3,
+    "weather" : "dry"
+  },
+  "endTime" : 1791403580,
+  "granularity" : 1,
+  "identifiedCourseId" : 896,
+  "identifiedTrackName" : "Autopolis International Racing Course",
+  "maxSpeedKmh" : 279,
+  "packetSize" : 368,
+  "startTime" : 1791402826,
+  "trackName" : "Autopolis International Racing Course",
+  "version" : 8
+}

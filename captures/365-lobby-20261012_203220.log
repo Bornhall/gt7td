@@ -1,0 +1,818 @@
+# EzioClient session log
+# file:    20261012_203220 - Autodrome Lago Maggiore - Full Course (365).gt7td
+# started: 2026-10-12T18:32:20Z
+# track:   Autodrome Lago Maggiore - Full Course (CRS 365)
+# context: lobby
+# ---
+# car:     Chevrolet Corvette C7 Gr.3 [Gr.3] (id 2183) — confirmed from telemetry
+🎮 entered → onTrack (pkt 308727, lap 0, flags 0x0001, pos 8, cars 14, tod 65790330)
+🎮 onTrack → entered (pkt 309561, lap 0, flags 0x0041, pos 2, cars 14, tod 65760000)
+🎮 entered → onTrack (pkt 309597, lap 0, flags 0x0041, pos 2, cars 14, tod 65760000)
+🎮 onTrack → entered (pkt 309708, lap 0, flags 0x0041, pos 2, cars 14, tod 65760000)
+🎮 entered → onTrack (pkt 309824, lap 0, flags 0x0041, pos 2, cars 14, tod 65760000)
+🏁 start type: GRID_START at pkt 310232 lap 0
+🔀 state UNKNOWN → RACING at pkt 310232 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag (speed) at pkt 310232, race clock running
+🗣 spoke (lapPace, imp 0, cost 3.4s, ledger 3.4/20.4s, 1 line): greenFlag
+🔊 green flag
+🗣 language: first preferred sv-SE — synthesizer primed in en-GB for IPA
+🗣 voice: Fiona (Enhanced) (en-GB-u-sd-gbsct, enhanced, com.apple.voice.enhanced.en-GB-u-sd-gbsct.Fiona) — name "Fiona (Enhanced)"
+🔊 mind the first corner
+📋 lap 0: — clean fuel_used=0.11
+📊 strategy L1: no fuel model yet
+🧭 learned (line): Autodrome Lago Maggiore family, 4 layouts (Autodrome Lago Maggiore - Centre, Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - Full Course, Autodrome Lago Maggiore - West) — resolving at the fork
+🚪 gate learned: Autodrome Lago Maggiore - Full Course/lobby/lap1 heading -37°
+🛞 compound: window opened — raceStart, lap 1
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 6.4/20.4s, 1 line): surveyGate(lap1, 22)
+🔊 lap one gate now 22 crossings
+🧭 polyline [L1]: 28 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East Reverse median 1.29 (alignment -0.99)
+🧭 polyline [L1]: Autodrome Lago Maggiore - Centre fits (median 1.24 m) but on 114 m of road — waiting for 800 m
+🧭 polyline [L1]: 32 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East Reverse median 1.38 (alignment -1.00)
+🧭 polyline [L1]: Autodrome Lago Maggiore - Centre fits (median 1.40 m) but on 319 m of road — waiting for 800 m
+🧭 polyline [L1]: 26 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East Reverse median 1.73 (alignment -0.99)
+🧭 polyline [L1]: Autodrome Lago Maggiore - East fits (median 1.94 m) but on 439 m of road — waiting for 800 m
+🧭 polyline [L1]: 23 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East Reverse median 1.98 (alignment -0.99)
+🧭 polyline [L1]: Autodrome Lago Maggiore - Centre fits (median 1.80 m) but on 580 m of road — waiting for 800 m
+🧭 divergence: fork at 600 m on course 365 — 2 left (Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - Full Course)
+🧭 divergence: 2 gate(s) for 2 candidates at 3117m, 3114m
+🧭 polyline [L1]: 24 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East Reverse median 1.97 (alignment -0.99)
+🧭 polyline [L1]: Autodrome Lago Maggiore - East fits (median 2.11 m) but on 790 m of road — waiting for 800 m
+🧭 polyline [L1]: 22 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 2.02 (alignment -0.99)
+🧭 polyline [L1]: 4 layouts share this road (Autodrome Lago Maggiore - Centre, Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - Full Course, Autodrome Lago Maggiore - West) — watching for the fork
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 2.06/p90 3.80 vs Autodrome Lago Maggiore - Full Course median 2.20/p90 5.04 (180 samples), abstaining
+🧭 polyline [L1]: 25 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 1.91 (alignment -1.00)
+🧭 polyline [L1]: 3 layouts share this road (Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - Full Course, Autodrome Lago Maggiore - West) — watching for the fork
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 2.01/p90 3.80 vs Autodrome Lago Maggiore - Full Course median 2.18/p90 5.04 (180 samples), abstaining
+🛞 compound: family racing (H+ 0.418, locked for the race)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 we're on racing rubber
+🧭 polyline [L1]: 16 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 1.83 (alignment -1.00)
+🧭 polyline [L1]: 3 layouts share this road (Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - East End, Autodrome Lago Maggiore - Full Course) — watching for the fork
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 1.92/p90 3.80 vs Autodrome Lago Maggiore - Full Course median 2.06/p90 5.04 (180 samples), abstaining
+🧭 polyline [L1]: 14 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 1.80 (alignment -1.00)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 1.90/p90 5.04 vs Autodrome Lago Maggiore - Full Course median 2.01/p90 4.22 (180 samples), abstaining
+🧭 polyline [L1]: 13 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 1.79 (alignment -1.00)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 1.86/p90 5.38 vs Autodrome Lago Maggiore - Full Course median 1.91/p90 3.34 (180 samples), abstaining
+🧭 polyline [L1]: 8 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 1.70 (alignment -1.00)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 1.79/p90 4.63 vs Autodrome Lago Maggiore - Full Course median 1.90/p90 3.05 (180 samples), abstaining
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East Reverse median 1.86 (alignment -1.00)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - East median 1.76/p90 4.63 vs Autodrome Lago Maggiore - Full Course median 1.82/p90 4.15 (180 samples), abstaining
+🧭 polyline [L1]: 8 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East Reverse median 2.07 (alignment -1.00)
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - Full Course median 1.86/p90 4.15 vs Autodrome Lago Maggiore - East median 2.00/p90 4.63 (180 samples), abstaining
+🧭 polyline [L1]: 9 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 2.13 (alignment -1.00)
+🧭 polyline [L1]: 2 layouts share this road (Autodrome Lago Maggiore - East, Autodrome Lago Maggiore - Full Course) — watching for the fork
+🧭 polyline [L1]: ambiguous — Autodrome Lago Maggiore - Full Course median 2.00/p90 4.15 vs Autodrome Lago Maggiore - East median 2.20/p90 4.63 (180 samples), abstaining
+🧭 divergence: fork at 3117 m on course 365 — 1 left (Autodrome Lago Maggiore - Full Course)
+🧭 divergence: resolved to Autodrome Lago Maggiore - Full Course
+🧭 identified: Autodrome Lago Maggiore - Full Course (CRS 365) — finishLine, 492 sample(s), ±13 m
+🏁 announcing track: Autodrome Lago Maggiore - Full Course (CRS 365) from gates
+🗣 spoke (radio, imp 2, cost 3.8s, ledger 3.8/20.4s, 1 line): trackIdentified(Autodrome Lago Maggiore - Full Course, CRS 365)
+🔊 we're at Autodrome Lago Maggiore
+🗺 stored map loaded on identification (gates): course 365, 1141 pts
+📊 pit loss: measured 12.1 s
+📊 strategy: track pit loss 12.1 s
+🅿️ pit speaking budget 13.2s (entry to box)
+🔧 pit approach: entry at station 5499 m of 5703 m (18.0 m off the line), lead 20 s
+🔊 Full Course
+🛞 compound: racingSoft (high confidence, C 0.83, margin 0.116, own reference)
+🛞 compound prompt: raceStart lap 1, estimate RS
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 5.4/20.4s, 1 line): compoundEstimate(raceStart, RS, high)
+🔊 probably racing softs
+🛞 compound prompt confirmed: RS
+🛞 compound: RS confirmed by the driver — anchor
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 2:04.485 first fuel_used=2.68
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 2.68, 36.3 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (45 samples, σ 0.54 m, ±12 m, across -0.9…0.4 m)
+🛞 wear (test) lap 1 done: FL 13.1 FR 11.9 RL 9.3 RR 8.7 % — RS ×4 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 45)
+🔊 finish line refined
+🔊 45 crossings
+🗣 bulletin (imp 6, cost 4.9s, ledger 7.6/20.4s, 2 lines): L2
+🔊 lap 2 now
+🔊 laptime 2 04 point five
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.846 over 150 s (1328 samples)
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.856 over 210 s (1781 samples)
+📋 lap 2: 1:56.931 clean fuel_used=2.60
+🔵 lap 2: clean
+📊 laps-left model: elapsed 240.7 s, remaining 3359.3 s, median lap 116.9 s -> 29 (no-stop 29, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L3: fuel/lap 2.64 | fuel 94.6 = 35.8 laps | 29.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (46 samples, σ 0.54 m, ±12 m, across -0.9…0.4 m)
+🗺 mapper: learned lap 2 (116.931 s, 5705 m, 1141 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 4.1/20.4s, 1 line): surveyLap(2, 116931 ms, 1141 pts)
+🔊 clean lap banked
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 7.2/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 frame vs customRace: median 1.9 m, centroid offset 1.1 m
+🗺 frame vs no context: median 1.7 m, centroid offset 1.3 m
+🗺 survey stored → 365.trackmap.json (lap 2, 116.931 s)
+🛞 wear (test) lap 2 done: FL 26.7 FR 24.3 RL 18.3 RR 17.1 % — RS ×4 (tap)
+⏱ class lap BEST: Autodrome Lago Maggiore - Full Course/lobby/Gr.3 → 1:56.931 (2/10 laps, 2 car(s), avg 1:58.280)
+🔊 1 56 point nine three
+🗣 bulletin (imp 2, cost 4.3s, ledger 11.5/20.4s, 2 lines): L3
+🔊 survey usable
+🔊 3 optional still missing
+🔊 personal best
+🔊 that's lap 3
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 15.1/20.4s, 1 line, protected): strategyUpdate(fuel 35.84L, togo 29, stops 0)
+🔊 fuel to the finish
+🔊 29 to go
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.846 over 270 s (2158 samples)
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.866 over 330 s (2620 samples)
+📋 lap 3: 1:57.790 clean fuel_used=2.64
+🔵 lap 3: clean
+📊 laps-left model: elapsed 358.5 s, remaining 3241.5 s, median lap 117.4 s -> 28 (no-stop 28, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L4: fuel/lap 2.64 | fuel 92.0 = 34.8 laps | 28.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (47 samples, σ 0.54 m, ±12 m, across -0.9…0.4 m)
+🛞 wear (test) lap 3 done: FL 40.0 FR 36.5 RL 27.1 RR 25.3 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 5.4s, ledger 5.4/20.4s, 2 lines): L4
+🔊 lap 4
+🔊 good lap
+🔊 1 57 point eight
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 9.3/20.4s, 1 line, protected): strategyUpdate(fuel 34.81L, togo 28, stops 0)
+🔊 fuel to the end
+🔊 28 to go
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.846 over 390 s (3182 samples)
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.856 over 450 s (3688 samples)
+📋 lap 4: 1:59.490 clean fuel_used=2.54
+🔵 lap 4: clean
+📊 laps-left model: elapsed 478.0 s, remaining 3122.0 s, median lap 117.8 s -> 27 (no-stop 27, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L5: fuel/lap 2.62 | fuel 89.4 = 34.1 laps | 27.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (48 samples, σ 0.54 m, ±12 m, across -0.9…0.4 m)
+🛞 wear (test) lap 4 done: FL 53.1 FR 48.4 RL 35.8 RR 33.4 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 7.1s, ledger 7.1/20.4s, 2 lines): L5
+🔊 on lap 5
+🔊 clean lap
+🔊 1 59 point five
+🔊 that's the way
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 10.6/20.4s, 1 line, protected): strategyUpdate(fuel 34.14L, togo 27, stops 0)
+🔊 fuel to the finish
+🔊 27 to go
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.856 over 510 s (4179 samples)
+🛞 compound: stint raceStart lap 1, refinement 8 — C 0.866 over 570 s (4796 samples)
+🔧 huge stop 192 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 346311 lap 5
+🔵 sub-state FLYING → — lap 5
+🔧 pit-entry anchor learned: 123920 ms into lap (stop on lap 5)
+🔧 pended impact cancelled: pit entry
+📊 laps-left model: elapsed 601.9 s, remaining 2998.1 s, median lap 117.8 s -> 26 (no-stop 26, pit loss 12.1 s, rate 8 l/s)
+📊 strategy: no refuel needed — 33.1 laps of fuel against 26 to go (margin 28.3)
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitEntry (23 samples, σ 0.12 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line, protected): pittingIn(L5)
+🔊 pit entry
+🗣 spoke (strategy, imp 0, cost 3.4s, ledger 5.8/20.4s, 1 line, protected): refuelNotNeeded(26 laps to go)
+🗑 dropped (in pit): surveyGate(pitEntry, 23)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🔊 crew is set
+🔊 tyres only
+🔊 fuel's fine to the finish
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🗑 dropped (box deadline; cost 1.6s, 0.5s of 13.2s left): inPitBox
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test) stint 0 ended at tyre change: FL 65.6 FR 60.1 RL 44.1 RR 41.4 % — RS ×4 (tap)
+🛞 compound: stint raceStart lap 1, refinement 9 (final) — C 0.866 over 598 s (5200 samples)
+🛞 compound: window opened — pitExit, lap 5
+🔀 state PIT → RACING at pkt 347340 lap 6
+🔵 sub-state — → OUT_LAP lap 6
+🅿️ PIT completed: in L5 → out L6 (no fuel, transit 20.5s, teleport=false)
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitBox (23 samples, σ 0.00 m, ±0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 23)
+🅿️ entry→box 16.1s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 5499 m of 5703 m (18.0 m off the line), lead 20 s
+📋 lap 5: 2:21.071 in fuel_used=2.60
+🔵 lap 5: clean
+🗑 dropped (in pit): lapStarted(6, last 141.07s)
+🗑 dropped (in pit): positionChange(P2→P11)
+🔧 teleport 172 m on lap 6 — pit release, not a reset
+📊 laps-left model: elapsed 619.1 s, remaining 2980.9 s, median lap 117.8 s -> 26 (no-stop 26, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L6: fuel/lap 2.60 | fuel 86.9 = 33.4 laps | 26.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 2.1s, ledger 7.9/20.4s, 1 line, protected): exitingPit(+0.00l)
+🔊 out of the pits
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitExit (23 samples, σ 0.00 m, ±12 m, across -0.0…0.0 m)
+🗺 mapper: lap 5 rejected (teleport)
+🛞 wear (test) lap 5 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RS ×4 (estimate)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 10.6/20.4s, 1 line): surveyGate(pitExit, 23)
+📊 laps-left model: elapsed 619.1 s, remaining 2968.8 s, median lap 117.8 s -> 26 (no-stop 26, pit loss 12.1 s, rate 8 l/s), out-lap -12.1s
+📊 strategy L6: fuel/lap 2.60 | fuel 86.9 = 33.4 laps | 26.0 laps to go | stops 0 (post-stop recalc)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 12.6/20.4s, 1 line): surveyComplete(0 optional missing)
+🔧 fresh tyres confirmed: 60.0° across all four (was 81.1° at pit entry, step 21.1°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 15.6/20.4s, 1 line, protected): strategyUpdate(fuel 33.43L, togo 26, stops 0, post-stop)
+🔊 pit exit refined
+🔊 23 crossings
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 17.6/20.4s, 1 line): tyreTemps(low, 60°)
+🔊 survey complete
+🔊 everything recorded
+🔊 good stop
+🔊 fuel to the end
+🔊 tyres below the window
+🗑 dropped (cooldown strategy; 17.6s of 75.0s via strategy x0.50): strategyUpdate(fuel 33.43L, togo 26, stops 0)
+🛞 compound: racingSoft (medium confidence, C 0.92, margin 0.026, relative to RS (truth), own reference)
+🛞 compound prompt: pitExit lap 5, estimate RS
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RS, medium)
+🔊 reads like racing softs
+🗑 dropped (topic tyres; 3.1s of 12.5s, tyres reopens in 9.4s): tyreTemps(inWindow, 70°)
+🛞 compound prompt corrected: RM
+🛞 compound: RM confirmed by the driver — anchor
+🛞 compound: stint pitExit lap 5, refinement 1 — C 0.958 over 120 s (1077 samples)
+🔵 sub-state OUT_LAP → FLYING lap 7
+📋 lap 6: 2:00.068 out fuel_used=2.66
+🔵 lap 6: clean
+📊 laps-left model: elapsed 739.1 s, remaining 2860.9 s, median lap 117.8 s -> 25 (no-stop 25, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L7: fuel/lap 2.62 | fuel 84.2 = 32.1 laps | 25.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (49 samples, σ 0.54 m, ±12 m, across -0.9…0.4 m)
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P11→P6)
+🔊 nice
+🗺 mapper: lap 6 rejected (teleport)
+🛞 wear (test) lap 6 done: FL 6.0 FR 5.3 RL 4.2 RR 3.9 % — RM ×4 (tap)
+🔊 5 positions gained
+🗣 bulletin (imp 6, cost 4.9s, ledger 8.6/20.4s, 2 lines): L7
+🔊 you're P 6
+🔊 lap 7
+🔊 last lap 2 00 point one
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.2/20.4s, 1 line, protected): strategyUpdate(fuel 32.13L, togo 25, stops 0)
+🔊 fuel to the finish
+🔊 25 to go
+🛞 compound: stint pitExit lap 5, refinement 2 — C 0.969 over 180 s (1471 samples)
+🛞 compound: stint pitExit lap 5, refinement 3 — C 0.979 over 240 s (2161 samples)
+📋 lap 7: 2:00.681 clean fuel_used=2.65
+🔵 lap 7: clean
+📊 laps-left model: elapsed 859.8 s, remaining 2740.2 s, median lap 118.6 s -> 24 (no-stop 24, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L8: fuel/lap 2.64 | fuel 81.5 = 30.9 laps | 24.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (50 samples, σ 0.57 m, ±12 m, across -1.3…0.4 m)
+🗣 spoke (lapPace, imp 4, cost 7.6s, ledger 7.6/20.4s, 1 line): paceDegradation(0.74s/lap over 4)
+🔊 pace is really slipping
+🗣 spoke (position, imp 4, cost 2.8s, ledger 10.5/20.4s, 1 line): positionChange(P6→P4)
+🛞 wear (test) lap 7 done: FL 12.1 FR 11.0 RL 8.3 RR 7.8 % — RM ×4 (tap)
+🔊 over half a second a lap
+🗣 bulletin (imp 6, cost 4.9s, ledger 15.4/20.4s, 2 lines): L8
+🔊 need to pit for new tyres?
+🔊 P 4
+🔊 2 places gained
+🔊 on lap 8
+🔊 laptime 2 00 point seven
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 18.9/20.4s, 1 line, protected): strategyUpdate(fuel 30.86L, togo 24, stops 0)
+🔊 fuel to the finish
+🔊 24 to go
+🛞 compound: stint pitExit lap 5, refinement 4 — C 0.969 over 300 s (2754 samples)
+🛞 compound: stint pitExit lap 5, refinement 5 — C 0.979 over 360 s (3310 samples)
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(high, 85°)
+🔊 tyres are hot
+📋 lap 8: 2:00.099 clean fuel_used=2.71
+🔵 lap 8: clean
+📊 laps-left model: elapsed 979.9 s, remaining 2620.1 s, median lap 119.5 s -> 22 (no-stop 22, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L9: fuel/lap 2.65 | fuel 78.8 = 29.8 laps | 22.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (51 samples, σ 0.59 m, ±12 m, across -1.3…0.4 m)
+🛞 wear (test) lap 8 done: FL 18.3 FR 16.6 RL 12.5 RR 11.7 % — RM ×4 (tap)
+🔊 be careful
+🗣 bulletin (imp 6, cost 4.5s, ledger 7.0/20.4s, 2 lines): L9
+🔊 lap 9
+🔊 laptime 2 00 point one
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 11.0/20.4s, 1 line, protected): strategyUpdate(fuel 29.79L, togo 22, stops 0)
+🔊 fuel to the end
+🔊 22 to go
+🛞 compound: stint pitExit lap 5, refinement 6 — C 0.979 over 420 s (3701 samples)
+🛞 compound: stint pitExit lap 5, refinement 7 — C 0.979 over 480 s (4256 samples)
+📋 lap 9: 1:59.497 clean fuel_used=2.61
+🔵 lap 9: clean
+📊 laps-left model: elapsed 1099.4 s, remaining 2500.6 s, median lap 119.5 s -> 21 (no-stop 21, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L10: fuel/lap 2.63 | fuel 76.2 = 29.0 laps | 21.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (52 samples, σ 0.59 m, ±12 m, across -1.3…0.4 m)
+🛞 wear (test) lap 9 done: FL 24.4 FR 22.3 RL 16.7 RR 15.6 % — RM ×4 (tap)
+🗣 bulletin (imp 6, cost 7.1s, ledger 7.1/20.4s, 2 lines): L10
+🔊 lap 10 now
+🔊 clean lap
+🔊 1 59 point five
+🔊 that's the way
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 10.6/20.4s, 1 line, protected): strategyUpdate(fuel 29.02L, togo 21, stops 0)
+🔊 fuel to the finish
+🔊 21 to go
+🔧 huge stop 39 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🗣 chain (imp 2, cost 1.2s, ledger 1.2/20.4s, 2 events, 1 lines)
+🔊 wide again
+🎭 mood relaxed → focused
+🎭 mood focused → concerned
+🗣 chain (imp 1, cost 2.9s, ledger 4.1/20.4s, 4 events, 1 lines)
+🔊 deep breath
+🛞 compound: stint pitExit lap 5, refinement 8 — C 0.979 over 540 s (4571 samples)
+🔊 smooth is fast
+🛞 compound: stint pitExit lap 5, refinement 9 — C 0.979 over 600 s (5196 samples)
+📋 lap 10: 2:27.095 clean fuel_used=2.53
+🎭 mood concerned → focused
+🔵 lap 10 antics: contact, impact, off
+📊 laps-left model: elapsed 1246.5 s, remaining 2353.5 s, median lap 119.5 s -> 20 (no-stop 20, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L11: fuel/lap 2.63 | fuel 73.7 = 28.1 laps | 20.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (53 samples, σ 0.59 m, ±12 m, across -1.3…0.4 m)
+🗣 spoke (lapPace, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): paceDegradation(3.10s/lap over 5)
+🔊 pace is slipping
+🗣 spoke (position, imp 4, cost 4.4s, ledger 6.0/20.4s, 1 line): positionChange(P4→P9)
+🛞 wear (test) lap 10 done: FL 30.1 FR 27.1 RL 20.5 RR 19.0 % — RM ×4 (tap)
+🔊 down to P 9
+🗣 bulletin (imp 6, cost 6.7s, ledger 12.7/20.4s, 2 lines): L11
+🔊 head down
+🔊 get it back
+🔊 lap 11 now
+🔊 2 27 point oh nine five
+🔊 reset
+🔊 go again
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 16.2/20.4s, 1 line, protected): strategyUpdate(fuel 28.06L, togo 20, stops 0)
+🔊 fuel to the finish
+🔊 20 to go
+🛞 compound: stint pitExit lap 5, refinement 10 — C 0.969 over 660 s (5835 samples)
+🛞 compound: stint pitExit lap 5, refinement 11 — C 0.969 over 720 s (6433 samples)
+📋 lap 11: 2:02.557 clean fuel_used=2.76
+🎭 mood focused → relaxed
+🔵 lap 11: clean
+📊 laps-left model: elapsed 1369.1 s, remaining 2230.9 s, median lap 119.8 s -> 19 (no-stop 19, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L12: fuel/lap 2.63 | fuel 70.9 = 27.0 laps | 19.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (54 samples, σ 0.59 m, ±12 m, across -1.3…0.5 m)
+🗣 spoke (position, imp 4, cost 1.4s, ledger 1.4/20.4s, 1 line): positionChange(P9→P10)
+🔊 P 10
+🛞 wear (test) lap 11 done: FL 36.2 FR 32.6 RL 24.6 RR 22.8 % — RM ×4 (tap)
+🗣 bulletin (imp 6, cost 6.4s, ledger 7.8/20.4s, 2 lines): L12
+🔊 on lap 12
+🗣 spoke (radio, imp 10, cost 2.5s, ledger 10.3/20.4s, 1 line): radioCheck(P10, fuel 70%)
+🔊 2 02 point six
+🔊 5 point six down
+🔊 all quiet on the wall
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.8/20.4s, 1 line, protected): strategyUpdate(fuel 26.97L, togo 19, stops 0)
+🔊 fuel to the finish
+🔊 19 to go
+🛞 compound: stint pitExit lap 5, refinement 12 — C 0.969 over 780 s (6928 samples)
+🛞 compound: stint pitExit lap 5, refinement 13 — C 0.969 over 840 s (7538 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 bit wide there
+🔊 watch track limits
+🔧 huge stop 189 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 399632 lap 12
+🔵 sub-state FLYING → — lap 12
+🔧 pit-entry anchor learned: 122436 ms into lap (stop on lap 12)
+🔧 pended impact cancelled: pit entry
+📊 laps-left model: elapsed 1491.5 s, remaining 2108.5 s, median lap 119.8 s -> 18 (no-stop 18, pit loss 12.1 s, rate 8 l/s)
+📊 strategy: no refuel needed — 26.0 laps of fuel against 18 to go (margin 19.9)
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitEntry (24 samples, σ 0.15 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 5.4/20.4s, 1 line, protected): pittingIn(L12)
+🔊 pitting in
+🗣 spoke (strategy, imp 0, cost 4.2s, ledger 9.6/20.4s, 1 line, protected): refuelNotNeeded(18 laps to go)
+🔊 crew's waiting
+🔊 don't refuel
+🔊 what's in there takes us home
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🗑 dropped (box deadline; cost 2.5s, 0.5s of 13.2s left): inPitBox
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test) stint 1 ended at tyre change: FL 42.2 FR 38.0 RL 28.6 RR 26.5 % — RM ×4 (tap)
+🛞 compound: stint pitExit lap 5, refinement 14 (final) — C 0.979 over 861 s (7884 samples)
+🛞 compound: window opened — pitExit, lap 12
+🔀 state PIT → RACING at pkt 400662 lap 13
+🔵 sub-state — → OUT_LAP lap 13
+🅿️ PIT completed: in L12 → out L13 (no fuel, transit 20.5s, teleport=false)
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitBox (24 samples, σ 0.00 m, ±0 m)
+🅿️ entry→box 16.1s (speaking budget)
+🔧 pit approach: entry at station 5499 m of 5703 m (18.0 m off the line), lead 20 s
+📋 lap 12: 2:19.603 in fuel_used=2.44
+🔵 lap 12 antics: off, lost 1
+🗑 dropped (in pit): lapStarted(13, last 139.60s)
+🗑 dropped (in pit): positionChange(P10→P12)
+🔧 teleport 172 m on lap 13 — pit release, not a reset
+📊 laps-left model: elapsed 1508.7 s, remaining 2091.3 s, median lap 119.8 s -> 18 (no-stop 18, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L13: fuel/lap 2.63 | fuel 68.5 = 26.0 laps | 18.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 3.4s, ledger 10.0/20.4s, 1 line, protected): exitingPit(+0.00l)
+🔊 exiting pit lane
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitExit (24 samples, σ 0.00 m, ±12 m, across -0.0…0.0 m)
+🗺 mapper: lap 12 rejected (teleport)
+🛞 wear (test) lap 12 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RS ×4 (estimate)
+📊 laps-left model: elapsed 1508.7 s, remaining 2079.2 s, median lap 119.8 s -> 18 (no-stop 18, pit loss 12.1 s, rate 8 l/s), out-lap -12.1s
+📊 strategy L13: fuel/lap 2.63 | fuel 68.5 = 26.0 laps | 18.0 laps to go | stops 0 (post-stop recalc)
+🔧 fresh tyres confirmed: 60.0° across all four (was 84.1° at pit entry, step 24.1°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 13.0/20.4s, 1 line, protected): strategyUpdate(fuel 26.04L, togo 18, stops 0, post-stop)
+🔊 mind the white lines
+🗣 spoke (chatter, imp 10, cost 2.2s, ledger 15.2/20.4s, 1 line): radioCheck(P12, fuel 68%)
+🔊 good stop
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 17.7/20.4s, 1 line): tyreTemps(low, 60°)
+🔊 fuel to the end
+🔊 radio check
+🔊 P 12
+🔊 tyres are cold
+🔊 be careful
+🗑 dropped (cooldown strategy; 17.9s of 75.0s via strategy x0.50): strategyUpdate(fuel 26.04L, togo 18, stops 0)
+🛞 compound: racingSoft (high confidence, C 0.89, margin 0.057, relative to RM (truth), own reference)
+🛞 compound prompt: pitExit lap 12, estimate RS
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RS, high)
+🔊 reads like racing softs
+🛞 compound prompt confirmed: RS
+🛞 compound: RS confirmed by the driver — anchor
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔊 tyres in the window
+🔵 sub-state OUT_LAP → FLYING lap 14
+📋 lap 13: 1:58.454 out fuel_used=2.39
+🔵 lap 13: clean
+📊 laps-left model: elapsed 1627.1 s, remaining 1972.9 s, median lap 119.8 s -> 17 (no-stop 17, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L14: fuel/lap 2.63 | fuel 66.1 = 25.1 laps | 17.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (55 samples, σ 0.61 m, ±12 m, across -1.4…0.5 m)
+🗣 spoke (position, imp 4, cost 2.8s, ledger 4.9/20.4s, 1 line): positionChange(P12→P11)
+🔊 P 11
+🗺 mapper: lap 13 rejected (teleport)
+🛞 wear (test) lap 13 done: FL 12.9 FR 11.6 RL 9.0 RR 8.4 % — RS ×4 (tap)
+🛞 compound: stint pitExit lap 12, refinement 1 — C 0.887 over 120 s (1039 samples)
+🔊 1 place gained
+🗣 bulletin (imp 6, cost 4.1s, ledger 6.9/20.4s, 2 lines): L14
+🗣 spoke (radio, imp 10, cost 2.5s, ledger 9.4/20.4s, 1 line): radioCheck(P11, fuel 66%)
+🔊 lap 14
+🔊 1 58 point five
+🔊 all quiet on the wall
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.9/20.4s, 1 line, protected): strategyUpdate(fuel 25.14L, togo 17, stops 0)
+🔊 fuel to the finish
+🔊 17 to go
+🛞 compound: stint pitExit lap 12, refinement 2 — C 0.856 over 180 s (1695 samples)
+📋 lap 14: 1:58.237 clean fuel_used=2.23
+🔵 lap 14: clean
+📊 laps-left model: elapsed 1745.4 s, remaining 1854.6 s, median lap 119.8 s -> 16 (no-stop 16, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L15: fuel/lap 2.57 | fuel 63.9 = 24.9 laps | 16.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (56 samples, σ 0.61 m, ±12 m, across -1.4…0.5 m)
+🗣 spoke (position, imp 4, cost 3.3s, ledger 3.3/20.4s, 1 line): positionChange(P11→P10)
+🔊 P 10
+🛞 wear (test) lap 14 done: FL 26.2 FR 23.6 RL 17.9 RR 16.5 % — RS ×4 (tap)
+🔊 you gained 1 place
+🗣 bulletin (imp 6, cost 5.8s, ledger 9.1/20.4s, 2 lines): L15
+🛞 compound: stint pitExit lap 12, refinement 3 — C 0.876 over 240 s (2215 samples)
+🔊 on lap 15
+🔊 ok laptime
+🔊 1 58 point two
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.6/20.4s, 1 line, protected): strategyUpdate(fuel 24.87L, togo 16, stops 0)
+🔊 fuel to the finish
+🔊 16 to go
+🛞 compound: stint pitExit lap 12, refinement 4 — C 0.866 over 300 s (2918 samples)
+📋 lap 15: 1:57.934 clean fuel_used=2.24
+🔵 lap 15: clean
+📊 laps-left model: elapsed 1863.3 s, remaining 1736.7 s, median lap 119.8 s -> 15 (no-stop 15, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L16: fuel/lap 2.48 | fuel 61.6 = 24.8 laps | 15.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (57 samples, σ 0.61 m, ±12 m, across -1.4…0.5 m)
+🛞 wear (test) lap 15 done: FL 39.7 FR 35.5 RL 26.8 RR 24.6 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 8.2s, ledger 8.2/20.4s, 2 lines): L16
+🔊 lap 16
+🔊 that was a good lap
+🛞 compound: stint pitExit lap 12, refinement 5 — C 0.876 over 360 s (3296 samples)
+🔊 1 point oh down on your best lap
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 12.1/20.4s, 1 line, protected): strategyUpdate(fuel 24.82L, togo 15, stops 0)
+🔊 fuel to the end
+🔊 15 to go
+🛞 compound: stint pitExit lap 12, refinement 6 — C 0.866 over 420 s (4076 samples)
+📋 lap 16: 1:59.592 clean fuel_used=2.27
+🔵 lap 16: clean
+📊 laps-left model: elapsed 1982.9 s, remaining 1617.1 s, median lap 119.8 s -> 14 (no-stop 14, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L17: fuel/lap 2.41 | fuel 59.4 = 24.6 laps | 14.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (58 samples, σ 0.61 m, ±12 m, across -1.4…0.5 m)
+🛞 wear (test) lap 16 done: FL 52.9 FR 47.7 RL 35.5 RR 32.8 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 6.2s, ledger 6.2/20.4s, 2 lines): L17
+🔊 on lap 17
+🔊 last lap was a 1 59 point six
+🛞 compound: stint pitExit lap 12, refinement 7 — C 0.866 over 480 s (4603 samples)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 9.8/20.4s, 1 line, protected): strategyUpdate(fuel 24.60L, togo 14, stops 0)
+🔊 fuel to the finish
+🔊 14 to go
+🛞 compound: stint pitExit lap 12, refinement 8 — C 0.866 over 540 s (5134 samples)
+📋 lap 17: 1:59.047 clean fuel_used=2.54
+🔵 lap 17: clean
+📊 laps-left model: elapsed 2101.9 s, remaining 1498.1 s, median lap 119.5 s -> 13 (no-stop 13, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L18: fuel/lap 2.41 | fuel 56.8 = 23.5 laps | 13.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (59 samples, σ 0.61 m, ±12 m, across -1.4…0.5 m)
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P10→P9)
+🔊 nice
+🛞 wear (test) lap 17 done: FL 66.2 FR 59.8 RL 44.4 RR 41.1 % — RS ×4 (tap)
+🔊 1 position gained
+🗣 bulletin (imp 6, cost 6.2s, ledger 9.9/20.4s, 2 lines): L18
+🔊 you're P 9
+🔊 lap 18 now
+🔊 ok laptime
+🛞 compound: stint pitExit lap 12, refinement 9 — C 0.876 over 600 s (5461 samples)
+🔊 1 59 point oh five
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.4/20.4s, 1 line, protected): strategyUpdate(fuel 23.55L, togo 13, stops 0)
+🔊 fuel to the finish
+🔊 13 to go
+🛞 compound: stint pitExit lap 12, refinement 10 — C 0.876 over 660 s (6060 samples)
+🔧 huge stop 195 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 443456 lap 18
+🔵 sub-state FLYING → — lap 18
+🔧 pit-entry anchor learned: 120685 ms into lap (stop on lap 18)
+🔧 pended impact cancelled: pit entry
+📊 laps-left model: elapsed 2222.6 s, remaining 1377.4 s, median lap 119.5 s -> 12 (no-stop 12, pit loss 12.1 s, rate 8 l/s)
+📊 strategy: no refuel needed — 22.6 laps of fuel against 12 to go (margin 13.6)
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitEntry (25 samples, σ 0.20 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 0.8/20.4s, 1 line, protected): pittingIn(L18)
+🔊 pitting
+🗣 spoke (strategy, imp 0, cost 4.2s, ledger 5.0/20.4s, 1 line, protected): refuelNotNeeded(12 laps to go)
+🔊 don't refuel
+🔊 what's in there takes us home
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🗑 dropped (box deadline; cost 1.6s, 0.5s of 13.2s left): inPitBox
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test) stint 2 ended at tyre change: FL 79.4 FR 71.5 RL 52.9 RR 49.0 % — RS ×4 (tap)
+🛞 compound: stint pitExit lap 12, refinement 11 (final) — C 0.876 over 713 s (6550 samples)
+🛞 compound: window opened — pitExit, lap 18
+🔀 state PIT → RACING at pkt 444483 lap 19
+🔵 sub-state — → OUT_LAP lap 19
+🅿️ PIT completed: in L18 → out L19 (no fuel, transit 20.5s, teleport=false)
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitBox (25 samples, σ 0.00 m, ±0 m)
+🅿️ entry→box 16.1s (speaking budget)
+🔧 pit approach: entry at station 5499 m of 5703 m (18.1 m off the line), lead 20 s
+📋 lap 18: 2:17.803 in fuel_used=2.32
+🔵 lap 18: clean
+🗑 dropped (in pit): lapStarted(19, last 137.80s)
+🔧 teleport 172 m on lap 19 — pit release, not a reset
+🗑 dropped (in pit): positionChange(P9→P10)
+📊 laps-left model: elapsed 2239.8 s, remaining 1360.2 s, median lap 119.5 s -> 12 (no-stop 12, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L19: fuel/lap 2.35 | fuel 54.5 = 23.2 laps | 12.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 6.6/20.4s, 1 line, protected): exitingPit(+0.00l)
+🔊 exiting pit lane
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitExit (25 samples, σ 0.00 m, ±12 m, across -0.0…0.0 m)
+🗺 mapper: lap 18 rejected (teleport)
+🛞 wear (test) lap 18 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RS ×4 (estimate)
+📊 laps-left model: elapsed 2239.8 s, remaining 1348.1 s, median lap 119.5 s -> 12 (no-stop 12, pit loss 12.1 s, rate 8 l/s), out-lap -12.1s
+📊 strategy L19: fuel/lap 2.35 | fuel 54.5 = 23.2 laps | 12.0 laps to go | stops 0 (post-stop recalc)
+🔧 fresh tyres confirmed: 60.0° across all four (was 81.1° at pit entry, step 21.1°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 9.5/20.4s, 1 line, protected): strategyUpdate(fuel 23.17L, togo 12, stops 0, post-stop)
+🔊 good stop
+🔊 fuel to the end
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 12.0/20.4s, 1 line): tyreTemps(low, 60°)
+🔊 tyres are cold
+🔊 be careful
+🗑 dropped (cooldown strategy; 17.9s of 75.0s via strategy x0.50): strategyUpdate(fuel 23.17L, togo 12, stops 0)
+🛞 compound: racingSoft (high confidence, C 0.85, margin 0.141, relative to RS (truth), own reference)
+🛞 compound prompt: pitExit lap 18, estimate RS
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(pitExit, RS, high)
+🔊 probably racing softs
+🛞 compound prompt confirmed: RS
+🛞 compound: RS confirmed by the driver — anchor
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 2.9/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔊 tyres are at a good temperature
+🔵 sub-state OUT_LAP → FLYING lap 20
+📋 lap 19: 1:57.397 out fuel_used=2.80
+🔵 lap 19: clean
+📊 laps-left model: elapsed 2357.1 s, remaining 1242.9 s, median lap 119.5 s -> 11 (no-stop 11, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L20: fuel/lap 2.35 | fuel 51.7 = 22.0 laps | 11.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (60 samples, σ 0.61 m, ±12 m, across -1.4…0.5 m)
+🗺 mapper: lap 19 rejected (teleport)
+🛞 wear (test) lap 19 done: FL 13.1 FR 11.6 RL 9.1 RR 8.4 % — RS ×4 (tap)
+🛞 compound: stint pitExit lap 18, refinement 1 — C 0.876 over 120 s (991 samples)
+🗣 bulletin (imp 6, cost 6.7s, ledger 6.7/20.4s, 2 lines): L20
+🔊 on lap 20
+🔊 great lap
+🔊 point five down on your previous best
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 10.7/20.4s, 1 line, protected): strategyUpdate(fuel 21.98L, togo 11, stops 0)
+🔊 fuel to the end
+🔊 11 to go
+🛞 compound: stint pitExit lap 18, refinement 2 — C 0.866 over 180 s (1506 samples)
+📋 lap 20: 1:57.009 clean fuel_used=2.57
+🔵 lap 20: clean
+📊 laps-left model: elapsed 2474.1 s, remaining 1125.9 s, median lap 119.3 s -> 10 (no-stop 10, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L21: fuel/lap 2.35 | fuel 49.1 = 20.9 laps | 10.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (61 samples, σ 0.61 m, ±12 m, across -1.4…0.5 m)
+🛞 wear (test) lap 20 done: FL 26.4 FR 23.7 RL 18.0 RR 16.6 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 4.2s, ledger 4.2/20.4s, 2 lines): L21
+🔊 lap 21
+🔊 great lap
+🔊 keep them coming
+🛞 compound: stint pitExit lap 18, refinement 3 — C 0.876 over 240 s (1996 samples)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 7.7/20.4s, 1 line, protected): strategyUpdate(fuel 20.89L, togo 10, stops 0)
+🔊 fuel to the finish
+🔊 10 to go
+🛞 compound: stint pitExit lap 18, refinement 4 — C 0.856 over 300 s (2589 samples)
+📋 lap 21: 1:57.325 clean fuel_used=2.49
+🔵 lap 21: clean
+📊 laps-left model: elapsed 2591.5 s, remaining 1008.5 s, median lap 118.6 s -> 9 (no-stop 9, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L22: fuel/lap 2.41 | fuel 46.7 = 19.4 laps | 9.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (62 samples, σ 0.61 m, ±12 m, across -1.4…0.5 m)
+🗣 spoke (position, imp 4, cost 3.5s, ledger 3.5/20.4s, 1 line): positionChange(P10→P9)
+🔊 up to P 9
+🛞 wear (test) lap 21 done: FL 40.2 FR 36.0 RL 27.2 RR 25.0 % — RS ×4 (tap)
+🔊 keep it clean
+🗣 bulletin (imp 6, cost 6.7s, ledger 10.2/20.4s, 2 lines): L22
+🔊 that's lap 22
+🔊 great lap
+🔊 1 57 point three two five
+🛞 compound: stint pitExit lap 18, refinement 5 — C 0.866 over 360 s (3024 samples)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.7/20.4s, 1 line, protected): strategyUpdate(fuel 19.39L, togo 9, stops 0)
+🔊 fuel to the finish
+🔊 9 to go
+🛞 compound: stint pitExit lap 18, refinement 6 — C 0.866 over 420 s (3796 samples)
+📋 lap 22: 1:59.645 clean fuel_used=2.41
+🔵 lap 22: clean
+📊 laps-left model: elapsed 2711.1 s, remaining 888.9 s, median lap 118.6 s -> 8 (no-stop 8, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L23: fuel/lap 2.45 | fuel 44.2 = 18.0 laps | 8.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (63 samples, σ 0.61 m, ±12 m, across -1.4…0.5 m)
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P9→P8)
+🔊 clean move up to P 8
+🛞 wear (test) lap 22 done: FL 53.6 FR 47.8 RL 36.1 RR 33.2 % — RS ×4 (tap)
+🔊 no drama needed
+🗣 bulletin (imp 6, cost 4.9s, ledger 9.3/20.4s, 2 lines): L23
+🔊 lap 23
+🔊 last lap 1 59 point six
+🛞 compound: stint pitExit lap 18, refinement 7 — C 0.876 over 480 s (4336 samples)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 12.8/20.4s, 1 line, protected): strategyUpdate(fuel 18.03L, togo 8, stops 0)
+🔊 fuel to the finish
+🔊 8 to go
+🛞 compound: stint pitExit lap 18, refinement 8 — C 0.866 over 540 s (4931 samples)
+📋 lap 23: 1:59.679 clean fuel_used=2.50
+🔵 lap 23: clean
+📊 laps-left model: elapsed 2830.8 s, remaining 769.2 s, median lap 118.6 s -> 7 (no-stop 7, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L24: fuel/lap 2.50 | fuel 41.7 = 16.7 laps | 7.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (64 samples, σ 0.60 m, ±12 m, across -1.4…0.5 m)
+🗣 spoke (position, imp 4, cost 3.5s, ledger 3.5/20.4s, 1 line): positionChange(P8→P7)
+🔊 up to P 7
+🛞 wear (test) lap 23 done: FL 66.8 FR 59.8 RL 44.9 RR 41.3 % — RS ×4 (tap)
+🔊 keep it clean
+🗣 bulletin (imp 6, cost 4.9s, ledger 8.5/20.4s, 2 lines): L24
+🔊 on lap 24
+🔊 laptime 1 59 point seven
+🛞 compound: stint pitExit lap 18, refinement 9 — C 0.876 over 600 s (5420 samples)
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 12.4/20.4s, 1 line, protected): strategyUpdate(fuel 16.72L, togo 7, stops 0)
+🔊 fuel to the end
+🔊 7 to go
+🛞 compound: stint pitExit lap 18, refinement 10 — C 0.866 over 660 s (6141 samples)
+🔧 huge stop 195 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 487119 lap 24
+🔵 sub-state FLYING → — lap 24
+🔧 pit-entry anchor learned: 120277 ms into lap (stop on lap 24)
+🔧 pended impact cancelled: pit entry
+📊 laps-left model: elapsed 2951.1 s, remaining 648.9 s, median lap 118.6 s -> 6 (no-stop 6, pit loss 12.1 s, rate 8 l/s)
+📊 strategy: no refuel needed — 15.7 laps of fuel against 6 to go (margin 7.3)
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitEntry (26 samples, σ 0.20 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 0.8/20.4s, 1 line, protected): pittingIn(L24)
+🔊 pitting
+🗣 spoke (strategy, imp 0, cost 4.2s, ledger 5.0/20.4s, 1 line, protected): refuelNotNeeded(6 laps to go)
+🔊 no fuel needed
+🔊 we've got enough to the end
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🗑 dropped (box deadline; cost 2.5s, 0.5s of 13.2s left): inPitBox
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test) stint 3 ended at tyre change: FL 79.9 FR 71.6 RL 53.5 RR 49.3 % — RS ×4 (tap)
+🛞 compound: stint pitExit lap 18, refinement 11 (final) — C 0.876 over 711 s (6511 samples)
+🛞 compound: window opened — pitExit, lap 24
+🔀 state PIT → RACING at pkt 488146 lap 25
+🔵 sub-state — → OUT_LAP lap 25
+🅿️ PIT completed: in L24 → out L25 (no fuel, transit 20.5s, teleport=false)
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitBox (26 samples, σ 0.01 m, ±0 m)
+🅿️ entry→box 16.1s (speaking budget)
+🔧 pit approach: entry at station 5499 m of 5703 m (18.1 m off the line), lead 20 s
+📋 lap 24: 2:17.395 in fuel_used=2.43
+🔵 lap 24: clean
+🗑 dropped (in pit): lapStarted(25, last 137.40s)
+🗑 dropped (in pit): positionChange(P7→P9)
+🔧 teleport 172 m on lap 25 — pit release, not a reset
+📊 laps-left model: elapsed 2968.2 s, remaining 631.8 s, median lap 118.6 s -> 6 (no-stop 6, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L25: fuel/lap 2.50 | fuel 39.3 = 15.7 laps | 6.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 1.2s, ledger 6.2/20.4s, 1 line, protected): exitingPit(+0.00l)
+🔊 exiting pits
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/pitExit (26 samples, σ 0.01 m, ±12 m, across -0.0…0.0 m)
+🗺 mapper: lap 24 rejected (teleport)
+🛞 wear (test) lap 24 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RS ×4 (estimate)
+🔧 fresh tyres confirmed: 60.0° across all four (was 81.0° at pit entry, step 21.0°)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+📊 laps-left model: elapsed 2968.2 s, remaining 619.7 s, median lap 118.6 s -> 6 (no-stop 6, pit loss 12.1 s, rate 8 l/s), out-lap -12.1s
+📊 strategy L25: fuel/lap 2.50 | fuel 39.3 = 15.7 laps | 6.0 laps to go | stops 0 (post-stop recalc)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 9.1/20.4s, 1 line, protected): strategyUpdate(fuel 15.74L, togo 6, stops 0, post-stop)
+🔊 good stop
+🔊 fuel to the end
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 12.0/20.4s, 1 line): tyreTemps(low, 60°)
+🔊 tyres not in the window yet
+🗑 dropped (cooldown strategy; 17.7s of 75.0s via strategy x0.50): strategyUpdate(fuel 15.74L, togo 6, stops 0)
+🗣 spoke (tyres, imp 4, cost 4.2s, ledger 4.2/20.4s, 1 line): tyreTemps(high, 94°, rearLeft)
+🔊 watch the rear left tyre
+🔊 it is getting hot
+🗑 dropped (cooldown tyretemps; 16.2s of 22.5s via tyres x0.50): tyreTemps(low, 65°)
+🛞 compound: no call — no dry fit — nearest RS at 0.222 (C 0.70)
+🗑 dropped (no catalog lines; tyres): compoundEstimate(pitExit, abstained: no dry fit — nearest RS at 0.222)
+🛞 compound prompt: pitExit lap 24, estimate none
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 2.9/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔊 tyres are at a good temperature
+🛞 compound prompt corrected: RS
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: stint pitExit lap 24, refinement 1 — C 0.846 over 120 s (1112 samples)
+🔵 sub-state OUT_LAP → FLYING lap 26
+📋 lap 25: 2:11.881 out fuel_used=2.64
+🔵 lap 25: clean
+📊 laps-left model: elapsed 3100.1 s, remaining 499.9 s, median lap 118.6 s -> 5 (no-stop 5, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L26: fuel/lap 2.50 | fuel 36.7 = 14.7 laps | 5.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (65 samples, σ 0.60 m, ±12 m, across -1.4…0.5 m)
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P9→P10)
+🔊 down to P 10
+🗺 mapper: lap 25 rejected (teleport)
+🛞 wear (test) lap 25 done: FL 13.2 FR 11.7 RL 9.4 RR 8.7 % — RS ×4 (tap)
+🔊 head down
+🗣 bulletin (imp 6, cost 5.8s, ledger 10.2/20.4s, 2 lines): L26
+🔊 get it back
+🔊 that's lap 26
+🔊 2 11 point nine
+🔊 reset
+🔊 go again
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.7/20.4s, 1 line, protected): strategyUpdate(fuel 14.68L, togo 5, stops 0)
+🔊 fuel to the finish
+🔊 5 to go
+🛞 compound: stint pitExit lap 24, refinement 2 — C 0.815 over 180 s (1649 samples)
+🛞 compound: stint pitExit lap 24, refinement 3 — C 0.846 over 240 s (2250 samples)
+📋 lap 26: 1:57.215 clean fuel_used=2.60
+🔵 lap 26: clean
+📊 laps-left model: elapsed 3217.3 s, remaining 382.7 s, median lap 118.5 s -> 4 (no-stop 4, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L27: fuel/lap 2.53 | fuel 34.1 = 13.4 laps | 4.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (66 samples, σ 0.60 m, ±12 m, across -1.4…0.5 m)
+🛞 wear (test) lap 26 done: FL 26.6 FR 23.7 RL 18.3 RR 16.9 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 6.7s, ledger 6.7/20.4s, 2 lines): L27
+🔊 on lap 27
+🔊 great lap
+🔊 1 57 point two one five
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 10.6/20.4s, 1 line, protected): strategyUpdate(fuel 13.44L, togo 4, stops 0)
+🔊 fuel to the end
+🔊 4 to go
+🛞 compound: stint pitExit lap 24, refinement 4 — C 0.825 over 300 s (2745 samples)
+🗣 chain (imp 4, cost 1.2s, ledger 1.2/20.4s, 1 events, 1 lines)
+🔊 light contact
+🛞 compound: stint pitExit lap 24, refinement 5 — C 0.846 over 360 s (3313 samples)
+📋 lap 27: 1:57.358 clean fuel_used=2.42
+🔵 lap 27 antics: contact
+📊 laps-left model: elapsed 3334.7 s, remaining 265.3 s, median lap 118.2 s -> 3 (no-stop 3, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L28: fuel/lap 2.50 | fuel 31.6 = 12.7 laps | 3.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (67 samples, σ 0.61 m, ±12 m, across -1.4…0.8 m)
+🛞 wear (test) lap 27 done: FL 40.3 FR 36.1 RL 27.4 RR 25.3 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 7.6s, ledger 7.6/20.4s, 2 lines): L28
+🔊 lap 28
+🔊 that was a great lap
+🔊 point four down on your best lap
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 11.1/20.4s, 1 line, protected): strategyUpdate(fuel 12.67L, togo 3, stops 0)
+🔊 fuel to the finish
+🔊 3 to go
+🛞 compound: stint pitExit lap 24, refinement 6 — C 0.835 over 420 s (3757 samples)
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🔊 check for damage
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.6s, ledger 3.3/20.4s, 1 events, 1 lines)
+🔊 watch track limits
+🛞 compound: stint pitExit lap 24, refinement 7 — C 0.856 over 480 s (4329 samples)
+📋 lap 28: 1:58.822 clean fuel_used=2.60
+🔵 lap 28 antics: contact, off
+📊 laps-left model: elapsed 3453.5 s, remaining 146.5 s, median lap 118.1 s -> 2 (no-stop 2, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L29: fuel/lap 2.50 | fuel 29.0 = 11.6 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (68 samples, σ 0.60 m, ±12 m, across -1.4…0.8 m)
+🛞 wear (test) lap 28 done: FL 53.3 FR 48.2 RL 36.1 RR 33.5 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 5.8s, ledger 7.4/20.4s, 2 lines): L29
+🔊 that's lap 29
+🔊 ok laptime
+🔊 1 58 point eight
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 9.8/20.4s, 1 line, protected): strategyUpdate(fuel 11.63L, togo 2, stops 0)
+🔊 fuel to the end
+🔊 2 to go
+🛞 compound: stint pitExit lap 24, refinement 8 — C 0.856 over 540 s (4957 samples)
+🛞 compound: stint pitExit lap 24, refinement 9 — C 0.856 over 600 s (5564 samples)
+📋 lap 29: 2:00.348 clean fuel_used=2.67
+🎭 mood focused → relaxed
+🔵 lap 29: clean
+📊 laps-left model: elapsed 3573.8 s, remaining 26.2 s, median lap 118.1 s -> 1 (no-stop 1, pit loss 12.1 s, rate 8 l/s)
+📊 strategy L30: fuel/lap 2.55 | fuel 26.4 = 10.3 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (69 samples, σ 0.60 m, ±12 m, across -1.4…0.8 m)
+🛞 wear (test) lap 29 done: FL 66.3 FR 59.8 RL 44.8 RR 41.5 % — RS ×4 (tap)
+🗣 bulletin (imp 6, cost 7.1s, ledger 7.1/20.4s, 2 lines): L30
+🔊 on lap 30
+🔊 clean lap
+🔊 2 00 point three
+🔊 that's the way
+🛞 compound: stint pitExit lap 24, refinement 10 — C 0.856 over 660 s (6061 samples)
+🛞 compound: stint pitExit lap 24, refinement 11 — C 0.866 over 720 s (6664 samples)
+📋 lap 30: 2:00.042 clean fuel_used=2.71
+🔵 lap 30: clean
+📊 strategy: finish armed at L31 (clock 3693.9 s of 3600) — awaiting lap-clock freeze
+📊 laps-left model: elapsed 3693.9 s, remaining -93.9 s, median lap 119.2 s -> 0 (expired)
+📊 strategy L31: fuel/lap 2.60 | fuel 23.7 = 9.1 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Autodrome Lago Maggiore - Full Course/lobby/finishLine (70 samples, σ 0.82 m, ±12 m, across -4.8…0.8 m)
+🗣 spoke (lapPace, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): paceDegradation(0.86s/lap over 5)
+🔊 lost a lot of pace
+🛞 wear (test) lap 30 done: FL 79.5 FR 72.0 RL 53.6 RR 49.8 % — RS ×4 (tap)
+📊 strategy: race finished at L31 — confirmed, lap clock frozen 0.50 s (handover 0.48 s)
+🗑 flag: pending commentary cancelled
+🛞 compound: stint pitExit lap 24, refinement 12 (final) — C 0.866 over 721 s (6683 samples)
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 5.0/20.4s, 1 line): raceFinished(L31)
+💾 race preserved (finished): 31 lap(s), 4 stop(s), start GRID_START, P10/12
+✂️ capture auto-stop in 30s (race finished)
+🔊 you're over the finish line
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 174 gate(s) from 384 stored, 67 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 17.0 s from the unofficial table (Autodrome Lago Maggiore - Full Course)
+📊 strategy: track pit loss 17.0 s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+🔧 session restart: lap-scoped state reset
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🅿️ no pit speaking budget for this track
+🛞 compound: car 2183 — reference: CH CM CS RH RM RS SH SM SS
+🎮 onTrack → entered (pkt 532088, lap 0, flags 0x01C1, pos 1, cars 12, tod 77400000)
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 225014 packets

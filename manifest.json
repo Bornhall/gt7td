@@ -43,6 +43,38 @@
       ]
     },
     {
+      "stem": "10-powerPackRace-20261007_212822",
+      "courseId": 10,
+      "track": "Suzuka Circuit",
+      "context": "powerPackRace",
+      "carId": 1689,
+      "car": "Honda Civic Type R (EK) Touring Car",
+      "carClass": null,
+      "carClassSource": null,
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 38317,
+      "durationS": 639.3,
+      "rawBytes": 14100656,
+      "gzBytes": 6479599,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 0,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "road",
+          "outcome": "corrected",
+          "finalLabel": "SH"
+        }
+      ],
+      "tyreCompounds": [
+        "SH"
+      ]
+    },
+    {
       "stem": "11-lobby-20260721_235320",
       "courseId": 11,
       "track": "High Speed Ring",
@@ -3302,6 +3334,73 @@
       ]
     },
     {
+      "stem": "365-lobby-20261012_203220",
+      "courseId": 365,
+      "track": "Autodrome Lago Maggiore - Full Course",
+      "context": "lobby",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 225014,
+      "durationS": 3754.0,
+      "rawBytes": 82805152,
+      "gzBytes": 39960786,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 1,
+      "tyreWearMultiplier": 4,
+      "identifiedCourseId": 365,
+      "identifiedTrackName": "Autodrome Lago Maggiore - Full Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 5,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "corrected",
+          "finalLabel": "RM"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 12,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 18,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 24,
+          "outcome": "corrected",
+          "finalLabel": "RS",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM",
+        "RS",
+        "RS",
+        "RS"
+      ]
+    },
+    {
       "stem": "376-customRace-20260722_122453",
       "courseId": 376,
       "track": "Kyoto Driving Park - Yamagiwa",
@@ -3504,6 +3603,40 @@
       "countsSource": "reprocess",
       "identifiedCourseId": 122,
       "identifiedTrackName": "Willow Springs International Raceway: Big Willow"
+    },
+    {
+      "stem": "376-powerPackRace-20261007_221626",
+      "courseId": 376,
+      "track": "Kyoto Driving Park - Yamagiwa",
+      "context": "powerPackRace",
+      "carId": 451,
+      "car": "Subaru Impreza 22B-STi Version '98",
+      "carClass": null,
+      "carClassSource": null,
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 52549,
+      "durationS": 876.7,
+      "rawBytes": 19338032,
+      "gzBytes": 9349392,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 3,
+      "identifiedCourseId": 376,
+      "identifiedTrackName": "Kyoto Driving Park - Yamagiwa",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "corrected",
+          "finalLabel": "RH"
+        }
+      ],
+      "tyreCompounds": [
+        "RH"
+      ]
     },
     {
       "stem": "376-timeTrial-20260722_171534",
@@ -5323,6 +5456,40 @@
           "outcome": "unchallenged",
           "abstained": true
         }
+      ]
+    },
+    {
+      "stem": "896-powerPackRace-20261007_215346",
+      "courseId": 896,
+      "track": "Autopolis International Racing Course",
+      "context": "powerPackRace",
+      "carId": 451,
+      "car": "Subaru Impreza 22B-STi Version '98",
+      "carClass": null,
+      "carClassSource": null,
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 44185,
+      "durationS": 737.2,
+      "rawBytes": 16260080,
+      "gzBytes": 7938232,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 3,
+      "identifiedCourseId": 896,
+      "identifiedTrackName": "Autopolis International Racing Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "corrected",
+          "finalLabel": "RH"
+        }
+      ],
+      "tyreCompounds": [
+        "RH"
       ]
     },
     {

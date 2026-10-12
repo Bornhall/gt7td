@@ -1,0 +1,255 @@
+# EzioClient session log
+# file:    20261007_221626 - Kyoto Driving Park - Yamagiwa (376).gt7td
+# started: 2026-10-07T20:16:26Z
+# track:   Kyoto Driving Park - Yamagiwa (CRS 376)
+# context: powerPackRace
+# ---
+📊 pit loss: estimated 14.0 s from the unofficial table (Kyoto Driving Park - Yamagiwa)
+📊 strategy: track pit loss 14.0 s
+📊 strategy: declared 8 lap race
+# car:     Subaru Impreza 22B-STi Version '98 [uncategorised] (id 451) — confirmed from telemetry
+🔓 learning resumed — player on track
+🛞 compound: car 451 — no reference — generic ladder
+🎮 menus → onTrack (pkt 4736534, lap 0, flags 0x0019, pos 1, cars 17, tod 45000000)
+🔧 session restart: lap-scoped state reset
+🧭 polyline [PRE-GREEN]: 22 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Centre median 21.51 (alignment -0.71)
+🧭 polyline [PRE-GREEN]: Kyoto Driving Park - Yamagiwa fits (median 3.62 m) but on 107 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 22 candidate(s) dropped on direction — best of them BB Raceway median 51.10 (alignment -0.74)
+🧭 polyline [PRE-GREEN]: Kyoto Driving Park - Yamagiwa fits (median 2.91 m) but on 218 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 18 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course median 59.99 (alignment -0.61)
+🧭 polyline [PRE-GREEN]: Kyoto Driving Park - Yamagiwa fits (median 2.22 m) but on 329 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 19 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course median 38.42 (alignment -0.67)
+🧭 polyline [PRE-GREEN]: Kyoto Driving Park - Yamagiwa fits (median 2.27 m) but on 440 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 15 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - West median 42.24 (alignment -0.56)
+🧭 polyline [PRE-GREEN]: Kyoto Driving Park - Yamagiwa fits (median 2.13 m) but on 551 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 13 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - West median 58.24 (alignment -0.43)
+🧭 polyline [PRE-GREEN]: Kyoto Driving Park - Yamagiwa fits (median 2.11 m) but on 662 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 9 candidate(s) dropped on direction — best of them Mount Panorama Motor Racing Circuit median 37.13 (alignment -0.35)
+🧭 polyline [PRE-GREEN]: Kyoto Driving Park - Yamagiwa fits (median 1.91 m) but on 662 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 17 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield B median 19.55 (alignment -0.45)
+🧭 polyline [PRE-GREEN]: Kyoto Driving Park - Yamagiwa fits (median 1.71 m) but on 665 m of road — waiting for 800 m
+🏁 start type: ROLLING_START at pkt 4739045 lap 1
+🔀 state UNKNOWN → RACING at pkt 4739045 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.51
+📊 strategy: green flag (speed) at pkt 4739045, race clock running
+🗣 spoke (lapPace, imp 0, cost 2.1s, ledger 2.1/20.4s, 1 line): greenFlag
+🔊 green
+📊 strategy L1: no fuel model yet
+🧭 learned: 7 gates matched, all Kyoto Driving Park - Yamagiwa — using the finishLine gate (474 samples)
+🧭 identified: Kyoto Driving Park - Yamagiwa (CRS 376) — finishLine, 474 sample(s), ±12 m
+🏁 Kyoto Driving Park - Yamagiwa already announced 597s ago (gates) — not repeated
+🗺 stored map loaded on identification (gates): course 376, 966 pts
+🚪 gate refined: Kyoto Driving Park - Yamagiwa/powerPackRace/lap1 (3 samples, σ 8.45 m, ±20 m, across 0.0…14.6 m)
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 5.2/20.4s, 1 line): surveyGate(lap1, 3)
+🛞 compound: window opened — raceStart, lap 1
+🔧 pit approach: entry at station 4716 m of 4831 m (23.3 m off the line), lead 20 s
+🔊 keep it clean
+🔊 lap one gate now 3 crossings
+🛞 compound: family racing from the declaration (RH)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 we're on racing rubber
+🛞 compound: no call — no dry fit — nearest RH at 0.386 (C 1.47)
+🗑 dropped (no catalog lines; tyres): compoundEstimate(raceStart, abstained: no dry fit — nearest RH at 0.386)
+🛞 compound prompt: raceStart lap 1, estimate none
+🛞 compound prompt corrected: RH
+🛞 compound: RH confirmed by the driver — anchor
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:42.161 first fuel_used=6.21
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 6.21 | fuel 93.3 = 15.0 laps | 7.0 laps to go | stops 0
+🚪 gate refined: Kyoto Driving Park - Yamagiwa/powerPackRace/finishLine (5 samples, σ 7.91 m, ±20 m, across -6.8…13.7 m)
+🛞 wear (test) lap 1 done: FL 2.2 FR 3.1 RL 1.7 RR 2.2 % — RH ×3 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 5)
+🔊 finish line sharpened
+🔊 5 samples
+🗣 bulletin (imp 6, cost 6.2s, ledger 8.9/20.4s, 2 lines): L2
+🔊 that's lap 2
+🔊 last lap was a 1 42 point two
+🛞 compound: stint raceStart lap 1, refinement 1 — C 1.450 over 150 s (1341 samples)
+📋 lap 2: 1:40.893 clean fuel_used=5.95
+🔵 lap 2: clean
+📊 strategy L3: fuel/lap 6.08 | fuel 87.3 = 14.4 laps | 6.0 laps to go | stops 0
+🚪 gate refined: Kyoto Driving Park - Yamagiwa/powerPackRace/finishLine (6 samples, σ 7.28 m, ±20 m, across -6.8…13.7 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 6)
+🔊 finish line now 6 crossings
+🗺 mapper: learned lap 2 (100.893 s, 4840 m, 968 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.5s, ledger 7.2/20.4s, 1 line): surveyLap(2, 100893 ms, 968 pts)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 11.2/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 frame vs lobby: median 2.0 m, centroid offset 0.6 m
+🗺 frame vs timeTrial: median 1.9 m, centroid offset 0.8 m
+🗺 frame vs customRace: median 1.8 m, centroid offset 1.2 m
+🗺 survey stored → 376.trackmap.json (lap 2, 100.893 s)
+🛞 wear (test) lap 2 done: FL 4.3 FR 6.2 RL 3.3 RR 4.2 % — RH ×3 (tap)
+🔊 clean lap banked
+🗣 bulletin (imp 2, cost 3.9s, ledger 15.1/20.4s, 2 lines): L3
+🔊 1 40 point eight nine three
+🔊 we've got the essentials
+🔊 3 optional to go
+🛞 compound: stint raceStart lap 1, refinement 2 — C 1.420 over 210 s (1806 samples)
+🔊 personal best
+🔊 lap 3
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 18.6/20.4s, 1 line, protected): strategyUpdate(fuel 14.35L, togo 6, stops 0)
+🔊 fuel to the finish
+🔊 6 to go
+🗣 spoke (tyres, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(overheating, 100°, frontRight)
+🔊 right front tyre is overheating
+🛞 compound: stint raceStart lap 1, refinement 3 — C 1.440 over 270 s (2414 samples)
+📋 lap 3: 1:40.289 clean fuel_used=6.15
+🔵 lap 3: clean
+📊 strategy L4: fuel/lap 6.15 | fuel 81.2 = 13.2 laps | 5.0 laps to go | stops 0
+🚪 gate refined: Kyoto Driving Park - Yamagiwa/powerPackRace/finishLine (7 samples, σ 6.65 m, ±20 m, across -6.8…13.7 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 7)
+🔊 finish line refined
+🗺 mapper: learned lap 3 (100.289 s, 4840 m, 968 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 5.8/20.4s, 1 line): surveyLap(3, 100289 ms, 968 pts)
+🗺 frame vs lobby: median 2.3 m, centroid offset 0.9 m
+🗺 frame vs timeTrial: median 1.6 m, centroid offset 1.2 m
+🗺 frame vs customRace: median 2.1 m, centroid offset 0.5 m
+🗺 survey stored → 376.trackmap.json (lap 3, 100.289 s)
+🛞 wear (test) lap 3 done: FL 6.5 FR 9.4 RL 4.9 RR 6.3 % — RH ×3 (tap)
+🗣 bulletin (imp 2, cost 7.7s, ledger 13.5/20.4s, 2 lines): L4
+🔊 7 crossings
+🔊 map lap recorded
+🔊 40 point three
+🔊 new fastest lap
+🔊 point six faster than your best
+🔊 that's lap 4
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 17.0/20.4s, 1 line, protected): strategyUpdate(fuel 13.19L, togo 5, stops 0)
+🔊 fuel to the finish
+🔊 5 to go
+🛞 compound: stint raceStart lap 1, refinement 4 — C 1.420 over 330 s (2907 samples)
+🛞 compound: stint raceStart lap 1, refinement 5 — C 1.420 over 390 s (3416 samples)
+📋 lap 4: 1:40.681 clean fuel_used=6.02
+🔵 lap 4: clean
+📊 strategy L5: fuel/lap 6.09 | fuel 75.1 = 12.3 laps | 4.0 laps to go | stops 0
+🚪 gate refined: Kyoto Driving Park - Yamagiwa/powerPackRace/finishLine (8 samples, σ 6.16 m, ±18 m, across -6.8…13.7 m)
+🛞 wear (test) lap 4 done: FL 8.6 FR 12.6 RL 6.5 RR 8.5 % — RH ×3 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 8)
+🔊 finish line sharpened
+🗣 bulletin (imp 6, cost 4.6s, ledger 7.3/20.4s, 2 lines): L5
+🔊 8 samples
+🔊 lap 5 now
+🔊 keep those good laps coming
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 11.2/20.4s, 1 line, protected): strategyUpdate(fuel 12.34L, togo 4, stops 0)
+🔊 fuel to the end
+🔊 4 to go
+🛞 compound: stint raceStart lap 1, refinement 6 — C 1.420 over 450 s (3872 samples)
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🔊 watch track limits
+🗑 dropped (chain cooldown): 1 event(s)
+📋 lap 5: 1:41.683 clean fuel_used=6.21
+🔵 lap 5 antics: off
+📊 strategy L6: fuel/lap 6.15 | fuel 68.9 = 11.2 laps | 3.0 laps to go | stops 0
+🚪 gate refined: Kyoto Driving Park - Yamagiwa/powerPackRace/finishLine (9 samples, σ 5.82 m, ±17 m, across -6.8…13.7 m)
+🛞 wear (test) lap 5 done: FL 10.8 FR 15.8 RL 8.0 RR 10.5 % — RH ×3 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.3/20.4s, 1 line): surveyGate(finishLine, 9)
+🔊 finish line refined
+🔊 9 crossings
+🗣 bulletin (imp 6, cost 7.3s, ledger 11.6/20.4s, 2 lines): L6
+🔊 on lap 6
+🛞 compound: stint raceStart lap 1, refinement 7 — C 1.420 over 510 s (4229 samples)
+🔊 ok laptime
+🔊 1 point four down on your previous best
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.5/20.4s, 1 line, protected): strategyUpdate(fuel 11.20L, togo 3, stops 0)
+🔊 fuel to the finish
+🔊 3 to go
+🛞 compound: stint raceStart lap 1, refinement 8 — C 1.430 over 570 s (4867 samples)
+📋 lap 6: 1:41.503 clean fuel_used=6.12
+🔵 lap 6: clean
+📊 strategy L7: fuel/lap 6.14 | fuel 62.8 = 10.2 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Kyoto Driving Park - Yamagiwa/powerPackRace/finishLine (10 samples, σ 5.50 m, ±17 m, across -6.8…13.7 m)
+🛞 wear (test) lap 6 done: FL 12.9 FR 18.9 RL 9.6 RR 12.6 % — RH ×3 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 10)
+🔊 finish line sharpened
+🔊 10 samples
+🗣 bulletin (imp 6, cost 5.8s, ledger 8.5/20.4s, 2 lines): L7
+🔊 lap 7 now
+🔊 decent laptime
+🔊 1 41 point five
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 12.4/20.4s, 1 line, protected): strategyUpdate(fuel 10.24L, togo 2, stops 0)
+🔊 fuel to the end
+🔊 2 to go
+🛞 compound: stint raceStart lap 1, refinement 9 — C 1.420 over 630 s (5278 samples)
+🛞 compound: stint raceStart lap 1, refinement 10 — C 1.420 over 690 s (5839 samples)
+📋 lap 7: 1:41.031 clean fuel_used=6.36
+🔵 lap 7: clean
+📊 strategy L8: fuel/lap 6.15 | fuel 56.4 = 9.2 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Kyoto Driving Park - Yamagiwa/powerPackRace/finishLine (11 samples, σ 5.22 m, ±16 m, across -6.8…13.7 m)
+🛞 wear (test) lap 7 done: FL 15.1 FR 22.0 RL 11.2 RR 14.7 % — RH ×3 (tap)
+🗣 bulletin (imp 6, cost 5.3s, ledger 5.3/20.4s, 2 lines): L8
+🔊 last lap
+🔊 bring it home
+🔊 keep the good laps coming
+🎭 mood relaxed → focused
+🎭 mood focused → concerned
+🗣 chain (imp 1, cost 2.9s, ledger 8.2/20.4s, 5 events, 1 lines)
+🔊 messy moment
+🔊 take a breath
+🛞 compound: stint raceStart lap 1, refinement 11 — C 1.409 over 750 s (6423 samples)
+🛞 compound: stint raceStart lap 1, refinement 12 — C 1.399 over 810 s (6967 samples)
+📋 lap 8: 1:46.835 clean fuel_used=6.38
+🎭 mood concerned → focused
+🔵 lap 8 antics: impact, off
+📊 strategy: finish armed at L9 (lap 9 > 8) — awaiting lap-clock freeze
+📊 strategy L9: fuel/lap 6.18 | fuel 50.1 = 8.1 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Kyoto Driving Park - Yamagiwa/powerPackRace/finishLine (12 samples, σ 5.03 m, ±15 m, across -6.8…13.7 m)
+🗣 spoke (lapPace, imp 4, cost 5.5s, ledger 5.5/20.4s, 1 line): paceDegradation(1.17s/lap over 5)
+🔊 we're losing over half a second a lap
+🛞 compound: stint raceStart lap 1, refinement 13 (final) — C 1.399 over 816 s (6967 samples)
+🛞 wear (test) lap 8 done: FL 17.0 FR 25.1 RL 12.7 RR 16.8 % — RH ×3 (tap)
+📊 strategy: race finished at L9 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 9 lap(s), 0 stop(s), start ROLLING_START, P1/17
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 8.0/20.4s, 1 line): raceFinished(L9)
+🗑 speaker: 1 queued line(s) preempted by flag
+🔊 you're over the finish line
+🔧 session ended after lap 9
+🎭 mood focused → relaxed
+🗑 flag: pending commentary cancelled
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 17)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 171 gate(s) from 381 stored, 67 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 pit loss: estimated 14.0 s from the unofficial table (Kyoto Driving Park - Yamagiwa)
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 onTrack → replay (pkt 4788829, lap 0, flags 0x0018, pos 1, cars 17, tod 45000066)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 14.0 s from the unofficial table (Kyoto Driving Park - Yamagiwa)
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 4788953, lap 0, flags 0x0018, pos —, cars —, tod 45000000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+📊 pit loss: estimated 14.0 s from the unofficial table (Kyoto Driving Park - Yamagiwa)
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 52549 packets

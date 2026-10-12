@@ -1,0 +1,264 @@
+# EzioClient session log
+# file:    20261007_215346 - Autopolis International Racing Course (896).gt7td
+# started: 2026-10-07T19:53:46Z
+# track:   Autopolis International Racing Course (CRS 896)
+# context: powerPackRace
+# ---
+📊 pit loss: estimated 13.0 s from the unofficial table (Autopolis International Racing Course)
+📊 strategy: track pit loss 13.0 s
+📊 strategy: declared 6 lap race
+# car:     Subaru Impreza 22B-STi Version '98 [uncategorised] (id 451) — confirmed from telemetry
+🔓 learning resumed — player on track
+🛞 compound: car 451 — no reference — generic ladder
+🎮 menus → onTrack (pkt 4655171, lap 0, flags 0x001D, pos 1, cars 17, tod 28860000)
+🔧 session restart: lap-scoped state reset
+🧭 polyline [PRE-GREEN]: 35 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 18.70 (alignment -0.44)
+🧭 polyline [PRE-GREEN]: Autopolis International Racing Course fits (median 1.76 m) but on 80 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 29 candidate(s) dropped on direction — best of them Deep Forest Raceway median 30.41 (alignment -0.75)
+🧭 polyline [PRE-GREEN]: Autopolis International Racing Course fits (median 2.12 m) but on 163 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 25 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 36.12 (alignment -0.40)
+🧭 polyline [PRE-GREEN]: Autopolis International Racing Course fits (median 2.06 m) but on 247 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 24 candidate(s) dropped on direction — best of them Watkins Glen Long Course median 33.00 (alignment -0.51)
+🧭 polyline [PRE-GREEN]: Autopolis International Racing Course fits (median 2.33 m) but on 330 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 18 candidate(s) dropped on direction — best of them Suzuka Circuit median 29.07 (alignment -0.39)
+🧭 polyline [PRE-GREEN]: Autopolis International Racing Course fits (median 2.68 m) but on 413 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 21 candidate(s) dropped on direction — best of them Deep Forest Raceway median 29.20 (alignment -0.41)
+🧭 polyline [PRE-GREEN]: Autopolis International Racing Course fits (median 2.83 m) but on 496 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 15 candidate(s) dropped on direction — best of them Deep Forest Raceway median 26.09 (alignment -0.41)
+🧭 polyline [PRE-GREEN]: Autopolis International Racing Course fits (median 3.35 m) but on 496 m of road — waiting for 800 m
+🧭 polyline [PRE-GREEN]: 17 candidate(s) dropped on direction — best of them Deep Forest Raceway median 14.43 (alignment -0.45)
+🧭 polyline [PRE-GREEN]: Autopolis International Racing Course fits (median 3.48 m) but on 500 m of road — waiting for 800 m
+🏁 start type: ROLLING_START at pkt 4657618 lap 1
+🔀 state UNKNOWN → RACING at pkt 4657618 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.37
+📊 strategy: green flag (speed) at pkt 4657618, race clock running
+🗣 spoke (lapPace, imp 0, cost 3.4s, ledger 3.4/20.4s, 1 line): greenFlag
+🔊 green flag
+📊 strategy L1: no fuel model yet
+🧭 no gate matched at lap 0→1 (new coordinates) — live-learn only; the learner records this crossing if the track is declared
+🚪 gate learned: Autopolis International Racing Course/powerPackRace/lap1 heading 33°
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.0/20.4s, 1 line): surveyGate(lap1, 2)
+🛞 compound: window opened — raceStart, lap 1
+🔊 mind the first corner
+🔊 identification gate refined
+🔊 2 crossings
+🧭 polyline [L1]: 14 candidate(s) dropped on direction — best of them Deep Forest Raceway median 18.61 (alignment -0.48)
+🧭 polyline [L1]: Autopolis International Racing Course fits (median 3.38 m) but on 599 m of road — waiting for 800 m
+🧭 polyline [L1]: 13 candidate(s) dropped on direction — best of them Deep Forest Raceway median 18.90 (alignment -0.40)
+🧭 polyline [L1]: Autopolis International Racing Course fits (median 2.99 m) but on 762 m of road — waiting for 800 m
+🧭 polyline [L1]: 4 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield B median 81.45 (alignment -0.48)
+🧭 polyline [L1]: 2 layouts share this road (Autopolis International Racing Course, Autopolis International Racing Course - Short Course) — watching for the fork
+🧭 polyline [L1]: ambiguous — Autopolis International Racing Course median 2.50/p90 3.66 vs Autopolis International Racing Course - Short Course median 4.86/p90 6.87 (180 samples), abstaining
+🧭 polyline [L1]: 6 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway median 150.37 (alignment -0.51)
+🧭 polyline [L1]: ambiguous — Autopolis International Racing Course median 2.02/p90 3.38 vs Autopolis International Racing Course - Short Course median 2.57/p90 6.87 (180 samples), abstaining
+🧭 polyline [L1]: 17 candidate(s) dropped on direction — best of them WeatherTech Raceway Laguna Seca median 121.12 (alignment -0.44)
+🧭 polyline [L1]: ambiguous — Autopolis International Racing Course median 1.70/p90 2.94 vs Autopolis International Racing Course - Short Course median 2.07/p90 6.79 (180 samples), abstaining
+🧭 polyline [L1]: 15 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 119.44 (alignment -0.42)
+🧭 polyline [L1]: ambiguous — Autopolis International Racing Course median 1.55/p90 2.49 vs Autopolis International Racing Course - Short Course median 1.77/p90 3.41 (180 samples), abstaining
+🛞 compound: family racing from the declaration (RH)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 we're on racing rubber
+🧭 polyline [L1]: 17 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 87.98 (alignment -0.44)
+🧭 polyline [L1]: ambiguous — Autopolis International Racing Course - Short Course median 1.59/p90 2.46 vs Autopolis International Racing Course median 1.62/p90 2.56 (180 samples), abstaining
+🧭 polyline [L1]: 18 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 68.56 (alignment -0.42)
+🧭 polyline [L1]: ambiguous — Autopolis International Racing Course - Short Course median 1.74/p90 2.85 vs Autopolis International Racing Course median 1.78/p90 3.14 (180 samples), abstaining
+🧭 polyline [L1]: 15 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 67.63 (alignment -0.43)
+🧭 polyline [L1]: ambiguous — Autopolis International Racing Course - Short Course median 1.70/p90 2.78 vs Autopolis International Racing Course median 1.87/p90 3.14 (180 samples), abstaining
+🧭 polyline [L1]: 5 candidate(s) dropped on direction — best of them WeatherTech Raceway Laguna Seca median 126.61 (alignment -0.60)
+🧭 polyline [L1]: ambiguous — Autopolis International Racing Course - Short Course median 1.65/p90 2.88 vs Autopolis International Racing Course median 1.90/p90 3.14 (180 samples), abstaining
+🧭 polyline [L1]: 4 candidate(s) dropped on direction — best of them Autodromo Nazionale Monza median 86.13 (alignment -0.46)
+🧭 polyline [L1]: ambiguous — Autopolis International Racing Course - Short Course median 1.74/p90 3.02 vs Autopolis International Racing Course median 1.94/p90 3.14 (180 samples), abstaining
+🧭 polyline [L1]: 4 candidate(s) dropped on direction — best of them Autodromo Nazionale Monza median 85.93 (alignment -0.36)
+🧭 polyline [L1]: ambiguous — Autopolis International Racing Course median 1.89/p90 3.14 vs Autopolis International Racing Course - Short Course median 1.94/p90 6.89 (180 samples), abstaining
+🧭 polyline divergence: fork at 2620 m on course 896 — 1 left (Autopolis International Racing Course)
+🧭 polyline divergence: resolved to Autopolis International Racing Course
+🧭 polyline [L1]: fork resolved to Autopolis International Racing Course
+🧭 polyline [L1]: Autopolis International Racing Course (CRS 896, map ctx lobby) median 1.89 m, p90 3.14 m, 18% of lap, 180 samples, alignment +1.00 — next course Autopolis International Racing Course - Short Course median 1.94/p90 6.89
+🏁 announcing track: Autopolis International Racing Course (CRS 896) from map matcher
+🗣 spoke (radio, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line): trackIdentified(Autopolis International Racing Course, CRS 896)
+🔊 identified Autopolis International Racing Course
+🗺 stored map loaded on identification (map matcher): course 896, 922 pts
+🧭 polyline agrees with the declared course (CRS 896)
+📊 pit loss: measured 11.5 s
+📊 strategy: track pit loss 11.5 s
+🅿️ pit speaking budget 9.5s (entry to box)
+🔧 pit approach: entry at station 45 m of 4608 m (26.8 m off the line), lead 20 s
+🛞 compound: no call — no dry fit — nearest RH at 0.275 (C 1.32)
+🗑 dropped (no catalog lines; tyres): compoundEstimate(raceStart, abstained: no dry fit — nearest RH at 0.275)
+🛞 compound prompt: raceStart lap 1, estimate none
+🛞 compound prompt corrected: RH
+🛞 compound: RH confirmed by the driver — anchor
+🗣 chain (imp 2, cost 3.8s, ledger 3.8/20.4s, 2 events, 1 lines)
+🔊 wide again
+🔊 bring it in a bit
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:51.884 first fuel_used=6.16
+🔵 lap 1 antics: off
+📊 strategy L2: fuel/lap 6.16 | fuel 93.5 = 15.2 laps | 5.0 laps to go | stops 0
+🚪 gate refined: Autopolis International Racing Course/powerPackRace/finishLine (5 samples, σ 3.34 m, ±12 m, across -4.2…4.5 m)
+🛞 wear (test) lap 1 done: FL 3.0 FR 2.1 RL 2.1 RR 1.7 % — RH ×3 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.4/20.4s, 1 line): surveyGate(finishLine, 5)
+🔊 finish line sharpened
+🔊 5 samples
+🗣 bulletin (imp 6, cost 6.2s, ledger 12.7/20.4s, 2 lines): L2
+🔊 on lap 2
+🔊 last lap was a 1 51 point nine
+🛞 compound: stint raceStart lap 1, refinement 1 — C 1.368 over 150 s (1524 samples)
+🛞 compound: stint raceStart lap 1, refinement 2 — C 1.348 over 210 s (2127 samples)
+📋 lap 2: 1:52.163 clean fuel_used=6.33
+🔵 lap 2: clean
+📊 strategy L3: fuel/lap 6.25 | fuel 87.1 = 14.0 laps | 4.0 laps to go | stops 0
+🚪 gate refined: Autopolis International Racing Course/powerPackRace/finishLine (6 samples, σ 3.31 m, ±12 m, across -4.2…4.5 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 6)
+🔊 finish line now 6 crossings
+🗺 mapper: learned lap 2 (112.163 s, 4610 m, 922 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 6.4/20.4s, 1 line): surveyLap(2, 112163 ms, 922 pts)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 9.0/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 frame vs lobby: median 1.9 m, centroid offset 1.2 m
+🗺 survey stored → 896.trackmap.json (lap 2, 112.163 s)
+🛞 wear (test) lap 2 done: FL 6.0 FR 4.4 RL 4.2 RR 3.4 % — RH ×3 (tap)
+🗣 bulletin (imp 2, cost 4.3s, ledger 13.3/20.4s, 2 lines): L3
+🔊 map lap recorded
+🔊 1 52 point two
+🔊 essentials recorded
+🔊 3 optional outstanding
+🔊 personal best
+🔊 lap 3 now
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 16.9/20.4s, 1 line, protected): strategyUpdate(fuel 13.95L, togo 4, stops 0)
+🔊 fuel to the finish
+🔊 4 to go
+🛞 compound: stint raceStart lap 1, refinement 3 — C 1.327 over 270 s (2750 samples)
+🛞 compound: stint raceStart lap 1, refinement 4 — C 1.307 over 330 s (3338 samples)
+📋 lap 3: 1:53.063 clean fuel_used=6.37
+🔵 lap 3: clean
+📊 strategy L4: fuel/lap 6.33 | fuel 80.8 = 12.8 laps | 3.0 laps to go | stops 0
+🚪 gate refined: Autopolis International Racing Course/powerPackRace/finishLine (7 samples, σ 4.25 m, ±13 m, across -7.9…4.5 m)
+🛞 wear (test) lap 3 done: FL 9.0 FR 6.7 RL 6.2 RR 5.0 % — RH ×3 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 7)
+🔊 finish line sharpened
+🎭 mood relaxed → focused
+🔊 7 samples
+🗣 bulletin (imp 6, cost 5.8s, ledger 8.5/20.4s, 2 lines): L4
+🔊 on lap 4
+🗣 chain (imp 4, cost 3.4s, ledger 11.8/20.4s, 2 events, 1 lines)
+🔊 good lap
+🔊 1 53 point one
+🔊 contact and off
+🗑 speaker: stale, not spoken: "check the car"
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 15.3/20.4s, 1 line, protected): strategyUpdate(fuel 12.75L, togo 3, stops 0)
+🔊 fuel to the finish
+🔊 3 to go
+🛞 compound: stint raceStart lap 1, refinement 5 — C 1.297 over 390 s (4031 samples)
+🎭 mood focused → relaxed
+🗣 spoke (tyres, imp 4, cost 2.7s, ledger 2.7/20.4s, 1 line): tyreTemps(high, 85°)
+🔊 tyres at 85
+🔊 running warm
+🎭 mood relaxed → focused
+🛞 compound: stint raceStart lap 1, refinement 6 — C 1.307 over 450 s (4558 samples)
+📋 lap 4: 1:52.823 clean fuel_used=6.21
+🔵 lap 4 antics: contact, off
+📊 strategy L5: fuel/lap 6.27 | fuel 74.6 = 11.9 laps | 2.0 laps to go | stops 0
+🚪 gate refined: Autopolis International Racing Course/powerPackRace/finishLine (8 samples, σ 5.77 m, ±17 m, across -7.9…11.9 m)
+🛞 wear (test) lap 4 done: FL 12.1 FR 9.0 RL 8.3 RR 6.7 % — RH ×3 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.3/20.4s, 1 line): surveyGate(finishLine, 8)
+🔊 finish line refined
+🔊 8 crossings
+🗣 bulletin (imp 6, cost 6.2s, ledger 11.6/20.4s, 2 lines): L5
+🗣 chain (imp 4, cost 2.9s, ledger 14.5/20.4s, 3 events, 1 lines)
+🔊 lap 5
+🔊 good lap
+🔊 1 52 point eight two three
+🗑 speaker: stale, not spoken: "messy moment"
+🗑 speaker: stale, not spoken: "take a breath"
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 15.3/20.4s, 1 line, protected): strategyUpdate(fuel 11.89L, togo 2, stops 0)
+🔊 fuel to the finish
+🔊 2 to go
+🛞 compound: stint raceStart lap 1, refinement 7 — C 1.297 over 510 s (5395 samples)
+📋 lap 5: 1:54.040 clean fuel_used=6.25
+🎭 mood focused → relaxed
+🔵 lap 5: clean
+📊 strategy L6: fuel/lap 6.25 | fuel 68.3 = 10.9 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Autopolis International Racing Course/powerPackRace/finishLine (9 samples, σ 5.52 m, ±17 m, across -7.9…11.9 m)
+🗣 spoke (lapPace, imp 4, cost 7.6s, ledger 7.6/20.4s, 1 line): paceDegradation(0.54s/lap over 4)
+🔊 pace is really slipping
+🛞 wear (test) lap 5 done: FL 15.2 FR 11.4 RL 10.4 RR 8.5 % — RH ×3 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 10.3/20.4s, 1 line): surveyGate(finishLine, 9)
+🗣 bulletin (imp 6, cost 6.1s, ledger 16.4/20.4s, 2 lines): L6
+🔊 over half a second a lap
+🔊 need to pit for new tyres?
+🛞 compound: stint raceStart lap 1, refinement 8 — C 1.297 over 570 s (5772 samples)
+🔊 finish line now 9 crossings
+🔊 last lap
+🔊 get it over the line
+🔊 1 54 point oh
+🛞 compound: stint raceStart lap 1, refinement 9 — C 1.297 over 630 s (6598 samples)
+📋 lap 6: 1:51.396 clean fuel_used=6.22
+🔵 lap 6: clean
+📊 strategy: finish armed at L7 (lap 7 > 6) — awaiting lap-clock freeze
+📊 strategy L7: fuel/lap 6.24 | fuel 62.1 = 10.0 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Autopolis International Racing Course/powerPackRace/finishLine (10 samples, σ 5.22 m, ±16 m, across -7.9…11.9 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 10)
+🔊 finish line sharpened
+🗺 mapper: learned lap 6 (111.396 s, 4600 m, 920 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 6.4/20.4s, 1 line): surveyLap(6, 111396 ms, 920 pts)
+🗺 frame vs lobby: median 1.9 m, centroid offset 1.1 m
+🗺 survey stored → 896.trackmap.json (lap 6, 111.396 s)
+🛞 compound: stint raceStart lap 1, refinement 10 (final) — C 1.297 over 677 s (6995 samples)
+🛞 wear (test) lap 6 done: FL 18.2 FR 13.6 RL 12.4 RR 10.1 % — RH ×3 (tap)
+📊 strategy: race finished at L7 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 7 lap(s), 0 stop(s), start ROLLING_START, P1/17
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 1.2s, ledger 7.6/20.4s, 1 line): raceFinished(L7)
+🗑 speaker: 3 queued line(s) preempted by flag
+🔊 race over
+🔧 session ended after lap 7
+🗑 flag: pending commentary cancelled
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 17)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 169 gate(s) from 378 stored, 67 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 13.0 s from the unofficial table (Autopolis International Racing Course)
+📊 strategy: track pit loss 13.0 s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🅿️ no pit speaking budget for this track
+🎮 onTrack → replay (pkt 4699334, lap 0, flags 0x0018, pos 1, cars 17, tod 28860501)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 13.0 s from the unofficial table (Autopolis International Racing Course)
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 4699498, lap 0, flags 0x001C, pos —, cars —, tod 28860000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: estimated 13.0 s from the unofficial table (Autopolis International Racing Course)
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 44185 packets

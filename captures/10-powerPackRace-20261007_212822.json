@@ -1,0 +1,50 @@
+{
+  "carCategory" : "GRN",
+  "carId" : 1689,
+  "carName" : "Honda Civic Type R (EK) Touring Car",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r8",
+      "family" : "road",
+      "familyConfidence" : "high",
+      "finalLabel" : "SH",
+      "heating" : 0.06918953685598697,
+      "lap" : 1,
+      "notes" : [
+        "ambiguous — SM vs SH, margin 0.000"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 9,
+      "samples" : 10493,
+      "seconds" : 577.927927927928,
+      "slipPerG" : 1.3376249999999998,
+      "source" : "telemetry",
+      "startPacketId" : 4566194,
+      "trigger" : "raceStart"
+    }
+  ],
+  "courseId" : 10,
+  "declared" : {
+    "captureContext" : "powerPackRace",
+    "courseId" : 10,
+    "fuelMultiplier" : 0,
+    "raceLength" : 4,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 7,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Suzuka Circuit",
+    "tyreCompounds" : "SH",
+    "tyreWearMultiplier" : 0,
+    "weather" : "variable"
+  },
+  "endTime" : 1791401955,
+  "granularity" : 1,
+  "maxSpeedKmh" : 262,
+  "packetSize" : 368,
+  "startTime" : 1791401302,
+  "trackName" : "Suzuka Circuit",
+  "version" : 8
+}

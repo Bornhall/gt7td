@@ -1,0 +1,51 @@
+{
+  "carCategory" : "GRN",
+  "carId" : 451,
+  "carName" : "Subaru Impreza 22B-STi Version '98",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RH",
+      "heating" : 0.5246321059642975,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RH at 0.386"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 13,
+      "samples" : 6967,
+      "seconds" : 815.7490824157491,
+      "slipPerG" : 1.399125,
+      "source" : "telemetry",
+      "startPacketId" : 4739045,
+      "trigger" : "raceStart"
+    }
+  ],
+  "courseId" : 376,
+  "declared" : {
+    "captureContext" : "powerPackRace",
+    "courseId" : 376,
+    "fuelMultiplier" : 2,
+    "raceLength" : 8,
+    "raceLengthUnit" : "laps",
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Kyoto Driving Park - Yamagiwa",
+    "tyreCompounds" : "RH",
+    "tyreWearMultiplier" : 3,
+    "weather" : "dry"
+  },
+  "endTime" : 1791405080,
+  "granularity" : 1,
+  "identifiedCourseId" : 376,
+  "identifiedTrackName" : "Kyoto Driving Park - Yamagiwa",
+  "maxSpeedKmh" : 279,
+  "packetSize" : 368,
+  "startTime" : 1791404186,
+  "trackName" : "Kyoto Driving Park - Yamagiwa",
+  "version" : 8
+}
