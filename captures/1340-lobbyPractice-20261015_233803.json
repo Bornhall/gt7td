@@ -1,0 +1,69 @@
+{
+  "carCategory" : "GR3",
+  "carClass" : "Gr.3",
+  "carId" : 3609,
+  "carName" : "MAZDA RX-VISION GT3 EVO '26",
+  "compoundObservations" : [
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.3301739048962459,
+      "lap" : 1,
+      "outcome" : "confirmed",
+      "revisions" : 9,
+      "samples" : 3917,
+      "seconds" : 575.7924591257924,
+      "slipPerG" : 0.845625,
+      "source" : "telemetry",
+      "startPacketId" : 432179,
+      "trigger" : "raceStart"
+    },
+    {
+      "estimatorVersion" : "v1r8",
+      "finalLabel" : "RS",
+      "heating" : 0.4320619618057375,
+      "lap" : 8,
+      "notes" : [
+        "no dry fit — nearest RS at 0.157"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 1,
+      "samples" : 1146,
+      "seconds" : 147.8978978978979,
+      "slipPerG" : 0.773875,
+      "source" : "telemetry",
+      "startPacketId" : 467431,
+      "trigger" : "pitExit"
+    }
+  ],
+  "courseId" : 1340,
+  "declared" : {
+    "captureContext" : "lobbyPractice",
+    "courseId" : 1340,
+    "fuelMultiplier" : 2,
+    "raceLength" : 25,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 20,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "SUGO International Racing Course",
+    "tyreCompounds" : "RS,RS",
+    "tyreWearMultiplier" : 2,
+    "weather" : "dry"
+  },
+  "endTime" : 1792101111,
+  "granularity" : 1,
+  "identifiedCourseId" : 1340,
+  "identifiedTrackName" : "SUGO International Racing Course",
+  "maxSpeedKmh" : 280,
+  "packetSize" : 368,
+  "startTime" : 1792100283,
+  "trackName" : "SUGO International Racing Course",
+  "version" : 8
+}

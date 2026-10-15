@@ -1,0 +1,384 @@
+# EzioClient session log
+# file:    20261015_225139 - Suzuka Circuit (10).gt7td
+# started: 2026-10-15T20:51:39Z
+# track:   Suzuka Circuit (CRS 10)
+# context: weeklyChallenge
+# ---
+📊 pit loss: estimated 20.5 s from the unofficial table (Suzuka Circuit)
+📊 strategy: track pit loss 20.5 s
+# car:     Porsche 963 '24 [Gr.1] (id 3607) — confirmed from telemetry
+🧭 polyline [MENU]: 15 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course median 34.08 (alignment -0.45)
+🧭 polyline [MENU]: Suzuka Circuit median 2.08 m but p90 83.0 m — part of the window is off its map (an unmapped layout sharing this road?), abstaining
+🧭 polyline [MENU]: 9 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course median 59.25 (alignment -0.36)
+🧭 polyline [MENU]: Suzuka Circuit (CRS 10, map ctx powerPackRace) median 2.19 m, p90 6.70 m, 15% of lap, 180 samples, alignment +1.00 — next course Brands Hatch Grand Prix Circuit median 31.41/p90 154.37
+🏁 announcing track: Suzuka Circuit (CRS 10) from map matcher
+🗣 spoke (radio, imp 2, cost 2.1s, ledger 2.1/20.4s, 1 line): trackIdentified(Suzuka Circuit, CRS 10)
+🔊 we're at Suzuka Circuit
+🗺 stored map loaded on identification (map matcher): course 10, 1154 pts
+🧭 polyline agrees with the declared course (CRS 10)
+🅿️ no pitEntry gate for course 10 — approach call stays on the time anchor
+🔓 learning resumed — player on track
+🛞 compound: car 3607 — no reference — Gr.1 class ladder (RH RM), generic for the rest
+🎮 menus → onTrack (pkt 264550, lap 0, flags 0x001D, pos 20, cars 20, tod 50400000)
+🏁 start type: ROLLING_START at pkt 264921 lap 1
+🔀 state UNKNOWN → RACING at pkt 264921 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.59
+📊 strategy: green flag (speed) at pkt 264921, race clock running
+🛞 compound: green flag — cool-down guard cleared
+🗣 spoke (lapPace, imp 0, cost 3.4s, ledger 5.4/20.4s, 1 line): greenFlag
+🔊 green flag
+📊 strategy L1: no fuel model yet
+🧭 identified: Suzuka Circuit (CRS 10) — lap1, 1 sample(s), ±16 m
+🚪 gate learned: Suzuka Circuit/weeklyChallenge/lap1 heading 50°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 7.5/20.4s, 1 line): surveyGate(lap1, 1)
+🛞 compound: window opened — raceStart, lap 1
+🔊 mind the first corner
+🔊 got the identification gate
+🗣 chain (imp 4, cost 2.5s, ledger 7.9/20.4s, 2 events, 1 lines)
+🔊 be more careful on track
+🛞 compound: family racing (H+ 0.298, locked for the race)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 4.6/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 we're on racing rubber
+🗣 chain (imp 4, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+🔊 light contact
+🔊 carry on
+🛞 compound: racingMedium (low confidence, C 0.60, margin 0.133, class reference)
+🛞 compound prompt: raceStart lap 1, estimate RM
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 3.7/20.4s, 1 line): compoundEstimate(raceStart, RM, low)
+🔊 possibly racing mediums
+🛞 compound prompt corrected: RS
+🛞 compound: RS confirmed by the driver — anchor
+🗣 chain (imp 4, cost 1.2s, ledger 4.9/20.4s, 1 events, 1 lines)
+🔊 light contact
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:49.005 first fuel_used=13.35
+🔵 lap 1 antics: contact
+📊 strategy L2: fuel/lap 13.35 | fuel 86.1 = 6.4 laps | 9.0 laps to go | stops 1
+🎭 mood relaxed → focused
+🚪 gate learned: Suzuka Circuit/weeklyChallenge/finishLine heading 49°
+🛞 wear (test) lap 1 done: FL 26.4 FR 22.1 RL 18.8 RR 16.6 % — RS ×6 (tap)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 7.0/20.4s, 1 line): surveyGate(finishLine, 1)
+🔊 start finish line recorded
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L3/L5/L7, stops 1) | pitWindowState(beforeOpen, now L2, L3/L5/L7, stops 1) | pitStopsToGo(1, 9 to go)
+🗣 spoke (strategy, imp 2, cost 4.1s, ledger 11.1/20.4s, 1 line, protected): pitWindow(L3/L5/L7, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 13.8/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L2, L3/L5/L7, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 15.8/20.4s, 1 line, protected): pitStopsToGo(1, 9 to go)
+🔊 pit window is from lap 3 to 7
+🗣 bulletin (imp 6, cost 4.5s, ledger 20.3/20.4s, 2 lines): L2
+🔊 don't pit before lap 3
+🔊 one pitstop to go
+🔊 lap 2
+🔊 laptime 1 49 point oh
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.610 over 150 s (1091 samples)
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.610 over 210 s (1617 samples)
+📋 lap 2: 1:50.292 clean fuel_used=14.84
+🎭 mood focused → relaxed
+🔵 lap 2: clean
+📊 strategy L3: fuel/lap 14.10 | fuel 71.2 = 5.1 laps | 8.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P1→P3)
+🚪 gate refined: Suzuka Circuit/weeklyChallenge/finishLine (2 samples, σ 0.40 m, ±16 m, across -0.1…0.0 m)
+🔊 down to P 3
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 7.0/20.4s, 1 line): surveyGate(finishLine, 2)
+🗺 mapper: learned lap 2 (110.292 s, 5755 m, 1151 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 5.0s, ledger 12.0/20.4s, 1 line): surveyLap(2, 110292 ms, 1151 pts)
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 15.1/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 frame vs powerPackRace: median 2.2 m, centroid offset 1.3 m
+🗺 survey stored → 10.trackmap.json (lap 2, 110.292 s)
+🛞 wear (test) lap 2 done: FL 52.1 FR 47.6 RL 36.4 RR 34.1 % — RS ×6 (tap)
+⏱ class lap BEST: Suzuka Circuit/weeklyChallenge/Gr.1 → 1:50.292 (1/10 laps, 1 car(s), avg 1:50.292)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 5, 8 to go, 5.05 fuel-laps) | pitWindowState(beforeOpen, now L3, L4/L5/L7, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 18.9/20.4s, 1 line, protected): fuelStatus(extendStint, 5, 8 to go, 5.05 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 21.6/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L3, L4/L5/L7, stops 1, close)
+🔊 head down
+🗑 dropped (bulletin, ledger full; cost 4.9s, load 21.6/20.4s, 2 lines): L3
+🔊 get it back
+🔊 finish line refined
+🔊 2 crossings
+🔊 got a clean lap
+🔊 1 50 point two nine two
+🗑 speaker: stale, not spoken: "survey usable"
+🗑 speaker: stale, not spoken: "3 optional still missing"
+🔊 save a little to go an extra lap
+🔊 don't pit before lap 4
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 23.8/20.4s, 1 line, protected): strategyUpdate(fuel 5.05L, togo 8, stops 1)
+🔊 8 laps to go
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.600 over 270 s (2180 samples)
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.600 over 330 s (2802 samples)
+📋 lap 3: 1:52.399 clean fuel_used=12.22
+🔵 lap 3: clean
+📊 strategy L4: fuel/lap 13.35 | fuel 59.0 = 4.4 laps | 7.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 4.0s, ledger 4.0/20.4s, 1 line): positionChange(P3→P1)
+🚪 gate refined: Suzuka Circuit/weeklyChallenge/finishLine (3 samples, σ 0.68 m, ±12 m, across -0.1…1.0 m)
+🔊 you gained 2 places
+🛞 wear (test) lap 3 done: FL 77.0 FR 71.7 RL 53.5 RR 50.9 % — RS ×6 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 6.6/20.4s, 1 line): surveyGate(finishLine, 3)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L4, L4/L5/L7, stops 1) | fuelStatus(lapsToGo, 4, 7 to go, 4.42 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.5s, ledger 11.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L4, L4/L5/L7, stops 1)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 14.7/20.4s, 1 line, protected): fuelStatus(lapsToGo, 4, 7 to go, 4.42 fuel-laps)
+🗣 bulletin (imp 6, cost 3.9s, ledger 18.6/20.4s, 2 lines): L4
+🔊 now leading the race
+🔊 finish line sharpened
+🔊 3 samples
+🔊 target pit window is between laps 5 and 7
+🔊 you need to refuel in 4 laps
+🔊 lap 4
+🔊 laptime 52 point four
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 20.8/20.4s, 1 line, protected): strategyUpdate(fuel 4.42L, togo 7, stops 1)
+🔊 7 laps to go
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.610 over 390 s (3281 samples)
+📋 lap 4: 1:51.233 clean fuel_used=11.85
+🔵 lap 4: clean
+📊 strategy L5: fuel/lap 12.79 | fuel 47.1 = 3.7 laps | 6.0 laps to go | stops 1
+🚪 gate refined: Suzuka Circuit/weeklyChallenge/finishLine (4 samples, σ 0.60 m, ±12 m, across -0.1…1.0 m)
+🛞 wear (test) lap 4 done: FL 100.0 FR 95.6 RL 71.1 RR 67.4 % — RS ×6 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 4)
+🔊 finish line refined
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L5, L5/L5/L7, stops 1) | fuelStatus(lapsToGo, 4, 6 to go, 3.68 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 7.0/20.4s, 1 line, protected): pitWindowState(openToLatest, now L5, L5/L5/L7, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 9.7/20.4s, 1 line, protected): fuelStatus(lapsToGo, 4, 6 to go, 3.68 fuel-laps)
+🔊 4 crossings
+🗣 bulletin (imp 6, cost 5.8s, ledger 15.5/20.4s, 2 lines): L5
+🔊 you can pit now
+🔊 or go to lap 7
+🔊 fuel for 4 more laps
+🔊 that's lap 5
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.610 over 450 s (3824 samples)
+🔊 last lap 1 51 point two three
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 17.7/20.4s, 1 line, protected): strategyUpdate(fuel 3.68L, togo 6, stops 1)
+🔊 6 laps to go
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.610 over 510 s (4212 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 bit wide there
+🔊 watch track limits
+📋 lap 5: 1:54.535 clean fuel_used=11.34
+🔵 lap 5 antics: off
+📊 strategy L6: fuel/lap 12.23 | fuel 35.8 = 2.9 laps | 5.0 laps to go | stops 1
+🚪 gate refined: Suzuka Circuit/weeklyChallenge/finishLine (5 samples, σ 1.32 m, ±12 m, across -0.1…2.7 m)
+🛞 wear (test) lap 5 done: FL 100.0 FR 100.0 RL 88.5 RR 83.6 % — RS ×6 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.6/20.4s, 1 line): surveyGate(finishLine, 5)
+🔊 finish line now 5 crossings
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 2, 5 to go, 2.93 fuel-laps) | pitWindowState(openToLatest, now L6, L6/L6/L7, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 9.4/20.4s, 1 line, protected): fuelStatus(extendStint, 2, 5 to go, 2.93 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 13.3/20.4s, 1 line, protected): pitWindowState(openToLatest, now L6, L6/L6/L7, stops 1, close)
+🔊 save some fuel to go an extra lap
+🗣 bulletin (imp 6, cost 4.3s, ledger 17.7/20.4s, 2 lines): L6
+🔊 pit window is open
+🔊 pit on lap 7
+🔊 lap 6 now
+🔊 laptime 54 point five
+🛞 compound: stint raceStart lap 1, refinement 8 — C 0.610 over 570 s (4719 samples)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 17.0/20.4s, 1 line, protected): strategyUpdate(fuel 2.93L, togo 5, stops 1)
+🔊 5 laps to go
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.6s, ledger 18.6/20.4s, 1 events, 1 lines)
+🔊 watch track limits
+🛞 compound: stint raceStart lap 1, refinement 9 — C 0.610 over 630 s (5199 samples)
+🔧 huge stop 168 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 305289 lap 6
+🔵 sub-state FLYING → — lap 6
+🔧 pit-entry anchor learned: 115486 ms into lap (stop on lap 6)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+🎭 mood focused → relaxed
+📊 strategy: refuel still needed — 2.0 laps of fuel against 5 to go (need 6.2 with margin)
+🚪 gate learned: Suzuka Circuit/weeklyChallenge/pitEntry (no heading)
+🗣 spoke (pitSequence, imp 0, cost 2.9s, ledger 2.9/20.4s, 1 line, protected): pittingIn(L6)
+🔊 boxing now
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🔊 crew's ready for you
+📋 lap 6: 2:06.627 in fuel_used=11.50
+🔵 lap 6 antics: off
+🗑 dropped (in pit): lapStarted(7/10, last 126.63s)
+🗺 mapper: lap 6 rejected (pit)
+🛞 wear (test) lap 6 done: FL 100.0 FR 100.0 RL 100.0 RR 98.9 % — RS ×6 (tap)
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🗣 spoke (pitSequence, imp 2, cost 1.2s, ledger 4.1/20.4s, 1 line, protected): inPitBox
+🗣 spoke (strategy, imp 0, cost 2.2s, ledger 6.4/20.4s, 1 line, protected): refuelTarget(4 laps)
+🔊 in pitlane
+🔊 fuel for 4 laps
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test) stint 0 ended at tyre change: FL 100.0 FR 100.0 RL 100.0 RR 98.9 % — RS ×6 (tap)
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🛞 compound: stint raceStart lap 1, refinement 10 (final) — C 0.620 over 672 s (5567 samples)
+🛞 compound: window opened — pitExit, lap 7
+🔀 state PIT → RACING at pkt 306666 lap 7
+🔵 sub-state — → OUT_LAP lap 7
+🅿️ PIT completed: in L6 → out L7 (+31.5 fuel, transit 25.8s, teleport=false)
+🚪 gate learned: Suzuka Circuit/weeklyChallenge/pitBox (no heading)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 16.1s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 5605 m of 5767 m (10.1 m off the line), lead 20 s
+🔧 teleport 140 m on lap 7 — pit release, not a reset
+📊 strategy L7: fuel/lap 12.23 | fuel 55.8 = 4.6 laps | 4.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 3.4s, ledger 9.7/20.4s, 1 line, protected): exitingPit(+31.48l)
+🔊 exiting pit lane
+🚪 gate learned: Suzuka Circuit/weeklyChallenge/pitExit heading 49°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 11.8/20.4s, 1 line): surveyGate(pitExit, 1)
+📊 strategy L7: fuel/lap 12.23 | fuel 55.8 = 4.6 laps | 4.0 laps to go | stops 0 (post-stop recalc)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 14.7/20.4s, 1 line): surveyComplete(0 optional missing)
+🔧 fresh tyres confirmed: 60.0° across all four (was 74.6° at pit entry, step 14.6°)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(noMoreStops, 4, 4 to go, 4.56 fuel-laps) | strategyUpdate(fuel 4.56L, togo 4, stops 0, post-stop)
+🗣 spoke (strategy, imp 2, cost 2.1s, ledger 16.8/20.4s, 1 line, protected): fuelStatus(noMoreStops, 4, 4 to go, 4.56 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 19.7/20.4s, 1 line, protected): strategyUpdate(fuel 4.56L, togo 4, stops 0, post-stop)
+🔊 mind the white lines
+🔊 got the pit exit
+🔊 that's the full set
+🔊 survey complete
+🗑 dropped (cooldown strategy; 5.0s of 75.0s via strategy x0.50): strategyUpdate(fuel 4.56L, togo 4, stops 0)
+🔊 fuel to the end
+🔊 good stop
+🔊 fuel to the end
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 bit wide there
+🔊 watch track limits
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 5.0/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔊 tyres in the window
+🛞 compound: racingHard (high confidence, C 0.58, margin 0.060, relative to RS (truth), class reference)
+🛞 compound prompt: pitExit lap 7, estimate RH
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 7.0/20.4s, 1 line): compoundEstimate(pitExit, RH, high)
+🔊 reads like racing hards
+🛞 compound prompt corrected: RS
+🛞 compound: RS confirmed by the driver — anchor
+🔵 sub-state OUT_LAP → FLYING lap 8
+📋 lap 7: 2:00.298 out fuel_used=12.51
+🔵 lap 7 antics: off
+📊 strategy L8: fuel/lap 12.37 | fuel 43.3 = 3.5 laps | 3.0 laps to go | stops 0
+🚪 gate refined: Suzuka Circuit/weeklyChallenge/finishLine (6 samples, σ 1.27 m, ±12 m, across -0.1…2.7 m)
+🗺 mapper: lap 7 rejected (teleport)
+🛞 wear (test) lap 7 done: FL 24.8 FR 24.1 RL 17.6 RR 17.2 % — RS ×6 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.7/20.4s, 1 line): surveyGate(finishLine, 6)
+🔊 finish line sharpened
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 8.5/20.4s, 1 line, protected): fuelStatus(noMoreStops, 3, 3 to go, 3.50 fuel-laps)
+🔊 6 samples
+🗣 bulletin (imp 6, cost 6.7s, ledger 15.2/20.4s, 2 lines): L8
+🔊 unlikely that you need to pit for fuel
+🔊 that's lap 8
+🔊 last lap was a 2 00 point three oh
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 16.6/20.4s, 1 line, protected): strategyUpdate(fuel 3.50L, togo 3, stops 0)
+🔊 fuel to the finish
+🔊 3 to go
+🛞 compound: stint pitExit lap 7, refinement 1 — C 0.589 over 150 s (1100 samples)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🔊 watch track limits
+🛞 compound: stint pitExit lap 7, refinement 2 — C 0.579 over 210 s (1539 samples)
+📋 lap 8: 1:47.569 clean fuel_used=13.76
+🎭 mood focused → relaxed
+📊 strategy L9: fuel/lap 12.51 | fuel 29.5 = 2.4 laps | 2.0 laps to go | stops 0
+🔵 lap 8 antics: off
+🚪 gate refined: Suzuka Circuit/weeklyChallenge/finishLine (7 samples, σ 1.40 m, ±12 m, across -2.1…2.7 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 4.3/20.4s, 1 line): surveyGate(finishLine, 7)
+🔊 finish line refined
+🗺 mapper: learned lap 8 (107.569 s, 5745 m, 1149 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 8.4/20.4s, 1 line): surveyLap(8, 107569 ms, 1149 pts)
+🗺 frame vs powerPackRace: median 2.1 m, centroid offset 1.8 m
+🗺 survey stored → 10.trackmap.json (lap 8, 107.569 s)
+🛞 wear (test) lap 8 done: FL 51.8 FR 49.1 RL 35.8 RR 34.4 % — RS ×6 (tap)
+⏱ class lap BEST: Suzuka Circuit/weeklyChallenge/Gr.1 → 1:47.569 (2/10 laps, 1 car(s), avg 1:48.930)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 11.3/20.4s, 1 line, protected): fuelStatus(noMoreStops, 2, 2 to go, 2.36 fuel-laps)
+🔊 7 crossings
+🗣 bulletin (imp 6, cost 4.8s, ledger 16.1/20.4s, 2 lines): L9
+🔊 got a clean lap
+🔊 1 47 point six
+🔊 you have fuel to the end
+🔊 on lap 9
+🔊 laptime 47 point five seven
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 18.0/20.4s, 1 line, protected): strategyUpdate(fuel 2.36L, togo 2, stops 0)
+🔊 fuel to the finish
+🔊 2 to go
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 4.2s, ledger 7.7/20.4s, 2 events, 1 lines)
+🔊 contact and off the road
+🔊 check the car
+🛞 compound: stint pitExit lap 7, refinement 3 — C 0.589 over 270 s (1926 samples)
+📋 lap 9: 1:47.472 clean fuel_used=13.72
+🔵 lap 9 antics: contact, off
+📊 strategy L10: fuel/lap 12.93 | fuel 15.8 = 1.2 laps | 1.0 laps to go | stops 0
+🚪 gate refined: Suzuka Circuit/weeklyChallenge/finishLine (8 samples, σ 1.30 m, ±12 m, across -2.1…2.7 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 8)
+🔊 finish line now 8 crossings
+🗺 mapper: learned lap 9 (107.472 s, 5750 m, 1150 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.7s, ledger 6.4/20.4s, 1 line): surveyLap(9, 107472 ms, 1150 pts)
+🗺 frame vs powerPackRace: median 1.7 m, centroid offset 1.7 m
+🗺 survey stored → 10.trackmap.json (lap 9, 107.472 s)
+🛞 wear (test) lap 9 done: FL 79.1 FR 74.0 RL 54.1 RR 51.6 % — RS ×6 (tap)
+⏱ class lap BEST: Suzuka Circuit/weeklyChallenge/Gr.1 → 1:47.472 (3/10 laps, 1 car(s), avg 1:48.444)
+🔊 clean lap banked
+🗣 bulletin (imp 6, cost 7.8s, ledger 14.1/20.4s, 2 lines): L10
+🔊 1 47 point five
+🔊 final lap
+🛞 compound: stint pitExit lap 7, refinement 4 — C 0.589 over 330 s (2460 samples)
+🔊 bring it home
+🔊 last lap was a 1 47 point four seven two
+🗣 chain (imp 4, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+🔊 light contact
+🔊 carry on
+🛞 compound: stint pitExit lap 7, refinement 5 — C 0.589 over 390 s (2919 samples)
+📋 lap 10: 1:49.595 clean fuel_used=13.35
+📊 strategy: finish armed at L11 (lap 11 > 10) — awaiting lap-clock freeze
+🎭 mood focused → relaxed
+🔵 lap 10 antics: contact
+📊 strategy L11: fuel/lap 12.93 | fuel 2.4 = 0.2 laps | 0.0 laps to go | stops 0
+🚪 gate refined: Suzuka Circuit/weeklyChallenge/finishLine (9 samples, σ 1.34 m, ±12 m, across -2.1…2.7 m)
+🛞 compound: stint pitExit lap 7, refinement 6 (final) — C 0.589 over 435 s (3295 samples)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 9)
+🛞 wear (test) lap 10 done: FL 100.0 FR 99.0 RL 71.7 RR 68.8 % — RS ×6 (tap)
+🔊 finish line refined
+📊 strategy: race finished at L11 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 11 lap(s), 1 stop(s), start ROLLING_START, P1/20
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 4.3/20.4s, 1 line): raceFinished(L11)
+🗑 speaker: 1 queued line(s) preempted by flag
+🔊 that's the flag
+🔧 session ended after lap 11
+🗑 flag: pending commentary cancelled
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🎮 replay handshake armed (off track, race context still valid: pos 20, cars 20)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 184 gate(s) from 399 stored, 69 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+📊 pit loss: estimated 20.5 s from the unofficial table (Suzuka Circuit)
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 onTrack → replay (pkt 333594, lap 0, flags 0x0018, pos 20, cars 20, tod 50400500)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 pit loss: estimated 20.5 s from the unofficial table (Suzuka Circuit)
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 333717, lap 0, flags 0x001C, pos —, cars —, tod 61749500)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 pit loss: estimated 20.5 s from the unofficial table (Suzuka Circuit)
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 70678 packets

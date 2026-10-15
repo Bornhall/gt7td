@@ -1,0 +1,49 @@
+{
+  "carCategory" : "GRN",
+  "carId" : 3610,
+  "carName" : "Hyundai IONIQ 6 N '25",
+  "compoundObservations" : [
+    {
+      "compound" : "CH",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r8",
+      "family" : "comfort",
+      "familyConfidence" : "low",
+      "finalLabel" : "SH",
+      "heating" : 0.11104394922773905,
+      "lap" : 1,
+      "outcome" : "corrected",
+      "revisions" : 7,
+      "samples" : 9112,
+      "seconds" : 502.15215215215215,
+      "slipPerG" : 2.167875,
+      "source" : "telemetry",
+      "startPacketId" : 135325,
+      "trigger" : "raceStart"
+    }
+  ],
+  "courseId" : 351,
+  "declared" : {
+    "captureContext" : "weeklyChallenge",
+    "courseId" : 351,
+    "fuelMultiplier" : 0,
+    "raceLength" : 5,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 8,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Tokyo Expressway - Central Clockwise",
+    "tyreCompounds" : "SH",
+    "tyreWearMultiplier" : 0,
+    "weather" : "dry"
+  },
+  "endTime" : 1792095891,
+  "granularity" : 1,
+  "maxSpeedKmh" : 490,
+  "packetSize" : 368,
+  "startTime" : 1792095340,
+  "trackName" : "Tokyo Expressway - Central Clockwise",
+  "version" : 8
+}

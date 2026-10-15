@@ -1,0 +1,51 @@
+{
+  "carCategory" : "GRN",
+  "carId" : 3485,
+  "carName" : "Mercedes-AMG GT Black Series '20",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.25480792894815624,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest RS at 0.417"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 6,
+      "samples" : 4600,
+      "seconds" : 404.2208875542209,
+      "slipPerG" : 0.558625,
+      "source" : "telemetry",
+      "startPacketId" : 229568,
+      "trigger" : "raceStart"
+    }
+  ],
+  "courseId" : 1226,
+  "declared" : {
+    "captureContext" : "weeklyChallenge",
+    "courseId" : 1226,
+    "fuelMultiplier" : 0,
+    "raceLength" : 5,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 8,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Autodrome Lago Maggiore - East",
+    "tyreWearMultiplier" : 0,
+    "weather" : "dry"
+  },
+  "endTime" : 1792097362,
+  "granularity" : 1,
+  "identifiedCourseId" : 1226,
+  "identifiedTrackName" : "Autodrome Lago Maggiore - East",
+  "maxSpeedKmh" : 347,
+  "packetSize" : 368,
+  "startTime" : 1792096907,
+  "trackName" : "Autodrome Lago Maggiore - East",
+  "version" : 8
+}

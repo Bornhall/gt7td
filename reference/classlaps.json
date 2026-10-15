@@ -362,6 +362,12 @@
     "courseId" : 365,
     "laps" : [
       {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 116931,
+        "recorded" : 1791830259
+      },
+      {
         "carId" : 3238,
         "carName" : "Peugeot RCZ Gr.3",
         "lapMs" : 119630,
@@ -369,7 +375,7 @@
       }
     ],
     "trackName" : "Autodrome Lago Maggiore - Full Course",
-    "updated" : 1785274814
+    "updated" : 1791830259
   },
   {
     "carClass" : "Gr.3",
@@ -1096,24 +1102,48 @@
       {
         "carId" : 2183,
         "carName" : "Chevrolet Corvette C7 Gr.3",
-        "lapMs" : 87216,
-        "recorded" : 1788905741
+        "lapMs" : 82382,
+        "recorded" : 1791227988
       },
       {
         "carId" : 2183,
         "carName" : "Chevrolet Corvette C7 Gr.3",
-        "lapMs" : 88943,
-        "recorded" : 1788905564
+        "lapMs" : 82780,
+        "recorded" : 1791227905
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 83317,
+        "recorded" : 1791227823
       }
     ],
     "trackName" : "WeatherTech Raceway Laguna Seca",
-    "updated" : 1788905741
+    "updated" : 1791227988
   },
   {
     "carClass" : "Gr.3",
     "context" : "unknown",
     "courseId" : 41,
     "laps" : [
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 82106,
+        "recorded" : 1791223941
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 82287,
+        "recorded" : 1791223859
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 82534,
+        "recorded" : 1791223694
+      },
       {
         "lapMs" : 83034,
         "recorded" : 1788906356
@@ -1124,7 +1154,7 @@
       }
     ],
     "trackName" : "WeatherTech Raceway Laguna Seca",
-    "updated" : 1788906356
+    "updated" : 1791223941
   },
   {
     "carClass" : "Gr.3",
@@ -1689,5 +1719,107 @@
     ],
     "trackName" : "Nürburgring Endurance",
     "updated" : 1790626875
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "unknown",
+    "courseId" : 365,
+    "laps" : [
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 116394,
+        "recorded" : 1791825796
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 116897,
+        "recorded" : 1791825562
+      },
+      {
+        "carId" : 2183,
+        "carName" : "Chevrolet Corvette C7 Gr.3",
+        "lapMs" : 117177,
+        "recorded" : 1791825445
+      }
+    ],
+    "trackName" : "Autodrome Lago Maggiore - Full Course",
+    "updated" : 1791825796
+  },
+  {
+    "carClass" : "Gr.1",
+    "context" : "weeklyChallenge",
+    "courseId" : 10,
+    "laps" : [
+      {
+        "carId" : 3607,
+        "carName" : "Porsche 963 '24",
+        "lapMs" : 107472,
+        "recorded" : 1792098538
+      },
+      {
+        "carId" : 3607,
+        "carName" : "Porsche 963 '24",
+        "lapMs" : 107569,
+        "recorded" : 1792098431
+      },
+      {
+        "carId" : 3607,
+        "carName" : "Porsche 963 '24",
+        "lapMs" : 110292,
+        "recorded" : 1792097737
+      }
+    ],
+    "trackName" : "Suzuka Circuit",
+    "updated" : 1792098538
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "customRace",
+    "courseId" : 1340,
+    "laps" : [
+      {
+        "carId" : 3609,
+        "carName" : "MAZDA RX-VISION GT3 EVO '26",
+        "lapMs" : 81474,
+        "recorded" : 1792100018
+      },
+      {
+        "carId" : 3609,
+        "carName" : "MAZDA RX-VISION GT3 EVO '26",
+        "lapMs" : 85923,
+        "recorded" : 1792099735
+      },
+      {
+        "carId" : 3609,
+        "carName" : "MAZDA RX-VISION GT3 EVO '26",
+        "lapMs" : 86421,
+        "recorded" : 1792099649
+      }
+    ],
+    "trackName" : "SUGO International Racing Course",
+    "updated" : 1792100018
+  },
+  {
+    "carClass" : "Gr.3",
+    "context" : "lobbyPractice",
+    "courseId" : 1340,
+    "laps" : [
+      {
+        "carId" : 3609,
+        "carName" : "MAZDA RX-VISION GT3 EVO '26",
+        "lapMs" : 80708,
+        "recorded" : 1792100551
+      },
+      {
+        "carId" : 3609,
+        "carName" : "MAZDA RX-VISION GT3 EVO '26",
+        "lapMs" : 84043,
+        "recorded" : 1792100471
+      }
+    ],
+    "trackName" : "SUGO International Racing Course",
+    "updated" : 1792100551
   }
 ]

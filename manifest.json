@@ -75,6 +75,46 @@
       ]
     },
     {
+      "stem": "10-weeklyChallenge-20261015_225139",
+      "courseId": 10,
+      "track": "Suzuka Circuit",
+      "context": "weeklyChallenge",
+      "carId": 3607,
+      "car": "Porsche 963 '24",
+      "carClass": "Gr.1",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 70678,
+      "durationS": 1179.1,
+      "rawBytes": 26009504,
+      "gzBytes": 13038404,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 8,
+      "tyreWearMultiplier": 6,
+      "identifiedCourseId": 10,
+      "identifiedTrackName": "Suzuka Circuit",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "corrected",
+          "finalLabel": "RS"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "corrected",
+          "finalLabel": "RS"
+        }
+      ]
+    },
+    {
       "stem": "11-lobby-20260721_235320",
       "courseId": 11,
       "track": "High Speed Ring",
@@ -2384,6 +2424,40 @@
       ]
     },
     {
+      "stem": "346-weeklyChallenge-20261015_222606",
+      "courseId": 346,
+      "track": "Brands Hatch Indy Circuit",
+      "context": "weeklyChallenge",
+      "carId": 3586,
+      "car": "Polestar 5 Performance '26",
+      "carClass": null,
+      "carClassSource": null,
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 17974,
+      "durationS": 299.9,
+      "rawBytes": 6614432,
+      "gzBytes": 3119065,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 0,
+      "identifiedCourseId": 346,
+      "identifiedTrackName": "Brands Hatch Indy Circuit",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
+    },
+    {
       "stem": "349-customRace-20260725_212313",
       "courseId": 349,
       "track": "N\u00fcrburgring GP",
@@ -2421,6 +2495,39 @@
           "family": "racing",
           "outcome": "unchallenged"
         }
+      ]
+    },
+    {
+      "stem": "351-weeklyChallenge-20261015_221540",
+      "courseId": 351,
+      "track": "Tokyo Expressway - Central Clockwise",
+      "context": "weeklyChallenge",
+      "carId": 3610,
+      "car": "Hyundai IONIQ 6 N '25",
+      "carClass": null,
+      "carClassSource": null,
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 33048,
+      "durationS": 551.4,
+      "rawBytes": 12161664,
+      "gzBytes": 5872789,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 0,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "comfort",
+          "compound": "CH",
+          "outcome": "corrected",
+          "finalLabel": "SH"
+        }
+      ],
+      "tyreCompounds": [
+        "SH"
       ]
     },
     {
@@ -5807,6 +5914,37 @@
       ]
     },
     {
+      "stem": "1226-weeklyChallenge-20261015_224147",
+      "courseId": 1226,
+      "track": "Autodrome Lago Maggiore - East",
+      "context": "weeklyChallenge",
+      "carId": 3485,
+      "car": "Mercedes-AMG GT Black Series '20",
+      "carClass": null,
+      "carClassSource": null,
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 27280,
+      "durationS": 455.1,
+      "rawBytes": 10039040,
+      "gzBytes": 4842993,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 0,
+      "identifiedCourseId": 1226,
+      "identifiedTrackName": "Autodrome Lago Maggiore - East",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "corrected",
+          "finalLabel": "RS"
+        }
+      ]
+    },
+    {
       "stem": "1231-lobby-20260725_225154",
       "courseId": 1231,
       "track": "Autodrome Lago Maggiore - East Reverse",
@@ -6408,6 +6546,122 @@
       "tyreCompounds": [
         "RH"
       ]
+    },
+    {
+      "stem": "1299-weeklyChallenge-20261015_223149",
+      "courseId": 1299,
+      "track": "Grand Valley - South",
+      "context": "weeklyChallenge",
+      "carId": 3559,
+      "car": "Suzuki Jimny Sierra JC '18",
+      "carClass": null,
+      "carClassSource": null,
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 20163,
+      "durationS": 336.4,
+      "rawBytes": 7419984,
+      "gzBytes": 3581312,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 0,
+      "identifiedCourseId": 1299,
+      "identifiedTrackName": "Grand Valley - South",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "comfort",
+          "compound": "CS",
+          "outcome": "corrected",
+          "finalLabel": "RS"
+        }
+      ],
+      "tyreCompounds": [
+        "RS"
+      ]
+    },
+    {
+      "stem": "1340-customRace-20261015_232422",
+      "courseId": 1340,
+      "track": "SUGO International Racing Course",
+      "context": "customRace",
+      "carId": 3609,
+      "car": "MAZDA RX-VISION GT3 EVO '26",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 35153,
+      "durationS": 586.5,
+      "rawBytes": 12936304,
+      "gzBytes": 6175263,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 4,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "corrected",
+          "finalLabel": "RM"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 5,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        }
+      ],
+      "tyreCompounds": [
+        "RM"
+      ]
+    },
+    {
+      "stem": "1340-lobbyPractice-20261015_233803",
+      "courseId": 1340,
+      "track": "SUGO International Racing Course",
+      "context": "lobbyPractice",
+      "carId": 3609,
+      "car": "MAZDA RX-VISION GT3 EVO '26",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 49625,
+      "durationS": 827.9,
+      "rawBytes": 18262000,
+      "gzBytes": 8529205,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 2,
+      "identifiedCourseId": 1340,
+      "identifiedTrackName": "SUGO International Racing Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 8,
+          "outcome": "corrected",
+          "finalLabel": "RS",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RS"
+      ]
     }
   ],
   "raw": [
@@ -6496,6 +6750,23 @@
       ]
     },
     {
+      "courseId": 10,
+      "track": "Suzuka Circuit",
+      "file": "reference/trackmaps/10.trackmap.json",
+      "versions": [
+        {
+          "context": "powerPackRace",
+          "lengthM": 5770,
+          "points": 1154
+        },
+        {
+          "context": "weeklyChallenge",
+          "lengthM": 5750,
+          "points": 1150
+        }
+      ]
+    },
+    {
       "courseId": 11,
       "track": "High Speed Ring",
       "file": "reference/trackmaps/11.trackmap.json",
@@ -6513,12 +6784,17 @@
       "file": "reference/trackmaps/41.trackmap.json",
       "versions": [
         {
-          "context": "lobby",
-          "lengthM": 3570,
-          "points": 714
+          "context": "customRace",
+          "lengthM": 3555,
+          "points": 711
         },
         {
-          "context": "customRace",
+          "context": null,
+          "lengthM": 3560,
+          "points": 712
+        },
+        {
+          "context": "lobby",
           "lengthM": 3555,
           "points": 711
         }
@@ -6608,6 +6884,11 @@
           "context": "lobby",
           "lengthM": 1910,
           "points": 382
+        },
+        {
+          "context": "weeklyChallenge",
+          "lengthM": 1910,
+          "points": 382
         }
       ]
     },
@@ -6620,6 +6901,18 @@
           "context": "customRace",
           "lengthM": 5065,
           "points": 1013
+        }
+      ]
+    },
+    {
+      "courseId": 351,
+      "track": "Tokyo Expressway - Central Clockwise",
+      "file": "reference/trackmaps/351.trackmap.json",
+      "versions": [
+        {
+          "context": "weeklyChallenge",
+          "lengthM": 4400,
+          "points": 880
         }
       ]
     },
@@ -6687,12 +6980,17 @@
       "file": "reference/trackmaps/365.trackmap.json",
       "versions": [
         {
-          "context": "lobby",
+          "context": "customRace",
           "lengthM": 5705,
           "points": 1141
         },
         {
-          "context": "customRace",
+          "context": null,
+          "lengthM": 5700,
+          "points": 1140
+        },
+        {
+          "context": "lobby",
           "lengthM": 5705,
           "points": 1141
         }
@@ -6715,6 +7013,11 @@
         },
         {
           "context": "customRace",
+          "lengthM": 4840,
+          "points": 968
+        },
+        {
+          "context": "powerPackRace",
           "lengthM": 4840,
           "points": 968
         }
@@ -7081,6 +7384,11 @@
           "context": "lobby",
           "lengthM": 4610,
           "points": 922
+        },
+        {
+          "context": "powerPackRace",
+          "lengthM": 4600,
+          "points": 920
         }
       ]
     },
@@ -7158,6 +7466,11 @@
           "context": "lobby",
           "lengthM": 3580,
           "points": 716
+        },
+        {
+          "context": "weeklyChallenge",
+          "lengthM": 3590,
+          "points": 718
         }
       ]
     },
@@ -7271,15 +7584,45 @@
           "points": 777
         }
       ]
+    },
+    {
+      "courseId": 1299,
+      "track": "Grand Valley - South",
+      "file": "reference/trackmaps/1299.trackmap.json",
+      "versions": [
+        {
+          "context": "weeklyChallenge",
+          "lengthM": 3030,
+          "points": 606
+        }
+      ]
+    },
+    {
+      "courseId": 1340,
+      "track": "SUGO International Racing Course",
+      "file": "reference/trackmaps/1340.trackmap.json",
+      "versions": [
+        {
+          "context": "customRace",
+          "lengthM": 3550,
+          "points": 710
+        },
+        {
+          "context": "lobbyPractice",
+          "lengthM": 3555,
+          "points": 711
+        }
+      ]
     }
   ],
   "referenceFiles": {
     "classlaps": {
       "file": "reference/classlaps.json",
       "schemaVersion": null,
-      "records": 81,
+      "records": 85,
       "courses": [
         4,
+        10,
         11,
         41,
         51,
@@ -7333,16 +7676,18 @@
         1233,
         1240,
         1247,
-        1249
+        1249,
+        1340
       ],
-      "updated": 1790626875
+      "updated": 1792100551
     },
     "learnedgates": {
       "file": "reference/learnedgates.json",
       "schemaVersion": 2,
-      "gates": 365,
+      "gates": 409,
       "courses": [
         4,
+        10,
         11,
         41,
         51,
@@ -7352,6 +7697,7 @@
         152,
         346,
         349,
+        351,
         354,
         356,
         357,
@@ -7398,7 +7744,9 @@
         1247,
         1248,
         1249,
-        1264
+        1264,
+        1299,
+        1340
       ],
       "kinds": [
         "finishLine",
@@ -7410,21 +7758,23 @@
       "contexts": [
         "customRace",
         "lobby",
+        "lobbyPractice",
         "powerPackRace",
         "sportDailyRace",
         "timeTrial",
-        "unknown"
+        "unknown",
+        "weeklyChallenge"
       ],
-      "withHeading": 236,
-      "updated": 1790628700,
+      "withHeading": 271,
+      "updated": 1792101269,
       "tolerance": {
-        "gatesWithWidth": 236,
+        "gatesWithWidth": 271,
         "minM": 12,
-        "medianM": 12.0,
+        "medianM": 12,
         "maxM": 20,
-        "atFloor": 207,
-        "atCap": 1,
-        "atDefault": 13,
+        "atFloor": 214,
+        "atCap": 2,
+        "atDefault": 35,
         "bounds": {
           "minHalfWidthM": 12,
           "maxHalfWidthM": 20,

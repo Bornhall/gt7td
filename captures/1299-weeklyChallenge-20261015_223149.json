@@ -1,0 +1,52 @@
+{
+  "carCategory" : "GRN",
+  "carId" : 3559,
+  "carName" : "Suzuki Jimny Sierra JC '18",
+  "compoundObservations" : [
+    {
+      "compound" : "CS",
+      "compoundConfidence" : "low",
+      "estimatorVersion" : "v1r8",
+      "family" : "comfort",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.025873236238552564,
+      "lap" : 1,
+      "outcome" : "corrected",
+      "revisions" : 4,
+      "samples" : 5159,
+      "seconds" : 290.15682349015685,
+      "slipPerG" : 1.3786249999999998,
+      "source" : "telemetry",
+      "startPacketId" : 193149,
+      "trigger" : "raceStart"
+    }
+  ],
+  "courseId" : 1299,
+  "declared" : {
+    "captureContext" : "weeklyChallenge",
+    "courseId" : 1299,
+    "fuelMultiplier" : 0,
+    "notes" : "Very special race. Way overpowered for the chassi, wheelying and even rolled it on lap 1 (detected as a pit stop?). Braking caused stoppies and the rear tried to pass the front.",
+    "raceLength" : 3,
+    "raceLengthUnit" : "laps",
+    "refuelRateLps" : 8,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Grand Valley - South",
+    "tyreCompounds" : "RS",
+    "tyreWearMultiplier" : 0,
+    "weather" : "dry"
+  },
+  "endTime" : 1792096646,
+  "granularity" : 1,
+  "identifiedCourseId" : 1299,
+  "identifiedTrackName" : "Grand Valley - South",
+  "maxSpeedKmh" : 248,
+  "packetSize" : 368,
+  "startTime" : 1792096309,
+  "trackName" : "Grand Valley - South",
+  "version" : 8
+}

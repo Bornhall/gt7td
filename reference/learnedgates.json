@@ -2196,44 +2196,44 @@
       "halfWidthM" : 0,
       "kind" : "pitEntry",
       "lineA" : [
-        -201.09588623046875,
-        136.4912567138672
+        -201.1717816866361,
+        136.4776358971229
       ],
       "lineB" : [
-        -201.09588623046875,
-        136.4912567138672
+        -201.1717816866361,
+        136.4776358971229
       ],
-      "m2" : 0,
-      "samples" : 22,
-      "spreadM" : 0,
+      "m2" : 1.0113128075698783,
+      "samples" : 26,
+      "spreadM" : 0.20112809923726505,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790372728,
+      "updated" : 1791832969,
       "yMax" : 14.989425659179688,
-      "yMin" : 8.989425659179688
+      "yMin" : 8.986613273620605
     },
     {
       "context" : "lobby",
       "courseId" : 365,
       "halfWidthM" : 12,
-      "headingRad" : -0.6120031655253195,
+      "headingRad" : -0.6121240962588554,
       "kind" : "pitExit",
       "lineA" : [
-        77.23153483626123,
-        -89.03879804311858
+        77.23205843859482,
+        -89.03928473505447
       ],
       "lineB" : [
-        91.01973164323095,
-        -69.39482622445955
+        91.02263070465939,
+        -69.39698047678449
       ],
-      "m2" : 0,
+      "m2" : 0.0006681426535711736,
       "offsetMaxM" : 0,
-      "offsetMinM" : 0,
-      "samples" : 22,
-      "spreadM" : 0,
+      "offsetMinM" : -0.0006833553307058629,
+      "samples" : 26,
+      "spreadM" : 0.0051696911071017525,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790372728,
-      "yMax" : 15.297294616699219,
-      "yMin" : 9.297294616699219
+      "updated" : 1791832986,
+      "yMax" : 15.297329902648926,
+      "yMin" : 9.297252655029297
     },
     {
       "context" : "lobby",
@@ -2241,44 +2241,44 @@
       "halfWidthM" : 0,
       "kind" : "pitBox",
       "lineA" : [
-        -64.25967407226562,
-        26.37334442138672
+        -64.2577614417443,
+        26.372071779691257
       ],
       "lineB" : [
-        -64.25967407226562,
-        26.37334442138672
+        -64.2577614417443,
+        26.372071779691257
       ],
-      "m2" : 0,
-      "samples" : 22,
-      "spreadM" : 0,
+      "m2" : 0.0007547218237261198,
+      "samples" : 26,
+      "spreadM" : 0.005494440185227681,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790372728,
+      "updated" : 1791832986,
       "yMax" : 15.28999137878418,
-      "yMin" : 9.28999137878418
+      "yMin" : 9.288725852966309
     },
     {
       "context" : "lobby",
       "courseId" : 365,
       "halfWidthM" : 12,
-      "headingRad" : -0.6369454818730175,
+      "headingRad" : -0.6389218970283013,
       "kind" : "finishLine",
       "lineA" : [
-        -34.489211408663564,
-        17.70727036882914
+        -34.63247365298656,
+        17.64767030926493
       ],
       "lineB" : [
-        -20.21538797182962,
-        37.001258149847615
+        -20.320545189438114,
+        36.9134094244474
       ],
-      "m2" : 12.197699948734236,
-      "offsetMaxM" : 0.38488727275553225,
-      "offsetMinM" : -0.3526042695400604,
-      "samples" : 44,
-      "spreadM" : 0.5326043941503281,
+      "m2" : 46.73876717454914,
+      "offsetMaxM" : 0.8261479481191653,
+      "offsetMinM" : -4.757624756154356,
+      "samples" : 70,
+      "spreadM" : 0.8230269967092856,
       "trackName" : "Autodrome Lago Maggiore - Full Course",
-      "updated" : 1790372728,
+      "updated" : 1791833712,
       "yMax" : 15.284627914428711,
-      "yMin" : 9.283863067626953
+      "yMin" : 9.273736000061035
     },
     {
       "context" : "customRace",
@@ -6519,25 +6519,25 @@
       "context" : "lobby",
       "courseId" : 41,
       "halfWidthM" : 12,
-      "headingRad" : 2.15976068904007,
+      "headingRad" : 2.1553522059662122,
       "kind" : "finishLine",
       "lineA" : [
-        -267.5280094500474,
-        -237.00292609236945
+        -267.3622798324569,
+        -236.8761279148658
       ],
       "lineB" : [
-        -287.4844035748549,
-        -250.33493020035516
+        -287.3772537581575,
+        -250.12002533041257
       ],
-      "m2" : 114.38175232904895,
-      "offsetMaxM" : 2.207733691629085,
+      "m2" : 215.3779475953982,
+      "offsetMaxM" : 7.096471513591555,
       "offsetMinM" : -2.7667567219622584,
-      "samples" : 68,
-      "spreadM" : 1.3065949384829973,
+      "samples" : 109,
+      "spreadM" : 1.412175716939272,
       "trackName" : "WeatherTech Raceway Laguna Seca",
-      "updated" : 1790372206,
-      "yMax" : -18.17324447631836,
-      "yMin" : -24.194791793823242
+      "updated" : 1791228658,
+      "yMax" : -18.148704528808594,
+      "yMin" : -24.382553100585938
     },
     {
       "context" : "lobby",
@@ -8412,6 +8412,1053 @@
       "updated" : 1790628695,
       "yMax" : 144.25482177734375,
       "yMin" : 138.25482177734375
+    },
+    {
+      "context" : "unknown",
+      "courseId" : 41,
+      "halfWidthM" : 16,
+      "headingRad" : -1.6036596581654299,
+      "kind" : "lap1",
+      "lineA" : [
+        -327.45444977843755,
+        136.88633725208072
+      ],
+      "lineB" : [
+        -295.4717282000781,
+        135.83489993053647
+      ],
+      "m2" : 0.0028749946504831314,
+      "offsetMaxM" : 0,
+      "offsetMinM" : -0.06951253892735501,
+      "samples" : 2,
+      "spreadM" : 0.05361897658929282,
+      "trackName" : "WeatherTech Raceway Laguna Seca",
+      "updated" : 1791224573,
+      "yMax" : -23.074655532836914,
+      "yMin" : -29.07798957824707
+    },
+    {
+      "context" : "unknown",
+      "courseId" : 41,
+      "halfWidthM" : 12,
+      "headingRad" : 2.157315111824948,
+      "kind" : "finishLine",
+      "lineA" : [
+        -266.9154202999495,
+        -236.2923238106467
+      ],
+      "lineB" : [
+        -286.9043591596857,
+        -249.57548319618925
+      ],
+      "m2" : 29.15748753390133,
+      "offsetMaxM" : 1.8941237910188113,
+      "offsetMinM" : -4.562228926077017,
+      "samples" : 15,
+      "spreadM" : 1.443148530468348,
+      "trackName" : "WeatherTech Raceway Laguna Seca",
+      "updated" : 1791224745,
+      "yMax" : -18.145572662353516,
+      "yMin" : -24.18697166442871
+    },
+    {
+      "context" : "unknown",
+      "courseId" : 41,
+      "halfWidthM" : 16,
+      "headingRad" : 2.216138607496635,
+      "kind" : "lap1",
+      "lineA" : [
+        -262.46000650609085,
+        -231.911872563278
+      ],
+      "lineB" : [
+        -288.02461263453415,
+        -251.1589739943392
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "WeatherTech Raceway Laguna Seca",
+      "updated" : 1791223261,
+      "yMax" : -18.159076690673828,
+      "yMin" : -24.159076690673828
+    },
+    {
+      "context" : "lobby",
+      "courseId" : 41,
+      "halfWidthM" : 16,
+      "headingRad" : 2.239464865011239,
+      "kind" : "lap1",
+      "lineA" : [
+        -267.7414575040221,
+        -235.61485898447808
+      ],
+      "lineB" : [
+        -292.8501867830873,
+        -255.45299685048286
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "WeatherTech Raceway Laguna Seca",
+      "updated" : 1791225040,
+      "yMax" : -18.242292404174805,
+      "yMin" : -24.242292404174805
+    },
+    {
+      "context" : "lobby",
+      "courseId" : 41,
+      "halfWidthM" : 0,
+      "kind" : "pitEntry",
+      "lineA" : [
+        -62.36476135253906,
+        -423.1740417480469
+      ],
+      "lineB" : [
+        -62.36476135253906,
+        -423.1740417480469
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "WeatherTech Raceway Laguna Seca",
+      "updated" : 1791227611,
+      "yMax" : -17.495269775390625,
+      "yMin" : -23.495269775390625
+    },
+    {
+      "context" : "lobby",
+      "courseId" : 41,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        -145.2113494873047,
+        -389.4169616699219
+      ],
+      "lineB" : [
+        -145.2113494873047,
+        -389.4169616699219
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "WeatherTech Raceway Laguna Seca",
+      "updated" : 1791227651,
+      "yMax" : -19.429506301879883,
+      "yMin" : -25.429506301879883
+    },
+    {
+      "context" : "lobby",
+      "courseId" : 41,
+      "halfWidthM" : 16,
+      "headingRad" : 2.1263491215173724,
+      "kind" : "pitExit",
+      "lineA" : [
+        -271.4503535971565,
+        -207.60605383326288
+      ],
+      "lineB" : [
+        -298.63784220362476,
+        -224.483271117909
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "WeatherTech Raceway Laguna Seca",
+      "updated" : 1791227651,
+      "yMax" : -17.269020080566406,
+      "yMin" : -23.269020080566406
+    },
+    {
+      "context" : "powerPackRace",
+      "courseId" : 10,
+      "halfWidthM" : 16,
+      "headingRad" : 0.8747730031268961,
+      "kind" : "lap1",
+      "lineA" : [
+        748.9319321040045,
+        66.51576846927759
+      ],
+      "lineB" : [
+        724.3751968022455,
+        87.03324276119116
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Suzuka Circuit",
+      "updated" : 1791401346,
+      "yMax" : -6.6129655838012695,
+      "yMin" : -12.61296558380127
+    },
+    {
+      "context" : "powerPackRace",
+      "courseId" : 10,
+      "halfWidthM" : 12,
+      "headingRad" : 0.859723435315498,
+      "kind" : "finishLine",
+      "lineA" : [
+        551.5662569416385,
+        -157.8214265987965
+      ],
+      "lineB" : [
+        533.3823667155881,
+        -142.1578977420238
+      ],
+      "m2" : 47.98801174887916,
+      "offsetMaxM" : 6.151956994371968,
+      "offsetMinM" : 0,
+      "samples" : 4,
+      "spreadM" : 3.9995004583438987,
+      "trackName" : "Suzuka Circuit",
+      "updated" : 1791401924,
+      "yMax" : 1.7343826293945312,
+      "yMin" : -4.321409344673157
+    },
+    {
+      "context" : "powerPackRace",
+      "courseId" : 896,
+      "halfWidthM" : 16,
+      "headingRad" : 0.600044034353815,
+      "kind" : "lap1",
+      "lineA" : [
+        156.9870171223838,
+        110.97012069005459
+      ],
+      "lineB" : [
+        138.91729501140526,
+        137.38006470423252
+      ],
+      "m2" : 0.0009164259608951397,
+      "offsetMaxM" : 0,
+      "offsetMinM" : -0.00025484522074741695,
+      "samples" : 2,
+      "spreadM" : 0.030272528154997886,
+      "trackName" : "Autopolis International Racing Course",
+      "updated" : 1791402579,
+      "yMax" : -10.467527389526367,
+      "yMin" : -16.470097541809082
+    },
+    {
+      "context" : "powerPackRace",
+      "courseId" : 896,
+      "halfWidthM" : 15.674827765429178,
+      "headingRad" : 0.5726123369416812,
+      "kind" : "finishLine",
+      "lineA" : [
+        -82.05763215879719,
+        -25.931776981926475
+      ],
+      "lineB" : [
+        -99.04380140443524,
+        0.4172449403767935
+      ],
+      "m2" : 245.7002254758695,
+      "offsetMaxM" : 11.949112443075103,
+      "offsetMinM" : -7.898570129084797,
+      "samples" : 10,
+      "spreadM" : 5.2249425884763925,
+      "trackName" : "Autopolis International Racing Course",
+      "updated" : 1791403550,
+      "yMax" : -8.950822830200195,
+      "yMin" : -15.093490600585938
+    },
+    {
+      "context" : "powerPackRace",
+      "courseId" : 896,
+      "halfWidthM" : 0,
+      "kind" : "pitEntry",
+      "lineA" : [
+        -39.44345664978027,
+        -9.677688598632812
+      ],
+      "lineB" : [
+        -39.44345664978027,
+        -9.677688598632812
+      ],
+      "m2" : 7.275957614183426e-12,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 2.6973983046972182e-06,
+      "trackName" : "Autopolis International Racing Course",
+      "updated" : 1791402746,
+      "yMax" : -9.213241577148438,
+      "yMin" : -15.213446617126465
+    },
+    {
+      "context" : "powerPackRace",
+      "courseId" : 896,
+      "halfWidthM" : 16,
+      "headingRad" : 0.5842273612341286,
+      "kind" : "lap1",
+      "lineA" : [
+        122.70235668722586,
+        105.26259843721314
+      ],
+      "lineB" : [
+        105.05259478982492,
+        131.95503004179076
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Autopolis International Racing Course",
+      "updated" : 1791402874,
+      "yMax" : -10.289422988891602,
+      "yMin" : -16.2894229888916
+    },
+    {
+      "context" : "powerPackRace",
+      "courseId" : 376,
+      "halfWidthM" : 20,
+      "headingRad" : 0.04476049080046048,
+      "kind" : "lap1",
+      "lineA" : [
+        31.28045728661938,
+        -27.95853984371356
+      ],
+      "lineB" : [
+        29.490635446128017,
+        12.001396815136388
+      ],
+      "m2" : 142.67370702353577,
+      "offsetMaxM" : 14.613060822092143,
+      "offsetMinM" : 0,
+      "samples" : 3,
+      "spreadM" : 8.446114699183754,
+      "trackName" : "Kyoto Driving Park - Yamagiwa",
+      "updated" : 1791404233,
+      "yMax" : 111.04690551757812,
+      "yMin" : 105.03218841552734
+    },
+    {
+      "context" : "powerPackRace",
+      "courseId" : 376,
+      "halfWidthM" : 15.079688000392842,
+      "headingRad" : 0.01718717100826427,
+      "kind" : "finishLine",
+      "lineA" : [
+        30.496111873491607,
+        -12.75261825282547
+      ],
+      "lineB" : [
+        29.97778304049968,
+        17.402303335161733
+      ],
+      "m2" : 277.9296546756789,
+      "offsetMaxM" : 13.67606476854426,
+      "offsetMinM" : -6.822601995831604,
+      "samples" : 12,
+      "spreadM" : 5.026562666797614,
+      "trackName" : "Kyoto Driving Park - Yamagiwa",
+      "updated" : 1791405049,
+      "yMax" : 111.03953552246094,
+      "yMin" : 105.00458526611328
+    },
+    {
+      "context" : "powerPackRace",
+      "courseId" : 376,
+      "halfWidthM" : 0,
+      "kind" : "pitEntry",
+      "lineA" : [
+        -81.3226318359375,
+        -22.12847137451172
+      ],
+      "lineB" : [
+        -81.3226318359375,
+        -22.12847137451172
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "Kyoto Driving Park - Yamagiwa",
+      "updated" : 1791404109,
+      "yMax" : 111.19932556152344,
+      "yMin" : 105.19932556152344
+    },
+    {
+      "context" : "unknown",
+      "courseId" : 365,
+      "halfWidthM" : 16,
+      "headingRad" : -0.48045238085332054,
+      "kind" : "lap1",
+      "lineA" : [
+        116.83796291634715,
+        -117.11184990538243
+      ],
+      "lineB" : [
+        131.62773532584035,
+        -88.73470008241054
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Autodrome Lago Maggiore - Full Course",
+      "updated" : 1791825226,
+      "yMax" : 15.307085037231445,
+      "yMin" : 9.307085037231445
+    },
+    {
+      "context" : "unknown",
+      "courseId" : 365,
+      "halfWidthM" : 12,
+      "headingRad" : -0.6389599284688361,
+      "kind" : "finishLine",
+      "lineA" : [
+        -35.72678860920542,
+        16.383560132741575
+      ],
+      "lineB" : [
+        -21.414127452195952,
+        35.64875493073498
+      ],
+      "m2" : 9.213678834058012,
+      "offsetMaxM" : 1.7881582047587925,
+      "offsetMinM" : -2.3027945327558723,
+      "samples" : 5,
+      "spreadM" : 1.5177021145516345,
+      "trackName" : "Autodrome Lago Maggiore - Full Course",
+      "updated" : 1791825795,
+      "yMax" : 15.282142639160156,
+      "yMin" : 9.27599048614502
+    },
+    {
+      "context" : "lobby",
+      "courseId" : 365,
+      "halfWidthM" : 16,
+      "headingRad" : -0.6526774277368385,
+      "kind" : "lap1",
+      "lineA" : [
+        -38.49111321041083,
+        13.163444366193332
+      ],
+      "lineB" : [
+        -19.05701110294366,
+        38.58618370082327
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Autodrome Lago Maggiore - Full Course",
+      "updated" : 1791830020,
+      "yMax" : 15.28860092163086,
+      "yMin" : 9.28860092163086
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 351,
+      "halfWidthM" : 16,
+      "headingRad" : -3.017706090671364,
+      "kind" : "lap1",
+      "lineA" : [
+        -47.10828114993345,
+        839.9390499395885
+      ],
+      "lineB" : [
+        -43.15404413693179,
+        808.1843021111928
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Tokyo Expressway - Central Clockwise",
+      "updated" : 1792095352,
+      "yMax" : 11.14902400970459,
+      "yMin" : 5.14902400970459
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 351,
+      "halfWidthM" : 12,
+      "headingRad" : -3.019888773126817,
+      "kind" : "finishLine",
+      "lineA" : [
+        -46.50110928480601,
+        834.802663194504
+      ],
+      "lineB" : [
+        -43.58742144639516,
+        810.9801859265897
+      ],
+      "m2" : 23.873097751594,
+      "offsetMaxM" : 0.7245805864934518,
+      "offsetMinM" : -4.875668724065775,
+      "samples" : 5,
+      "spreadM" : 2.4430052062774035,
+      "trackName" : "Tokyo Expressway - Central Clockwise",
+      "updated" : 1792095860,
+      "yMax" : 11.151942253112793,
+      "yMin" : 5.140115737915039
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 346,
+      "halfWidthM" : 16,
+      "headingRad" : -0.48793329241738903,
+      "kind" : "lap1",
+      "lineA" : [
+        -149.3736245003405,
+        -416.5651394087741
+      ],
+      "lineB" : [
+        -134.3719809684095,
+        -388.29942357950716
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Brands Hatch Indy Circuit",
+      "updated" : 1792095996,
+      "yMax" : -0.08664345741271973,
+      "yMin" : -6.08664345741272
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 346,
+      "halfWidthM" : 12,
+      "headingRad" : -0.44971738216442747,
+      "kind" : "finishLine",
+      "lineA" : [
+        -147.07752789538887,
+        -412.96305027204687
+      ],
+      "lineB" : [
+        -136.64446307140798,
+        -391.34937038224996
+      ],
+      "m2" : 18.4821722027846,
+      "offsetMaxM" : 4.976501203892728,
+      "offsetMinM" : -1.1550217551562967,
+      "samples" : 5,
+      "spreadM" : 2.1495448473330696,
+      "trackName" : "Brands Hatch Indy Circuit",
+      "updated" : 1792096235,
+      "yMax" : 0.02505660057067871,
+      "yMin" : -6.450632572174072
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 1299,
+      "halfWidthM" : 16,
+      "headingRad" : 1.7295252235706782,
+      "kind" : "lap1",
+      "lineA" : [
+        112.02203135021861,
+        960.8185621486701
+      ],
+      "lineB" : [
+        80.42430348864858,
+        955.7605394138299
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Grand Valley - South",
+      "updated" : 1792096319,
+      "yMax" : 126.21791076660156,
+      "yMin" : 120.21791076660156
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 1299,
+      "halfWidthM" : 0,
+      "kind" : "pitEntry",
+      "lineA" : [
+        -282.5244445800781,
+        785.5757446289062
+      ],
+      "lineB" : [
+        -282.5244445800781,
+        785.5757446289062
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Grand Valley - South",
+      "updated" : 1792096363,
+      "yMax" : 78.5816421508789,
+      "yMin" : 72.5816421508789
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 1299,
+      "halfWidthM" : 16,
+      "headingRad" : -0.9512662804845107,
+      "kind" : "pitExit",
+      "lineA" : [
+        -268.9954932568873,
+        712.4402711113436
+      ],
+      "lineB" : [
+        -242.9426476122533,
+        731.0211546699064
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Grand Valley - South",
+      "updated" : 1792096368,
+      "yMax" : 77.5029525756836,
+      "yMin" : 71.5029525756836
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 1299,
+      "halfWidthM" : 14.334688887156409,
+      "headingRad" : 1.7421110876842811,
+      "kind" : "finishLine",
+      "lineA" : [
+        116.42441971647668,
+        961.4054191684276
+      ],
+      "lineB" : [
+        88.17471917919389,
+        956.5179206753224
+      ],
+      "m2" : 45.662956775903425,
+      "offsetMaxM" : 5.354103352516766,
+      "offsetMinM" : -6.851267286264924,
+      "samples" : 3,
+      "spreadM" : 4.778229629052136,
+      "trackName" : "Grand Valley - South",
+      "updated" : 1792096615,
+      "yMax" : 126.19895935058594,
+      "yMin" : 120.11074829101562
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 1226,
+      "halfWidthM" : 16,
+      "headingRad" : -0.6233174030982216,
+      "kind" : "lap1",
+      "lineA" : [
+        -40.84825661648173,
+        8.815743410130604
+      ],
+      "lineB" : [
+        -22.168835134616906,
+        34.79802993581666
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Autodrome Lago Maggiore - East",
+      "updated" : 1792096928,
+      "yMax" : 15.316835403442383,
+      "yMin" : 9.316835403442383
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 1226,
+      "halfWidthM" : 16.63786205736033,
+      "headingRad" : -0.639988087778877,
+      "kind" : "finishLine",
+      "lineA" : [
+        -39.22085829466137,
+        11.509736529866734
+      ],
+      "lineB" : [
+        -19.349065487687266,
+        38.20029040189596
+      ],
+      "m2" : 123.03042392877799,
+      "offsetMaxM" : 9.024101024509616,
+      "offsetMinM" : -10.549453941175848,
+      "samples" : 5,
+      "spreadM" : 5.54595401912011,
+      "trackName" : "Autodrome Lago Maggiore - East",
+      "updated" : 1792097331,
+      "yMax" : 15.319189071655273,
+      "yMin" : 9.292945861816406
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 10,
+      "halfWidthM" : 16,
+      "headingRad" : 0.8752662505283763,
+      "kind" : "lap1",
+      "lineA" : [
+        748.0332126294468,
+        67.6164495555835
+      ],
+      "lineB" : [
+        723.4663601244595,
+        88.1218088062329
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Suzuka Circuit",
+      "updated" : 1792097518,
+      "yMax" : -6.649102210998535,
+      "yMin" : -12.649102210998535
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 10,
+      "halfWidthM" : 12,
+      "headingRad" : 0.8467511371692978,
+      "kind" : "finishLine",
+      "lineA" : [
+        555.6791689683652,
+        -161.32578424001056
+      ],
+      "lineB" : [
+        537.699994985628,
+        -145.42769306847467
+      ],
+      "m2" : 14.425021970515225,
+      "offsetMaxM" : 2.718851555714115,
+      "offsetMinM" : -2.0771975791741575,
+      "samples" : 9,
+      "spreadM" : 1.3428059228028462,
+      "trackName" : "Suzuka Circuit",
+      "updated" : 1792098648,
+      "yMax" : 1.7121996879577637,
+      "yMin" : -4.311680555343628
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 10,
+      "halfWidthM" : 0,
+      "kind" : "pitEntry",
+      "lineA" : [
+        412.8707580566406,
+        -244.93141174316406
+      ],
+      "lineB" : [
+        412.8707580566406,
+        -244.93141174316406
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Suzuka Circuit",
+      "updated" : 1792098191,
+      "yMax" : 7.617513656616211,
+      "yMin" : 1.617513656616211
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 10,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        648.6395874023438,
+        9.575750350952148
+      ],
+      "lineB" : [
+        648.6395874023438,
+        9.575750350952148
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Suzuka Circuit",
+      "updated" : 1792098214,
+      "yMax" : -3.6208996772766113,
+      "yMin" : -9.620899677276611
+    },
+    {
+      "context" : "weeklyChallenge",
+      "courseId" : 10,
+      "halfWidthM" : 16,
+      "headingRad" : 0.8548798242739586,
+      "kind" : "pitExit",
+      "lineA" : [
+        761.7912941731203,
+        110.54769804180874
+      ],
+      "lineB" : [
+        737.6475486003172,
+        131.54959199725374
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 1,
+      "spreadM" : 0,
+      "trackName" : "Suzuka Circuit",
+      "updated" : 1792098214,
+      "yMax" : -7.81966495513916,
+      "yMin" : -13.81966495513916
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1340,
+      "halfWidthM" : 16,
+      "headingRad" : 0.1160662153788989,
+      "kind" : "lap1",
+      "lineA" : [
+        97.42513546907963,
+        -231.788559716804
+      ],
+      "lineB" : [
+        93.71935000455318,
+        -200.00385971678975
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "SUGO International Racing Course",
+      "updated" : 1792101255,
+      "yMax" : 19.772592544555664,
+      "yMin" : 13.772592544555664
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1340,
+      "halfWidthM" : 13.279938938070757,
+      "headingRad" : 0.1255928890288991,
+      "kind" : "finishLine",
+      "lineA" : [
+        96.74182098744693,
+        -226.2167375839661
+      ],
+      "lineB" : [
+        93.41485168101012,
+        -199.86605660548702
+      ],
+      "m2" : 176.35677819888784,
+      "offsetMaxM" : 11.220501993568634,
+      "offsetMinM" : -4.30103417573371,
+      "samples" : 10,
+      "spreadM" : 4.426646312690252,
+      "trackName" : "SUGO International Racing Course",
+      "updated" : 1792101256,
+      "yMax" : 19.767620086669922,
+      "yMin" : 13.638694763183594
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1340,
+      "halfWidthM" : 16,
+      "headingRad" : 0.20090361377616184,
+      "kind" : "pitEntry",
+      "lineA" : [
+        153.9866703442464,
+        -205.65577135727617
+      ],
+      "lineB" : [
+        147.60091510497236,
+        -174.2993983204582
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "SUGO International Racing Course",
+      "updated" : 1792101256,
+      "yMax" : 20.152658462524414,
+      "yMin" : 14.152658462524414
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1340,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        184.2045440673828,
+        -180.5846710205078
+      ],
+      "lineB" : [
+        184.2045440673828,
+        -180.5846710205078
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "SUGO International Racing Course",
+      "updated" : 1792101256,
+      "yMax" : 20.462722778320312,
+      "yMin" : 14.462722778320312
+    },
+    {
+      "context" : "customRace",
+      "courseId" : 1340,
+      "halfWidthM" : 16,
+      "headingRad" : 0.16384771840451023,
+      "kind" : "pitExit",
+      "lineA" : [
+        280.54063558053167,
+        -190.71994606526303
+      ],
+      "lineB" : [
+        275.32093668509333,
+        -159.14852317301822
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "SUGO International Racing Course",
+      "updated" : 1792101256,
+      "yMax" : 21.65218162536621,
+      "yMin" : 15.652181625366211
+    },
+    {
+      "context" : "lobbyPractice",
+      "courseId" : 1340,
+      "halfWidthM" : 16,
+      "headingRad" : -3.026006946190986,
+      "kind" : "lap1",
+      "lineA" : [
+        301.60915062062685,
+        -52.48596530134553
+      ],
+      "lineB" : [
+        305.29966285593565,
+        -84.27244229142791
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "SUGO International Racing Course",
+      "updated" : 1792101260,
+      "yMax" : 20.429767608642578,
+      "yMin" : 14.429767608642578
+    },
+    {
+      "context" : "lobbyPractice",
+      "courseId" : 1340,
+      "halfWidthM" : 12,
+      "headingRad" : 0.12636180997180887,
+      "kind" : "finishLine",
+      "lineA" : [
+        96.69549806287824,
+        -227.07670115386563
+      ],
+      "lineB" : [
+        93.67087881395287,
+        -203.2680540188638
+      ],
+      "m2" : 5.071159030863846,
+      "offsetMaxM" : 0.9651718524123828,
+      "offsetMinM" : -0.8006714790419126,
+      "samples" : 16,
+      "spreadM" : 0.581444123475555,
+      "trackName" : "SUGO International Racing Course",
+      "updated" : 1792101269,
+      "yMax" : 19.760496139526367,
+      "yMin" : 13.747234344482422
+    },
+    {
+      "context" : "lobbyPractice",
+      "courseId" : 1340,
+      "halfWidthM" : 16,
+      "headingRad" : 0.20090613604376206,
+      "kind" : "pitEntry",
+      "lineA" : [
+        153.98674040639625,
+        -205.65574804514546
+      ],
+      "lineB" : [
+        147.60090607797875,
+        -174.2993911150108
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "SUGO International Racing Course",
+      "updated" : 1792101269,
+      "yMax" : 20.151208877563477,
+      "yMin" : 14.151208877563477
+    },
+    {
+      "context" : "lobbyPractice",
+      "courseId" : 1340,
+      "halfWidthM" : 0,
+      "kind" : "pitBox",
+      "lineA" : [
+        184.20458984375,
+        -180.58468627929688
+      ],
+      "lineB" : [
+        184.20458984375,
+        -180.58468627929688
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "SUGO International Racing Course",
+      "updated" : 1792101269,
+      "yMax" : 20.46132469177246,
+      "yMin" : 14.461324691772461
+    },
+    {
+      "context" : "lobbyPractice",
+      "courseId" : 1340,
+      "halfWidthM" : 16,
+      "headingRad" : 0.1638223750345214,
+      "kind" : "pitExit",
+      "lineA" : [
+        280.53669547750536,
+        -190.7205462601909
+      ],
+      "lineB" : [
+        275.31779670999464,
+        -159.14899109332472
+      ],
+      "m2" : 0,
+      "offsetMaxM" : 0,
+      "offsetMinM" : 0,
+      "samples" : 2,
+      "spreadM" : 0,
+      "trackName" : "SUGO International Racing Course",
+      "updated" : 1792101269,
+      "yMax" : 21.650617599487305,
+      "yMin" : 15.650617599487305
     }
   ],
   "schemaVersion" : 2,

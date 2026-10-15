@@ -1,0 +1,199 @@
+# EzioClient session log
+# file:    20261015_222606 - Brands Hatch Indy Circuit (346).gt7td
+# started: 2026-10-15T20:26:06Z
+# track:   Brands Hatch Indy Circuit (CRS 346)
+# context: weeklyChallenge
+# ---
+📊 pit loss: estimated 11.0 s from the unofficial table (Brands Hatch Indy Circuit)
+📊 strategy: track pit loss 11.0 s
+# car:     Polestar 5 Performance '26 [uncategorised] (id 3586) — confirmed from telemetry
+🧭 polyline [MENU]: 4 candidate(s) dropped on direction — best of them Sardegna - Road Track - B median 97.34 (alignment -0.45)
+🧭 polyline [MENU]: Brands Hatch Grand Prix Circuit fits (median 2.85 m) but on 773 m of road — waiting for 800 m
+🧭 polyline [MENU]: 6 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway Reverse median 174.88 (alignment -0.39)
+🧭 polyline [MENU]: 2 layouts share this road (Brands Hatch Grand Prix Circuit, Brands Hatch Indy Circuit) — watching for the fork
+🧭 polyline [MENU]: ambiguous — Brands Hatch Indy Circuit median 2.52/p90 13.99 vs Brands Hatch Grand Prix Circuit median 2.58/p90 23.59 (90 samples), abstaining
+🧭 polyline [MENU]: 6 candidate(s) dropped on direction — best of them Sardegna - Road Track - B median 65.48 (alignment -0.39)
+🧭 polyline [MENU]: ambiguous — Brands Hatch Indy Circuit median 2.91/p90 9.68 vs Brands Hatch Grand Prix Circuit median 3.40/p90 13.68 (120 samples), abstaining
+🧭 polyline divergence: fork at 1285 m on course 346 — 1 left (Brands Hatch Indy Circuit)
+🧭 polyline divergence: resolved to Brands Hatch Indy Circuit
+🧭 polyline [MENU]: fork resolved to Brands Hatch Indy Circuit
+🧭 polyline [MENU]: Brands Hatch Indy Circuit (CRS 346, map ctx lobby) median 2.91 m, p90 9.68 m, 28% of lap, 120 samples, alignment +0.77 — next course Brands Hatch Grand Prix Circuit median 3.40/p90 13.68
+🏁 announcing track: Brands Hatch Indy Circuit (CRS 346) from map matcher
+🗣 spoke (radio, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line): trackIdentified(Brands Hatch Indy Circuit, CRS 346)
+🔊 identified Brands Hatch Indy Circuit
+🗺 stored map loaded on identification (map matcher): course 346, 382 pts
+🧭 polyline agrees with the declared course (CRS 346)
+📊 pit loss: measured 10.9 s
+📊 strategy: track pit loss 10.9 s
+🅿️ pit speaking budget 6.0s (entry to box)
+🔧 pit approach: entry at station 1660 m of 1910 m (14.1 m off the line), lead 20 s
+🔓 learning resumed — player on track
+🛞 compound: car 3586 — no reference — generic ladder
+🎮 menus → onTrack (pkt 173492, lap 0, flags 0x0009, pos 10, cars 10, tod 68400000)
+🏁 start type: ROLLING_START at pkt 173842 lap 1
+🔀 state UNKNOWN → RACING at pkt 173842 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=80.00
+📊 strategy: green flag (speed) at pkt 173842, race clock running
+🛞 compound: green flag — cool-down guard cleared
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 3.7/20.4s, 1 line): greenFlag
+🔊 lights out
+📊 strategy L1: no fuel model yet
+🧭 learned (line): Brands Hatch family, 2 layouts (Brands Hatch Grand Prix Circuit, Brands Hatch Indy Circuit) — resolving at the fork
+🚪 gate learned: Brands Hatch Indy Circuit/weeklyChallenge/lap1 heading -28°
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 5.8/20.4s, 1 line): surveyGate(lap1, 1)
+🛞 compound: window opened — raceStart, lap 1
+🔊 lap one gate recorded
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 bit wide there
+🔊 watch track limits
+🛞 compound: family racing (H+ 0.175, locked for the race)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 5.0/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 we're on racing rubber
+🧭 divergence: fork at 1285 m on course 346 — 1 left (Brands Hatch Indy Circuit)
+🧭 divergence: resolved to Brands Hatch Indy Circuit
+🧭 identified: Brands Hatch Indy Circuit (CRS 346) — finishLine, 154 sample(s), ±12 m
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 0:50.998 first fuel_used=0.00
+🔵 lap 1 antics: off
+📊 strategy L2: no fuel model yet
+🚪 gate learned: Brands Hatch Indy Circuit/weeklyChallenge/finishLine heading -26°
+🛞 wear (test) lap 1 done: uncalibrated (no compound); RS 1× base FL 1.3 FR 0.7 RL 1.0 RR 0.7 %
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 6.6/20.4s, 1 line): surveyGate(finishLine, 1)
+🔊 finish line recorded
+🗣 bulletin (imp 6, cost 5.6s, ledger 12.2/20.4s, 2 lines): L2
+🔊 lap 2 now
+🔊 last lap was a 50 point nine
+🛞 compound: racingSoft (low confidence, C 0.77, margin 0.112, generic reference)
+🛞 compound prompt: raceStart lap 1, estimate RS
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 9.3/20.4s, 1 line): compoundEstimate(raceStart, RS, low)
+🔊 might be racing softs
+🛞 compound prompt confirmed: RS
+🛞 compound: RS confirmed by the driver — anchor
+📋 lap 2: 0:45.907 clean fuel_used=0.00
+🔵 lap 2: clean
+📊 strategy L3: no fuel model yet
+🚪 gate refined: Brands Hatch Indy Circuit/weeklyChallenge/finishLine (2 samples, σ 0.73 m, ±16 m, across -0.8…0.0 m)
+🗣 spoke (lapPace, imp 4, cost 7.6s, ledger 7.6/20.4s, 1 line): paceDegradation(6.63s/lap over 5)
+🔊 pace is really slipping
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 10.3/20.4s, 1 line): surveyGate(finishLine, 2)
+🗺 mapper: learned lap 2 (45.907 s, 1915 m, 383 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.5s, ledger 13.8/20.4s, 1 line): surveyLap(2, 45907 ms, 383 pts)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 16.5/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 frame vs lobby: median 1.4 m, centroid offset 1.6 m
+🗺 survey stored → 346.trackmap.json (lap 2, 45.907 s)
+🛞 wear (test) lap 2 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RS ×0 (tap)
+🔊 over half a second a lap
+🗑 dropped (bulletin, ledger full; cost 4.3s, load 16.5/20.4s, 2 lines): L3
+🔊 need to pit for new tyres?
+🔊 finish line now 2 crossings
+🔊 clean lap banked
+🗑 speaker: stale after pause: "45 point nine one"
+🗑 speaker: stale, not spoken: "essentials recorded"
+🗑 speaker: stale, not spoken: "3 optional outstanding"
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.846 over 120 s (2133 samples)
+📋 lap 3: 0:44.363 clean fuel_used=0.00
+🔵 lap 3: clean
+📊 strategy L4: no fuel model yet
+🚪 gate refined: Brands Hatch Indy Circuit/weeklyChallenge/finishLine (3 samples, σ 2.93 m, ±12 m, across -0.8…5.0 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 3)
+🗺 mapper: learned lap 3 (44.363 s, 1910 m, 382 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.5s, ledger 6.2/20.4s, 1 line): surveyLap(3, 44363 ms, 382 pts)
+🔊 finish line sharpened
+🗺 frame vs lobby: median 2.1 m, centroid offset 0.7 m
+🗺 survey stored → 346.trackmap.json (lap 3, 44.363 s)
+🛞 wear (test) lap 3 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RS ×0 (tap)
+🔊 3 samples
+🗣 bulletin (imp 2, cost 6.2s, ledger 12.4/20.4s, 2 lines): L4
+🔊 got a clean lap
+🔊 44 point four
+🔊 new fastest lap
+🔊 44 point four
+🔊 lap 4
+🗣 spoke (tyres, imp 4, cost 3.1s, ledger 15.5/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔊 tyres at 70
+🔊 in the window
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.907 over 180 s (2918 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 bit wide there
+🔊 watch track limits
+📋 lap 4: 0:53.091 clean fuel_used=0.00
+🔵 lap 4 antics: off
+📊 strategy L5: no fuel model yet
+🚪 gate refined: Brands Hatch Indy Circuit/weeklyChallenge/finishLine (4 samples, σ 2.46 m, ±12 m, across -1.2…5.0 m)
+🛞 wear (test) lap 4 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RS ×0 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.6/20.4s, 1 line): surveyGate(finishLine, 4)
+🔊 finish line refined
+🔊 4 crossings
+🗣 bulletin (imp 6, cost 6.7s, ledger 12.3/20.4s, 2 lines): L5
+🔊 last lap
+🔊 get it over the line
+🔊 53 point one
+🔊 reset
+🔊 go again
+📋 lap 5: 0:44.971 clean fuel_used=0.00
+🔵 lap 5: clean
+📊 strategy: finish armed at L6 (lap 6 > 5) — awaiting lap-clock freeze
+📊 strategy L6: no fuel model yet
+🚪 gate refined: Brands Hatch Indy Circuit/weeklyChallenge/finishLine (5 samples, σ 2.15 m, ±12 m, across -1.2…5.0 m)
+🗣 spoke (lapPace, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): paceDegradation(9.51s/lap over 5)
+🔊 lost a lot of pace
+🛞 compound: stint raceStart lap 1, refinement 3 (final) — C 0.948 over 239 s (3672 samples)
+🛞 wear (test) lap 5 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RS ×0 (tap)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.2/20.4s, 1 line): surveyGate(finishLine, 5)
+📊 strategy: race finished at L6 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 6 lap(s), 0 stop(s), start ROLLING_START, P1/10
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 6.8/20.4s, 1 line): raceFinished(L6)
+🗑 speaker: 1 queued line(s) preempted by flag
+🔊 that's race over
+🔧 session ended after lap 6
+🗑 flag: pending commentary cancelled
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🎮 replay handshake armed (off track, race context still valid: pos 10, cars 10)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 178 gate(s) from 388 stored, 67 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 11.0 s from the unofficial table (Brands Hatch Indy Circuit)
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 strategy: track pit loss 11.0 s
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🅿️ no pit speaking budget for this track
+🎮 onTrack → replay (pkt 189094, lap 0, flags 0x0088, pos 10, cars 10, tod 68400166)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 11.0 s from the unofficial table (Brands Hatch Indy Circuit)
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 189249, lap 0, flags 0x0008, pos —, cars —, tod 70851660)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 11.0 s from the unofficial table (Brands Hatch Indy Circuit)
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 17974 packets

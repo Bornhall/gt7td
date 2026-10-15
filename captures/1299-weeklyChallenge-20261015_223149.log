@@ -1,0 +1,184 @@
+# EzioClient session log
+# file:    20261015_223149 - Grand Valley - South (1299).gt7td
+# started: 2026-10-15T20:31:49Z
+# track:   Grand Valley - South (CRS 1299)
+# context: weeklyChallenge
+# ---
+📊 pit loss: estimated 10.0 s from the unofficial table (Grand Valley - South)
+📊 strategy: track pit loss 10.0 s
+# car:     Suzuki Jimny Sierra JC '18 [uncategorised] (id 3559) — confirmed from telemetry
+🧭 polyline [MENU]: 7 candidate(s) dropped on direction — best of them Dragon Trail - Seaside median 105.71 (alignment -0.35)
+🧭 polyline [MENU]: no fit yet — best Watkins Glen Long Course median 31.45 m (180 samples, pass 6 of 12)
+🔓 learning resumed — player on track
+🛞 compound: car 3559 — no reference — generic ladder
+🎮 menus → onTrack (pkt 192773, lap 0, flags 0x0199, pos 12, cars 12, tod 73800000)
+🧭 polyline [PRE-GREEN]: 9 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 55.99 (alignment -0.51)
+🧭 polyline [PRE-GREEN]: no fit yet — best Watkins Glen Long Course median 31.43 m (180 samples, pass 7 of 12)
+🏁 start type: ROLLING_START at pkt 193149 lap 1
+🔀 state UNKNOWN → RACING at pkt 193149 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.00
+📊 strategy: green flag (speed) at pkt 193149, race clock running
+🛞 compound: green flag — cool-down guard cleared
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): greenFlag
+🔊 lights out
+📊 strategy L1: no fuel model yet
+🧭 no gate matched at lap 0→1 (new coordinates) — live-learn only; the learner records this crossing if the track is declared
+🚪 gate learned: Grand Valley - South/weeklyChallenge/lap1 heading 99°
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 2.8/20.4s, 1 line): surveyGate(lap1, 1)
+🛞 compound: window opened — raceStart, lap 1
+🔊 identification gate recorded
+🧭 polyline [L1]: 1 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 55.97 (alignment -0.71)
+🧭 polyline [L1]: no fit yet — best Watkins Glen Long Course median 31.43 m (180 samples, pass 8 of 12)
+🧭 polyline [L1]: 1 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 65.10 (alignment -0.76)
+🧭 polyline [L1]: no fit yet — best Watkins Glen Long Course median 59.75 m (180 samples, pass 9 of 12)
+🎭 mood relaxed → focused
+🗣 chain (imp 1, cost 3.4s, ledger 6.2/20.4s, 3 events, 1 lines)
+🔊 you got shoved wide there
+🔊 check everything
+🧭 polyline [L1]: 1 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 78.76 (alignment -0.74)
+🧭 polyline [L1]: no fit yet — best Circuit de Sainte-Croix - B median 142.95 m (180 samples, pass 10 of 12)
+🧭 polyline [L1]: 4 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 119.06 (alignment -0.47)
+🧭 polyline [L1]: no fit yet — best Circuit de Sainte-Croix - B median 142.95 m (180 samples, pass 11 of 12)
+🧭 polyline [L1]: 4 candidate(s) dropped on direction — best of them Sardegna - Road Track - B median 498.30 (alignment -0.52)
+🧭 polyline [L1]: no fit yet — best Circuit de Sainte-Croix - B median 122.36 m (180 samples, pass 12 of 12)
+🛞 compound: family road (H+ -0.748, locked for the race)
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 4.6/20.4s, 1 line): compoundEstimate(raceStart, road, high)
+🔊 road tyres
+🗣 chain (imp 4, cost 1.6s, ledger 2.8/20.4s, 1 events, 1 lines)
+🔊 watch track limits
+🔧 teleport 77 m on lap 1 — pending reset-vs-pit (2.5 s)
+🔀 state RACING → PIT at pkt 195799 lap 1
+🔵 sub-state FIRST_LAP → — lap 1
+🔧 pit-entry anchor learned: 44466 ms into lap (stop on lap 1)
+🔧 pended reset cancelled: pit entry
+🚪 gate learned: Grand Valley - South/weeklyChallenge/pitEntry (no heading)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 5.3/20.4s, 1 line, protected): pittingIn(L1)
+🔊 pitting in
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🔊 crew's waiting
+🔀 state PIT → RACING at pkt 196137 lap 1
+🔵 sub-state — → OUT_LAP lap 1
+🅿️ PIT completed: in L1 → out L1 (no fuel, transit 6.1s, teleport=true)
+📊 strategy L1: no fuel model yet
+🚪 gate learned: Grand Valley - South/weeklyChallenge/pitExit heading -55°
+🗣 spoke (pitSequence, imp 2, cost 3.4s, ledger 8.7/20.4s, 1 line, protected): exitingPit(+0.00l)
+🔊 leaving the pits
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 10.3/20.4s, 1 line): surveyGate(pitExit, 1)
+🧭 pit exit: no gate matched — the line decides
+🔊 push when you're clear
+🔊 pit exit recorded
+🗣 chain (imp 4, cost 3.4s, ledger 8.3/20.4s, 2 events, 1 lines)
+🔊 contact and off
+🔊 check the car
+🗣 chain (imp 4, cost 1.2s, ledger 1.2/20.4s, 1 events, 1 lines)
+🔊 heavy contact
+🛞 compound: comfortSoft (low confidence, C 1.54, margin 0.081, generic reference)
+🛞 compound prompt: raceStart lap 1, estimate CS
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 2.8/20.4s, 1 line): compoundEstimate(raceStart, CS, low)
+🔊 possibly comfort softs
+🔧 fresh tyres confirmed: 56.9° across all four (was 65.0° at pit entry, step 8.0°)
+🗣 spoke (pitSequence, imp 2, cost 3.4s, ledger 6.2/20.4s, 1 line, protected): freshTyres(confirmed 56.95°)
+🔊 new tyres on
+🔊 they'll need a lap
+🎭 mood focused → concerned
+🛞 compound prompt corrected: RS
+🛞 compound: RS confirmed by the driver — anchor
+🔵 sub-state OUT_LAP → FLYING lap 2
+📋 lap 1: 1:47.309 first fuel_used=0.00
+🔵 lap 1 antics: contact, impact, off
+📊 strategy L2: no fuel model yet
+🚪 gate learned: Grand Valley - South/weeklyChallenge/finishLine heading 102°
+🎭 mood concerned → annoyed
+🛞 wear (test) lap 1 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RS ×0 (tap)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 7.8/20.4s, 1 line): surveyGate(finishLine, 1)
+🔊 finish line recorded
+🗣 chain (imp 4, cost 3.4s, ledger 11.2/20.4s, 2 events, 1 lines)
+🔊 you got shoved wide there
+🗣 bulletin (imp 6, cost 4.9s, ledger 16.1/20.4s, 2 lines): L2
+🔊 check everything
+🔊 lap 2 now
+🗣 spoke (tyres, imp 2, cost 2.1s, ledger 18.2/20.4s, 1 line): tyreTemps(cold, 52°, frontRight)
+🔊 laptime 1 47 point three
+🔊 front right is cold
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 that was contact
+🔊 check the car
+🛞 compound: stint raceStart lap 1, refinement 1 — C 1.532 over 150 s (2710 samples)
+🎭 mood annoyed → concerned
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 2.9/20.4s, 1 line): tyreTemps(low, 53°, frontLeft)
+🔊 front left tyre is still cold
+📋 lap 2: 1:32.403 clean fuel_used=0.00
+🔵 lap 2 antics: contact
+📊 strategy L3: no fuel model yet
+🚪 gate refined: Grand Valley - South/weeklyChallenge/finishLine (2 samples, σ 3.79 m, ±16 m, across 0.0…5.4 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 5.6/20.4s, 1 line): surveyGate(finishLine, 2)
+🔊 finish line refined
+🗺 mapper: learned lap 2 (92.403 s, 3030 m, 606 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 4.1s, ledger 9.7/20.4s, 1 line): surveyLap(2, 92403 ms, 606 pts)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 12.4/20.4s, 1 line): surveyComplete(1 optional missing)
+🗺 survey stored → 1299.trackmap.json (lap 2, 92.403 s)
+🗺 session polyline installed from lap 2 (606 pts) — minimap + delta live
+🛞 wear (test) lap 2 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RS ×0 (tap)
+🔊 2 crossings
+🗣 bulletin (imp 6, cost 4.6s, ledger 17.0/20.4s, 2 lines): L3
+🔊 map lap recorded
+🔊 1 32 point four oh
+🔊 essentials recorded
+🔊 1 optional outstanding
+🔊 one more lap
+🔊 last lap 32 point four
+🛞 compound: stint raceStart lap 1, refinement 2 — C 1.450 over 210 s (3946 samples)
+🎭 mood concerned → annoyed
+🗣 chain (imp 1, cost 4.2s, ledger 4.2/20.4s, 3 events, 1 lines)
+🔊 contact and off the road
+🔊 check the car
+🗣 chain (imp 1, cost 3.4s, ledger 7.6/20.4s, 2 events, 1 lines)
+🔊 you got shoved wide there
+🔊 check everything
+🛞 compound: stint raceStart lap 1, refinement 3 — C 1.358 over 270 s (4921 samples)
+📋 lap 3: 1:37.009 clean fuel_used=0.00
+🔵 lap 3 antics: contact, impact, off
+📊 strategy: finish armed at L4 (lap 4 > 3) — awaiting lap-clock freeze
+📊 strategy L4: no fuel model yet
+🚪 gate refined: Grand Valley - South/weeklyChallenge/finishLine (3 samples, σ 4.78 m, ±14 m, across -6.9…5.4 m)
+🛞 compound: stint raceStart lap 1, refinement 4 (final) — C 1.379 over 290 s (5159 samples)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 3)
+🛞 wear (test) lap 3 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RS ×0 (tap)
+🔊 finish line sharpened
+📊 strategy: race finished at L4 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+💾 race preserved (finished): 4 lap(s), 1 stop(s), start ROLLING_START, P1/12
+✂️ capture auto-stop in 30s (race finished)
+🗑 flag: pending commentary cancelled
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 4.3/20.4s, 1 line): raceFinished(L4)
+🗑 speaker: 1 queued line(s) preempted by flag
+🔊 that's race over
+🔧 session ended after lap 4
+🎭 mood annoyed → relaxed
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🗑 flag: pending commentary cancelled
+🎮 replay handshake armed (off track, race context still valid: pos 12, cars 12)
+🔄 new session on the same connection — resetting track-scoped state
+🧭 learned pool: 180 gate(s) from 392 stored, 68 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 10.0 s from the unofficial table (Grand Valley - South)
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 onTrack → replay (pkt 211931, lap 0, flags 0x0198, pos 12, cars 12, tod 73800000)
+⏸ replay — race commentary suspended
+🧭 polyline [MENU]: 11 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 132.84 (alignment -0.84)
+🧭 polyline [MENU]: Grand Valley - South fits (median 2.86 m) but on 142 m of road — waiting for 800 m
+🧭 learned: 2 gates matched, all Grand Valley - South — using the finishLine gate (3 samples)
+🧭 identified: Grand Valley - South (CRS 1299) — finishLine, 3 sample(s), ±14 m
+🏁 Grand Valley - South identified during a replay (gates) — held until the replay ends
+🗺 stored map loaded on identification (gates): course 1299, 606 pts
+🔧 pit approach: entry at station 1245 m of 3031 m (2.2 m off the line), lead 20 s
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 20163 packets
