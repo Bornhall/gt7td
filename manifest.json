@@ -1686,6 +1686,54 @@
       ]
     },
     {
+      "stem": "51-customRace-20261017_214847",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 221867,
+      "durationS": 3701.5,
+      "rawBytes": 81647056,
+      "gzBytes": 39336842,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 6,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 21,
+          "outcome": "corrected",
+          "finalLabel": "RH",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RM",
+        "RS",
+        "RH"
+      ]
+    },
+    {
       "stem": "51-lobby-20260831_203211",
       "courseId": 51,
       "track": "Deep Forest Raceway",
