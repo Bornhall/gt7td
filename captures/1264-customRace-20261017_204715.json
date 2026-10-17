@@ -1,0 +1,86 @@
+{
+  "carCategory" : "GR3",
+  "carClass" : "Gr.3",
+  "carId" : 2183,
+  "carName" : "Chevrolet Corvette C7 Gr.3",
+  "compoundObservations" : [
+    {
+      "compound" : "RM",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r8",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.3458680055444526,
+      "lap" : 1,
+      "outcome" : "corrected",
+      "revisions" : 6,
+      "samples" : 3428,
+      "seconds" : 429.02902902902906,
+      "slipPerG" : 0.9378749999999999,
+      "source" : "telemetry",
+      "startPacketId" : 967416,
+      "trigger" : "raceStart"
+    },
+    {
+      "estimatorVersion" : "v1r8",
+      "finalLabel" : "RM",
+      "heating" : 0.5226810023475947,
+      "lap" : 7,
+      "notes" : [
+        "ambiguous — RS vs RM, margin 0.014"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 9,
+      "samples" : 4631,
+      "seconds" : 584.7347347347347,
+      "slipPerG" : 1.030125,
+      "source" : "telemetry",
+      "startPacketId" : 993567,
+      "trigger" : "pitExit"
+    },
+    {
+      "estimatorVersion" : "v1r8",
+      "finalLabel" : "RH",
+      "heating" : 0.5988569422144452,
+      "lap" : 15,
+      "notes" : [
+        "ambiguous — RM vs RH, margin 0.007"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 3,
+      "samples" : 1931,
+      "seconds" : 231.68168168168168,
+      "slipPerG" : 1.122375,
+      "source" : "telemetry",
+      "startPacketId" : 1029051,
+      "trigger" : "pitExit"
+    }
+  ],
+  "courseId" : 1264,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 1264,
+    "fuelMultiplier" : 0,
+    "raceLength" : 20,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 20,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "Watkins Glen Short Course",
+    "tyreCompounds" : "RS,RM,RH",
+    "tyreWearMultiplier" : 6,
+    "weather" : "dry"
+  },
+  "endTime" : 1792264142,
+  "granularity" : 1,
+  "identifiedCourseId" : 1264,
+  "identifiedTrackName" : "Watkins Glen Short Course",
+  "maxSpeedKmh" : 277,
+  "packetSize" : 368,
+  "startTime" : 1792262835,
+  "trackName" : "Watkins Glen Short Course",
+  "version" : 8
+}
