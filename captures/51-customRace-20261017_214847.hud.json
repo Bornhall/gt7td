@@ -1,7 +1,7 @@
 {
 	"tool": "gt7_hud_wear.py",
-	"version": "v1r1",
-	"generated": "2026-10-18 16:04:10 UTC",
+	"version": "v1r2",
+	"generated": "2026-10-18 17:11:17 UTC",
 	"stem": "51-customRace-20261017_214847",
 	"carId": 2183,
 	"carName": "Chevrolet Corvette C7 Gr.3",
@@ -10,7 +10,8 @@
 	"timing": {
 		"P0": 1193877,
 		"timerHz": 60.0001,
-		"uploadLagS": 3.1
+		"uploadLagS": 3.1,
+		"pausedS": 0.0
 	},
 	"stints": [
 		{
@@ -545,8 +546,8 @@
 			"worn": {
 				"FL": 36.1,
 				"FR": 45.7,
-				"RL": 27.2,
-				"RR": 35.1
+				"RL": 30.6,
+				"RR": 37.1
 			},
 			"px": {
 				"FL": [
@@ -559,11 +560,11 @@
 				],
 				"RL": [
 					22,
-					81
+					72
 				],
 				"RR": [
 					26,
-					74
+					70
 				]
 			}
 		},

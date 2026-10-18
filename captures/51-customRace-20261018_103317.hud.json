@@ -1,7 +1,7 @@
 {
 	"tool": "gt7_hud_wear.py",
-	"version": "v1r1",
-	"generated": "2026-10-18 16:04:14 UTC",
+	"version": "v1r2",
+	"generated": "2026-10-18 17:11:19 UTC",
 	"stem": "51-customRace-20261018_103317",
 	"carId": 2160,
 	"carName": "Hyundai Genesis Gr.3",
@@ -10,7 +10,8 @@
 	"timing": {
 		"P0": 1801484,
 		"timerHz": 60.0,
-		"uploadLagS": 3.1
+		"uploadLagS": 3.1,
+		"pausedS": 0.0
 	},
 	"stints": [
 		{

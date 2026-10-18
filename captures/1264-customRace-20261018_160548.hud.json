@@ -1,7 +1,7 @@
 {
 	"tool": "gt7_hud_wear.py",
-	"version": "v1r1",
-	"generated": "2026-10-18 16:04:20 UTC",
+	"version": "v1r2",
+	"generated": "2026-10-18 17:11:21 UTC",
 	"stem": "1264-customRace-20261018_160548",
 	"carId": 3600,
 	"carName": "Porsche 911 GT3 R (992) '22",
@@ -10,7 +10,8 @@
 	"timing": {
 		"P0": 2996122,
 		"timerHz": 59.9996,
-		"uploadLagS": 3.07
+		"uploadLagS": 3.08,
+		"pausedS": 0.0
 	},
 	"stints": [
 		{
@@ -342,19 +343,19 @@
 			"front": "RM",
 			"rear": "RM",
 			"worn": {
-				"FL": 19.7,
-				"FR": 11.9,
+				"FL": 20.0,
+				"FR": 13.9,
 				"RL": 20.0,
 				"RR": 16.7
 			},
 			"px": {
 				"FL": [
 					14,
-					71
+					70
 				],
 				"FR": [
 					10,
-					84
+					72
 				],
 				"RL": [
 					14,

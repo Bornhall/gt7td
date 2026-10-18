@@ -1,7 +1,7 @@
 {
 	"tool": "gt7_hud_wear.py",
-	"version": "v1r1",
-	"generated": "2026-10-18 16:04:18 UTC",
+	"version": "v1r2",
+	"generated": "2026-10-18 17:11:20 UTC",
 	"stem": "1264-customRace-20261018_141140",
 	"carId": 3238,
 	"carName": "Peugeot RCZ Gr.3",
@@ -10,7 +10,8 @@
 	"timing": {
 		"P0": 2585740,
 		"timerHz": 60.0011,
-		"uploadLagS": 3.1
+		"uploadLagS": 3.1,
+		"pausedS": 0.0
 	},
 	"stints": [
 		{
