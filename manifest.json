@@ -1734,6 +1734,56 @@
       ]
     },
     {
+      "stem": "51-customRace-20261018_103317",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "carId": 2160,
+      "car": "Hyundai Genesis Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 222378,
+      "durationS": 3710.0,
+      "rawBytes": 81835104,
+      "gzBytes": 39343779,
+      "hasLog": true,
+      "hasClock": true,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 6,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 21,
+          "outcome": "corrected",
+          "finalLabel": "RH",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RM",
+        "RS",
+        "RH"
+      ]
+    },
+    {
       "stem": "51-lobby-20260831_203211",
       "courseId": 51,
       "track": "Deep Forest Raceway",
