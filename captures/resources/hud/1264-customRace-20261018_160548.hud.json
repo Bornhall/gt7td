@@ -1,0 +1,895 @@
+{
+	"tool": "gt7_hud_wear.py",
+	"version": "v1r1",
+	"generated": "2026-10-18 16:04:20 UTC",
+	"stem": "1264-customRace-20261018_160548",
+	"carId": 3600,
+	"carName": "Porsche 911 GT3 R (992) '22",
+	"courseId": 1264,
+	"tyreWearMultiplier": 7,
+	"timing": {
+		"P0": 2996122,
+		"timerHz": 59.9996,
+		"uploadLagS": 3.07
+	},
+	"stints": [
+		{
+			"index": 0,
+			"startS": 0.0,
+			"startPacketId": 2996122,
+			"startLap": 1,
+			"hudFront": "RS",
+			"hudRear": "RS",
+			"shots": 6
+		},
+		{
+			"index": 1,
+			"startS": 425.84,
+			"startPacketId": 3021672,
+			"startLap": 7,
+			"hudFront": "RM",
+			"hudRear": "RM",
+			"shots": 9
+		},
+		{
+			"index": 2,
+			"startS": 1093.31,
+			"startPacketId": 3061720,
+			"startLap": 16,
+			"hudFront": null,
+			"hudRear": null,
+			"shots": 0
+		},
+		{
+			"index": 3,
+			"startS": 1184.19,
+			"startPacketId": 3067173,
+			"startLap": 17,
+			"hudFront": "RH",
+			"hudRear": "RH",
+			"shots": 9
+		}
+	],
+	"shots": [
+		{
+			"file": "GT7_20261018_160716_psn0872c.png",
+			"raceS": 73.183,
+			"timeSource": "timer",
+			"timerText": "1:13.183",
+			"packetId": 3000513,
+			"lap": 2,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 11.4,
+				"FR": 8.6,
+				"RL": 13.9,
+				"RR": 11.1
+			},
+			"px": {
+				"FL": [
+					8,
+					70
+				],
+				"FR": [
+					6,
+					70
+				],
+				"RL": [
+					10,
+					72
+				],
+				"RR": [
+					8,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_160824_psncaf61.png",
+			"raceS": 140.6,
+			"timeSource": "timer",
+			"timerText": "2:20.600",
+			"packetId": 3004558,
+			"lap": 2,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 25.7,
+				"FR": 17.1,
+				"RL": 27.8,
+				"RR": 20.0
+			},
+			"px": {
+				"FL": [
+					18,
+					70
+				],
+				"FR": [
+					12,
+					70
+				],
+				"RL": [
+					20,
+					72
+				],
+				"RR": [
+					14,
+					70
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_160934_psn4b775.png",
+			"raceS": 210.583,
+			"timeSource": "timer",
+			"timerText": "3:30.583",
+			"packetId": 3008757,
+			"lap": 3,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 38.9,
+				"FR": 27.8,
+				"RL": 41.7,
+				"RR": 31.4
+			},
+			"px": {
+				"FL": [
+					28,
+					72
+				],
+				"FR": [
+					20,
+					72
+				],
+				"RL": [
+					30,
+					72
+				],
+				"RR": [
+					22,
+					70
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_161044_psn49e77.png",
+			"raceS": 280.633,
+			"timeSource": "timer",
+			"timerText": "4:40.633",
+			"packetId": 3012960,
+			"lap": 4,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 52.8,
+				"FR": 36.1,
+				"RL": 55.6,
+				"RR": 41.7
+			},
+			"px": {
+				"FL": [
+					38,
+					72
+				],
+				"FR": [
+					26,
+					72
+				],
+				"RL": [
+					40,
+					72
+				],
+				"RR": [
+					30,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_161155_psn6bee2.png",
+			"raceS": 351.116,
+			"timeSource": "timer",
+			"timerText": "5:51.116",
+			"packetId": 3017189,
+			"lap": 6,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 69.4,
+				"FR": 45.7,
+				"RL": 71.8,
+				"RR": 52.8
+			},
+			"px": {
+				"FL": [
+					50,
+					72
+				],
+				"FR": [
+					32,
+					70
+				],
+				"RL": [
+					51,
+					71
+				],
+				"RR": [
+					38,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_161300_psn7be38.png",
+			"raceS": 416.633,
+			"timeSource": "timer",
+			"timerText": "6:56.633",
+			"packetId": 3021120,
+			"lap": 6,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 88.7,
+				"FR": 54.3,
+				"RL": 85.7,
+				"RR": 63.9
+			},
+			"px": {
+				"FL": [
+					63,
+					71
+				],
+				"FR": [
+					38,
+					70
+				],
+				"RL": [
+					60,
+					70
+				],
+				"RR": [
+					46,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_161436_psn31ff5.png",
+			"raceS": 512.016,
+			"timeSource": "timer",
+			"timerText": "8:32.016",
+			"packetId": 3026843,
+			"lap": 7,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 5.7,
+				"FR": 2.9,
+				"RL": 5.7,
+				"RR": 5.6
+			},
+			"px": {
+				"FL": [
+					4,
+					70
+				],
+				"FR": [
+					2,
+					70
+				],
+				"RL": [
+					4,
+					70
+				],
+				"RR": [
+					4,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_161546_psn019a9.png",
+			"raceS": 581.966,
+			"timeSource": "timer",
+			"timerText": "9:41.966",
+			"packetId": 3031040,
+			"lap": 8,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 13.9,
+				"FR": 8.6,
+				"RL": 13.9,
+				"RR": 11.1
+			},
+			"px": {
+				"FL": [
+					10,
+					72
+				],
+				"FR": [
+					6,
+					70
+				],
+				"RL": [
+					10,
+					72
+				],
+				"RR": [
+					8,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_161656_psnfc86b.png",
+			"raceS": 652.35,
+			"timeSource": "timer",
+			"timerText": "10:52.350",
+			"packetId": 3035263,
+			"lap": 9,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 19.7,
+				"FR": 11.9,
+				"RL": 20.0,
+				"RR": 16.7
+			},
+			"px": {
+				"FL": [
+					14,
+					71
+				],
+				"FR": [
+					10,
+					84
+				],
+				"RL": [
+					14,
+					70
+				],
+				"RR": [
+					12,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_161818_psn90144.png",
+			"raceS": 734.3,
+			"timeSource": "timer",
+			"timerText": "12:14.300",
+			"packetId": 3040180,
+			"lap": 10,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 27.8,
+				"FR": 17.1,
+				"RL": 27.8,
+				"RR": 20.0
+			},
+			"px": {
+				"FL": [
+					20,
+					72
+				],
+				"FR": [
+					12,
+					70
+				],
+				"RL": [
+					20,
+					72
+				],
+				"RR": [
+					14,
+					70
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_161929_psnf16df.png",
+			"raceS": 804.716,
+			"timeSource": "timer",
+			"timerText": "13:24.716",
+			"packetId": 3044405,
+			"lap": 11,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 34.3,
+				"FR": 22.2,
+				"RL": 34.3,
+				"RR": 25.7
+			},
+			"px": {
+				"FL": [
+					24,
+					70
+				],
+				"FR": [
+					16,
+					72
+				],
+				"RL": [
+					24,
+					70
+				],
+				"RR": [
+					18,
+					70
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_162040_psn5c6a4.png",
+			"raceS": 875.733,
+			"timeSource": "timer",
+			"timerText": "14:35.733",
+			"packetId": 3048666,
+			"lap": 12,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 41.7,
+				"FR": 25.7,
+				"RL": 40.0,
+				"RR": 30.6
+			},
+			"px": {
+				"FL": [
+					30,
+					72
+				],
+				"FR": [
+					18,
+					70
+				],
+				"RL": [
+					28,
+					70
+				],
+				"RR": [
+					22,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_162151_psnebee8.png",
+			"raceS": 946.683,
+			"timeSource": "timer",
+			"timerText": "15:46.683",
+			"packetId": 3052923,
+			"lap": 13,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 48.6,
+				"FR": 30.6,
+				"RL": 47.2,
+				"RR": 36.1
+			},
+			"px": {
+				"FL": [
+					34,
+					70
+				],
+				"FR": [
+					22,
+					72
+				],
+				"RL": [
+					34,
+					72
+				],
+				"RR": [
+					26,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_162301_psn82183.png",
+			"raceS": 1017.066,
+			"timeSource": "timer",
+			"timerText": "16:57.066",
+			"packetId": 3057146,
+			"lap": 14,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 57.1,
+				"FR": 34.3,
+				"RL": 54.3,
+				"RR": 41.7
+			},
+			"px": {
+				"FL": [
+					40,
+					70
+				],
+				"FR": [
+					24,
+					70
+				],
+				"RL": [
+					38,
+					70
+				],
+				"RR": [
+					30,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_162409_psn4ed59.png",
+			"raceS": 1083.983,
+			"timeSource": "timer",
+			"timerText": "18:03.983",
+			"packetId": 3061161,
+			"lap": 15,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 66.7,
+				"FR": 40.0,
+				"RL": 61.1,
+				"RR": 47.2
+			},
+			"px": {
+				"FL": [
+					48,
+					72
+				],
+				"FR": [
+					28,
+					70
+				],
+				"RL": [
+					44,
+					72
+				],
+				"RR": [
+					34,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_162716_psnbefe0.png",
+			"raceS": 1270.966,
+			"timeSource": "timer",
+			"timerText": "21:10.966",
+			"packetId": 3072380,
+			"lap": 17,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 5.6,
+				"FR": 2.9,
+				"RL": 5.6,
+				"RR": 2.9
+			},
+			"px": {
+				"FL": [
+					4,
+					72
+				],
+				"FR": [
+					2,
+					70
+				],
+				"RL": [
+					4,
+					72
+				],
+				"RR": [
+					2,
+					70
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_162828_psn7493a.png",
+			"raceS": 1343.75,
+			"timeSource": "timer",
+			"timerText": "22:23.750",
+			"packetId": 3076747,
+			"lap": 18,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 8.6,
+				"FR": 5.7,
+				"RL": 8.6,
+				"RR": 8.3
+			},
+			"px": {
+				"FL": [
+					6,
+					70
+				],
+				"FR": [
+					4,
+					70
+				],
+				"RL": [
+					6,
+					70
+				],
+				"RR": [
+					6,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_162940_psna8e18.png",
+			"raceS": 1415.266,
+			"timeSource": "timer",
+			"timerText": "23:35.266",
+			"packetId": 3081038,
+			"lap": 19,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 14.3,
+				"FR": 8.6,
+				"RL": 14.3,
+				"RR": 11.1
+			},
+			"px": {
+				"FL": [
+					10,
+					70
+				],
+				"FR": [
+					6,
+					70
+				],
+				"RL": [
+					10,
+					70
+				],
+				"RR": [
+					8,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_163051_psn438fb.png",
+			"raceS": 1486.483,
+			"timeSource": "timer",
+			"timerText": "24:46.483",
+			"packetId": 3085311,
+			"lap": 20,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 21.1,
+				"FR": 13.9,
+				"RL": 20.0,
+				"RR": 14.3
+			},
+			"px": {
+				"FL": [
+					15,
+					71
+				],
+				"FR": [
+					10,
+					72
+				],
+				"RL": [
+					14,
+					70
+				],
+				"RR": [
+					10,
+					70
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_163203_psne38d0.png",
+			"raceS": 1558.366,
+			"timeSource": "timer",
+			"timerText": "25:58.366",
+			"packetId": 3089624,
+			"lap": 21,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 25.7,
+				"FR": 16.7,
+				"RL": 26.8,
+				"RR": 19.4
+			},
+			"px": {
+				"FL": [
+					18,
+					70
+				],
+				"FR": [
+					12,
+					72
+				],
+				"RL": [
+					19,
+					71
+				],
+				"RR": [
+					14,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_163315_psn67afb.png",
+			"raceS": 1630.083,
+			"timeSource": "timer",
+			"timerText": "27:10.083",
+			"packetId": 3093927,
+			"lap": 22,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 31.4,
+				"FR": 20.0,
+				"RL": 30.6,
+				"RR": 22.9
+			},
+			"px": {
+				"FL": [
+					22,
+					70
+				],
+				"FR": [
+					14,
+					70
+				],
+				"RL": [
+					22,
+					72
+				],
+				"RR": [
+					16,
+					70
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_163427_psn0479f.png",
+			"raceS": 1702.0,
+			"timeSource": "timer",
+			"timerText": "28:22.000",
+			"packetId": 3098242,
+			"lap": 23,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 37.1,
+				"FR": 22.9,
+				"RL": 36.1,
+				"RR": 27.8
+			},
+			"px": {
+				"FL": [
+					26,
+					70
+				],
+				"FR": [
+					16,
+					70
+				],
+				"RL": [
+					26,
+					72
+				],
+				"RR": [
+					20,
+					72
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_163538_psn0d0f3.png",
+			"raceS": 1772.883,
+			"timeSource": "timer",
+			"timerText": "29:32.883",
+			"packetId": 3102495,
+			"lap": 24,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 42.9,
+				"FR": 27.8,
+				"RL": 41.7,
+				"RR": 31.4
+			},
+			"px": {
+				"FL": [
+					30,
+					70
+				],
+				"FR": [
+					20,
+					72
+				],
+				"RL": [
+					30,
+					72
+				],
+				"RR": [
+					22,
+					70
+				]
+			}
+		},
+		{
+			"file": "GT7_20261018_163650_psn7faac.png",
+			"raceS": 1845.066,
+			"timeSource": "timer",
+			"timerText": "30:45.066",
+			"packetId": 3106826,
+			"lap": 25,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 47.2,
+				"FR": 30.6,
+				"RL": 47.2,
+				"RR": 36.1
+			},
+			"px": {
+				"FL": [
+					34,
+					72
+				],
+				"FR": [
+					22,
+					72
+				],
+				"RL": [
+					34,
+					72
+				],
+				"RR": [
+					26,
+					72
+				]
+			}
+		}
+	]
+}

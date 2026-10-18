@@ -1,0 +1,825 @@
+{
+	"tool": "gt7_hud_wear.py",
+	"version": "v1r1",
+	"generated": "2026-10-18 16:04:18 UTC",
+	"stem": "1264-customRace-20261018_141140",
+	"carId": 3238,
+	"carName": "Peugeot RCZ Gr.3",
+	"courseId": 1264,
+	"tyreWearMultiplier": 7,
+	"timing": {
+		"P0": 2585740,
+		"timerHz": 60.0011,
+		"uploadLagS": 3.1
+	},
+	"stints": [
+		{
+			"index": 0,
+			"startS": 0.0,
+			"startPacketId": 2585740,
+			"startLap": 1,
+			"hudFront": "RS",
+			"hudRear": "RS",
+			"shots": 6
+		},
+		{
+			"index": 1,
+			"startS": 425.66,
+			"startPacketId": 2611280,
+			"startLap": 7,
+			"hudFront": "RM",
+			"hudRear": "RM",
+			"shots": 8
+		},
+		{
+			"index": 2,
+			"startS": 1015.76,
+			"startPacketId": 2646687,
+			"startLap": 15,
+			"hudFront": null,
+			"hudRear": null,
+			"shots": 0
+		},
+		{
+			"index": 3,
+			"startS": 1107.2,
+			"startPacketId": 2652173,
+			"startLap": 16,
+			"hudFront": "RH",
+			"hudRear": "RH",
+			"shots": 8
+		}
+	],
+	"shots": [
+		{
+			"file": "SHARE_20261018_1246580.png",
+			"raceS": 71.2,
+			"timeSource": "timer",
+			"timerText": "1:11.200",
+			"packetId": 2590013,
+			"lap": 1,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 12.7,
+				"FR": 5.7,
+				"RL": 11.4,
+				"RR": 8.6
+			},
+			"px": {
+				"FL": [
+					9,
+					71
+				],
+				"FR": [
+					4,
+					70
+				],
+				"RL": [
+					8,
+					70
+				],
+				"RR": [
+					6,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1247001.png",
+			"raceS": 141.816,
+			"timeSource": "timer",
+			"timerText": "2:21.816",
+			"packetId": 2594250,
+			"lap": 2,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 22.9,
+				"FR": 14.3,
+				"RL": 25.0,
+				"RR": 17.1
+			},
+			"px": {
+				"FL": [
+					16,
+					70
+				],
+				"FR": [
+					10,
+					70
+				],
+				"RL": [
+					18,
+					72
+				],
+				"RR": [
+					12,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1247012.png",
+			"raceS": 210.8,
+			"timeSource": "timer",
+			"timerText": "3:30.800",
+			"packetId": 2598389,
+			"lap": 3,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 37.1,
+				"FR": 22.2,
+				"RL": 38.9,
+				"RR": 27.8
+			},
+			"px": {
+				"FL": [
+					26,
+					70
+				],
+				"FR": [
+					16,
+					72
+				],
+				"RL": [
+					28,
+					72
+				],
+				"RR": [
+					20,
+					72
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1247220.png",
+			"raceS": 280.583,
+			"timeSource": "timer",
+			"timerText": "4:40.583",
+			"packetId": 2602576,
+			"lap": 4,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 51.4,
+				"FR": 30.6,
+				"RL": 51.4,
+				"RR": 37.1
+			},
+			"px": {
+				"FL": [
+					36,
+					70
+				],
+				"FR": [
+					22,
+					72
+				],
+				"RL": [
+					36,
+					70
+				],
+				"RR": [
+					26,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1247241.png",
+			"raceS": 349.966,
+			"timeSource": "timer",
+			"timerText": "5:49.966",
+			"packetId": 2606739,
+			"lap": 5,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 66.7,
+				"FR": 38.9,
+				"RL": 65.7,
+				"RR": 45.7
+			},
+			"px": {
+				"FL": [
+					48,
+					72
+				],
+				"FR": [
+					28,
+					72
+				],
+				"RL": [
+					46,
+					70
+				],
+				"RR": [
+					32,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1247252.png",
+			"raceS": 416.083,
+			"timeSource": "timer",
+			"timerText": "6:56.083",
+			"packetId": 2610706,
+			"lap": 6,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 82.9,
+				"FR": 47.2,
+				"RL": 77.8,
+				"RR": 55.6
+			},
+			"px": {
+				"FL": [
+					58,
+					70
+				],
+				"FR": [
+					34,
+					72
+				],
+				"RL": [
+					56,
+					72
+				],
+				"RR": [
+					40,
+					72
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1247263.png",
+			"raceS": 511.633,
+			"timeSource": "timer",
+			"timerText": "8:31.633",
+			"packetId": 2616439,
+			"lap": 7,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 5.6,
+				"FR": 2.9,
+				"RL": 5.6,
+				"RR": 2.9
+			},
+			"px": {
+				"FL": [
+					4,
+					72
+				],
+				"FR": [
+					2,
+					70
+				],
+				"RL": [
+					4,
+					72
+				],
+				"RR": [
+					2,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1247460.png",
+			"raceS": 584.15,
+			"timeSource": "timer",
+			"timerText": "9:44.150",
+			"packetId": 2620790,
+			"lap": 8,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 11.4,
+				"FR": 8.3,
+				"RL": 12.7,
+				"RR": 8.6
+			},
+			"px": {
+				"FL": [
+					8,
+					70
+				],
+				"FR": [
+					6,
+					72
+				],
+				"RL": [
+					9,
+					71
+				],
+				"RR": [
+					6,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1247481.png",
+			"raceS": 655.3,
+			"timeSource": "timer",
+			"timerText": "10:55.300",
+			"packetId": 2625059,
+			"lap": 9,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 19.4,
+				"FR": 11.4,
+				"RL": 19.4,
+				"RR": 13.9
+			},
+			"px": {
+				"FL": [
+					14,
+					72
+				],
+				"FR": [
+					8,
+					70
+				],
+				"RL": [
+					14,
+					72
+				],
+				"RR": [
+					10,
+					72
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1247492.png",
+			"raceS": 725.95,
+			"timeSource": "timer",
+			"timerText": "12:05.950",
+			"packetId": 2629298,
+			"lap": 10,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 25.7,
+				"FR": 14.3,
+				"RL": 25.7,
+				"RR": 17.1
+			},
+			"px": {
+				"FL": [
+					18,
+					70
+				],
+				"FR": [
+					10,
+					70
+				],
+				"RL": [
+					18,
+					70
+				],
+				"RR": [
+					12,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1247513.png",
+			"raceS": 797.55,
+			"timeSource": "timer",
+			"timerText": "13:17.550",
+			"packetId": 2633594,
+			"lap": 11,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 33.3,
+				"FR": 19.4,
+				"RL": 31.4,
+				"RR": 22.9
+			},
+			"px": {
+				"FL": [
+					24,
+					72
+				],
+				"FR": [
+					14,
+					72
+				],
+				"RL": [
+					22,
+					70
+				],
+				"RR": [
+					16,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1248140.png",
+			"raceS": 868.733,
+			"timeSource": "timer",
+			"timerText": "14:28.733",
+			"packetId": 2637865,
+			"lap": 12,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 38.9,
+				"FR": 22.9,
+				"RL": 38.9,
+				"RR": 27.8
+			},
+			"px": {
+				"FL": [
+					28,
+					72
+				],
+				"FR": [
+					16,
+					70
+				],
+				"RL": [
+					28,
+					72
+				],
+				"RR": [
+					20,
+					72
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1248151.png",
+			"raceS": 939.216,
+			"timeSource": "timer",
+			"timerText": "15:39.216",
+			"packetId": 2642095,
+			"lap": 13,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 45.7,
+				"FR": 25.7,
+				"RL": 44.4,
+				"RR": 31.4
+			},
+			"px": {
+				"FL": [
+					32,
+					70
+				],
+				"FR": [
+					18,
+					70
+				],
+				"RL": [
+					32,
+					72
+				],
+				"RR": [
+					22,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1248172.png",
+			"raceS": 1006.833,
+			"timeSource": "timer",
+			"timerText": "16:46.833",
+			"packetId": 2646152,
+			"lap": 14,
+			"stint": 1,
+			"front": "RM",
+			"rear": "RM",
+			"worn": {
+				"FL": 52.8,
+				"FR": 30.6,
+				"RL": 51.4,
+				"RR": 36.1
+			},
+			"px": {
+				"FL": [
+					38,
+					72
+				],
+				"FR": [
+					22,
+					72
+				],
+				"RL": [
+					36,
+					70
+				],
+				"RR": [
+					26,
+					72
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1248183.png",
+			"raceS": 1266.316,
+			"timeSource": "timer",
+			"timerText": "21:06.316",
+			"packetId": 2661721,
+			"lap": 17,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 8.6,
+				"FR": 5.6,
+				"RL": 8.6,
+				"RR": 5.7
+			},
+			"px": {
+				"FL": [
+					6,
+					70
+				],
+				"FR": [
+					4,
+					72
+				],
+				"RL": [
+					6,
+					70
+				],
+				"RR": [
+					4,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1248470.png",
+			"raceS": 1409.316,
+			"timeSource": "timer",
+			"timerText": "23:29.316",
+			"packetId": 2670301,
+			"lap": 19,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 19.4,
+				"FR": 11.4,
+				"RL": 19.4,
+				"RR": 13.9
+			},
+			"px": {
+				"FL": [
+					14,
+					72
+				],
+				"FR": [
+					8,
+					70
+				],
+				"RL": [
+					14,
+					72
+				],
+				"RR": [
+					10,
+					72
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1248491.png",
+			"raceS": 1480.966,
+			"timeSource": "timer",
+			"timerText": "24:40.966",
+			"packetId": 2674600,
+			"lap": 20,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 25.0,
+				"FR": 14.3,
+				"RL": 25.0,
+				"RR": 16.7
+			},
+			"px": {
+				"FL": [
+					18,
+					72
+				],
+				"FR": [
+					10,
+					70
+				],
+				"RL": [
+					18,
+					72
+				],
+				"RR": [
+					12,
+					72
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1248502.png",
+			"raceS": 1552.516,
+			"timeSource": "timer",
+			"timerText": "25:52.516",
+			"packetId": 2678893,
+			"lap": 21,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 30.6,
+				"FR": 17.1,
+				"RL": 28.6,
+				"RR": 20.0
+			},
+			"px": {
+				"FL": [
+					22,
+					72
+				],
+				"FR": [
+					12,
+					70
+				],
+				"RL": [
+					20,
+					70
+				],
+				"RR": [
+					14,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1248513.png",
+			"raceS": 1624.0,
+			"timeSource": "timer",
+			"timerText": "27:04.000",
+			"packetId": 2683182,
+			"lap": 22,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 36.1,
+				"FR": 20.0,
+				"RL": 34.3,
+				"RR": 22.9
+			},
+			"px": {
+				"FL": [
+					26,
+					72
+				],
+				"FR": [
+					14,
+					70
+				],
+				"RL": [
+					24,
+					70
+				],
+				"RR": [
+					16,
+					70
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1249120.png",
+			"raceS": 1695.916,
+			"timeSource": "timer",
+			"timerText": "28:15.916",
+			"packetId": 2687497,
+			"lap": 24,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 40.0,
+				"FR": 22.9,
+				"RL": 38.9,
+				"RR": 27.8
+			},
+			"px": {
+				"FL": [
+					28,
+					70
+				],
+				"FR": [
+					16,
+					70
+				],
+				"RL": [
+					28,
+					72
+				],
+				"RR": [
+					20,
+					72
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1249141.png",
+			"raceS": 1766.766,
+			"timeSource": "timer",
+			"timerText": "29:26.766",
+			"packetId": 2691748,
+			"lap": 24,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 45.7,
+				"FR": 25.7,
+				"RL": 44.4,
+				"RR": 30.6
+			},
+			"px": {
+				"FL": [
+					32,
+					70
+				],
+				"FR": [
+					18,
+					70
+				],
+				"RL": [
+					32,
+					72
+				],
+				"RR": [
+					22,
+					72
+				]
+			}
+		},
+		{
+			"file": "SHARE_20261018_1249152.png",
+			"raceS": 1840.35,
+			"timeSource": "timer",
+			"timerText": "30:40.350",
+			"packetId": 2696164,
+			"lap": 25,
+			"stint": 3,
+			"front": "RH",
+			"rear": "RH",
+			"worn": {
+				"FL": 50.0,
+				"FR": 28.6,
+				"RL": 48.6,
+				"RR": 33.3
+			},
+			"px": {
+				"FL": [
+					36,
+					72
+				],
+				"FR": [
+					20,
+					70
+				],
+				"RL": [
+					34,
+					70
+				],
+				"RR": [
+					24,
+					72
+				]
+			}
+		}
+	]
+}
