@@ -7190,7 +7190,7 @@
       "gzBytes": 19754833,
       "hasLog": true,
       "hasClock": true,
-      "hasHud": false,
+      "hasHud": true,
       "fuelMultiplier": 0,
       "tyreWearMultiplier": 7,
       "identifiedCourseId": 1264,
