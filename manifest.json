@@ -7137,7 +7137,7 @@
       "gzBytes": 20531928,
       "hasLog": true,
       "hasClock": true,
-      "hasHud": false,
+      "hasHud": true,
       "fuelMultiplier": 0,
       "tyreWearMultiplier": 7,
       "identifiedCourseId": 1264,
@@ -7165,6 +7165,59 @@
           "family": "racing",
           "compound": "RH",
           "outcome": "confirmed"
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM",
+        "RH"
+      ]
+    },
+    {
+      "stem": "1264-customRace-20261019_213302",
+      "courseId": 1264,
+      "track": "Watkins Glen Short Course",
+      "context": "customRace",
+      "carId": 2184,
+      "car": "Jaguar F-type Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 113635,
+      "durationS": 1895.8,
+      "rawBytes": 41817680,
+      "gzBytes": 19754833,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 7,
+      "identifiedCourseId": 1264,
+      "identifiedTrackName": "Watkins Glen Short Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "corrected",
+          "finalLabel": "RS"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "corrected",
+          "finalLabel": "RM"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 16,
+          "outcome": "corrected",
+          "finalLabel": "RH",
+          "abstained": true
         }
       ],
       "tyreCompounds": [
