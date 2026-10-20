@@ -7330,6 +7330,58 @@
       ]
     },
     {
+      "stem": "1264-customRace-20261020_201107",
+      "courseId": 1264,
+      "track": "Watkins Glen Short Course",
+      "context": "customRace",
+      "carId": 3218,
+      "car": "BMW M6 GT3 Endurance Model '16",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 112702,
+      "durationS": 1880.2,
+      "rawBytes": 41474336,
+      "gzBytes": 19888381,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 7,
+      "identifiedCourseId": 1264,
+      "identifiedTrackName": "Watkins Glen Short Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "corrected",
+          "finalLabel": "RS"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "corrected",
+          "finalLabel": "RM"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 16,
+          "outcome": "corrected",
+          "finalLabel": "RH",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM",
+        "RH"
+      ]
+    },
+    {
       "stem": "1299-weeklyChallenge-20261015_223149",
       "courseId": 1299,
       "track": "Grand Valley - South",
