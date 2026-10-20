@@ -1,0 +1,545 @@
+# EzioClient session log
+# file:    20261020_142302 - Watkins Glen Short Course (1264).gt7td
+# started: 2026-10-20T12:23:02Z
+# track:   Watkins Glen Short Course (CRS 1264)
+# context: customRace
+# ---
+# car:     Mercedes-AMG GT3 '20 [Gr.3] (id 3531) — confirmed from telemetry
+🧭 polyline [MENU]: 14 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 22.91 (alignment -0.85)
+🧭 polyline [MENU]: Watkins Glen Short Course fits (median 1.39 m) but on 478 m of road — waiting for 800 m
+🧭 learned (line): Watkins Glen International family, 2 layouts (Watkins Glen Long Course, Watkins Glen Short Course) — resolving at the fork
+🧭 polyline [MENU]: 11 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 35.37 (alignment -0.76)
+🧭 polyline [MENU]: Watkins Glen Short Course fits (median 1.34 m) but on 790 m of road — waiting for 800 m
+🧭 polyline [MENU]: 10 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 50.74 (alignment -0.77)
+🧭 polyline [MENU]: 2 layouts share this road (Watkins Glen Long Course, Watkins Glen Short Course) — watching for the fork
+🧭 polyline [MENU]: ambiguous — Watkins Glen Short Course median 1.41/p90 2.37 vs Watkins Glen Long Course median 2.53/p90 9.40 (120 samples), abstaining
+🧭 polyline [MENU]: 10 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 156.63 (alignment -0.80)
+🧭 polyline [MENU]: ambiguous — Watkins Glen Short Course median 1.63/p90 2.50 vs Watkins Glen Long Course median 2.33/p90 8.52 (150 samples), abstaining
+🧭 polyline [MENU]: 10 candidate(s) dropped on direction — best of them Daytona Road Course median 134.48 (alignment -0.54)
+🧭 polyline [MENU]: ambiguous — Watkins Glen Short Course median 1.72/p90 2.53 vs Watkins Glen Long Course median 2.06/p90 7.68 (180 samples), abstaining
+🧭 polyline [MENU]: 10 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 197.74 (alignment -0.82)
+🧭 polyline [MENU]: ambiguous — Watkins Glen Short Course median 1.72/p90 2.55 vs Watkins Glen Long Course median 1.92/p90 7.68 (180 samples), abstaining
+🧭 polyline [MENU]: 10 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 197.74 (alignment -0.83)
+🧭 polyline [MENU]: ambiguous — Watkins Glen Long Course median 1.71/p90 6.55 vs Watkins Glen Short Course median 1.84/p90 2.79 (180 samples), abstaining
+🧭 polyline [MENU]: 10 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 110.68 (alignment -0.49)
+🧭 polyline [MENU]: ambiguous — Watkins Glen Long Course median 1.51/p90 2.46 vs Watkins Glen Short Course median 1.90/p90 2.79 (180 samples), abstaining
+📊 strategy L1: no fuel model yet
+🔓 learning resumed — player on track
+🛞 compound: car 3531 — reference: RH RM RS
+🛞 wear (test) v2r2 car 3531: FR (cars.json), front factor 1.00, rear factor 1.00
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🔄 new session on the same connection — resetting track-scoped state
+🛞 crew wear gate: unknown
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 pit loss: estimated 10.0 s from the unofficial table (Watkins Glen Short Course)
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🛞 compound: car 3531 — reference: RH RM RS
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🎮 menus → onTrack (pkt 4120728, lap 0, flags 0x0009, pos 1, cars 2, tod 64440000)
+🧭 polyline [PRE-GREEN]: 24 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 16.62 (alignment -0.82)
+🧭 polyline [PRE-GREEN]: Watkins Glen Short Course fits (median 1.67 m) but on 118 m of road — waiting for 800 m
+🏁 start type: ROLLING_START at pkt 4121089 lap 1
+🔀 state UNKNOWN → RACING at pkt 4121089 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.00
+📊 strategy: green flag (speed) at pkt 4121089, race clock running
+🗣 spoke (lapPace, imp 0, cost 3.4s, ledger 3.4/20.4s, 1 line): greenFlag
+🔊 green flag
+🗣 language: first preferred sv-SE — synthesizer primed in en-GB for IPA
+🗣 voice: Fiona (Enhanced) (en-GB-u-sd-gbsct, enhanced, com.apple.voice.enhanced.en-GB-u-sd-gbsct.Fiona) — name "Fiona (Enhanced)"
+📊 strategy L1: no fuel model yet
+🧭 learned (line): Watkins Glen International family, 2 layouts (Watkins Glen Long Course, Watkins Glen Short Course) — resolving at the fork
+🚪 gate refined: Watkins Glen Short Course/customRace/lap1 (34 samples, σ 3.70 m, ±12 m, across -7.4…1.0 m)
+🛞 compound: window opened — raceStart, lap 1
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 6.4/20.4s, 1 line): surveyGate(lap1, 34)
+🔊 mind the first corner
+🔊 lap one gate now 34 crossings
+🧭 polyline [L1]: 23 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 60.46 (alignment -0.71)
+🧭 polyline [L1]: Watkins Glen Short Course fits (median 1.54 m) but on 333 m of road — waiting for 800 m
+🧭 polyline [L1]: 16 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 136.64 (alignment -0.70)
+🧭 polyline [L1]: Watkins Glen Short Course fits (median 1.54 m) but on 543 m of road — waiting for 800 m
+🧭 polyline [L1]: 15 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 238.51 (alignment -0.76)
+🧭 polyline [L1]: Watkins Glen Short Course fits (median 1.65 m) but on 778 m of road — waiting for 800 m
+🧭 polyline [L1]: 10 candidate(s) dropped on direction — best of them Daytona Road Course median 197.92 (alignment -0.59)
+🧭 polyline [L1]: 2 layouts share this road (Watkins Glen Long Course, Watkins Glen Short Course) — watching for the fork
+🧭 polyline [L1]: ambiguous — Watkins Glen Short Course median 1.67/p90 2.68 vs Watkins Glen Long Course median 2.60/p90 10.19 (150 samples), abstaining
+🧭 polyline [L1]: 10 candidate(s) dropped on direction — best of them Daytona Road Course median 197.92 (alignment -0.53)
+🧭 polyline [L1]: ambiguous — Watkins Glen Short Course median 1.53/p90 2.65 vs Watkins Glen Long Course median 2.53/p90 9.61 (180 samples), abstaining
+🧭 polyline [L1]: 10 candidate(s) dropped on direction — best of them Autódromo de Interlagos median 201.94 (alignment -0.81)
+🧭 polyline [L1]: ambiguous — Watkins Glen Short Course median 1.50/p90 2.65 vs Watkins Glen Long Course median 2.26/p90 8.35 (180 samples), abstaining
+🧭 polyline [L1]: 10 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 120.29 (alignment -0.50)
+🧭 polyline [L1]: ambiguous — Watkins Glen Short Course median 1.56/p90 2.65 vs Watkins Glen Long Course median 2.08/p90 3.00 (180 samples), abstaining
+🛞 compound: H+ 0.046 reads road, the declaration says racing — declaration used
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 1.2/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 racing tyres
+🧭 polyline [L1]: 10 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 77.25 (alignment -0.37)
+🧭 polyline [L1]: ambiguous — Watkins Glen Short Course median 1.56/p90 2.48 vs Watkins Glen Long Course median 1.97/p90 2.80 (180 samples), abstaining
+🧭 polyline [L1]: 11 candidate(s) dropped on direction — best of them Dragon Trail - Seaside Reverse median 77.25 (alignment -0.41)
+🧭 polyline [L1]: ambiguous — Watkins Glen Short Course median 1.69/p90 3.64 vs Watkins Glen Long Course median 1.83/p90 2.69 (180 samples), abstaining
+🧭 divergence: fork at 2560 m on course 1264 — 1 left (Watkins Glen Short Course)
+🧭 divergence: resolved to Watkins Glen Short Course
+🧭 identified: Watkins Glen Short Course (CRS 1264) — finishLine, 226 sample(s), ±12 m
+🏁 announcing track: Watkins Glen Short Course (CRS 1264) from gates
+🗣 spoke (radio, imp 2, cost 2.9s, ledger 4.1/20.4s, 1 line): trackIdentified(Watkins Glen Short Course, CRS 1264)
+🔊 we're at Watkins Glen Short Course
+🗺 stored map loaded on identification (gates): course 1264, 781 pts
+🔧 pit approach: entry at station 3886 m of 3906 m (21.6 m off the line), lead 20 s
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:11.697 first fuel_used=0.00
+📊 strategy L2: no fuel model yet
+🔵 lap 1: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (227 samples, σ 2.42 m, ±12 m, across -3.9…8.9 m)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyGate(finishLine, 227)
+🔊 finish line sharpened
+🛞 compound: racingMedium (medium confidence, C 0.93, margin 0.085, own reference)
+🌡 tyre bands: centre 76 °C (RM, +0, estimate)
+🛞 compound prompt: raceStart lap 1, estimate RM
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 4.3/20.4s, 1 line): compoundEstimate(raceStart, RM, medium)
+🛞 wear (test) lap 1 done: FL 12.8 FR 7.2 RL 10.8 RR 7.6 % — RS ×7 (declared)
+🛞 crew compound: RM
+🔊 227 samples
+🗣 bulletin (imp 6, cost 6.1s, ledger 10.4/20.4s, 2 lines): L2
+🔊 probably racing mediums
+🛞 compound prompt corrected: RS
+🛞 compound: RS confirmed by the driver — anchor
+🛞 crew compound: RS
+🛞 crew compound: RS is sure
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🔊 that's lap 2
+🔊 last lap was a 11 point seven oh
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🛞 compound: background read now RM (medium, C 0.928, margin 0.085, after 132 s) — tap stays RS
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.928 over 132 s (940 samples)
+📋 lap 2: 1:09.489 clean fuel_used=0.00
+🔵 lap 2: clean
+📊 strategy L3: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (228 samples, σ 2.42 m, ±12 m, across -3.9…8.9 m)
+🗺 mapper: learned lap 2 (69.489 s, 3895 m, 779 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 3.1/20.4s, 1 line): surveyLap(2, 69489 ms, 779 pts)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 7.0/20.4s, 1 line): surveyComplete(3 optional missing)
+🔊 map lap recorded
+🗺 lap 2 (69.489 s) not stored — the stored map's lap is faster (69.117 s)
+🛞 wear (test) lap 2 done: FL 29.9 FR 16.4 RL 22.3 RR 15.7 % — RS ×7 (tap)
+⏱ class lap kept: Watkins Glen Short Course/customRace/Gr.3 → 1:09.489 (10/10 laps, 7 car(s), avg 1:09.556)
+🔊 9 point five
+🗣 bulletin (imp 2, cost 4.3s, ledger 11.4/20.4s, 2 lines): L3
+🔊 we've got the essentials
+🔊 3 optional to go
+🔊 personal best
+🔊 on lap 3
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.938 over 192 s (1324 samples)
+📋 lap 3: 1:09.457 clean fuel_used=0.00
+🛞 crew: tyre life RS — 5 laps (2 left; worst 46 %, 18.7 %/lap biased)
+🔵 lap 3: clean
+📊 strategy L4: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (229 samples, σ 2.42 m, ±12 m, across -3.9…8.9 m)
+🗺 mapper: learned lap 3 (69.457 s, 3900 m, 780 pts) — installing as session polyline
+🗣 spoke (radio, imp 0, cost 5.1s, ledger 5.1/20.4s, 1 line): surveyLap(3, 69457 ms, 780 pts)
+🔊 lap 3 banked as the map
+🗺 lap 3 (69.457 s) not stored — the stored map's lap is faster (69.117 s)
+🛞 wear (test) lap 3 done: FL 47.0 FR 26.3 RL 33.9 RR 23.9 % — RS ×7 (tap)
+⏱ class lap kept: Watkins Glen Short Course/customRace/Gr.3 → 1:09.457 (10/10 laps, 7 car(s), avg 1:09.506)
+🔊 1 09 point five
+🗣 bulletin (imp 2, cost 12.4s, ledger 17.6/20.4s, 3 lines): L4
+🛞 crew: tyre life said
+🔊 new fastest lap
+🔊 1 09 point five
+🔊 that's lap 4
+🔊 these racing softs should be good for 2 more laps
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.948 over 252 s (1740 samples)
+🗣 chain (imp 4, cost 1.2s, ledger 1.2/20.4s, 1 events, 1 lines)
+🔊 light contact
+📋 lap 4: 1:09.680 clean fuel_used=0.00
+🔵 lap 4 antics: contact
+📊 strategy L5: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (230 samples, σ 2.41 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 4 done: FL 66.4 FR 37.7 RL 45.6 RR 32.1 % — RS ×7 (tap)
+🗣 bulletin (imp 6, cost 5.8s, ledger 7.0/20.4s, 2 lines): L5
+🔊 lap 5
+🔊 good lap
+🔊 1 09 point six eight
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.948 over 312 s (2164 samples)
+📋 lap 5: 1:09.730 clean fuel_used=0.00
+🔵 lap 5: clean
+📊 strategy L6: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (231 samples, σ 2.41 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 5 done: FL 86.3 FR 48.8 RL 57.2 RR 40.2 % — RS ×7 (tap)
+🗣 bulletin (imp 6, cost 8.0s, ledger 8.0/20.4s, 2 lines): L6
+🔊 that's lap 6
+🔊 that was a great lap
+🔊 point three down on your previous best
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.958 over 372 s (2512 samples)
+🔧 teleport 186 m on lap 6 — pending reset-vs-pit (2.5 s)
+🔀 state RACING → PIT at pkt 4146266 lap 6
+🔵 sub-state FLYING → — lap 6
+🔧 pit-entry anchor learned: 69580 ms into lap (stop on lap 6)
+🔧 pended reset cancelled: pit entry
+🚪 gate refined: Watkins Glen Short Course/customRace/pitEntry (22 samples, σ 0.06 m, ±12 m, across -0.0…0.0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line, protected): pittingIn(L6)
+🔊 pit entry
+🗑 dropped (in pit): surveyGate(pitEntry, 22)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🔊 crew is set
+📋 lap 6: 1:11.104 in fuel_used=0.00
+🔵 lap 6: clean
+🗺 mapper: lap 6 rejected (teleport)
+🗑 dropped (in pit): lapStarted(7, last 71.10s)
+🛞 wear (test) lap 6 done: FL 99.4 FR 56.8 RL 67.6 RR 47.5 % — RS ×7 (tap)
+📊 laps-left model: elapsed 422.7 s, remaining 1377.3 s, median lap 69.6 s -> 20 (no-stop 20, pit loss 10.0 s, rate 7 l/s)
+🗑 dropped (topic pitSequence; 2.7s of 5.0s, pitSequence reopens in 2.3s): inPitBox
+🗣 spoke (strategy, imp 0, cost 3.1s, ledger 5.6/20.4s, 1 line, protected): refuelTarget(20 laps)
+🔊 put in 20 laps of fuel
+🛞 wear (test): all four tyres at 60.00 °C on lap 7 — new set (J116)
+🛞 wear (test) stint 0 ended at tyre change: FL 99.4 FR 56.8 RL 67.6 RR 47.5 % — RS ×7 (tap)
+🛞 crew compound: unknown
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change inferred (all four < 62 °C — fallback)
+🛞 compound: stint raceStart lap 1, refinement 6 (final) — C 0.958 over 422 s (2811 samples)
+🌡 tyre bands: centre 76 °C (RM, +0, estimate)
+🛞 crew compound: RM
+🛞 compound: window opened — pitExit, lap 7
+🗑 dropped (in pit): tyreTemps(cold, 60°)
+🔀 state PIT → RACING at pkt 4147756 lap 7
+🔵 sub-state — → OUT_LAP lap 7
+🅿️ PIT completed: in L6 → out L7 (no fuel, transit 25.3s, teleport=true)
+🚪 gate refined: Watkins Glen Short Course/customRace/pitBox (22 samples, σ 0.06 m, ±0 m, across 0.0…0.0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 22)
+🅿️ entry→box 3.2s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 3886 m of 3906 m (21.6 m off the line), lead 20 s
+🔧 fresh tyres confirmed: 60.0° across all four (was 76.1° at pit entry, step 16.1°)
+📊 strategy L7: no fuel model yet
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 4.7/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🚪 gate refined: Watkins Glen Short Course/customRace/pitExit (22 samples, σ 1.26 m, ±12 m, across -0.0…0.0 m)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🔊 tyres are cold
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(confirmed 60.03°)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 7.4/20.4s, 1 line): surveyGate(pitExit, 22)
+📊 strategy L7: no fuel model yet
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 9.5/20.4s, 1 line): surveyComplete(0 optional missing)
+🔊 pit exit now 22 crossings
+🔊 survey complete
+🔊 everything recorded
+🗣 spoke (tyres, imp 4, cost 3.4s, ledger 3.4/20.4s, 1 line): tyreTemps(low, 65°)
+🔊 tyres are still not up to temperature
+🔵 sub-state OUT_LAP → FLYING lap 8
+📋 lap 7: 1:33.529 out fuel_used=0.00
+📊 strategy L8: no fuel model yet
+🔵 lap 7: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (232 samples, σ 2.40 m, ±12 m, across -3.9…8.9 m)
+🗺 mapper: lap 7 rejected (pit)
+🛞 compound: no call — ambiguous — RS vs RM, margin 0.022 (C 1.00)
+🛞 compound prompt: pitExit lap 7, estimate none
+🗑 dropped (no catalog lines; tyres): compoundEstimate(pitExit, abstained: ambiguous — RS vs RM, margin 0.022)
+🛞 wear (test) lap 7 done: FL 5.7 FR 4.2 RL 4.4 RR 3.3 % — RM ×7 (declared)
+🗣 bulletin (imp 6, cost 1.8s, ledger 1.8/20.4s, 1 line): L8
+🔊 that's lap 8
+🛞 compound prompt corrected: RM
+🛞 compound: RM confirmed by the driver — anchor
+🌡 tyre bands: centre 76 °C (RM, +0, tap)
+🛞 crew compound: RM is sure
+🛞 compound: stint pitExit lap 7, refinement 1 — C 1.020 over 146 s (954 samples)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): tyreTemps(inWindow, 73°)
+🔊 tyres are warmed up
+📋 lap 8: 1:10.130 clean fuel_used=0.00
+🔵 lap 8: clean
+📊 strategy L9: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (233 samples, σ 2.40 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 8 done: FL 13.7 FR 9.0 RL 9.6 RR 7.0 % — RM ×7 (tap)
+🗣 bulletin (imp 6, cost 4.6s, ledger 6.7/20.4s, 2 lines): L9
+🔊 lap 9
+🔊 within a tenth of your best
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🛞 compound: stint pitExit lap 7, refinement 2 — C 1.010 over 206 s (1339 samples)
+📋 lap 9: 1:09.905 clean fuel_used=0.00
+📊 strategy L10: no fuel model yet
+🛞 crew: tyre life RM — 11 laps (8 left; worst 22 %, 9.3 %/lap biased)
+🔵 lap 9: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (234 samples, σ 2.39 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 9 done: FL 22.4 FR 14.1 RL 15.2 RR 10.9 % — RM ×7 (tap)
+🗣 bulletin (imp 6, cost 9.4s, ledger 9.4/20.4s, 3 lines): L10
+🛞 crew: tyre life said
+🔊 on lap 10
+🔊 great lap
+🔊 keep them coming
+🔊 tyres should last around 11 laps on racing mediums
+🛞 compound: stint pitExit lap 7, refinement 3 — C 1.020 over 266 s (1748 samples)
+📋 lap 10: 1:10.002 clean fuel_used=0.00
+🔵 lap 10: clean
+📊 strategy L11: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (235 samples, σ 2.39 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 10 done: FL 31.1 FR 19.0 RL 20.7 RR 14.7 % — RM ×7 (tap)
+🗣 bulletin (imp 6, cost 5.0s, ledger 5.0/20.4s, 2 lines): L11
+🔊 that's lap 11
+🔊 within a tenth of your best
+🛞 compound: stint pitExit lap 7, refinement 4 — C 1.020 over 326 s (2209 samples)
+📋 lap 11: 1:10.793 clean fuel_used=0.00
+📊 strategy L12: no fuel model yet
+🔵 lap 11: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (236 samples, σ 2.38 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 11 done: FL 38.8 FR 23.5 RL 26.1 RR 18.4 % — RM ×7 (tap)
+🗣 bulletin (imp 6, cost 6.7s, ledger 6.7/20.4s, 2 lines): L12
+🔊 lap 12
+🔊 decent laptime
+🔊 point nine off your pace on these tyres
+🛞 compound: stint pitExit lap 7, refinement 5 — C 1.020 over 386 s (2643 samples)
+📋 lap 12: 1:09.941 clean fuel_used=0.00
+🔵 lap 12: clean
+📊 strategy L13: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (237 samples, σ 2.38 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 12 done: FL 48.6 FR 29.0 RL 31.7 RR 22.3 % — RM ×7 (tap)
+🗣 bulletin (imp 6, cost 5.0s, ledger 5.0/20.4s, 2 lines): L13
+🔊 on lap 13
+🔊 within a tenth of your best
+🛞 compound: stint pitExit lap 7, refinement 6 — C 1.030 over 446 s (2942 samples)
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 that was contact
+🔊 check the car
+🛞 compound: stint pitExit lap 7, refinement 7 — C 1.030 over 506 s (3502 samples)
+📋 lap 13: 1:20.128 clean fuel_used=0.00
+📊 strategy L14: no fuel model yet
+🔵 lap 13 antics: contact
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (238 samples, σ 2.37 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 13 done: FL 55.7 FR 33.4 RL 36.7 RR 25.8 % — RM ×7 (tap)
+🗣 bulletin (imp 6, cost 7.3s, ledger 7.3/20.4s, 2 lines): L14
+🔊 lap 14 now
+🔊 you lost around 10 seconds due to the incident last lap
+🛞 compound: stint pitExit lap 7, refinement 8 — C 1.040 over 566 s (3883 samples)
+📋 lap 14: 1:10.285 clean fuel_used=0.00
+📊 strategy L15: no fuel model yet
+🔵 lap 14: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (239 samples, σ 2.37 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 14 done: FL 64.3 FR 38.4 RL 42.3 RR 29.6 % — RM ×7 (tap)
+🗣 bulletin (imp 6, cost 5.4s, ledger 5.4/20.4s, 2 lines): L15
+🔊 lap 15
+🔊 good lap
+🔊 1 10 point three
+🛞 compound: stint pitExit lap 7, refinement 9 — C 1.040 over 626 s (4285 samples)
+🔧 teleport 186 m on lap 15 — pending reset-vs-pit (2.5 s)
+🔀 state RACING → PIT at pkt 4186101 lap 15
+🔵 sub-state FLYING → — lap 15
+🔧 pit-entry anchor learned: 67680 ms into lap (stop on lap 15)
+🔧 pended reset cancelled: pit entry
+🚪 gate refined: Watkins Glen Short Course/customRace/pitEntry (23 samples, σ 0.06 m, ±12 m, across -0.0…0.0 m)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 0.8/20.4s, 1 line, protected): pittingIn(L15)
+🔊 pitting
+📋 lap 15: 1:09.203 in fuel_used=0.00
+🗺 mapper: lap 15 rejected (teleport)
+🔵 lap 15: clean
+🗑 dropped (in pit): lapStarted(16, last 69.20s)
+🛞 wear (test) lap 15 done: FL 73.0 FR 43.3 RL 47.7 RR 33.4 % — RM ×7 (tap)
+📊 laps-left model: elapsed 1087.3 s, remaining 712.7 s, median lap 70.1 s -> 11 (no-stop 11, pit loss 10.0 s, rate 7 l/s)
+🗑 dropped (topic pitSequence; 2.7s of 5.0s, pitSequence reopens in 2.3s): inPitBox
+🗣 spoke (strategy, imp 0, cost 4.0s, ledger 4.7/20.4s, 1 line, protected): refuelTarget(11 laps)
+🔊 fuel her for 11 laps
+🔊 that's the race
+🛞 wear (test): all four tyres at 60.00 °C on lap 16 — new set (J116)
+🛞 wear (test) stint 1 ended at tyre change: FL 73.0 FR 43.3 RL 47.7 RR 33.4 % — RM ×7 (tap)
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew compound: unknown
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change inferred (all four < 62 °C — fallback)
+🛞 compound: stint pitExit lap 7, refinement 10 (final) — C 1.040 over 656 s (4428 samples)
+🛞 compound: window opened — pitExit, lap 16
+🗑 dropped (in pit): tyreTemps(cold, 60°)
+🔀 state PIT → RACING at pkt 4187590 lap 16
+🔵 sub-state — → OUT_LAP lap 16
+🅿️ PIT completed: in L15 → out L16 (no fuel, transit 25.3s, teleport=true)
+🚪 gate refined: Watkins Glen Short Course/customRace/pitBox (23 samples, σ 0.06 m, ±0 m, across 0.0…0.0 m)
+🅿️ entry→box 3.2s (speaking budget)
+🔧 pit approach: entry at station 3886 m of 3906 m (21.6 m off the line), lead 20 s
+📊 strategy L16: no fuel model yet
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 5.6/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🚪 gate refined: Watkins Glen Short Course/customRace/pitExit (23 samples, σ 1.23 m, ±12 m, across -0.0…0.0 m)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🔊 tyres are cold
+📊 strategy L16: no fuel model yet
+🔧 fresh tyres confirmed: 60.0° across all four (was 82.2° at pit entry, step 22.1°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via tyres x0.50): freshTyres(confirmed 60.04°)
+🗣 spoke (tyres, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line): tyreTemps(low, 64°)
+🔊 tyres at 64
+🔊 below the window
+🔵 sub-state OUT_LAP → FLYING lap 17
+📋 lap 16: 1:33.827 out fuel_used=0.00
+📊 strategy L17: no fuel model yet
+🔵 lap 16: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (240 samples, σ 2.36 m, ±12 m, across -3.9…8.9 m)
+🗺 mapper: lap 16 rejected (pit)
+🛞 compound: racingHard (medium confidence, C 1.10, margin 0.030, relative to RM (truth), own reference)
+🌡 tyre bands: centre 80 °C (RH, +4, estimate)
+🛞 compound prompt: pitExit lap 16, estimate RH
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RH, medium)
+🛞 wear (test) lap 16 done: FL 5.0 FR 3.2 RL 3.4 RR 2.5 % — RH ×7 (declared)
+🛞 crew compound: RH
+🔊 reads like racing hards
+🗣 bulletin (imp 6, cost 1.4s, ledger 3.4/20.4s, 1 line): L17
+🔊 lap 17
+🛞 compound prompt confirmed: RH
+🛞 compound: RH confirmed by the driver — anchor
+🌡 tyre bands: centre 80 °C (RH, +4, tap)
+🛞 crew compound: RH is sure
+🛞 compound: stint pitExit lap 16, refinement 1 — C 1.143 over 146 s (1102 samples)
+📋 lap 17: 1:11.302 clean fuel_used=0.00
+📊 strategy L18: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (241 samples, σ 2.36 m, ±12 m, across -3.9…8.9 m)
+🔵 lap 17: clean
+🛞 wear (test) lap 17 done: FL 11.1 FR 6.7 RL 7.3 RR 5.2 % — RH ×7 (tap)
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L18
+🔊 lap 18 now
+🔊 less than a tenth off
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): tyreTemps(inWindow, 78°)
+🔊 tyres are good
+🛞 compound: stint pitExit lap 16, refinement 2 — C 1.143 over 206 s (1574 samples)
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+📋 lap 18: 1:11.435 clean fuel_used=0.00
+📊 strategy L19: no fuel model yet
+🛞 crew: tyre life RH — 15 laps (12 left; worst 17 %, 6.6 %/lap biased)
+🔵 lap 18: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (242 samples, σ 2.35 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 18 done: FL 17.3 FR 10.2 RL 11.2 RR 7.9 % — RH ×7 (tap)
+🗣 bulletin (imp 6, cost 13.7s, ledger 13.7/20.4s, 3 lines): L19
+🛞 crew: tyre life said
+🔊 on lap 19
+🔊 that was a great lap
+🔊 point one down on your best on these tyres
+🔊 tyres should last around 15 laps on racing hards
+🛞 compound: stint pitExit lap 16, refinement 3 — C 1.143 over 266 s (1912 samples)
+📋 lap 19: 1:11.404 clean fuel_used=0.00
+📊 strategy L20: no fuel model yet
+🔵 lap 19: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (243 samples, σ 2.35 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 19 done: FL 24.2 FR 14.0 RL 15.3 RR 10.7 % — RH ×7 (tap)
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L20
+🔊 lap 20 now
+🔊 keep the good laps coming
+🛞 compound: stint pitExit lap 16, refinement 4 — C 1.153 over 326 s (2363 samples)
+📋 lap 20: 1:11.084 clean fuel_used=0.00
+📊 strategy L21: no fuel model yet
+🔵 lap 20: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (244 samples, σ 2.34 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 20 done: FL 31.5 FR 18.1 RL 19.5 RR 13.6 % — RH ×7 (tap)
+🗣 bulletin (imp 6, cost 3.3s, ledger 3.3/20.4s, 2 lines): L21
+🔊 lap 21
+🔊 within a tenth
+🛞 compound: stint pitExit lap 16, refinement 5 — C 1.153 over 386 s (2645 samples)
+📋 lap 21: 1:11.604 clean fuel_used=0.00
+📊 strategy L22: no fuel model yet
+🔵 lap 21: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (245 samples, σ 2.34 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 21 done: FL 38.8 FR 22.2 RL 23.8 RR 16.5 % — RH ×7 (tap)
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L22
+🔊 lap 22 now
+🛞 compound: stint pitExit lap 16, refinement 6 — C 1.153 over 446 s (3139 samples)
+🔊 keep the good laps coming
+🛞 compound: stint pitExit lap 16, refinement 7 — C 1.153 over 506 s (3566 samples)
+📋 lap 22: 1:11.614 clean fuel_used=0.00
+📊 strategy L23: no fuel model yet
+🔵 lap 22: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (246 samples, σ 2.34 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 22 done: FL 45.9 FR 25.9 RL 28.1 RR 19.4 % — RH ×7 (tap)
+🗣 bulletin (imp 6, cost 8.5s, ledger 8.5/20.4s, 2 lines): L23
+🔊 lap 23
+🔊 that was a good lap
+🔊 point five down on your best on these tyres
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+🛞 compound: stint pitExit lap 16, refinement 8 — C 1.153 over 566 s (4044 samples)
+📋 lap 23: 1:11.308 clean fuel_used=0.00
+📊 strategy L24: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (247 samples, σ 2.33 m, ±12 m, across -3.9…8.9 m)
+🔵 lap 23: clean
+🛞 wear (test) lap 23 done: FL 52.9 FR 29.7 RL 32.4 RR 22.4 % — RH ×7 (tap)
+🗣 bulletin (imp 6, cost 5.8s, ledger 5.8/20.4s, 2 lines): L24
+🔊 on lap 24
+🔊 great lap
+🔊 1 11 point three
+🛞 compound: stint pitExit lap 16, refinement 9 — C 1.163 over 626 s (4527 samples)
+📋 lap 24: 1:11.467 clean fuel_used=0.00
+📊 strategy L25: no fuel model yet
+🔵 lap 24: clean
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (248 samples, σ 2.33 m, ±12 m, across -3.9…8.9 m)
+🛞 wear (test) lap 24 done: FL 59.7 FR 33.4 RL 36.7 RR 25.3 % — RH ×7 (tap)
+🗣 bulletin (imp 6, cost 8.9s, ledger 8.9/20.4s, 2 lines): L25
+🔊 that's lap 25
+🔊 that was a good lap
+🔊 point four down on your best on these tyres
+🛞 compound: stint pitExit lap 16, refinement 10 — C 1.163 over 686 s (4921 samples)
+📋 lap 25: 1:11.861 clean fuel_used=0.00
+📊 strategy: finish armed at L26 (clock 1823.8 s of 1800) — awaiting lap-clock freeze
+📊 strategy L26: no fuel model yet
+🚪 gate refined: Watkins Glen Short Course/customRace/finishLine (249 samples, σ 2.32 m, ±12 m, across -3.9…8.9 m)
+🔵 lap 25: clean
+🛞 wear (test) lap 25 done: FL 66.9 FR 37.4 RL 40.9 RR 28.2 % — RH ×7 (tap)
+📊 strategy: race finished at L26 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+🛞 compound: stint pitExit lap 16, refinement 11 (final) — C 1.153 over 730 s (5123 samples)
+🗑 flag: pending commentary cancelled
+# recap:   26 lap(s), 2 stop(s), P1/2, finished — filed in the sidecar
+💾 race preserved (finished): 26 lap(s), 2 stop(s), start ROLLING_START, P1/2
+✂️ capture auto-stop in 30s (race finished)
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): raceFinished(L26)
+🔊 you're over the finish line
+🔧 session ended after lap 26
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🗑 flag: pending commentary cancelled
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 2)
+🔄 new session on the same connection — resetting track-scoped state
+🌡 tyre bands: centre 76 °C (compound unknown, +0, race reset)
+🛞 crew wear gate: unknown
+🛞 crew compound: unknown
+🧭 learned pool: 188 gate(s) from 409 stored, 71 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+📊 pit loss: estimated 10.0 s from the unofficial table (Watkins Glen Short Course)
+🎮 onTrack → replay (pkt 4231228, lap 0, flags 0x0008, pos 1, cars 2, tod 64440000)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+📊 pit loss: estimated 10.0 s from the unofficial table (Watkins Glen Short Course)
+🎮 replay → menus (pkt 4231353, lap 0, flags 0x0008, pos —, cars —, tod 64440000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+📊 pit loss: estimated 10.0 s from the unofficial table (Watkins Glen Short Course)
+🧭 polyline [MENU]: 40 candidate(s) dropped on direction — best of them BB Raceway Reverse median 10.17 (alignment -0.96)
+🧭 polyline [MENU]: Watkins Glen Long Course fits (median 2.18 m) but on 169 m of road — waiting for 800 m
+🧭 polyline [MENU]: 29 candidate(s) dropped on direction — best of them BB Raceway Reverse median 22.20 (alignment -0.51)
+🧭 polyline [MENU]: Watkins Glen Short Course fits (median 1.89 m) but on 403 m of road — waiting for 800 m
+🧭 learned (line): Watkins Glen International family, 2 layouts (Watkins Glen Long Course, Watkins Glen Short Course) — resolving at the fork
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 112958 packets
