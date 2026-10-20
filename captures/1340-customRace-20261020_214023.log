@@ -1,0 +1,489 @@
+# EzioClient session log
+# file:    20261020_214023 - SUGO International Racing Course (1340).gt7td
+# started: 2026-10-20T19:40:23Z
+# track:   SUGO International Racing Course (CRS 1340)
+# context: customRace
+# ---
+📊 pit loss: none — the engine's flat assumption applies
+📊 strategy: no measured pit loss for this track
+🔧 pit approach: entry at station 55 m of 3551 m (18.7 m off the line), lead 20 s
+# car:     Porsche 911 GT3 R (992) '22 [Gr.3] (id 3600) — confirmed from telemetry
+📊 strategy L1: no fuel model yet
+🔓 learning resumed — player on track
+🛞 compound: car 3600 — reference: RH RM RS
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+📋 lap 1: — clean fuel_used=0.00
+📊 strategy: reset
+⛽ crew: fuel not used — fuel calls off
+🎮 menus → onTrack (pkt 5691947, lap 0, flags 0x000D, pos 1, cars 2, tod 54600000)
+🔧 session restart: lap-scoped state reset
+🏁 start type: ROLLING_START at pkt 5692305 lap 1
+🔀 state UNKNOWN → RACING at pkt 5692305 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.00
+📊 strategy: green flag (speed) at pkt 5692305, race clock running
+🛞 compound: green flag — cool-down guard cleared
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): greenFlag
+🔊 lights out
+📊 strategy L1: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/lap1 (3 samples, σ 0.09 m, ±12 m, across -0.0…0.0 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(lap1, 3)
+🛞 compound: window opened — raceStart, lap 1
+🛞 compound: family racing from the declaration (RS)
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 1.2/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 racing tyres
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:22.936 first fuel_used=0.00
+🔵 lap 1: clean
+📊 strategy L2: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (11 samples, σ 4.29 m, ±13 m, across -4.3…11.2 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 11)
+🛞 compound: no call — no dry fit — nearest RS at 0.168 (C 0.95)
+🛞 compound prompt: raceStart lap 1, estimate none
+🗑 dropped (no catalog lines; tyres): compoundEstimate(raceStart, abstained: no dry fit — nearest RS at 0.168)
+🛞 wear (test) lap 1 done: FL 14.8 FR 8.9 RL 13.3 RR 10.1 % — RS ×7 (declared)
+🗣 bulletin (imp 6, cost 5.8s, ledger 5.8/20.4s, 2 lines): L2
+🔊 last lap 1 22 point nine four
+🔊 that's lap 2
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🛞 compound prompt corrected: RS
+🛞 compound: RS confirmed by the driver — anchor
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 crew compound: RS
+🛞 crew compound: RS is sure
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.917 over 143 s (890 samples)
+📋 lap 2: 1:21.705 clean fuel_used=0.00
+🔵 lap 2: clean
+📊 strategy L3: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (12 samples, σ 4.20 m, ±13 m, across -4.3…11.2 m)
+🗺 mapper: learned lap 2 (81.705 s, 3560 m, 712 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(2, 81705 ms, 712 pts)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyComplete(3 optional missing)
+🔊 essentials recorded
+🗺 lap 2 (81.705 s) not stored — the stored map's lap is faster (81.474 s)
+🛞 wear (test) lap 2 done: FL 30.8 FR 17.6 RL 26.9 RR 20.1 % — RS ×7 (tap)
+⏱ class lap kept: SUGO International Racing Course/customRace/Gr.3 → 1:21.705 (4/10 laps, 2 car(s), avg 1:23.880)
+🔊 3 optional outstanding
+🗣 bulletin (imp 2, cost 8.1s, ledger 10.8/20.4s, 2 lines): L3
+🔊 best lap so far
+🔊 1 21 point seven one
+🔊 on lap 3
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.938 over 203 s (1351 samples)
+📋 lap 3: 1:21.483 clean fuel_used=0.00
+🛞 crew: tyre life RS — until L5 (2 left; worst 45 %, 17.0 %/lap biased)
+🔵 lap 3: clean
+📊 strategy L4: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (13 samples, σ 4.02 m, ±12 m, across -4.3…11.2 m)
+🗺 mapper: learned lap 3 (81.483 s, 3555 m, 711 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(3, 81483 ms, 711 pts)
+🗺 lap 3 (81.483 s) not stored — the stored map's lap is faster (81.474 s)
+🛞 wear (test) lap 3 done: FL 45.3 FR 26.2 RL 40.3 RR 30.2 % — RS ×7 (tap)
+⏱ class lap kept: SUGO International Racing Course/customRace/Gr.3 → 1:21.483 (5/10 laps, 2 car(s), avg 1:23.401)
+🗣 bulletin (imp 2, cost 5.6s, ledger 5.6/20.4s, 2 lines): L4
+🔊 personal best
+🔊 point two quicker
+🔊 lap 4
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.958 over 263 s (1752 samples)
+🛞 crew: tyre life said (mid-lap)
+🔊 these racing softs should last to lap 5
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.969 over 323 s (2084 samples)
+📋 lap 4: 1:21.124 clean fuel_used=0.00
+🛞 crew: tyres done — worst 67 % biased, 17.2 %/lap: box L5
+📊 strategy L5: no fuel model yet
+🔵 lap 4: clean
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (14 samples, σ 3.89 m, ±12 m, across -4.3…11.2 m)
+🗺 mapper: learned lap 4 (81.124 s, 3550 m, 710 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(4, 81124 ms, 710 pts)
+🗺 frame vs lobbyPractice: median 2.2 m, centroid offset 0.6 m
+🗺 survey stored → 1340.trackmap.json (lap 4, 81.124 s)
+🛞 wear (test) lap 4 done: FL 61.6 FR 35.4 RL 53.9 RR 40.3 % — RS ×7 (tap)
+⏱ class lap BEST: SUGO International Racing Course/customRace/Gr.3 → 1:21.124 (6/10 laps, 2 car(s), avg 1:23.021)
+🗣 bulletin (imp 2, cost 7.7s, ledger 7.7/20.4s, 2 lines): L5
+🔊 new fastest lap
+🔊 1 21 point one two
+🔊 lap 5 now
+🛞 crew: box this lap for tyres
+🔊 pit this lap
+🔊 those tyres won't take another
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.979 over 383 s (2380 samples)
+📋 lap 5: 1:22.261 clean fuel_used=0.00
+🔵 lap 5: clean
+📊 strategy L6: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (15 samples, σ 3.76 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 5 done: FL 77.5 FR 44.0 RL 67.2 RR 50.3 % — RS ×7 (tap)
+🗣 bulletin (imp 6, cost 6.5s, ledger 6.5/20.4s, 2 lines): L6
+🔊 decent laptime
+🔊 1 point one slower than your best
+🔧 box reminder armed — tyres worn (worst 78 %)
+🔊 lap 6
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.989 over 443 s (2868 samples)
+📋 lap 6: 1:22.236 clean fuel_used=0.00
+🔧 teleport 183 m on lap 7 — pending reset-vs-pit (2.5 s)
+📊 strategy L7: no fuel model yet
+🔵 lap 6: clean
+🛞 wear (test) lap 6 done: FL 92.8 FR 53.6 RL 80.3 RR 60.3 % — RS ×7 (tap)
+🔀 state RACING → PIT at pkt 5721842 lap 7
+🔵 sub-state FLYING → — lap 7
+🔧 pit-entry anchor learned: 488 ms into lap (stop on lap 7)
+🔧 pended reset cancelled: pit entry
+🚪 gate refined: SUGO International Racing Course/customRace/pitEntry (3 samples, σ 0.02 m, ±12 m, across -0.0…0.0 m)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 0.8/20.4s, 1 line, protected): pittingIn(L7)
+🔊 pitting
+🗑 dropped (in pit): surveyGate(pitEntry, 3)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+📊 laps-left model: elapsed 495.9 s, remaining 1304.1 s, median lap 81.7 s -> 16 (no-stop 16, pit loss 18.0 s, rate 7 l/s)
+🗑 dropped (topic pitSequence; 3.1s of 5.0s, pitSequence reopens in 1.9s): inPitBox
+🗑 dropped (no fuel used): refuelTarget(16 laps)
+🛞 crew: estimated finish lap 22
+🛞 wear (test): all four tyres at 60.00 °C on lap 7 — new set (J116)
+🛞 wear (test) stint 0 ended at tyre change: FL 92.8 FR 53.6 RL 80.4 RR 60.3 % — RS ×7 (tap)
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew compound: unknown
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change inferred (all four < 62 °C — fallback)
+🛞 compound: stint raceStart lap 1, refinement 7 (final) — C 0.989 over 495 s (3213 samples)
+🛞 compound: window opened — pitExit, lap 7
+🗑 dropped (in pit): tyreTemps(cold, 60°)
+🔀 state PIT → RACING at pkt 5722745 lap 7
+🔵 sub-state — → OUT_LAP lap 7
+🅿️ PIT completed: in L6 → out L7 (no fuel, transit 15.5s, teleport=true)
+🚪 gate refined: SUGO International Racing Course/customRace/pitBox (3 samples, σ 0.02 m, ±0 m, across 0.0…0.0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 3)
+🅿️ entry→box 3.6s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 55 m of 3551 m (18.7 m off the line), lead 20 s
+🔧 fresh tyres confirmed: 60.0° across all four (was 76.6° at pit entry, step 16.5°)
+🗣 spoke (pitSequence, imp 2, cost 5.1s, ledger 5.8/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+📊 strategy L7: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/pitExit (3 samples, σ 0.03 m, ±12 m, across 0.0…0.0 m)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🔊 tyres are cold
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.02°)
+🗑 dropped (debug speech 3 < 11): surveyGate(pitExit, 3)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 8.8/20.4s, 1 line): surveyComplete(0 optional missing)
+🔊 bring them up slowly
+🔊 watch for wheelspin
+🔊 that's the full set
+🔊 survey complete
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 2.9/20.4s, 1 line): tyreTemps(low, 64°)
+🔊 tyres not in the window yet
+🔵 sub-state OUT_LAP → FLYING lap 8
+📋 lap 7: 1:38.141 out fuel_used=0.00
+📊 strategy L8: no fuel model yet
+🔵 lap 7: clean
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (16 samples, σ 3.64 m, ±12 m, across -4.3…11.2 m)
+🗺 mapper: lap 7 rejected (teleport)
+🛞 compound: no call — ambiguous — RS vs RM, margin 0.019 (C 0.97)
+🛞 compound prompt: pitExit lap 7, estimate none
+🗑 dropped (no catalog lines; tyres): compoundEstimate(pitExit, abstained: ambiguous — RS vs RM, margin 0.019)
+🛞 wear (test) lap 7 done: FL 6.3 FR 3.4 RL 5.2 RR 4.1 % — RM ×7 (declared)
+🛞 crew: estimated finish lap 23
+🗣 bulletin (imp 6, cost 1.8s, ledger 1.8/20.4s, 1 line): L8
+🔊 that's lap 8
+🛞 compound prompt corrected: RM
+🛞 compound: RM confirmed by the driver — anchor
+🌡 tyre bands: centre 76 °C (RM, +0, tap)
+🛞 crew compound: RM
+🛞 crew compound: RM is sure
+🛞 compound: stint pitExit lap 7, refinement 1 — C 1.020 over 149 s (1113 samples)
+🗣 spoke (tyres, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line): tyreTemps(inWindow, 73°)
+🔊 tyres at 73
+🔊 in the window
+📋 lap 8: 1:22.506 clean fuel_used=0.00
+📊 strategy L9: no fuel model yet
+🔵 lap 8: clean
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (17 samples, σ 3.55 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 8 done: FL 13.7 FR 7.8 RL 11.3 RR 8.8 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 24
+🗣 bulletin (imp 6, cost 6.2s, ledger 9.3/20.4s, 2 lines): L9
+🔊 good lap
+🔊 1 22 point five one
+🔊 lap 9 now
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 bit wide there
+🔊 watch track limits
+🛞 compound: stint pitExit lap 7, refinement 2 — C 1.040 over 209 s (1517 samples)
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+📋 lap 9: 1:23.321 clean fuel_used=0.00
+📊 strategy L10: no fuel model yet
+🔵 lap 9 antics: off
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (18 samples, σ 3.45 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 9 done: FL 21.3 FR 12.2 RL 17.5 RR 13.5 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 25
+🗣 bulletin (imp 6, cost 5.8s, ledger 5.8/20.4s, 2 lines): L10
+🔊 good lap
+🔊 1 23 point three
+🔊 that's lap 10
+🛞 compound: stint pitExit lap 7, refinement 3 — C 1.061 over 269 s (1850 samples)
+🛞 compound: stint pitExit lap 7, refinement 4 — C 1.051 over 329 s (2330 samples)
+📋 lap 10: 1:22.191 clean fuel_used=0.00
+📊 strategy L11: no fuel model yet
+🛞 crew: tyre life RM — until L17 (7 left; worst 29 %, 8.8 %/lap biased)
+🔵 lap 10: clean
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (19 samples, σ 3.36 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 10 done: FL 29.6 FR 16.6 RL 24.1 RR 18.5 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 26
+🗣 bulletin (imp 6, cost 6.7s, ledger 6.7/20.4s, 2 lines): L11
+🔊 that was a great lap
+🔊 1 22 point two
+🔊 lap 11
+🛞 crew: tyre life said (mid-lap)
+🔊 around 7 more laps on these racing mediums
+🛞 compound: stint pitExit lap 7, refinement 5 — C 1.061 over 389 s (2933 samples)
+📋 lap 11: 1:23.973 clean fuel_used=0.00
+🔵 lap 11: clean
+📊 strategy L12: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (20 samples, σ 3.28 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 11 done: FL 36.6 FR 20.7 RL 30.3 RR 23.2 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 27
+🗣 bulletin (imp 6, cost 5.4s, ledger 5.4/20.4s, 2 lines): L12
+🔊 last lap 1 23 point nine
+🔊 on lap 12
+🛞 compound: stint pitExit lap 7, refinement 6 — C 1.051 over 449 s (3467 samples)
+📋 lap 12: 1:22.832 clean fuel_used=0.00
+🔵 lap 12: clean
+📊 strategy L13: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (21 samples, σ 3.19 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 12 done: FL 44.5 FR 24.9 RL 36.7 RR 28.0 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 28
+🗣 bulletin (imp 6, cost 7.6s, ledger 7.6/20.4s, 2 lines): L13
+🔊 good lap
+🔊 point six slower than your best on this set
+🛞 compound: stint pitExit lap 7, refinement 7 — C 1.061 over 509 s (3769 samples)
+🔊 lap 13 now
+🛞 compound: stint pitExit lap 7, refinement 8 — C 1.071 over 569 s (4202 samples)
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+📋 lap 13: 1:23.124 clean fuel_used=0.00
+📊 strategy L14: no fuel model yet
+🛞 crew: tyre life RM — until L18 (5 left; worst 51 %, 8.4 %/lap biased)
+🔵 lap 13: clean
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (22 samples, σ 3.12 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 13 done: FL 51.7 FR 29.1 RL 42.9 RR 32.7 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 29
+🗣 bulletin (imp 6, cost 7.1s, ledger 7.1/20.4s, 2 lines): L14
+🔊 that was an ok lap
+🔊 1 23 point one
+🔊 that's lap 14
+🛞 crew: tyre life said (mid-lap)
+🔊 around 5 more laps on these racing mediums
+🛞 compound: stint pitExit lap 7, refinement 9 — C 1.071 over 629 s (4649 samples)
+📋 lap 14: 1:22.710 clean fuel_used=0.00
+🔵 lap 14: clean
+📊 strategy L15: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (23 samples, σ 3.05 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 14 done: FL 59.3 FR 33.7 RL 49.3 RR 37.5 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 30
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L15
+🔊 keep the good laps coming
+🔊 lap 15 now
+🛞 compound: stint pitExit lap 7, refinement 10 — C 1.071 over 689 s (4919 samples)
+🗣 chain (imp 4, cost 1.6s, ledger 1.6/20.4s, 1 events, 1 lines)
+🔊 watch track limits
+🛞 compound: stint pitExit lap 7, refinement 11 — C 1.081 over 749 s (5451 samples)
+📋 lap 15: 1:22.669 clean fuel_used=0.00
+🔵 lap 15 antics: off
+🔧 teleport 183 m on lap 16 — pending reset-vs-pit (2.5 s)
+📊 strategy L16: no fuel model yet
+🛞 wear (test) lap 15 done: FL 67.1 FR 38.1 RL 55.7 RR 42.3 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 31
+🔀 state RACING → PIT at pkt 5767530 lap 16
+🔵 sub-state FLYING → — lap 16
+🔧 pit-entry anchor learned: 488 ms into lap (stop on lap 16)
+🔧 pended reset cancelled: pit entry
+🚪 gate refined: SUGO International Racing Course/customRace/pitEntry (4 samples, σ 0.02 m, ±12 m, across -0.0…0.0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.9s, ledger 4.6/20.4s, 1 line, protected): pittingIn(L16)
+🔊 boxing now
+🗑 dropped (in pit): surveyGate(pitEntry, 4)
+🔊 crew's ready for you
+🗑 dropped (topic pitSequence; 3.1s of 5.0s, pitSequence reopens in 1.9s): inPitBox
+📊 laps-left model: elapsed 1258.1 s, remaining 541.9 s, median lap 82.8 s -> 7 (no-stop 7, pit loss 18.0 s, rate 7 l/s)
+🗑 dropped (no fuel used): refuelTarget(7 laps)
+🛞 wear (test): all four tyres at 60.00 °C on lap 16 — new set (J116)
+🛞 wear (test) stint 1 ended at tyre change: FL 67.1 FR 38.1 RL 55.7 RR 42.3 % — RM ×7 (tap)
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew compound: unknown
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change inferred (all four < 62 °C — fallback)
+🛞 compound: stint pitExit lap 7, refinement 12 (final) — C 1.081 over 756 s (5542 samples)
+🛞 compound: window opened — pitExit, lap 16
+🗑 dropped (in pit): tyreTemps(cold, 60°)
+🔀 state PIT → RACING at pkt 5768433 lap 16
+🔵 sub-state — → OUT_LAP lap 16
+🅿️ PIT completed: in L15 → out L16 (no fuel, transit 15.5s, teleport=true)
+🚪 gate refined: SUGO International Racing Course/customRace/pitBox (4 samples, σ 0.02 m, ±0 m, across 0.0…0.0 m)
+🅿️ entry→box 3.6s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 4)
+🔧 pit approach: entry at station 55 m of 3551 m (18.7 m off the line), lead 20 s
+📊 strategy L16: no fuel model yet
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 4.6/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🚪 gate refined: SUGO International Racing Course/customRace/pitExit (4 samples, σ 0.03 m, ±12 m, across -0.0…0.0 m)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🔊 tyres are cold
+🗑 dropped (debug speech 3 < 11): surveyGate(pitExit, 4)
+🔧 fresh tyres confirmed: 60.0° across all four (was 80.3° at pit entry, step 20.3°)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(confirmed 60.03°)
+🗣 spoke (tyres, imp 4, cost 3.4s, ledger 3.4/20.4s, 1 line): tyreTemps(low, 63°)
+🔊 tyres are still not up to temperature
+🛞 compound: no call — ambiguous — RM vs RS, margin 0.019 (C 1.12)
+🛞 compound prompt: pitExit lap 16, estimate none
+🗑 dropped (no catalog lines; tyres): compoundEstimate(pitExit, abstained: ambiguous — RM vs RS, margin 0.019)
+🔵 sub-state OUT_LAP → FLYING lap 17
+📋 lap 16: 1:40.613 out fuel_used=0.00
+🔵 lap 16: clean
+📊 strategy L17: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (24 samples, σ 2.98 m, ±12 m, across -4.3…11.2 m)
+🗺 mapper: lap 16 rejected (teleport)
+🛞 wear (test) lap 16 done: FL 4.1 FR 2.4 RL 3.7 RR 2.9 % — RH ×7 (declared)
+🛞 crew: estimated finish lap 23
+🗣 bulletin (imp 6, cost 1.4s, ledger 1.4/20.4s, 1 line): L17
+🔊 lap 17
+🛞 compound prompt corrected: RH
+🛞 compound: RH confirmed by the driver — anchor
+🌡 tyre bands: centre 80 °C (RH, +4, tap)
+🛞 crew compound: RH
+🛞 crew compound: RH is sure
+🛞 compound: stint pitExit lap 16, refinement 1 — C 1.143 over 150 s (1216 samples)
+📋 lap 17: 1:23.626 clean fuel_used=0.00
+🔵 lap 17: clean
+📊 strategy L18: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (25 samples, σ 2.92 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 17 done: FL 9.6 FR 5.6 RL 8.1 RR 6.3 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 24
+🗣 bulletin (imp 6, cost 5.2s, ledger 5.2/20.4s, 2 lines): L18
+🔊 great lap
+🔊 23 point six
+🔊 on lap 18
+🛞 compound: stint pitExit lap 16, refinement 2 — C 1.163 over 210 s (1681 samples)
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(inWindow, 77°)
+🔊 tyres are in the window
+📋 lap 18: 1:24.403 clean fuel_used=0.00
+🔵 lap 18: clean
+📊 strategy L19: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (26 samples, σ 3.43 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 18 done: FL 15.0 FR 8.8 RL 12.6 RR 9.8 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 25
+🗣 bulletin (imp 6, cost 5.8s, ledger 8.3/20.4s, 2 lines): L19
+🔊 good lap
+🔊 1 24 point four oh
+🔊 lap 19
+🛞 compound: stint pitExit lap 16, refinement 3 — C 1.194 over 270 s (2120 samples)
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🛞 compound: stint pitExit lap 16, refinement 4 — C 1.194 over 330 s (2522 samples)
+📋 lap 19: 1:24.082 clean fuel_used=0.00
+🛞 crew: tyre life RH — until L31 (12 left; worst 20 %, 6.1 %/lap biased)
+🔵 lap 19: clean
+📊 strategy L20: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (27 samples, σ 3.37 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 19 done: FL 20.7 FR 12.3 RL 17.4 RR 13.5 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 26
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L20
+🔊 keep the good laps coming
+🔊 that's lap 20
+🛞 crew: tyre life said (mid-lap)
+🔊 racing hards will make it to the flag
+🛞 compound: stint pitExit lap 16, refinement 5 — C 1.204 over 390 s (2840 samples)
+📋 lap 20: 1:23.633 clean fuel_used=0.00
+🔵 lap 20: clean
+📊 strategy L21: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (28 samples, σ 3.32 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 20 done: FL 26.9 FR 15.9 RL 22.2 RR 17.1 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 27
+🗣 bulletin (imp 6, cost 7.9s, ledger 7.9/20.4s, 2 lines): L21
+🔊 that was a great lap
+🔊 1 23 point six three three
+🔊 lap 21 now
+🛞 compound: stint pitExit lap 16, refinement 6 — C 1.215 over 450 s (3160 samples)
+🛞 compound: stint pitExit lap 16, refinement 7 — C 1.215 over 510 s (3533 samples)
+📋 lap 21: 1:23.000 clean fuel_used=0.00
+🔵 lap 21: clean
+📊 strategy L22: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (29 samples, σ 3.26 m, ±12 m, across -4.3…11.2 m)
+🛞 wear (test) lap 21 done: FL 32.8 FR 19.3 RL 27.1 RR 20.8 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 28
+🗣 bulletin (imp 6, cost 4.2s, ledger 4.2/20.4s, 2 lines): L22
+🔊 keep those good laps coming
+🔊 lap 22
+📊 strategy L22: clock 1800.0 s past 1800 with 57.8 s of the lap to run — final lap
+🔊 this is it
+🔊 final lap
+🔊 halfway round the last lap
+🛞 compound: stint pitExit lap 16, refinement 8 — C 1.215 over 570 s (3984 samples)
+📋 lap 22: 1:24.021 clean fuel_used=0.00
+🛞 crew: tyre life RH — until L31 (9 left; worst 38 %, 6.4 %/lap biased)
+📊 strategy: finish armed at L23 (clock 1858.5 s of 1800) — awaiting lap-clock freeze
+🔵 lap 22: clean
+📊 strategy L23: no fuel model yet
+🚪 gate refined: SUGO International Racing Course/customRace/finishLine (30 samples, σ 3.45 m, ±12 m, across -7.0…11.2 m)
+🛞 wear (test) lap 22 done: FL 38.5 FR 22.8 RL 31.8 RR 24.4 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 29
+📊 strategy: race finished at L23 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+🗑 flag: pending commentary cancelled
+🛞 compound: stint pitExit lap 16, refinement 9 (final) — C 1.215 over 595 s (4155 samples)
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): raceFinished(L23)
+# recap:   24 lap(s), 2 stop(s), P1/2, finished — filed in the sidecar
+💾 race preserved (finished): 24 lap(s), 2 stop(s), start ROLLING_START, P1/2
+✂️ capture auto-stop in 30s (race finished)
+🔊 that's the flag
+🗑 dropped (race over): contact(6.16m/s)
+🎭 mood relaxed → focused
+🗑 dropped (race over): offTrack(1.08s)
+🔊 good session
+🔧 session ended after lap 23
+🗑 flag: pending commentary cancelled
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 2)
+🔄 new session on the same connection — resetting track-scoped state
+🌡 tyre bands: centre 76 °C (compound unknown, +0, race reset)
+🛞 crew wear gate: unknown
+🛞 crew: estimated finish lap unknown
+🛞 crew compound: unknown
+🧭 learned pool: 190 gate(s) from 411 stored, 71 pit exit(s)
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 pit loss: none — the engine's flat assumption applies
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+⛽ crew: fuel in use
+🎮 onTrack → replay (pkt 5804388, lap 0, flags 0x0008, pos 1, cars 2, tod 54600000)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: none — the engine's flat assumption applies
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 5804501, lap 0, flags 0x000C, pos —, cars —, tod 54600000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+📊 pit loss: none — the engine's flat assumption applies
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🧭 polyline [MENU]: 27 candidate(s) dropped on direction — best of them Autopolis International Racing Course median 14.44 (alignment -0.79)
+🧭 polyline [MENU]: SUGO International Racing Course fits (median 1.89 m) but on 176 m of road — waiting for 800 m
+🧭 polyline [MENU]: 29 candidate(s) dropped on direction — best of them WeatherTech Raceway Laguna Seca median 15.03 (alignment -0.59)
+🧭 polyline [MENU]: SUGO International Racing Course fits (median 1.90 m) but on 406 m of road — waiting for 800 m
+🧭 polyline [MENU]: 15 candidate(s) dropped on direction — best of them Suzuka Circuit median 25.79 (alignment -0.50)
+🧭 polyline [MENU]: SUGO International Racing Course fits (median 2.25 m) but on 644 m of road — waiting for 800 m
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 114578 packets

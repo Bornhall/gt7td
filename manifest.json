@@ -7458,6 +7458,55 @@
       ]
     },
     {
+      "stem": "1340-customRace-20261020_214023",
+      "courseId": 1340,
+      "track": "SUGO International Racing Course",
+      "context": "customRace",
+      "carId": 3600,
+      "car": "Porsche 911 GT3 R (992) '22",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 114578,
+      "durationS": 1911.5,
+      "rawBytes": 42164704,
+      "gzBytes": 20361649,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 7,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "outcome": "corrected",
+          "finalLabel": "RS"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "outcome": "corrected",
+          "finalLabel": "RM",
+          "abstained": true
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 16,
+          "outcome": "corrected",
+          "finalLabel": "RH",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM",
+        "RH"
+      ]
+    },
+    {
       "stem": "1340-lobbyPractice-20261015_233803",
       "courseId": 1340,
       "track": "SUGO International Racing Course",
