@@ -7507,6 +7507,57 @@
       ]
     },
     {
+      "stem": "1340-customRace-20261025_091140",
+      "courseId": 1340,
+      "track": "SUGO International Racing Course",
+      "context": "customRace",
+      "carId": 2177,
+      "car": "Lamborghini Hurac\u00e1n GT3 '15",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 113116,
+      "durationS": 1887.2,
+      "rawBytes": 41626688,
+      "gzBytes": 20101361,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 7,
+      "identifiedCourseId": 1340,
+      "identifiedTrackName": "SUGO International Racing Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "outcome": "corrected",
+          "finalLabel": "RM",
+          "abstained": true
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 16,
+          "outcome": "corrected",
+          "finalLabel": "RH",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM",
+        "RH"
+      ]
+    },
+    {
       "stem": "1340-lobbyPractice-20261015_233803",
       "courseId": 1340,
       "track": "SUGO International Racing Course",

@@ -1,0 +1,382 @@
+{
+  "carCategory" : "GR3",
+  "carClass" : "Gr.3",
+  "carId" : 2177,
+  "carName" : "Lamborghini Huracán GT3 '15",
+  "compoundObservations" : [
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r10",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.18133484408048392,
+      "lap" : 1,
+      "outcome" : "confirmed",
+      "revisions" : 8,
+      "samples" : 3996,
+      "seconds" : 512.8962295628962,
+      "slipPerG" : 0.9378749999999999,
+      "source" : "telemetry",
+      "startPacketId" : 27266,
+      "trigger" : "raceStart"
+    },
+    {
+      "estimatorVersion" : "v1r10",
+      "finalLabel" : "RM",
+      "heating" : 0.359805415281535,
+      "lap" : 7,
+      "notes" : [
+        "ambiguous — RM vs RS, margin 0.016"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 12,
+      "samples" : 5685,
+      "seconds" : 770.7874541207875,
+      "slipPerG" : 1.030125,
+      "source" : "telemetry",
+      "startPacketId" : 59165,
+      "trigger" : "pitExit"
+    },
+    {
+      "estimatorVersion" : "v1r10",
+      "finalLabel" : "RH",
+      "heating" : 0.34164067238077456,
+      "lap" : 16,
+      "notes" : [
+        "ambiguous — RM vs RH, margin 0.020"
+      ],
+      "outcome" : "corrected",
+      "revisions" : 8,
+      "samples" : 3974,
+      "seconds" : 516.5498832165499,
+      "slipPerG" : 1.153125,
+      "source" : "telemetry",
+      "startPacketId" : 106298,
+      "trigger" : "pitExit"
+    }
+  ],
+  "courseId" : 1340,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 1340,
+    "fuelMultiplier" : 0,
+    "raceLength" : 30,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 7,
+    "startType" : "rolling",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 30,
+    "timeBeforeStart" : 30,
+    "trackName" : "SUGO International Racing Course",
+    "tyreCompounds" : "RS,RM,RH",
+    "tyreWearMultiplier" : 7,
+    "weather" : "dry"
+  },
+  "endTime" : 1792917788,
+  "granularity" : 1,
+  "identifiedCourseId" : 1340,
+  "identifiedTrackName" : "SUGO International Racing Course",
+  "maxSpeedKmh" : 277,
+  "packetSize" : 368,
+  "recaps" : [
+    {
+      "bestLapMs" : 81741,
+      "carId" : 2177,
+      "carName" : "Lamborghini Huracán GT3 '15",
+      "courseId" : 1340,
+      "endedAt" : "2026-10-25T08:42:37Z",
+      "id" : "495175B4-4E1E-4B6A-A1DF-48E013CC79F2",
+      "incidentLaps" : [
+        1,
+        2,
+        6,
+        8,
+        11,
+        13,
+        18
+      ],
+      "laps" : [
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 0,
+          "position" : 1,
+          "tyreFL" : 69.58417510986328,
+          "tyreFR" : 69.58267974853516,
+          "tyreRL" : 69.74178314208984,
+          "tyreRR" : 69.74532318115234
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 1,
+          "position" : 1,
+          "role" : "first",
+          "timeMs" : 84691,
+          "tyreFL" : 70.60188293457031,
+          "tyreFR" : 67.87301635742188,
+          "tyreRL" : 71.83209991455078,
+          "tyreRR" : 70.55492401123047
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 2,
+          "position" : 1,
+          "timeMs" : 95852,
+          "tyreFL" : 75.13362884521484,
+          "tyreFR" : 65.26339721679688,
+          "tyreRL" : 79.96150970458984,
+          "tyreRR" : 72.42057037353516
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 3,
+          "position" : 1,
+          "timeMs" : 81743,
+          "tyreFL" : 76.40796661376953,
+          "tyreFR" : 65.01958465576172,
+          "tyreRL" : 77.74870300292969,
+          "tyreRR" : 71.80220794677734
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 4,
+          "position" : 1,
+          "timeMs" : 82116,
+          "tyreFL" : 78.31967163085938,
+          "tyreFR" : 65.6652603149414,
+          "tyreRL" : 78.62605285644531,
+          "tyreRR" : 71.4077377319336
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 5,
+          "position" : 1,
+          "timeMs" : 81796,
+          "tyreFL" : 79.96304321289062,
+          "tyreFR" : 66.74600982666016,
+          "tyreRL" : 79.21859741210938,
+          "tyreRR" : 72.03621673583984
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 6,
+          "position" : 1,
+          "timeMs" : 96064,
+          "tyreFL" : 79.3533935546875,
+          "tyreFR" : 67.65564727783203,
+          "tyreRL" : 79.13096618652344,
+          "tyreRR" : 76.5729751586914
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 7,
+          "position" : 1,
+          "role" : "out",
+          "timeMs" : 98004,
+          "tyreFL" : 64.67985534667969,
+          "tyreFR" : 61.46231460571289,
+          "tyreRL" : 64.80012512207031,
+          "tyreRR" : 64.03245544433594
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 8,
+          "position" : 1,
+          "timeMs" : 84312,
+          "tyreFL" : 71.84574127197266,
+          "tyreFR" : 64.28988647460938,
+          "tyreRL" : 72.08279418945312,
+          "tyreRR" : 67.7166748046875
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 9,
+          "position" : 1,
+          "timeMs" : 83940,
+          "tyreFL" : 77.173583984375,
+          "tyreFR" : 64.73566436767578,
+          "tyreRL" : 78.08967590332031,
+          "tyreRR" : 69.98703002929688
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 10,
+          "position" : 1,
+          "timeMs" : 81741,
+          "tyreFL" : 80.82003021240234,
+          "tyreFR" : 66.67351531982422,
+          "tyreRL" : 79.85388946533203,
+          "tyreRR" : 71.99800872802734
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 11,
+          "position" : 1,
+          "timeMs" : 94187,
+          "tyreFL" : 82.44320678710938,
+          "tyreFR" : 66.572021484375,
+          "tyreRL" : 85.18603515625,
+          "tyreRR" : 72.52384185791016
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 12,
+          "position" : 1,
+          "timeMs" : 82636,
+          "tyreFL" : 83.5931625366211,
+          "tyreFR" : 68.29503631591797,
+          "tyreRL" : 82.19258880615234,
+          "tyreRR" : 73.4736557006836
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 13,
+          "position" : 1,
+          "timeMs" : 95869,
+          "tyreFL" : 83.51871490478516,
+          "tyreFR" : 69.0979995727539,
+          "tyreRL" : 82.24260711669922,
+          "tyreRR" : 74.00274658203125
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 14,
+          "position" : 1,
+          "timeMs" : 82852,
+          "tyreFL" : 83.09259033203125,
+          "tyreFR" : 69.58065795898438,
+          "tyreRL" : 81.72566223144531,
+          "tyreRR" : 74.89741516113281
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 15,
+          "position" : 1,
+          "timeMs" : 82009,
+          "tyreFL" : 83.74735260009766,
+          "tyreFR" : 70.15380859375,
+          "tyreRL" : 81.09107971191406,
+          "tyreRR" : 75.40538787841797
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 16,
+          "position" : 1,
+          "role" : "out",
+          "timeMs" : 99749,
+          "tyreFL" : 64.60700988769531,
+          "tyreFR" : 62.301361083984375,
+          "tyreRL" : 65.14147186279297,
+          "tyreRR" : 64.47916412353516
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 17,
+          "position" : 1,
+          "timeMs" : 85784,
+          "tyreFL" : 73.51595306396484,
+          "tyreFR" : 66.03839874267578,
+          "tyreRL" : 74.94791412353516,
+          "tyreRR" : 70.86852264404297
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 18,
+          "position" : 1,
+          "timeMs" : 86122,
+          "tyreFL" : 77.63809967041016,
+          "tyreFR" : 69.01275634765625,
+          "tyreRL" : 78.5644302368164,
+          "tyreRR" : 74.51959991455078
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 19,
+          "position" : 1,
+          "timeMs" : 84630,
+          "tyreFL" : 81.4493179321289,
+          "tyreFR" : 70.56037902832031,
+          "tyreRL" : 80.95252227783203,
+          "tyreRR" : 75.7119369506836
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 20,
+          "position" : 1,
+          "timeMs" : 84317,
+          "tyreFL" : 84.41425323486328,
+          "tyreFR" : 71.50391387939453,
+          "tyreRL" : 82.38948822021484,
+          "tyreRR" : 76.5213851928711
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 21,
+          "position" : 1,
+          "timeMs" : 84262,
+          "tyreFL" : 85.78052520751953,
+          "tyreFR" : 72.04071807861328,
+          "tyreRL" : 83.40216064453125,
+          "tyreRR" : 77.13933563232422
+        }
+      ],
+      "lastLap" : 22,
+      "note" : "",
+      "numCars" : 2,
+      "raceElapsedS" : 1835.0517183850518,
+      "racePosition" : 1,
+      "reason" : "finished",
+      "savedAt" : "2026-10-25T08:42:37Z",
+      "schemaVersion" : 1,
+      "startType" : "ROLLING_START",
+      "stops" : [
+        {
+          "entryToBoxS" : 3.570236903570237,
+          "fuelAdded" : 0,
+          "inLap" : 6,
+          "laneKmh" : 59.99006881713867,
+          "outLap" : 7,
+          "teleportEntry" : true,
+          "transitS" : 15.548882215548883
+        },
+        {
+          "entryToBoxS" : 3.570236903570237,
+          "fuelAdded" : 0,
+          "inLap" : 15,
+          "laneKmh" : 59.987562561035155,
+          "outLap" : 16,
+          "teleportEntry" : true,
+          "transitS" : 15.548882215548883
+        }
+      ],
+      "totalLaps" : 0,
+      "trackName" : "SUGO International Racing Course"
+    }
+  ],
+  "startTime" : 1792915900,
+  "trackName" : "SUGO International Racing Course",
+  "version" : 8
+}
