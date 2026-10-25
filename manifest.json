@@ -7610,6 +7610,58 @@
       ]
     },
     {
+      "stem": "1340-customRace-20261025_194834",
+      "courseId": 1340,
+      "track": "SUGO International Racing Course",
+      "context": "customRace",
+      "carId": 2184,
+      "car": "Jaguar F-type Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 113943,
+      "durationS": 1900.9,
+      "rawBytes": 41931024,
+      "gzBytes": 20252684,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 7,
+      "identifiedCourseId": 1340,
+      "identifiedTrackName": "SUGO International Racing Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "corrected",
+          "finalLabel": "RM"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 16,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "confirmed"
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM",
+        "RH"
+      ]
+    },
+    {
       "stem": "1340-lobbyPractice-20261015_233803",
       "courseId": 1340,
       "track": "SUGO International Racing Course",
