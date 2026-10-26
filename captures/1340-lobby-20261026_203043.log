@@ -1,0 +1,1177 @@
+# EzioClient session log
+# file:    20261026_203043 - SUGO International Racing Course (1340).gt7td
+# started: 2026-10-26T19:30:43Z
+# track:   SUGO International Racing Course (CRS 1340)
+# context: lobby
+# ---
+# car:     Chevrolet Corvette C7 Gr.3 [Gr.3] (id 2183) — confirmed from telemetry
+🎮 entered → onTrack (pkt 1695636, lap 0, flags 0x0001, pos 3, cars 8, tod 59476968)
+🎮 onTrack → entered (pkt 1696617, lap 0, flags 0x01C1, pos 1, cars 8, tod 59460000)
+🎮 entered → onTrack (pkt 1696727, lap 0, flags 0x01C1, pos 1, cars 8, tod 59460000)
+🏁 start type: GRID_START at pkt 1697100 lap 0
+🔀 state UNKNOWN → RACING at pkt 1697100 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag (speed) at pkt 1697100, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): greenFlag
+🔊 and we're racing
+🗣 language: first preferred sv-SE — synthesizer primed in en-GB for IPA
+🗣 voice: Fiona (Enhanced) (en-GB-u-sd-gbsct, enhanced, com.apple.voice.enhanced.en-GB-u-sd-gbsct.Fiona) — name "Fiona (Enhanced)"
+📋 lap 0: — clean fuel_used=0.14
+📊 strategy L1: no fuel model yet
+🧭 learned: 5 gates matched, all SUGO International Racing Course — using the finishLine gate (89 samples)
+🧭 identified: SUGO International Racing Course (CRS 1340) — finishLine, 89 sample(s), ±12 m
+🏁 announcing track: SUGO International Racing Course (CRS 1340) from gates
+🗣 spoke (radio, imp 2, cost 3.4s, ledger 5.0/20.4s, 1 line): trackIdentified(SUGO International Racing Course, CRS 1340)
+🗺 stored map loaded on identification (gates): course 1340, 708 pts
+🚪 gate learned: SUGO International Racing Course/lobby/lap1 heading 7°
+🗑 dropped (debug speech 3 < 6): surveyGate(lap1, 1)
+🛞 compound: window opened — raceStart, lap 1
+🔧 pit approach: entry at station 60 m of 3537 m (18.4 m off the line), lead 20 s
+🔊 track reads as SUGO International Racing Course
+🛞 compound: family racing from the declaration (RS)
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 1.2/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 racing tyres
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:26.136 first fuel_used=2.89
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 2.89, 33.6 laps of fuel, race length unknown — fuel horizon
+🚪 gate learned: SUGO International Racing Course/lobby/finishLine heading 6°
+🗑 dropped (debug speech 3 < 6): surveyGate(finishLine, 1)
+🛞 compound: racingSoft (medium confidence, C 0.73, margin 0.113, own reference)
+🌡 tyre bands: centre 72 °C (RS, -4, estimate)
+🛞 compound prompt: raceStart lap 1, estimate RS
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(raceStart, RS, medium)
+🛞 wear (test) lap 1 done: FL 5.0 FR 3.2 RL 2.8 RR 2.2 % — RS ×2 (declared)
+🛞 crew compound: RS
+🔊 probably racing softs
+🗣 bulletin (imp 6, cost 4.9s, ledger 6.6/20.4s, 2 lines): L2
+🔊 laptime 1 26 point one
+🔊 on lap 2
+🛞 compound prompt confirmed: RS
+🛞 compound: RS confirmed by the driver — anchor
+🛞 crew compound: RS is sure
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.753 over 145 s (1038 samples)
+📋 lap 2: 1:20.617 clean fuel_used=2.98
+🔵 lap 2: clean
+📊 laps-left model: elapsed 166.1 s, remaining 3433.9 s, median lap 80.6 s -> 43 (no-stop 43, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L3: fuel/lap 2.93 | fuel 94.0 = 32.1 laps | 43.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (2 samples, σ 0.53 m, ±16 m, across -0.7…0.0 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 2)
+🗺 mapper: learned lap 2 (80.617 s, 3540 m, 708 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(2, 80617 ms, 708 pts)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 4.0/20.4s, 1 line): surveyComplete(3 optional missing)
+🔊 we've got the essentials
+🗺 frame vs lobbyPractice: median 1.3 m, centroid offset 0.8 m
+🗺 frame vs customRace: median 1.4 m, centroid offset 0.1 m
+🗺 frame vs no context: median 2.1 m, centroid offset 1.1 m
+🗺 survey stored → 1340.trackmap.json (lap 2, 80.617 s)
+🛞 wear (test) lap 2 done: FL 10.5 FR 6.5 RL 5.8 RR 4.5 % — RS ×2 (tap)
+⏱ class lap BEST: SUGO International Racing Course/lobby/Gr.3 → 1:20.617 (1/10 laps, 1 car(s), avg 1:20.617)
+🛞 crew: estimated finish lap 46
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L12/L22/L34, stops 1) | fuelStatus(extendStint, 32, 43 to go, 32.07 fuel-laps) | pitWindowState(beforeOpen, now L3, L12/L22/L34, stops 1, close) | pitStopsToGo(1, 43 to go)
+🗣 spoke (strategy, imp 2, cost 2.8s, ledger 6.8/20.4s, 1 line, protected): pitWindow(L12/L22/L34, stops 1)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 10.6/20.4s, 1 line, protected): fuelStatus(extendStint, 32, 43 to go, 32.07 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 2.7s, ledger 13.2/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L3, L12/L22/L34, stops 1, close)
+🗑 dropped (burst cap 3): pitStopsToGo(1, 43 to go)
+🔊 3 optional to go
+🗣 bulletin (imp 2, cost 4.3s, ledger 17.5/20.4s, 2 lines): L3
+🔊 window
+🔊 lap 12 to 34
+🔊 save a little to go an extra lap
+🔊 don't pit before lap 12
+🔊 personal best
+🔊 that's lap 3
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 19.8/20.4s, 1 line, protected): strategyUpdate(fuel 32.07L, togo 43, stops 1)
+🔊 43 laps to go
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.753 over 205 s (1471 samples)
+📋 lap 3: 1:20.658 clean fuel_used=2.92
+🛞 crew: tyre life RS — until L16 (13 left; worst 15 %, 6.0 %/lap biased)
+🔵 lap 3: clean
+📊 laps-left model: elapsed 246.8 s, remaining 3353.2 s, median lap 80.6 s -> 42 (no-stop 42, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L4: fuel/lap 2.92 | fuel 91.1 = 31.1 laps | 42.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (3 samples, σ 0.51 m, ±12 m, across -0.7…0.0 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 3)
+🛞 wear (test) lap 3 done: FL 15.8 FR 9.7 RL 8.7 RR 6.7 % — RS ×2 (tap)
+🗣 bulletin (imp 6, cost 5.0s, ledger 5.0/20.4s, 2 lines): L4
+🔊 within a tenth of your best
+🔊 lap 4 now
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 8.7/20.4s, 1 line, protected): strategyUpdate(fuel 31.14L, togo 42, stops 1)
+🔊 fuel for 31
+🔊 1 stop still
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.774 over 265 s (1838 samples)
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🛞 crew: tyre life said (mid-lap)
+🔊 around 13 more laps on these racing softs
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.774 over 325 s (2304 samples)
+📋 lap 4: 1:20.560 clean fuel_used=2.96
+🔵 lap 4: clean
+📊 laps-left model: elapsed 327.3 s, remaining 3272.7 s, median lap 80.6 s -> 41 (no-stop 41, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L5: fuel/lap 2.94 | fuel 88.1 = 29.9 laps | 41.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (4 samples, σ 0.42 m, ±12 m, across -0.7…0.0 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 4)
+🗺 mapper: learned lap 4 (80.560 s, 3545 m, 709 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(4, 80560 ms, 709 pts)
+🗺 frame vs lobbyPractice: median 2.0 m, centroid offset 0.1 m
+🗺 frame vs customRace: median 2.1 m, centroid offset 0.7 m
+🗺 frame vs no context: median 1.7 m, centroid offset 0.7 m
+🗺 survey stored → 1340.trackmap.json (lap 4, 80.560 s)
+🛞 wear (test) lap 4 done: FL 21.2 FR 13.1 RL 11.6 RR 8.9 % — RS ×2 (tap)
+⏱ class lap BEST: SUGO International Racing Course/lobby/Gr.3 → 1:20.560 (2/10 laps, 1 car(s), avg 1:20.588)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 4.6/20.4s, 1 line, protected): fuelStatus(extendStint, 29, 41 to go, 29.95 fuel-laps)
+🔊 if you save a little
+🗣 bulletin (imp 2, cost 7.7s, ledger 12.4/20.4s, 2 lines): L5
+🔊 you can extend the stint
+🔊 new fastest lap
+🔊 point one up on your previous best
+🔊 lap 5
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 14.6/20.4s, 1 line, protected): strategyUpdate(fuel 29.95L, togo 41, stops 1)
+🔊 41 laps to go
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.774 over 385 s (2774 samples)
+📋 lap 5: 1:19.877 clean fuel_used=2.97
+🔵 lap 5: clean
+📊 laps-left model: elapsed 407.2 s, remaining 3192.8 s, median lap 80.6 s -> 40 (no-stop 40, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L6: fuel/lap 2.96 | fuel 85.2 = 28.8 laps | 40.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (5 samples, σ 0.47 m, ±12 m, across -0.7…0.0 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 5)
+🗺 mapper: learned lap 5 (79.877 s, 3540 m, 708 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(5, 79877 ms, 708 pts)
+🗺 frame vs lobbyPractice: median 1.7 m, centroid offset 0.4 m
+🗺 frame vs customRace: median 1.7 m, centroid offset 0.6 m
+🗺 frame vs no context: median 1.5 m, centroid offset 0.5 m
+🗺 survey stored → 1340.trackmap.json (lap 5, 79.877 s)
+🛞 wear (test) lap 5 done: FL 27.1 FR 16.6 RL 14.7 RR 11.2 % — RS ×2 (tap)
+⏱ class lap BEST: SUGO International Racing Course/lobby/Gr.3 → 1:19.877 (3/10 laps, 1 car(s), avg 1:20.351)
+🗣 spoke (strategy, imp 4, cost 5.4s, ledger 5.4/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L6, L13/L22/L33, stops 1)
+🔊 don't pit before lap 13
+🗣 bulletin (imp 2, cost 6.0s, ledger 11.4/20.4s, 2 lines): L6
+🔊 go for lap 22 or later
+🔊 personal best
+🔊 point seven quicker
+🔊 lap 6 now
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 13.7/20.4s, 1 line, protected): strategyUpdate(fuel 28.76L, togo 40, stops 1)
+🔊 40 laps to go
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.774 over 445 s (3229 samples)
+📋 lap 6: 1:20.833 clean fuel_used=2.86
+🛞 crew: tyre life RS — until L15 (9 left; worst 33 %, 6.4 %/lap biased)
+🔵 lap 6: clean
+📊 laps-left model: elapsed 488.0 s, remaining 3112.0 s, median lap 80.6 s -> 39 (no-stop 39, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L7: fuel/lap 2.94 | fuel 82.3 = 28.0 laps | 39.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (6 samples, σ 0.50 m, ±12 m, across -0.7…0.5 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 6)
+🛞 wear (test) lap 6 done: FL 33.0 FR 20.6 RL 17.7 RR 13.5 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 4.6/20.4s, 1 line, protected): fuelStatus(extendStint, 27, 39 to go, 27.97 fuel-laps)
+🔊 save a little fuel to make it an extra lap
+🗣 bulletin (imp 6, cost 6.9s, ledger 11.6/20.4s, 2 lines): L7
+🔊 decent lap
+🔊 1 point oh slower than your best
+🔊 that's lap 7
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 13.8/20.4s, 1 line, protected): strategyUpdate(fuel 27.97L, togo 39, stops 1)
+🔊 39 laps to go
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.784 over 505 s (3462 samples)
+🛞 crew: tyre life said (mid-lap)
+🔊 racing softs should be good until lap 15
+🗣 spoke (tyres, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(overheating, 96°, frontLeft)
+🔊 left front tyre is overheating
+🛞 compound: stint raceStart lap 1, refinement 8 — C 0.784 over 565 s (3879 samples)
+📋 lap 7: 1:21.080 clean fuel_used=2.90
+🔵 lap 7: clean
+📊 laps-left model: elapsed 569.1 s, remaining 3030.9 s, median lap 80.6 s -> 38 (no-stop 38, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L8: fuel/lap 2.92 | fuel 79.4 = 27.1 laps | 38.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (7 samples, σ 0.47 m, ±12 m, across -0.7…0.5 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 7)
+🛞 wear (test) lap 7 done: FL 39.6 FR 24.5 RL 20.7 RR 15.8 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 5.0/20.4s, 1 line, protected): pitStopsToGo(1, 38 to go)
+🔊 one more stop to go
+🗣 bulletin (imp 6, cost 6.5s, ledger 11.5/20.4s, 2 lines): L8
+🔊 decent laptime
+🔊 1 point two off your best
+🔊 on lap 8
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 13.7/20.4s, 1 line, protected): strategyUpdate(fuel 27.15L, togo 38, stops 1)
+🔊 38 laps to go
+🛞 compound: stint raceStart lap 1, refinement 9 — C 0.784 over 625 s (4254 samples)
+📋 lap 8: 1:20.917 clean fuel_used=2.91
+🔵 lap 8: clean
+📊 laps-left model: elapsed 650.0 s, remaining 2950.0 s, median lap 80.7 s -> 37 (no-stop 37, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L9: fuel/lap 2.92 | fuel 76.5 = 26.2 laps | 37.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (8 samples, σ 0.45 m, ±12 m, across -0.7…0.5 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 8)
+🛞 wear (test) lap 8 done: FL 46.1 FR 28.3 RL 23.7 RR 18.1 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 4, cost 4.0s, ledger 4.0/20.4s, 1 line, protected): pitWindowState(beforeOpen, now L9, L12/L22/L34, stops 1)
+🔊 pit window closed
+🔊 don't pit before lap 12
+🗣 bulletin (imp 6, cost 6.9s, ledger 10.9/20.4s, 2 lines): L9
+🔊 ok laptime
+🔊 1 point oh down on your best lap
+🔊 lap 9
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 13.1/20.4s, 1 line, protected): strategyUpdate(fuel 26.21L, togo 37, stops 1)
+🔊 37 laps to go
+🛞 compound: stint raceStart lap 1, refinement 10 — C 0.774 over 685 s (4646 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 bit wide there
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+🔊 watch track limits
+📋 lap 9: 1:21.748 clean fuel_used=2.88
+🛞 crew: tyre life RS — until L15 (6 left; worst 52 %, 6.6 %/lap biased)
+🔵 lap 9 antics: off
+📊 laps-left model: elapsed 731.8 s, remaining 2868.2 s, median lap 80.7 s -> 36 (no-stop 36, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L10: fuel/lap 2.92 | fuel 73.6 = 25.2 laps | 36.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (9 samples, σ 0.42 m, ±12 m, across -0.7…0.5 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 9)
+🛞 wear (test) lap 9 done: FL 52.5 FR 32.1 RL 26.6 RR 20.3 % — RS ×2 (tap)
+🗣 bulletin (imp 6, cost 6.5s, ledger 9.4/20.4s, 2 lines): L10
+🔊 around 2 seconds lost to the incident last lap
+🔊 lap 10 now
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 10.2/20.4s, 1 line, protected): strategyUpdate(fuel 25.23L, togo 36, stops 1)
+🔊 fuel for 25
+🛞 compound: stint raceStart lap 1, refinement 11 — C 0.784 over 745 s (4953 samples)
+🔊 1 stop still
+🛞 crew: tyre life said (mid-lap)
+🔊 these racing softs should last to lap 15
+🛞 compound: stint raceStart lap 1, refinement 12 — C 0.784 over 805 s (5411 samples)
+📋 lap 10: 1:21.880 clean fuel_used=2.89
+🔵 lap 10: clean
+📊 laps-left model: elapsed 813.7 s, remaining 2786.3 s, median lap 80.9 s -> 35 (no-stop 35, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L11: fuel/lap 2.91 | fuel 70.7 = 24.3 laps | 35.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (10 samples, σ 0.41 m, ±12 m, across -0.7…0.5 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 10)
+🛞 wear (test) lap 10 done: FL 58.7 FR 35.8 RL 29.4 RR 22.5 % — RS ×2 (tap)
+🗣 bulletin (imp 6, cost 7.1s, ledger 7.1/20.4s, 2 lines): L11
+🔊 clean lap
+🔊 1 21 point nine
+🔊 that's the way
+🔊 on lap 11
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 9.3/20.4s, 1 line, protected): strategyUpdate(fuel 24.34L, togo 35, stops 1)
+🔊 35 laps to go
+🛞 compound: stint raceStart lap 1, refinement 13 — C 0.784 over 865 s (5824 samples)
+📋 lap 11: 1:22.390 clean fuel_used=2.92
+🔵 lap 11: clean
+📊 laps-left model: elapsed 896.0 s, remaining 2704.0 s, median lap 81.0 s -> 34 (no-stop 34, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L12: fuel/lap 2.91 | fuel 67.8 = 23.3 laps | 34.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 1.4s, ledger 1.4/20.4s, 1 line): positionChange(P1→P2)
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (11 samples, σ 0.40 m, ±12 m, across -0.7…0.5 m)
+🔊 P 2
+🛞 wear (test) lap 11 done: FL 64.1 FR 39.1 RL 32.3 RR 24.7 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 5.8/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L12, L12/L22/L34, stops 1)
+🔊 pit window is open
+🗣 bulletin (imp 6, cost 4.9s, ledger 10.7/20.4s, 2 lines): L12
+🔊 aim for lap 22
+🔊 last lap 1 22 point four
+🔊 lap 12
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 12.9/20.4s, 1 line, protected): strategyUpdate(fuel 23.34L, togo 34, stops 1)
+🔊 34 laps to go
+🛞 compound: stint raceStart lap 1, refinement 14 — C 0.784 over 925 s (6320 samples)
+🗣 spoke (tyres, imp 4, cost 4.2s, ledger 4.2/20.4s, 1 line): tyreTemps(high, 85°, frontLeft)
+🔊 watch the left front tyre
+🔊 it is getting hot
+📋 lap 12: 1:21.766 clean fuel_used=2.81
+🛞 crew: tyre life RS — until L15 (3 left; worst 70 %, 6.6 %/lap biased)
+🔵 lap 12: clean
+🔧 teleport 182 m on lap 13 — pending reset-vs-pit (2.5 s)
+📊 laps-left model: elapsed 977.8 s, remaining 2622.2 s, median lap 81.4 s -> 32 (no-stop 33, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L13: fuel/lap 2.89 | fuel 65.0 = 22.5 laps | 32.0 laps to go | stops 1
+🛞 wear (test) lap 12 done: FL 70.2 FR 42.5 RL 35.1 RR 26.9 % — RS ×2 (tap)
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P2→P3)
+🔊 down to P 3
+🔀 state RACING → PIT at pkt 1755739 lap 13
+🔵 sub-state FLYING → — lap 13
+🔧 pit-entry anchor learned: 488 ms into lap (stop on lap 13)
+🔧 pended reset cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+🗑 dropped (in pit): 1 strategy event(s) held in burst
+📊 laps-left model: elapsed 978.3 s, remaining 2621.7 s, median lap 81.4 s -> 32 (no-stop 33, pit loss 18.0 s, rate 6 l/s)
+📊 strategy: refuel still needed — 22.5 laps of fuel against 32 to go (need 34.6 with margin)
+🚪 gate learned: SUGO International Racing Course/lobby/pitEntry heading 12°
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 3.4/20.4s, 1 line, protected): pittingIn(L13)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🔊 entering pit
+📊 laps-left model: elapsed 981.4 s, remaining 2618.6 s, median lap 81.4 s -> 32 (no-stop 33, pit loss 18.0 s, rate 6 l/s)
+🗑 dropped (topic pitSequence; 3.1s of 5.0s, pitSequence reopens in 1.9s): inPitBox
+🗣 spoke (strategy, imp 0, cost 3.1s, ledger 6.5/20.4s, 1 line, protected): refuelTarget(32 laps)
+🔊 we need fuel for 32 laps
+🛞 wear (test): all four tyres at 60.00 °C on lap 13 — new set (J116)
+🛞 wear (test) stint 0 ended at tyre change: FL 70.2 FR 42.5 RL 35.1 RR 26.9 % — RS ×2 (tap)
+🛞 crew compound: unknown
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🛞 compound prompt: box exit lap 13, declared RS
+🛞 compound: stint raceStart lap 1, refinement 15 (final) — C 0.794 over 980 s (6682 samples)
+🌡 tyre bands: centre 72 °C (RS, -4, estimate)
+🛞 crew compound: RS
+🛞 compound: window opened — pitExit, lap 13
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🛞 compound prompt corrected: RS
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 crew compound: RS is sure
+🔀 state PIT → RACING at pkt 1756641 lap 13
+🔵 sub-state — → OUT_LAP lap 13
+🅿️ PIT completed: in L12 → out L13 (no fuel, transit 15.5s, teleport=true)
+🚪 gate learned: SUGO International Racing Course/lobby/pitBox (no heading)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 3.6s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 60 m of 3537 m (18.4 m off the line), lead 20 s
+📊 laps-left model: elapsed 993.3 s, remaining 2588.7 s, median lap 81.4 s -> 32 (no-stop 32, pit loss 18.0 s, rate 6 l/s), out-lap -18.0s
+📊 strategy L13: fuel/lap 2.89 | fuel 65.0 = 22.5 laps | 32.0 laps to go | stops 1 (post-stop recalc)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 8.2/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🚪 gate learned: SUGO International Racing Course/lobby/pitExit heading 9°
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🔊 tyres are cold
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 10.8/20.4s, 1 line, protected): stopsPlanChanged(0→1)
+🗑 dropped (debug speech 3 < 6): surveyGate(pitExit, 1)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 12.9/20.4s, 1 line): surveyComplete(0 optional missing)
+🔧 fresh tyres confirmed: 60.0° across all four (was 76.9° at pit entry, step 16.8°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via tyres x0.50): freshTyres(confirmed 60.04°)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 16.0/20.4s, 1 line, protected): strategyUpdate(fuel 22.45L, togo 32, stops 1, post-stop)
+🔊 fuel plan changed
+🔊 1 stop
+🔊 survey complete
+🔊 everything recorded
+🔊 clean stop
+🔊 1 stop to go
+🔵 sub-state OUT_LAP → FLYING lap 14
+📋 lap 13: 1:35.904 out fuel_used=3.30
+🔵 lap 13: clean
+📊 laps-left model: elapsed 1073.7 s, remaining 2526.3 s, median lap 81.4 s -> 31 (no-stop 32, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L14: fuel/lap 2.89 | fuel 61.7 = 21.3 laps | 31.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 1.4s, ledger 1.4/20.4s, 1 line): positionChange(P3→P6)
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (12 samples, σ 0.45 m, ±12 m, across -0.7…0.7 m)
+🔊 P 6
+🗺 mapper: lap 13 rejected (teleport)
+🛞 compound: racingSoft (high confidence, C 0.73, margin 0.113, relative to RS (truth), own reference)
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: box-exit answer RS given to the pit-exit window (estimate RS)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 3.4/20.4s, 1 line): compoundEstimate(pitExit, RS, high)
+🛞 wear (test) lap 13 done: FL 4.0 FR 2.8 RL 2.4 RR 1.9 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 7.8/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L14, L14/L22/L34, stops 1)
+🔊 reads like racing softs
+🗣 bulletin (imp 6, cost 1.8s, ledger 9.6/20.4s, 1 line): L14
+🔊 pit window is open
+🔊 aim for lap 22
+🔊 on lap 14
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 11.9/20.4s, 1 line, protected): strategyUpdate(fuel 21.32L, togo 31, stops 1)
+🔊 31 laps to go
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 13.9/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔊 tyres are warmed up
+🛞 compound: stint pitExit lap 13, refinement 1 — C 0.743 over 147 s (1173 samples)
+📋 lap 14: 1:19.950 clean fuel_used=3.34
+🔵 lap 14: clean
+📊 laps-left model: elapsed 1153.7 s, remaining 2446.3 s, median lap 81.4 s -> 30 (no-stop 31, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L15: fuel/lap 2.91 | fuel 58.3 = 20.1 laps | 30.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 3.5s, ledger 3.5/20.4s, 1 line): positionChange(P6→P3)
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (13 samples, σ 0.45 m, ±12 m, across -0.7…0.7 m)
+🔊 up to P 3
+🛞 wear (test) lap 14 done: FL 9.7 FR 6.2 RL 5.4 RR 4.2 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 8.2/20.4s, 1 line, protected): fuelStatus(extendStint, 20, 30 to go, 20.08 fuel-laps)
+🔊 keep it clean
+🗣 bulletin (imp 6, cost 4.6s, ledger 12.8/20.4s, 2 lines): L15
+🔊 if you save a little
+🔊 you can extend the stint
+🔊 great lap
+🔊 keep them coming
+🔊 lap 15 now
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.0/20.4s, 1 line, protected): strategyUpdate(fuel 20.08L, togo 30, stops 1)
+🔊 30 laps to go
+🛞 compound: stint pitExit lap 13, refinement 2 — C 0.764 over 207 s (1569 samples)
+📋 lap 15: 1:19.895 clean fuel_used=3.12
+🔵 lap 15: clean
+📊 laps-left model: elapsed 1233.6 s, remaining 2366.4 s, median lap 81.4 s -> 29 (no-stop 30, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L16: fuel/lap 2.92 | fuel 55.2 = 18.9 laps | 29.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (14 samples, σ 0.43 m, ±12 m, across -0.7…0.7 m)
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P3→P2)
+🔊 clean move up to P 2
+🛞 wear (test) lap 15 done: FL 15.6 FR 9.8 RL 8.4 RR 6.5 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 2, cost 4.6s, ledger 9.0/20.4s, 1 line, protected): fuelStatus(extendStint, 18, 29 to go, 18.93 fuel-laps)
+🔊 no drama needed
+🗣 bulletin (imp 6, cost 5.0s, ledger 14.0/20.4s, 2 lines): L16
+🔊 save a little fuel to make it an extra lap
+🔊 within a tenth of your best
+🔊 on lap 16
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.3/20.4s, 1 line, protected): strategyUpdate(fuel 18.93L, togo 29, stops 1)
+🔊 29 laps to go
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🛞 compound: stint pitExit lap 13, refinement 3 — C 0.764 over 267 s (1954 samples)
+📋 lap 16: 1:19.941 clean fuel_used=3.15
+🛞 crew: tyre life RS — until L27 (11 left; worst 21 %, 6.6 %/lap biased)
+🔵 lap 16: clean
+📊 laps-left model: elapsed 1313.5 s, remaining 2286.5 s, median lap 81.3 s -> 28 (no-stop 29, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L17: fuel/lap 3.02 | fuel 52.1 = 17.2 laps | 28.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (15 samples, σ 0.46 m, ±12 m, across -0.7…0.7 m)
+🗣 spoke (position, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): positionChange(P2→P1)
+🔊 you're leading the race
+🛞 wear (test) lap 16 done: FL 21.6 FR 13.5 RL 11.4 RR 8.8 % — RS ×2 (tap)
+🛞 compound: stint pitExit lap 13, refinement 4 — C 0.764 over 327 s (2381 samples)
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L17, L17/L22/L33, stops 1)
+🔊 window's open
+🗣 bulletin (imp 6, cost 3.7s, ledger 8.9/20.4s, 2 lines): L17
+🔊 target is lap 22
+🔊 within a tenth
+🔊 that's lap 17
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 12.6/20.4s, 1 line, protected): strategyUpdate(fuel 17.22L, togo 28, stops 1)
+🔊 fuel for 17
+🔊 1 stop still
+🛞 crew: tyre life said (mid-lap)
+🔊 these racing softs should last to lap 27
+🛞 compound: stint pitExit lap 13, refinement 5 — C 0.764 over 387 s (2829 samples)
+📋 lap 17: 1:20.521 clean fuel_used=3.17
+🔵 lap 17: clean
+📊 laps-left model: elapsed 1394.0 s, remaining 2206.0 s, median lap 81.1 s -> 27 (no-stop 28, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L18: fuel/lap 3.14 | fuel 48.9 = 15.6 laps | 27.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (16 samples, σ 0.45 m, ±12 m, across -0.7…0.7 m)
+🛞 wear (test) lap 17 done: FL 27.8 FR 17.5 RL 14.4 RR 11.1 % — RS ×2 (tap)
+📋 strategy burst: 2 event(s), releasing best-first — pitWindow(L18/L22/L32, stops 1) | pitStopsToGo(1, 27 to go)
+🗣 spoke (strategy, imp 2, cost 5.8s, ledger 5.8/20.4s, 1 line, protected): pitWindow(L18/L22/L32, stops 1)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 7.9/20.4s, 1 line, protected): pitStopsToGo(1, 27 to go)
+🔊 don't pit before lap 18
+🗣 bulletin (imp 6, cost 5.5s, ledger 13.4/20.4s, 2 lines): L18
+🔊 you can probably go to lap 32
+🔊 one pit stop left
+🔊 good lap
+🔊 point six off your best
+🔊 lap 18
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.6/20.4s, 1 line, protected): strategyUpdate(fuel 15.59L, togo 27, stops 1)
+🔊 27 laps to go
+🛞 compound: stint pitExit lap 13, refinement 6 — C 0.774 over 447 s (3113 samples)
+📋 lap 18: 1:20.884 clean fuel_used=2.97
+🔵 lap 18: clean
+📊 laps-left model: elapsed 1474.9 s, remaining 2125.1 s, median lap 80.7 s -> 26-27 (no-stop 27, pit loss 18.0 s, rate 6 l/s, tyre-decisive)
+📊 strategy L19: fuel/lap 3.14 | fuel 45.9 = 14.6 laps | 27.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (17 samples, σ 0.43 m, ±12 m, across -0.7…0.7 m)
+🛞 wear (test) lap 18 done: FL 34.0 FR 21.5 RL 17.3 RR 13.4 % — RS ×2 (tap)
+🗣 bulletin (imp 6, cost 7.3s, ledger 7.3/20.4s, 2 lines): L19
+🔊 decent laptime
+🔊 1 point oh down on your best lap
+🔊 that's lap 19
+🗣 spoke (strategy, imp 2, cost 5.4s, ledger 12.8/20.4s, 1 line, protected): strategyUpdate(fuel 14.65L, togo 26-27/tyres, stops 1)
+🔊 26 or 27 to go
+🔊 you're leading
+🔊 so you choose
+🛞 compound: stint pitExit lap 13, refinement 7 — C 0.784 over 507 s (3423 samples)
+🛞 compound: stint pitExit lap 13, refinement 8 — C 0.784 over 567 s (3912 samples)
+📋 lap 19: 1:20.220 clean fuel_used=3.06
+🛞 crew: tyre life RS — until L27 (8 left; worst 40 %, 6.8 %/lap biased)
+🔵 lap 19: clean
+📊 laps-left model: elapsed 1555.1 s, remaining 2044.9 s, median lap 80.4 s -> 26 (no-stop 26, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L20: fuel/lap 3.14 | fuel 42.9 = 13.7 laps | 26.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (18 samples, σ 0.44 m, ±12 m, across -0.7…0.7 m)
+🛞 wear (test) lap 19 done: FL 40.5 FR 25.5 RL 20.3 RR 15.7 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line, protected): pitWindowState(openTargetAhead, now L20, L20/L22/L32, stops 1)
+🔊 window's open
+🔊 target is lap 22
+🗣 bulletin (imp 6, cost 4.2s, ledger 7.3/20.4s, 2 lines): L20
+🔊 keep those good laps coming
+🔊 lap 20
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 11.0/20.4s, 1 line, protected): strategyUpdate(fuel 13.67L, togo 26, stops 1)
+🔊 fuel for 13
+🔊 1 stop still
+🛞 crew: tyre life said (mid-lap)
+🔊 racing softs should be good until lap 27
+🛞 compound: stint pitExit lap 13, refinement 9 — C 0.784 over 627 s (4350 samples)
+📋 lap 20: 1:20.880 clean fuel_used=3.11
+🔵 lap 20: clean
+📊 laps-left model: elapsed 1636.0 s, remaining 1964.0 s, median lap 80.4 s -> 25 (no-stop 25, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L21: fuel/lap 3.14 | fuel 39.8 = 12.7 laps | 25.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (19 samples, σ 0.43 m, ±12 m, across -0.7…0.7 m)
+🛞 wear (test) lap 20 done: FL 47.4 FR 29.3 RL 23.3 RR 18.0 % — RS ×2 (tap)
+🗣 bulletin (imp 6, cost 6.9s, ledger 6.9/20.4s, 2 lines): L21
+🔊 decent lap
+🔊 1 point oh slower than your best
+🔊 that's lap 21
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 9.2/20.4s, 1 line, protected): strategyUpdate(fuel 12.68L, togo 25, stops 1)
+🔊 25 laps to go
+🛞 compound: stint pitExit lap 13, refinement 10 — C 0.784 over 687 s (4797 samples)
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+📋 lap 21: 1:21.709 clean fuel_used=3.12
+🔵 lap 21: clean
+📊 laps-left model: elapsed 1717.7 s, remaining 1882.3 s, median lap 80.4 s -> 24 (no-stop 24, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L22: fuel/lap 3.12 | fuel 36.6 = 11.7 laps | 24.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (20 samples, σ 0.44 m, ±12 m, across -0.7…0.7 m)
+🛞 wear (test) lap 21 done: FL 53.6 FR 32.9 RL 26.1 RR 20.2 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 4, cost 5.2s, ledger 5.2/20.4s, 1 line, protected): pitWindowState(openToLatest, now L22, L22/L22/L32, stops 1)
+🔊 pit window is open
+🔊 pit on lap 32 at the latest
+🗣 bulletin (imp 6, cost 4.9s, ledger 10.2/20.4s, 2 lines): L22
+🔊 laptime 1 21 point seven
+🔊 lap 22 now
+🗣 spoke (strategy, imp 2, cost 3.7s, ledger 13.9/20.4s, 1 line, protected): strategyUpdate(fuel 11.74L, togo 24, stops 1)
+🔊 fuel for 11
+🔊 1 stop still
+🛞 compound: stint pitExit lap 13, refinement 11 — C 0.794 over 747 s (5093 samples)
+🛞 compound: stint pitExit lap 13, refinement 12 — C 0.794 over 807 s (5541 samples)
+📋 lap 22: 1:21.151 clean fuel_used=3.07
+🛞 crew: tyre life RS — until L26 (4 left; worst 60 %, 7.0 %/lap biased)
+🔵 lap 22: clean
+📊 laps-left model: elapsed 1798.9 s, remaining 1801.1 s, median lap 80.7 s -> 22-23 (no-stop 23, pit loss 18.0 s, rate 6 l/s, tyre-decisive)
+📊 strategy L23: fuel/lap 3.12 | fuel 33.6 = 10.8 laps | 23.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (21 samples, σ 0.45 m, ±12 m, across -0.7…0.7 m)
+🛞 wear (test) lap 22 done: FL 60.1 FR 36.8 RL 29.0 RR 22.4 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line, protected): pitStopsToGo(1, 23 to go)
+🔊 one more stop to go
+🗣 bulletin (imp 6, cost 4.5s, ledger 7.0/20.4s, 2 lines): L23
+🔊 1 21 point two
+🔊 on lap 23
+🗣 spoke (strategy, imp 2, cost 5.4s, ledger 12.4/20.4s, 1 line, protected): strategyUpdate(fuel 10.78L, togo 22-23/tyres, stops 1)
+🔊 22 or 23 to go
+🔊 you're leading
+🔊 so you choose
+🛞 crew: tyre life said (mid-lap)
+🔊 racing softs should be good until lap 26
+🛞 compound: stint pitExit lap 13, refinement 13 — C 0.784 over 867 s (5918 samples)
+📋 lap 23: 1:22.238 clean fuel_used=3.00
+🔵 lap 23: clean
+📊 laps-left model: elapsed 1881.1 s, remaining 1718.9 s, median lap 80.9 s -> 21 (no-stop 22, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L24: fuel/lap 3.09 | fuel 30.6 = 9.9 laps | 21.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (22 samples, σ 0.44 m, ±12 m, across -0.7…0.7 m)
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P1→P2)
+🔊 down to P 2
+🛞 wear (test) lap 23 done: FL 66.4 FR 40.5 RL 31.8 RR 24.6 % — RS ×2 (tap)
+🔊 head down
+🗣 bulletin (imp 6, cost 5.8s, ledger 10.2/20.4s, 2 lines): L24
+🔊 get it back
+🔊 last lap 1 22 point two three eight
+🔊 lap 24
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 12.4/20.4s, 1 line, protected): strategyUpdate(fuel 9.89L, togo 21, stops 1)
+🔊 21 laps to go
+🛞 compound: stint pitExit lap 13, refinement 14 — C 0.794 over 927 s (6376 samples)
+📋 lap 24: 1:21.451 clean fuel_used=2.89
+🔵 lap 24: clean
+📊 laps-left model: elapsed 1962.6 s, remaining 1637.4 s, median lap 81.0 s -> 20 (no-stop 21, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L25: fuel/lap 3.07 | fuel 27.7 = 9.0 laps | 20.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (23 samples, σ 0.49 m, ±12 m, across -1.0…0.7 m)
+🛞 wear (test) lap 24 done: FL 72.5 FR 44.3 RL 34.6 RR 26.8 % — RS ×2 (tap)
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 9, 20 to go, 9.03 fuel-laps) | pitWindowState(openToLatest, now L25, L25/L25/L33, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 7.2s, ledger 7.2/20.4s, 1 line, protected): fuelStatus(extendStint, 9, 20 to go, 9.03 fuel-laps)
+🔊 cutting it very close on fuel to get one more lap
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 10.3/20.4s, 1 line, protected): pitWindowState(openToLatest, now L25, L25/L25/L33, stops 1, close)
+🗣 bulletin (imp 6, cost 3.9s, ledger 14.2/20.4s, 2 lines): L25
+🔊 save where you can
+🔊 window's open
+🔊 latest is lap 33
+🔊 21 point five
+🔊 on lap 25
+🛞 compound: stint pitExit lap 13, refinement 15 — C 0.794 over 987 s (6643 samples)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 16.4/20.4s, 1 line, protected): strategyUpdate(fuel 9.03L, togo 20, stops 1)
+🔊 20 laps to go
+🛞 compound: stint pitExit lap 13, refinement 16 — C 0.784 over 1047 s (7066 samples)
+🔧 box reminder armed — tyres worn (worst 78 %)
+🔧 box reminder fired: 632 m (13.5 s) before pit entry, polyline anchor, lap 25
+🗣 spoke (pitSequence, imp 1, cost 4.2s, ledger 4.2/20.4s, 1 line, protected): pitEntryApproaching(13.47s)
+🔊 coming up on the pit lane
+🔊 decide on tyres
+📋 lap 25: 1:21.206 clean fuel_used=2.85
+🛞 crew: tyre life RS — until L27 (2 left; worst 78 %, 6.9 %/lap biased)
+🔵 lap 25: clean
+🔧 teleport 182 m on lap 26 — pending reset-vs-pit (2.5 s)
+📊 laps-left model: elapsed 2043.8 s, remaining 1556.2 s, median lap 81.2 s -> 19 (no-stop 20, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L26: fuel/lap 3.03 | fuel 24.8 = 8.2 laps | 19.0 laps to go | stops 1
+🛞 wear (test) lap 25 done: FL 78.3 FR 48.1 RL 37.3 RR 28.9 % — RS ×2 (tap)
+🔀 state RACING → PIT at pkt 1819632 lap 26
+🔵 sub-state FLYING → — lap 26
+🔧 pit-entry anchor learned: 488 ms into lap (stop on lap 26)
+🔧 pended reset cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+🗑 dropped (in pit): 1 strategy event(s) held in burst
+📊 laps-left model: elapsed 2044.2 s, remaining 1555.8 s, median lap 81.2 s -> 19 (no-stop 20, pit loss 18.0 s, rate 6 l/s)
+📊 strategy: refuel still needed — 8.2 laps of fuel against 19 to go (need 20.9 with margin)
+🚪 gate refined: SUGO International Racing Course/lobby/pitEntry (2 samples, σ 0.00 m, ±16 m, across 0.0…0.0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 6.7/20.4s, 1 line, protected): pittingIn(L26)
+🔊 pit entry
+🗑 dropped (in pit): surveyGate(pitEntry, 2)
+🔊 crew is set
+🗑 dropped (topic pitSequence; 3.1s of 5.0s, pitSequence reopens in 1.9s): inPitBox
+📊 laps-left model: elapsed 2047.3 s, remaining 1552.7 s, median lap 81.2 s -> 19 (no-stop 20, pit loss 18.0 s, rate 6 l/s)
+🗣 spoke (strategy, imp 0, cost 2.2s, ledger 8.9/20.4s, 1 line, protected): refuelTarget(19 laps)
+🔊 fuel for 19 laps
+🛞 wear (test): all four tyres at 60.00 °C on lap 26 — new set (J116)
+🛞 wear (test) stint 1 ended at tyre change: FL 78.4 FR 48.1 RL 37.3 RR 28.9 % — RS ×2 (tap)
+🛞 crew compound: unknown
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🛞 compound prompt: box exit lap 26, declared RS
+🛞 compound: stint pitExit lap 13, refinement 17 (final) — C 0.794 over 1060 s (7151 samples)
+🛞 crew compound: RS
+🌡 tyre bands: centre 72 °C (RS, -4, estimate)
+🛞 crew compound: RS is sure
+🛞 compound: window opened — pitExit, lap 26
+🗑 dropped (in pit): tyreTemps(low, 60°)
+🛞 compound prompt corrected: IM
+🌡 tyre bands: centre 76 °C (IM, +0, tap)
+🛞 crew compound: IM
+🛞 crew compound: IM is sure
+🛞 crew wear gate: unknown
+🔀 state PIT → RACING at pkt 1820535 lap 26
+🔵 sub-state — → OUT_LAP lap 26
+🅿️ PIT completed: in L25 → out L26 (no fuel, transit 15.5s, teleport=true)
+🚪 gate refined: SUGO International Racing Course/lobby/pitBox (2 samples, σ 0.00 m, ±0 m, across 0.0…0.0 m)
+🅿️ entry→box 3.6s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 2)
+🔧 pit approach: entry at station 60 m of 3537 m (18.4 m off the line), lead 20 s
+📊 laps-left model: elapsed 2059.3 s, remaining 1522.7 s, median lap 81.2 s -> 19 (no-stop 19, pit loss 18.0 s, rate 6 l/s), out-lap -18.0s
+📊 strategy L26: fuel/lap 3.03 | fuel 24.8 = 8.2 laps | 19.0 laps to go | stops 1 (post-stop recalc)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 6.4/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🚪 gate refined: SUGO International Racing Course/lobby/pitExit (2 samples, σ 0.27 m, ±16 m, across -0.0…0.0 m)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🔊 tyres are cold
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 9.0/20.4s, 1 line, protected): stopsPlanChanged(0→1)
+🗑 dropped (debug speech 3 < 11): surveyGate(pitExit, 2)
+🔧 fresh tyres confirmed: 60.0° across all four (was 75.4° at pit entry, step 15.4°)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.02°)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 12.1/20.4s, 1 line, protected): strategyUpdate(fuel 8.19L, togo 19, stops 1, post-stop)
+🔊 fuel plan changed
+🔊 1 stop
+🔊 clean stop
+🔊 1 stop to go
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 2 events, 1 lines)
+🔊 you're sliding a lot out there
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+🔊 that's contact
+🔊 keep it clean
+🛞 compound: racingHard (high confidence, C 1.15, margin 0.126, relative to RS (truth), own reference)
+🎭 mood focused → relaxed
+🛞 compound: IM confirmed by the driver — anchor
+🛞 compound: box-exit answer IM given to the pit-exit window (estimate RH)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(pitExit, RH, high)
+🔊 probably racing hards
+🔵 sub-state OUT_LAP → FLYING lap 27
+📋 lap 26: 1:42.393 out fuel_used=3.03
+🔵 lap 26 antics: contact
+📊 laps-left model: elapsed 2146.2 s, remaining 1453.8 s, median lap 81.2 s -> 18 (no-stop 18, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L27: fuel/lap 3.04 | fuel 21.8 = 7.2 laps | 18.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (24 samples, σ 0.49 m, ±12 m, across -1.0…0.7 m)
+🗺 mapper: lap 26 rejected (teleport)
+🛞 wear (test) lap 26 done: uncalibrated (no rate for IM); RS 1× base FL 1.7 FR 1.1 RL 1.0 RR 0.8 %
+🛞 crew: estimated finish lap 45
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L27, L27/L27/L33, stops 1) | fuelStatus(lapsToGo, 7, 18 to go, 7.16 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 4.4s, ledger 6.0/20.4s, 1 line, protected): pitWindowState(openToLatest, now L27, L27/L27/L33, stops 1)
+🔊 pit window is open
+🗣 spoke (strategy, imp 4, cost 2.2s, ledger 8.2/20.4s, 1 line, protected): fuelStatus(lapsToGo, 7, 18 to go, 7.16 fuel-laps)
+🗣 bulletin (imp 6, cost 1.8s, ledger 10.1/20.4s, 1 line): L27
+🔊 pit by lap 33
+🔊 refuel in 7 laps
+🔊 lap 27 now
+🎭 mood relaxed → focused
+🗣 chain (imp 6, cost 2.1s, ledger 12.1/20.4s, 1 events, 1 lines)
+🔊 smooth on the exits
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 14.4/20.4s, 1 line, protected): strategyUpdate(fuel 7.16L, togo 18, stops 1)
+🔊 18 laps to go
+🗑 dropped (chain cooldown): 1 event(s)
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 1.2s, ledger 5.5/20.4s, 3 events, 1 lines)
+🔊 be careful
+🎭 mood concerned → focused
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 4.2s, ledger 5.4/20.4s, 2 events, 1 lines)
+🔊 you're spinning the wheels everywhere
+🔊 easy on the throttle
+🛞 compound: stint pitExit lap 26, refinement 1 — C 1.184 over 150 s (1131 samples)
+📋 lap 27: 1:27.497 clean fuel_used=2.74
+🎭 mood concerned → focused
+🔵 lap 27 antics: contact
+📊 laps-left model: elapsed 2233.7 s, remaining 1366.3 s, median lap 81.3 s -> 17 (no-stop 17, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L28: fuel/lap 3.01 | fuel 19.1 = 6.3 laps | 17.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (25 samples, σ 0.48 m, ±12 m, across -1.0…0.7 m)
+🛞 wear (test) lap 27 done: uncalibrated (no rate for IM); RS 1× base FL 3.9 FR 2.5 RL 2.2 RR 1.7 %
+📋 strategy burst: 2 event(s), releasing best-first — pitStopsToGo(1, 17 to go) | fuelStatus(lapsToGo, 6, 17 to go, 6.33 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line, protected): pitStopsToGo(1, 17 to go)
+🔊 one pit stop left
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 5.2/20.4s, 1 line, protected): fuelStatus(lapsToGo, 6, 17 to go, 6.33 fuel-laps)
+🗣 bulletin (imp 6, cost 6.5s, ledger 11.6/20.4s, 2 lines): L28
+🔊 you've got fuel for 6 laps
+🔊 around 8 seconds lost to the incident last lap
+🔊 that's lap 28
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 13.9/20.4s, 1 line, protected): strategyUpdate(fuel 6.33L, togo 17, stops 1)
+🔊 17 laps to go
+🗣 chain (imp 4, cost 2.1s, ledger 15.9/20.4s, 2 events, 1 lines)
+🔊 far too much wheelspin
+🗣 chain (imp 4, cost 4.2s, ledger 8.5/20.4s, 1 events, 1 lines)
+🔊 tcs is saving you corner after corner
+🛞 compound: stint pitExit lap 26, refinement 2 — C 1.358 over 210 s (1824 samples)
+🎭 mood focused → concerned
+🔊 ease up
+🗑 dropped (chain cooldown): 1 event(s)
+🗣 chain (imp 4, cost 2.9s, ledger 7.1/20.4s, 1 events, 1 lines)
+🔊 you're sliding a lot out there
+🗣 chain (imp 4, cost 2.9s, ledger 5.8/20.4s, 1 events, 1 lines)
+🔊 keep it inside the white lines
+🗣 chain (imp 4, cost 2.1s, ledger 7.9/20.4s, 2 events, 1 lines)
+🔊 far too much wheelspin
+🗣 chain (imp 4, cost 4.2s, ledger 6.3/20.4s, 1 events, 1 lines)
+🔊 you're spinning the wheels everywhere
+🛞 compound: stint pitExit lap 26, refinement 3 — C 1.604 over 270 s (2847 samples)
+🔊 easy on the throttle
+🗣 chain (imp 4, cost 2.9s, ledger 7.1/20.4s, 1 events, 1 lines)
+🔊 you're sliding a lot out there
+📋 lap 28: 1:38.729 clean fuel_used=2.54
+🔵 lap 28 antics: off
+📊 laps-left model: elapsed 2332.4 s, remaining 1267.6 s, median lap 81.6 s -> 16 (no-stop 16, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L29: fuel/lap 2.95 | fuel 16.5 = 5.6 laps | 16.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (26 samples, σ 0.52 m, ±12 m, across -1.0…0.9 m)
+🛞 wear (test) lap 28 done: uncalibrated (no rate for IM); RS 1× base FL 5.6 FR 3.6 RL 3.1 RR 2.5 %
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 10.7/20.4s, 1 line, protected): fuelStatus(lapsToGo, 6, 16 to go, 5.61 fuel-laps)
+🔊 you need to refuel in 6 laps
+🗣 bulletin (imp 6, cost 6.5s, ledger 17.1/20.4s, 2 lines): L29
+🔊 that incident cost you around 19 seconds last lap
+🔊 on lap 29
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.2/20.4s, 1 line, protected): strategyUpdate(fuel 5.61L, togo 16, stops 1)
+🔊 16 laps to go
+🗣 chain (imp 6, cost 2.1s, ledger 17.2/20.4s, 1 events, 1 lines)
+🔊 easy on the throttle
+🗑 dropped (chain cooldown): 1 event(s)
+🗣 chain (imp 4, cost 2.9s, ledger 17.2/20.4s, 1 events, 1 lines)
+🔊 you're sliding a lot out there
+🗣 chain (imp 4, cost 2.1s, ledger 9.3/20.4s, 1 events, 1 lines)
+🔊 far too much wheelspin
+🗣 chain (imp 4, cost 2.1s, ledger 11.3/20.4s, 1 events, 1 lines)
+🔊 far too much wheelspin
+🗣 chain (imp 4, cost 2.1s, ledger 6.2/20.4s, 1 events, 1 lines)
+🔊 far too much wheelspin
+🛞 compound: stint pitExit lap 26, refinement 4 — C 1.840 over 330 s (4105 samples)
+🎭 mood concerned → annoyed
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 2 events, 1 lines)
+🔊 bit wide there
+🔊 watch track limits
+📋 lap 29: 1:39.174 clean fuel_used=2.29
+🎭 mood annoyed → concerned
+🔵 lap 29 antics: off
+📊 laps-left model: elapsed 2431.6 s, remaining 1168.4 s, median lap 82.0 s -> 14 (no-stop 15, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L30: fuel/lap 2.87 | fuel 14.2 = 5.0 laps | 14.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (27 samples, σ 0.54 m, ±12 m, across -1.0…1.0 m)
+🛞 wear (test) lap 29 done: uncalibrated (no rate for IM); RS 1× base FL 7.0 FR 4.4 RL 4.0 RR 3.2 %
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 4, 14 to go, 4.95 fuel-laps) | pitWindowState(openToLatest, now L30, L30/L30/L33, stops 1, close)
+🗣 spoke (strategy, imp 2, cost 3.8s, ledger 6.7/20.4s, 1 line, protected): fuelStatus(extendStint, 4, 14 to go, 4.95 fuel-laps)
+🔊 save a little to go an extra lap
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 9.8/20.4s, 1 line, protected): pitWindowState(openToLatest, now L30, L30/L30/L33, stops 1, close)
+🗣 bulletin (imp 6, cost 6.1s, ledger 12.9/20.4s, 2 lines): L30
+🔊 window's open
+🔊 latest is lap 33
+🔊 around 19 seconds lost to the incident last lap
+🔊 lap 30
+🛞 compound: stint pitExit lap 26, refinement 5 — C 1.819 over 390 s (4841 samples)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.2/20.4s, 1 line, protected): strategyUpdate(fuel 4.95L, togo 14, stops 1)
+🔊 14 laps to go
+🗣 chain (imp 6, cost 2.1s, ledger 17.2/20.4s, 1 events, 1 lines)
+🔊 smooth on the exits
+🗣 chain (imp 4, cost 4.2s, ledger 8.5/20.4s, 2 events, 1 lines)
+🔊 tcs is saving you corner after corner
+🔊 ease up
+🗣 chain (imp 4, cost 4.2s, ledger 8.4/20.4s, 1 events, 1 lines)
+🔊 you're spinning the wheels everywhere
+🔊 easy on the throttle
+🗣 chain (imp 6, cost 2.1s, ledger 6.3/20.4s, 1 events, 1 lines)
+🔊 easy on the throttle
+🛞 compound: stint pitExit lap 26, refinement 6 — C 1.860 over 450 s (5929 samples)
+📋 lap 30: 1:32.643 clean fuel_used=2.53
+🔵 lap 30: clean
+📊 laps-left model: elapsed 2524.2 s, remaining 1075.8 s, median lap 84.9 s -> 13 (no-stop 13, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L31: fuel/lap 2.80 | fuel 11.7 = 4.2 laps | 13.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (28 samples, σ 0.55 m, ±12 m, across -1.0…1.0 m)
+🛞 wear (test) lap 30 done: uncalibrated (no rate for IM); RS 1× base FL 8.5 FR 5.4 RL 5.0 RR 4.0 %
+🛞 crew: estimated finish lap 44
+📋 strategy burst: 2 event(s), releasing best-first — pitWindow(L31/L31/L34, stops 1) | fuelStatus(lapsToGo, 4, 13 to go, 4.18 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): pitWindow(L31/L31/L34, stops 1)
+🔊 pit before lap 35
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 5.8/20.4s, 1 line, protected): fuelStatus(lapsToGo, 4, 13 to go, 4.18 fuel-laps)
+🗣 bulletin (imp 6, cost 7.5s, ledger 13.3/20.4s, 2 lines): L31
+🔊 you need to refuel in 4 laps
+🔊 1 32 point six
+🔊 shake it off and go again
+🔊 that's lap 31
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.5/20.4s, 1 line, protected): strategyUpdate(fuel 4.18L, togo 13, stops 1)
+🔊 13 laps to go
+🗣 chain (imp 6, cost 2.1s, ledger 17.6/20.4s, 1 events, 1 lines)
+🔊 smooth on the exits
+🗣 chain (imp 4, cost 1.6s, ledger 5.9/20.4s, 3 events, 1 lines)
+🔊 watch track limits
+🛞 compound: stint pitExit lap 26, refinement 7 — C 1.819 over 510 s (6587 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 4.6/20.4s, 1 events, 1 lines)
+🔊 you're sliding a lot out there
+🗣 chain (imp 6, cost 3.8s, ledger 6.7/20.4s, 1 events, 1 lines)
+🔊 easy on the throttle
+🔊 let them hook up
+📋 lap 31: 1:31.971 clean fuel_used=2.50
+🎭 mood concerned → focused
+🔵 lap 31 antics: off
+📊 laps-left model: elapsed 2616.2 s, remaining 983.8 s, median lap 89.7 s -> 11 (no-stop 11, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L32: fuel/lap 2.64 | fuel 9.2 = 3.5 laps | 11.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (29 samples, σ 0.55 m, ±12 m, across -1.0…1.0 m)
+🛞 wear (test) lap 31 done: uncalibrated (no rate for IM); RS 1× base FL 10.2 FR 6.4 RL 6.0 RR 4.8 %
+🛞 crew: estimated finish lap 43
+🗣 spoke (strategy, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line, protected): fuelStatus(lapsToGo, 3, 11 to go, 3.49 fuel-laps)
+🔊 refuel in 3 laps
+🗣 bulletin (imp 6, cost 5.4s, ledger 7.6/20.4s, 2 lines): L32
+🔊 good lap
+🔊 1 31 point nine
+🔊 lap 32
+🛞 compound: stint pitExit lap 26, refinement 8 — C 1.799 over 570 s (7085 samples)
+🗣 chain (imp 6, cost 3.4s, ledger 11.0/20.4s, 1 events, 1 lines)
+🔊 come on
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 13.2/20.4s, 1 line, protected): strategyUpdate(fuel 3.49L, togo 11, stops 1)
+🔊 feed the power in gently
+🔊 11 laps to go
+🎭 mood focused → concerned
+🗣 chain (imp 4, cost 2.1s, ledger 7.6/20.4s, 2 events, 1 lines)
+🔊 far too much wheelspin
+🗣 chain (imp 6, cost 5.1s, ledger 7.1/20.4s, 1 events, 1 lines)
+🔊 the rears are struggling
+🔊 short-shift out of the slow corners
+🎭 mood concerned → focused
+🗣 chain (imp 6, cost 2.1s, ledger 7.1/20.4s, 1 events, 1 lines)
+🔊 smooth on the exits
+🛞 compound: stint pitExit lap 26, refinement 9 — C 1.758 over 630 s (7869 samples)
+📋 lap 32: 1:28.796 clean fuel_used=2.66
+🔵 lap 32: clean
+📊 laps-left model: elapsed 2705.0 s, remaining 895.0 s, median lap 90.4 s -> 10 (no-stop 10, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L33: fuel/lap 2.60 | fuel 6.5 = 2.5 laps | 10.0 laps to go | stops 1
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (30 samples, σ 0.55 m, ±12 m, across -1.0…1.0 m)
+🛞 wear (test) lap 32 done: uncalibrated (no rate for IM); RS 1× base FL 12.2 FR 7.6 RL 7.1 RR 5.6 %
+📋 strategy burst: 3 event(s), releasing best-first — pitWindowState(openToLatest, now L33, L33/L33/L34, stops 1) | pitStopsToGo(1, 10 to go) | fuelStatus(lapsToGo, 3, 10 to go, 2.52 fuel-laps)
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line, protected): pitWindowState(openToLatest, now L33, L33/L33/L34, stops 1)
+🔊 window's open
+🗣 spoke (strategy, imp 4, cost 2.1s, ledger 5.2/20.4s, 1 line, protected): pitStopsToGo(1, 10 to go)
+🗣 spoke (strategy, imp 4, cost 3.5s, ledger 8.7/20.4s, 1 line, protected): fuelStatus(lapsToGo, 3, 10 to go, 2.52 fuel-laps)
+🔊 latest is lap 34
+🗣 bulletin (imp 6, cost 4.6s, ledger 13.3/20.4s, 2 lines): L33
+🔊 one pit stop left
+🔊 you need to refuel in 3 laps
+🔊 keep those good laps coming
+🔊 that's lap 33
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 15.5/20.4s, 1 line, protected): strategyUpdate(fuel 2.52L, togo 10, stops 1)
+🔊 10 laps to go
+🗣 chain (imp 6, cost 2.1s, ledger 17.6/20.4s, 1 events, 1 lines)
+🔊 smooth on the exits
+🗣 chain (imp 6, cost 4.2s, ledger 8.5/20.4s, 1 events, 1 lines)
+🔊 you're sliding
+🔊 a bit greedy on the throttle there
+🛞 compound: stint pitExit lap 26, refinement 10 — C 1.717 over 690 s (8413 samples)
+🗣 chain (imp 6, cost 4.6s, ledger 8.8/20.4s, 1 events, 1 lines)
+🔊 you're working the tcs hard
+🔊 smoother on the exits
+🎭 mood focused → concerned
+🗣 chain (imp 2, cost 3.4s, ledger 3.4/20.4s, 4 events, 1 lines)
+🔊 that's twice off
+🔊 tighten it up
+📋 lap 33: 1:31.998 clean fuel_used=2.48
+🔵 lap 33 antics: off
+🗣 spoke (position, imp 4, cost 2.1s, ledger 5.4/20.4s, 1 line): positionChange(P2→P1)
+📊 laps-left model: elapsed 2797.0 s, remaining 803.0 s, median lap 92.0 s -> 9 (no-stop 9, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L34: fuel/lap 2.54 | fuel 4.1 = 1.6 laps | 9.0 laps to go | stops 1
+📊 strategy L34: box confirmed at 70% (1.6 laps of fuel, was 1.6 at the crossing)
+🔧 box reminder auto-armed (boxThisLap)
+🔊 you're in the lead
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (31 samples, σ 0.55 m, ±12 m, across -1.0…1.0 m)
+🗣 spoke (strategy, imp 0, cost 3.8s, ledger 9.2/20.4s, 1 line, protected): pitWindowState(atLatest, now L34, —/L34/L34, stops 1)
+🛞 wear (test) lap 33 done: uncalibrated (no rate for IM); RS 1× base FL 14.3 FR 8.7 RL 8.2 RR 6.4 %
+📋 strategy burst: 2 event(s), releasing best-first — pitWindow(—/L34/L34, stops 1) | fuelStatus(lapsToGo, 2, 9 to go, 1.60 fuel-laps)
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 11.4/20.4s, 1 line, protected): pitWindow(—/L34/L34, stops 1)
+🗣 spoke (strategy, imp 4, cost 3.1s, ledger 14.5/20.4s, 1 line, protected): fuelStatus(lapsToGo, 2, 9 to go, 1.60 fuel-laps)
+🔊 box this lap
+🗣 bulletin (imp 6, cost 6.5s, ledger 17.7/20.4s, 2 lines): L34
+🔊 you're out of fuel otherwise
+🗣 spoke (strategy, imp 0, cost 1.6s, ledger 19.3/20.4s, 1 line, protected): boxThisLap(1.60 laps fuel)
+🔊 pit on lap 34
+🔊 you've got fuel for 2 laps
+🛞 compound: stint pitExit lap 26, refinement 11 — C 1.707 over 750 s (8865 samples)
+🔊 that incident cost you around 3 seconds last lap
+🔊 on lap 34
+🔊 pit this lap
+🎭 mood concerned → focused
+🗣 spoke (strategy, imp 2, cost 2.2s, ledger 21.5/20.4s, 1 line, protected): strategyUpdate(fuel 1.60L, togo 9, stops 1)
+🔊 9 laps to go
+🗣 chain (imp 6, cost 3.4s, ledger 7.2/20.4s, 1 events, 1 lines)
+🔊 come on
+🔊 feed the power in gently
+🗣 chain (imp 4, cost 2.9s, ledger 6.3/20.4s, 1 events, 1 lines)
+🔊 you're sliding a lot out there
+🛞 compound: stint pitExit lap 26, refinement 12 — C 1.696 over 810 s (9450 samples)
+🗣 chain (imp 6, cost 4.2s, ledger 4.2/20.4s, 1 events, 1 lines)
+🔊 you're sliding
+🔊 a bit greedy on the throttle there
+🔧 box reminder fired: 872 m (20.9 s) before pit entry, polyline anchor, lap 34
+🗣 spoke (pitSequence, imp 1, cost 3.8s, ledger 8.0/20.4s, 1 line, protected): pitEntryApproaching(20.93s)
+🔊 pit coming up
+🔊 stay within the lines
+🎭 mood focused → concerned
+📋 lap 34: 1:32.399 clean fuel_used=2.52
+🔵 lap 34 antics: impact, gained 1
+🔧 teleport 183 m on lap 35 — pending reset-vs-pit (2.5 s)
+📊 laps-left model: elapsed 2889.4 s, remaining 710.6 s, median lap 92.2 s -> 8 (no-stop 8, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L35: fuel/lap 2.52 | fuel 1.6 = 0.6 laps | 8.0 laps to go | stops 1
+📊 strategy L35: box confirmed at 70% (0.6 laps of fuel, was 0.6 at the crossing)
+🔧 box reminder auto-armed (boxThisLap)
+🛞 wear (test) lap 34 done: uncalibrated (no rate for IM); RS 1× base FL 16.6 FR 10.1 RL 9.3 RR 7.3 %
+🗣 spoke (strategy, imp 0, cost 3.8s, ledger 11.8/20.4s, 1 line, protected): pitWindowState(atLatest, now L35, —/L35/L35, stops 1)
+🔊 box this lap
+🗣 spoke (strategy, imp 1, cost 2.9s, ledger 14.7/20.4s, 1 line, protected): fuelStatus(pitForFuel, 1, 8 to go, 0.61 fuel-laps)
+🗣 chain (imp 1, cost 2.5s, ledger 17.2/20.4s, 1 events, 1 lines)
+🔀 state RACING → PIT at pkt 1870317 lap 35
+🔵 sub-state FLYING → — lap 35
+🔧 pit-entry anchor learned: 488 ms into lap (stop on lap 35)
+🔧 pended reset cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 2889.8 s, remaining 710.2 s, median lap 92.2 s -> 8 (no-stop 8, pit loss 18.0 s, rate 6 l/s)
+📊 strategy: refuel still needed — 0.6 laps of fuel against 8 to go (need 9.4 with margin)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 19.7/20.4s, 1 line, protected): pittingIn(L35)
+🚪 gate refined: SUGO International Racing Course/lobby/pitEntry (3 samples, σ 0.00 m, ±12 m, across -0.0…0.0 m)
+🗑 dropped (in pit): surveyGate(pitEntry, 3)
+🔊 you're out of fuel otherwise
+🔊 running on fumes
+📊 laps-left model: elapsed 2892.9 s, remaining 707.1 s, median lap 92.2 s -> 8 (no-stop 8, pit loss 18.0 s, rate 6 l/s)
+🗑 dropped (topic pitSequence; 3.1s of 5.0s, pitSequence reopens in 1.9s): inPitBox
+🗣 spoke (strategy, imp 0, cost 3.1s, ledger 18.6/20.4s, 1 line, protected): refuelTarget(8 laps)
+🔊 pit this lap
+🗑 speaker: stale, not spoken: "big hit"
+🗑 speaker: stale, not spoken: "check for damage"
+🔊 pitting in
+🔊 crew's waiting
+🔊 put in 8 laps of fuel
+🛞 wear (test): all four tyres at 60.00 °C on lap 35 — new set (J116)
+🛞 wear (test) stint 2 ended at tyre change: uncalibrated (no rate for IM); RS 1× base FL 16.6 FR 10.1 RL 9.4 RR 7.3 %
+🛞 crew compound: unknown
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🛞 compound prompt: box exit lap 35, declared RS
+🛞 compound: stint pitExit lap 26, refinement 13 (final) — C 1.676 over 839 s (9677 samples)
+🛞 crew compound: RH
+🌡 tyre bands: centre 80 °C (RH, +4, estimate)
+🛞 crew compound: RH is sure
+🛞 compound: window opened — pitExit, lap 35
+🗑 dropped (in pit): tyreTemps(cold, 59°)
+🛞 compound prompt corrected: RS
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 crew compound: RS
+🛞 crew compound: RS is sure
+🔀 state PIT → RACING at pkt 1871537 lap 35
+🔵 sub-state — → OUT_LAP lap 35
+🅿️ PIT completed: in L34 → out L35 (+27.4 fuel, transit 20.8s, teleport=true)
+🚪 gate refined: SUGO International Racing Course/lobby/pitBox (3 samples, σ 0.00 m, ±0 m, across 0.0…0.0 m)
+🅿️ entry→box 3.6s (speaking budget)
+🗑 dropped (in pit): surveyGate(pitBox, 3)
+🔧 pit approach: entry at station 60 m of 3537 m (18.4 m off the line), lead 20 s
+📊 laps-left model: elapsed 2910.2 s, remaining 671.8 s, median lap 92.2 s -> 8 (no-stop 8, pit loss 18.0 s, rate 6 l/s), out-lap -18.0s
+📊 strategy L35: fuel/lap 2.52 | fuel 29.0 = 11.5 laps | 8.0 laps to go | stops 0 (post-stop recalc)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 16.4/20.4s, 1 line, protected): exitingPit(+27.42l, tyres)
+🚪 gate refined: SUGO International Racing Course/lobby/pitExit (3 samples, σ 0.22 m, ±12 m, across -0.0…0.0 m)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(inferred)
+🔊 tyres are cold
+🗑 dropped (debug speech 3 < 11): surveyGate(pitExit, 3)
+🔧 fresh tyres confirmed: 60.0° across all four (was 69.7° at pit entry, step 9.6°)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(confirmed 60.03°)
+🗣 spoke (strategy, imp 2, cost 2.9s, ledger 19.3/20.4s, 1 line, protected): strategyUpdate(fuel 11.48L, togo 8, stops 0, post-stop)
+🔊 good stop
+🔊 fuel to the end
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 7.5/20.4s, 1 line): tyreTemps(low, 59°)
+🔊 tyres not in the window yet
+🎭 mood concerned → focused
+🗣 chain (imp 6, cost 2.1s, ledger 5.0/20.4s, 1 events, 1 lines)
+🔊 smooth on the exits
+🗣 chain (imp 6, cost 4.6s, ledger 6.7/20.4s, 1 events, 1 lines)
+🔊 you're working the tcs hard
+🔊 smoother on the exits
+🗣 chain (imp 6, cost 3.4s, ledger 10.0/20.4s, 1 events, 1 lines)
+🔊 come on
+🔊 feed the power in gently
+🛞 compound: no call — no candidates (C 0.77)
+🛞 compound: RS confirmed by the driver — anchor
+🗑 dropped (no catalog lines; tyres): compoundEstimate(pitExit, abstained: no candidates)
+🛞 compound: box-exit answer RS given to the pit-exit window (estimate none)
+🔵 sub-state OUT_LAP → FLYING lap 36
+📋 lap 35: 1:52.878 out fuel_used=2.93
+🔵 lap 35: clean
+📊 laps-left model: elapsed 3002.2 s, remaining 597.8 s, median lap 92.2 s -> 7 (no-stop 7, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L36: fuel/lap 2.52 | fuel 26.1 = 10.3 laps | 7.0 laps to go | stops 0
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P1→P2)
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (32 samples, σ 0.54 m, ±12 m, across -1.0…1.0 m)
+🔊 down to P 2
+🗺 mapper: lap 35 rejected (teleport)
+🛞 wear (test) lap 35 done: FL 3.3 FR 1.9 RL 2.1 RR 1.7 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 5.8/20.4s, 1 line, protected): fuelStatus(plusLaps, 3, 7 to go, 10.32 fuel-laps)
+🔊 you're good on fuel
+🗣 bulletin (imp 6, cost 1.8s, ledger 7.6/20.4s, 1 line): L36
+🔊 plus 3 laps
+🔊 lap 36 now
+🗣 spoke (strategy, imp 2, cost 4.0s, ledger 11.5/20.4s, 1 line, protected): strategyUpdate(fuel 10.32L, togo 7, stops 0)
+🔊 fuel to the end
+🔊 7 to go
+🎭 mood focused → concerned
+🎭 mood concerned → annoyed
+🗣 chain (imp 2, cost 4.2s, ledger 4.2/20.4s, 3 events, 1 lines)
+🔊 you spun around
+🔊 keep the engine alive
+🗑 speaker: stale after pause: "rejoin safe"
+🛞 compound: stint pitExit lap 35, refinement 1 — C 0.866 over 150 s (1362 samples)
+🎭 mood annoyed → concerned
+🗣 chain (imp 6, cost 3.8s, ledger 8.0/20.4s, 1 events, 1 lines)
+🔊 easy on the throttle
+🔊 let them hook up
+📋 lap 36: 1:30.840 clean fuel_used=3.14
+🔵 lap 36 antics: spin, lost 1
+📊 laps-left model: elapsed 3093.1 s, remaining 506.9 s, median lap 92.2 s -> 6 (no-stop 6, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L37: fuel/lap 2.52 | fuel 22.9 = 9.1 laps | 6.0 laps to go | stops 0
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (33 samples, σ 0.54 m, ±12 m, across -1.0…1.0 m)
+🛞 wear (test) lap 36 done: FL 7.7 FR 4.5 RL 4.7 RR 3.7 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 3, 6 to go, 9.07 fuel-laps)
+🔊 you are plus 3 laps on fuel
+🗣 bulletin (imp 6, cost 6.1s, ledger 9.6/20.4s, 2 lines): L37
+🔊 around 11 seconds lost to the incident last lap
+🔊 lap 37
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.1/20.4s, 1 line, protected): strategyUpdate(fuel 9.07L, togo 6, stops 0)
+🔊 fuel to the finish
+🔊 6 to go
+🛞 compound: stint pitExit lap 35, refinement 2 — C 0.825 over 210 s (1884 samples)
+🗣 chain (imp 6, cost 2.1s, ledger 5.6/20.4s, 1 events, 1 lines)
+🔊 easy on the throttle
+🎭 mood concerned → annoyed
+🗣 chain (imp 2, cost 6.2s, ledger 8.3/20.4s, 7 events, 2 lines)
+🔊 messy moment
+🔊 take a breath
+🔊 clean laps from here
+🗑 dropped (chain cooldown): 1 event(s)
+🗑 speaker: stale, not spoken: "please"
+🗣 chain (imp 6, cost 3.4s, ledger 3.4/20.4s, 1 events, 1 lines)
+🔊 you're spinning them up on every exit
+🛞 compound: stint pitExit lap 35, refinement 3 — C 0.866 over 270 s (2408 samples)
+📋 lap 37: 1:34.075 clean fuel_used=3.10
+🔵 lap 37 antics: spin, contact, off
+📊 laps-left model: elapsed 3187.2 s, remaining 412.8 s, median lap 92.2 s -> 5 (no-stop 5, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L38: fuel/lap 2.60 | fuel 19.8 = 7.6 laps | 5.0 laps to go | stops 0
+🗣 spoke (position, imp 4, cost 2.2s, ledger 5.6/20.4s, 1 line): positionChange(P2→P3)
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (34 samples, σ 0.54 m, ±12 m, across -1.0…1.0 m)
+🔊 down to P 3
+🛞 wear (test) lap 37 done: FL 11.7 FR 7.0 RL 7.3 RR 5.6 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 2, cost 3.1s, ledger 8.7/20.4s, 1 line, protected): fuelStatus(plusLaps, 2, 5 to go, 7.63 fuel-laps)
+🔊 good on fuel
+🗣 bulletin (imp 6, cost 6.5s, ledger 15.2/20.4s, 2 lines): L38
+🔊 2 laps plus
+🔊 the incidents cost you around 14 seconds last lap
+🔊 on lap 38
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 15.3/20.4s, 1 line, protected): strategyUpdate(fuel 7.63L, togo 5, stops 0)
+🔊 fuel to the finish
+🔊 5 to go
+🗣 chain (imp 6, cost 1.6s, ledger 17.0/20.4s, 1 events, 1 lines)
+🔊 too much wheelspin
+🗣 chain (imp 6, cost 2.9s, ledger 8.1/20.4s, 1 events, 1 lines)
+🔊 again spinning the wheels
+🔊 go easy
+🎭 mood annoyed → concerned
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 4.6/20.4s, 1 line): tyreTemps(inWindow, 69°)
+🔊 tyres are good
+🛞 compound: stint pitExit lap 35, refinement 4 — C 0.815 over 330 s (2740 samples)
+🗣 chain (imp 6, cost 5.1s, ledger 6.7/20.4s, 1 events, 1 lines)
+🔊 the rears are struggling
+🔊 short-shift out of the slow corners
+📋 lap 38: 1:23.579 clean fuel_used=3.20
+🛞 crew: tyre life RS — until L54 (16 left; worst 16 %, 4.9 %/lap biased)
+🔵 lap 38: clean
+📊 laps-left model: elapsed 3270.7 s, remaining 329.3 s, median lap 92.0 s -> 4 (no-stop 4, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L39: fuel/lap 2.79 | fuel 16.6 = 6.0 laps | 4.0 laps to go | stops 0
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (35 samples, σ 0.54 m, ±12 m, across -1.0…1.0 m)
+🛞 wear (test) lap 38 done: FL 16.4 FR 9.7 RL 10.0 RR 7.6 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 4 to go, 5.95 fuel-laps)
+🔊 you're good on fuel
+🗣 bulletin (imp 6, cost 6.2s, ledger 9.8/20.4s, 2 lines): L39
+🔊 plus 1 lap
+🔊 23 point five eight
+🔊 3 point seven down
+🔊 that's lap 39
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.3/20.4s, 1 line, protected): strategyUpdate(fuel 5.95L, togo 4, stops 0)
+🔊 fuel to the finish
+🔊 4 to go
+🎭 mood concerned → annoyed
+🗣 chain (imp 2, cost 4.2s, ledger 7.7/20.4s, 2 events, 1 lines)
+🔊 you spun around
+🛞 crew: tyre life said (mid-lap)
+🔊 keep the engine alive
+🔊 rejoin safe
+🔊 these racing softs should go to the finish
+🗣 chain (imp 2, cost 3.4s, ledger 14.9/20.4s, 2 events, 1 lines)
+🔊 come on
+🔊 get back on the track
+🛞 compound: stint pitExit lap 35, refinement 5 — C 0.815 over 390 s (3261 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 14.3/20.4s, 2 events, 1 lines)
+🔊 you're sliding a lot out there
+📋 lap 39: 1:33.875 clean fuel_used=2.98
+🎭 mood annoyed → concerned
+🔵 lap 39 antics: spin, off
+📊 laps-left model: elapsed 3364.6 s, remaining 235.4 s, median lap 92.0 s -> 3 (no-stop 3, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L40: fuel/lap 2.95 | fuel 13.6 = 4.6 laps | 3.0 laps to go | stops 0
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (36 samples, σ 0.54 m, ±12 m, across -1.0…1.0 m)
+🛞 wear (test) lap 39 done: FL 21.4 FR 13.1 RL 12.8 RR 9.8 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 3 to go, 4.62 fuel-laps)
+🔊 you are plus 1 lap on fuel
+🗣 bulletin (imp 6, cost 6.5s, ledger 10.0/20.4s, 2 lines): L40
+🔊 around 14 seconds lost to the incidents last lap
+🛞 compound: stint pitExit lap 35, refinement 6 — C 0.835 over 450 s (3733 samples)
+🔊 on lap 40
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 13.5/20.4s, 1 line, protected): strategyUpdate(fuel 4.62L, togo 3, stops 0)
+🔊 fuel to the finish
+🔊 3 to go
+🗣 chain (imp 6, cost 2.1s, ledger 5.6/20.4s, 1 events, 1 lines)
+🔊 easy on the throttle
+🛞 compound: stint pitExit lap 35, refinement 7 — C 0.805 over 510 s (4329 samples)
+📋 lap 40: 1:23.917 clean fuel_used=3.05
+🎭 mood concerned → focused
+🔵 lap 40: clean
+📊 laps-left model: elapsed 3448.5 s, remaining 151.5 s, median lap 91.4 s -> 2 (no-stop 2, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L41: fuel/lap 3.02 | fuel 10.6 = 3.5 laps | 2.0 laps to go | stops 0
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (37 samples, σ 0.53 m, ±12 m, across -1.0…1.0 m)
+🛞 wear (test) lap 40 done: FL 25.8 FR 16.0 RL 15.6 RR 12.0 % — RS ×2 (tap)
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 3.5/20.4s, 1 line, protected): fuelStatus(plusLaps, 1, 2 to go, 3.51 fuel-laps)
+🔊 fuel is good
+🗣 bulletin (imp 6, cost 6.4s, ledger 9.9/20.4s, 2 lines): L41
+🔊 you're plus 1 lap
+🔊 1 23 point nine
+🔊 4 point oh down
+🔊 that's lap 41
+🗣 chain (imp 6, cost 3.4s, ledger 13.3/20.4s, 1 events, 1 lines)
+🔊 come on
+🔊 feed the power in gently
+🗣 spoke (strategy, imp 2, cost 3.5s, ledger 16.8/20.4s, 1 line, protected): strategyUpdate(fuel 3.51L, togo 2, stops 0)
+🔊 fuel to the finish
+🔊 2 to go
+🗣 chain (imp 6, cost 2.1s, ledger 15.3/20.4s, 1 events, 1 lines)
+🔊 smooth on the exits
+🛞 compound: stint pitExit lap 35, refinement 8 — C 0.805 over 570 s (4906 samples)
+📋 lap 41: 1:21.616 clean fuel_used=3.04
+🛞 crew: tyre life RS — until L53 (12 left; worst 31 %, 5.3 %/lap biased)
+🔵 lap 41: clean
+📊 laps-left model: elapsed 3530.1 s, remaining 69.9 s, median lap 91.4 s -> 1 (no-stop 1, pit loss 18.0 s, rate 6 l/s)
+📊 strategy L42: fuel/lap 3.05 | fuel 7.5 = 2.5 laps | 1.0 laps to go | stops 0
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (38 samples, σ 0.52 m, ±12 m, across -1.0…1.0 m)
+🛞 wear (test) lap 41 done: FL 31.2 FR 18.9 RL 18.4 RR 14.1 % — RS ×2 (tap)
+🗣 bulletin (imp 6, cost 3.9s, ledger 3.9/20.4s, 2 lines): L42
+🔊 laptime 21 point six
+🔊 lap 42
+🛞 compound: stint pitExit lap 35, refinement 9 — C 0.794 over 630 s (5321 samples)
+🛞 crew: tyre life said (mid-lap)
+🔊 racing softs will make it to the flag
+📊 strategy L42: clock 3600.0 s past 3600 with 21.6 s of the lap to run — final lap
+🔊 this is it
+🔊 final lap
+🛞 compound: stint pitExit lap 35, refinement 10 — C 0.794 over 690 s (5715 samples)
+📋 lap 42: 1:20.875 clean fuel_used=3.06
+🎭 mood focused → relaxed
+🔵 lap 42: clean
+📊 strategy: finish armed at L43 (clock 3611.0 s of 3600) — awaiting lap-clock freeze
+📊 laps-left model: elapsed 3611.0 s, remaining -11.0 s, median lap 87.4 s -> 0 (expired)
+📊 strategy L43: fuel/lap 3.06 | fuel 4.5 = 1.5 laps | 0.0 laps to go | stops 0
+🚪 gate refined: SUGO International Racing Course/lobby/finishLine (39 samples, σ 0.52 m, ±12 m, across -1.0…1.0 m)
+🛞 wear (test) lap 42 done: FL 36.9 FR 22.4 RL 21.2 RR 16.3 % — RS ×2 (tap)
+📊 strategy: race finished at L43 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+🗑 flag: pending commentary cancelled
+🛞 compound: stint pitExit lap 35, refinement 11 (final) — C 0.794 over 694 s (5715 samples)
+🗣 spoke (radio, imp 0, cost 1.2s, ledger 3.7/20.4s, 1 line): raceFinished(L43)
+# recap:   43 lap(s), 3 stop(s), P3/6, finished — filed in the sidecar
+💾 race preserved (finished): 43 lap(s), 3 stop(s), start GRID_START, P3/6
+✂️ capture auto-stop in 20s (race finished)
+🔊 race over
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 218874 packets

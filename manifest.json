@@ -7662,6 +7662,67 @@
       ]
     },
     {
+      "stem": "1340-lobby-20261026_203043",
+      "courseId": 1340,
+      "track": "SUGO International Racing Course",
+      "context": "lobby",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 218874,
+      "durationS": 3651.5,
+      "rawBytes": 80545632,
+      "gzBytes": 39633928,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 2,
+      "identifiedCourseId": 1340,
+      "identifiedTrackName": "SUGO International Racing Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 26,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "boxExit",
+          "finalLabel": "IM"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 35,
+          "outcome": "boxExit",
+          "finalLabel": "RS",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RS",
+        "RS",
+        "RS",
+        "RS"
+      ]
+    },
+    {
       "stem": "1340-lobbyPractice-20261015_233803",
       "courseId": 1340,
       "track": "SUGO International Racing Course",
