@@ -1,7 +1,7 @@
 {
 	"tool": "gt7_hud_wear.py",
-	"version": "v1r2",
-	"generated": "2026-10-26 21:41:33 UTC",
+	"version": "v1r3",
+	"generated": "2026-10-26 21:47:46 UTC",
 	"stem": "1340-lobby-20261026_203043",
 	"carId": 2183,
 	"carName": "Chevrolet Corvette C7 Gr.3",
@@ -37,8 +37,8 @@
 			"startS": 2052.02,
 			"startPacketId": 1820060,
 			"startLap": 26,
-			"hudFront": null,
-			"hudRear": null,
+			"hudFront": "IM",
+			"hudRear": "IM",
 			"shots": 9
 		},
 		{
@@ -85,7 +85,9 @@
 					3,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_203548_psn7f98e.jpg",
@@ -120,7 +122,9 @@
 					5,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_203709_psnafa8c.jpg",
@@ -155,7 +159,9 @@
 					7,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_203828_psn1c9fd.jpg",
@@ -190,7 +196,9 @@
 					8,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_203949_psn151cc.jpg",
@@ -225,7 +233,9 @@
 					10,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_204110_psnd1d09.jpg",
@@ -260,7 +270,9 @@
 					12,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_204231_psnc0f00.jpg",
@@ -295,7 +307,9 @@
 					14,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_204353_psn53bb2.jpg",
@@ -330,7 +344,9 @@
 					15,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_204515_psn105ef.jpg",
@@ -365,7 +381,9 @@
 					17,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_204637_psndc899.jpg",
@@ -400,7 +418,9 @@
 					19,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_204755_psn2f340.jpg",
@@ -435,7 +455,9 @@
 					20,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_204935_psnfc478.jpg",
@@ -470,7 +492,9 @@
 					0,
 					71
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_205055_psn2de01.jpg",
@@ -505,7 +529,9 @@
 					3,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_205214_psnf647b.jpg",
@@ -540,7 +566,9 @@
 					5,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_205335_psn260d3.jpg",
@@ -575,7 +603,9 @@
 					7,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_205455_psn06b0d.jpg",
@@ -610,7 +640,9 @@
 					8,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_205616_psn0df2d.jpg",
@@ -645,7 +677,9 @@
 					10,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_205736_psn9d443.jpg",
@@ -680,7 +714,9 @@
 					12,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_205857_psn53c49.jpg",
@@ -715,7 +751,9 @@
 					14,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_210019_psn65e5b.jpg",
@@ -750,7 +788,9 @@
 					15,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_210139_psn4af5a.jpg",
@@ -785,7 +825,9 @@
 					17,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_210302_psn567cc.jpg",
@@ -820,7 +862,9 @@
 					19,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_210424_psn34a05.jpg",
@@ -855,7 +899,9 @@
 					21,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_210541_psn3c419.jpg",
@@ -890,7 +936,9 @@
 					22,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_210728_psnaf548.jpg",
@@ -900,8 +948,8 @@
 			"packetId": 1825771,
 			"lap": 27,
 			"stint": 2,
-			"front": null,
-			"rear": null,
+			"front": "IM",
+			"rear": "IM",
 			"worn": {
 				"FL": 5.6,
 				"FR": 2.8,
@@ -925,7 +973,9 @@
 					2,
 					72
 				]
-			}
+			},
+			"wet": 10.4,
+			"wetZone": "damp"
 		},
 		{
 			"file": "GT7_20261026_210854_psne7a40.jpg",
@@ -935,8 +985,8 @@
 			"packetId": 1830925,
 			"lap": 27,
 			"stint": 2,
-			"front": null,
-			"rear": null,
+			"front": "IM",
+			"rear": "IM",
 			"worn": {
 				"FL": 9.7,
 				"FR": 6.9,
@@ -960,7 +1010,9 @@
 					3,
 					72
 				]
-			}
+			},
+			"wet": 49.7,
+			"wetZone": "IM"
 		},
 		{
 			"file": "GT7_20261026_211033_psn1cc08.jpg",
@@ -970,8 +1022,8 @@
 			"packetId": 1836859,
 			"lap": 28,
 			"stint": 2,
-			"front": null,
-			"rear": null,
+			"front": "IM",
+			"rear": "IM",
 			"worn": {
 				"FL": 9.7,
 				"FR": 6.9,
@@ -995,7 +1047,9 @@
 					3,
 					72
 				]
-			}
+			},
+			"wet": 69.4,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261026_211212_psn86c24.jpg",
@@ -1005,8 +1059,8 @@
 			"packetId": 1842793,
 			"lap": 29,
 			"stint": 2,
-			"front": null,
-			"rear": null,
+			"front": "IM",
+			"rear": "IM",
 			"worn": {
 				"FL": 9.7,
 				"FR": 6.9,
@@ -1030,7 +1084,9 @@
 					4,
 					72
 				]
-			}
+			},
+			"wet": 57.8,
+			"wetZone": "IM"
 		},
 		{
 			"file": "GT7_20261026_211344_psnb1fc7.jpg",
@@ -1040,8 +1096,8 @@
 			"packetId": 1848322,
 			"lap": 30,
 			"stint": 2,
-			"front": null,
-			"rear": null,
+			"front": "IM",
+			"rear": "IM",
 			"worn": {
 				"FL": 11.1,
 				"FR": 6.9,
@@ -1065,7 +1121,9 @@
 					4,
 					72
 				]
-			}
+			},
+			"wet": 52.0,
+			"wetZone": "IM"
 		},
 		{
 			"file": "GT7_20261026_211518_psned6ea.jpg",
@@ -1075,8 +1133,8 @@
 			"packetId": 1853942,
 			"lap": 32,
 			"stint": 2,
-			"front": null,
-			"rear": null,
+			"front": "IM",
+			"rear": "IM",
 			"worn": {
 				"FL": 12.5,
 				"FR": 8.3,
@@ -1100,7 +1158,9 @@
 					4,
 					72
 				]
-			}
+			},
+			"wet": 46.2,
+			"wetZone": "IM"
 		},
 		{
 			"file": "GT7_20261026_211646_psneda5a.jpg",
@@ -1110,8 +1170,8 @@
 			"packetId": 1859216,
 			"lap": 32,
 			"stint": 2,
-			"front": null,
-			"rear": null,
+			"front": "IM",
+			"rear": "IM",
 			"worn": {
 				"FL": 15.3,
 				"FR": 11.1,
@@ -1135,7 +1195,9 @@
 					5,
 					72
 				]
-			}
+			},
+			"wet": 40.5,
+			"wetZone": "IM"
 		},
 		{
 			"file": "GT7_20261026_211817_psn91a9b.jpg",
@@ -1145,8 +1207,8 @@
 			"packetId": 1864671,
 			"lap": 33,
 			"stint": 2,
-			"front": null,
-			"rear": null,
+			"front": "IM",
+			"rear": "IM",
 			"worn": {
 				"FL": 20.8,
 				"FR": 13.9,
@@ -1170,7 +1232,9 @@
 					7,
 					72
 				]
-			}
+			},
+			"wet": 35.8,
+			"wetZone": "IM"
 		},
 		{
 			"file": "GT7_20261026_211945_psnc23df.jpg",
@@ -1180,8 +1244,8 @@
 			"packetId": 1869945,
 			"lap": 34,
 			"stint": 2,
-			"front": null,
-			"rear": null,
+			"front": "IM",
+			"rear": "IM",
 			"worn": {
 				"FL": 27.8,
 				"FR": 18.1,
@@ -1205,7 +1269,9 @@
 					9,
 					72
 				]
-			}
+			},
+			"wet": 55.5,
+			"wetZone": "IM"
 		},
 		{
 			"file": "GT7_20261026_212143_psne6ac8.jpg",
@@ -1240,7 +1306,9 @@
 					0,
 					71
 				]
-			}
+			},
+			"wet": 30.1,
+			"wetZone": "damp"
 		},
 		{
 			"file": "GT7_20261026_212315_psn1872d.jpg",
@@ -1275,7 +1343,9 @@
 					3,
 					72
 				]
-			}
+			},
+			"wet": 23.1,
+			"wetZone": "damp"
 		},
 		{
 			"file": "GT7_20261026_212448_psnd230e.jpg",
@@ -1310,7 +1380,9 @@
 					5,
 					72
 				]
-			}
+			},
+			"wet": 20.8,
+			"wetZone": "damp"
 		},
 		{
 			"file": "GT7_20261026_212612_psne9719.jpg",
@@ -1345,7 +1417,9 @@
 					6,
 					72
 				]
-			}
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
 		},
 		{
 			"file": "GT7_20261026_212746_psnbfebe.jpg",
@@ -1380,7 +1454,9 @@
 					8,
 					72
 				]
-			}
+			},
+			"wet": 8.1,
+			"wetZone": "damp"
 		},
 		{
 			"file": "GT7_20261026_212909_psn56c40.jpg",
@@ -1415,7 +1491,9 @@
 					10,
 					72
 				]
-			}
+			},
+			"wet": 9.2,
+			"wetZone": "damp"
 		},
 		{
 			"file": "GT7_20261026_213031_psne3994.jpg",
@@ -1450,7 +1528,9 @@
 					12,
 					72
 				]
-			}
+			},
+			"wet": 9.2,
+			"wetZone": "damp"
 		},
 		{
 			"file": "GT7_20261026_213152_psnf1a34.jpg",
@@ -1485,7 +1565,9 @@
 					13,
 					72
 				]
-			}
+			},
+			"wet": 4.6,
+			"wetZone": "damp"
 		}
 	]
 }
