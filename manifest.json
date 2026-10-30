@@ -7662,6 +7662,57 @@
       ]
     },
     {
+      "stem": "1340-customRace-20261030_184503",
+      "courseId": 1340,
+      "track": "SUGO International Racing Course",
+      "context": "customRace",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 219347,
+      "durationS": 3659.4,
+      "rawBytes": 80719696,
+      "gzBytes": 39141458,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 4,
+      "identifiedCourseId": 470,
+      "identifiedTrackName": "Red Bull Ring",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 18,
+          "outcome": "boxExit",
+          "finalLabel": "W",
+          "abstained": true
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 28,
+          "outcome": "boxExit",
+          "finalLabel": "IM",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RM",
+        "W",
+        "IM"
+      ]
+    },
+    {
       "stem": "1340-lobby-20261026_203043",
       "courseId": 1340,
       "track": "SUGO International Racing Course",
