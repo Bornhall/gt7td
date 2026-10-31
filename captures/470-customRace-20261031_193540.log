@@ -1,0 +1,467 @@
+# EzioClient session log
+# file:    20261031_193540 - Red Bull Ring (470).gt7td
+# started: 2026-10-31T18:35:40Z
+# track:   Red Bull Ring (CRS 470)
+# context: customRace
+# ---
+🚪 ⏸ gate learning held until identification confirms Red Bull Ring
+🔧 pit approach: entry at station 4105 m of 4280 m (22.3 m off the line), lead 20 s
+# car:     Chevrolet Corvette C7 Gr.3 [Gr.3] (id 2183) — confirmed from telemetry
+🔄 new session on the same connection — resetting track-scoped state
+🔧 race reset: lap-scoped state reset
+🚪 ⏸ gate learning held until identification confirms Red Bull Ring
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 pit loss: estimated 25.0 s from the unofficial table (Red Bull Ring)
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+📊 strategy: track pit loss 25.0 s
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🅿️ no pit speaking budget for this track
+🧭 polyline [MENU]: 20 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 26.99 (alignment -0.64)
+🧭 polyline [MENU]: Red Bull Ring Short Track fits (median 1.72 m) but on 120 m of road — waiting for 800 m
+🧭 polyline [MENU]: 18 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 43.45 (alignment -0.81)
+🧭 polyline [MENU]: Red Bull Ring Short Track fits (median 1.72 m) but on 270 m of road — waiting for 800 m
+🔓 learning resumed — player on track
+🛞 compound: car 2183 — reference: CH CM CS RH RM RS SH SM SS
+🛞 wear (test) v2r4 car 2183: FR (cars.json), front factor 1.00, rear factor 1.00
+🎮 menus → onTrack (pkt 5436105, lap 0, flags 0x0181, pos 1, cars 2, tod 58560000)
+🏁 start type: GRID_START at pkt 5436504 lap 0
+🔀 state UNKNOWN → RACING at pkt 5436504 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag (speed) at pkt 5436504, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): greenFlag
+🔊 and we're racing
+📋 lap 0: — clean fuel_used=0.00
+📊 strategy L1: no fuel model yet
+🧭 learned (line): Red Bull Ring family, 2 layouts (Red Bull Ring, Red Bull Ring Short Track) — resolving at the fork
+🚪 ⏸ HELD lap1 gate until identification confirms Red Bull Ring (1 held)
+🛞 compound: window opened — raceStart, lap 1
+🧭 polyline [L1]: 19 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 36.82 (alignment -0.74)
+🧭 polyline [L1]: Red Bull Ring Short Track fits (median 1.66 m) but on 762 m of road — waiting for 800 m
+🧭 polyline [L1]: 21 candidate(s) dropped on direction — best of them Trial Mountain Circuit median 44.36 (alignment -0.43)
+🧭 polyline [L1]: 2 layouts share this road (Red Bull Ring, Red Bull Ring Short Track) — watching for the fork
+🧭 polyline [L1]: ambiguous — Red Bull Ring Short Track median 1.66/p90 2.53 vs Red Bull Ring median 1.66/p90 2.64 (120 samples), abstaining
+🧭 polyline [L1]: 18 candidate(s) dropped on direction — best of them Trial Mountain Circuit median 46.49 (alignment -0.53)
+🧭 polyline [L1]: ambiguous — Red Bull Ring Short Track median 1.74/p90 2.54 vs Red Bull Ring median 1.75/p90 2.65 (150 samples), abstaining
+🧭 polyline [L1]: 16 candidate(s) dropped on direction — best of them Trial Mountain Circuit median 45.67 (alignment -0.56)
+🧭 polyline [L1]: ambiguous — Red Bull Ring Short Track median 1.78/p90 2.97 vs Red Bull Ring median 1.86/p90 3.34 (180 samples), abstaining
+🗣 chain (imp 4, cost 2.1s, ledger 3.7/20.4s, 2 events, 1 lines)
+🔊 bit of rubbing there
+🧭 polyline [L1]: 15 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield A median 33.12 (alignment -0.68)
+🧭 polyline [L1]: ambiguous — Red Bull Ring median 1.86/p90 2.80 vs Red Bull Ring Short Track median 2.00/p90 5.22 (180 samples), abstaining
+🧭 divergence: fork at 866 m on course 470 — 1 left (Red Bull Ring)
+🧭 divergence: resolved to Red Bull Ring
+🧭 identified: Red Bull Ring (CRS 470) — lap1, 26 sample(s), ±12 m
+🏁 Red Bull Ring already announced 51s ago (gates) — not repeated
+🗺 stored map loaded on identification (gates): course 470, 857 pts
+🚪 ▶️ gate learning released — identification agrees
+🚪 gate refined: Red Bull Ring/customRace/lap1 (27 samples, σ 0.66 m, ±12 m, across 0.0…1.7 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(lap1, 27)
+🚪 ✅ flushed 1 parked gate(s) for Red Bull Ring — lap1
+📊 pit loss: measured 18.3 s
+📊 strategy: track pit loss 18.3 s
+🅿️ pit speaking budget 22.1s (entry to box)
+🔧 pit approach: entry at station 4110 m of 4284 m (21.0 m off the line), lead 20 s
+🛞 compound: family road (H+ -0.139, locked for the race)
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 3.3/20.4s, 1 line): compoundEstimate(raceStart, road, high)
+🔊 road tyres
+🛞 compound: sportsMedium (medium confidence, C 1.34, margin 0.029, own reference)
+🌡 tyre bands: centre 76 °C (SM, +0, estimate)
+🛞 compound prompt: raceStart lap 1, estimate SM
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(raceStart, SM, medium)
+🛞 crew compound: SM
+🔊 probably sports mediums
+🛞 compound prompt corrected: IM
+🛞 compound: IM confirmed by the driver — anchor
+🛞 crew compound: IM
+🛞 crew compound: IM is sure
+🌡 tyre bands: centre 76 °C (IM, +0, tap)
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:47.187 first fuel_used=0.00
+⛽ crew: fuel not used — fuel calls off
+🔵 lap 1 antics: contact
+📊 strategy L2: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (227 samples, σ 1.10 m, ±12 m, across -0.9…2.7 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 227)
+🛞 wear (test) lap 1 done: uncalibrated (no rate for IM); RS 1× base FL 0.7 FR 0.8 RL 0.9 RR 0.8 %
+🗣 bulletin (imp 6, cost 4.5s, ledger 6.2/20.4s, 2 lines): L2
+🔊 laptime 1 47 point two
+🔊 lap 2
+🛞 compound: stint raceStart lap 1, refinement 1 — C 1.348 over 150 s (1606 samples)
+📋 lap 2: 1:39.928 clean fuel_used=0.00
+🔵 lap 2: clean
+🔧 🌧 L2 GR3 on IM: peak 1.27 g · slide 1.50 °/g · TCS 12 % → no call on IM (no floor yet)
+📊 strategy L3: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (228 samples, σ 1.10 m, ±12 m, across -0.9…2.7 m)
+🗺 mapper: learned lap 2 (99.928 s, 4290 m, 858 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(2, 99928 ms, 858 pts)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 4.0/20.4s, 1 line): surveyComplete(3 optional missing)
+🔊 we've got the essentials
+🗺 lap 2 (99.928 s) not stored — the stored map's lap is faster (89.729 s)
+🛞 wear (test) lap 2 done: uncalibrated (no rate for IM); RS 1× base FL 1.6 FR 1.6 RL 1.8 RR 1.6 %
+🛞 crew: estimated finish lap 13
+🛞 crew: estimated finish lap 12
+🔊 3 optional to go
+🗣 bulletin (imp 2, cost 7.2s, ledger 11.2/20.4s, 2 lines): L3
+🔊 new fastest lap
+🔊 1 39 point nine
+🛞 compound: stint raceStart lap 1, refinement 2 — C 1.368 over 210 s (2505 samples)
+🔊 on lap 3
+⏱ delta check L3 1/2: -0.62 s
+🔊 point six up
+🛞 compound: stint raceStart lap 1, refinement 3 — C 1.327 over 270 s (3275 samples)
+⏱ delta check L3 2/2: -0.89 s
+🔊 you're point nine up
+📋 lap 3: 1:38.179 clean fuel_used=0.00
+🔵 lap 3: clean
+🔧 🌧 L3 GR3 on IM: peak 1.31 g · slide 1.43 °/g · TCS 8 % → no call on IM (no floor yet)
+📊 strategy L4: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (229 samples, σ 1.09 m, ±12 m, across -0.9…2.7 m)
+🗺 mapper: learned lap 3 (98.179 s, 4290 m, 858 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(3, 98179 ms, 858 pts)
+🗺 lap 3 (98.179 s) not stored — the stored map's lap is faster (89.729 s)
+🛞 wear (test) lap 3 done: uncalibrated (no rate for IM); RS 1× base FL 2.6 FR 2.4 RL 2.7 RR 2.4 %
+🛞 crew: estimated finish lap 14
+🛞 crew: estimated finish lap 13
+🗣 bulletin (imp 2, cost 10.1s, ledger 10.1/20.4s, 2 lines): L4
+🔊 great lap
+🔊 a big improvement there
+🔊 1 point seven up on your previous best
+🔊 lap 4
+🛞 compound: stint raceStart lap 1, refinement 4 — C 1.338 over 330 s (3734 samples)
+⏱ delta check L4 1/2: -0.39 s
+🔊 point four up so far
+⏱ delta check L4 2/2: -0.83 s
+🔊 point eight up on your best
+🛞 compound: stint raceStart lap 1, refinement 5 — C 1.307 over 390 s (4584 samples)
+📋 lap 4: 1:37.314 clean fuel_used=0.00
+🔵 lap 4: clean
+🔧 🌧 L4 GR3 on IM: peak 1.35 g · slide 1.37 °/g · TCS 13 % → no call on IM (no floor yet)
+📊 strategy L5: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (230 samples, σ 1.09 m, ±12 m, across -0.9…2.7 m)
+🗺 mapper: learned lap 4 (97.314 s, 4290 m, 858 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(4, 97314 ms, 858 pts)
+🗺 lap 4 (97.314 s) not stored — the stored map's lap is faster (89.729 s)
+🛞 wear (test) lap 4 done: uncalibrated (no rate for IM); RS 1× base FL 3.6 FR 3.5 RL 3.6 RR 3.2 %
+🛞 crew: estimated finish lap 14
+🛞 crew: estimated finish lap 13
+🗣 bulletin (imp 2, cost 8.6s, ledger 8.6/20.4s, 2 lines): L5
+🔊 that's your new fastest lap
+🔊 point nine faster than your best
+🔊 lap 5 now
+⏱ delta check L5 1/2: -0.25 s
+🔊 point three up
+🛞 compound: stint raceStart lap 1, refinement 6 — C 1.307 over 450 s (5007 samples)
+⏱ delta check L5 2/2: -0.70 s
+🔊 you're point seven up
+📋 lap 5: 1:36.418 clean fuel_used=0.00
+🔵 lap 5: clean
+🔧 🌧 L5 GR3 on IM: peak 1.37 g · slide 1.41 °/g · TCS 11 % → no call on IM (no floor yet)
+📊 strategy L6: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (231 samples, σ 1.09 m, ±12 m, across -0.9…2.7 m)
+🗺 mapper: learned lap 5 (96.418 s, 4290 m, 858 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(5, 96418 ms, 858 pts)
+🗺 lap 5 (96.418 s) not stored — the stored map's lap is faster (89.729 s)
+🛞 wear (test) lap 5 done: uncalibrated (no rate for IM); RS 1× base FL 4.7 FR 4.6 RL 4.5 RR 4.1 %
+🛞 crew: estimated finish lap 14
+🛞 crew: estimated finish lap 13
+🗣 bulletin (imp 2, cost 6.0s, ledger 6.0/20.4s, 2 lines): L6
+🔊 personal best
+🔊 point nine quicker
+🔊 on lap 6
+🛞 compound: stint raceStart lap 1, refinement 7 — C 1.307 over 510 s (5738 samples)
+⏱ delta check L6 1/2: -0.49 s
+🔊 point five up so far
+⏱ delta check L6 2/2: -0.57 s
+🔊 point six up
+🛞 compound: stint raceStart lap 1, refinement 8 — C 1.286 over 570 s (6408 samples)
+📋 lap 6: 1:36.125 clean fuel_used=0.00
+🔵 lap 6: clean
+🔧 🌧 L6 GR3 on IM: peak 1.43 g · slide 1.39 °/g · TCS 10 % → no call on IM (no floor yet)
+📊 strategy L7: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (232 samples, σ 1.09 m, ±12 m, across -0.9…2.7 m)
+🗺 mapper: learned lap 6 (96.125 s, 4290 m, 858 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(6, 96125 ms, 858 pts)
+🗺 lap 6 (96.125 s) not stored — the stored map's lap is faster (89.729 s)
+🛞 wear (test) lap 6 done: uncalibrated (no rate for IM); RS 1× base FL 6.0 FR 5.8 RL 5.4 RR 4.9 %
+🛞 crew: estimated finish lap 14
+🛞 crew: estimated finish lap 13
+🗣 bulletin (imp 2, cost 7.2s, ledger 7.2/20.4s, 2 lines): L7
+🔊 new fastest lap
+🔊 1 36 point one
+🔊 lap 7 now
+⏱ delta check L7 1/2: +0.38 s
+🔊 point four down on your best
+🛞 compound: stint raceStart lap 1, refinement 9 — C 1.276 over 630 s (6946 samples)
+⏱ delta check L7 2/2: +0.60 s
+🔊 you're point six down
+🔧 huge stop 142 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 5477905 lap 7
+🔵 sub-state FLYING → — lap 7
+🔧 pit-entry anchor learned: 95515 ms into lap (stop on lap 7)
+🔧 pended impact cancelled: pit entry
+🚪 gate refined: Red Bull Ring/customRace/pitEntry (67 samples, σ 0.35 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line, protected): pittingIn(L7)
+🔊 box box
+🗑 dropped (in pit): surveyGate(pitEntry, 67)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+📋 lap 7: 1:51.124 in fuel_used=0.00
+🔵 lap 7: clean
+🗑 dropped (in pit): lapStarted(8, last 111.12s)
+🗺 mapper: lap 7 rejected (pit)
+🛞 wear (test) lap 7 done: uncalibrated (no rate for IM); RS 1× base FL 7.1 FR 7.0 RL 6.3 RR 5.7 %
+🛞 crew: estimated finish lap 14
+🛞 compound prompt: box exit lap 8, declared none
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 13
+📊 laps-left model: elapsed 709.2 s, remaining 490.8 s, median lap 97.3 s -> 6 (no-stop 6, pit loss 18.3 s, rate 3 l/s)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 2.8/20.4s, 1 line, protected): inPitBox
+🗑 dropped (no fuel used): refuelTarget(6 laps)
+🔊 in the pit
+🛞 wear (test): all four tyres at 60.00 °C on lap 8 — new set (J116)
+🛞 wear (test) stint 0 ended at tyre change: uncalibrated (no rate for IM); RS 1× base FL 7.1 FR 7.0 RL 6.3 RR 5.7 %
+🛞 crew compound: unknown
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🛞 compound: stint raceStart lap 1, refinement 10 (final) — C 1.276 over 689 s (7671 samples)
+🛞 compound: stale window (SM, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 8
+🔀 state PIT → RACING at pkt 5479387 lap 8
+🔵 sub-state — → OUT_LAP lap 8
+🅿️ PIT completed: in L7 → out L8 (no fuel, transit 27.9s, teleport=false)
+🚪 gate refined: Red Bull Ring/customRace/pitBox (67 samples, σ 0.00 m, ±0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 67)
+🅿️ entry→box 21.6s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 4110 m of 4284 m (21.0 m off the line), lead 20 s
+🔧 teleport 112 m on lap 8 — pit release, not a reset
+📊 strategy L8: no fuel model yet
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 3.3/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🔊 tyres are cold
+🚪 gate refined: Red Bull Ring/customRace/pitExit (67 samples, σ 0.00 m, ±12 m, across -0.0…0.0 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(pitExit, 67)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 5.3/20.4s, 1 line): surveyComplete(0 optional missing)
+📊 strategy L8: no fuel model yet
+🛞 compound prompt answered: RS
+🛞 crew compound: RS
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 crew compound: RS is sure
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🔊 survey complete
+🔊 everything recorded
+🔧 fresh tyres confirmed: 58.6° across all four (was 66.6° at pit entry, step 8.0°)
+🗣 spoke (pitSequence, imp 2, cost 2.5s, ledger 7.8/20.4s, 1 line, protected): freshTyres(confirmed 58.62°)
+🔊 fresh rubber on the car
+🎭 mood relaxed → focused
+🗣 chain (imp 2, cost 2.1s, ledger 8.3/20.4s, 1 events, 1 lines)
+🔊 spin
+🔊 keep it running
+🗑 dropped (chain cooldown): 1 event(s)
+⏱ delta check L8 1/2: quiet — out-lap
+⏱ delta check L8 2/2: quiet — out-lap
+🗣 spoke (tyres, imp 4, cost 3.4s, ledger 3.4/20.4s, 1 line): tyreTemps(low, 58°, rearRight)
+🔊 right rear is not in the window
+🛞 compound: no call — no candidates (C 0.86)
+🎭 mood focused → relaxed
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: box-exit answer RS given to the pit-exit window (estimate none)
+🗑 dropped (no catalog lines; tyres): compoundEstimate(pitExit, abstained: no candidates)
+🛞 crew: estimated finish lap 12
+🔵 sub-state OUT_LAP → FLYING lap 9
+📋 lap 8: 2:01.564 out fuel_used=0.00
+🔵 lap 8 antics: spin
+📊 strategy L9: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (233 samples, σ 1.09 m, ±12 m, across -0.9…2.7 m)
+🗺 mapper: lap 8 rejected (teleport)
+🛞 wear (test) lap 8 done: FL 3.0 FR 3.2 RL 3.4 RR 3.2 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 13
+🛞 crew: estimated finish lap 12
+🗣 bulletin (imp 6, cost 1.8s, ledger 1.8/20.4s, 1 line): L9
+🔊 on lap 9
+⏱ delta check L9 1/2: quiet — +0.57 s, on RS, best set on IM
+🛞 compound: stint pitExit lap 8, refinement 1 — C 0.846 over 150 s (1269 samples)
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 bit wide there
+🔊 watch track limits
+⏱ delta check L9 2/2: quiet — +0.00 s, under ±0.2 s
+🎭 mood focused → relaxed
+🗣 spoke (tyres, imp 2, cost 2.9s, ledger 5.8/20.4s, 1 line): tyreTemps(cold, 57°, frontLeft)
+🔊 left front tyre never came in
+📋 lap 9: 1:34.698 clean fuel_used=0.00
+🔵 lap 9 antics: off
+📊 strategy L10: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (234 samples, σ 1.08 m, ±12 m, across -0.9…2.7 m)
+🗺 mapper: learned lap 9 (94.698 s, 4280 m, 856 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(9, 94698 ms, 856 pts)
+🗺 lap 9 (94.698 s) not stored — the stored map's lap is faster (89.729 s)
+🛞 wear (test) lap 9 done: FL 6.7 FR 6.8 RL 7.3 RR 6.7 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 13
+🛞 crew: estimated finish lap 12
+🗣 bulletin (imp 2, cost 6.6s, ledger 9.6/20.4s, 2 lines): L10
+🔊 best lap so far
+🔊 34 point seven
+🛞 compound: stint pitExit lap 8, refinement 2 — C 0.835 over 210 s (2020 samples)
+🔊 lap 10
+⏱ delta check L10 1/2: -0.65 s
+🔊 point seven up
+🛞 compound: stint pitExit lap 8, refinement 3 — C 0.805 over 270 s (2767 samples)
+⏱ delta check L10 2/2: -1.24 s
+🔊 you're 1 point two up
+📋 lap 10: 1:33.056 clean fuel_used=0.00
+🛞 crew: tyre life RS — until L29 (19 left; worst 11 %, 4.4 %/lap biased)
+🔧 🌧 L10 GR3 on RS: peak 1.69 g (best 0.00, ×1.00; floor 1.50) · slide 0.91 °/g (best 0.00, ×1.0) · TCS 6 % (best 0 %) → dry
+🔵 lap 10: clean
+📊 strategy L11: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (235 samples, σ 1.08 m, ±12 m, across -0.9…2.7 m)
+🗺 mapper: learned lap 10 (93.056 s, 4275 m, 855 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(10, 93056 ms, 855 pts)
+🗺 lap 10 (93.056 s) not stored — the stored map's lap is faster (89.729 s)
+🛞 wear (test) lap 10 done: FL 10.7 FR 10.4 RL 11.3 RR 10.2 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 13
+🛞 crew: estimated finish lap 12
+🗣 bulletin (imp 2, cost 6.6s, ledger 6.6/20.4s, 2 lines): L11
+🔊 personal best
+🔊 1 point six quicker
+🔊 lap 11 now
+🛞 crew: tyre life said (mid-lap)
+🔊 tyres will last the race on racing softs
+🛞 compound: stint pitExit lap 8, refinement 4 — C 0.815 over 330 s (3137 samples)
+⏱ delta check L11 1/2: -0.93 s
+🔊 point nine up on your best
+⏱ delta check L11 2/2: -1.34 s
+🔊 1 point three up so far
+📋 lap 11: 1:31.742 clean fuel_used=0.00
+🔵 lap 11: clean
+🔧 🌧 L11 GR3 on RS: peak 1.69 g (best 1.69, ×1.00; floor 1.50) · slide 0.93 °/g (best 0.91, ×1.0) · TCS 6 % (best 6 %) → dry
+📊 strategy L12: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (236 samples, σ 1.08 m, ±12 m, across -0.9…2.7 m)
+🗺 mapper: learned lap 11 (91.742 s, 4280 m, 856 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(11, 91742 ms, 856 pts)
+🗺 lap 11 (91.742 s) not stored — the stored map's lap is faster (89.729 s)
+🛞 wear (test) lap 11 done: FL 14.8 FR 14.5 RL 15.3 RR 13.7 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 13
+🛞 crew: estimated finish lap 12
+🛞 compound: stint pitExit lap 8, refinement 5 — C 0.815 over 390 s (3720 samples)
+🗣 bulletin (imp 2, cost 10.3s, ledger 10.3/20.4s, 2 lines): L12
+🔊 great lap
+🔊 a big improvement there
+🔊 1 point three up on your previous best
+🔊 last lap now
+⏱ delta check L12 1/2: quiet — +0.04 s, under ±0.2 s
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🛞 compound: stint pitExit lap 8, refinement 6 — C 0.805 over 450 s (4282 samples)
+⏱ delta check L12 2/2: quiet — -0.14 s, under ±0.2 s
+📋 lap 12: 1:31.557 clean fuel_used=0.00
+🔧 🌧 L12 GR3 on RS: peak 1.73 g (best 1.69, ×1.02; floor 1.50) · slide 0.88 °/g (best 0.91, ×1.0) · TCS 8 % (best 6 %) → dry
+🔵 lap 12: clean
+📊 strategy L13: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (237 samples, σ 1.08 m, ±12 m, across -0.9…2.7 m)
+🗺 mapper: learned lap 12 (91.557 s, 4280 m, 856 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(12, 91557 ms, 856 pts)
+🗺 lap 12 (91.557 s) not stored — the stored map's lap is faster (89.729 s)
+🛞 wear (test) lap 12 done: FL 19.5 FR 19.1 RL 19.5 RR 17.4 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 13
+📊 strategy L13: clock 1200.0 s past 1200 with 94.9 s of the lap to run — final lap
+🔊 time's up
+🔊 this is the final lap
+🗣 bulletin (imp 2, cost 8.9s, ledger 12.3/20.4s, 2 lines): L13
+🔊 new fastest lap
+🔊 1 31 point six
+🔊 lap 13
+🔊 looks like the last lap
+🛞 compound: stint pitExit lap 8, refinement 7 — C 0.805 over 510 s (4814 samples)
+⏱ delta check L13 1/2: quiet — -0.13 s, under ±0.2 s
+🔊 half a lap to go
+⏱ delta check L13 2/2: quiet — -0.15 s, under ±0.2 s
+🛞 compound: stint pitExit lap 8, refinement 8 — C 0.815 over 570 s (5445 samples)
+📋 lap 13: 1:31.146 clean fuel_used=0.00
+🔧 🌧 L13 GR3 on RS: peak 1.73 g (best 1.73, ×1.00; floor 1.50) · slide 0.95 °/g (best 0.88, ×1.1) · TCS 7 % (best 6 %) → dry
+🛞 crew: tyre life RS — until L28 (15 left; worst 24 %, 4.6 %/lap biased)
+🔵 lap 13: clean
+📊 strategy: finish armed at L14 (clock 1290.7 s of 1200) — awaiting lap-clock freeze
+📊 strategy L14: no fuel model yet
+🚪 gate refined: Red Bull Ring/customRace/finishLine (238 samples, σ 1.08 m, ±12 m, across -0.9…2.7 m)
+🗺 mapper: learned lap 13 (91.146 s, 4275 m, 855 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(13, 91146 ms, 855 pts)
+🗺 lap 13 (91.146 s) not stored — the stored map's lap is faster (89.729 s)
+🛞 wear (test) lap 13 done: FL 24.2 FR 23.7 RL 23.7 RR 21.1 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 14
+📊 strategy: race finished at L14 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+🗑 flag: pending commentary cancelled
+🛞 compound: stint pitExit lap 8, refinement 9 (final) — C 0.815 over 573 s (5445 samples)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): raceFinished(L14)
+# recap:   14 lap(s), 1 stop(s), P1/2, finished — filed in the sidecar
+💾 race preserved (finished): 14 lap(s), 1 stop(s), start GRID_START, P1/2
+✂️ capture auto-stop in 20s (race finished)
+🔊 that's race over
+🔧 session ended after lap 14
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🗑 flag: pending commentary cancelled
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 2)
+🔄 new session on the same connection — resetting track-scoped state
+🔧 race reset: lap-scoped state reset
+🌡 tyre bands: centre 76 °C (compound unknown, +0, race reset)
+🛞 crew wear gate: unknown
+🛞 crew: estimated finish lap unknown
+🛞 crew compound: unknown
+🧭 learned pool: 194 gate(s) from 419 stored, 72 pit exit(s)
+🚪 ⏸ gate learning held until identification confirms Red Bull Ring
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+📊 pit loss: estimated 25.0 s from the unofficial table (Red Bull Ring)
+📊 strategy: track pit loss 25.0 s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🅿️ no pit speaking budget for this track
+⛽ crew: fuel in use
+🎮 onTrack → replay (pkt 5514487, lap 0, flags 0x0180, pos 1, cars 2, tod 58560000)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+🔧 race reset: lap-scoped state reset
+🚪 ⏸ gate learning held until identification confirms Red Bull Ring
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 25.0 s from the unofficial table (Red Bull Ring)
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 5514634, lap 0, flags 0x0188, pos —, cars —, tod 58560000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+🔧 race reset: lap-scoped state reset
+🚪 ⏸ gate learning held until identification confirms Red Bull Ring
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 pit loss: estimated 25.0 s from the unofficial table (Red Bull Ring)
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🧭 polyline [MENU]: 20 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 33.03 (alignment -0.72)
+🧭 polyline [MENU]: Red Bull Ring Short Track fits (median 1.52 m) but on 163 m of road — waiting for 800 m
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 79805 packets

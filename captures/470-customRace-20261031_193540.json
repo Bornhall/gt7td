@@ -1,0 +1,263 @@
+{
+  "carCategory" : "GR3",
+  "carClass" : "Gr.3",
+  "carId" : 2183,
+  "carName" : "Chevrolet Corvette C7 Gr.3",
+  "compoundObservations" : [
+    {
+      "compound" : "SM",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r11",
+      "family" : "sports",
+      "familyConfidence" : "high",
+      "finalLabel" : "IM",
+      "heating" : 0.06656197469912827,
+      "lap" : 1,
+      "outcome" : "corrected",
+      "revisions" : 10,
+      "samples" : 7671,
+      "seconds" : 689.1057724391057,
+      "slipPerG" : 1.276125,
+      "source" : "telemetry",
+      "startPacketId" : 5436545,
+      "trigger" : "raceStart"
+    },
+    {
+      "estimatorVersion" : "v1r11",
+      "finalLabel" : "RS",
+      "heating" : 0.30662745773542516,
+      "lap" : 8,
+      "notes" : [
+        "no candidates"
+      ],
+      "outcome" : "boxExit",
+      "revisions" : 9,
+      "samples" : 5445,
+      "seconds" : 572.5892559225892,
+      "slipPerG" : 0.814875,
+      "source" : "telemetry",
+      "startPacketId" : 5479336,
+      "trigger" : "pitExit"
+    }
+  ],
+  "courseId" : 470,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 470,
+    "fuelMultiplier" : 0,
+    "raceLength" : 20,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 3,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 20,
+    "timeBeforeStart" : 20,
+    "trackName" : "Red Bull Ring",
+    "tyreWearMultiplier" : 4,
+    "weather" : "variable"
+  },
+  "endTime" : 1793473076,
+  "granularity" : 1,
+  "identifiedCourseId" : 470,
+  "identifiedTrackName" : "Red Bull Ring",
+  "maxSpeedKmh" : 277,
+  "packetSize" : 368,
+  "recaps" : [
+    {
+      "bestLapMs" : 91146,
+      "carId" : 2183,
+      "carName" : "Chevrolet Corvette C7 Gr.3",
+      "courseId" : 470,
+      "endedAt" : "2026-10-31T18:57:36Z",
+      "id" : "52A7B268-50B9-432B-A9B2-FAF0ECFD464F",
+      "incidentLaps" : [
+        1,
+        8,
+        9
+      ],
+      "laps" : [
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 0,
+          "position" : 1,
+          "tyreFL" : 69.65509796142578,
+          "tyreFR" : 69.6549072265625,
+          "tyreRL" : 69.65827941894531,
+          "tyreRR" : 69.65795135498047
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 1,
+          "position" : 1,
+          "role" : "first",
+          "timeMs" : 107187,
+          "tyreFL" : 65.62213897705078,
+          "tyreFR" : 65.97013854980469,
+          "tyreRL" : 66.8759765625,
+          "tyreRR" : 67.16575622558594
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 2,
+          "position" : 1,
+          "timeMs" : 99928,
+          "tyreFL" : 63.22099304199219,
+          "tyreFR" : 64.1964340209961,
+          "tyreRL" : 63.00970458984375,
+          "tyreRR" : 63.099037170410156
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 3,
+          "position" : 1,
+          "timeMs" : 98179,
+          "tyreFL" : 63.6243782043457,
+          "tyreFR" : 64.41201782226562,
+          "tyreRL" : 60.84416198730469,
+          "tyreRR" : 60.573001861572266
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 4,
+          "position" : 1,
+          "timeMs" : 97314,
+          "tyreFL" : 64.92350006103516,
+          "tyreFR" : 65.4603271484375,
+          "tyreRL" : 59.979026794433594,
+          "tyreRR" : 59.46980285644531
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 5,
+          "position" : 1,
+          "timeMs" : 96418,
+          "tyreFL" : 67.28337860107422,
+          "tyreFR" : 67.98281860351562,
+          "tyreRL" : 60.040687561035156,
+          "tyreRR" : 59.41718292236328
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 6,
+          "position" : 1,
+          "timeMs" : 96125,
+          "tyreFL" : 69.89034271240234,
+          "tyreFR" : 70.59090423583984,
+          "tyreRL" : 60.662269592285156,
+          "tyreRR" : 59.823036193847656
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 7,
+          "position" : 1,
+          "role" : "in",
+          "timeMs" : 111124,
+          "tyreFL" : 71.71944427490234,
+          "tyreFR" : 72.5792236328125,
+          "tyreRL" : 60.67481994628906,
+          "tyreRR" : 59.57141876220703
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 8,
+          "position" : 1,
+          "role" : "out",
+          "timeMs" : 121564,
+          "tyreFL" : 56.15564727783203,
+          "tyreFR" : 57.438682556152344,
+          "tyreRL" : 57.72898483276367,
+          "tyreRR" : 59.042518615722656
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 9,
+          "position" : 1,
+          "timeMs" : 94698,
+          "tyreFL" : 56.23617172241211,
+          "tyreFR" : 57.98492431640625,
+          "tyreRL" : 58.27618408203125,
+          "tyreRR" : 59.046913146972656
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 10,
+          "position" : 1,
+          "timeMs" : 93056,
+          "tyreFL" : 58.161773681640625,
+          "tyreFR" : 59.06432342529297,
+          "tyreRL" : 59.16231155395508,
+          "tyreRR" : 59.06501388549805
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 11,
+          "position" : 1,
+          "timeMs" : 91742,
+          "tyreFL" : 59.15644836425781,
+          "tyreFR" : 61.23408126831055,
+          "tyreRL" : 59.86809539794922,
+          "tyreRR" : 59.68590545654297
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 12,
+          "position" : 1,
+          "timeMs" : 91557,
+          "tyreFL" : 60.517578125,
+          "tyreFR" : 63.59150695800781,
+          "tyreRL" : 60.66607666015625,
+          "tyreRR" : 60.69812774658203
+        },
+        {
+          "fuelUsed" : 0,
+          "invalid" : false,
+          "lap" : 13,
+          "position" : 1,
+          "timeMs" : 91146,
+          "tyreFL" : 62.68758010864258,
+          "tyreFR" : 65.74536895751953,
+          "tyreRL" : 61.1872444152832,
+          "tyreRR" : 60.77336502075195
+        }
+      ],
+      "lastLap" : 14,
+      "note" : "",
+      "numCars" : 2,
+      "raceElapsedS" : 1291.1745078411745,
+      "racePosition" : 1,
+      "reason" : "finished",
+      "savedAt" : "2026-10-31T18:57:36Z",
+      "schemaVersion" : 1,
+      "startType" : "GRID_START",
+      "stops" : [
+        {
+          "entryToBoxS" : 21.588254921588256,
+          "fuelAdded" : 0,
+          "inLap" : 7,
+          "laneKmh" : 59.99924926757813,
+          "outLap" : 8,
+          "teleportEntry" : false,
+          "transitS" : 27.861194527861194
+        }
+      ],
+      "totalLaps" : 0,
+      "trackName" : "Red Bull Ring"
+    }
+  ],
+  "startTime" : 1793471740,
+  "trackName" : "Red Bull Ring",
+  "version" : 8
+}
