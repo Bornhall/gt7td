@@ -4620,6 +4620,42 @@
       ]
     },
     {
+      "stem": "470-customRace-20261031_133914",
+      "courseId": 470,
+      "track": "Red Bull Ring",
+      "context": "customRace",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 42450,
+      "durationS": 708.2,
+      "rawBytes": 15621600,
+      "gzBytes": 7414209,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 4,
+      "identifiedCourseId": 470,
+      "identifiedTrackName": "Red Bull Ring",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "sports",
+          "compound": "SM",
+          "outcome": "corrected",
+          "finalLabel": "IM"
+        }
+      ],
+      "tyreCompounds": [
+        "IM"
+      ]
+    },
+    {
       "stem": "470-lobby-20260721_205930",
       "courseId": 470,
       "track": "Red Bull Ring",
