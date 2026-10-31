@@ -1,0 +1,325 @@
+{
+	"tool": "gt7_hud_wear.py",
+	"version": "v1r4",
+	"generated": "2026-10-31 15:02:55 UTC",
+	"stem": "470-customRace-20261031_155047",
+	"carId": 2183,
+	"carName": "Chevrolet Corvette C7 Gr.3",
+	"courseId": 470,
+	"tyreWearMultiplier": 4,
+	"timing": {
+		"P0": 4627590,
+		"timerHz": 60.0002,
+		"uploadLagS": 2.94,
+		"pausedS": 0.0
+	},
+	"stints": [
+		{
+			"index": 0,
+			"startS": 0.0,
+			"startPacketId": 4627590,
+			"startLap": 0,
+			"hudFront": "RS",
+			"hudRear": "RS",
+			"shots": 8
+		}
+	],
+	"shots": [
+		{
+			"file": "GT7_20261031_155116_psn0f4cf.jpg",
+			"raceS": 3.35,
+			"timeSource": "timer",
+			"timerText": "0:03.350",
+			"packetId": 4627792,
+			"lap": 1,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 0.0,
+				"FR": 0.0,
+				"RL": 0.0,
+				"RR": 0.0
+			},
+			"px": {
+				"FL": [
+					0,
+					72
+				],
+				"FR": [
+					0,
+					72
+				],
+				"RL": [
+					0,
+					72
+				],
+				"RR": [
+					0,
+					72
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_155245_psn4bf44.jpg",
+			"raceS": 92.966,
+			"timeSource": "timer",
+			"timerText": "1:32.966",
+			"packetId": 4633168,
+			"lap": 1,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 7.0,
+				"FR": 5.6,
+				"RL": 5.6,
+				"RR": 4.2
+			},
+			"px": {
+				"FL": [
+					5,
+					71
+				],
+				"FR": [
+					4,
+					71
+				],
+				"RL": [
+					4,
+					71
+				],
+				"RR": [
+					3,
+					71
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_155415_psn98b2c.jpg",
+			"raceS": 182.65,
+			"timeSource": "timer",
+			"timerText": "3:02.650",
+			"packetId": 4638550,
+			"lap": 2,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 11.4,
+				"FR": 12.7,
+				"RL": 11.3,
+				"RR": 8.6
+			},
+			"px": {
+				"FL": [
+					8,
+					70
+				],
+				"FR": [
+					9,
+					71
+				],
+				"RL": [
+					8,
+					71
+				],
+				"RR": [
+					6,
+					70
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_155545_psn0477e.jpg",
+			"raceS": 272.9,
+			"timeSource": "timer",
+			"timerText": "4:32.900",
+			"packetId": 4643965,
+			"lap": 3,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 19.7,
+				"FR": 18.3,
+				"RL": 16.9,
+				"RR": 14.1
+			},
+			"px": {
+				"FL": [
+					14,
+					71
+				],
+				"FR": [
+					13,
+					71
+				],
+				"RL": [
+					12,
+					71
+				],
+				"RR": [
+					10,
+					71
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_155715_psn38f98.jpg",
+			"raceS": 362.916,
+			"timeSource": "timer",
+			"timerText": "6:02.916",
+			"packetId": 4649366,
+			"lap": 4,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 25.7,
+				"FR": 25.4,
+				"RL": 22.5,
+				"RR": 19.7
+			},
+			"px": {
+				"FL": [
+					18,
+					70
+				],
+				"FR": [
+					18,
+					71
+				],
+				"RL": [
+					16,
+					71
+				],
+				"RR": [
+					14,
+					71
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_155845_psn3f728.jpg",
+			"raceS": 452.666,
+			"timeSource": "timer",
+			"timerText": "7:32.666",
+			"packetId": 4654751,
+			"lap": 5,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 33.8,
+				"FR": 31.4,
+				"RL": 28.6,
+				"RR": 23.9
+			},
+			"px": {
+				"FL": [
+					24,
+					71
+				],
+				"FR": [
+					22,
+					70
+				],
+				"RL": [
+					20,
+					70
+				],
+				"RR": [
+					17,
+					71
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_160018_psn940bd.jpg",
+			"raceS": 545.283,
+			"timeSource": "timer",
+			"timerText": "9:05.283",
+			"packetId": 4660308,
+			"lap": 7,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 40.8,
+				"FR": 38.0,
+				"RL": 35.2,
+				"RR": 29.6
+			},
+			"px": {
+				"FL": [
+					29,
+					71
+				],
+				"FR": [
+					27,
+					71
+				],
+				"RL": [
+					25,
+					71
+				],
+				"RR": [
+					21,
+					71
+				]
+			},
+			"wet": 1.7,
+			"wetZone": "damp"
+		},
+		{
+			"file": "GT7_20261031_160146_psnedcd7.jpg",
+			"raceS": 633.1,
+			"timeSource": "timer",
+			"timerText": "10:33.100",
+			"packetId": 4665577,
+			"lap": 7,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 47.9,
+				"FR": 45.1,
+				"RL": 40.8,
+				"RR": 35.2
+			},
+			"px": {
+				"FL": [
+					34,
+					71
+				],
+				"FR": [
+					32,
+					71
+				],
+				"RL": [
+					29,
+					71
+				],
+				"RR": [
+					25,
+					71
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		}
+	]
+}
