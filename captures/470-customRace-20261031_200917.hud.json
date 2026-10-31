@@ -1,0 +1,436 @@
+{
+	"tool": "gt7_hud_wear.py",
+	"version": "v1r4",
+	"generated": "2026-10-31 19:17:28 UTC",
+	"stem": "470-customRace-20261031_200917",
+	"carId": 2184,
+	"carName": "Jaguar F-type Gr.3",
+	"courseId": 470,
+	"tyreWearMultiplier": 4,
+	"timing": {
+		"P0": 5557426,
+		"timerHz": 59.9981,
+		"uploadLagS": 2.99,
+		"pausedS": 2.2
+	},
+	"stints": [
+		{
+			"index": 0,
+			"startS": 0.0,
+			"startPacketId": 5557426,
+			"startLap": 0,
+			"hudFront": "RS",
+			"hudRear": "RS",
+			"shots": 11
+		}
+	],
+	"shots": [
+		{
+			"file": "GT7_20261031_201155_psn687e5.jpg",
+			"raceS": 128.766,
+			"timeSource": "timer",
+			"timerText": "2:08.766",
+			"packetId": 5565152,
+			"lap": 2,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 7.0,
+				"FR": 5.7,
+				"RL": 5.7,
+				"RR": 5.6
+			},
+			"px": {
+				"FL": [
+					5,
+					71
+				],
+				"FR": [
+					4,
+					70
+				],
+				"RL": [
+					4,
+					70
+				],
+				"RR": [
+					4,
+					71
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_201252_psndf486.jpg",
+			"raceS": 186.116,
+			"timeSource": "timer",
+			"timerText": "3:06.116",
+			"packetId": 5568593,
+			"lap": 2,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 14.1,
+				"FR": 11.4,
+				"RL": 11.1,
+				"RR": 9.9
+			},
+			"px": {
+				"FL": [
+					10,
+					71
+				],
+				"FR": [
+					8,
+					70
+				],
+				"RL": [
+					8,
+					72
+				],
+				"RR": [
+					7,
+					71
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_201309_psn05cb8.jpg",
+			"raceS": 203.333,
+			"timeSource": "timer",
+			"timerText": "3:23.333",
+			"packetId": 5569626,
+			"lap": 3,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 14.1,
+				"FR": 11.4,
+				"RL": 12.7,
+				"RR": 8.6
+			},
+			"px": {
+				"FL": [
+					10,
+					71
+				],
+				"FR": [
+					8,
+					70
+				],
+				"RL": [
+					9,
+					71
+				],
+				"RR": [
+					6,
+					70
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_201345_psn1737a.jpg",
+			"raceS": 238.85,
+			"timeSource": "timer",
+			"timerText": "3:58.850",
+			"packetId": 5571757,
+			"lap": 3,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 16.9,
+				"FR": 14.1,
+				"RL": 14.1,
+				"RR": 11.3
+			},
+			"px": {
+				"FL": [
+					12,
+					71
+				],
+				"FR": [
+					10,
+					71
+				],
+				"RL": [
+					10,
+					71
+				],
+				"RR": [
+					8,
+					71
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_201403_psnfcc70.jpg",
+			"raceS": 257.2,
+			"timeSource": "timer",
+			"timerText": "4:17.200",
+			"packetId": 5572858,
+			"lap": 3,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 16.9,
+				"FR": 18.3,
+				"RL": 15.5,
+				"RR": 14.1
+			},
+			"px": {
+				"FL": [
+					12,
+					71
+				],
+				"FR": [
+					13,
+					71
+				],
+				"RL": [
+					11,
+					71
+				],
+				"RR": [
+					10,
+					71
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_201422_psna945e.jpg",
+			"raceS": 276.35,
+			"timeSource": "timer",
+			"timerText": "4:36.350",
+			"packetId": 5574007,
+			"lap": 3,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 21.1,
+				"FR": 18.3,
+				"RL": 16.9,
+				"RR": 13.9
+			},
+			"px": {
+				"FL": [
+					15,
+					71
+				],
+				"FR": [
+					13,
+					71
+				],
+				"RL": [
+					12,
+					71
+				],
+				"RR": [
+					10,
+					72
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_201440_psn5ecd4.jpg",
+			"raceS": 294.033,
+			"timeSource": "timer",
+			"timerText": "4:54.033",
+			"packetId": 5575068,
+			"lap": 4,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 21.1,
+				"FR": 19.7,
+				"RL": 18.3,
+				"RR": 14.3
+			},
+			"px": {
+				"FL": [
+					15,
+					71
+				],
+				"FR": [
+					14,
+					71
+				],
+				"RL": [
+					13,
+					71
+				],
+				"RR": [
+					10,
+					70
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_201456_psnb0eb9.jpg",
+			"raceS": 310.05,
+			"timeSource": "timer",
+			"timerText": "5:10.050",
+			"packetId": 5576029,
+			"lap": 4,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 22.2,
+				"FR": 19.7,
+				"RL": 18.3,
+				"RR": 14.3
+			},
+			"px": {
+				"FL": [
+					16,
+					72
+				],
+				"FR": [
+					14,
+					71
+				],
+				"RL": [
+					13,
+					71
+				],
+				"RR": [
+					10,
+					70
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_201516_psn9d8ae.jpg",
+			"raceS": 330.366,
+			"timeSource": "timer",
+			"timerText": "5:30.366",
+			"packetId": 5577248,
+			"lap": 4,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 22.9,
+				"FR": 19.7,
+				"RL": 19.7,
+				"RR": 16.9
+			},
+			"px": {
+				"FL": [
+					16,
+					70
+				],
+				"FR": [
+					14,
+					71
+				],
+				"RL": [
+					14,
+					71
+				],
+				"RR": [
+					12,
+					71
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_201534_psn13d10.jpg",
+			"raceS": 347.616,
+			"timeSource": "timer",
+			"timerText": "5:47.616",
+			"packetId": 5578283,
+			"lap": 4,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 25.4,
+				"FR": 25.4,
+				"RL": 21.1,
+				"RR": 19.4
+			},
+			"px": {
+				"FL": [
+					18,
+					71
+				],
+				"FR": [
+					18,
+					71
+				],
+				"RL": [
+					15,
+					71
+				],
+				"RR": [
+					14,
+					72
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		},
+		{
+			"file": "GT7_20261031_201553_psnae64d.jpg",
+			"raceS": 366.9,
+			"timeSource": "timer",
+			"timerText": "6:06.900",
+			"packetId": 5579440,
+			"lap": 4,
+			"stint": 0,
+			"front": "RS",
+			"rear": "RS",
+			"worn": {
+				"FL": 27.8,
+				"FR": 26.8,
+				"RL": 22.2,
+				"RR": 19.4
+			},
+			"px": {
+				"FL": [
+					20,
+					72
+				],
+				"FR": [
+					19,
+					71
+				],
+				"RL": [
+					16,
+					72
+				],
+				"RR": [
+					14,
+					72
+				]
+			},
+			"wet": 0.0,
+			"wetZone": "dry"
+		}
+	]
+}
