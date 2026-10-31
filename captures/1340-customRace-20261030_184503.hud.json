@@ -1,7 +1,7 @@
 {
 	"tool": "gt7_hud_wear.py",
-	"version": "v1r3",
-	"generated": "2026-10-31 11:19:15 UTC",
+	"version": "v1r4",
+	"generated": "2026-10-31 11:29:27 UTC",
 	"stem": "1340-customRace-20261030_184503",
 	"carId": 2183,
 	"carName": "Chevrolet Corvette C7 Gr.3",
@@ -28,8 +28,8 @@
 			"startS": 1588.86,
 			"startPacketId": 2957526,
 			"startLap": 18,
-			"hudFront": null,
-			"hudRear": null,
+			"hudFront": "W",
+			"hudRear": "W",
 			"shots": 47
 		},
 		{
@@ -939,8 +939,8 @@
 			"packetId": 2961687,
 			"lap": 18,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 0.0,
 				"FR": 0.0,
@@ -976,8 +976,8 @@
 			"packetId": 2964178,
 			"lap": 18,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 7.0,
 				"FR": 11.1,
@@ -1002,8 +1002,8 @@
 					70
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 20.2,
+			"wetZone": "damp"
 		},
 		{
 			"file": "GT7_20261030_191400_psnb2adb.jpg",
@@ -1013,8 +1013,8 @@
 			"packetId": 2965415,
 			"lap": 18,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 12.7,
 				"FR": 12.7,
@@ -1039,8 +1039,8 @@
 					72
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 28.3,
+			"wetZone": "damp"
 		},
 		{
 			"file": "GT7_20261030_191414_psne00dd.jpg",
@@ -1050,8 +1050,8 @@
 			"packetId": 2966278,
 			"lap": 19,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.1,
 				"FR": 12.7,
@@ -1076,8 +1076,8 @@
 					71
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 43.4,
+			"wetZone": "IM"
 		},
 		{
 			"file": "GT7_20261030_191436_psn62671.jpg",
@@ -1087,8 +1087,8 @@
 			"packetId": 2967599,
 			"lap": 19,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.1,
 				"FR": 12.7,
@@ -1124,8 +1124,8 @@
 			"packetId": 2968968,
 			"lap": 19,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.1,
 				"FR": 13.9,
@@ -1150,8 +1150,8 @@
 					71
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 71.7,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_191522_psn8bf2f.jpg",
@@ -1161,8 +1161,8 @@
 			"packetId": 2970317,
 			"lap": 19,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.1,
 				"FR": 13.9,
@@ -1187,8 +1187,8 @@
 					71
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 71.7,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_191547_psndfb9b.jpg",
@@ -1198,8 +1198,8 @@
 			"packetId": 2971804,
 			"lap": 20,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.1,
 				"FR": 13.9,
@@ -1224,8 +1224,8 @@
 					71
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 72.8,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_191604_psn4108e.jpg",
@@ -1235,8 +1235,8 @@
 			"packetId": 2972849,
 			"lap": 20,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.1,
 				"FR": 13.9,
@@ -1261,8 +1261,8 @@
 					71
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 71.7,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_191628_psn49b25.jpg",
@@ -1272,8 +1272,8 @@
 			"packetId": 2974286,
 			"lap": 20,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.1,
 				"FR": 13.9,
@@ -1309,8 +1309,8 @@
 			"packetId": 2975471,
 			"lap": 20,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 15.5,
 				"FR": 13.9,
@@ -1346,8 +1346,8 @@
 			"packetId": 2977042,
 			"lap": 20,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.3,
 				"FR": 13.9,
@@ -1383,8 +1383,8 @@
 			"packetId": 2978405,
 			"lap": 20,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.3,
 				"FR": 13.9,
@@ -1409,8 +1409,8 @@
 					71
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 71.7,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_191800_psna0440.jpg",
@@ -1420,8 +1420,8 @@
 			"packetId": 2979796,
 			"lap": 21,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 15.5,
 				"FR": 13.9,
@@ -1446,8 +1446,8 @@
 					71
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 71.1,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_191825_psn613c6.jpg",
@@ -1457,8 +1457,8 @@
 			"packetId": 2981297,
 			"lap": 21,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 15.7,
 				"FR": 13.9,
@@ -1494,8 +1494,8 @@
 			"packetId": 2982648,
 			"lap": 21,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.3,
 				"FR": 13.9,
@@ -1531,8 +1531,8 @@
 			"packetId": 2983975,
 			"lap": 21,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 15.5,
 				"FR": 13.9,
@@ -1568,8 +1568,8 @@
 			"packetId": 2985584,
 			"lap": 22,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 15.7,
 				"FR": 13.9,
@@ -1594,8 +1594,8 @@
 					72
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 71.7,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_191954_psn87dc5.jpg",
@@ -1605,8 +1605,8 @@
 			"packetId": 2986659,
 			"lap": 22,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.3,
 				"FR": 13.9,
@@ -1642,8 +1642,8 @@
 			"packetId": 2987898,
 			"lap": 22,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.3,
 				"FR": 15.5,
@@ -1668,8 +1668,8 @@
 					72
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 71.7,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_192035_psn83dbf.jpg",
@@ -1679,8 +1679,8 @@
 			"packetId": 2989111,
 			"lap": 22,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 15.5,
 				"FR": 15.5,
@@ -1705,8 +1705,8 @@
 					71
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 71.1,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_192101_psn693e5.jpg",
@@ -1716,8 +1716,8 @@
 			"packetId": 2990660,
 			"lap": 22,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 15.7,
 				"FR": 15.5,
@@ -1753,8 +1753,8 @@
 			"packetId": 2992105,
 			"lap": 22,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 15.5,
 				"FR": 15.5,
@@ -1779,8 +1779,8 @@
 					72
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 71.1,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_192144_psn613fa.jpg",
@@ -1790,8 +1790,8 @@
 			"packetId": 2993230,
 			"lap": 23,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 14.3,
 				"FR": 15.5,
@@ -1827,8 +1827,8 @@
 			"packetId": 2994553,
 			"lap": 23,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 15.5,
@@ -1864,8 +1864,8 @@
 			"packetId": 2995702,
 			"lap": 23,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 15.5,
@@ -1890,8 +1890,8 @@
 					72
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 72.8,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_192251_psn2f91e.jpg",
@@ -1901,8 +1901,8 @@
 			"packetId": 2997271,
 			"lap": 23,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 15.5,
@@ -1927,8 +1927,8 @@
 					72
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 71.1,
+			"wetZone": "W"
 		},
 		{
 			"file": "GT7_20261030_192315_psn35e6f.jpg",
@@ -1938,8 +1938,8 @@
 			"packetId": 2998702,
 			"lap": 23,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 15.5,
@@ -1975,8 +1975,8 @@
 			"packetId": 2999789,
 			"lap": 24,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 15.5,
@@ -2012,8 +2012,8 @@
 			"packetId": 3001196,
 			"lap": 24,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 15.5,
@@ -2038,8 +2038,8 @@
 					72
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 63.6,
+			"wetZone": "IM"
 		},
 		{
 			"file": "GT7_20261030_192415_psnd27ed.jpg",
@@ -2049,8 +2049,8 @@
 			"packetId": 3002303,
 			"lap": 24,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 15.5,
@@ -2086,8 +2086,8 @@
 			"packetId": 3004474,
 			"lap": 24,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 15.5,
@@ -2123,8 +2123,8 @@
 			"packetId": 3005937,
 			"lap": 25,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 15.5,
@@ -2149,8 +2149,8 @@
 					71
 				]
 			},
-			"wet": 0.0,
-			"wetZone": "dry"
+			"wet": 60.7,
+			"wetZone": "IM"
 		},
 		{
 			"file": "GT7_20261030_192532_psn0715d.jpg",
@@ -2160,8 +2160,8 @@
 			"packetId": 3006892,
 			"lap": 25,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 15.5,
@@ -2197,8 +2197,8 @@
 			"packetId": 3008695,
 			"lap": 25,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 16.7,
@@ -2234,8 +2234,8 @@
 			"packetId": 3009580,
 			"lap": 25,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 16.7,
@@ -2271,8 +2271,8 @@
 			"packetId": 3010869,
 			"lap": 25,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 16.9,
 				"FR": 16.9,
@@ -2308,8 +2308,8 @@
 			"packetId": 3012196,
 			"lap": 25,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 18.3,
 				"FR": 16.7,
@@ -2345,8 +2345,8 @@
 			"packetId": 3013215,
 			"lap": 26,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 18.3,
 				"FR": 16.9,
@@ -2382,8 +2382,8 @@
 			"packetId": 3014478,
 			"lap": 26,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 18.3,
 				"FR": 16.7,
@@ -2419,8 +2419,8 @@
 			"packetId": 3015631,
 			"lap": 26,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 18.3,
 				"FR": 16.9,
@@ -2456,8 +2456,8 @@
 			"packetId": 3017058,
 			"lap": 26,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 18.3,
 				"FR": 16.7,
@@ -2493,8 +2493,8 @@
 			"packetId": 3018419,
 			"lap": 26,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 18.3,
 				"FR": 16.7,
@@ -2530,8 +2530,8 @@
 			"packetId": 3019472,
 			"lap": 27,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 18.3,
 				"FR": 16.9,
@@ -2567,8 +2567,8 @@
 			"packetId": 3020869,
 			"lap": 27,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 18.3,
 				"FR": 16.7,
@@ -2604,8 +2604,8 @@
 			"packetId": 3021926,
 			"lap": 27,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 18.3,
 				"FR": 16.7,
@@ -2641,8 +2641,8 @@
 			"packetId": 3023195,
 			"lap": 27,
 			"stint": 1,
-			"front": null,
-			"rear": null,
+			"front": "W",
+			"rear": "W",
 			"worn": {
 				"FL": 18.3,
 				"FR": 18.3,
