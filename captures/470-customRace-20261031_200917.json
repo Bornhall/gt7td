@@ -1,0 +1,136 @@
+{
+  "carCategory" : "GR3",
+  "carClass" : "Gr.3",
+  "carId" : 2184,
+  "carName" : "Jaguar F-type Gr.3",
+  "compoundObservations" : [
+    {
+      "estimatorVersion" : "v1r11",
+      "family" : "road",
+      "familyConfidence" : "high",
+      "finalLabel" : "RS",
+      "heating" : 0.10449816153398966,
+      "lap" : 1,
+      "notes" : [
+        "no dry fit — nearest SS at 0.329"
+      ],
+      "outcome" : "answered",
+      "revisions" : 4,
+      "samples" : 2932,
+      "seconds" : 330.04671338004675,
+      "slipPerG" : 0.784125,
+      "source" : "telemetry",
+      "startPacketId" : 5557494,
+      "trigger" : "raceStart"
+    }
+  ],
+  "courseId" : 470,
+  "declared" : {
+    "captureContext" : "customRace",
+    "courseId" : 470,
+    "fuelMultiplier" : 3,
+    "raceLength" : 60,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 3,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 20,
+    "timeBeforeStart" : 20,
+    "trackName" : "Red Bull Ring",
+    "tyreWearMultiplier" : 4,
+    "weather" : "variable"
+  },
+  "endTime" : 1793474179,
+  "granularity" : 1,
+  "identifiedCourseId" : 470,
+  "identifiedTrackName" : "Red Bull Ring",
+  "maxSpeedKmh" : 275,
+  "packetSize" : 368,
+  "recaps" : [
+    {
+      "bestLapMs" : 90521,
+      "carId" : 2184,
+      "carName" : "Jaguar F-type Gr.3",
+      "courseId" : 470,
+      "endedAt" : "2026-10-31T19:15:55Z",
+      "id" : "2775C2B6-711C-4FAA-8091-90FF490A720F",
+      "incidentLaps" : [
+
+      ],
+      "laps" : [
+        {
+          "fuelUsed" : 0.1469573974609375,
+          "invalid" : false,
+          "lap" : 0,
+          "position" : 1,
+          "tyreFL" : 69.55323791503906,
+          "tyreFR" : 69.55308532714844,
+          "tyreRL" : 69.5621566772461,
+          "tyreRR" : 69.5613784790039
+        },
+        {
+          "fuelUsed" : 5.7234954833984375,
+          "invalid" : false,
+          "lap" : 1,
+          "position" : 1,
+          "role" : "first",
+          "timeMs" : 95256,
+          "tyreFL" : 63.35471725463867,
+          "tyreFR" : 63.92529296875,
+          "tyreRL" : 65.8044204711914,
+          "tyreRR" : 65.72985076904297
+        },
+        {
+          "fuelUsed" : 5.735015869140625,
+          "invalid" : false,
+          "lap" : 2,
+          "position" : 1,
+          "timeMs" : 91346,
+          "tyreFL" : 60.61522674560547,
+          "tyreFR" : 62.25830078125,
+          "tyreRL" : 61.82526397705078,
+          "tyreRR" : 61.0493278503418
+        },
+        {
+          "fuelUsed" : 5.553077697753906,
+          "invalid" : false,
+          "lap" : 3,
+          "position" : 1,
+          "timeMs" : 90618,
+          "tyreFL" : 60.58478927612305,
+          "tyreFR" : 62.86636734008789,
+          "tyreRL" : 60.5737190246582,
+          "tyreRR" : 59.27109909057617
+        },
+        {
+          "fuelUsed" : 5.625846862792969,
+          "invalid" : false,
+          "lap" : 4,
+          "position" : 1,
+          "timeMs" : 90521,
+          "tyreFL" : 62.12848663330078,
+          "tyreFR" : 63.6693000793457,
+          "tyreRL" : 60.24602508544922,
+          "tyreRR" : 58.513309478759766
+        }
+      ],
+      "lastLap" : 5,
+      "note" : "",
+      "numCars" : 65535,
+      "raceElapsedS" : 370.42042042042044,
+      "racePosition" : 65535,
+      "reason" : "leftRace",
+      "savedAt" : "2026-10-31T19:15:55Z",
+      "schemaVersion" : 1,
+      "startType" : "GRID_START",
+      "stops" : [
+
+      ],
+      "totalLaps" : 0,
+      "trackName" : "Red Bull Ring"
+    }
+  ],
+  "startTime" : 1793473757,
+  "trackName" : "Red Bull Ring",
+  "version" : 8
+}
