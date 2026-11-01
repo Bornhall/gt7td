@@ -1925,6 +1925,55 @@
       ]
     },
     {
+      "stem": "51-customRace-20261101_173531",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "carId": 3600,
+      "car": "Porsche 911 GT3 R (992) '22",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 112231,
+      "durationS": 1872.4,
+      "rawBytes": 41301008,
+      "gzBytes": 19605520,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 7,
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "outcome": "boxExit",
+          "finalLabel": "RH",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RM",
+        "RS",
+        "RH"
+      ]
+    },
+    {
       "stem": "51-lobby-20260831_203211",
       "courseId": 51,
       "track": "Deep Forest Raceway",
