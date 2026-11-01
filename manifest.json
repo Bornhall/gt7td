@@ -1823,6 +1823,57 @@
       ]
     },
     {
+      "stem": "51-customRace-20261101_140217",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "carId": 2177,
+      "car": "Lamborghini Hurac\u00e1n GT3 '15",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 184759,
+      "durationS": 3082.4,
+      "rawBytes": 67991312,
+      "gzBytes": 20460624,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 7,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 6,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "boxExit"
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM",
+        "RH"
+      ]
+    },
+    {
       "stem": "51-lobby-20260831_203211",
       "courseId": 51,
       "track": "Deep Forest Raceway",
