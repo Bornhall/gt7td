@@ -7645,6 +7645,60 @@
       ]
     },
     {
+      "stem": "1264-customRace-20261101_122304",
+      "courseId": 1264,
+      "track": "Watkins Glen Short Course",
+      "context": "customRace",
+      "carId": 2182,
+      "car": "McLaren 650S GT3 '15",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 113132,
+      "durationS": 1887.4,
+      "rawBytes": 41632576,
+      "gzBytes": 20193021,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 7,
+      "identifiedCourseId": 1264,
+      "identifiedTrackName": "Watkins Glen Short Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "corrected",
+          "finalLabel": "RS"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit",
+          "finalLabel": "RM"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 16,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "boxExit",
+          "finalLabel": "RH"
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM",
+        "RH"
+      ]
+    },
+    {
       "stem": "1299-weeklyChallenge-20261015_223149",
       "courseId": 1299,
       "track": "Grand Valley - South",
