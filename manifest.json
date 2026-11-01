@@ -4796,6 +4796,57 @@
       ]
     },
     {
+      "stem": "470-customRace-20261101_003240",
+      "courseId": 470,
+      "track": "Red Bull Ring",
+      "context": "customRace",
+      "carId": 2184,
+      "car": "Jaguar F-type Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 112561,
+      "durationS": 1877.9,
+      "rawBytes": 41422448,
+      "gzBytes": 20122075,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 8,
+      "identifiedCourseId": 470,
+      "identifiedTrackName": "Red Bull Ring",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 6,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 13,
+          "outcome": "boxExit",
+          "finalLabel": "W",
+          "abstained": true
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM",
+        "W"
+      ]
+    },
+    {
       "stem": "470-lobby-20260721_205930",
       "courseId": 470,
       "track": "Red Bull Ring",
