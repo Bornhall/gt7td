@@ -4812,7 +4812,7 @@
       "gzBytes": 20122075,
       "hasLog": true,
       "hasClock": true,
-      "hasHud": false,
+      "hasHud": true,
       "fuelMultiplier": 3,
       "tyreWearMultiplier": 8,
       "identifiedCourseId": 470,
