@@ -1,0 +1,607 @@
+# EzioClient session log
+# file:    20261101_151931 - Deep Forest Raceway (51).gt7td
+# started: 2026-11-01T14:19:31Z
+# track:   Deep Forest Raceway (CRS 51)
+# context: customRace
+# ---
+🚪 ⏸ gate learning held until identification confirms Deep Forest Raceway
+# car:     Lamborghini Huracán GT3 '15 [Gr.3] (id 2177) — confirmed from telemetry
+🏷 BoP 1.72 if on (high): 650S GT3 '15 1,290 kg · 482 hp · PP 683.97 · 44:56 MR — stock 1,240 kg · Deep Forest Raceway
+🧭 polyline [MENU]: 27 candidate(s) dropped on direction — best of them Red Bull Ring median 31.96 (alignment -0.90)
+🧭 polyline [MENU]: Deep Forest Raceway fits (median 1.55 m) but on 351 m of road — waiting for 800 m
+🧭 polyline [MENU]: 26 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course median 18.67 (alignment -0.36)
+🧭 polyline [MENU]: Deep Forest Raceway fits (median 1.62 m) but on 469 m of road — waiting for 800 m
+# car:     provisional car #2177 from the menus replaced by the car on track (#2182)
+# car:     McLaren 650S GT3 '15 [Gr.3] (id 2182) — corrected from telemetry, capture setup declared "Lamborghini Huracán GT3 '15"
+🔓 learning resumed — player on track
+🛞 compound: car 2182 — reference: RH RM RS
+🛞 wear (test) v2r4 car 2182: MR (cars.json), front factor 0.85, rear factor 1.00
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🎮 menus → onTrack (pkt 7273702, lap 0, flags 0x0019, pos 1, cars 2, tod 61620000)
+🧭 polyline [PRE-GREEN]: 18 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - East median 29.11 (alignment -0.37)
+🧭 polyline [PRE-GREEN]: Deep Forest Raceway (CRS 51, map ctx lobby) median 1.63 m, p90 2.48 m, 9% of lap, 90 samples, alignment +1.00 — next course Autodrome Lago Maggiore - East End Reverse median 29.64/p90 275.39
+🏁 announcing track: Deep Forest Raceway (CRS 51) from map matcher
+🗣 spoke (radio, imp 2, cost 2.1s, ledger 2.1/20.4s, 1 line): trackIdentified(Deep Forest Raceway, CRS 51)
+🔊 identified Deep Forest Raceway
+🗣 language: first preferred sv-SE — synthesizer primed in en-GB for IPA
+🗣 voice: Fiona (Enhanced) (en-GB-u-sd-gbsct, enhanced, com.apple.voice.enhanced.en-GB-u-sd-gbsct.Fiona) — name "Fiona (Enhanced)"
+🗺 stored map loaded on identification (map matcher): course 51, 836 pts
+🧭 polyline agrees with the declared course (CRS 51)
+🚪 ▶️ gate learning released — identification agrees
+📊 pit loss: measured 11.6 s
+📊 strategy: track pit loss 11.6 s
+🅿️ pit speaking budget 17.0s (entry to box)
+🔧 pit approach: entry at station 3600 m of 4181 m (10.6 m off the line), lead 20 s
+🏁 start type: ROLLING_START at pkt 7274062 lap 1
+🔀 state UNKNOWN → RACING at pkt 7274062 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.00
+📊 strategy: green flag (speed) at pkt 7274062, race clock running
+🗣 spoke (lapPace, imp 0, cost 1.6s, ledger 3.7/20.4s, 1 line): greenFlag
+📊 strategy L1: no fuel model yet
+🧭 learned (line): 3 layouts tied (Circuit de Barcelona-Catalunya GP Layout, Circuit de Sainte-Croix - C, Deep Forest Raceway) — resolving by divergence
+🚪 gate refined: Deep Forest Raceway/customRace/lap1 (478 samples, σ 0.67 m, ±12 m, across -2.7…1.1 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(lap1, 478)
+🛞 compound: window opened — raceStart, lap 1
+🧭 divergence: fork at 10 m on course 51 — 1 left (Deep Forest Raceway)
+🧭 divergence: resolved to Deep Forest Raceway
+🧭 identified: Deep Forest Raceway (CRS 51) — finishLine, 8989 sample(s), ±12 m
+🔊 and we're racing
+🛞 compound: family racing from the declaration (RS)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 we're on racing rubber
+🛞 compound: racingSoft (medium confidence, C 0.84, margin 0.087, own reference)
+🌡 tyre bands: centre 72 °C (RS, -4, estimate)
+🛞 compound prompt: raceStart lap 1, estimate RS
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(raceStart, RS, medium)
+🛞 crew compound: RS
+🔊 probably racing softs
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:30.627 first fuel_used=0.00
+⛽ crew: fuel not used — fuel calls off
+🔵 lap 1: clean
+📊 strategy L2: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (8990 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 8990)
+🛞 wear (test) lap 1 done: FL 5.7 FR 8.7 RL 7.5 RR 9.3 % — RS ×7 (declared)
+🗣 bulletin (imp 6, cost 5.2s, ledger 6.8/20.4s, 2 lines): L2
+🔊 laptime 30 point six two seven
+🔊 on lap 2
+🎤 crew asks: which racing compound?
+🔊 which racing compound?
+🎤 route in: iPad Mikrofon (built-in mic) · out: Högtalare (speaker)
+🎤 listening for a compound (53 s, en-GB, on-device yes)
+🎤 mic -38 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🎤 heard "Soft" → RS
+🎤 tyre answer by voice: RS
+🛞 compound prompt confirmed: RS
+🛞 compound: RS confirmed by the driver — anchor
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🔊 racing softs
+🛞 crew compound: RS is sure
+🔊 got it
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.846 over 150 s (1423 samples)
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+📋 lap 2: 1:28.185 clean fuel_used=0.00
+🔵 lap 2: clean
+🔧 🌧 L2 GR3 on RS: peak 1.85 g (best 0.00, ×1.00; floor 1.50) · slide 0.96 °/g (best 0.00, ×1.0) · TCS 1 % (best 0 %) → dry
+📊 strategy L3: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (8991 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🗺 mapper: learned lap 2 (88.185 s, 4190 m, 838 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(2, 88185 ms, 838 pts)
+🗣 spoke (radio, imp 0, cost 2.7s, ledger 2.7/20.4s, 1 line): surveyComplete(3 optional missing)
+🔊 essentials recorded
+🗺 lap 2 (88.185 s) not stored — the stored map's lap is faster (87.025 s)
+🛞 wear (test) lap 2 done: FL 12.0 FR 18.7 RL 15.0 RR 18.6 % — RS ×7 (tap)
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🔊 3 optional outstanding
+🗣 bulletin (imp 2, cost 7.2s, ledger 9.9/20.4s, 2 lines): L3
+🔊 new fastest lap
+🔊 1 28 point two
+🔊 that's lap 3
+⏱ delta check L3 1/2: -0.23 s
+🔊 point two up
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.856 over 210 s (2000 samples)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 3.7/20.4s, 1 line): tyreTemps(inWindow, 69°)
+🔊 tyres are warmed up
+⏱ delta check L3 2/2: -0.47 s
+🔊 point five up on your best
+📋 lap 3: 1:27.709 clean fuel_used=0.00
+🛞 crew: tyre life RS — until L9 (6 left; worst 29 %, 11.0 %/lap biased)
+🔵 lap 3: clean
+🔧 🌧 L3 GR3 on RS: peak 1.83 g (best 1.85, ×0.99; floor 1.50) · slide 0.99 °/g (best 0.96, ×1.0) · TCS 0 % (best 1 %) → dry
+📊 strategy L4: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (8992 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🗺 mapper: learned lap 3 (87.709 s, 4185 m, 837 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(3, 87709 ms, 837 pts)
+🗺 lap 3 (87.709 s) not stored — the stored map's lap is faster (87.025 s)
+🛞 wear (test) lap 3 done: FL 19.2 FR 29.8 RL 22.4 RR 28.0 % — RS ×7 (tap)
+⏱ class lap kept: Deep Forest Raceway/customRace/Gr.3 → 1:27.709 (10/10 laps, 6 car(s), avg 1:27.668)
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🗣 bulletin (imp 2, cost 5.6s, ledger 5.6/20.4s, 2 lines): L4
+🔊 personal best
+🔊 point five quicker
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.866 over 270 s (2612 samples)
+🔊 lap 4
+🛞 crew: tyre life said (mid-lap)
+🔊 around 6 more laps on these racing softs
+⏱ delta check L4 1/2: +0.26 s
+🔊 point three down so far
+⏱ delta check L4 2/2: +0.30 s
+🔊 point three down
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.866 over 330 s (3036 samples)
+📋 lap 4: 1:28.198 clean fuel_used=0.00
+🔵 lap 4: clean
+🔧 🌧 L4 GR3 on RS: peak 1.81 g (best 1.85, ×0.98; floor 1.50) · slide 1.06 °/g (best 0.96, ×1.1) · TCS 0 % (best 0 %) → dry
+📊 strategy L5: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (8993 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 4 done: FL 26.5 FR 41.2 RL 29.7 RR 37.3 % — RS ×7 (tap)
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🗣 bulletin (imp 6, cost 5.9s, ledger 5.9/20.4s, 2 lines): L5
+🔊 good lap
+🔊 point five off your best
+🔊 on lap 5
+⏱ delta check L5 1/2: +0.47 s
+🔊 you're point five down
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.876 over 390 s (3707 samples)
+⏱ delta check L5 2/2: +0.97 s
+🔊 1 point oh down on your best
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+📋 lap 5: 1:28.754 clean fuel_used=0.00
+🔵 lap 5: clean
+🔧 🌧 L5 GR3 on RS: peak 1.77 g (best 1.85, ×0.96; floor 1.50) · slide 1.03 °/g (best 0.96, ×1.1) · TCS 2 % (best 0 %) → dry
+📊 strategy L6: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (8994 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 5 done: FL 33.1 FR 50.9 RL 36.9 RR 46.3 % — RS ×7 (tap)
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🗣 bulletin (imp 6, cost 7.5s, ledger 7.5/20.4s, 2 lines): L6
+🔊 that was a decent lap
+🔊 1 28 point seven five
+🔊 lap 6 now
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.876 over 450 s (4285 samples)
+🗣 spoke (tyres, imp 4, cost 3.4s, ledger 10.9/20.4s, 1 line): tyreTemps(low, 65°)
+🔊 tyres are still not up to temperature
+⏱ delta check L6 1/2: +0.41 s
+🔊 point four down
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 3.7/20.4s, 1 line): tyreTemps(inWindow, 69°)
+🔊 tyres still looking good
+⏱ delta check L6 2/2: +0.90 s
+🔊 point nine down so far
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.887 over 510 s (4722 samples)
+📋 lap 6: 1:28.683 clean fuel_used=0.00
+🛞 crew: tyre life RS — until L8 (2 left; worst 62 %, 11.7 %/lap biased)
+🔵 lap 6: clean
+🔧 🌧 L6 GR3 on RS: peak 1.81 g (best 1.85, ×0.98; floor 1.50) · slide 1.07 °/g (best 0.96, ×1.1) · TCS 1 % (best 0 %) → dry
+📊 strategy L7: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (8995 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 6 done: FL 40.4 FR 62.1 RL 44.2 RR 55.4 % — RS ×7 (tap)
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🗣 bulletin (imp 6, cost 5.8s, ledger 5.8/20.4s, 2 lines): L7
+🔊 decent lap
+🔊 1 28 point seven
+🔊 on lap 7
+🛞 crew: tyre life said (mid-lap)
+🔊 around 2 more laps on these racing softs
+⏱ delta check L7 1/2: +0.70 s
+🔊 point seven down on your best
+🛞 compound: stint raceStart lap 1, refinement 8 — C 0.887 over 570 s (5500 samples)
+⏱ delta check L7 2/2: +1.34 s
+🔊 you're 1 point three down
+🔧 huge stop 226 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 7311039 lap 7
+🔵 sub-state FLYING → — lap 7
+🔧 pit-entry anchor learned: 84127 ms into lap (stop on lap 7)
+🔧 pended impact cancelled: pit entry
+🚪 gate refined: Deep Forest Raceway/customRace/pitEntry (533 samples, σ 0.54 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 3.9/20.4s, 1 line, protected): pittingIn(L7)
+🔊 box box
+🗑 dropped (in pit): surveyGate(pitEntry, 533)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🛞 compound prompt: box exit lap 7, declared RM
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+📊 strategy: box reached on the ENDING lap (entered L7, counter still L7) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 630.1 s, remaining 1169.9 s, median lap 88.2 s -> 14 (no-stop 14, pit loss 11.6 s, rate 3 l/s)
+🗣 spoke (pitSequence, imp 2, cost 2.5s, ledger 3.7/20.4s, 1 line, protected): inPitBox
+🗑 dropped (no fuel used): refuelTarget(14 laps)
+🔊 in the box
+🗑 dropped (in pit): tyreTemps(low, 65°)
+🔊 sit tight
+🎤 crew asks: racing tyres — softs, mediums or hards?
+🔊 racing tyres
+🎤 route in: iPad Mikrofon (built-in mic) · out: Högtalare (speaker)
+🎤 listening for a compound (53 s, en-GB, on-device yes)
+🔊 softs
+🛞 wear (test): all four tyres at 60.00 °C on lap 7 — new set (J116)
+🛞 wear (test) stint 0 ended at tyre change: FL 47.1 FR 71.8 RL 50.8 RR 63.1 % — RS ×7 (tap)
+🛞 crew compound: unknown
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🔊 mediums or hards?
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🛞 compound: stint raceStart lap 1, refinement 9 (final) — C 0.897 over 616 s (5946 samples)
+🛞 compound: stale window (RS, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 7
+🎤 mic -40 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🔀 state PIT → RACING at pkt 7312330 lap 8
+🔵 sub-state — → OUT_LAP lap 8
+🅿️ PIT completed: in L7 → out L8 (no fuel, transit 25.1s, teleport=false)
+🚪 gate refined: Deep Forest Raceway/customRace/pitBox (579 samples, σ 0.05 m, ±0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 579)
+🅿️ entry→box 16.8s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 3600 m of 4181 m (10.6 m off the line), lead 20 s
+📋 lap 7: 1:45.631 in fuel_used=0.00
+🔵 lap 7: clean
+🗑 dropped (in pit): lapStarted(8, last 105.63s)
+🔧 teleport 173 m on lap 8 — pit release, not a reset
+📊 strategy L8: no fuel model yet
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 8.7/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(inferred)
+🚪 gate refined: Deep Forest Raceway/customRace/pitExit (579 samples, σ 0.05 m, ±12 m, across -0.0…0.0 m)
+🔊 tyres are cold
+🗑 dropped (debug speech 3 < 11): surveyGate(pitExit, 579)
+🗺 mapper: lap 7 rejected (teleport)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 11.6/20.4s, 1 line): surveyComplete(0 optional missing)
+🛞 wear (test) lap 7 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RM ×7 (declared)
+📊 strategy L8: no fuel model yet
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🔊 that's the full set
+🔊 survey complete
+🎤 mic -4 dB peak, 52 buffers, 0 replies (0 with text), voice processing off
+🎤 heard "Medium" → RM
+🎤 tyre answer by voice: RM
+🛞 compound prompt answered: RM
+🌡 tyre bands: centre 76 °C (RM, +0, tap)
+🛞 crew compound: RM
+🛞 crew compound: RM is sure
+🔊 understood
+🔊 racing mediums
+⏱ delta check L8 1/2: quiet — out-lap
+🛞 compound: racingMedium (high confidence, C 0.99, margin 0.068, relative to RS (truth), own reference)
+🛞 compound: RM confirmed by the driver — anchor
+🛞 compound: box-exit answer RM given to the pit-exit window (estimate RM)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(pitExit, RM, high)
+🔊 probably racing mediums
+⏱ delta check L8 2/2: quiet — out-lap
+🔵 sub-state OUT_LAP → FLYING lap 9
+📋 lap 8: 1:30.302 out fuel_used=0.00
+🔵 lap 8: clean
+📊 strategy L9: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (8996 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🗺 mapper: lap 8 rejected (teleport)
+🛞 wear (test) lap 8 done: FL 3.1 FR 4.6 RL 3.4 RR 4.2 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🗣 bulletin (imp 6, cost 1.4s, ledger 1.4/20.4s, 1 line): L9
+🔊 lap 9
+🛞 compound: stint pitExit lap 7, refinement 1 — C 0.989 over 120 s (1167 samples)
+⏱ delta check L9 1/2: quiet — +0.78 s, on RM, best set on RS
+⏱ delta check L9 2/2: quiet — +1.44 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 7, refinement 2 — C 0.979 over 180 s (1915 samples)
+📋 lap 9: 1:29.173 clean fuel_used=0.00
+🔵 lap 9: clean
+🔧 🌧 L9 GR3 on RM: peak 1.73 g (best 0.00, ×1.00; floor 1.50) · slide 1.09 °/g (best 0.00, ×1.0) · TCS 0 % (best 0 %) → dry
+📊 strategy L10: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (8997 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 9 done: FL 6.3 FR 9.2 RL 6.8 RR 8.4 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🗣 bulletin (imp 6, cost 8.9s, ledger 8.9/20.4s, 2 lines): L10
+🔊 that was a great lap
+🔊 point one slower than your best on this set
+🔊 on lap 10
+⏱ delta check L10 1/2: quiet — +0.65 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 7, refinement 3 — C 0.979 over 240 s (2548 samples)
+⏱ delta check L10 2/2: quiet — +1.04 s, on RM, best set on RS
+📋 lap 10: 1:29.074 clean fuel_used=0.00
+🛞 crew: tyre life RM — until L27 (17 left; worst 13 %, 4.9 %/lap biased)
+🔧 🌧 L10 GR3 on RM: peak 1.77 g (best 1.73, ×1.02; floor 1.50) · slide 1.10 °/g (best 1.09, ×1.0) · TCS 1 % (best 0 %) → dry
+🔵 lap 10: clean
+📊 strategy L11: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (8998 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 10 done: FL 9.5 FR 14.0 RL 10.2 RR 12.7 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🗣 bulletin (imp 6, cost 6.2s, ledger 6.2/20.4s, 2 lines): L11
+🔊 good lap
+🔊 1 29 point oh seven
+🔊 lap 11 now
+🛞 crew: tyre life said (mid-lap)
+🔊 these racing mediums should go to the finish
+🛞 compound: stint pitExit lap 7, refinement 4 — C 0.979 over 300 s (3055 samples)
+⏱ delta check L11 1/2: quiet — +0.75 s, on RM, best set on RS
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+⏱ delta check L11 2/2: quiet — +1.32 s, on RM, best set on RS
+📋 lap 11: 1:29.031 clean fuel_used=0.00
+🔵 lap 11: clean
+🔧 🌧 L11 GR3 on RM: peak 1.73 g (best 1.77, ×0.98; floor 1.50) · slide 1.14 °/g (best 1.09, ×1.0) · TCS 2 % (best 0 %) → dry
+📊 strategy L12: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (8999 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 11 done: FL 12.8 FR 18.9 RL 13.7 RR 17.1 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🛞 compound: stint pitExit lap 7, refinement 5 — C 0.979 over 360 s (3633 samples)
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L12
+🔊 keep those good laps coming
+🔊 on lap 12
+⏱ delta check L12 1/2: quiet — +1.01 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 7, refinement 6 — C 0.979 over 420 s (4198 samples)
+⏱ delta check L12 2/2: quiet — +1.61 s, on RM, best set on RS
+📋 lap 12: 1:29.590 clean fuel_used=0.00
+🔵 lap 12: clean
+🔧 🌧 L12 GR3 on RM: peak 1.69 g (best 1.77, ×0.95; floor 1.50) · slide 1.08 °/g (best 1.09, ×1.0) · TCS 0 % (best 0 %) → dry
+📊 strategy L13: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (9000 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 12 done: FL 16.1 FR 23.6 RL 17.2 RR 21.5 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🗣 bulletin (imp 6, cost 4.2s, ledger 4.2/20.4s, 2 lines): L13
+🔊 keep the good laps coming
+🔊 lap 13
+🛞 compound: stint pitExit lap 7, refinement 7 — C 0.979 over 480 s (4875 samples)
+⏱ delta check L13 1/2: quiet — +0.81 s, on RM, best set on RS
+⏱ delta check L13 2/2: quiet — +1.37 s, on RM, best set on RS
+📋 lap 13: 1:29.195 clean fuel_used=0.00
+🔧 🌧 L13 GR3 on RM: peak 1.71 g (best 1.77, ×0.97; floor 1.50) · slide 1.12 °/g (best 1.08, ×1.0) · TCS 0 % (best 0 %) → dry
+🛞 crew: tyre life RM — until L26 (13 left; worst 28 %, 5.3 %/lap biased)
+🔵 lap 13: clean
+📊 strategy L14: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (9001 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 13 done: FL 19.3 FR 28.4 RL 20.8 RR 26.0 % — RM ×7 (tap)
+🛞 crew: estimated finish lap 22
+🛞 crew: estimated finish lap 21
+🛞 compound: stint pitExit lap 7, refinement 8 — C 0.979 over 540 s (5602 samples)
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L14
+🔊 keep those good laps coming
+🔊 that's lap 14
+🛞 crew: tyre life said (mid-lap)
+🔊 tyres will last the race on racing mediums
+⏱ delta check L14 1/2: quiet — +1.39 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 7, refinement 9 — C 0.979 over 600 s (6179 samples)
+⏱ delta check L14 2/2: quiet — +2.07 s, on RM, best set on RS
+🔧 huge stop 225 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 7349630 lap 14
+🔵 sub-state FLYING → — lap 14
+🔧 pit-entry anchor learned: 85314 ms into lap (stop on lap 14)
+🔧 pended impact cancelled: pit entry
+🚪 gate refined: Deep Forest Raceway/customRace/pitEntry (534 samples, σ 0.54 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.9s, ledger 2.9/20.4s, 1 line, protected): pittingIn(L14)
+🔊 boxing now
+🔊 crew's ready for you
+🛞 crew: estimated finish lap 20
+🛞 compound prompt: box exit lap 14, declared RH
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+📊 strategy: box reached on the ENDING lap (entered L14, counter still L14) — the lap in progress completes on release, counting it as banked
+📊 laps-left model: elapsed 1274.0 s, remaining 526.0 s, median lap 89.1 s -> 6 (no-stop 6, pit loss 11.6 s, rate 3 l/s)
+🗣 spoke (pitSequence, imp 2, cost 1.2s, ledger 4.1/20.4s, 1 line, protected): inPitBox
+🗑 dropped (no fuel used): refuelTarget(6 laps)
+🔊 in pitlane
+🎤 crew asks: racing tyres — which grade?
+🔊 racing tyres
+🎤 route in: iPad Mikrofon (built-in mic) · out: Högtalare (speaker)
+🎤 listening for a compound (53 s, en-GB, on-device yes)
+🔊 which grade?
+🛞 wear (test): all four tyres at 60.00 °C on lap 14 — new set (J116)
+🛞 wear (test) stint 1 ended at tyre change: FL 22.3 FR 32.6 RL 24.1 RR 29.8 % — RM ×7 (tap)
+🛞 crew compound: unknown
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🔧 fresh tyres confirmed: 60.0° across all four (was 68.8° at pit entry, step 8.8°)
+🗑 dropped (box deadline; cost 3.4s, 0.0s of 17.0s left): freshTyres(confirmed 60.00°)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🎤 mic -39 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🛞 compound: stint pitExit lap 7, refinement 10 (final) — C 0.979 over 623 s (6488 samples)
+🛞 compound: stale window (RM, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 14
+🔀 state PIT → RACING at pkt 7350921 lap 15
+🔵 sub-state — → OUT_LAP lap 15
+🅿️ PIT completed: in L14 → out L15 (no fuel, transit 25.1s, teleport=false)
+🚪 gate refined: Deep Forest Raceway/customRace/pitBox (580 samples, σ 0.05 m, ±0 m)
+🅿️ entry→box 16.8s (speaking budget)
+🔧 pit approach: entry at station 3600 m of 4181 m (10.6 m off the line), lead 20 s
+📋 lap 14: 1:46.818 in fuel_used=0.00
+🔵 lap 14: clean
+🗑 dropped (in pit): lapStarted(15, last 106.82s)
+🔧 teleport 173 m on lap 15 — pit release, not a reset
+📊 strategy L15: no fuel model yet
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 8.3/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🚪 gate refined: Deep Forest Raceway/customRace/pitExit (580 samples, σ 0.05 m, ±12 m, across -0.0…0.0 m)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(inferred)
+🔊 tyres are cold
+🗺 mapper: lap 14 rejected (teleport)
+🛞 wear (test) lap 14 done: FL 0.0 FR 0.0 RL 0.0 RR 0.0 % — RH ×7 (declared)
+🛞 crew: estimated finish lap 21
+📊 strategy L15: no fuel model yet
+🛞 crew: estimated finish lap 20
+🎤 mic -6 dB peak, 52 buffers, 1 replies (1 with text), voice processing off
+🎤 heard "Hard" → RH
+🎤 tyre answer by voice: RH
+🛞 compound prompt answered: RH
+🌡 tyre bands: centre 80 °C (RH, +4, tap)
+🛞 crew compound: RH
+🛞 crew compound: RH is sure
+🔊 understood
+🔊 racing hards
+🗣 spoke (tyres, imp 2, cost 2.9s, ledger 10.3/20.4s, 1 line): tyreTemps(cold, 60°)
+🔊 tyres are very cold
+🔊 be careful
+⏱ delta check L15 1/2: quiet — out-lap
+🛞 compound: racingHard (high confidence, C 1.09, margin 0.090, relative to RM (truth), own reference)
+🛞 compound: RH confirmed by the driver — anchor
+🛞 compound: box-exit answer RH given to the pit-exit window (estimate RH)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RH, high)
+🔊 reads like racing hards
+⏱ delta check L15 2/2: quiet — out-lap
+🔵 sub-state OUT_LAP → FLYING lap 16
+📋 lap 15: 1:32.240 out fuel_used=0.00
+🔵 lap 15: clean
+📊 strategy L16: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (9002 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🗺 mapper: lap 15 rejected (teleport)
+🛞 wear (test) lap 15 done: FL 2.3 FR 3.5 RL 2.6 RR 3.2 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 21
+🛞 crew: estimated finish lap 20
+🗣 bulletin (imp 6, cost 1.8s, ledger 1.8/20.4s, 1 line): L16
+🔊 lap 16 now
+🛞 compound: stint pitExit lap 14, refinement 1 — C 1.102 over 120 s (1011 samples)
+🗣 spoke (tyres, imp 4, cost 3.4s, ledger 3.4/20.4s, 1 line): tyreTemps(low, 68°)
+🔊 tyres are still not up to temperature
+⏱ delta check L16 1/2: quiet — +1.72 s, on RH, best set on RS
+⏱ delta check L16 2/2: quiet — +3.01 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 14, refinement 2 — C 1.102 over 180 s (1691 samples)
+📋 lap 16: 1:31.173 clean fuel_used=0.00
+🔵 lap 16: clean
+🔧 🌧 L16 GR3 on RH: peak 1.63 g (best 0.00, ×1.00; floor 1.50) · slide 1.22 °/g (best 0.00, ×1.0) · TCS 0 % (best 0 %) → dry
+📊 strategy L17: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (9003 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 16 done: FL 4.7 FR 7.3 RL 5.2 RR 6.4 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 21
+🛞 crew: estimated finish lap 20
+🗣 bulletin (imp 6, cost 8.2s, ledger 8.2/20.4s, 2 lines): L17
+🔊 decent laptime
+🔊 1 point one slower than your best on this set
+🔊 on lap 17
+⏱ delta check L17 1/2: quiet — +1.90 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 14, refinement 3 — C 1.092 over 240 s (2330 samples)
+⏱ delta check L17 2/2: quiet — +2.99 s, on RH, best set on RS
+📋 lap 17: 1:31.377 clean fuel_used=0.00
+🛞 crew: tyre life RH — until L40 (23 left; worst 10 %, 3.8 %/lap biased)
+🔧 🌧 L17 GR3 on RH: peak 1.61 g (best 1.63, ×0.99; floor 1.50) · slide 1.20 °/g (best 1.22, ×1.0) · TCS 1 % (best 0 %) → dry
+🔵 lap 17: clean
+📊 strategy L18: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (9004 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 17 done: FL 7.0 FR 10.8 RL 7.9 RR 9.7 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 21
+🛞 crew: estimated finish lap 20
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L18
+🔊 keep those good laps coming
+🔊 that's lap 18
+🛞 compound: stint pitExit lap 14, refinement 4 — C 1.092 over 300 s (2872 samples)
+🛞 crew: tyre life said (mid-lap)
+🔊 racing hards will make it to the flag
+⏱ delta check L18 1/2: quiet — +1.37 s, on RH, best set on RS
+⏱ delta check L18 2/2: quiet — +2.37 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 14, refinement 5 — C 1.092 over 360 s (3590 samples)
+📋 lap 18: 1:30.675 clean fuel_used=0.00
+🛞 crew: tyre life RH — until L38 (20 left; worst 14 %, 4.0 %/lap biased)
+🔧 🌧 L18 GR3 on RH: peak 1.61 g (best 1.63, ×0.99; floor 1.50) · slide 1.28 °/g (best 1.20, ×1.1) · TCS 3 % (best 0 %) → dry
+🔵 lap 18: clean
+📊 strategy L19: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (9005 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 18 done: FL 9.5 FR 14.4 RL 10.5 RR 13.0 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 21
+🛞 crew: estimated finish lap 20
+🗣 bulletin (imp 6, cost 5.2s, ledger 5.2/20.4s, 2 lines): L19
+🔊 great lap
+🔊 30 point seven
+🔊 lap 19 now
+🛞 crew: tyre life said (mid-lap)
+🔊 tyres will last the race on racing hards
+⏱ delta check L19 1/2: quiet — +2.22 s, on RH, best set on RS
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🛞 compound: stint pitExit lap 14, refinement 6 — C 1.102 over 420 s (4108 samples)
+⏱ delta check L19 2/2: quiet — +3.38 s, on RH, best set on RS
+📋 lap 19: 1:31.664 clean fuel_used=0.00
+🔧 🌧 L19 GR3 on RH: peak 1.65 g (best 1.63, ×1.01; floor 1.50) · slide 1.45 °/g (best 1.20, ×1.2) · TCS 2 % (best 0 %) → dry
+🔵 lap 19: clean
+📊 strategy L20: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (9006 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 19 done: FL 12.1 FR 18.1 RL 13.2 RR 16.4 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 21
+🛞 crew: estimated finish lap 20
+🗣 bulletin (imp 6, cost 7.5s, ledger 7.5/20.4s, 2 lines): L20
+🔊 decent laptime
+🔊 1 31 point seven
+🔊 lap 20 will be the last lap
+🛞 compound: stint pitExit lap 14, refinement 7 — C 1.102 over 480 s (4678 samples)
+⏱ delta check L20 1/2: quiet — +1.41 s, on RH, best set on RS
+📊 strategy L20: clock 1800.0 s past 1800 with 30.0 s of the lap to run — final lap
+🏁 crew: clock call skipped — last lap said at the line
+⏱ delta check L20 2/2: quiet — +2.29 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 14, refinement 8 — C 1.102 over 540 s (5455 samples)
+📋 lap 20: 1:30.492 clean fuel_used=0.00
+🔧 🌧 L20 GR3 on RH: peak 1.63 g (best 1.65, ×0.99; floor 1.50) · slide 1.23 °/g (best 1.20, ×1.0) · TCS 0 % (best 0 %) → dry
+🔵 lap 20: clean
+📊 strategy: finish armed at L21 (clock 1830.4 s of 1800) — awaiting lap-clock freeze
+📊 strategy L21: no fuel model yet
+🚪 gate refined: Deep Forest Raceway/customRace/finishLine (9007 samples, σ 2.06 m, ±12 m, across -8.9…5.5 m)
+🛞 wear (test) lap 20 done: FL 14.5 FR 21.7 RL 15.9 RR 19.8 % — RH ×7 (tap)
+🛞 crew: estimated finish lap 21
+📊 strategy: race finished at L21 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+🗑 flag: pending commentary cancelled
+🛞 compound: stint pitExit lap 14, refinement 9 (final) — C 1.102 over 550 s (5565 samples)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): raceFinished(L21)
+# recap:   21 lap(s), 2 stop(s), P1/2, finished — filed in the sidecar
+💾 race preserved (finished): 21 lap(s), 2 stop(s), start ROLLING_START, P1/2
+✂️ capture auto-stop in 20s (race finished)
+🔊 that's race over
+🔧 session ended after lap 21
+🔒 learning paused — not the player driving (demo lap, replay or off track)
+🗑 flag: pending commentary cancelled
+🎮 replay handshake armed (off track, race context still valid: pos 1, cars 2)
+🔄 new session on the same connection — resetting track-scoped state
+🔧 race reset: lap-scoped state reset
+🌡 tyre bands: centre 76 °C (compound unknown, +0, race reset)
+🛞 crew wear gate: unknown
+🛞 crew: estimated finish lap unknown
+🛞 crew compound: unknown
+🧭 learned pool: 194 gate(s) from 419 stored, 72 pit exit(s)
+🚪 ⏸ gate learning held until identification confirms Deep Forest Raceway
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 15.0 s from the unofficial table (Deep Forest Raceway)
+📊 strategy: track pit loss 15.0 s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🅿️ no pit speaking budget for this track
+⛽ crew: fuel in use
+🎮 onTrack → replay (pkt 7384478, lap 0, flags 0x0018, pos 1, cars 2, tod 61620000)
+⏸ replay — race commentary suspended
+🔄 new session on the same connection — resetting track-scoped state
+🔧 race reset: lap-scoped state reset
+🚪 ⏸ gate learning held until identification confirms Deep Forest Raceway
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 15.0 s from the unofficial table (Deep Forest Raceway)
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🎮 replay → menus (pkt 7384597, lap 0, flags 0x0018, pos —, cars —, tod 61620000)
+▶️ replay ended — race commentary resumed
+🎮 back to the menus — ending the session
+🔧 race reset: lap-scoped state reset
+🚪 ⏸ gate learning held until identification confirms Deep Forest Raceway
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📊 pit loss: estimated 15.0 s from the unofficial table (Deep Forest Raceway)
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+🧭 polyline [MENU]: 27 candidate(s) dropped on direction — best of them Red Bull Ring median 31.80 (alignment -0.94)
+🧭 polyline [MENU]: Deep Forest Raceway fits (median 1.29 m) but on 172 m of road — waiting for 800 m
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 112150 packets

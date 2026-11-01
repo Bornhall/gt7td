@@ -1874,6 +1874,57 @@
       ]
     },
     {
+      "stem": "51-customRace-20261101_151931",
+      "courseId": 51,
+      "track": "Deep Forest Raceway",
+      "context": "customRace",
+      "carId": 2182,
+      "car": "McLaren 650S GT3 '15",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 112150,
+      "durationS": 1871.0,
+      "rawBytes": 41271200,
+      "gzBytes": 19950194,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 0,
+      "tyreWearMultiplier": 7,
+      "identifiedCourseId": 51,
+      "identifiedTrackName": "Deep Forest Raceway",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 7,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 14,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "boxExit"
+        }
+      ],
+      "tyreCompounds": [
+        "RS",
+        "RM",
+        "RH"
+      ]
+    },
+    {
       "stem": "51-lobby-20260831_203211",
       "courseId": 51,
       "track": "Deep Forest Raceway",
