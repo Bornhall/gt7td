@@ -5166,6 +5166,66 @@
       ]
     },
     {
+      "stem": "470-lobby-20261102_203057",
+      "courseId": 470,
+      "track": "Red Bull Ring",
+      "context": "lobby",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 327972,
+      "durationS": 5471.7,
+      "rawBytes": 120693696,
+      "gzBytes": 58627557,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 4,
+      "identifiedCourseId": 470,
+      "identifiedTrackName": "Red Bull Ring",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "startAnswer"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 9,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 21,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 36,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 48,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "boxExit"
+        }
+      ]
+    },
+    {
       "stem": "471-lobby-20260722_003008",
       "courseId": 471,
       "track": "Tsukuba Circuit",

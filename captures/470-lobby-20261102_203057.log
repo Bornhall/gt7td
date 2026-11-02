@@ -1,0 +1,1773 @@
+# EzioClient session log
+# file:    20261102_203057 - Red Bull Ring (470).gt7td
+# started: 2026-11-02T19:30:57Z
+# track:   Red Bull Ring (CRS 470)
+# context: lobby
+# ---
+🚪 ⏸ gate learning held until identification confirms Red Bull Ring
+# car:     Chevrolet Corvette C7 Gr.3 [Gr.3] (id 2183) — confirmed from telemetry
+🎮 entered → onTrack (pkt 1847297, lap 0, flags 0x0001, pos 5, cars 12, tod 36179792)
+🎮 onTrack → entered (pkt 1848239, lap 0, flags 0x0041, pos 6, cars 12, tod 36180000)
+🎮 entered → onTrack (pkt 1848348, lap 0, flags 0x0061, pos 6, cars 12, tod 36180000)
+🏁 start type: GRID_START at pkt 1848713 lap 0
+🔀 state UNKNOWN → RACING at pkt 1848713 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag (speed) at pkt 1848713, race clock running
+🗣 spoke (lapPace, imp 0, cost 3.4s, ledger 3.4/20.4s, 1 line): greenFlag
+🔊 green flag
+🔊 mind the first corner
+📋 lap 0: — clean fuel_used=0.58
+📊 strategy L1: no fuel model yet
+📐 plan L1 (57 to go): RM 8 · RS 12 · RS 12 · RS 12 · RS 12 · RH 1 — 5 stops, next: box L8 → RS | stop 23.5 s · fuel 8/16 laps · RH 94.2 s 33 laps, RM 93.5 s 25 laps, RS 91.5 s 12 laps
+🧭 learned (line): Red Bull Ring family, 2 layouts (Red Bull Ring, Red Bull Ring Short Track) — resolving at the fork
+🚪 ⏸ HELD lap1 gate until identification confirms Red Bull Ring (1 held)
+🛞 compound: window opened — raceStart, lap 1
+🧭 polyline [L1]: 23 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield B median 28.49 (alignment -0.87)
+🛞 compound prompt: race start, 6 s after the green flag (J184)
+🎤 crew asks: what tyres are we on?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for a compound (179 s, en-GB, on-device yes)
+🔊 what tyres are we on?
+🎤 mic -45 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🧭 polyline [L1]: 28 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield B median 23.05 (alignment -0.92)
+🎤 heard "Medium" → RM
+🎤 tyre answer by voice: RM
+🛞 compound prompt answered: RM
+🌡 tyre bands: centre 76 °C (RM, +0, tap)
+🛞 crew compound: RM
+🛞 crew compound: RM is sure
+📐 plan L1 (57 to go): RM 7 · RS 12 · RS 12 · RS 12 · RS 12 · RH 2 — 5 stops, next: box L7 → RS | stop 23.5 s · fuel 7/16 laps · RH 94.2 s 33 laps, RM 93.5 s 25 laps, RS 91.5 s 12 laps
+📐 crew: remember, we still need a set of racing softs and racing hards
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🔊 racing mediums
+🔊 got it
+🔊 remember
+🔊 we still need a set of racing softs and racing hards
+🧭 polyline [L1]: 22 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield B median 20.94 (alignment -0.84)
+🧭 polyline [L1]: 18 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield A median 26.93 (alignment -0.56)
+🧭 polyline [L1]: Red Bull Ring fits (median 4.52 m) but on 726 m of road — waiting for 800 m
+🧭 divergence: fork at 869 m on course 470 — 1 left (Red Bull Ring)
+🧭 divergence: resolved to Red Bull Ring
+🧭 identified: Red Bull Ring (CRS 470) — lap1, 32 sample(s), ±12 m
+🏁 announcing track: Red Bull Ring (CRS 470) from gates
+🛞 wear (test) v2r5 course 470: track factor FL 1.36 FR 1.41 RL 1.45 RR 1.44
+🗣 spoke (radio, imp 2, cost 2.1s, ledger 15.5/20.4s, 1 line): trackIdentified(Red Bull Ring, CRS 470)
+🗺 stored map loaded on identification (gates): course 470, 856 pts
+🚪 ▶️ gate learning released — identification agrees
+🚪 gate learned: Red Bull Ring/lobby/lap1 heading 171°
+🗑 dropped (debug speech 3 < 11): surveyGate(lap1, 22)
+🚪 ✅ flushed 1 parked gate(s) for Red Bull Ring — lap1
+📊 pit loss: measured 22.8 s
+📊 strategy: track pit loss 22.8 s
+🅿️ pit speaking budget 18.4s (entry to box)
+🔧 pit approach: entry at station 4105 m of 4280 m (22.6 m off the line), lead 20 s
+🔊 identified Red Bull Ring
+🛞 compound: H+ -0.094 reads road, but this is a Gr.3 car — racing assumed, locked for the race
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 3.3/20.4s, 1 line): compoundEstimate(raceStart, racing, medium)
+🔊 racing tyres
+🗣 chain (imp 4, cost 2.9s, ledger 6.2/20.4s, 3 events, 1 lines)
+🔊 keep it inside the white lines
+🛞 compound: racingMedium (medium confidence, C 0.92, margin 0.106, own reference)
+🛞 compound: RM confirmed by the driver — anchor
+🛞 compound: start answer RM given to the race-start window (estimate RM)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(raceStart, RM, medium)
+🔊 reads like racing mediums
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:40.648 first fuel_used=6.33
+🔵 lap 1 antics: off
+📊 strategy L2: fuel/lap 6.33, 6.9 laps of fuel, race length unknown — fuel horizon
+📐 plan L2 (56 to go): RM 6 · RS 12 · RS 12 · RS 12 · RS 12 · RH 2 — 5 stops, next: box L7 → RS | stop 23.5 s · fuel 6/15 laps · RH 94.2 s 33 laps, RM 93.5 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (67 samples, σ 0.55 m, ±12 m, across -0.4…0.8 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 67)
+🛞 wear (test) lap 1 done: FL 2.6 FR 2.7 RL 3.0 RR 2.7 % — RM ×4 (tap)
+🗣 bulletin (imp 6, cost 5.6s, ledger 7.7/20.4s, 2 lines): L2
+🔊 last lap was a 40 point six five
+🔊 lap 2
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.897 over 150 s (1450 samples)
+📋 lap 2: 1:31.534 clean fuel_used=6.05
+🔵 lap 2: clean
+🔧 🌧 L2 GR3 on RM: peak 1.63 g (best 0.00, ×1.00; floor 1.50) · slide 1.29 °/g (best 0.00, ×1.0) · TCS 7 % (best 0 %) → dry
+📊 laps-left model: elapsed 191.4 s, remaining 5208.6 s, median lap 91.5 s -> 55 (no-stop 57, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L3: fuel/lap 6.19 | fuel 37.3 = 6.0 laps | 55.0 laps to go | stops 4
+📐 plan L3 (55 to go): RM 6 · RS 12 · RS 12 · RS 12 · RS 12 · RH 1 — 5 stops, next: box L8 → RS | stop 23.5 s · fuel 6/16 laps · RH 94.2 s 33 laps, RM 93.5 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (68 samples, σ 0.55 m, ±12 m, across -0.4…0.8 m)
+🗺 mapper: learned lap 2 (91.534 s, 4295 m, 859 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(2, 91534 ms, 859 pts)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 4.0/20.4s, 1 line): surveyComplete(3 optional missing)
+🔊 we've got the essentials
+🗺 lap 2 (91.534 s) not stored — the stored map's lap is faster (91.430 s)
+🛞 wear (test) lap 2 done: FL 6.0 FR 5.9 RL 6.1 RR 5.4 % — RM ×4 (tap)
+⏱ class lap kept: Red Bull Ring/lobby/Gr.3 → 1:31.534 (2/10 laps, 2 car(s), avg 1:31.482)
+⏱ compound best RM: 91.534 s
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L3/L8/L8, stops 4) | fuelStatus(extendStint, 6, 55 to go, 6.03 fuel-laps) | pitWindowState(openTargetAhead, now L3, L3/L8/L8, stops 4, close) | pitStopsToGo(4, 55 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L3/L8/L8, stops 4)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 6, 55 to go, 6.03 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openTargetAhead, now L3, L3/L8/L8, stops 4, close)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(4, 55 to go)
+🔊 3 optional to go
+🗣 bulletin (imp 2, cost 4.3s, ledger 8.3/20.4s, 2 lines): L3
+🔊 personal best
+🔊 that's lap 3
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.03L, togo 55, stops 4)
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.917 over 210 s (1839 samples)
+⏱ delta check L3 1/2: quiet — -0.02 s, under ±0.2 s
+⏱ delta check L3 2/2: quiet — +0.12 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.917 over 270 s (2460 samples)
+📋 lap 3: 1:31.460 clean fuel_used=6.18
+🛞 crew: tyre life RM — until L30 (27 left; worst 9 %, 3.3 %/lap biased)
+🔵 lap 3: clean
+🔧 🌧 L3 GR3 on RM: peak 1.65 g (best 1.63, ×1.01; floor 1.50) · slide 1.08 °/g (best 1.29, ×0.8) · TCS 12 % (best 7 %) → dry
+📊 laps-left model: elapsed 282.8 s, remaining 5117.2 s, median lap 91.5 s -> 54 (no-stop 56, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L4: fuel/lap 6.18 | fuel 31.2 = 5.0 laps | 54.0 laps to go | stops 4
+📐 plan L4 (54 to go): RM 5 · RS 12 · RS 12 · RS 12 · RS 12 · RH 1 — 5 stops, next: box L8 → RS | stop 23.5 s · fuel 5/16 laps · RH 94.2 s 33 laps, RM 93.5 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (69 samples, σ 0.54 m, ±12 m, across -0.4…0.8 m)
+📐 crew: 5 laps to the stop, racing softs next
+🗺 mapper: learned lap 3 (91.460 s, 4295 m, 859 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(3, 91460 ms, 859 pts)
+🗺 lap 3 (91.460 s) not stored — the stored map's lap is faster (91.430 s)
+🛞 wear (test) lap 3 done: FL 9.5 FR 9.5 RL 9.2 RR 8.0 % — RM ×4 (tap)
+⏱ class lap kept: Red Bull Ring/lobby/Gr.3 → 1:31.460 (3/10 laps, 2 car(s), avg 1:31.474)
+⏱ compound best RM: 91.460 s
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 5, 54 to go, 5.04 fuel-laps)
+🔊 5 laps to the stop
+🗣 bulletin (imp 2, cost 6.0s, ledger 10.0/20.4s, 2 lines): L4
+🔊 racing softs next
+🔊 personal best
+🔊 point one quicker
+🔊 on lap 4
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.04L, togo 54, stops 4)
+🛞 crew: tyre life said (mid-lap)
+🔊 racing mediums
+🔊 27 more laps in them
+🔊 so lap 30
+⏱ delta check L4 1/2: quiet — -0.00 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.907 over 330 s (2984 samples)
+⏱ delta check L4 2/2: quiet — -0.10 s, under ±0.2 s
+📋 lap 4: 1:31.611 clean fuel_used=6.22
+🛞 crew: tyre life RM — until L27 (23 left; worst 13 %, 3.7 %/lap biased)
+🔵 lap 4: clean
+🔧 🌧 L4 GR3 on RM: peak 1.67 g (best 1.65, ×1.01; floor 1.50) · slide 1.14 °/g (best 1.08, ×1.1) · TCS 8 % (best 7 %) → dry
+📊 laps-left model: elapsed 374.4 s, remaining 5025.6 s, median lap 91.5 s -> 53 (no-stop 55, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L5: fuel/lap 6.20 | fuel 24.9 = 4.0 laps | 53.0 laps to go | stops 4
+🗣 spoke (position, imp 4, cost 3.1s, ledger 3.1/20.4s, 1 line): positionChange(P3→P2)
+📐 plan L5 (53 to go): RM 4 · RS 12 · RH 1 · RS 12 · RS 12 · RS 12 — 5 stops, next: box L8 → RS | stop 23.5 s · fuel 4/16 laps · RH 92.2 s 33 laps, RM 91.5 s 25 laps, RS 89.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (70 samples, σ 0.55 m, ±12 m, across -0.4…0.8 m)
+🛞 wear (test) lap 4 done: FL 13.1 FR 12.9 RL 12.3 RR 10.7 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 4, 53 to go, 4.02 fuel-laps)
+🔊 great driving
+🔊 that's 1 place gained
+🗣 bulletin (imp 6, cost 6.7s, ledger 9.8/20.4s, 2 lines): L5
+🔊 great lap
+🔊 point two down on your best lap
+🔊 lap 5 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.02L, togo 53, stops 4)
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.917 over 390 s (3569 samples)
+🛞 crew: tyre life said (mid-lap)
+🔊 these racing mediums should last to lap 27
+⏱ delta check L5 1/2: +0.22 s
+🔊 point two down on your best
+⏱ delta check L5 2/2: +0.25 s
+🔊 you're point three down
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.907 over 450 s (4221 samples)
+📋 lap 5: 1:31.386 clean fuel_used=6.19
+🔵 lap 5: clean
+🔧 🌧 L5 GR3 on RM: peak 1.65 g (best 1.67, ×0.99; floor 1.50) · slide 1.24 °/g (best 1.08, ×1.1) · TCS 8 % (best 7 %) → dry
+📊 laps-left model: elapsed 465.8 s, remaining 4934.2 s, median lap 91.5 s -> 52 (no-stop 54, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L6: fuel/lap 6.19 | fuel 18.8 = 3.0 laps | 52.0 laps to go | stops 4
+📐 plan L6 (52 to go): RM 3 · RS 12 · RS 12 · RS 12 · RS 12 · RH 1 — 5 stops, next: box L8 → RS | stop 23.5 s · fuel 3/16 laps · RH 92.2 s 33 laps, RM 91.5 s 25 laps, RS 89.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (71 samples, σ 0.54 m, ±12 m, across -0.4…0.8 m)
+📐 crew: box in 3 laps — racing softs next
+🗺 mapper: learned lap 5 (91.386 s, 4285 m, 857 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(5, 91386 ms, 857 pts)
+🗺 frame vs customRace: median 1.0 m, centroid offset 0.3 m
+🗺 frame vs no context: median 1.8 m, centroid offset 1.2 m
+🗺 survey stored → 470.trackmap.json (lap 5, 91.386 s)
+🛞 wear (test) lap 5 done: FL 16.9 FR 16.4 RL 15.5 RR 13.4 % — RM ×4 (tap)
+⏱ class lap BEST: Red Bull Ring/lobby/Gr.3 → 1:31.386 (4/10 laps, 2 car(s), avg 1:31.452)
+⏱ compound best RM: 91.386 s
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 3, 52 to go, 3.03 fuel-laps) | pitWindowState(openTargetAhead, now L6, L6/L8/L8, stops 4, close)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 3, 52 to go, 3.03 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openTargetAhead, now L6, L6/L8/L8, stops 4, close)
+🔊 box in 3 laps
+🗣 bulletin (imp 2, cost 7.2s, ledger 11.2/20.4s, 2 lines): L6
+🔊 racing softs next
+🔊 new fastest lap
+🔊 1 31 point four
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🔊 on lap 6
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 3.03L, togo 52, stops 4)
+⏱ delta check L6 1/2: -0.21 s
+🔊 point two up on your best
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.907 over 510 s (4596 samples)
+⏱ delta check L6 2/2: quiet — -0.12 s, under ±0.2 s
+📋 lap 6: 1:31.353 clean fuel_used=6.16
+🔵 lap 6: clean
+🔧 🌧 L6 GR3 on RM: peak 1.65 g (best 1.67, ×0.99; floor 1.50) · slide 1.17 °/g (best 1.08, ×1.1) · TCS 8 % (best 7 %) → dry
+📊 laps-left model: elapsed 557.2 s, remaining 4842.8 s, median lap 91.5 s -> 51 (no-stop 53, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L7: fuel/lap 6.18 | fuel 12.6 = 2.0 laps | 51.0 laps to go | stops 4
+📐 plan L7 (51 to go): RM 2 · RS 12 · RS 12 · RS 12 · RS 12 · RH 1 — 5 stops, next: box L8 → RS | stop 23.5 s · fuel 2/16 laps · RH 92.2 s 33 laps, RM 91.5 s 25 laps, RS 89.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (72 samples, σ 0.54 m, ±12 m, across -0.4…0.8 m)
+🗺 mapper: learned lap 6 (91.353 s, 4300 m, 860 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(6, 91353 ms, 860 pts)
+🗺 frame vs customRace: median 0.9 m, centroid offset 1.1 m
+🗺 frame vs no context: median 2.1 m, centroid offset 0.8 m
+🗺 survey stored → 470.trackmap.json (lap 6, 91.353 s)
+🛞 wear (test) lap 6 done: FL 20.6 FR 20.0 RL 18.6 RR 16.1 % — RM ×4 (tap)
+⏱ class lap BEST: Red Bull Ring/lobby/Gr.3 → 1:31.353 (4/10 laps, 2 car(s), avg 1:31.407)
+⏱ compound best RM: 91.353 s
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 2, 51 to go, 2.04 fuel-laps)
+🗣 bulletin (imp 2, cost 9.8s, ledger 9.8/20.4s, 2 lines): L7
+🔊 new fastest lap by a slight margin
+🔊 1 31 point three five three
+🔊 lap 7 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 2.04L, togo 51, stops 4)
+🛞 compound: stint raceStart lap 1, refinement 8 — C 0.907 over 570 s (5265 samples)
+⏱ delta check L7 1/2: quiet — -0.00 s, under ±0.2 s
+⏱ delta check L7 2/2: -0.38 s
+🔊 you're point four up
+🛞 compound: stint raceStart lap 1, refinement 9 — C 0.907 over 630 s (5892 samples)
+📋 lap 7: 1:31.077 clean fuel_used=6.08
+🛞 crew: tyre life RM — until L26 (19 left; worst 24 %, 3.9 %/lap biased)
+🔵 lap 7: clean
+🔧 🌧 L7 GR3 on RM: peak 1.67 g (best 1.67, ×1.00; floor 1.50) · slide 1.20 °/g (best 1.08, ×1.1) · TCS 9 % (best 7 %) → dry
+📊 laps-left model: elapsed 648.3 s, remaining 4751.7 s, median lap 91.4 s -> 50 (no-stop 52, pit loss 22.8 s, rate 3 l/s)
+🗣 spoke (position, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): positionChange(P2→P1)
+📊 strategy L8: fuel/lap 6.18 | fuel 6.5 = 1.1 laps | 50.0 laps to go | stops 4
+📊 strategy L8: box confirmed at 70% (1.1 laps of fuel, was 1.1 at the crossing)
+🗑 dropped (the planner owns the pit calls): pitWindowState(atLatest, now L8, —/L8/L8, stops 4, close)
+📐 plan L8 (50 to go): RM 1 · RS 12 · RS 12 · RS 12 · RS 12 · RH 1 — 5 stops, next: box L8 → RS | stop 23.5 s · fuel 1/16 laps · RH 92.1 s 33 laps, RM 91.4 s 25 laps, RS 89.4 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (73 samples, σ 0.54 m, ±12 m, across -0.4…0.8 m)
+📐 crew: box this lap — racing softs next
+📐 crew: add 77 litres, that's 12 laps
+🗺 mapper: learned lap 7 (91.077 s, 4285 m, 857 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(7, 91077 ms, 857 pts)
+🗺 frame vs customRace: median 1.5 m, centroid offset 0.2 m
+🗺 frame vs no context: median 1.7 m, centroid offset 0.9 m
+🗺 survey stored → 470.trackmap.json (lap 7, 91.077 s)
+🛞 wear (test) lap 7 done: FL 24.6 FR 23.8 RL 21.8 RR 18.8 % — RM ×4 (tap)
+⏱ class lap BEST: Red Bull Ring/lobby/Gr.3 → 1:31.077 (4/10 laps, 2 car(s), avg 1:31.311)
+⏱ compound best RM: 91.077 s
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(—/L8/L8, stops 4) | fuelStatus(extendStint, 1, 50 to go, 1.05 fuel-laps) | pitStopsToGo(4, 50 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(—/L8/L8, stops 4)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 1, 50 to go, 1.05 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(4, 50 to go)
+🔊 you are in the lead
+🔊 box this lap
+🗣 bulletin (imp 2, cost 5.6s, ledger 14.7/20.4s, 2 lines): L8
+🔊 racing softs next
+🗑 dropped (the planner owns the pit calls): boxThisLap(1.05 laps fuel)
+🔊 add 77 litres
+🔊 that's 12 laps
+🔊 personal best
+🔊 point three quicker
+🔊 lap 8
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 1.05L, togo 50, stops 4)
+🛞 crew: tyre life said (mid-lap)
+🔊 around 19 more laps on these racing mediums
+⏱ delta check L8 1/2: -0.25 s
+🔊 point two up so far
+🛞 compound: stint raceStart lap 1, refinement 10 — C 0.907 over 690 s (6311 samples)
+⏱ delta check L8 2/2: -0.28 s
+🔊 point three up on your best
+🔧 box reminder fired: 935 m (19.6 s) before pit entry, polyline anchor, lap 8
+📐 crew: box, box — racing softs
+📐 crew: add 77 litres
+🔊 box
+🔊 box
+🔊 racing softs
+🔊 add 77 litres
+🔧 huge stop 164 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 1892960 lap 8
+🔵 sub-state FLYING → — lap 8
+🔧 pit-entry anchor learned: 89947 ms into lap (stop on lap 8)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 3 more
+📊 laps-left model: elapsed 738.2 s, remaining 4661.8 s, median lap 91.4 s -> 49 (no-stop 51, pit loss 22.8 s, rate 3 l/s)
+📊 strategy: refuel still needed — 0.1 laps of fuel against 49 to go (need 52.5 with margin)
+🚪 gate refined: Red Bull Ring/lobby/pitEntry (23 samples, σ 0.04 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 5.5/20.4s, 1 line, protected): pittingIn(L8)
+🗑 dropped (in pit): surveyGate(pitEntry, 23)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🔊 box box
+📋 lap 8: 1:45.473 in fuel_used=5.62
+🔵 lap 8: clean
+📐 plan L9: in the pit lane — planned after the stop
+🗑 dropped (in pit): lapStarted(9, last 105.47s)
+🗺 mapper: lap 8 rejected (pit)
+🛞 wear (test) lap 8 done: FL 28.1 FR 27.1 RL 24.9 RR 21.3 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 compound prompt: box exit lap 9, declared none — on screen; asked aloud with the estimate
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 59
+📊 laps-left model: elapsed 756.5 s, remaining 4643.5 s, median lap 91.4 s -> 49 (no-stop 51, pit loss 22.8 s, rate 3 l/s)
+📊 strategy: refuel target 49 capped to tank (16.2 laps of capacity)
+🗑 dropped (box deadline; cost 1.6s, 0.0s of 18.4s left): inPitBox
+🗑 dropped (the planner owns the pit calls): refuelTarget(16 laps)
+🛞 wear (test): all four tyres at 60.00 °C on lap 9 — new set (J116)
+🛞 wear (test) stint 0 ended at tyre change: FL 28.1 FR 27.1 RL 24.9 RR 21.3 % — RM ×4 (tap)
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew compound: unknown
+🛞 crew wear gate: unknown
+🛞 compound prompt answered: RS
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 crew compound: RS
+🛞 crew compound: RS is sure
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🛞 compound: stint raceStart lap 1, refinement 11 (final) — C 0.907 over 734 s (6900 samples)
+🛞 compound: stale window (RM, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 9
+🛞 compound: track scale 0.992 (course 470) — C is read ÷ 0.992
+🔀 state PIT → RACING at pkt 1896112 lap 9
+🔵 sub-state — → OUT_LAP lap 9
+🅿️ PIT completed: in L8 → out L9 (+80.8 fuel, transit 55.9s, teleport=false)
+🚪 gate refined: Red Bull Ring/lobby/pitBox (23 samples, σ 0.03 m, ±0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 23)
+🅿️ entry→box 21.7s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 4105 m of 4280 m (22.6 m off the line), lead 20 s
+🔧 teleport 112 m on lap 9 — pit release, not a reset
+📊 laps-left model: elapsed 790.8 s, remaining 4609.2 s, median lap 91.4 s -> 49 (no-stop 51, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L9: fuel/lap 6.18 | fuel 81.7 = 13.2 laps | 49.0 laps to go | stops 3
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 1.6/20.4s, 1 line, protected): exitingPit(+80.82l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(inferred)
+📐 plan L9 (49 to go): RS 12 · RS 12 · RS 12 · RS 12 · RH 1 — 4 stops, next: box L20 → RS | stop 23.5 s · fuel 13/16 laps · RH 92.1 s 33 laps, RM 91.4 s 25 laps, RS 89.4 s 12 laps
+📐 crew: plan change: box end of lap 20 for racing softs
+🚪 gate refined: Red Bull Ring/lobby/pitExit (23 samples, σ 0.03 m, ±12 m, across 0.0…0.0 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(pitExit, 23)
+🗣 spoke (radio, imp 0, cost 2.1s, ledger 8.5/20.4s, 1 line): surveyComplete(0 optional missing)
+📊 laps-left model: elapsed 790.8 s, remaining 4586.4 s, median lap 91.4 s -> 49 (no-stop 51, pit loss 22.8 s, rate 3 l/s), out-lap -22.8s
+📊 strategy L9: fuel/lap 6.18 | fuel 81.7 = 13.2 laps | 49.0 laps to go | stops 3 (post-stop recalc)
+📐 crew: you still owe a stint on racing hards
+🔧 fresh tyres confirmed: 60.0° across all four (was 69.1° at pit entry, step 9.1°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via tyres x0.50): freshTyres(confirmed 59.99°)
+📋 strategy burst: 5 event(s), releasing best-first — pitWindow(L12/L12/L21, stops 3) | strategyUpdate(fuel 13.23L, togo 49, stops 3) | strategyUpdate(fuel 13.23L, togo 49, stops 3, post-stop) | pitWindowState(beforeOpen, now L9, L12/L12/L21, stops 3) | pitStopsToGo(3, 49 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L12/L12/L21, stops 3)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 13.23L, togo 49, stops 3)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 13.23L, togo 49, stops 3, post-stop)
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L9, L12/L12/L21, stops 3)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(3, 49 to go)
+🔊 tyres are cold
+🔊 plan change
+🔊 box end of lap 20 for racing softs
+🔊 survey complete
+🔊 everything recorded
+🔊 you still owe a stint on racing hards
+🛞 compound: racingSoft (high confidence, C 0.83, margin 0.056, relative to RM (truth), own reference)
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: box-exit answer RS given to the pit-exit window (estimate RS)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(pitExit, RS, high)
+🔵 sub-state OUT_LAP → FLYING lap 10
+📋 lap 9: 2:06.324 out fuel_used=6.02
+🔵 lap 9: clean
+📊 laps-left model: elapsed 880.0 s, remaining 4520.0 s, median lap 91.4 s -> 48 (no-stop 50, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L10: fuel/lap 6.17 | fuel 75.7 = 12.3 laps | 48.0 laps to go | stops 3
+📐 stop measured L8/9: 22.0 s (in 105.47 + out 126.32 − 2 × 91.42 − 80.8 L ÷ 3.0 L/s) — planning with 22.0 s
+🗣 spoke (position, imp 4, cost 4.4s, ledger 6.0/20.4s, 1 line): positionChange(P1→P2)
+📐 plan L10 (48 to go): RS 11 · RS 12 · RS 12 · RS 12 · RH 1 — 4 stops, next: box L20 → RS | stop 22.0 s · fuel 12/16 laps · RH 92.1 s 33 laps, RM 91.4 s 25 laps, RS 89.4 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (74 samples, σ 0.54 m, ±12 m, across -0.4…0.8 m)
+🗺 mapper: lap 9 rejected (teleport)
+🛞 wear (test) lap 9 done: FL 5.6 FR 6.0 RL 6.1 RR 5.5 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🔊 probably racing softs
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L10, L12/L12/L21, stops 3)
+🗣 bulletin (imp 6, cost 1.8s, ledger 7.8/20.4s, 1 line): L10
+🔊 down to P 2
+🔊 head down
+🔊 get it back
+🔊 lap 10 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 12.27L, togo 48, stops 3)
+⏱ delta check L10 1/2: -0.35 s
+🔊 point four up
+🛞 compound: stint pitExit lap 9, refinement 1 — C 0.825 over 150 s (1693 samples)
+⏱ delta check L10 2/2: -0.83 s
+🔊 you're point eight up
+📋 lap 10: 1:29.779 clean fuel_used=6.21
+🔵 lap 10: clean
+🔧 🌧 L10 GR3 on RS: peak 1.77 g (best 0.00, ×1.00; floor 1.50) · slide 1.04 °/g (best 0.00, ×1.0) · TCS 5 % (best 0 %) → dry
+📊 laps-left model: elapsed 969.8 s, remaining 4430.2 s, median lap 91.4 s -> 47 (no-stop 49, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L11: fuel/lap 6.17 | fuel 69.5 = 11.3 laps | 47.0 laps to go | stops 3
+📐 plan L11 (47 to go): RS 10 · RS 12 · RS 12 · RS 12 · RH 1 — 4 stops, next: box L20 → RS | stop 22.0 s · fuel 11/16 laps · RH 92.1 s 33 laps, RM 91.4 s 25 laps, RS 89.4 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (75 samples, σ 0.54 m, ±12 m, across -0.4…0.8 m)
+🗺 mapper: learned lap 10 (89.779 s, 4285 m, 857 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(10, 89779 ms, 857 pts)
+🗺 frame vs customRace: median 1.8 m, centroid offset 0.2 m
+🗺 frame vs no context: median 1.1 m, centroid offset 0.8 m
+🗺 survey stored → 470.trackmap.json (lap 10, 89.779 s)
+🛞 wear (test) lap 10 done: FL 13.5 FR 13.8 RL 12.6 RR 11.1 % — RS ×4 (tap)
+⏱ class lap BEST: Red Bull Ring/lobby/Gr.3 → 1:29.779 (4/10 laps, 2 car(s), avg 1:30.909)
+⏱ compound best RS: 89.779 s
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🗣 bulletin (imp 2, cost 9.6s, ledger 9.6/20.4s, 2 lines): L11
+🔊 great lap
+🔊 a big improvement
+🔊 1 point three up on your previous best
+🔊 lap 11
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 11.26L, togo 47, stops 3)
+🛞 compound: stint pitExit lap 9, refinement 2 — C 0.825 over 210 s (2071 samples)
+⏱ delta check L11 1/2: quiet — +0.07 s, under ±0.2 s
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+⏱ delta check L11 2/2: quiet — +0.02 s, under ±0.2 s
+🛞 compound: stint pitExit lap 9, refinement 3 — C 0.825 over 270 s (2577 samples)
+📋 lap 11: 1:30.150 clean fuel_used=6.04
+🛞 crew: tyre life RS — until L19 (8 left; worst 22 %, 8.8 %/lap biased)
+🔵 lap 11: clean
+🔧 🌧 L11 GR3 on RS: peak 1.79 g (best 1.77, ×1.01; floor 1.50) · slide 1.04 °/g (best 1.04, ×1.0) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 1060.0 s, remaining 4340.0 s, median lap 91.4 s -> 46 (no-stop 48, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L12: fuel/lap 6.17 | fuel 63.4 = 10.3 laps | 46.0 laps to go | stops 3
+📐 plan L12 (46 to go): RS 9 · RS 12 · RS 12 · RS 12 · RH 1 — 4 stops, next: box L20 → RS | stop 22.0 s · fuel 10/16 laps · RH 92.1 s 33 laps, RM 91.4 s 25 laps, RS 89.4 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (76 samples, σ 0.54 m, ±12 m, across -0.4…0.8 m)
+🛞 wear (test) lap 11 done: FL 21.4 FR 22.4 RL 19.0 RR 16.7 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L12, L12/L12/L21, stops 3)
+🗣 bulletin (imp 6, cost 7.1s, ledger 7.1/20.4s, 2 lines): L12
+🔊 that was a great lap
+🔊 1 30 point two
+🔊 lap 12 now
+🎭 mood relaxed → focused
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 10.28L, togo 46, stops 3)
+🎭 mood focused → concerned
+🗣 chain (imp 2, cost 2.9s, ledger 10.0/20.4s, 6 events, 1 lines)
+🔊 messy moment
+🔊 take a breath
+🗑 speaker: stale, not spoken: "📻 out"
+🛞 crew: tyre life said (mid-lap)
+🔊 around 8 more laps on these racing softs
+⏱ delta check L12 1/2: +9.90 s
+🔊 10 seconds down on your best
+🎭 mood concerned → focused
+🌧 crew: 3 traction calls in 45 s on slicks — rain?
+🌧 asking the driver about rain — traction burst on slicks
+🎤 crew asks: is it starting to rain?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is it starting to rain?
+🗣 chain (imp 6, cost 4.6s, ledger 7.1/20.4s, 1 events, 1 lines)
+⏸ held (question open): you're working the tcs hard — smoother on the exits
+🎤 mic -47 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🛞 compound: stint pitExit lap 9, refinement 4 — C 0.825 over 330 s (3019 samples)
+⏱ delta check L12 2/2: quiet — +11.03 s, ±10 s or more
+🎤 heard "No" → dry
+▶️ released 1 held call(s) — question closed
+🌧 driver: dry
+🗑 speaker: stale, not spoken: "📻 in"
+🗑 speaker: stale, not spoken: "you're working the tcs hard"
+🗑 speaker: stale, not spoken: "smoother on the exits"
+🗑 speaker: stale, not spoken: "📻 out"
+🔊 okay
+🔊 dry then
+📋 lap 12: 1:41.545 clean fuel_used=6.22
+🔵 lap 12 antics: contact, off
+📊 laps-left model: elapsed 1161.5 s, remaining 4238.5 s, median lap 91.4 s -> 45 (no-stop 47, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L13: fuel/lap 6.18 | fuel 57.2 = 9.3 laps | 45.0 laps to go | stops 3
+🗣 spoke (position, imp 4, cost 1.4s, ledger 1.4/20.4s, 1 line): positionChange(P2→P5)
+📐 plan L13 (45 to go): RS 8 · RS 12 · RS 12 · RS 12 · RH 1 — 4 stops, next: box L20 → RS | stop 22.0 s · fuel 9/16 laps · RH 92.5 s 33 laps, RM 91.4 s 25 laps, RS 90.2 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (77 samples, σ 0.54 m, ±12 m, across -0.4…0.8 m)
+🛞 wear (test) lap 12 done: FL 28.8 FR 29.9 RL 25.7 RR 22.1 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🔊 P 5
+🗣 bulletin (imp 6, cost 6.5s, ledger 7.9/20.4s, 2 lines): L13
+🔊 the incidents cost you around 12 seconds last lap
+🔊 that's lap 13
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 9.26L, togo 45, stops 3)
+🛞 compound: stint pitExit lap 9, refinement 5 — C 0.825 over 390 s (3476 samples)
+⏱ delta check L13 1/2: +0.81 s
+🔊 point eight down so far
+🗣 chain (imp 6, cost 2.1s, ledger 4.6/20.4s, 1 events, 1 lines)
+🔊 smooth on the exits
+⏱ delta check L13 2/2: +1.17 s
+🔊 1 point two down
+🛞 compound: stint pitExit lap 9, refinement 6 — C 0.815 over 450 s (4240 samples)
+📋 lap 13: 1:31.117 clean fuel_used=6.10
+🎭 mood focused → relaxed
+🔧 🌧 L13 GR3 on RS: peak 1.75 g (best 1.79, ×0.98; floor 1.50) · slide 1.00 °/g (best 1.04, ×1.0) · TCS 10 % (best 5 %) → dry
+🔵 lap 13: clean
+📊 laps-left model: elapsed 1252.6 s, remaining 4147.4 s, median lap 91.2 s -> 44 (no-stop 46, pit loss 22.8 s, rate 3 l/s)
+🗣 spoke (position, imp 4, cost 3.5s, ledger 3.5/20.4s, 1 line): positionChange(P5→P3)
+📊 strategy L14: fuel/lap 6.13 | fuel 51.1 = 8.3 laps | 44.0 laps to go | stops 3
+📐 plan L14 (44 to go): RS 7 · RS 12 · RH 1 · RS 12 · RS 12 — 4 stops, next: box L20 → RS | stop 22.0 s · fuel 8/16 laps · RH 92.7 s 33 laps, RM 91.4 s 25 laps, RS 90.6 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (78 samples, σ 0.54 m, ±12 m, across -0.4…0.8 m)
+🛞 wear (test) lap 13 done: FL 37.0 FR 38.5 RL 32.3 RR 27.7 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🔊 up to P 3
+📋 strategy burst: 2 event(s), releasing best-first — pitStopsToGo(3, 44 to go) | fuelStatus(lapsToGo, 8, 44 to go, 8.34 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(3, 44 to go)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 8, 44 to go, 8.34 fuel-laps)
+🔊 keep it clean
+🗣 bulletin (imp 6, cost 7.3s, ledger 10.9/20.4s, 2 lines): L14
+🔊 decent lap
+🔊 1 point three down on your best lap
+🔊 lap 14 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.34L, togo 44, stops 3)
+⏱ delta check L14 1/2: quiet — +0.13 s, under ±0.2 s
+🛞 compound: stint pitExit lap 9, refinement 7 — C 0.815 over 510 s (4755 samples)
+⏱ delta check L14 2/2: +0.53 s
+🔊 you're point five down
+📋 lap 14: 1:30.401 clean fuel_used=6.23
+🔧 🌧 L14 GR3 on RS: peak 1.75 g (best 1.79, ×0.98; floor 1.50) · slide 1.09 °/g (best 1.00, ×1.1) · TCS 9 % (best 5 %) → dry
+🛞 crew: tyre life RS — until L19 (5 left; worst 46 %, 8.8 %/lap biased)
+🔵 lap 14: clean
+📊 laps-left model: elapsed 1343.0 s, remaining 4057.0 s, median lap 91.1 s -> 43 (no-stop 45, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L15: fuel/lap 6.13 | fuel 44.9 = 7.3 laps | 43.0 laps to go | stops 3
+📐 plan L15 (43 to go): RS 6 · RS 12 · RH 1 · RS 12 · RS 12 — 4 stops, next: box L20 → RS | stop 22.0 s · fuel 7/16 laps · RH 92.6 s 33 laps, RM 91.4 s 25 laps, RS 90.4 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (79 samples, σ 0.55 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 14 done: FL 45.2 FR 46.4 RL 38.9 RR 33.3 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L15, L15/L15/L21, stops 3) | fuelStatus(lapsToGo, 7, 43 to go, 7.32 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L15, L15/L15/L21, stops 3)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 7, 43 to go, 7.32 fuel-laps)
+🗣 bulletin (imp 6, cost 6.7s, ledger 6.7/20.4s, 2 lines): L15
+🔊 that was a good lap
+🔊 1 30 point four
+🔊 lap 15
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.32L, togo 43, stops 3)
+🛞 compound: stint pitExit lap 9, refinement 8 — C 0.825 over 570 s (5237 samples)
+🛞 crew: tyre life said (mid-lap)
+🔊 these racing softs should last to lap 19
+⏱ delta check L15 1/2: +0.41 s
+🔊 point four down so far
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+⏱ delta check L15 2/2: +0.99 s
+🔊 1 point oh down on your best
+🛞 compound: stint pitExit lap 9, refinement 9 — C 0.825 over 630 s (5993 samples)
+📋 lap 15: 1:31.513 clean fuel_used=6.11
+🔧 🌧 L15 GR3 on RS: peak 1.71 g (best 1.79, ×0.96; floor 1.50) · slide 1.09 °/g (best 1.00, ×1.1) · TCS 7 % (best 5 %) → dry
+🔵 lap 15: clean
+📊 laps-left model: elapsed 1434.6 s, remaining 3965.4 s, median lap 91.1 s -> 42 (no-stop 44, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L16: fuel/lap 6.11 | fuel 38.8 = 6.3 laps | 42.0 laps to go | stops 3
+🗣 spoke (position, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): positionChange(P3→P1)
+📐 plan L16 (42 to go): RS 5 · RS 12 · RS 12 · RS 12 · RH 1 — 4 stops, next: box L20 → RS | stop 22.0 s · fuel 6/16 laps · RH 92.8 s 33 laps, RM 91.4 s 25 laps, RS 90.8 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (80 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+📐 crew: 5 laps to the stop, racing softs next
+🛞 wear (test) lap 15 done: FL 52.8 FR 53.8 RL 45.2 RR 38.7 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 6, 42 to go, 6.35 fuel-laps)
+🔊 you're in the lead
+🔊 5 laps to the stop
+🗣 bulletin (imp 6, cost 6.5s, ledger 12.5/20.4s, 2 lines): L16
+🔊 racing softs next
+🔊 decent laptime
+🔊 1 point seven off your best
+🔊 lap 16 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.35L, togo 42, stops 3)
+⏱ delta check L16 1/2: +0.33 s
+🔊 you're point three down
+🛞 compound: stint pitExit lap 9, refinement 10 — C 0.825 over 690 s (6388 samples)
+⏱ delta check L16 2/2: +0.91 s
+🔊 point nine down
+📋 lap 16: 1:31.034 clean fuel_used=6.11
+🔵 lap 16: clean
+🔧 🌧 L16 GR3 on RS: peak 1.71 g (best 1.79, ×0.96; floor 1.50) · slide 0.98 °/g (best 1.00, ×1.0) · TCS 10 % (best 5 %) → dry
+📊 laps-left model: elapsed 1525.6 s, remaining 3874.4 s, median lap 91.1 s -> 41-43 (no-stop 43, pit loss 22.8 s, rate 3 l/s, fuel-decisive, tyre-decisive)
+📊 strategy L17: fuel/lap 6.11 | fuel 32.6 = 5.3 laps | 43.0 laps to go | stops 3
+📐 plan L17 (43 to go): RS 4 · RM 16 · RM 16 · RH 7 — 3 stops, next: box L20 → RM | stop 22.0 s · fuel 5/16 laps · RH 92.9 s 33 laps, RM 91.4 s 25 laps, RS 91.1 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (81 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+📐 crew: plan change: box end of lap 20 for racing mediums
+🛞 wear (test) lap 16 done: FL 60.3 FR 61.5 RL 51.4 RR 44.1 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 5, 43 to go, 5.34 fuel-laps)
+🔊 plan change
+🗣 bulletin (imp 6, cost 6.5s, ledger 11.3/20.4s, 2 lines): L17
+🔊 box end of lap 20 for racing mediums
+🔊 ok laptime
+🔊 1 point three slower than your best
+🔊 lap 17
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.34L, togo 41-43/fuel/tyres, stops 3)
+🛞 compound: stint pitExit lap 9, refinement 11 — C 0.825 over 750 s (6925 samples)
+⏱ delta check L17 1/2: +0.47 s
+🔊 point five down so far
+⏱ delta check L17 2/2: +0.87 s
+🔊 you're point nine down
+🛞 compound: stint pitExit lap 9, refinement 12 — C 0.825 over 810 s (7633 samples)
+📋 lap 17: 1:31.058 clean fuel_used=6.15
+🔧 🌧 L17 GR3 on RS: peak 1.67 g (best 1.79, ×0.93; floor 1.50) · slide 1.03 °/g (best 0.98, ×1.1) · TCS 7 % (best 5 %) → dry
+🛞 crew: tyre life RS — until L19 (2 left; worst 69 %, 8.7 %/lap biased)
+🔵 lap 17: clean
+📊 laps-left model: elapsed 1616.6 s, remaining 3783.4 s, median lap 91.0 s -> 40-42 (no-stop 42, pit loss 22.8 s, rate 3 l/s, fuel-decisive, tyre-decisive)
+📊 strategy L18: fuel/lap 6.13 | fuel 26.5 = 4.3 laps | 42.0 laps to go | stops 3
+📐 plan L18 (42 to go): RS 3 · RM 16 · RM 16 · RH 7 — 3 stops, next: box L20 → RM | stop 22.0 s · fuel 4/16 laps · RH 93.0 s 33 laps, RM 91.4 s 25 laps, RS 91.1 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (82 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+📐 crew: box in 3 laps — racing mediums next
+🛞 wear (test) lap 17 done: FL 68.8 FR 69.1 RL 57.8 RR 49.6 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🔊 box in 3 laps
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L18, L18/L18/L21, stops 3) | fuelStatus(lapsToGo, 4, 42 to go, 4.32 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L18, L18/L18/L21, stops 3)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 4, 42 to go, 4.32 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 9.8/20.4s, 2 lines): L18
+🔊 racing mediums next
+🔊 decent lap
+🔊 1 31 point one
+🔊 lap 18 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.32L, togo 40-42/fuel/tyres, stops 3)
+🛞 crew: tyre life said (mid-lap)
+🔊 around 2 more laps on these racing softs
+⏱ delta check L18 1/2: +0.22 s
+🔊 point two down
+🛞 compound: stint pitExit lap 9, refinement 13 — C 0.825 over 870 s (8048 samples)
+⏱ delta check L18 2/2: +0.68 s
+🔊 point seven down so far
+📋 lap 18: 1:30.957 clean fuel_used=6.11
+🔧 🌧 L18 GR3 on RS: peak 1.67 g (best 1.79, ×0.93; floor 1.50) · slide 1.07 °/g (best 0.98, ×1.1) · TCS 12 % (best 5 %) → dry
+🛞 crew: tyres done — worst 85 % biased, 8.7 %/lap: box L19
+🔵 lap 18: clean
+📊 laps-left model: elapsed 1707.6 s, remaining 3692.4 s, median lap 91.0 s -> 39-41 (no-stop 41, pit loss 22.8 s, rate 3 l/s, fuel-decisive, tyre-decisive)
+📊 strategy L19: fuel/lap 6.11 | fuel 20.4 = 3.3 laps | 41.0 laps to go | stops 3
+📐 plan L19 (41 to go): RS 2 · RM 16 · RM 16 · RH 7 — 3 stops, next: box L20 → RM | stop 22.0 s · fuel 3/16 laps · RH 92.9 s 33 laps, RM 91.4 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (83 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 18 done: FL 77.3 FR 77.2 RL 64.2 RR 55.0 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+📋 strategy burst: 2 event(s), releasing best-first — pitStopsToGo(3, 41 to go) | fuelStatus(lapsToGo, 3, 41 to go, 3.34 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(3, 41 to go)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 3, 41 to go, 3.34 fuel-laps)
+🗣 bulletin (imp 6, cost 7.5s, ledger 7.5/20.4s, 2 lines): L19
+🔊 that was a decent lap
+🔊 1 30 point nine six
+🔊 on lap 19
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 3.34L, togo 39-41/fuel/tyres, stops 3)
+🛞 compound: stint pitExit lap 9, refinement 14 — C 0.825 over 930 s (8769 samples)
+🛞 crew: tyre box skipped — the planner calls the box
+⏱ delta check L19 1/2: +0.27 s
+🔊 point three down on your best
+⏱ delta check L19 2/2: +0.58 s
+🔊 point six down
+🛞 compound: stint pitExit lap 9, refinement 15 — C 0.825 over 990 s (9441 samples)
+📋 lap 19: 1:31.226 clean fuel_used=6.13
+🔧 🌧 L19 GR3 on RS: peak 1.65 g (best 1.79, ×0.92; floor 1.50) · slide 0.94 °/g (best 0.98, ×1.0) · TCS 9 % (best 5 %) → dry
+🔵 lap 19: clean
+📊 laps-left model: elapsed 1798.8 s, remaining 3601.2 s, median lap 91.1 s -> 38 (no-stop 40, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L20: fuel/lap 6.12 | fuel 14.3 = 2.3 laps | 38.0 laps to go | stops 3
+📐 plan L20 (38 to go): RS 1 · RM 16 · RM 16 · RH 5 — 3 stops, next: box L20 → RM | stop 22.0 s · fuel 2/16 laps · RH 92.9 s 33 laps, RM 91.4 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (84 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+📐 crew: in this lap, we're going to racing mediums
+📐 crew: fuel for 16 laps — add 92 litres
+🛞 wear (test) lap 19 done: FL 85.4 FR 85.2 RL 70.5 RR 60.4 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 crew: estimated finish lap 59
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 2, 38 to go, 2.33 fuel-laps)
+🔊 in this lap
+🔊 we're going to racing mediums
+🗣 bulletin (imp 6, cost 7.3s, ledger 15.2/20.4s, 2 lines): L20
+🔊 fuel for 16 laps
+🔊 add 92 litres
+🔊 ok laptime
+🔊 1 point four down on your best lap
+🔊 lap 20 now
+🗑 speaker: stale, not spoken: "📻 out"
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 2.33L, togo 38, stops 3)
+⏱ delta check L20 1/2: +0.47 s
+🔊 you're point five down
+🛞 compound: stint pitExit lap 9, refinement 16 — C 0.825 over 1050 s (9851 samples)
+⏱ delta check L20 2/2: +1.07 s
+🔊 1 point one down on your best
+🔧 box reminder fired: 935 m (19.5 s) before pit entry, polyline anchor, lap 20
+📐 crew: box, box — racing mediums
+📐 crew: add 92 litres
+🔊 box
+🔊 box
+🔊 racing mediums
+🔊 add 92 litres
+🔧 huge stop 169 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 1961955 lap 20
+🔵 sub-state FLYING → — lap 20
+🔧 pit-entry anchor learned: 90437 ms into lap (stop on lap 20)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 2 more
+📊 laps-left model: elapsed 1889.3 s, remaining 3510.7 s, median lap 91.1 s -> 37 (no-stop 39, pit loss 22.8 s, rate 3 l/s)
+📊 strategy: refuel still needed — 1.4 laps of fuel against 37 to go (need 39.9 with margin)
+🚪 gate refined: Red Bull Ring/lobby/pitEntry (24 samples, σ 0.07 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 5.5/20.4s, 1 line, protected): pittingIn(L20)
+🔊 entering pit
+📋 lap 20: 1:45.863 in fuel_used=5.65
+🔵 lap 20: clean
+🗑 dropped (in pit): lapStarted(21, last 105.86s)
+📐 plan L21: in the pit lane — planned after the stop
+🗺 mapper: lap 20 rejected (pit)
+🛞 wear (test) lap 20 done: FL 93.0 FR 92.8 RL 76.5 RR 65.6 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 60
+🛞 compound prompt: box exit lap 21, declared none — on screen; asked aloud with the estimate
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 59
+📊 laps-left model: elapsed 1907.5 s, remaining 3492.5 s, median lap 91.1 s -> 37 (no-stop 39, pit loss 22.8 s, rate 3 l/s)
+📊 strategy: refuel target 37 capped to tank (16.3 laps of capacity)
+🗑 dropped (box deadline; cost 1.6s, 0.1s of 18.4s left): inPitBox
+🗑 dropped (the planner owns the pit calls): refuelTarget(16 laps)
+🛞 wear (test): all four tyres at 60.00 °C on lap 21 — new set (J116)
+🛞 wear (test) stint 1 ended at tyre change: FL 93.0 FR 92.8 RL 76.5 RR 65.6 % — RS ×4 (tap)
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew compound: unknown
+🛞 crew wear gate: unknown
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🛞 compound prompt answered: RM
+🛞 crew compound: RM
+🌡 tyre bands: centre 76 °C (RM, +0, tap)
+🛞 crew compound: RM is sure
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🗑 dropped (in pit): tyreTemps(cold, 59°)
+🛞 compound: stint pitExit lap 9, refinement 17 (final) — C 0.825 over 1095 s (10320 samples)
+🛞 compound: stale window (RS, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 21
+🛞 compound: track scale 0.992 (course 470) — C is read ÷ 0.992
+🔀 state PIT → RACING at pkt 1965204 lap 21
+🔵 sub-state — → OUT_LAP lap 21
+🅿️ PIT completed: in L20 → out L21 (+86.0 fuel, transit 57.6s, teleport=false)
+🚪 gate refined: Red Bull Ring/lobby/pitBox (24 samples, σ 0.04 m, ±0 m)
+🅿️ entry→box 21.7s (speaking budget)
+🔧 pit approach: entry at station 4105 m of 4280 m (22.6 m off the line), lead 20 s
+🔧 teleport 112 m on lap 21 — pit release, not a reset
+📊 laps-left model: elapsed 1943.5 s, remaining 3456.5 s, median lap 91.1 s -> 37 (no-stop 38, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L21: fuel/lap 6.12 | fuel 94.6 = 15.4 laps | 37.0 laps to go | stops 2
+🗣 spoke (pitSequence, imp 2, cost 5.1s, ledger 5.1/20.4s, 1 line, protected): exitingPit(+85.96l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+📐 plan L21 (37 to go): RM 15 · RM 16 · RH 6 — 2 stops, next: box L35 → RM | stop 22.0 s · fuel 15/16 laps · RH 92.9 s 33 laps, RM 91.4 s 25 laps, RS 91.0 s 12 laps
+📐 crew: plan change: box end of lap 35 for racing mediums
+🚪 gate refined: Red Bull Ring/lobby/pitExit (24 samples, σ 0.04 m, ±12 m, across 0.0…0.0 m)
+📊 laps-left model: elapsed 1943.5 s, remaining 3433.7 s, median lap 91.1 s -> 37 (no-stop 38, pit loss 22.8 s, rate 3 l/s), out-lap -22.8s
+📊 strategy L21: fuel/lap 6.12 | fuel 94.6 = 15.4 laps | 37.0 laps to go | stops 2 (post-stop recalc)
+📐 short fill: 15 laps of fuel for a stint called at 16
+📐 crew: we're short on fuel — enough for 15 laps, box end of lap 35
+🔊 cold tyres for a lap or two
+📋 strategy burst: 5 event(s), releasing best-first — pitWindow(L27/L27/L35, stops 2) | strategyUpdate(fuel 15.44L, togo 37, stops 2) | strategyUpdate(fuel 15.44L, togo 37, stops 2, post-stop) | pitWindowState(beforeOpen, now L21, L27/L27/L35, stops 2) | pitStopsToGo(2, 37 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L27/L27/L35, stops 2)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 15.44L, togo 37, stops 2)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 15.44L, togo 37, stops 2, post-stop)
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L21, L27/L27/L35, stops 2)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(2, 37 to go)
+🔊 easy on the throttle
+🔊 plan change
+🔊 box end of lap 35 for racing mediums
+🔊 we're short on fuel
+🔊 enough for 15 laps
+🔊 box end of lap 35
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(low, 64°)
+🔊 tyres are cold
+🔊 be careful
+🛞 crew: estimated finish lap 58
+🛞 compound: racingMedium (medium confidence, C 0.90, margin 0.034, relative to RS (truth), own reference)
+🛞 compound: RM confirmed by the driver — anchor
+🛞 compound: box-exit answer RM given to the pit-exit window (estimate RM)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 4.1/20.4s, 1 line): compoundEstimate(pitExit, RM, medium)
+🔊 probably racing mediums
+🔵 sub-state OUT_LAP → FLYING lap 22
+📋 lap 21: 2:09.191 out fuel_used=6.05
+🔵 lap 21: clean
+📊 laps-left model: elapsed 2033.9 s, remaining 3366.1 s, median lap 91.1 s -> 36 (no-stop 37, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L22: fuel/lap 6.11 | fuel 88.5 = 14.5 laps | 36.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 2.2s, ledger 6.4/20.4s, 1 line): positionChange(P1→P5)
+📐 stop measured L20/21: 24.3 s (in 105.86 + out 129.19 − 2 × 91.05 − 86.0 L ÷ 3.0 L/s) — planning with 23.2 s
+📐 plan L22 (36 to go): RM 14 · RM 16 · RH 6 — 2 stops, next: box L35 → RM | stop 23.2 s · fuel 14/16 laps · RH 92.9 s 33 laps, RM 91.4 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (85 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+📐 crew: remember, we still need a set of racing hards
+🗺 mapper: lap 21 rejected (teleport)
+🛞 wear (test) lap 21 done: FL 3.0 FR 3.6 RL 2.9 RR 2.6 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L22, L27/L27/L35, stops 2)
+🔊 down to P 5
+🔊 remember
+🗣 bulletin (imp 6, cost 1.4s, ledger 11.9/20.4s, 1 line): L22
+🔊 we still need a set of racing hards
+🔊 lap 22
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 14.48L, togo 36, stops 2)
+⏱ delta check L22 1/2: quiet — +1.01 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 1 — C 0.897 over 150 s (1624 samples)
+⏱ delta check L22 2/2: quiet — +1.67 s, on RM, best set on RS
+📋 lap 22: 1:32.254 clean fuel_used=6.14
+🔵 lap 22: clean
+🔧 🌧 L22 GR3 on RM: peak 1.65 g (best 1.67, ×0.99; floor 1.50) · slide 1.10 °/g (best 1.08, ×1.0) · TCS 9 % (best 7 %) → dry
+📊 laps-left model: elapsed 2126.1 s, remaining 3273.9 s, median lap 91.1 s -> 35 (no-stop 36, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L23: fuel/lap 6.12 | fuel 82.4 = 13.5 laps | 35.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P5→P3)
+📐 plan L23 (35 to go): RM 13 · RM 16 · RH 6 — 2 stops, next: box L35 → RM | stop 23.2 s · fuel 13/16 laps · RH 92.9 s 33 laps, RM 91.4 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (86 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 22 done: FL 6.5 FR 7.0 RL 5.9 RR 5.2 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🔊 clean move up to P 3
+🗣 bulletin (imp 6, cost 5.8s, ledger 10.2/20.4s, 2 lines): L23
+🔊 no drama needed
+🔊 ok laptime
+🔊 1 32 point three
+🔊 on lap 23
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 13.45L, togo 35, stops 2)
+🛞 compound: stint pitExit lap 21, refinement 2 — C 0.917 over 210 s (2156 samples)
+⏱ delta check L23 1/2: quiet — +0.51 s, on RM, best set on RS
+⏱ delta check L23 2/2: quiet — +1.11 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 3 — C 0.917 over 270 s (2793 samples)
+📋 lap 23: 1:31.739 clean fuel_used=6.12
+🛞 crew: tyre life RM — until L46 (23 left; worst 10 %, 3.8 %/lap biased)
+🔧 🌧 L23 GR3 on RM: peak 1.65 g (best 1.67, ×0.99; floor 1.50) · slide 1.10 °/g (best 1.08, ×1.0) · TCS 8 % (best 7 %) → dry
+🔵 lap 23: clean
+📊 laps-left model: elapsed 2217.9 s, remaining 3182.1 s, median lap 91.1 s -> 34 (no-stop 35, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L24: fuel/lap 6.12 | fuel 76.3 = 12.5 laps | 34.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P3→P4)
+📐 plan L24 (34 to go): RM 12 · RM 16 · RH 6 — 2 stops, next: box L35 → RM | stop 23.2 s · fuel 12/16 laps · RH 93.0 s 33 laps, RM 91.5 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (87 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 23 done: FL 10.1 FR 10.3 RL 8.9 RR 7.8 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🔊 down to P 4
+🗣 bulletin (imp 6, cost 4.8s, ledger 9.2/20.4s, 2 lines): L24
+🔊 head down
+🔊 get it back
+🔊 good lap
+🔊 31 point seven
+🔊 lap 24
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 12.47L, togo 34, stops 2)
+🛞 crew: tyre life said (mid-lap)
+🔊 racing mediums should be good until lap 46
+⏱ delta check L24 1/2: quiet — +0.42 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 4 — C 0.917 over 330 s (3412 samples)
+⏱ delta check L24 2/2: quiet — +0.89 s, on RM, best set on RS
+📋 lap 24: 1:31.417 clean fuel_used=6.16
+🔵 lap 24: clean
+🔧 🌧 L24 GR3 on RM: peak 1.65 g (best 1.67, ×0.99; floor 1.50) · slide 1.08 °/g (best 1.08, ×1.0) · TCS 12 % (best 7 %) → dry
+📊 laps-left model: elapsed 2309.3 s, remaining 3090.7 s, median lap 91.3 s -> 33 (no-stop 34, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L25: fuel/lap 6.13 | fuel 70.1 = 11.4 laps | 33.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P4→P3)
+📐 plan L25 (33 to go): RM 11 · RM 16 · RH 6 — 2 stops, next: box L35 → RM | stop 23.2 s · fuel 11/16 laps · RH 92.9 s 33 laps, RM 91.4 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (88 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 24 done: FL 14.0 FR 13.7 RL 11.9 RR 10.4 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L25, L27/L27/L35, stops 2)
+🔊 clean move up to P 3
+🗣 bulletin (imp 6, cost 7.6s, ledger 12.0/20.4s, 2 lines): L25
+🔊 no drama needed
+🔊 great lap
+🔊 point three down on your best on these tyres
+🔊 lap 25 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 11.44L, togo 33, stops 2)
+🛞 compound: stint pitExit lap 21, refinement 5 — C 0.917 over 390 s (3985 samples)
+⏱ delta check L25 1/2: quiet — +0.34 s, on RM, best set on RS
+⏱ delta check L25 2/2: quiet — +0.83 s, on RM, best set on RS
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🛞 compound: stint pitExit lap 21, refinement 6 — C 0.917 over 450 s (4575 samples)
+📋 lap 25: 1:31.056 clean fuel_used=6.06
+🛞 crew: tyre life RM — until L44 (19 left; worst 18 %, 4.1 %/lap biased)
+🔧 🌧 L25 GR3 on RM: peak 1.69 g (best 1.67, ×1.01; floor 1.50) · slide 1.20 °/g (best 1.08, ×1.1) · TCS 10 % (best 7 %) → dry
+🔵 lap 25: clean
+📊 laps-left model: elapsed 2400.4 s, remaining 2999.6 s, median lap 91.1 s -> 32 (no-stop 33, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L26: fuel/lap 6.13 | fuel 64.0 = 10.5 laps | 32.0 laps to go | stops 2
+📐 plan L26 (32 to go): RM 10 · RM 16 · RH 6 — 2 stops, next: box L35 → RM | stop 23.2 s · fuel 10/16 laps · RH 92.9 s 33 laps, RM 91.4 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (89 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 25 done: FL 18.2 FR 17.3 RL 15.1 RR 13.1 % — RM ×4 (tap)
+⏱ compound best RM: 91.056 s
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(2, 32 to go)
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L26
+🔊 keep those good laps coming
+🔊 that's lap 26
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 10.45L, togo 32, stops 2)
+🛞 crew: tyre life said (mid-lap)
+🔊 racing mediums should be good until lap 44
+⏱ delta check L26 1/2: quiet — +0.39 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 7 — C 0.917 over 510 s (5085 samples)
+⏱ delta check L26 2/2: quiet — +1.05 s, on RM, best set on RS
+📋 lap 26: 1:31.256 clean fuel_used=6.20
+🔧 🌧 L26 GR3 on RM: peak 1.67 g (best 1.69, ×0.99; floor 1.50) · slide 1.14 °/g (best 1.08, ×1.1) · TCS 8 % (best 7 %) → dry
+🔵 lap 26: clean
+📊 laps-left model: elapsed 2491.6 s, remaining 2908.4 s, median lap 91.2 s -> 31 (no-stop 32, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L27: fuel/lap 6.13 | fuel 57.8 = 9.4 laps | 31.0 laps to go | stops 2
+📐 plan L27 (31 to go): RM 9 · RM 16 · RH 6 — 2 stops, next: box L35 → RM | stop 23.2 s · fuel 9/16 laps · RH 92.9 s 33 laps, RM 91.3 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (90 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 26 done: FL 22.2 FR 20.9 RL 18.3 RR 15.8 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L27, L27/L27/L35, stops 2)
+🗣 bulletin (imp 6, cost 5.4s, ledger 5.4/20.4s, 2 lines): L27
+🔊 good lap
+🔊 1 31 point three
+🔊 lap 27
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 9.44L, togo 31, stops 2)
+🛞 compound: stint pitExit lap 21, refinement 8 — C 0.917 over 570 s (5561 samples)
+⏱ delta check L27 1/2: quiet — +0.51 s, on RM, best set on RS
+🗣 chain (imp 4, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+🔊 bit of rubbing there
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.9s, ledger 5.0/20.4s, 3 events, 1 lines)
+🔊 keep it inside the white lines
+⏱ delta check L27 2/2: quiet — +2.34 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 9 — C 0.928 over 630 s (6379 samples)
+📋 lap 27: 1:32.688 clean fuel_used=6.03
+🔵 lap 27 antics: contact, off
+📊 laps-left model: elapsed 2584.3 s, remaining 2815.7 s, median lap 91.3 s -> 30 (no-stop 31, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L28: fuel/lap 6.13 | fuel 51.8 = 8.5 laps | 30.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P3→P2)
+📐 plan L28 (30 to go): RM 8 · RM 16 · RH 6 — 2 stops, next: box L35 → RM | stop 23.2 s · fuel 8/16 laps · RH 93.0 s 33 laps, RM 91.6 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (91 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 27 done: FL 26.4 FR 24.7 RL 21.4 RR 18.5 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 8, 30 to go, 8.46 fuel-laps)
+🔊 nice
+🔊 1 position gained
+🗣 bulletin (imp 6, cost 6.5s, ledger 10.2/20.4s, 2 lines): L28
+🔊 you're P 2
+🔊 around 2 seconds lost to the incidents last lap
+🔊 that's lap 28
+🗣 chain (imp 6, cost 3.4s, ledger 13.5/20.4s, 1 events, 1 lines)
+🔊 come on
+🔊 feed the power in gently
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.46L, togo 30, stops 2)
+🗑 speaker: stale, not spoken: "📻 out"
+⏱ delta check L28 1/2: quiet — +0.94 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 10 — C 0.928 over 690 s (6763 samples)
+🗣 chain (imp 6, cost 2.1s, ledger 2.1/20.4s, 1 events, 1 lines)
+🔊 smooth on the exits
+⏱ delta check L28 2/2: quiet — +1.77 s, on RM, best set on RS
+📋 lap 28: 1:32.235 clean fuel_used=6.14
+🔧 🌧 L28 GR3 on RM: peak 1.65 g (best 1.69, ×0.98; floor 1.50) · slide 1.08 °/g (best 1.08, ×1.0) · TCS 11 % (best 7 %) → dry
+🎭 mood focused → relaxed
+🛞 crew: tyre life RM — until L43 (15 left; worst 30 %, 4.2 %/lap biased)
+🔵 lap 28: clean
+📊 laps-left model: elapsed 2676.5 s, remaining 2723.5 s, median lap 91.6 s -> 29 (no-stop 30, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L29: fuel/lap 6.13 | fuel 45.7 = 7.5 laps | 29.0 laps to go | stops 2
+📐 plan L29 (29 to go): RM 7 · RM 16 · RH 6 — 2 stops, next: box L35 → RM | stop 23.2 s · fuel 7/16 laps · RH 93.0 s 33 laps, RM 91.6 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (92 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 28 done: FL 30.8 FR 28.4 RL 24.5 RR 21.1 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 7, 29 to go, 7.45 fuel-laps)
+🗣 bulletin (imp 6, cost 5.4s, ledger 5.4/20.4s, 2 lines): L29
+🔊 decent lap
+🔊 1 32 point two
+🔊 lap 29
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.45L, togo 29, stops 2)
+🛞 compound: stint pitExit lap 21, refinement 11 — C 0.928 over 750 s (7378 samples)
+🛞 crew: tyre life said (mid-lap)
+🔊 around 15 more laps on these racing mediums
+⏱ delta check L29 1/2: quiet — +0.86 s, on RM, best set on RS
+⏱ delta check L29 2/2: quiet — +1.41 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 12 — C 0.917 over 810 s (8019 samples)
+📋 lap 29: 1:31.826 clean fuel_used=6.08
+🔧 🌧 L29 GR3 on RM: peak 1.65 g (best 1.69, ×0.98; floor 1.50) · slide 1.07 °/g (best 1.08, ×1.0) · TCS 9 % (best 7 %) → dry
+🔵 lap 29: clean
+📊 laps-left model: elapsed 2768.4 s, remaining 2631.6 s, median lap 91.8 s -> 28 (no-stop 29, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L30: fuel/lap 6.13 | fuel 39.6 = 6.5 laps | 28.0 laps to go | stops 2
+📐 plan L30 (28 to go): RM 6 · RS 12 · RH 10 — 2 stops, next: box L35 → RS | stop 23.2 s · fuel 6/16 laps · RH 93.0 s 33 laps, RM 91.6 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (93 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+📐 crew: plan change: box end of lap 35 for racing softs
+🛞 wear (test) lap 29 done: FL 35.2 FR 32.4 RL 27.8 RR 23.9 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L30, L30/L30/L35, stops 2) | fuelStatus(lapsToGo, 6, 28 to go, 6.46 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L30, L30/L30/L35, stops 2)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 6, 28 to go, 6.46 fuel-laps)
+🔊 plan change
+🔊 box end of lap 35 for racing softs
+🗣 bulletin (imp 6, cost 7.6s, ledger 12.4/20.4s, 2 lines): L30
+🔊 good lap
+🔊 point eight slower than your best on this set
+🔊 lap 30 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.46L, togo 28, stops 2)
+⏱ delta check L30 1/2: quiet — +0.41 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 13 — C 0.917 over 870 s (8506 samples)
+⏱ delta check L30 2/2: quiet — +1.00 s, on RM, best set on RS
+🔧 no tyre change detected after this stop (72.4° vs 66.4° at entry)
+📋 lap 30: 1:31.682 clean fuel_used=6.07
+🔧 🌧 L30 GR3 on RM: peak 1.67 g (best 1.69, ×0.99; floor 1.50) · slide 1.17 °/g (best 1.07, ×1.1) · TCS 6 % (best 7 %) → dry
+🔵 lap 30: clean
+📊 laps-left model: elapsed 2860.0 s, remaining 2540.0 s, median lap 91.7 s -> 27 (no-stop 28, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L31: fuel/lap 6.10 | fuel 33.5 = 5.5 laps | 27.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): positionChange(P2→P1)
+📐 plan L31 (27 to go): RM 5 · RS 12 · RH 10 — 2 stops, next: box L35 → RS | stop 23.2 s · fuel 5/16 laps · RH 93.1 s 33 laps, RM 91.8 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (94 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+📐 crew: box in 5 laps — racing softs next
+🛞 wear (test) lap 30 done: FL 38.9 FR 36.1 RL 30.9 RR 26.6 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+📋 strategy burst: 2 event(s), releasing best-first — pitStopsToGo(2, 27 to go) | fuelStatus(lapsToGo, 5, 27 to go, 5.49 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(2, 27 to go)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 5, 27 to go, 5.49 fuel-laps)
+🔊 you're in the lead
+🔊 box in 5 laps
+🗣 bulletin (imp 6, cost 4.6s, ledger 10.6/20.4s, 2 lines): L31
+🔊 racing softs next
+🔊 keep the good laps coming
+🔊 on lap 31
+🛞 compound: stint pitExit lap 21, refinement 14 — C 0.917 over 930 s (9046 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.49L, togo 27, stops 2)
+⏱ delta check L31 1/2: quiet — +0.79 s, on RM, best set on RS
+⏱ delta check L31 2/2: quiet — +1.74 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 15 — C 0.917 over 990 s (9822 samples)
+📋 lap 31: 1:32.436 clean fuel_used=6.08
+🔧 🌧 L31 GR3 on RM: peak 1.61 g (best 1.69, ×0.95; floor 1.50) · slide 1.02 °/g (best 1.07, ×0.9) · TCS 10 % (best 6 %) → dry
+🛞 crew: tyre life RM — until L43 (12 left; worst 42 %, 4.3 %/lap biased)
+🔵 lap 31: clean
+📊 laps-left model: elapsed 2952.5 s, remaining 2447.5 s, median lap 91.8 s -> 26 (no-stop 27, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L32: fuel/lap 6.09 | fuel 27.4 = 4.5 laps | 26.0 laps to go | stops 2
+📐 plan L32 (26 to go): RM 4 · RS 12 · RH 10 — 2 stops, next: box L35 → RS | stop 23.2 s · fuel 4/16 laps · RH 93.2 s 33 laps, RM 92.0 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (95 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 31 done: FL 42.8 FR 39.3 RL 34.0 RR 29.2 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 4, 26 to go, 4.51 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 5.8/20.4s, 2 lines): L32
+🔊 decent lap
+🔊 1 32 point four
+🔊 lap 32 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.51L, togo 26, stops 2)
+🛞 crew: tyre life said (mid-lap)
+🔊 around 12 more laps on these racing mediums
+⏱ delta check L32 1/2: quiet — +0.69 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 16 — C 0.917 over 1050 s (10227 samples)
+⏱ delta check L32 2/2: quiet — +1.34 s, on RM, best set on RS
+📋 lap 32: 1:31.987 clean fuel_used=5.91
+🔧 🌧 L32 GR3 on RM: peak 1.63 g (best 1.69, ×0.96; floor 1.50) · slide 1.02 °/g (best 1.02, ×1.0) · TCS 8 % (best 6 %) → dry
+🔵 lap 32: clean
+📊 laps-left model: elapsed 3044.5 s, remaining 2355.5 s, median lap 91.9 s -> 25 (no-stop 26, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L33: fuel/lap 6.08 | fuel 21.5 = 3.5 laps | 25.0 laps to go | stops 2
+📐 plan L33 (25 to go): RM 3 · RS 12 · RH 10 — 2 stops, next: box L35 → RS | stop 23.2 s · fuel 3/16 laps · RH 93.3 s 33 laps, RM 92.1 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (96 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+📐 crew: planned stop in 3 laps, for racing softs
+🛞 wear (test) lap 32 done: FL 46.7 FR 42.9 RL 37.1 RR 31.8 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🔊 planned stop in 3 laps
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L33, L33/L33/L35, stops 2) | fuelStatus(lapsToGo, 3, 25 to go, 3.54 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L33, L33/L33/L35, stops 2)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 3, 25 to go, 3.54 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 9.8/20.4s, 2 lines): L33
+🔊 for racing softs
+🔊 ok laptime
+🔊 1 31 point nine
+🔊 that's lap 33
+🛞 compound: stint pitExit lap 21, refinement 17 — C 0.917 over 1110 s (10915 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 3.54L, togo 25, stops 2)
+⏱ delta check L33 1/2: quiet — +0.54 s, on RM, best set on RS
+⏱ delta check L33 2/2: quiet — +1.39 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 18 — C 0.917 over 1170 s (11539 samples)
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+📋 lap 33: 1:32.105 clean fuel_used=5.96
+🔧 🌧 L33 GR3 on RM: peak 1.63 g (best 1.69, ×0.96; floor 1.50) · slide 1.05 °/g (best 1.02, ×1.0) · TCS 12 % (best 6 %) → dry
+🔵 lap 33: clean
+📊 laps-left model: elapsed 3136.6 s, remaining 2263.4 s, median lap 92.0 s -> 24 (no-stop 25, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L34: fuel/lap 6.08 | fuel 15.6 = 2.6 laps | 24.0 laps to go | stops 2
+📐 plan L34 (24 to go): RM 2 · RS 12 · RH 10 — 2 stops, next: box L35 → RS | stop 23.2 s · fuel 2/16 laps · RH 93.2 s 33 laps, RM 92.0 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (97 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 33 done: FL 50.9 FR 46.5 RL 40.2 RR 34.5 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 2, 24 to go, 2.56 fuel-laps)
+🗣 bulletin (imp 6, cost 9.5s, ledger 9.5/20.4s, 2 lines): L34
+🔊 that was a decent lap
+🔊 1 point oh down on your best on these tyres
+🔊 on lap 34
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 2.56L, togo 24, stops 2)
+⏱ delta check L34 1/2: quiet — +0.80 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 19 — C 0.917 over 1230 s (12020 samples)
+⏱ delta check L34 2/2: quiet — +1.82 s, on RM, best set on RS
+📋 lap 34: 1:32.070 clean fuel_used=5.93
+🔧 🌧 L34 GR3 on RM: peak 1.65 g (best 1.69, ×0.98; floor 1.50) · slide 1.11 °/g (best 1.02, ×1.1) · TCS 12 % (best 6 %) → dry
+🛞 crew: tyre life RM — until L42 (8 left; worst 55 %, 4.4 %/lap biased)
+🔵 lap 34: clean
+📊 laps-left model: elapsed 3228.6 s, remaining 2171.4 s, median lap 92.1 s -> 23 (no-stop 24, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L35: fuel/lap 6.05 | fuel 9.6 = 1.6 laps | 23.0 laps to go | stops 2
+📊 strategy L35: box confirmed at 70% (1.6 laps of fuel, was 1.6 at the crossing)
+🗑 dropped (the planner owns the pit calls): pitWindowState(atLatest, now L35, —/L35/L35, stops 2)
+📐 plan L35 (23 to go): RM 1 · RS 12 · RH 10 — 2 stops, next: box L35 → RS | stop 23.2 s · fuel 1/16 laps · RH 93.2 s 33 laps, RM 92.0 s 25 laps, RS 91.0 s 12 laps
+📐 crew: box this lap for racing softs — then racing hards at the stop after, if all goes to plan
+🚪 gate refined: Red Bull Ring/lobby/finishLine (98 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+📐 crew: add 73 litres, that's 12 laps
+🛞 wear (test) lap 34 done: FL 55.0 FR 50.0 RL 43.2 RR 37.1 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+📋 strategy burst: 2 event(s), releasing best-first — pitWindow(—/L35/L35, stops 2) | fuelStatus(lapsToGo, 1, 23 to go, 1.59 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindow(—/L35/L35, stops 2)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 1, 23 to go, 1.59 fuel-laps)
+🔊 box this lap for racing softs
+🗣 bulletin (imp 6, cost 4.5s, ledger 16.3/20.4s, 2 lines): L35
+🔊 then racing hards at the stop after
+🗑 dropped (the planner owns the pit calls): boxThisLap(1.59 laps fuel)
+🛞 compound: stint pitExit lap 21, refinement 20 — C 0.917 over 1290 s (12737 samples)
+🔊 if all goes to plan
+🔊 add 73 litres
+🔊 that's 12 laps
+🔊 1 32 point one
+🔊 lap 35 now
+🗑 speaker: stale, not spoken: "📻 out"
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 1.59L, togo 23, stops 2)
+🛞 crew: tyre life said (mid-lap)
+🔊 racing mediums
+🔊 8 more laps in them
+🔊 so lap 42
+⏱ delta check L35 1/2: quiet — +0.37 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 21, refinement 21 — C 0.917 over 1350 s (13397 samples)
+⏱ delta check L35 2/2: quiet — +1.08 s, on RM, best set on RS
+🔧 box reminder fired: 935 m (19.5 s) before pit entry, polyline anchor, lap 35
+📐 crew: box, box — racing softs
+📐 crew: 73 litres of fuel
+🔊 box
+🔊 box
+🔊 racing softs
+🔊 73 litres of fuel
+🔧 huge stop 165 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 2047661 lap 35
+🔵 sub-state FLYING → — lap 35
+🔧 pit-entry anchor learned: 90499 ms into lap (stop on lap 35)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 1 more
+📊 laps-left model: elapsed 3319.1 s, remaining 2080.9 s, median lap 92.1 s -> 22 (no-stop 23, pit loss 22.8 s, rate 3 l/s)
+📊 strategy: refuel still needed — 0.7 laps of fuel against 22 to go (need 24.1 with margin)
+🚪 gate refined: Red Bull Ring/lobby/pitEntry (25 samples, σ 0.08 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 5.9/20.4s, 1 line, protected): pittingIn(L35)
+🔊 box box
+📋 lap 35: 1:45.974 in fuel_used=5.46
+🔵 lap 35: clean
+🗑 dropped (in pit): lapStarted(36, last 105.97s)
+📐 plan L36: in the pit lane — planned after the stop
+🗺 mapper: lap 35 rejected (pit)
+🛞 wear (test) lap 35 done: FL 59.0 FR 53.6 RL 46.3 RR 39.7 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 compound prompt: box exit lap 36, declared none — on screen; asked aloud with the estimate
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 58
+📊 laps-left model: elapsed 3337.4 s, remaining 2062.6 s, median lap 92.1 s -> 22 (no-stop 23, pit loss 22.8 s, rate 3 l/s)
+📊 strategy: refuel target 22 capped to tank (16.5 laps of capacity)
+🗑 dropped (box deadline; cost 1.6s, 0.2s of 18.4s left): inPitBox
+🗑 dropped (the planner owns the pit calls): refuelTarget(16 laps)
+🛞 wear (test): all four tyres at 60.00 °C on lap 36 — new set (J116)
+🛞 wear (test) stint 2 ended at tyre change: FL 59.0 FR 53.6 RL 46.3 RR 39.7 % — RM ×4 (tap)
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew compound: unknown
+🛞 crew wear gate: unknown
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🛞 compound prompt answered: RS
+🛞 crew compound: RS
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 crew compound: RS is sure
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: stint pitExit lap 21, refinement 22 (final) — C 0.917 over 1375 s (13607 samples)
+🛞 compound: stale window (RM, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 36
+🛞 compound: track scale 0.992 (course 470) — C is read ÷ 0.992
+🔀 state PIT → RACING at pkt 2050728 lap 36
+🔵 sub-state — → OUT_LAP lap 36
+🅿️ PIT completed: in L35 → out L36 (+76.7 fuel, transit 54.5s, teleport=false)
+🚪 gate refined: Red Bull Ring/lobby/pitBox (25 samples, σ 0.04 m, ±0 m)
+🅿️ entry→box 21.7s (speaking budget)
+🔧 pit approach: entry at station 4105 m of 4280 m (22.6 m off the line), lead 20 s
+🔧 teleport 112 m on lap 36 — pit release, not a reset
+📊 laps-left model: elapsed 3370.3 s, remaining 2029.7 s, median lap 92.1 s -> 22 (no-stop 23, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L36: fuel/lap 6.05 | fuel 80.8 = 13.4 laps | 22.0 laps to go | stops 1
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 1.6/20.4s, 1 line, protected): exitingPit(+76.66l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(inferred)
+📐 plan L36 (22 to go): RS 12 · RH 10 — 1 stop, next: box L47 → RH | stop 23.2 s · fuel 13/16 laps · RH 93.2 s 33 laps, RM 92.0 s 25 laps, RS 91.0 s 12 laps
+📐 crew: plan change: box end of lap 47 for racing hards
+🚪 gate refined: Red Bull Ring/lobby/pitExit (25 samples, σ 0.05 m, ±12 m, across 0.0…0.0 m)
+📊 laps-left model: elapsed 3370.3 s, remaining 2006.9 s, median lap 92.1 s -> 22 (no-stop 22, pit loss 22.8 s, rate 3 l/s), out-lap -22.8s
+📊 strategy L36: fuel/lap 6.05 | fuel 80.8 = 13.4 laps | 22.0 laps to go | stops 1 (post-stop recalc)
+📐 crew: you still owe a stint on racing hards
+🔧 fresh tyres confirmed: 60.0° across all four (was 72.1° at pit entry, step 12.1°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via pitSequence x0.50): freshTyres(confirmed 59.99°)
+📋 strategy burst: 5 event(s), releasing best-first — pitWindow(L41/L41/L48, stops 1) | strategyUpdate(fuel 13.36L, togo 22, stops 1) | strategyUpdate(fuel 13.36L, togo 22, stops 1, post-stop) | pitWindowState(beforeOpen, now L36, L41/L41/L48, stops 1) | pitStopsToGo(1, 22 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L41/L41/L48, stops 1)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 13.36L, togo 22, stops 1)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 13.36L, togo 22, stops 1, post-stop)
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L36, L41/L41/L48, stops 1)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 22 to go)
+🔊 tyres are cold
+🔊 plan change
+🔊 box end of lap 47 for racing hards
+🔊 you still owe a stint on racing hards
+🔵 sub-state OUT_LAP → FLYING lap 37
+📋 lap 36: 2:04.531 out fuel_used=5.76
+🔵 lap 36: clean
+📊 laps-left model: elapsed 3459.1 s, remaining 1940.9 s, median lap 92.1 s -> 21 (no-stop 22, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L37: fuel/lap 6.02 | fuel 75.1 = 12.5 laps | 21.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 4.4s, ledger 4.4/20.4s, 1 line): positionChange(P1→P3)
+📐 stop measured L35/36: 20.9 s (in 105.97 + out 124.53 − 2 × 92.03 − 76.7 L ÷ 3.0 L/s) — planning with 22.4 s
+📐 plan L37 (21 to go): RS 11 · RH 10 — 1 stop, next: box L47 → RH | stop 22.4 s · fuel 12/16 laps · RH 93.2 s 33 laps, RM 92.0 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (99 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🗺 mapper: lap 36 rejected (teleport)
+🛞 compound: racingSoft (high confidence, C 0.80, margin 0.129, relative to RM (truth), own reference)
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: box-exit answer RS given to the pit-exit window (estimate RS)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 6.0/20.4s, 1 line): compoundEstimate(pitExit, RS, high)
+🛞 wear (test) lap 36 done: FL 6.5 FR 6.6 RL 6.2 RR 5.4 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L37, L41/L41/L48, stops 1)
+🔊 down to P 3
+🗣 bulletin (imp 6, cost 1.8s, ledger 7.8/20.4s, 1 line): L37
+🔊 head down
+🔊 get it back
+🔊 probably racing softs
+🔊 on lap 37
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 12.48L, togo 21, stops 1)
+⏱ delta check L37 1/2: quiet — +0.07 s, under ±0.2 s
+🛞 compound: stint pitExit lap 36, refinement 1 — C 0.794 over 150 s (1429 samples)
+⏱ delta check L37 2/2: +0.28 s
+🔊 point three down
+📋 lap 37: 1:30.231 clean fuel_used=6.08
+🔵 lap 37: clean
+🔧 🌧 L37 GR3 on RS: peak 1.77 g (best 1.79, ×0.99; floor 1.50) · slide 0.98 °/g (best 0.94, ×1.0) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 3549.4 s, remaining 1850.6 s, median lap 92.0 s -> 20 (no-stop 21, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L38: fuel/lap 6.02 | fuel 69.0 = 11.5 laps | 20.0 laps to go | stops 1
+📐 plan L38 (20 to go): RS 10 · RH 10 — 1 stop, next: box L47 → RH | stop 22.4 s · fuel 11/16 laps · RH 93.2 s 33 laps, RM 92.0 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (100 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 37 done: FL 13.3 FR 13.6 RL 12.6 RR 10.9 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗣 bulletin (imp 6, cost 5.4s, ledger 5.4/20.4s, 2 lines): L38
+🔊 good lap
+🔊 1 30 point two
+🔊 lap 38
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 11.47L, togo 20, stops 1)
+🛞 compound: stint pitExit lap 36, refinement 2 — C 0.815 over 210 s (1984 samples)
+⏱ delta check L38 1/2: quiet — +0.07 s, under ±0.2 s
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+⏱ delta check L38 2/2: +0.29 s
+🔊 point three down so far
+🛞 compound: stint pitExit lap 36, refinement 3 — C 0.815 over 270 s (2728 samples)
+📋 lap 38: 1:30.482 clean fuel_used=6.11
+🛞 crew: tyre life RS — until L48 (10 left; worst 20 %, 7.7 %/lap biased)
+🔵 lap 38: clean
+🔧 🌧 L38 GR3 on RS: peak 1.75 g (best 1.79, ×0.98; floor 1.50) · slide 1.00 °/g (best 0.94, ×1.1) · TCS 7 % (best 5 %) → dry
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P3→P2)
+📊 laps-left model: elapsed 3639.9 s, remaining 1760.1 s, median lap 91.9 s -> 19 (no-stop 20, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L39: fuel/lap 6.02 | fuel 62.9 = 10.5 laps | 19.0 laps to go | stops 1
+📐 plan L39 (19 to go): RS 9 · RH 10 — 1 stop, next: box L47 → RH | stop 22.4 s · fuel 10/16 laps · RH 93.2 s 33 laps, RM 92.0 s 25 laps, RS 91.0 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (101 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 38 done: FL 20.3 FR 20.4 RL 19.2 RR 16.6 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🔊 up to P 2
+🗣 bulletin (imp 6, cost 4.6s, ledger 6.8/20.4s, 2 lines): L39
+🔊 keep the good laps coming
+🔊 lap 39 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 10.45L, togo 19, stops 1)
+🛞 crew: tyre life said (mid-lap)
+🔊 around 10 more laps on these racing softs
+⏱ delta check L39 1/2: +0.26 s
+🔊 point three down on your best
+🛞 compound: stint pitExit lap 36, refinement 4 — C 0.805 over 330 s (3250 samples)
+⏱ delta check L39 2/2: +0.48 s
+🔊 you're point five down
+📋 lap 39: 1:30.649 clean fuel_used=5.97
+🔵 lap 39: clean
+🔧 🌧 L39 GR3 on RS: peak 1.77 g (best 1.79, ×0.99; floor 1.50) · slide 0.94 °/g (best 0.94, ×1.0) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 3730.5 s, remaining 1669.5 s, median lap 91.8 s -> 18 (no-stop 19, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L40: fuel/lap 5.96 | fuel 56.9 = 9.5 laps | 18.0 laps to go | stops 1
+📐 plan L40 (18 to go): RS 8 · RH 10 — 1 stop, next: box L47 → RH | stop 22.4 s · fuel 9/16 laps · RH 93.1 s 33 laps, RM 92.0 s 25 laps, RS 90.8 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (102 samples, σ 0.54 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 39 done: FL 28.1 FR 27.8 RL 25.6 RR 22.1 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L40, L41/L41/L48, stops 1)
+🗣 bulletin (imp 6, cost 5.8s, ledger 5.8/20.4s, 2 lines): L40
+🔊 good lap
+🔊 1 30 point six
+🔊 on lap 40
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 9.54L, togo 18, stops 1)
+🛞 compound: stint pitExit lap 36, refinement 5 — C 0.815 over 390 s (3873 samples)
+⏱ delta check L40 1/2: quiet — -0.15 s, under ±0.2 s
+⏱ delta check L40 2/2: quiet — -0.08 s, under ±0.2 s
+🛞 compound: stint pitExit lap 36, refinement 6 — C 0.815 over 450 s (4367 samples)
+📋 lap 40: 1:29.887 clean fuel_used=5.92
+🛞 crew: tyre life RS — until L46 (6 left; worst 37 %, 8.5 %/lap biased)
+🔵 lap 40: clean
+🔧 🌧 L40 GR3 on RS: peak 1.79 g (best 1.79, ×1.00; floor 1.50) · slide 1.06 °/g (best 0.94, ×1.1) · TCS 8 % (best 5 %) → dry
+📊 laps-left model: elapsed 3820.4 s, remaining 1579.6 s, median lap 91.3 s -> 17 (no-stop 18, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L41: fuel/lap 5.95 | fuel 51.0 = 8.6 laps | 17.0 laps to go | stops 1
+📐 plan L41 (17 to go): RS 7 · RH 10 — 1 stop, next: box L47 → RH | stop 22.4 s · fuel 8/16 laps · RH 93.0 s 33 laps, RM 92.0 s 25 laps, RS 90.6 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (103 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 40 done: FL 37.8 FR 36.5 RL 32.6 RR 28.0 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+📋 strategy burst: 3 event(s), releasing best-first — pitWindowState(openToLatest, now L41, L41/L41/L48, stops 1) | pitStopsToGo(1, 17 to go) | fuelStatus(lapsToGo, 8, 17 to go, 8.57 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L41, L41/L41/L48, stops 1)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 17 to go)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 8, 17 to go, 8.57 fuel-laps)
+🗣 spoke (tyres, imp 4, cost 3.8s, ledger 3.8/20.4s, 1 line): tyreTemps(low, 64°, rearRight)
+🗣 bulletin (imp 6, cost 6.3s, ledger 10.1/20.4s, 2 lines): L41
+🔊 rear right tyre is not up to temperature
+🔊 great lap
+🔊 point one slower than your best
+🔊 that's lap 41
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.57L, togo 17, stops 1)
+🛞 crew: tyre life said (mid-lap)
+🔊 these racing softs should last to lap 46
+⏱ delta check L41 1/2: +0.55 s
+🔊 point five down
+🛞 compound: stint pitExit lap 36, refinement 7 — C 0.815 over 510 s (4903 samples)
+⏱ delta check L41 2/2: +1.21 s
+🔊 1 point two down on your best
+📋 lap 41: 1:32.819 clean fuel_used=6.17
+🔵 lap 41: clean
+🔧 🌧 L41 GR3 on RS: peak 1.73 g (best 1.79, ×0.97; floor 1.50) · slide 1.14 °/g (best 0.94, ×1.2) · TCS 7 % (best 5 %) → dry
+📊 laps-left model: elapsed 3913.2 s, remaining 1486.8 s, median lap 91.3 s -> 16 (no-stop 17, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L42: fuel/lap 5.96 | fuel 44.8 = 7.5 laps | 16.0 laps to go | stops 1
+📐 plan L42 (16 to go): RS 6 · RH 10 — 1 stop, next: box L47 → RH | stop 22.4 s · fuel 7/16 laps · RH 93.0 s 33 laps, RM 92.0 s 25 laps, RS 90.6 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (104 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 41 done: FL 45.2 FR 43.5 RL 39.2 RR 33.6 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 7, 16 to go, 7.52 fuel-laps)
+🗣 bulletin (imp 6, cost 7.1s, ledger 7.1/20.4s, 2 lines): L42
+🔊 clean lap
+🔊 1 32 point eight
+🔊 that's the way
+🔊 lap 42 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.52L, togo 16, stops 1)
+🛞 compound: stint pitExit lap 36, refinement 8 — C 0.815 over 570 s (5404 samples)
+⏱ delta check L42 1/2: +0.42 s
+🔊 point four down so far
+🗣 spoke (tyres, imp 4, cost 3.1s, ledger 5.6/20.4s, 1 line): tyreTemps(low, 65°)
+🔊 tyres at 65
+🔊 below the window
+⏱ delta check L42 2/2: +0.61 s
+🔊 you're point six down
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+🛞 compound: stint pitExit lap 36, refinement 9 — C 0.815 over 630 s (5975 samples)
+📋 lap 42: 1:30.587 clean fuel_used=6.11
+🔵 lap 42: clean
+🔧 🌧 L42 GR3 on RS: peak 1.75 g (best 1.79, ×0.98; floor 1.50) · slide 0.96 °/g (best 0.94, ×1.0) · TCS 5 % (best 5 %) → dry
+📊 laps-left model: elapsed 4003.8 s, remaining 1396.2 s, median lap 90.6 s -> 15 (no-stop 16, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L43: fuel/lap 6.03 | fuel 38.7 = 6.4 laps | 15.0 laps to go | stops 1
+📐 plan L43 (15 to go): RS 5 · RH 10 — 1 stop, next: box L47 → RH | stop 22.4 s · fuel 6/16 laps · RH 93.0 s 33 laps, RM 92.0 s 25 laps, RS 90.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (105 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+📐 crew: box in 5 laps — racing hards next
+🛞 wear (test) lap 42 done: FL 53.7 FR 51.1 RL 45.9 RR 39.2 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 6, 15 to go, 6.42 fuel-laps)
+🔊 box in 5 laps
+🗣 bulletin (imp 6, cost 4.6s, ledger 8.6/20.4s, 2 lines): L43
+🔊 racing hards next
+🔊 keep the good laps coming
+🔊 on lap 43
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.42L, togo 15, stops 1)
+⏱ delta check L43 1/2: +1.26 s
+🔊 1 point three down
+🛞 compound: stint pitExit lap 36, refinement 10 — C 0.815 over 690 s (6576 samples)
+⏱ delta check L43 2/2: +1.82 s
+🔊 1 point eight down so far
+📋 lap 43: 1:32.001 clean fuel_used=6.13
+🛞 crew: tyre life RS — until L46 (3 left; worst 62 %, 8.8 %/lap biased)
+🔵 lap 43: clean
+🔧 🌧 L43 GR3 on RS: peak 1.71 g (best 1.79, ×0.96; floor 1.50) · slide 1.19 °/g (best 0.94, ×1.3) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 4095.8 s, remaining 1304.2 s, median lap 90.6 s -> 14 (no-stop 15, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L44: fuel/lap 6.10 | fuel 32.6 = 5.3 laps | 14.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 4.0s, ledger 4.0/20.4s, 1 line): positionChange(P2→P1)
+📐 plan L44 (14 to go): RS 4 · RH 10 — 1 stop, next: box L47 → RH | stop 22.4 s · fuel 5/16 laps · RH 93.0 s 33 laps, RM 92.0 s 25 laps, RS 90.6 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (106 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 43 done: FL 62.6 FR 58.7 RL 52.5 RR 44.8 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L44, L44/L44/L48, stops 1) | fuelStatus(lapsToGo, 5, 14 to go, 5.34 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L44, L44/L44/L48, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 5, 14 to go, 5.34 fuel-laps)
+🔊 you gained 1 place
+🗣 bulletin (imp 6, cost 4.9s, ledger 8.9/20.4s, 2 lines): L44
+🔊 now leading the race
+🔊 laptime 1 32 point oh
+🔊 lap 44 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.34L, togo 14, stops 1)
+🛞 compound: stint pitExit lap 36, refinement 11 — C 0.825 over 750 s (7051 samples)
+🛞 crew: tyre life said (mid-lap)
+🔊 around 3 more laps on these racing softs
+⏱ delta check L44 1/2: +0.34 s
+🔊 you're point three down
+⏱ delta check L44 2/2: +0.83 s
+🔊 point eight down on your best
+🛞 compound: stint pitExit lap 36, refinement 12 — C 0.825 over 810 s (7691 samples)
+📋 lap 44: 1:31.027 clean fuel_used=6.17
+🔵 lap 44: clean
+🔧 🌧 L44 GR3 on RS: peak 1.69 g (best 1.79, ×0.94; floor 1.50) · slide 0.99 °/g (best 0.94, ×1.1) · TCS 8 % (best 5 %) → dry
+📊 laps-left model: elapsed 4186.8 s, remaining 1213.2 s, median lap 90.6 s -> 13 (no-stop 14, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L45: fuel/lap 6.11 | fuel 26.4 = 4.3 laps | 13.0 laps to go | stops 1
+📐 plan L45 (13 to go): RS 3 · RH 10 — 1 stop, next: box L47 → RH | stop 22.4 s · fuel 4/16 laps · RH 93.1 s 33 laps, RM 92.0 s 25 laps, RS 90.8 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (107 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+📐 crew: box in 3 laps — racing hards next
+🛞 wear (test) lap 44 done: FL 70.5 FR 65.8 RL 58.8 RR 50.2 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 4, 13 to go, 4.32 fuel-laps)
+🔊 box in 3 laps
+🗣 bulletin (imp 6, cost 5.8s, ledger 9.8/20.4s, 2 lines): L45
+🔊 racing hards next
+🔊 ok laptime
+🔊 1 31 point oh
+🔊 that's lap 45
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.32L, togo 13, stops 1)
+⏱ delta check L45 1/2: +0.31 s
+🔊 point three down
+🛞 compound: stint pitExit lap 36, refinement 13 — C 0.825 over 870 s (8314 samples)
+⏱ delta check L45 2/2: +1.00 s
+🔊 you're 1 point oh down
+📋 lap 45: 1:31.360 clean fuel_used=6.00
+🛞 crew: tyres done — worst 87 % biased, 8.9 %/lap: box L46
+🔧 🌧 L45 GR3 on RS: peak 1.71 g (best 1.79, ×0.96; floor 1.50) · slide 0.97 °/g (best 0.94, ×1.0) · TCS 9 % (best 5 %) → dry
+🔵 lap 45: clean
+📊 laps-left model: elapsed 4278.2 s, remaining 1121.8 s, median lap 90.8 s -> 12 (no-stop 13, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L46: fuel/lap 6.11 | fuel 20.4 = 3.3 laps | 12.0 laps to go | stops 1
+📐 plan L46 (12 to go): RS 2 · RH 10 — 1 stop, next: box L47 → RH | stop 22.4 s · fuel 3/16 laps · RH 93.3 s 33 laps, RM 92.0 s 25 laps, RS 91.2 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (108 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 45 done: FL 79.1 FR 73.8 RL 65.2 RR 55.6 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+📋 strategy burst: 2 event(s), releasing best-first — pitStopsToGo(1, 12 to go) | fuelStatus(lapsToGo, 3, 12 to go, 3.34 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 12 to go)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 3, 12 to go, 3.34 fuel-laps)
+🗣 bulletin (imp 6, cost 6.9s, ledger 6.9/20.4s, 2 lines): L46
+🔊 decent laptime
+🔊 1 point six slower than your best
+🔊 on lap 46
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 3.34L, togo 12, stops 1)
+🛞 compound: stint pitExit lap 36, refinement 14 — C 0.825 over 930 s (8727 samples)
+🛞 crew: tyre box skipped — the planner calls the box
+⏱ delta check L46 1/2: +0.63 s
+🔊 point six down on your best
+⏱ delta check L46 2/2: +1.22 s
+🔊 1 point two down so far
+🛞 compound: stint pitExit lap 36, refinement 15 — C 0.835 over 990 s (9471 samples)
+📋 lap 46: 1:31.577 clean fuel_used=6.04
+🔵 lap 46: clean
+🔧 🌧 L46 GR3 on RS: peak 1.69 g (best 1.79, ×0.94; floor 1.50) · slide 0.99 °/g (best 0.94, ×1.1) · TCS 8 % (best 5 %) → dry
+📊 laps-left model: elapsed 4369.8 s, remaining 1030.2 s, median lap 91.2 s -> 11 (no-stop 12, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L47: fuel/lap 6.08 | fuel 14.4 = 2.4 laps | 11.0 laps to go | stops 1
+📐 plan L47 (11 to go): RS 1 · RH 10 — 1 stop, next: box L47 → RH | stop 22.4 s · fuel 2/16 laps · RH 93.4 s 33 laps, RM 92.0 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (109 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+📐 crew: box this lap — racing hards next
+📐 crew: 59 litres gets us to the end
+🛞 wear (test) lap 46 done: FL 87.4 FR 81.3 RL 71.6 RR 61.1 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 crew: estimated finish lap 58
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L47, L47/L47/L48, stops 1) | fuelStatus(lapsToGo, 2, 11 to go, 2.36 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L47, L47/L47/L48, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 2, 11 to go, 2.36 fuel-laps)
+🔊 box this lap
+🔊 racing hards next
+🗣 bulletin (imp 6, cost 4.3s, ledger 11.2/20.4s, 2 lines): L47
+🔊 59 litres gets us to the end
+🔊 laptime 31 point six
+🔊 that's lap 47
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 2.36L, togo 11, stops 1)
+⏱ delta check L47 1/2: +0.31 s
+🔊 you're point three down
+🛞 compound: stint pitExit lap 36, refinement 16 — C 0.835 over 1050 s (10048 samples)
+⏱ delta check L47 2/2: +1.05 s
+🔊 1 point one down on your best
+🔧 box reminder fired: 935 m (19.4 s) before pit entry, polyline anchor, lap 47
+📐 crew: pit entry coming up — box for racing hards
+📐 crew: add 59 litres
+🔊 pit entry coming up
+🔊 box for racing hards
+🔊 add 59 litres
+🔧 huge stop 166 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 2116045 lap 47
+🔵 sub-state FLYING → — lap 47
+🔧 pit-entry anchor learned: 90240 ms into lap (stop on lap 47)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 4460.0 s, remaining 940.0 s, median lap 91.2 s -> 10 (no-stop 11, pit loss 22.8 s, rate 3 l/s)
+📊 strategy: refuel still needed — 1.4 laps of fuel against 10 to go (need 11.5 with margin)
+🚪 gate refined: Red Bull Ring/lobby/pitEntry (26 samples, σ 0.08 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 8.5/20.4s, 1 line, protected): pittingIn(L47)
+🔊 pitting in
+🔊 crew's waiting
+📋 lap 47: 1:45.716 in fuel_used=5.69
+🔵 lap 47: clean
+🗑 dropped (in pit): lapStarted(48, last 105.72s)
+📐 plan L48: in the pit lane — planned after the stop
+🗺 mapper: lap 47 rejected (pit)
+🛞 wear (test) lap 47 done: FL 94.2 FR 87.4 RL 77.7 RR 66.3 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 59
+🛞 compound prompt: box exit lap 48, declared none — on screen; asked aloud with the estimate
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 58
+📊 laps-left model: elapsed 4478.3 s, remaining 921.7 s, median lap 91.2 s -> 10 (no-stop 11, pit loss 22.8 s, rate 3 l/s)
+🗑 dropped (box deadline; cost 1.2s, 0.1s of 18.4s left): inPitBox
+🗑 dropped (the planner owns the pit calls): refuelTarget(10 laps)
+🛞 compound prompt answered: RH
+🛞 crew compound: RH
+🌡 tyre bands: centre 80 °C (RH, +4, tap)
+🛞 crew compound: RH is sure
+🛞 wear (test): all four tyres at 60.00 °C on lap 48 — new set (J116)
+🛞 wear (test) stint 3 ended at tyre change: FL 94.3 FR 87.4 RL 77.7 RR 66.3 % — RS ×4 (tap)
+🌡 tyre bands: centre 80 °C (RH, +4, tap)
+🛞 compound: box-exit answer RH kept through the tyre change (J151)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🗑 dropped (in pit): tyreTemps(cold, 60°)
+🛞 compound: stint pitExit lap 36, refinement 17 (final) — C 0.835 over 1089 s (10483 samples)
+🛞 compound: stale window (RS, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 48
+🛞 compound: track scale 0.992 (course 470) — C is read ÷ 0.992
+🔀 state PIT → RACING at pkt 2118643 lap 48
+🔵 sub-state — → OUT_LAP lap 48
+🅿️ PIT completed: in L47 → out L48 (+53.3 fuel, transit 46.7s, teleport=false)
+🚪 gate refined: Red Bull Ring/lobby/pitBox (26 samples, σ 0.05 m, ±0 m)
+🅿️ entry→box 21.7s (speaking budget)
+🔧 pit approach: entry at station 4105 m of 4280 m (22.6 m off the line), lead 20 s
+🔧 teleport 112 m on lap 48 — pit release, not a reset
+📊 laps-left model: elapsed 4503.3 s, remaining 896.7 s, median lap 91.2 s -> 10 (no-stop 10, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L48: fuel/lap 6.08 | fuel 61.9 = 10.2 laps | 10.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 5.1s, ledger 5.1/20.4s, 1 line, protected): exitingPit(+53.24l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(inferred)
+📐 plan L48 (10 to go): RH 10 — 0 stops | stop 22.4 s · fuel 10/16 laps · RH 93.4 s 33 laps, RM 92.0 s 25 laps, RS 91.5 s 12 laps
+📐 crew: last stop done, no more stops
+🚪 gate refined: Red Bull Ring/lobby/pitExit (26 samples, σ 0.05 m, ±12 m, across 0.0…0.0 m)
+📊 laps-left model: elapsed 4503.4 s, remaining 873.8 s, median lap 91.2 s -> 10 (no-stop 10, pit loss 22.8 s, rate 3 l/s), out-lap -22.8s
+📊 strategy L48: fuel/lap 6.08 | fuel 61.9 = 10.2 laps | 10.0 laps to go | stops 0 (post-stop recalc)
+📋 strategy burst: 2 event(s), releasing best-first — strategyUpdate(fuel 10.19L, togo 10, stops 0) | strategyUpdate(fuel 10.19L, togo 10, stops 0, post-stop)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 10.19L, togo 10, stops 0)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 10.19L, togo 10, stops 0, post-stop)
+🔊 cold tyres for a lap or two
+🔊 easy on the throttle
+🔊 last stop done
+⏱ delta check L48 1/2: quiet — out-lap
+🔊 no more stops
+⏱ delta check L48 2/2: quiet — out-lap
+🛞 crew: estimated finish lap 57
+🛞 compound: racingHard (medium confidence, C 1.02, margin 0.026, relative to RS (truth), own reference)
+🛞 compound: RH confirmed by the driver — anchor
+🛞 compound: box-exit answer RH given to the pit-exit window (estimate RH)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(pitExit, RH, medium)
+🔊 probably racing hards
+🔵 sub-state OUT_LAP → FLYING lap 49
+📋 lap 48: 2:00.106 out fuel_used=5.99
+🔵 lap 48: clean
+📊 laps-left model: elapsed 4595.6 s, remaining 804.4 s, median lap 91.2 s -> 9 (no-stop 9, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L49: fuel/lap 6.08 | fuel 55.9 = 9.2 laps | 9.0 laps to go | stops 0
+🗣 spoke (position, imp 4, cost 2.2s, ledger 3.9/20.4s, 1 line): positionChange(P1→P2)
+📐 stop measured L47/48: 25.1 s (in 105.72 + out 120.11 − 2 × 91.47 − 53.3 L ÷ 3.0 L/s) — planning with 23.1 s
+📐 plan L49 (9 to go): RH 9 — 0 stops | stop 23.1 s · fuel 9/16 laps · RH 93.4 s 33 laps, RM 92.0 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (110 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🗺 mapper: lap 48 rejected (teleport)
+🛞 wear (test) lap 48 done: FL 2.4 FR 2.2 RL 2.1 RR 1.9 % — RH ×4 (tap)
+🛞 crew: estimated finish lap 58
+🛞 crew: estimated finish lap 57
+🔊 down to P 2
+🗣 bulletin (imp 6, cost 1.8s, ledger 5.7/20.4s, 1 line): L49
+🔊 on lap 49
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 9.20L, togo 9, stops 0)
+⏱ delta check L49 1/2: quiet — +1.05 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 48, refinement 1 — C 1.010 over 150 s (1668 samples)
+⏱ delta check L49 2/2: quiet — +2.12 s, on RH, best set on RS
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(low, 68°)
+🔊 tyres are cold
+🔊 be careful
+📋 lap 49: 1:32.975 clean fuel_used=6.05
+🔵 lap 49: clean
+🔧 🌧 L49 GR3 on RH: peak 1.57 g (best 0.00, ×1.00; floor 1.50) · slide 1.21 °/g (best 0.00, ×1.0) · TCS 10 % (best 0 %) → dry
+📊 laps-left model: elapsed 4688.6 s, remaining 711.4 s, median lap 91.5 s -> 8 (no-stop 8, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L50: fuel/lap 6.08 | fuel 49.9 = 8.2 laps | 8.0 laps to go | stops 0
+📐 plan L50 (8 to go): RH 8 — 0 stops | stop 23.1 s · fuel 8/16 laps · RH 93.4 s 33 laps, RM 92.0 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (111 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 49 done: FL 5.3 FR 4.8 RL 4.4 RR 3.9 % — RH ×4 (tap)
+⏱ compound best RH: 92.975 s
+🛞 crew: estimated finish lap 58
+🛞 crew: estimated finish lap 57
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 8, 8 to go, 8.20 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 5.8/20.4s, 2 lines): L50
+🔊 good lap
+🔊 1 32 point nine eight
+🔊 lap 50
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.20L, togo 8, stops 0)
+🛞 compound: stint pitExit lap 48, refinement 2 — C 1.020 over 210 s (2070 samples)
+⏱ delta check L50 1/2: quiet — +0.90 s, on RH, best set on RS
+⏱ delta check L50 2/2: quiet — +2.01 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 48, refinement 3 — C 1.030 over 270 s (2720 samples)
+📋 lap 50: 1:32.825 clean fuel_used=6.04
+🛞 crew: tyre life RH — until L77 (27 left; worst 8 %, 3.3 %/lap biased)
+🔵 lap 50: clean
+🔧 🌧 L50 GR3 on RH: peak 1.55 g (best 1.57, ×0.99; floor 1.50) · slide 1.21 °/g (best 1.21, ×1.0) · TCS 7 % (best 10 %) → dry
+📊 laps-left model: elapsed 4781.4 s, remaining 618.6 s, median lap 91.8 s -> 7 (no-stop 7, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L51: fuel/lap 6.05 | fuel 43.8 = 7.2 laps | 7.0 laps to go | stops 0
+📐 plan L51 (7 to go): RH 7 — 0 stops | stop 23.1 s · fuel 7/16 laps · RH 93.4 s 33 laps, RM 92.0 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (112 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 50 done: FL 8.1 FR 7.2 RL 6.8 RR 5.9 % — RH ×4 (tap)
+⏱ compound best RH: 92.825 s
+🛞 crew: estimated finish lap 58
+🛞 crew: estimated finish lap 57
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 7, 7 to go, 7.24 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 5.8/20.4s, 2 lines): L51
+🔊 great lap
+🔊 1 32 point eight
+🔊 lap 51 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.24L, togo 7, stops 0)
+🛞 crew: tyre life said (mid-lap)
+🔊 tyres will last the race on racing hards
+⏱ delta check L51 1/2: quiet — +1.34 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 48, refinement 4 — C 1.010 over 330 s (3211 samples)
+⏱ delta check L51 2/2: quiet — +2.56 s, on RH, best set on RS
+📋 lap 51: 1:33.304 clean fuel_used=6.04
+🔵 lap 51: clean
+🔧 🌧 L51 GR3 on RH: peak 1.57 g (best 1.57, ×1.00; floor 1.50) · slide 1.22 °/g (best 1.21, ×1.0) · TCS 9 % (best 7 %) → dry
+📊 laps-left model: elapsed 4874.7 s, remaining 525.3 s, median lap 91.8 s -> 6 (no-stop 6, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L52: fuel/lap 6.05 | fuel 37.8 = 6.3 laps | 6.0 laps to go | stops 0
+📐 plan L52 (6 to go): RH 6 — 0 stops | stop 23.1 s · fuel 6/16 laps · RH 93.0 s 33 laps, RM 92.0 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (113 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 51 done: FL 11.1 FR 9.8 RL 9.2 RR 7.9 % — RH ×4 (tap)
+🛞 crew: estimated finish lap 58
+🛞 crew: estimated finish lap 57
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 6, 6 to go, 6.25 fuel-laps)
+🗣 bulletin (imp 6, cost 7.6s, ledger 7.6/20.4s, 2 lines): L52
+🔊 good lap
+🔊 point five down on your best on these tyres
+🔊 on lap 52
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.25L, togo 6, stops 0)
+🛞 compound: stint pitExit lap 48, refinement 5 — C 1.020 over 390 s (3721 samples)
+⏱ delta check L52 1/2: quiet — +1.03 s, on RH, best set on RS
+⏱ delta check L52 2/2: quiet — +2.07 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 48, refinement 6 — C 1.020 over 450 s (4483 samples)
+📋 lap 52: 1:32.951 clean fuel_used=5.88
+🔵 lap 52: clean
+🔧 🌧 L52 GR3 on RH: peak 1.57 g (best 1.57, ×1.00; floor 1.50) · slide 1.21 °/g (best 1.21, ×1.0) · TCS 7 % (best 7 %) → dry
+📊 laps-left model: elapsed 4967.7 s, remaining 432.3 s, median lap 92.4 s -> 5 (no-stop 5, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L53: fuel/lap 6.05 | fuel 31.9 = 5.3 laps | 5.0 laps to go | stops 0
+📐 plan L53 (5 to go): RH 5 — 0 stops | stop 23.1 s · fuel 5/16 laps · RH 93.0 s 33 laps, RM 92.0 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (114 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 52 done: FL 14.1 FR 12.5 RL 11.6 RR 10.0 % — RH ×4 (tap)
+🛞 crew: estimated finish lap 58
+🛞 crew: estimated finish lap 57
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 5, 5 to go, 5.28 fuel-laps)
+🗣 bulletin (imp 6, cost 7.1s, ledger 7.1/20.4s, 2 lines): L53
+🔊 that was a great lap
+🔊 1 32 point nine five
+🔊 lap 53
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.28L, togo 5, stops 0)
+⏱ delta check L53 1/2: quiet — +1.04 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 48, refinement 7 — C 1.020 over 510 s (4924 samples)
+⏱ delta check L53 2/2: quiet — +2.06 s, on RH, best set on RS
+📋 lap 53: 1:32.806 clean fuel_used=6.02
+🛞 crew: tyre life RH — until L79 (26 left; worst 16 %, 3.1 %/lap biased)
+🔵 lap 53: clean
+🔧 🌧 L53 GR3 on RH: peak 1.55 g (best 1.57, ×0.99; floor 1.50) · slide 1.26 °/g (best 1.21, ×1.0) · TCS 11 % (best 7 %) → dry
+📊 laps-left model: elapsed 5060.4 s, remaining 339.6 s, median lap 92.8 s -> 4 (no-stop 4, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L54: fuel/lap 6.04 | fuel 25.9 = 4.3 laps | 4.0 laps to go | stops 0
+📐 plan L54 (4 to go): RH 4 — 0 stops | stop 23.1 s · fuel 4/16 laps · RH 93.0 s 33 laps, RM 92.0 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (115 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 53 done: FL 16.9 FR 15.0 RL 14.0 RR 12.1 % — RH ×4 (tap)
+⏱ compound best RH: 92.806 s
+🛞 crew: estimated finish lap 58
+🛞 crew: estimated finish lap 57
+🗣 spoke (strategy, imp 2, cost 2.5s, ledger 2.5/20.4s, 1 line, protected): fuelStatus(noMoreStops, 4, 4 to go, 4.29 fuel-laps)
+🔊 you shouldn't need to pit
+🗣 bulletin (imp 6, cost 4.6s, ledger 7.1/20.4s, 2 lines): L54
+🔊 keep those good laps coming
+🔊 lap 54 now
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🛞 compound: stint pitExit lap 48, refinement 8 — C 1.020 over 570 s (5621 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.29L, togo 4, stops 0)
+🛞 crew: tyre life said (mid-lap)
+🔊 these racing hards should go to the finish
+⏱ delta check L54 1/2: quiet — +0.80 s, on RH, best set on RS
+⏱ delta check L54 2/2: quiet — +1.79 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 48, refinement 9 — C 1.010 over 630 s (6308 samples)
+📋 lap 54: 1:32.443 clean fuel_used=6.11
+🔵 lap 54: clean
+🔧 🌧 L54 GR3 on RH: peak 1.55 g (best 1.57, ×0.99; floor 1.50) · slide 1.27 °/g (best 1.21, ×1.1) · TCS 10 % (best 7 %) → dry
+📊 laps-left model: elapsed 5152.9 s, remaining 247.1 s, median lap 92.8 s -> 3 (no-stop 3, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L55: fuel/lap 6.05 | fuel 19.8 = 3.3 laps | 3.0 laps to go | stops 0
+📐 plan L55 (3 to go): RH 3 — 0 stops | stop 23.1 s · fuel 3/16 laps · RH 92.9 s 33 laps, RM 92.0 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (116 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 54 done: FL 19.9 FR 17.5 RL 16.5 RR 14.1 % — RH ×4 (tap)
+⏱ compound best RH: 92.443 s
+🛞 crew: estimated finish lap 58
+🛞 crew: estimated finish lap 57
+🗑 dropped (the planner owns the pit calls): fuelStatus(noMoreStops, 3, 3 to go, 3.27 fuel-laps)
+🗣 bulletin (imp 6, cost 6.1s, ledger 6.1/20.4s, 2 lines): L55
+🔊 that was a great lap
+🔊 32 point four
+🔊 lap 55
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 3.27L, togo 3, stops 0)
+⏱ delta check L55 1/2: quiet — +0.92 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 48, refinement 10 — C 1.020 over 690 s (6751 samples)
+⏱ delta check L55 2/2: quiet — +1.93 s, on RH, best set on RS
+📋 lap 55: 1:32.432 clean fuel_used=6.07
+🔵 lap 55: clean
+🔧 🌧 L55 GR3 on RH: peak 1.57 g (best 1.57, ×1.00; floor 1.50) · slide 1.32 °/g (best 1.21, ×1.1) · TCS 11 % (best 7 %) → dry
+📊 laps-left model: elapsed 5245.3 s, remaining 154.7 s, median lap 92.8 s -> 2 (no-stop 2, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L56: fuel/lap 6.05 | fuel 13.7 = 2.3 laps | 2.0 laps to go | stops 0
+📐 plan L56 (2 to go): RH 2 — 0 stops | stop 23.1 s · fuel 2/16 laps · RH 92.8 s 33 laps, RM 92.0 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (117 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 55 done: FL 22.8 FR 19.9 RL 18.9 RR 16.2 % — RH ×4 (tap)
+⏱ compound best RH: 92.432 s
+🛞 crew: estimated finish lap 58
+🛞 crew: estimated finish lap 57
+🗑 dropped (the planner owns the pit calls): fuelStatus(noMoreStops, 2, 2 to go, 2.27 fuel-laps)
+🗣 bulletin (imp 6, cost 6.7s, ledger 6.7/20.4s, 2 lines): L56
+🔊 good lap
+🔊 1 32 point four three two
+🔊 on lap 56
+🛞 compound: stint pitExit lap 48, refinement 11 — C 1.020 over 750 s (7408 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 2.27L, togo 2, stops 0)
+⏱ delta check L56 1/2: quiet — +0.83 s, on RH, best set on RS
+⏱ delta check L56 2/2: quiet — +1.91 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 48, refinement 12 — C 1.010 over 810 s (8007 samples)
+📋 lap 56: 1:32.732 clean fuel_used=6.01
+🛞 crew: tyre life RH — until L78 (22 left; worst 25 %, 3.2 %/lap biased)
+🔵 lap 56: clean
+🔧 🌧 L56 GR3 on RH: peak 1.57 g (best 1.57, ×1.00; floor 1.50) · slide 1.15 °/g (best 1.21, ×1.0) · TCS 10 % (best 7 %) → dry
+📊 laps-left model: elapsed 5338.0 s, remaining 62.0 s, median lap 92.8 s -> 1 (no-stop 1, pit loss 22.8 s, rate 3 l/s)
+📊 strategy L57: fuel/lap 6.05 | fuel 7.7 = 1.3 laps | 1.0 laps to go | stops 0
+📐 plan L57 (1 to go): RH 1 — 0 stops | stop 23.1 s · fuel 1/16 laps · RH 92.8 s 33 laps, RM 92.0 s 25 laps, RS 91.5 s 12 laps
+🚪 gate refined: Red Bull Ring/lobby/finishLine (118 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 56 done: FL 25.7 FR 22.3 RL 21.4 RR 18.3 % — RH ×4 (tap)
+🛞 crew: estimated finish lap 58
+🛞 crew: estimated finish lap 57
+🗣 bulletin (imp 6, cost 6.3s, ledger 6.3/20.4s, 2 lines): L57
+🔊 keep those good laps coming
+🔊 lap 57 will be the last lap
+🛞 crew: tyre life said (mid-lap)
+🔊 tyres will last the race on racing hards
+⏱ delta check L57 1/2: quiet — +0.81 s, on RH, best set on RS
+🛞 compound: stint pitExit lap 48, refinement 13 — C 1.020 over 870 s (8581 samples)
+📊 strategy L57: clock 5400.0 s past 5400 with 30.9 s of the lap to run — final lap
+🏁 crew: clock call skipped — last lap said at the line
+⏱ delta check L57 2/2: quiet — +1.97 s, on RH, best set on RS
+🔧 no tyre change detected after this stop (72.0° vs 66.7° at entry)
+📋 lap 57: 1:33.136 clean fuel_used=6.03
+🔵 lap 57: clean
+🔧 🌧 L57 GR3 on RH: peak 1.59 g (best 1.57, ×1.01; floor 1.50) · slide 1.25 °/g (best 1.15, ×1.1) · TCS 12 % (best 7 %) → dry
+📊 strategy: finish armed at L58 (clock 5431.2 s of 5400) — awaiting lap-clock freeze
+📊 laps-left model: elapsed 5431.2 s, remaining -31.2 s, median lap 92.8 s -> 0 (expired)
+📊 strategy L58: fuel/lap 6.04 | fuel 1.7 = 0.3 laps | 0.0 laps to go | stops 0
+📐 plan L58: race length unknown
+🚪 gate refined: Red Bull Ring/lobby/finishLine (119 samples, σ 0.53 m, ±12 m, across -0.4…0.9 m)
+🛞 wear (test) lap 57 done: FL 28.5 FR 24.7 RL 23.8 RR 20.3 % — RH ×4 (tap)
+🛞 crew: estimated finish lap 58
+📊 strategy: race finished at L58 — confirmed, lap clock frozen 0.50 s (handover 0.50 s)
+🗑 flag: pending commentary cancelled
+🛞 compound: stint pitExit lap 48, refinement 14 (final) — C 1.020 over 929 s (9315 samples)
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): raceFinished(L58)
+# recap:   58 lap(s), 4 stop(s), P2/12, finished — filed in the sidecar
+💾 race preserved (finished): 58 lap(s), 4 stop(s), start GRID_START, P2/12
+✂️ capture auto-stop in 20s (race finished)
+# values:  11 section(s) at the flag — filed with the recap
+💾 values at the flag: 11 section(s)
+🔊 that's the flag
+🔊 good session
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 327972 packets
