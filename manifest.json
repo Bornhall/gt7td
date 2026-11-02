@@ -5051,6 +5051,74 @@
       ]
     },
     {
+      "stem": "470-customRace-20261102_102939",
+      "courseId": 470,
+      "track": "Red Bull Ring",
+      "context": "customRace",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 328022,
+      "durationS": 5472.5,
+      "rawBytes": 120712096,
+      "gzBytes": 58070065,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 4,
+      "identifiedCourseId": 470,
+      "identifiedTrackName": "Red Bull Ring",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "confirmed"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 3,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 16,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 30,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 43,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 55,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit",
+          "finalLabel": "RM"
+        }
+      ]
+    },
+    {
       "stem": "470-lobby-20260721_205930",
       "courseId": 470,
       "track": "Red Bull Ring",
