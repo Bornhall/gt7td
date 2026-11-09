@@ -1,0 +1,1438 @@
+{
+  "carCategory" : "GR1",
+  "carClass" : "Gr.1",
+  "carId" : 3607,
+  "carName" : "Porsche 963 '24",
+  "compoundObservations" : [
+    {
+      "compound" : "RH",
+      "compoundConfidence" : "medium",
+      "estimatorVersion" : "v1r12",
+      "family" : "racing",
+      "familyConfidence" : "high",
+      "finalLabel" : "RM",
+      "heating" : 0.15507696749783997,
+      "lap" : 1,
+      "outcome" : "startAnswer",
+      "revisions" : 27,
+      "samples" : 28088,
+      "seconds" : 1698.6986986986988,
+      "slipPerG" : 0.8046249999999999,
+      "source" : "telemetry",
+      "startPacketId" : 2956394,
+      "trigger" : "raceStart"
+    },
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r12",
+      "family" : "racing",
+      "finalLabel" : "RS",
+      "heating" : 0.1556778284605199,
+      "lap" : 18,
+      "outcome" : "boxExit",
+      "revisions" : 10,
+      "samples" : 10166,
+      "seconds" : 666.64998331665,
+      "slipPerG" : 0.7226249999999999,
+      "source" : "telemetry",
+      "startPacketId" : 3060484,
+      "trigger" : "pitExit"
+    },
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r12",
+      "family" : "racing",
+      "finalLabel" : "RS",
+      "heating" : 0.14249448982664373,
+      "lap" : 25,
+      "outcome" : "boxExit",
+      "revisions" : 12,
+      "samples" : 12331,
+      "seconds" : 761.8451785118452,
+      "slipPerG" : 0.712375,
+      "source" : "telemetry",
+      "startPacketId" : 3102366,
+      "trigger" : "pitExit"
+    },
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r12",
+      "family" : "racing",
+      "finalLabel" : "RS",
+      "heating" : 0.13858756936796882,
+      "lap" : 33,
+      "outcome" : "boxExit",
+      "revisions" : 10,
+      "samples" : 10800,
+      "seconds" : 665.9826493159827,
+      "slipPerG" : 0.712375,
+      "source" : "telemetry",
+      "startPacketId" : 3150212,
+      "trigger" : "pitExit"
+    },
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r12",
+      "family" : "racing",
+      "finalLabel" : "RS",
+      "heating" : 0.13242954845306262,
+      "lap" : 40,
+      "outcome" : "boxExit",
+      "revisions" : 12,
+      "samples" : 12634,
+      "seconds" : 761.9452786119454,
+      "slipPerG" : 0.712375,
+      "source" : "telemetry",
+      "startPacketId" : 3192143,
+      "trigger" : "pitExit"
+    },
+    {
+      "compound" : "RS",
+      "compoundConfidence" : "high",
+      "estimatorVersion" : "v1r12",
+      "family" : "racing",
+      "finalLabel" : "RS",
+      "heating" : 0.1674325175119778,
+      "lap" : 48,
+      "outcome" : "boxExit",
+      "revisions" : 10,
+      "samples" : 10399,
+      "seconds" : 664.8314981648315,
+      "slipPerG" : 0.712375,
+      "source" : "telemetry",
+      "startPacketId" : 3239950,
+      "trigger" : "pitExit"
+    }
+  ],
+  "courseId" : 1163,
+  "declared" : {
+    "captureContext" : "lobby",
+    "courseId" : 1163,
+    "fuelMultiplier" : 2,
+    "raceLength" : 90,
+    "raceLengthUnit" : "minutes",
+    "refuelRateLps" : 3,
+    "startType" : "grid",
+    "startingFuelPercent" : 100,
+    "timeAfterFinish" : 20,
+    "timeBeforeStart" : 20,
+    "trackName" : "Daytona Road Course",
+    "tyreRules" : "RM>=1",
+    "tyreWearMultiplier" : 4,
+    "weather" : "dry"
+  },
+  "endTime" : 1794258064,
+  "granularity" : 1,
+  "identifiedCourseId" : 1163,
+  "identifiedTrackName" : "Daytona Road Course",
+  "maxSpeedKmh" : 315,
+  "observedDurationS" : 5400,
+  "packetSize" : 368,
+  "recaps" : [
+    {
+      "bestLapMs" : 95295,
+      "carId" : 3607,
+      "carName" : "Porsche 963 '24",
+      "courseId" : 1163,
+      "endedAt" : "2026-11-09T21:00:44Z",
+      "id" : "271E4C77-B0D3-4FFE-BDFC-9DD3221F695D",
+      "incidentLaps" : [
+        1,
+        4,
+        5,
+        8,
+        26,
+        27,
+        30,
+        40
+      ],
+      "laps" : [
+        {
+          "fuelUsed" : 0.5682373046875,
+          "invalid" : false,
+          "lap" : 0,
+          "position" : 6,
+          "tyreFL" : 59.41737365722656,
+          "tyreFR" : 59.37211227416992,
+          "tyreRL" : 59.25651931762695,
+          "tyreRR" : 59.27574157714844
+        },
+        {
+          "fuelUsed" : 3.8072433471679688,
+          "invalid" : false,
+          "lap" : 1,
+          "position" : 7,
+          "role" : "first",
+          "timeMs" : 112865,
+          "tyreFL" : 69.11563873291016,
+          "tyreFR" : 69.17988586425781,
+          "tyreRL" : 70.70958709716797,
+          "tyreRR" : 70.6876449584961
+        },
+        {
+          "fuelUsed" : 3.7770614624023438,
+          "invalid" : false,
+          "lap" : 2,
+          "position" : 7,
+          "timeMs" : 98709,
+          "tyreFL" : 73.48555755615234,
+          "tyreFR" : 71.90550231933594,
+          "tyreRL" : 73.87633514404297,
+          "tyreRR" : 73.89653778076172
+        },
+        {
+          "fuelUsed" : 3.7133941650390625,
+          "invalid" : false,
+          "lap" : 3,
+          "position" : 7,
+          "timeMs" : 98891,
+          "tyreFL" : 76.02972412109375,
+          "tyreFR" : 72.94176483154297,
+          "tyreRL" : 76.12910461425781,
+          "tyreRR" : 75.45172882080078
+        },
+        {
+          "fuelUsed" : 3.7017440795898438,
+          "invalid" : false,
+          "lap" : 4,
+          "position" : 11,
+          "timeMs" : 117445,
+          "tyreFL" : 77.0790786743164,
+          "tyreFR" : 73.34725952148438,
+          "tyreRL" : 77.92047882080078,
+          "tyreRR" : 75.53738403320312
+        },
+        {
+          "fuelUsed" : 3.7493743896484375,
+          "invalid" : false,
+          "lap" : 5,
+          "position" : 12,
+          "timeMs" : 108692,
+          "tyreFL" : 75.6550521850586,
+          "tyreFR" : 72.97695922851562,
+          "tyreRL" : 74.88375854492188,
+          "tyreRR" : 74.10600280761719
+        },
+        {
+          "fuelUsed" : 3.694671630859375,
+          "invalid" : false,
+          "lap" : 6,
+          "position" : 12,
+          "timeMs" : 98263,
+          "tyreFL" : 76.66925811767578,
+          "tyreFR" : 73.88536071777344,
+          "tyreRL" : 75.28343963623047,
+          "tyreRR" : 74.75923156738281
+        },
+        {
+          "fuelUsed" : 3.630767822265625,
+          "invalid" : false,
+          "lap" : 7,
+          "position" : 12,
+          "timeMs" : 98621,
+          "tyreFL" : 76.85250091552734,
+          "tyreFR" : 73.2816390991211,
+          "tyreRL" : 75.42853546142578,
+          "tyreRR" : 74.66600036621094
+        },
+        {
+          "fuelUsed" : 3.5736541748046875,
+          "invalid" : false,
+          "lap" : 8,
+          "position" : 12,
+          "timeMs" : 98305,
+          "tyreFL" : 78.43669128417969,
+          "tyreFR" : 74.56140899658203,
+          "tyreRL" : 75.64523315429688,
+          "tyreRR" : 74.69152069091797
+        },
+        {
+          "fuelUsed" : 3.616912841796875,
+          "invalid" : false,
+          "lap" : 9,
+          "position" : 12,
+          "timeMs" : 98917,
+          "tyreFL" : 78.65576171875,
+          "tyreFR" : 74.64054870605469,
+          "tyreRL" : 76.3821029663086,
+          "tyreRR" : 75.50791931152344
+        },
+        {
+          "fuelUsed" : 3.7649612426757812,
+          "invalid" : false,
+          "lap" : 10,
+          "position" : 12,
+          "timeMs" : 98721,
+          "tyreFL" : 79.1158447265625,
+          "tyreFR" : 74.03560638427734,
+          "tyreRL" : 76.23856353759766,
+          "tyreRR" : 75.21880340576172
+        },
+        {
+          "fuelUsed" : 3.6904029846191406,
+          "invalid" : false,
+          "lap" : 11,
+          "position" : 11,
+          "timeMs" : 98542,
+          "tyreFL" : 79.13615417480469,
+          "tyreFR" : 73.63408660888672,
+          "tyreRL" : 75.71202850341797,
+          "tyreRR" : 74.55484771728516
+        },
+        {
+          "fuelUsed" : 3.7208175659179688,
+          "invalid" : false,
+          "lap" : 12,
+          "position" : 11,
+          "timeMs" : 98601,
+          "tyreFL" : 77.709228515625,
+          "tyreFR" : 73.16170501708984,
+          "tyreRL" : 76.0464096069336,
+          "tyreRR" : 75.46054077148438
+        },
+        {
+          "fuelUsed" : 3.7233505249023438,
+          "invalid" : false,
+          "lap" : 13,
+          "position" : 11,
+          "timeMs" : 97897,
+          "tyreFL" : 77.9682388305664,
+          "tyreFR" : 72.83102416992188,
+          "tyreRL" : 76.6552963256836,
+          "tyreRR" : 75.44229888916016
+        },
+        {
+          "fuelUsed" : 3.6751441955566406,
+          "invalid" : false,
+          "lap" : 14,
+          "position" : 10,
+          "timeMs" : 98940,
+          "tyreFL" : 77.92865753173828,
+          "tyreFR" : 73.55754852294922,
+          "tyreRL" : 77.0499038696289,
+          "tyreRR" : 76.20543670654297
+        },
+        {
+          "fuelUsed" : 3.671894073486328,
+          "invalid" : false,
+          "lap" : 15,
+          "position" : 10,
+          "timeMs" : 98229,
+          "tyreFL" : 78.40352630615234,
+          "tyreFR" : 73.85162353515625,
+          "tyreRL" : 77.11063385009766,
+          "tyreRR" : 76.50686645507812
+        },
+        {
+          "fuelUsed" : 3.7324142456054688,
+          "invalid" : false,
+          "lap" : 16,
+          "position" : 9,
+          "timeMs" : 99631,
+          "tyreFL" : 76.75092315673828,
+          "tyreFR" : 72.54165649414062,
+          "tyreRL" : 76.64558410644531,
+          "tyreRR" : 76.11620330810547
+        },
+        {
+          "fuelUsed" : 3.6621437072753906,
+          "invalid" : false,
+          "lap" : 17,
+          "position" : 12,
+          "role" : "in",
+          "timeMs" : 114480,
+          "tyreFL" : 75.23253631591797,
+          "tyreFR" : 71.34224700927734,
+          "tyreRL" : 76.64566040039062,
+          "tyreRR" : 75.48052215576172
+        },
+        {
+          "fuelUsed" : 3.5038795471191406,
+          "invalid" : false,
+          "lap" : 18,
+          "position" : 12,
+          "role" : "out",
+          "timeMs" : 98490,
+          "tyreFL" : 64.55322265625,
+          "tyreFR" : 61.93949508666992,
+          "tyreRL" : 64.40116119384766,
+          "tyreRR" : 63.54460906982422
+        },
+        {
+          "fuelUsed" : 3.697713851928711,
+          "invalid" : false,
+          "lap" : 19,
+          "position" : 12,
+          "timeMs" : 95681,
+          "tyreFL" : 68.59124755859375,
+          "tyreFR" : 64.4910888671875,
+          "tyreRL" : 66.72113037109375,
+          "tyreRR" : 66.10379028320312
+        },
+        {
+          "fuelUsed" : 3.7466182708740234,
+          "invalid" : false,
+          "lap" : 20,
+          "position" : 10,
+          "timeMs" : 95432,
+          "tyreFL" : 71.25397491455078,
+          "tyreFR" : 65.420654296875,
+          "tyreRL" : 68.2771224975586,
+          "tyreRR" : 67.38569641113281
+        },
+        {
+          "fuelUsed" : 3.5342578887939453,
+          "invalid" : false,
+          "lap" : 21,
+          "position" : 10,
+          "timeMs" : 96723,
+          "tyreFL" : 71.56967163085938,
+          "tyreFR" : 66.50908660888672,
+          "tyreRL" : 70.02581024169922,
+          "tyreRR" : 68.69743347167969
+        },
+        {
+          "fuelUsed" : 3.5687522888183594,
+          "invalid" : false,
+          "lap" : 22,
+          "position" : 8,
+          "timeMs" : 97270,
+          "tyreFL" : 72.0931167602539,
+          "tyreFR" : 66.15272521972656,
+          "tyreRL" : 70.65130615234375,
+          "tyreRR" : 68.7349624633789
+        },
+        {
+          "fuelUsed" : 3.8097572326660156,
+          "invalid" : false,
+          "lap" : 23,
+          "position" : 8,
+          "timeMs" : 96669,
+          "tyreFL" : 71.32698059082031,
+          "tyreFR" : 65.99820709228516,
+          "tyreRL" : 70.47571563720703,
+          "tyreRR" : 68.95718383789062
+        },
+        {
+          "fuelUsed" : 3.7254552841186523,
+          "invalid" : false,
+          "lap" : 24,
+          "position" : 10,
+          "role" : "in",
+          "timeMs" : 112085,
+          "tyreFL" : 70.70098114013672,
+          "tyreFR" : 65.41850280761719,
+          "tyreRL" : 70.04551696777344,
+          "tyreRR" : 69.0125961303711
+        },
+        {
+          "fuelUsed" : 3.425649642944336,
+          "invalid" : false,
+          "lap" : 25,
+          "position" : 10,
+          "role" : "out",
+          "timeMs" : 104670,
+          "tyreFL" : 63.884788513183594,
+          "tyreFR" : 61.38484191894531,
+          "tyreRL" : 63.344696044921875,
+          "tyreRR" : 62.60082244873047
+        },
+        {
+          "fuelUsed" : 3.6528148651123047,
+          "invalid" : false,
+          "lap" : 26,
+          "position" : 7,
+          "timeMs" : 95961,
+          "tyreFL" : 67.30964660644531,
+          "tyreFR" : 64.50179290771484,
+          "tyreRL" : 65.59852600097656,
+          "tyreRR" : 65.22825622558594
+        },
+        {
+          "fuelUsed" : 3.8634700775146484,
+          "invalid" : false,
+          "lap" : 27,
+          "position" : 7,
+          "timeMs" : 96244,
+          "tyreFL" : 70.2837905883789,
+          "tyreFR" : 65.8792953491211,
+          "tyreRL" : 67.75212860107422,
+          "tyreRR" : 66.69419860839844
+        },
+        {
+          "fuelUsed" : 3.784430503845215,
+          "invalid" : false,
+          "lap" : 28,
+          "position" : 7,
+          "timeMs" : 95402,
+          "tyreFL" : 71.10140228271484,
+          "tyreFR" : 66.72853088378906,
+          "tyreRL" : 68.23184204101562,
+          "tyreRR" : 67.32977294921875
+        },
+        {
+          "fuelUsed" : 3.797926902770996,
+          "invalid" : false,
+          "lap" : 29,
+          "position" : 5,
+          "timeMs" : 96071,
+          "tyreFL" : 71.07588195800781,
+          "tyreFR" : 67.12667083740234,
+          "tyreRL" : 68.75603485107422,
+          "tyreRR" : 68.45767211914062
+        },
+        {
+          "fuelUsed" : 3.761195182800293,
+          "invalid" : false,
+          "lap" : 30,
+          "position" : 4,
+          "timeMs" : 97379,
+          "tyreFL" : 71.09779357910156,
+          "tyreFR" : 67.36933898925781,
+          "tyreRL" : 68.97039031982422,
+          "tyreRR" : 68.08843231201172
+        },
+        {
+          "fuelUsed" : 3.752274990081787,
+          "invalid" : false,
+          "lap" : 31,
+          "position" : 4,
+          "timeMs" : 96116,
+          "tyreFL" : 71.78343200683594,
+          "tyreFR" : 67.27588653564453,
+          "tyreRL" : 69.39932250976562,
+          "tyreRR" : 68.15704345703125
+        },
+        {
+          "fuelUsed" : 3.415555477142334,
+          "invalid" : false,
+          "lap" : 32,
+          "position" : 5,
+          "role" : "in",
+          "timeMs" : 112090,
+          "tyreFL" : 71.24300384521484,
+          "tyreFR" : 67.03533172607422,
+          "tyreRL" : 68.88028717041016,
+          "tyreRR" : 67.97808837890625
+        },
+        {
+          "fuelUsed" : 3.1893863677978516,
+          "invalid" : false,
+          "lap" : 33,
+          "position" : 5,
+          "role" : "out",
+          "timeMs" : 108901,
+          "tyreFL" : 63.343284606933594,
+          "tyreFR" : 61.215824127197266,
+          "tyreRL" : 62.86541748046875,
+          "tyreRR" : 62.168426513671875
+        },
+        {
+          "fuelUsed" : 3.6198272705078125,
+          "invalid" : false,
+          "lap" : 34,
+          "position" : 5,
+          "timeMs" : 96053,
+          "tyreFL" : 68.64073181152344,
+          "tyreFR" : 63.89469909667969,
+          "tyreRL" : 65.24140167236328,
+          "tyreRR" : 64.99642181396484
+        },
+        {
+          "fuelUsed" : 3.7563400268554688,
+          "invalid" : false,
+          "lap" : 35,
+          "position" : 5,
+          "timeMs" : 96044,
+          "tyreFL" : 69.77572631835938,
+          "tyreFR" : 64.5252456665039,
+          "tyreRL" : 66.33654022216797,
+          "tyreRR" : 65.68582916259766
+        },
+        {
+          "fuelUsed" : 3.769773483276367,
+          "invalid" : false,
+          "lap" : 36,
+          "position" : 3,
+          "timeMs" : 95931,
+          "tyreFL" : 70.7086181640625,
+          "tyreFR" : 66.16999816894531,
+          "tyreRL" : 67.38896942138672,
+          "tyreRR" : 66.36013793945312
+        },
+        {
+          "fuelUsed" : 3.791553497314453,
+          "invalid" : false,
+          "lap" : 37,
+          "position" : 3,
+          "timeMs" : 96401,
+          "tyreFL" : 72.09019470214844,
+          "tyreFR" : 66.80098724365234,
+          "tyreRL" : 68.45425415039062,
+          "tyreRR" : 67.14247131347656
+        },
+        {
+          "fuelUsed" : 3.7528457641601562,
+          "invalid" : false,
+          "lap" : 38,
+          "position" : 3,
+          "timeMs" : 95970,
+          "tyreFL" : 72.77783203125,
+          "tyreFR" : 68.10554504394531,
+          "tyreRL" : 69.35821533203125,
+          "tyreRR" : 68.74358367919922
+        },
+        {
+          "fuelUsed" : 3.5650339126586914,
+          "invalid" : false,
+          "lap" : 39,
+          "position" : 4,
+          "role" : "in",
+          "timeMs" : 113067,
+          "tyreFL" : 71.42105102539062,
+          "tyreFR" : 66.94401550292969,
+          "tyreRL" : 69.39629364013672,
+          "tyreRR" : 68.78656768798828
+        },
+        {
+          "fuelUsed" : 3.088930130004883,
+          "invalid" : false,
+          "lap" : 40,
+          "position" : 5,
+          "role" : "out",
+          "timeMs" : 106798,
+          "tyreFL" : 62.73201370239258,
+          "tyreFR" : 60.968814849853516,
+          "tyreRL" : 62.72766876220703,
+          "tyreRR" : 62.20406723022461
+        },
+        {
+          "fuelUsed" : 3.333240509033203,
+          "invalid" : false,
+          "lap" : 41,
+          "position" : 5,
+          "timeMs" : 95918,
+          "tyreFL" : 67.43405151367188,
+          "tyreFR" : 63.681243896484375,
+          "tyreRL" : 65.2652816772461,
+          "tyreRR" : 64.83226013183594
+        },
+        {
+          "fuelUsed" : 3.208251953125,
+          "invalid" : false,
+          "lap" : 42,
+          "position" : 4,
+          "timeMs" : 96689,
+          "tyreFL" : 69.2164077758789,
+          "tyreFR" : 65.15581512451172,
+          "tyreRL" : 66.75318908691406,
+          "tyreRR" : 66.34281921386719
+        },
+        {
+          "fuelUsed" : 3.343770980834961,
+          "invalid" : false,
+          "lap" : 43,
+          "position" : 4,
+          "timeMs" : 96574,
+          "tyreFL" : 69.84925842285156,
+          "tyreFR" : 65.23638153076172,
+          "tyreRL" : 67.89213562011719,
+          "tyreRR" : 66.57514953613281
+        },
+        {
+          "fuelUsed" : 3.5651607513427734,
+          "invalid" : false,
+          "lap" : 44,
+          "position" : 4,
+          "timeMs" : 95732,
+          "tyreFL" : 71.52910614013672,
+          "tyreFR" : 66.8083267211914,
+          "tyreRL" : 68.64205169677734,
+          "tyreRR" : 67.2776107788086
+        },
+        {
+          "fuelUsed" : 3.646439552307129,
+          "invalid" : false,
+          "lap" : 45,
+          "position" : 4,
+          "timeMs" : 96061,
+          "tyreFL" : 73.22986602783203,
+          "tyreFR" : 67.85140991210938,
+          "tyreRL" : 69.33129119873047,
+          "tyreRR" : 68.16403198242188
+        },
+        {
+          "fuelUsed" : 3.6327157020568848,
+          "invalid" : false,
+          "lap" : 46,
+          "position" : 4,
+          "timeMs" : 96632,
+          "tyreFL" : 73.0540542602539,
+          "tyreFR" : 67.60211181640625,
+          "tyreRL" : 70.0700454711914,
+          "tyreRR" : 68.32097625732422
+        },
+        {
+          "fuelUsed" : 3.5124263763427734,
+          "invalid" : false,
+          "lap" : 47,
+          "position" : 4,
+          "role" : "in",
+          "timeMs" : 111113,
+          "tyreFL" : 71.94058227539062,
+          "tyreFR" : 67.5761947631836,
+          "tyreRL" : 70.37748718261719,
+          "tyreRR" : 69.38509368896484
+        },
+        {
+          "fuelUsed" : 3.4223194122314453,
+          "invalid" : false,
+          "lap" : 48,
+          "position" : 4,
+          "role" : "out",
+          "timeMs" : 108571,
+          "tyreFL" : 63.354888916015625,
+          "tyreFR" : 62.00265884399414,
+          "tyreRL" : 63.25867462158203,
+          "tyreRR" : 62.614654541015625
+        },
+        {
+          "fuelUsed" : 3.7244396209716797,
+          "invalid" : false,
+          "lap" : 49,
+          "position" : 4,
+          "timeMs" : 95964,
+          "tyreFL" : 67.56600189208984,
+          "tyreFR" : 65.09191131591797,
+          "tyreRL" : 66.18828582763672,
+          "tyreRR" : 65.48880004882812
+        },
+        {
+          "fuelUsed" : 3.743898391723633,
+          "invalid" : false,
+          "lap" : 50,
+          "position" : 4,
+          "timeMs" : 95295,
+          "tyreFL" : 69.58750915527344,
+          "tyreFR" : 66.03118896484375,
+          "tyreRL" : 67.58220672607422,
+          "tyreRR" : 66.98399353027344
+        },
+        {
+          "fuelUsed" : 3.8437461853027344,
+          "invalid" : false,
+          "lap" : 51,
+          "position" : 4,
+          "timeMs" : 95701,
+          "tyreFL" : 71.97675323486328,
+          "tyreFR" : 67.38594818115234,
+          "tyreRL" : 68.49553680419922,
+          "tyreRR" : 67.89441680908203
+        },
+        {
+          "fuelUsed" : 3.7463417053222656,
+          "invalid" : false,
+          "lap" : 52,
+          "position" : 4,
+          "timeMs" : 96013,
+          "tyreFL" : 73.07622528076172,
+          "tyreFR" : 67.79320526123047,
+          "tyreRL" : 69.80181884765625,
+          "tyreRR" : 68.3614273071289
+        },
+        {
+          "fuelUsed" : 3.635481834411621,
+          "invalid" : false,
+          "lap" : 53,
+          "position" : 4,
+          "timeMs" : 96068,
+          "tyreFL" : 72.64302062988281,
+          "tyreFR" : 67.5229263305664,
+          "tyreRL" : 70.18807220458984,
+          "tyreRR" : 68.75791931152344
+        },
+        {
+          "fuelUsed" : 3.79750394821167,
+          "invalid" : false,
+          "lap" : 54,
+          "position" : 4,
+          "timeMs" : 97489,
+          "tyreFL" : 71.22001647949219,
+          "tyreFR" : 66.39521026611328,
+          "tyreRL" : 70.06352996826172,
+          "tyreRR" : 68.696533203125
+        }
+      ],
+      "lastLap" : 55,
+      "note" : "",
+      "numCars" : 12,
+      "planner" : {
+        "firstPlan" : "L7 (48 to go): RM 7 · RM 13 · RM 14 · RM 14 — 3 stops",
+        "fuelCalls" : [
+          {
+            "lap" : 13,
+            "litres" : 0
+          },
+          {
+            "lap" : 14,
+            "litres" : 0
+          },
+          {
+            "lap" : 15,
+            "litres" : 0
+          },
+          {
+            "lap" : 16,
+            "litres" : 0
+          },
+          {
+            "lap" : 17,
+            "litres" : 6
+          },
+          {
+            "lap" : 24,
+            "litres" : 17
+          },
+          {
+            "lap" : 31,
+            "litres" : 29
+          },
+          {
+            "lap" : 32,
+            "litres" : 29
+          },
+          {
+            "lap" : 39,
+            "litres" : 27
+          },
+          {
+            "lap" : 46,
+            "litres" : 26
+          },
+          {
+            "lap" : 47,
+            "litres" : 26
+          }
+        ],
+        "fuelPerLapMeasuredL" : 3.734910011291504,
+        "lapsRun" : 55,
+        "lapsToGoFirst" : 54,
+        "lastPlan" : "L54 (1 to go): RS 1 — 0 stops",
+        "lives" : [
+          {
+            "compound" : "RM",
+            "usedLaps" : 18
+          },
+          {
+            "compound" : "RS",
+            "usedLaps" : 8
+          }
+        ],
+        "paces" : [
+          {
+            "cleanLaps" : 15,
+            "compound" : "RM",
+            "measuredS" : 98.709
+          },
+          {
+            "cleanLaps" : 28,
+            "compound" : "RS",
+            "measuredS" : 96.057
+          }
+        ],
+        "rules" : "RM>=1",
+        "stints" : [
+          {
+            "compound" : "RM",
+            "fromLap" : 1,
+            "toLap" : 17,
+            "wearEndPct" : [
+              37.011291427539646,
+              49.92612700599195,
+              55.54136302131261,
+              83.18086165911923
+            ]
+          },
+          {
+            "compound" : "RS",
+            "fromLap" : 18,
+            "toLap" : 24,
+            "wearEndPct" : [
+              32.78012209005328,
+              38.90835907891895,
+              46.85400951879559,
+              68.84408649381197
+            ]
+          },
+          {
+            "compound" : "RS",
+            "fromLap" : 25,
+            "toLap" : 32,
+            "wearEndPct" : [
+              37.95651216022226,
+              47.33126146408047,
+              53.19207836998444,
+              78.70331269149595
+            ]
+          },
+          {
+            "compound" : "RS",
+            "fromLap" : 33,
+            "toLap" : 39,
+            "wearEndPct" : [
+              32.65604448302391,
+              39.5099519922044,
+              45.714229948939625,
+              67.63903000428286
+            ]
+          },
+          {
+            "compound" : "RS",
+            "fromLap" : 40,
+            "toLap" : 47,
+            "wearEndPct" : [
+              37.36692169523151,
+              45.81221453914447,
+              52.70064516910738,
+              77.7646189079194
+            ]
+          },
+          {
+            "compound" : "RS",
+            "fromLap" : 48,
+            "toLap" : 55,
+            "wearEndPct" : [
+              32.624150206115495,
+              40.28676174018324,
+              46.71364178353988,
+              68.60939303579211
+            ]
+          }
+        ],
+        "stopLossMeasuredS" : [
+          15.826999999999998,
+          17.20695980834961,
+          18.3439538675944,
+          20.1269661916097,
+          17.33895768229167
+        ],
+        "version" : 1
+      },
+      "raceElapsedS" : 5404.738071404739,
+      "racePosition" : 4,
+      "reason" : "finished",
+      "savedAt" : "2026-11-09T21:00:44Z",
+      "schemaVersion" : 1,
+      "startType" : "GRID_START",
+      "stops" : [
+        {
+          "entryToBoxS" : 20.687354020687355,
+          "fuelAdded" : 0,
+          "inLap" : 17,
+          "laneKmh" : 60.00574493408203,
+          "outLap" : 18,
+          "teleportEntry" : false,
+          "transitS" : 29.646312979646314
+        },
+        {
+          "entryToBoxS" : 20.687354020687355,
+          "fuelAdded" : 18.468120574951172,
+          "inLap" : 24,
+          "laneKmh" : 60.00567626953125,
+          "outLap" : 25,
+          "teleportEntry" : false,
+          "transitS" : 36.01935268601935
+        },
+        {
+          "entryToBoxS" : 20.687354020687355,
+          "fuelAdded" : 31.380138397216797,
+          "inLap" : 32,
+          "laneKmh" : 60.00564193725586,
+          "outLap" : 33,
+          "teleportEntry" : false,
+          "transitS" : 40.323656990323656
+        },
+        {
+          "entryToBoxS" : 20.687354020687355,
+          "fuelAdded" : 22.9231014251709,
+          "inLap" : 39,
+          "laneKmh" : 60.005655670166014,
+          "outLap" : 40,
+          "teleportEntry" : false,
+          "transitS" : 37.50417083750417
+        },
+        {
+          "entryToBoxS" : 20.687354020687355,
+          "fuelAdded" : 29.130126953125,
+          "inLap" : 47,
+          "laneKmh" : 60.00564880371094,
+          "outLap" : 48,
+          "teleportEntry" : false,
+          "transitS" : 39.57290623957291
+        }
+      ],
+      "totalLaps" : 0,
+      "trackName" : "Daytona Road Course",
+      "values" : [
+        {
+          "rows" : [
+            {
+              "label" : "Track",
+              "value" : "Daytona Road Course (1163)"
+            },
+            {
+              "label" : "Car",
+              "value" : "Porsche 963 '24 · MR"
+            },
+            {
+              "label" : "Session",
+              "value" : "online · RACING · FLYING"
+            },
+            {
+              "label" : "Lap",
+              "value" : "55"
+            },
+            {
+              "label" : "Position",
+              "value" : "4 of 12"
+            },
+            {
+              "label" : "Live lap",
+              "value" : "1:37.489"
+            },
+            {
+              "label" : "Last \/ best lap",
+              "value" : "1:37.489 \/ 1:35.295"
+            },
+            {
+              "label" : "Fuel",
+              "value" : "4.8 of 100"
+            },
+            {
+              "label" : "Incident laps",
+              "value" : "1, 4, 5, 8, 26, 27, 30, 40"
+            },
+            {
+              "label" : "Race finished",
+              "value" : "yes"
+            }
+          ],
+          "title" : "Race"
+        },
+        {
+          "rows" : [
+            {
+              "label" : "Wear",
+              "value" : "FL 32.6 · FR 40.3 · RL 46.7 · RR 68.6"
+            },
+            {
+              "label" : "Compound (wear model)",
+              "value" : "RS from tap · ×4.0"
+            },
+            {
+              "label" : "Calibrated",
+              "value" : "yes"
+            },
+            {
+              "label" : "Stint",
+              "value" : "5"
+            },
+            {
+              "label" : "Temperatures",
+              "value" : "FL 69 · FR 64 · RL 69 · RR 67 °C"
+            },
+            {
+              "label" : "Temperature window",
+              "value" : "76 °C ± 10"
+            },
+            {
+              "label" : "Pit-entry reminder armed",
+              "value" : "no"
+            },
+            {
+              "label" : "Worn-tyre reminder used",
+              "value" : "no"
+            }
+          ],
+          "title" : "Tyres"
+        },
+        {
+          "rows" : [
+            {
+              "label" : "Lap progress",
+              "value" : "100 %"
+            },
+            {
+              "label" : "Race clock (unpaused)",
+              "value" : "5404.8 s"
+            },
+            {
+              "label" : "Declared length",
+              "value" : "5400 s"
+            },
+            {
+              "label" : "Median lap",
+              "value" : "1:36.037"
+            },
+            {
+              "label" : "Fuel per lap (median)",
+              "value" : "3.73"
+            },
+            {
+              "label" : "Laps to go",
+              "value" : "0"
+            },
+            {
+              "label" : "Stops needed",
+              "value" : "0"
+            },
+            {
+              "label" : "Pit window",
+              "value" : "—"
+            },
+            {
+              "label" : "Window advice",
+              "value" : "openToLatest (said L44)"
+            },
+            {
+              "label" : "Window advice repeats",
+              "value" : "every 3 laps"
+            },
+            {
+              "label" : "Fuel box pending",
+              "value" : "no"
+            },
+            {
+              "label" : "Fuel box called on lap",
+              "value" : "47"
+            },
+            {
+              "label" : "Final lap called",
+              "value" : "—"
+            },
+            {
+              "label" : "Finish lap (clock)",
+              "value" : "55"
+            }
+          ],
+          "title" : "Fuel & strategy"
+        },
+        {
+          "rows" : [
+            {
+              "label" : "Crew calls the plan",
+              "value" : "yes"
+            },
+            {
+              "label" : "Owns the pit calls",
+              "value" : "yes"
+            },
+            {
+              "label" : "Harder compounds first",
+              "value" : "yes"
+            },
+            {
+              "label" : "Wear-off per lap",
+              "value" : "0.070 s"
+            },
+            {
+              "label" : "Plan",
+              "value" : "L54 (1 to go): RS 1 — 0 stops"
+            },
+            {
+              "label" : "Next stop",
+              "value" : "—"
+            },
+            {
+              "label" : "Sets",
+              "value" : "RM from L1, RS from L18, RS from L25, RS from L33, RS from L40, RS from L48"
+            },
+            {
+              "label" : "Lap times used",
+              "value" : "RM 98.04, RS 96.08"
+            },
+            {
+              "label" : "Set lives used",
+              "value" : "RM 18, RS 8"
+            },
+            {
+              "label" : "Stop loss used",
+              "value" : "17.8 (measured: 15.8, 17.2, 18.3, 20.1, 17.3)"
+            },
+            {
+              "label" : "Fuel calls",
+              "value" : "L13 0 L, L14 0 L, L15 0 L, L16 0 L, L17 6 L, L24 17 L, L31 29 L, L32 29 L, L39 27 L, L46 26 L, L47 26 L"
+            }
+          ],
+          "title" : "Planner"
+        },
+        {
+          "rows" : [
+            {
+              "label" : "Crew lap",
+              "value" : "55"
+            },
+            {
+              "label" : "Finish lap (estimate)",
+              "value" : "55"
+            },
+            {
+              "label" : "Race over",
+              "value" : "yes"
+            },
+            {
+              "label" : "In pit sequence",
+              "value" : "no"
+            },
+            {
+              "label" : "Fuel in use",
+              "value" : "yes"
+            },
+            {
+              "label" : "Fuel box called on lap",
+              "value" : "47"
+            },
+            {
+              "label" : "Lap progress seen",
+              "value" : "yes"
+            },
+            {
+              "label" : "Delta checkpoints",
+              "value" : "0 of 2 this lap"
+            }
+          ],
+          "title" : "Crew · race"
+        },
+        {
+          "rows" : [
+            {
+              "label" : "Compound",
+              "value" : "RS (sure)"
+            },
+            {
+              "label" : "Worst corner (as estimated)",
+              "value" : "68.0 %"
+            },
+            {
+              "label" : "Worst corner × 1.1",
+              "value" : "74.8 %"
+            },
+            {
+              "label" : "Set started on lap",
+              "value" : "48"
+            },
+            {
+              "label" : "Wear samples this set",
+              "value" : "7"
+            },
+            {
+              "label" : "Wear rate",
+              "value" : "10.2 %\/lap (11.2 with margin)"
+            },
+            {
+              "label" : "Good until lap (last said)",
+              "value" : "—"
+            },
+            {
+              "label" : "Life line waiting",
+              "value" : "—"
+            },
+            {
+              "label" : "Box for tyres",
+              "value" : "no"
+            },
+            {
+              "label" : "Tyres changed at last stop",
+              "value" : "yes"
+            }
+          ],
+          "title" : "Crew · tyres"
+        },
+        {
+          "rows" : [
+            {
+              "label" : "Best lap",
+              "value" : "1:35.295 on RS"
+            },
+            {
+              "label" : "Best on RM",
+              "value" : "1:37.897"
+            },
+            {
+              "label" : "Best on RS",
+              "value" : "1:35.295"
+            },
+            {
+              "label" : "Grading reference",
+              "value" : "best lap"
+            }
+          ],
+          "title" : "Crew · pace"
+        },
+        {
+          "rows" : [
+            {
+              "label" : "Lap & pace",
+              "value" : "11 · repeat after 100 s · facts every 3 laps"
+            },
+            {
+              "label" : "Position",
+              "value" : "11 · repeat after 100 s · facts every 3 laps"
+            },
+            {
+              "label" : "Strategy & fuel",
+              "value" : "11 · repeat after 100 s · facts every 3 laps"
+            },
+            {
+              "label" : "Pit sequence",
+              "value" : "11 · repeat after 100 s · facts every 3 laps"
+            },
+            {
+              "label" : "Tyres",
+              "value" : "11 · repeat after 100 s · facts every 3 laps"
+            },
+            {
+              "label" : "Incidents & mistakes",
+              "value" : "3 · repeat after 600 s · facts once"
+            },
+            {
+              "label" : "Radio presence",
+              "value" : "11 · repeat after 100 s · facts every 3 laps"
+            },
+            {
+              "label" : "Chatter",
+              "value" : "11 · repeat after 100 s · facts every 3 laps"
+            },
+            {
+              "label" : "Debug speech level",
+              "value" : "3"
+            },
+            {
+              "label" : "Speaking budget",
+              "value" : "1.6 of 20.4 s (window 24 s)"
+            }
+          ],
+          "title" : "Crew · channels"
+        },
+        {
+          "rows" : [
+            {
+              "label" : "Wear safety margin",
+              "value" : "× 1.1"
+            },
+            {
+              "label" : "Box for tyres at",
+              "value" : "92 % with margin, or worn out before the next lap ends"
+            },
+            {
+              "label" : "Pace by compound",
+              "value" : "RS 1.000 · RM 1.015 · RH 1.027"
+            },
+            {
+              "label" : "Repeat hold by level",
+              "value" : "11: 100 s · 9–10: 180 s · 6–8: 300 s · below: 600 s"
+            }
+          ],
+          "title" : "Crew · constants"
+        },
+        {
+          "rows" : [
+            {
+              "label" : "22:00:44  that's race over",
+              "value" : ""
+            },
+            {
+              "label" : "22:00:13  point nine down on your best",
+              "value" : ""
+            },
+            {
+              "label" : "21:59:40  point eight down so far",
+              "value" : ""
+            },
+            {
+              "label" : "21:59:13  copy, still dry",
+              "value" : ""
+            },
+            {
+              "label" : "21:59:13  good lap — 1 36 point oh seven lap 54, this will be the last lap",
+              "value" : ""
+            },
+            {
+              "label" : "21:59:07  is it starting to rain?",
+              "value" : ""
+            },
+            {
+              "label" : "21:58:37  point five down",
+              "value" : ""
+            },
+            {
+              "label" : "21:58:04  point five down on your best",
+              "value" : ""
+            },
+            {
+              "label" : "21:57:32  that was a good lap — point seven slower than your best on lap 53",
+              "value" : ""
+            },
+            {
+              "label" : "21:57:01  you're point five down",
+              "value" : ""
+            }
+          ],
+          "title" : "Last spoken"
+        },
+        {
+          "rows" : [
+            {
+              "label" : "22:00:44  🗑 flag: pending commentary cancelled",
+              "value" : ""
+            },
+            {
+              "label" : "21:57:45  🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 3.33L, togo 2, stops 0)",
+              "value" : ""
+            },
+            {
+              "label" : "21:57:31  🗑 dropped (the planner owns the pit calls): fuelStatus(plusLaps, 1, 2 to go, 3.33 fuel-laps)",
+              "value" : ""
+            },
+            {
+              "label" : "21:56:09  🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.40L, togo 3, stops 0)",
+              "value" : ""
+            },
+            {
+              "label" : "21:55:55  🗑 dropped (the planner owns the pit calls): fuelStatus(plusLaps, 1, 3 to go, 4.40 fuel-laps)",
+              "value" : ""
+            },
+            {
+              "label" : "21:54:33  🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.51L, togo 4, stops 0)",
+              "value" : ""
+            },
+            {
+              "label" : "21:54:19  🗑 dropped (the planner owns the pit calls): fuelStatus(plusLaps, 1, 4 to go, 5.51 fuel-laps)",
+              "value" : ""
+            },
+            {
+              "label" : "21:54:18  🗑 dropped (debug speech 3 < 6): surveyLap(50, 95295 ms, 1139 pts)",
+              "value" : ""
+            },
+            {
+              "label" : "21:52:58  🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.75L, togo 5, stops 0)",
+              "value" : ""
+            },
+            {
+              "label" : "21:52:44  🗑 dropped (the planner owns the pit calls): fuelStatus(plusLaps, 1, 5 to go, 6.75 fuel-laps)",
+              "value" : ""
+            }
+          ],
+          "title" : "Last dropped"
+        }
+      ]
+    }
+  ],
+  "startTime" : 1794252452,
+  "trackName" : "Daytona Road Course",
+  "version" : 8
+}

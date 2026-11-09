@@ -6654,6 +6654,74 @@
       ]
     },
     {
+      "stem": "1163-lobby-20261109_202732",
+      "courseId": 1163,
+      "track": "Daytona Road Course",
+      "context": "lobby",
+      "carId": 3607,
+      "car": "Porsche 963 '24",
+      "carClass": "Gr.1",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 326360,
+      "durationS": 5444.8,
+      "rawBytes": 120100480,
+      "gzBytes": 60111520,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 4,
+      "identifiedCourseId": 1163,
+      "identifiedTrackName": "Daytona Road Course",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "startAnswer",
+          "finalLabel": "RM"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 18,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 25,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 33,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 40,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 48,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        }
+      ]
+    },
+    {
       "stem": "1226-customRace-20260726_233603",
       "courseId": 1226,
       "track": "Autodrome Lago Maggiore - East",

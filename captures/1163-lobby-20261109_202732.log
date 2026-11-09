@@ -1,0 +1,2071 @@
+# EzioClient session log
+# file:    20261109_202732 - Daytona Road Course (1163).gt7td
+# started: 2026-11-09T19:27:32Z
+# track:   Daytona Road Course (CRS 1163)
+# context: lobby
+# ---
+🚪 ⏸ gate learning held until identification confirms Daytona Road Course
+📊 strategy: declared 90 min race
+# car:     Porsche 963 '24 [Gr.1] (id 3607) — confirmed from telemetry
+🎮 entered → onTrack (pkt 2954294, lap 0, flags 0x0011, pos 11, cars 12, tod 60385624)
+🏁 start type: GRID_START at pkt 2955839 lap 0
+🔀 state UNKNOWN → RACING at pkt 2955839 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag (speed) at pkt 2955839, race clock running
+🛞 compound: green flag — cool-down guard cleared
+🗣 spoke (lapPace, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line): greenFlag
+🎤 speaker: route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🔊 lights out
+🧭 polyline [PRE-GREEN]: 31 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 27.42 (alignment -0.39)
+🧭 polyline [PRE-GREEN]: Daytona Road Course fits (median 1.65 m) but on 101 m of road — waiting for 800 m
+🛞 compound prompt: race start, 6 s after the green flag (J184)
+🎤 crew asks: what tyres are we on?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for a compound (179 s, en-GB, on-device yes)
+🔊 what tyres are we on?
+📋 lap 0: — clean fuel_used=0.57
+📊 strategy L1: no fuel model yet
+🧭 learned (line): Daytona International Speedway family, 2 layouts (Daytona Road Course, Daytona Tri-Oval) — resolving at the fork
+🚪 ⏸ HELD lap1 gate until identification confirms Daytona Road Course (1 held)
+🛞 compound: window opened — raceStart, lap 1
+🧭 polyline [L1]: 32 candidate(s) dropped on direction — best of them Circuit de Spa-Francorchamps median 38.37 (alignment -0.58)
+🧭 polyline [L1]: Daytona Road Course fits (median 2.42 m) but on 349 m of road — waiting for 800 m
+🎤 mic -45 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🛞 compound prompt answered: RM
+🌡 tyre bands: centre 76 °C (RM, +0, tap)
+🛞 crew compound: RM
+🛞 crew compound: RM is sure
+🎤 stopped listening — question closed (answered)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🧭 polyline [L1]: 40 candidate(s) dropped on direction — best of them Autodrome Lago Maggiore - Full Course Reverse median 64.24 (alignment -0.35)
+🧭 polyline [L1]: Daytona Road Course fits (median 2.41 m) but on 660 m of road — waiting for 800 m
+🧭 divergence: fork at 385 m on course 1163 — 1 left (Daytona Road Course)
+🧭 divergence: resolved to Daytona Road Course
+🧭 identified: Daytona Road Course (CRS 1163) — finishLine, 44 sample(s), ±12 m
+🏁 announcing track: Daytona Road Course (CRS 1163) from gates
+🗣 spoke (radio, imp 2, cost 2.9s, ledger 6.6/20.4s, 1 line): trackIdentified(Daytona Road Course, CRS 1163)
+🗺 stored map loaded on identification (gates): course 1163, 1143 pts
+🚪 ▶️ gate learning released — identification agrees
+🚪 gate learned: Daytona Road Course/lobby/lap1 heading 126°
+🚪 ✅ flushed 1 parked gate(s) for Daytona Road Course — lap1
+🗑 dropped (debug speech 3 < 11): surveyGate(lap1, 22)
+📊 pit loss: measured 21.8 s
+📊 strategy: track pit loss 21.8 s
+🅿️ pit speaking budget 20.7s (entry to box)
+🔧 pit approach: entry at station 5495 m of 5716 m (35.2 m off the line), lead 20 s
+🔊 track reads as Daytona Road Course
+🛞 compound: family racing (H+ 0.186, locked for the race)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 we're on racing rubber
+🗣 chain (imp 4, cost 2.1s, ledger 4.1/20.4s, 1 events, 1 lines)
+🔊 light contact
+🔊 carry on
+🗑 speaker: stale, not spoken: "📻 out"
+🛞 compound: racingHard (medium confidence, C 0.84, margin 0.139, scaled reference)
+🛞 compound: RM confirmed by the driver — anchor
+🛞 compound: start answer RM given to the race-start window (estimate RH)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(raceStart, RH, medium)
+🔊 probably racing hards
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:52.865 first fuel_used=3.81
+🔵 lap 1 antics: contact
+📊 strategy L2: fuel/lap 3.81, 25.2 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Daytona Road Course/lobby/finishLine (45 samples, σ 3.07 m, ±12 m, across -4.2…3.0 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 45)
+🛞 wear (test) lap 1 done: FL 1.6 FR 2.3 RL 3.0 RR 4.5 % — RM ×4 (tap)
+🗣 bulletin (imp 6, cost 6.2s, ledger 7.9/20.4s, 2 lines): L2
+🔊 last lap was a 1 52 point nine
+🔊 on lap 2
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(inWindow, 74°)
+🔊 tyres are in the window
+🛞 compound: background read now RH (medium, C 0.794, margin 0.139, after 150 s) — tap stays RM
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.794 over 150 s (2347 samples)
+📋 lap 2: 1:38.709 clean fuel_used=3.78
+🔵 lap 2: clean
+🔧 🌧 L2 GR1 on RM: peak 1.83 g (best 0.00, ×1.00; floor 2.00) · slide 0.98 °/g (best 0.00, ×1.0) · TCS 10 % (best 0 %) → wet suspected (below class floor)
+📊 laps-left model: elapsed 210.8 s, remaining 5189.2 s, median lap 98.7 s -> 52 (no-stop 53, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L3: fuel/lap 3.79 | fuel 92.0 = 24.3 laps | 52.0 laps to go | stops 2
+🏁 race length: 54 laps (lap 3, 52 to go)
+🚪 gate refined: Daytona Road Course/lobby/finishLine (46 samples, σ 3.09 m, ±12 m, across -4.2…3.0 m)
+📐 crew: the race looks like 54 laps
+🗺 mapper: learned lap 2 (98.709 s, 5725 m, 1145 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(2, 98709 ms, 1145 pts)
+🗣 spoke (radio, imp 0, cost 3.1s, ledger 6.2/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 frame vs no context: median 1.5 m, centroid offset 1.4 m
+🗺 survey stored → 1163.trackmap.json (lap 2, 98.709 s)
+🛞 wear (test) lap 2 done: FL 3.4 FR 5.1 RL 6.2 RR 9.4 % — RM ×4 (tap)
+⏱ class lap BEST: Daytona Road Course/lobby/Gr.1 → 1:38.709 (1/10 laps, 1 car(s), avg 1:38.709)
+⏱ compound best RM: 98.709 s
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 2: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L4/L18/L26, stops 2) | pitWindowState(beforeOpen, now L3, L4/L18/L26, stops 2) | pitStopsToGo(2, 52 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L4/L18/L26, stops 2)
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L3, L4/L18/L26, stops 2)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(2, 52 to go)
+🔊 the race looks like 54 laps
+🗣 bulletin (imp 2, cost 4.3s, ledger 10.5/20.4s, 2 lines): L3
+🔊 survey usable
+🔊 3 optional still missing
+🔊 personal best
+🔊 lap 3 now
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.825 over 210 s (3424 samples)
+🎤 crew asks: is it raining out there?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is it raining out there?
+🎤 mic -30 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 24.26L, togo 52, stops 2)
+🎤 heard "No" → dry
+🌧 driver: dry
+🔊 copy
+🔊 still dry
+⏱ delta check L3 1/2: +0.27 s
+🔊 point three down on your best
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.835 over 270 s (4227 samples)
+⏱ delta check L3 2/2: quiet — -0.00 s, under ±0.2 s
+📋 lap 3: 1:38.891 clean fuel_used=3.71
+🛞 crew: tyre life RM — until L18 (15 left; worst 14 %, 5.5 %/lap biased)
+🔧 🌧 L3 GR1 on RM: peak 1.83 g (best 1.83, ×1.00; floor 2.00) · slide 1.00 °/g (best 0.98, ×1.0) · TCS 11 % (best 10 %) → wet suspected (below class floor)
+🔵 lap 3: clean
+📊 laps-left model: elapsed 309.7 s, remaining 5090.3 s, median lap 98.8 s -> 51 (no-stop 52, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L4: fuel/lap 3.78 | fuel 88.3 = 23.4 laps | 51.0 laps to go | stops 2
+🚪 gate refined: Daytona Road Course/lobby/finishLine (47 samples, σ 3.10 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 3 done: FL 5.5 FR 7.9 RL 9.5 RR 14.3 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 rain? not asked (driver said dry / skip recently) — lap 3: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🗑 dropped (the planner owns the pit calls): pitWindowState(openTargetAhead, now L4, L4/L18/L26, stops 2)
+🗣 bulletin (imp 6, cost 4.2s, ledger 4.2/20.4s, 2 lines): L4
+🔊 keep the good laps coming
+🔊 lap 4
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 23.37L, togo 51, stops 2)
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.815 over 330 s (5323 samples)
+🛞 crew: tyre life said (mid-lap)
+🔊 around 15 more laps on these racing mediums
+⏱ delta check L4 1/2: -0.34 s
+🔊 point three up
+🗣 chain (imp 4, cost 2.9s, ledger 8.5/20.4s, 1 events, 1 lines)
+🔊 bit wide there
+🎭 mood relaxed → focused
+🔊 watch track limits
+🎭 mood focused → concerned
+🗑 speaker: stale, not spoken: "📻 out"
+🗣 chain (imp 2, cost 3.8s, ledger 12.3/20.4s, 3 events, 1 lines)
+🔊 wide again
+🔊 bring it in a bit
+🗑 speaker: stale, not spoken: "📻 out"
+🗣 chain (imp 2, cost 3.4s, ledger 11.7/20.4s, 3 events, 1 lines)
+⏱ speaker: no callback after 8 s and the synthesizer is idle — restarting the queue pump
+🔊 come on
+🔊 get back on the track
+⏱ delta check L4 2/2: quiet — +18.35 s, ±10 s or more
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.815 over 390 s (6349 samples)
+📋 lap 4: 1:57.445 clean fuel_used=3.70
+🎭 mood concerned → focused
+🔵 lap 4 antics: spin, off
+📊 laps-left model: elapsed 427.1 s, remaining 4972.9 s, median lap 98.9 s -> 50 (no-stop 51, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L5: fuel/lap 3.75 | fuel 84.6 = 22.6 laps | 50.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 2.2s, ledger 2.2/20.4s, 1 line): positionChange(P7→P11)
+🚪 gate refined: Daytona Road Course/lobby/finishLine (48 samples, σ 3.08 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 4 done: FL 7.6 FR 10.9 RL 12.8 RR 19.2 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+🔊 down to P 11
+🗣 bulletin (imp 6, cost 6.5s, ledger 8.7/20.4s, 2 lines): L5
+🔊 the incidents cost you around 19 seconds last lap
+🔊 that's lap 5
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 22.58L, togo 50, stops 2)
+🎭 mood focused → concerned
+🗣 chain (imp 2, cost 3.4s, ledger 12.1/20.4s, 2 events, 1 lines)
+🔊 that's twice off
+🔊 tighten it up
+🗑 speaker: stale, not spoken: "📻 out"
+🗣 chain (imp 2, cost 1.2s, ledger 4.6/20.4s, 4 events, 1 lines)
+🔊 wide again
+⏱ delta check L5 1/2: +9.16 s
+🔊 you're down 9 seconds
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.805 over 450 s (7145 samples)
+⏱ delta check L5 2/2: +9.15 s
+🔊 9 seconds down on your best
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.805 over 510 s (8252 samples)
+📋 lap 5: 1:48.692 clean fuel_used=3.75
+🎭 mood concerned → focused
+🔵 lap 5 antics: off
+📊 laps-left model: elapsed 535.8 s, remaining 4864.2 s, median lap 103.8 s -> 47 (no-stop 47, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L6: fuel/lap 3.75 | fuel 80.8 = 21.6 laps | 47.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 1.4s, ledger 1.4/20.4s, 1 line): positionChange(P11→P12)
+🏁 race length: 52 laps (lap 6, 47 to go)
+🚪 gate refined: Daytona Road Course/lobby/finishLine (49 samples, σ 3.05 m, ±12 m, across -4.2…3.0 m)
+📐 crew: update — 52 laps in total
+🛞 wear (test) lap 5 done: FL 9.6 FR 13.8 RL 15.8 RR 23.9 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 53
+🛞 crew: estimated finish lap 52
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(—/L26/L26, stops 1) | pitWindowState(stretch, now L6, —/L26/L26, stops 1, stretch) | pitStopsToGo(1, 47 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(—/L26/L26, stops 1)
+🗑 dropped (the planner owns the pit calls): pitWindowState(stretch, now L6, —/L26/L26, stops 1, stretch)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 47 to go)
+🔊 P 12
+🔊 update
+🗣 bulletin (imp 6, cost 6.1s, ledger 10.5/20.4s, 2 lines): L6
+🔊 52 laps in total
+🔊 that incident cost you around 10 seconds last lap
+🔊 lap 6
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 21.56L, togo 47, stops 1)
+⏱ delta check L6 1/2: -1.01 s
+🔊 1 point oh up on your best
+🛞 compound: stint raceStart lap 1, refinement 8 — C 0.805 over 570 s (9147 samples)
+⏱ delta check L6 2/2: -0.65 s
+🔊 point six up so far
+📋 lap 6: 1:38.263 clean fuel_used=3.69
+🎭 mood focused → relaxed
+🔧 🌧 L6 GR1 on RM: peak 1.93 g (best 1.83, ×1.05; floor 2.00) · slide 0.90 °/g (best 0.98, ×0.9) · TCS 8 % (best 10 %) → wet suspected (below class floor)
+🛞 crew: tyre life RM — until L19 (13 left; worst 28 %, 5.3 %/lap biased)
+🔵 lap 6: clean
+📊 laps-left model: elapsed 634.1 s, remaining 4765.9 s, median lap 98.9 s -> 48 (no-stop 49, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L7: fuel/lap 3.73 | fuel 77.1 = 20.7 laps | 48.0 laps to go | stops 2
+🏁 race length: 54 laps (lap 7, 48 to go)
+🗣 spoke (strategy, imp 1, cost 6.1s, ledger 6.1/20.4s, 1 line, protected): stopsPlanChanged(1→2)
+📐 crew: race length now looks like 54 laps
+📐 plan L7 (48 to go): RM 7 · RM 13 · RM 14 · RM 14 — 3 stops, next: box L13 → RM | stop 26.3 s · fuel 20/26 laps · wear-off 0.10 s/lap · fresh RM 98.1 s 17 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (50 samples, σ 3.03 m, ±12 m, across -4.2…3.0 m)
+📐 crew: we're looking at 3 stops, first one end of lap 13, then racing mediums
+🗺 mapper: learned lap 6 (98.263 s, 5705 m, 1141 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(6, 98263 ms, 1141 pts)
+🗺 frame vs no context: median 2.1 m, centroid offset 1.2 m
+🗺 survey stored → 1163.trackmap.json (lap 6, 98.263 s)
+🛞 wear (test) lap 6 done: FL 11.8 FR 16.9 RL 19.2 RR 28.9 % — RM ×4 (tap)
+⏱ class lap BEST: Daytona Road Course/lobby/Gr.1 → 1:38.263 (2/10 laps, 1 car(s), avg 1:38.486)
+⏱ compound best RM: 98.263 s
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 6: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L7/L18/L26, stops 2) | pitWindowState(openTargetAhead, now L7, L7/L18/L26, stops 2) | pitStopsToGo(2, 48 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L7/L18/L26, stops 2)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openTargetAhead, now L7, L7/L18/L26, stops 2)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(2, 48 to go)
+🔊 plan's changed
+🗑 dropped (bulletin, ledger full; cost 6.0s, load 16.3/20.4s, 2 lines): L7
+🔊 we now need 2 stops
+🔊 save fuel where you can
+🔊 race length now looks like 54 laps
+🔊 we're looking at 3 stops
+🔊 first one end of lap 13
+🔊 then racing mediums
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 20.67L, togo 48, stops 2)
+🎤 crew asks: is it raining out there?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is it raining out there?
+🛞 compound: stint raceStart lap 1, refinement 9 — C 0.805 over 630 s (10142 samples)
+🎤 mic -45 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🎤 heard "No" → dry
+🌧 driver: dry
+🔊 copy
+🔊 still dry
+🛞 crew: tyre life said (mid-lap)
+🔊 these racing mediums should last to lap 19
+⏱ delta check L7 1/2: +0.85 s
+🔊 point nine down on your best
+⏱ delta check L7 2/2: +0.45 s
+🔊 you're point five down
+🛞 compound: stint raceStart lap 1, refinement 10 — C 0.805 over 690 s (10867 samples)
+📋 lap 7: 1:38.621 clean fuel_used=3.63
+🔧 🌧 L7 GR1 on RM: peak 1.91 g (best 1.93, ×0.99; floor 2.00) · slide 0.89 °/g (best 0.90, ×1.0) · TCS 8 % (best 8 %) → wet suspected (below class floor)
+🔵 lap 7: clean
+📊 laps-left model: elapsed 732.7 s, remaining 4667.3 s, median lap 98.8 s -> 47 (no-stop 48, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L8: fuel/lap 3.71 | fuel 73.5 = 19.8 laps | 47.0 laps to go | stops 2
+📐 plan L8 (47 to go): RM 6 · RM 13 · RM 14 · RM 14 — 3 stops, next: box L13 → RM | stop 26.3 s · fuel 19/26 laps · wear-off 0.08 s/lap · fresh RM 98.1 s 17 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (51 samples, σ 3.01 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 7 done: FL 14.1 FR 19.8 RL 22.5 RR 33.8 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 rain? not asked (driver said dry / skip recently) — lap 7: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🎭 mood relaxed → focused
+🗣 bulletin (imp 6, cost 6.7s, ledger 6.7/20.4s, 2 lines): L8
+🔊 that was a great lap
+🔊 1 38 point six
+🗣 chain (imp 4, cost 1.2s, ledger 7.9/20.4s, 1 events, 1 lines)
+🔊 lap 8
+🔊 light contact
+🗑 speaker: stale, not spoken: "📻 out"
+🎭 mood focused → relaxed
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 19.79L, togo 47, stops 2)
+🎭 mood relaxed → focused
+🗣 chain (imp 6, cost 3.4s, ledger 11.2/20.4s, 1 events, 1 lines)
+🔊 come on
+🔊 feed the power in gently
+🗑 speaker: stale, not spoken: "📻 out"
+⏱ delta check L8 1/2: quiet — +0.04 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 11 — C 0.805 over 750 s (11615 samples)
+⏱ delta check L8 2/2: -0.40 s
+🔊 point four up so far
+📋 lap 8: 1:38.305 clean fuel_used=3.57
+🎭 mood focused → relaxed
+🔵 lap 8 antics: contact
+📊 laps-left model: elapsed 831.0 s, remaining 4569.0 s, median lap 98.7 s -> 46 (no-stop 47, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L9: fuel/lap 3.71 | fuel 69.9 = 18.9 laps | 46.0 laps to go | stops 2
+📐 plan L9 (46 to go): RM 5 · RM 13 · RM 14 · RM 14 — 3 stops, next: box L13 → RM | stop 26.3 s · fuel 18/26 laps · wear-off 0.08 s/lap · fresh RM 98.1 s 17 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (52 samples, σ 2.99 m, ±12 m, across -4.2…3.0 m)
+📐 crew: planned stop in 5 laps, for racing mediums
+🛞 wear (test) lap 8 done: FL 16.6 FR 23.0 RL 25.8 RR 38.6 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+🛞 compound: stint raceStart lap 1, refinement 12 — C 0.805 over 810 s (12766 samples)
+🔊 planned stop in 5 laps
+🗣 bulletin (imp 6, cost 3.7s, ledger 7.7/20.4s, 2 lines): L9
+🔊 for racing mediums
+🔊 within a tenth
+🔊 lap 9 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 18.86L, togo 46, stops 2)
+⏱ delta check L9 1/2: +0.70 s
+🔊 you're point seven down
+🛞 compound: stint raceStart lap 1, refinement 13 — C 0.805 over 870 s (13788 samples)
+⏱ delta check L9 2/2: +0.45 s
+🔊 point five down so far
+📋 lap 9: 1:38.917 clean fuel_used=3.62
+🔧 🌧 L9 GR1 on RM: peak 1.97 g (best 1.93, ×1.02; floor 2.00) · slide 1.07 °/g (best 0.89, ×1.2) · TCS 9 % (best 8 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L18 reaches the planned end, L13
+🔵 lap 9: clean
+📊 laps-left model: elapsed 929.9 s, remaining 4470.1 s, median lap 98.8 s -> 45 (no-stop 46, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L10: fuel/lap 3.70 | fuel 66.3 = 17.9 laps | 45.0 laps to go | stops 2
+📐 plan L10 (45 to go): RM 4 · RM 13 · RM 14 · RM 14 — 3 stops, next: box L13 → RM | stop 26.3 s · fuel 17/27 laps · wear-off 0.08 s/lap · fresh RM 98.1 s 17 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (53 samples, σ 2.99 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 9 done: FL 19.3 FR 26.3 RL 29.2 RR 43.6 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 9: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 17, 45 to go, 17.93 fuel-laps) | pitWindowState(openTargetAhead, now L10, L10/L18/L26, stops 2, close)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 17, 45 to go, 17.93 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openTargetAhead, now L10, L10/L18/L26, stops 2, close)
+🎤 crew asks: is the track getting wet?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is the track getting wet?
+🗣 bulletin (imp 6, cost 5.8s, ledger 8.3/20.4s, 2 lines): L10
+⏸ held (question open): good lap — 1 38 point nine / that's lap 10
+🎤 mic -44 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🎤 heard "No" → dry
+🌧 driver: dry
+▶️ released 1 held call(s) — question closed
+🔊 good lap
+🔊 1 38 point nine
+🔊 that's lap 10
+🔊 okay
+🔊 dry then
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 17.93L, togo 45, stops 2)
+🛞 compound: stint raceStart lap 1, refinement 14 — C 0.805 over 930 s (14918 samples)
+⏱ delta check L10 1/2: +0.75 s
+🔊 point seven down on your best
+⏱ delta check L10 2/2: +0.21 s
+🔊 you're point two down
+🛞 compound: stint raceStart lap 1, refinement 15 — C 0.805 over 990 s (15943 samples)
+📋 lap 10: 1:38.721 clean fuel_used=3.76
+🔧 🌧 L10 GR1 on RM: peak 1.87 g (best 1.97, ×0.95; floor 2.00) · slide 0.92 °/g (best 0.89, ×1.0) · TCS 8 % (best 8 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L18 reaches the planned end, L13
+🔵 lap 10: clean
+📊 laps-left model: elapsed 1028.6 s, remaining 4371.4 s, median lap 98.8 s -> 44 (no-stop 45, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L11: fuel/lap 3.70 | fuel 62.6 = 16.9 laps | 44.0 laps to go | stops 2
+📐 plan L11 (44 to go): RM 3 · RM 13 · RM 14 · RM 14 — 3 stops, next: box L13 → RM | stop 26.3 s · fuel 16/27 laps · wear-off 0.07 s/lap · fresh RM 98.1 s 17 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (54 samples, σ 2.99 m, ±12 m, across -4.2…3.0 m)
+📐 crew: 3 laps to the stop, racing mediums next
+🛞 wear (test) lap 10 done: FL 21.7 FR 29.3 RL 32.5 RR 48.5 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 rain? not asked (driver said dry / skip recently) — lap 10: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 16, 44 to go, 16.91 fuel-laps)
+🔊 3 laps to the stop
+🗣 bulletin (imp 6, cost 5.9s, ledger 9.8/20.4s, 2 lines): L11
+🔊 racing mediums next
+🔊 great lap
+🔊 point five slower than your best
+🔊 lap 11
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 16.91L, togo 44, stops 2)
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+⏱ delta check L11 1/2: quiet — +0.01 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 16 — C 0.805 over 1050 s (16892 samples)
+⏱ delta check L11 2/2: quiet — -0.09 s, under ±0.2 s
+📋 lap 11: 1:38.542 clean fuel_used=3.69
+🔧 🌧 L11 GR1 on RM: peak 1.87 g (best 1.97, ×0.95; floor 2.00) · slide 0.88 °/g (best 0.89, ×1.0) · TCS 7 % (best 8 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L18 reaches the planned end, L13
+🔵 lap 11: clean
+📊 laps-left model: elapsed 1127.2 s, remaining 4272.8 s, median lap 98.7 s -> 43 (no-stop 44, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L12: fuel/lap 3.69 | fuel 58.9 = 15.9 laps | 43.0 laps to go | stops 1
+📊 strategy L12: stops 1 (flat) → 2 (window) — window wins
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P12→P11)
+📐 plan L12 (43 to go): RM 2 · RM 13 · RM 14 · RM 14 — 3 stops, next: box L13 → RM | stop 26.3 s · fuel 15/27 laps · wear-off 0.06 s/lap · fresh RM 98.1 s 17 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (55 samples, σ 2.97 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 11 done: FL 24.0 FR 32.2 RL 35.8 RR 53.4 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 11: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 15, 43 to go, 15.94 fuel-laps) | pitStopsToGo(2, 43 to go)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 15, 43 to go, 15.94 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(2, 43 to go)
+🔊 nice
+🔊 1 position gained
+🗣 bulletin (imp 6, cost 5.8s, ledger 9.5/20.4s, 2 lines): L12
+🔊 you're P 11
+🔊 good lap
+🛞 compound: stint raceStart lap 1, refinement 17 — C 0.805 over 1110 s (18199 samples)
+🔊 1 38 point five
+🔊 on lap 12
+🎤 crew asks: is the track getting wet?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is the track getting wet?
+🎤 mic -43 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 15.94L, togo 43, stops 2)
+🎤 heard "No" → dry
+🌧 driver: dry
+🔊 okay
+🔊 dry then
+⏱ delta check L12 1/2: quiet — +0.12 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 18 — C 0.805 over 1170 s (19039 samples)
+⏱ delta check L12 2/2: +0.28 s
+🔊 you're point three down
+📋 lap 12: 1:38.601 clean fuel_used=3.72
+🔧 🌧 L12 GR1 on RM: peak 1.87 g (best 1.97, ×0.95; floor 2.00) · slide 1.05 °/g (best 0.88, ×1.2) · TCS 11 % (best 7 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L18 reaches the planned end, L13
+🔵 lap 12: clean
+📊 laps-left model: elapsed 1225.8 s, remaining 4174.2 s, median lap 98.6 s -> 42 (no-stop 43, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L13: fuel/lap 3.69 | fuel 55.1 = 14.9 laps | 42.0 laps to go | stops 1
+📊 strategy L13: stops 1 (flat) → 2 (window) — window wins
+📐 plan L13 (42 to go): RM 1 · RM 12 · RM 14 · RM 15 — 3 stops, next: box L13 → RM | stop 26.3 s · fuel 14/27 laps · wear-off 0.05 s/lap · fresh RM 98.2 s 17 laps
+📐 crew: in this lap, we're going to racing mediums
+🚪 gate refined: Daytona Road Course/lobby/finishLine (56 samples, σ 2.96 m, ±12 m, across -4.2…3.0 m)
+📐 crew: no fuel needed this stop
+🛞 wear (test) lap 12 done: FL 26.1 FR 35.1 RL 39.0 RR 58.3 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 rain? not asked (driver said dry / skip recently) — lap 12: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 14, 42 to go, 14.93 fuel-laps) | pitWindowState(openTargetAhead, now L13, L13/L18/L26, stops 2, close)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 14, 42 to go, 14.93 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openTargetAhead, now L13, L13/L18/L26, stops 2, close)
+🔊 in this lap
+🔊 we're going to racing mediums
+🗣 bulletin (imp 6, cost 4.6s, ledger 10.9/20.4s, 2 lines): L13
+🔊 no fuel needed this stop
+🔊 keep those good laps coming
+🔊 that's lap 13
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 14.93L, togo 42, stops 2)
+🛞 compound: stint raceStart lap 1, refinement 19 — C 0.805 over 1230 s (19994 samples)
+⏱ delta check L13 1/2: quiet — +0.06 s, under ±0.2 s
+⏱ delta check L13 2/2: quiet — -0.20 s, under ±0.2 s
+🔧 box reminder fired: 1155 m (16.9 s) before pit entry, polyline anchor, lap 13
+📐 crew: box, box — racing mediums
+📐 crew: tyres only, no fuel
+🔊 box
+🔊 box
+🔊 racing mediums
+🔊 tyres only
+🔊 no fuel
+🛞 compound: stint raceStart lap 1, refinement 20 — C 0.805 over 1290 s (21105 samples)
+📋 lap 13: 1:37.897 clean fuel_used=3.72
+🔧 🌧 L13 GR1 on RM: peak 1.87 g (best 1.97, ×0.95; floor 2.00) · slide 1.05 °/g (best 0.88, ×1.2) · TCS 10 % (best 7 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L18 reaches the planned end, L13
+🔵 lap 13: clean
+📊 laps-left model: elapsed 1323.7 s, remaining 4076.3 s, median lap 98.6 s -> 41 (no-stop 42, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L14: fuel/lap 3.69 | fuel 51.4 = 13.9 laps | 41.0 laps to go | stops 2
+📐 plan L14 (41 to go): RM 1 · RM 12 · RM 13 · RM 15 — 3 stops, next: box L14 → RM | stop 26.3 s · fuel 13/27 laps · wear-off 0.03 s/lap · fresh RM 98.2 s 17 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (57 samples, σ 2.94 m, ±12 m, across -4.2…3.0 m)
+📐 crew: box this lap — racing mediums next
+📐 crew: no fuel needed this stop
+🗺 mapper: learned lap 13 (97.897 s, 5690 m, 1138 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(13, 97897 ms, 1138 pts)
+🗺 frame vs no context: median 1.8 m, centroid offset 0.8 m
+🗺 survey stored → 1163.trackmap.json (lap 13, 97.897 s)
+🛞 wear (test) lap 13 done: FL 28.5 FR 38.1 RL 42.4 RR 63.2 % — RM ×4 (tap)
+⏱ class lap BEST: Daytona Road Course/lobby/Gr.1 → 1:37.897 (3/10 laps, 1 car(s), avg 1:38.289)
+⏱ compound best RM: 97.897 s
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 13: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🔊 box this lap
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 13, 41 to go, 13.92 fuel-laps)
+🔊 racing mediums next
+🗣 bulletin (imp 2, cost 5.6s, ledger 16.0/20.4s, 2 lines): L14
+🔊 no fuel needed this stop
+🔊 personal best
+🔊 point four quicker
+🔊 lap 14
+🎤 crew asks: is the track getting wet?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is the track getting wet?
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 13.92L, togo 41, stops 2)
+🎤 mic SILENT (all zero), 0 buffers, 0 replies (0 with text), voice processing off
+🎤 heard "No" → dry
+🌧 driver: dry
+🔊 copy
+🔊 still dry
+⏱ delta check L14 1/2: +0.30 s
+🔊 point three down so far
+🛞 compound: stint raceStart lap 1, refinement 21 — C 0.805 over 1350 s (21889 samples)
+🗣 chain (imp 4, cost 4.2s, ledger 6.7/20.4s, 2 events, 1 lines)
+🔊 tcs is saving you corner after corner
+🗑 speaker: stale after pause: "ease up"
+🗑 speaker: stale, not spoken: "📻 out"
+⏱ delta check L14 2/2: +0.77 s
+🔊 point eight down on your best
+🔧 box reminder fired: 1155 m (17.2 s) before pit entry, polyline anchor, lap 14
+📐 crew: pit entry coming up — box for racing mediums
+📐 crew: tyres only, no fuel
+🔊 pit entry coming up
+🔊 box for racing mediums
+🔊 tyres only
+🔊 no fuel
+📋 lap 14: 1:38.940 clean fuel_used=3.68
+🔧 🌧 L14 GR1 on RM: peak 1.85 g (best 1.97, ×0.94; floor 2.00) · slide 1.10 °/g (best 0.88, ×1.3) · TCS 11 % (best 7 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L18 reaches the planned end, L14
+🔵 lap 14: clean
+📊 laps-left model: elapsed 1422.6 s, remaining 3977.4 s, median lap 98.6 s -> 40 (no-stop 41, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L15: fuel/lap 3.68 | fuel 47.7 = 13.0 laps | 40.0 laps to go | stops 1
+📊 strategy L15: stops 1 (flat) → 2 (window) — window wins
+🗣 spoke (position, imp 4, cost 2.8s, ledger 9.1/20.4s, 1 line): positionChange(P11→P10)
+📐 plan L15 (40 to go): RM 1 · RM 11 · RM 13 · RM 15 — 3 stops, next: box L15 → RM | stop 26.3 s · fuel 12/27 laps · wear-off 0.04 s/lap · fresh RM 98.2 s 17 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (58 samples, σ 2.93 m, ±12 m, across -4.2…3.0 m)
+📐 crew: in this lap, we're going to racing mediums
+📐 crew: no fuel needed this stop
+🛞 wear (test) lap 14 done: FL 30.7 FR 41.2 RL 45.7 RR 68.2 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 rain? not asked (driver said dry / skip recently) — lap 14: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🔊 P 10
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 12, 40 to go, 12.96 fuel-laps)
+🔊 1 place gained
+🗣 bulletin (imp 6, cost 4.5s, ledger 19.9/20.4s, 2 lines): L15
+🔊 in this lap
+🔊 we're going to racing mediums
+🔊 no fuel needed this stop
+🔊 1 38 point nine
+🔊 that's lap 15
+🛞 compound: stint raceStart lap 1, refinement 22 — C 0.805 over 1410 s (23285 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 12.96L, togo 40, stops 2)
+⏱ delta check L15 1/2: quiet — +0.13 s, under ±0.2 s
+🌧 crew: 3 traction calls in 45 s on slicks — rain?
+🌧 rain? not asked (driver said dry / skip recently) — traction burst on slicks
+🛞 compound: stint raceStart lap 1, refinement 23 — C 0.805 over 1470 s (24215 samples)
+⏱ delta check L15 2/2: quiet — +0.13 s, under ±0.2 s
+🔧 box reminder fired: 1155 m (17.0 s) before pit entry, polyline anchor, lap 15
+📐 crew: box, box — racing mediums
+📐 crew: no fuel needed this stop
+🔊 box
+🔊 box
+🔊 racing mediums
+🔊 no fuel needed this stop
+📋 lap 15: 1:38.229 clean fuel_used=3.67
+🔧 🌧 L15 GR1 on RM: peak 1.87 g (best 1.97, ×0.95; floor 2.00) · slide 1.06 °/g (best 0.88, ×1.2) · TCS 13 % (best 7 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L18 reaches the planned end, L15
+🔵 lap 15: clean
+📊 laps-left model: elapsed 1520.9 s, remaining 3879.1 s, median lap 98.6 s -> 39 (no-stop 40, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L16: fuel/lap 3.68 | fuel 44.1 = 12.0 laps | 39.0 laps to go | stops 1
+📊 strategy L16: stops 1 (flat) → 2 (window) — window wins
+📐 plan L16 (39 to go): RM 1 · RM 10 · RM 13 · RM 15 — 3 stops, next: box L16 → RM | stop 26.3 s · fuel 11/27 laps · wear-off 0.03 s/lap · fresh RM 98.2 s 17 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (59 samples, σ 2.91 m, ±12 m, across -4.2…3.0 m)
+📐 crew: box this lap — racing mediums next
+📐 crew: no fuel needed this stop
+🛞 wear (test) lap 15 done: FL 33.1 FR 44.3 RL 49.0 RR 73.3 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 rain? not asked (driver said dry / skip recently) — lap 15: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🔊 box this lap
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 11, 39 to go, 11.96 fuel-laps) | pitWindowState(openTargetAhead, now L16, L16/L18/L26, stops 2, close)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 11, 39 to go, 11.96 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openTargetAhead, now L16, L16/L18/L26, stops 2, close)
+🔊 racing mediums next
+🗣 bulletin (imp 6, cost 4.6s, ledger 15.4/20.4s, 2 lines): L16
+🔊 no fuel needed this stop
+🔊 keep those good laps coming
+🔊 on lap 16
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 11.96L, togo 39, stops 2)
+🛞 compound: stint raceStart lap 1, refinement 24 — C 0.805 over 1530 s (25227 samples)
+⏱ delta check L16 1/2: +0.60 s
+🔊 point six down so far
+⏱ delta check L16 2/2: +0.76 s
+🔊 point eight down on your best
+🔧 box reminder fired: 1155 m (17.4 s) before pit entry, polyline anchor, lap 16
+📐 crew: pit entry coming up — box for racing mediums
+📐 crew: tyres only, no fuel
+🔊 pit entry coming up
+🔊 box for racing mediums
+🔊 tyres only
+🔊 no fuel
+🛞 compound: stint raceStart lap 1, refinement 25 — C 0.805 over 1590 s (26341 samples)
+📋 lap 16: 1:39.631 clean fuel_used=3.73
+🔧 🌧 L16 GR1 on RM: peak 1.79 g (best 1.97, ×0.91; floor 2.00) · slide 1.02 °/g (best 0.88, ×1.2) · TCS 10 % (best 7 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L18 reaches the planned end, L16
+🔵 lap 16: clean
+📊 laps-left model: elapsed 1620.5 s, remaining 3779.5 s, median lap 98.7 s -> 38 (no-stop 39, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L17: fuel/lap 3.71 | fuel 40.3 = 10.9 laps | 38.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 3.1s, ledger 9.4/20.4s, 1 line): positionChange(P10→P9)
+📐 plan L17 (38 to go): RM 1 · RM 11 · RM 12 · RM 14 — 3 stops, next: box L17 → RM | stop 26.3 s · fuel 10/26 laps · wear-off 0.05 s/lap · fresh RM 98.1 s 17 laps
+📐 crew: in this lap, we're going to racing mediums
+🚪 gate refined: Daytona Road Course/lobby/finishLine (60 samples, σ 2.89 m, ±12 m, across -4.2…3.0 m)
+📐 crew: add 6 litres, that's 11 laps
+🛞 wear (test) lap 16 done: FL 35.2 FR 47.1 RL 52.3 RR 78.2 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 16: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🔊 great driving
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(2, 38 to go)
+🔊 that's 1 place gained
+🗑 dropped (bulletin, ledger full; cost 4.5s, load 16.4/20.4s, 2 lines): L17
+🔊 in this lap
+🔊 we're going to racing mediums
+🔊 add 6 litres
+🔊 that's 11 laps
+🎤 crew asks: is it starting to rain?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is it starting to rain?
+🎤 mic SILENT (all zero), 0 buffers, 0 replies (0 with text), voice processing off
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 10.88L, togo 38, stops 2)
+🎤 heard "No" → dry
+🌧 driver: dry
+🔊 copy
+🔊 still dry
+🗣 chain (imp 4, cost 4.2s, ledger 8.3/20.4s, 2 events, 1 lines)
+🔊 tcs is saving you corner after corner
+⏱ speaker: no callback after 8 s and the synthesizer is idle — restarting the queue pump
+🔊 ease up
+🗑 speaker: stale, not spoken: "📻 out"
+⏱ delta check L17 1/2: +1.32 s
+⏱ speaker: no callback after 8 s and the synthesizer is idle — restarting the queue pump
+🔊 you're 1 point three down
+🌧 crew: 3 traction calls in 45 s on slicks — rain?
+🌧 rain? not asked (driver said dry / skip recently) — traction burst on slicks
+🛞 compound: stint raceStart lap 1, refinement 26 — C 0.805 over 1650 s (27109 samples)
+⏱ delta check L17 2/2: +1.62 s
+🔊 1 point six down so far
+🔧 box reminder fired: 1155 m (16.9 s) before pit entry, polyline anchor, lap 17
+📐 crew: box, box — racing mediums
+📐 crew: 6 litres of fuel
+🔊 box
+🔊 box
+🔊 racing mediums
+🔊 6 litres of fuel
+🔧 huge stop 298 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 3058963 lap 17
+🔵 sub-state FLYING → — lap 17
+🔧 pit-entry anchor learned: 99964 ms into lap (stop on lap 17)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 1 more
+📊 laps-left model: elapsed 1720.5 s, remaining 3679.5 s, median lap 98.7 s -> 37 (no-stop 38, pit loss 21.8 s, rate 3 l/s)
+📊 strategy: refuel still needed — 9.9 laps of fuel against 37 to go (need 39.9 with margin)
+🚪 gate refined: Daytona Road Course/lobby/pitEntry (23 samples, σ 0.31 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 5.5/20.4s, 1 line, protected): pittingIn(L17)
+🗑 dropped (in pit): surveyGate(pitEntry, 23)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🔊 pitting
+📋 lap 17: 1:54.480 in fuel_used=3.66
+🔵 lap 17: clean
+🗑 dropped (in pit): lapStarted(18, last 114.48s)
+📐 plan L18: in the pit lane — planned after the stop
+🗑 dropped (in pit): positionChange(P9→P12)
+🗺 mapper: lap 17 rejected (pit)
+🛞 wear (test) lap 17 done: FL 37.0 FR 49.9 RL 55.5 RR 83.2 % — RM ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 compound prompt: box exit lap 18, declared none — on screen; asked aloud with the estimate
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 55
+📊 laps-left model: elapsed 1738.2 s, remaining 3661.8 s, median lap 98.7 s -> 37 (no-stop 38, pit loss 21.8 s, rate 3 l/s)
+📊 strategy: refuel target 37 capped to tank (27.0 laps of capacity)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 2.4/20.4s, 1 line, protected): inPitBox
+🗑 dropped (the planner owns the pit calls): refuelTarget(26 laps)
+🔊 in the box
+🛞 compound prompt answered: RS
+🛞 crew compound: RS
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 crew compound: RS is sure
+🛞 wear (test): all four tyres at 60.00 °C on lap 18 — new set (J116)
+🛞 wear (test) stint 0 ended at tyre change: FL 37.0 FR 49.9 RL 55.5 RR 83.2 % — RM ×4 (tap)
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 compound: box-exit answer RS kept through the tyre change (J151)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🛞 compound: stint raceStart lap 1, refinement 27 (final) — C 0.805 over 1699 s (28088 samples)
+🛞 compound: stale window (RH, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 18
+🔀 state PIT → RACING at pkt 3060563 lap 18
+🔵 sub-state — → OUT_LAP lap 18
+🅿️ PIT completed: in L17 → out L18 (no fuel, transit 29.6s, teleport=false)
+🚪 gate refined: Daytona Road Course/lobby/pitBox (23 samples, σ 0.09 m, ±0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 23)
+🅿️ entry→box 20.7s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 5495 m of 5716 m (35.2 m off the line), lead 20 s
+🔧 teleport 242 m on lap 18 — pit release, not a reset
+📊 laps-left model: elapsed 1747.1 s, remaining 3652.9 s, median lap 98.7 s -> 37 (no-stop 38, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L18: fuel/lap 3.71 | fuel 36.7 = 9.9 laps | 37.0 laps to go | stops 2
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 3.3/20.4s, 1 line, protected): exitingPit(+0.00l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 5.9/20.4s, 1 line, protected): stopsPlanChanged(1→2)
+📐 plan L18 (37 to go): none — noPace("RS") | stop 26.3 s · fuel 9/26 laps · wear-off 0.05 s/lap · fresh RM 98.1 s 26 laps
+🚪 gate refined: Daytona Road Course/lobby/pitExit (23 samples, σ 0.09 m, ±12 m, across -0.0…0.0 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(pitExit, 23)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 8.9/20.4s, 1 line): surveyComplete(0 optional missing)
+📊 laps-left model: elapsed 1747.2 s, remaining 3631.0 s, median lap 98.7 s -> 36-37 (no-stop 37, pit loss 21.8 s, rate 3 l/s, tyre-decisive), out-lap -21.8s
+📊 strategy L18: fuel/lap 3.71 | fuel 36.7 = 9.9 laps | 37.0 laps to go | stops 2 (post-stop recalc)
+🔧 fresh tyres confirmed: 60.0° across all four (was 73.3° at pit entry, step 13.3°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via tyres x0.50): freshTyres(confirmed 60.00°)
+🔊 tyres are cold
+📋 strategy burst: 2 event(s), releasing best-first — strategyUpdate(fuel 9.90L, togo 36-37/tyres, stops 2, post-stop) | pitWindowState(openToLatest, now L18, L18/L18/L26, stops 2)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 9.90L, togo 36-37/tyres, stops 2, post-stop)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L18, L18/L18/L26, stops 2)
+🗣 spoke (tyres, imp 4, cost 3.4s, ledger 12.2/20.4s, 1 line): tyreTemps(low, 60°)
+🔊 fuel plan changed
+🔊 2 stops
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 9.90L, togo 37, stops 2)
+🔊 that's the full set
+🔊 survey complete
+🔊 tyres are still not up to temperature
+⏱ delta check L18 1/2: quiet — out-lap
+⏱ delta check L18 2/2: quiet — out-lap
+🔵 sub-state OUT_LAP → FLYING lap 19
+📋 lap 18: 1:38.490 out fuel_used=3.50
+🔵 lap 18: clean
+📊 laps-left model: elapsed 1833.5 s, remaining 3566.5 s, median lap 98.7 s -> 36 (no-stop 37, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L19: fuel/lap 3.68 | fuel 33.2 = 9.0 laps | 36.0 laps to go | stops 1
+📐 stop measured L17/18: 15.8 s (in 114.48 + out 98.49 − 2 × 98.57 − 0.0 L ÷ 3.0 L/s) — planning with 15.8 s
+📐 plan L19 (36 to go): none — noPace("RS") | stop 15.8 s · fuel 9/27 laps · wear-off 0.05 s/lap · fresh RM 98.1 s 26 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (61 samples, σ 2.90 m, ±12 m, across -4.2…3.0 m)
+🗺 mapper: lap 18 rejected (teleport)
+🛞 compound: racingSoft (high confidence, C 0.71, margin 0.121, relative to RM (truth), own reference)
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: box-exit answer RS given to the pit-exit window (estimate RS)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RS, high)
+🛞 wear (test) lap 18 done: FL 4.0 FR 4.0 RL 5.6 RR 8.0 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(—/L27/L27, stops 1) | fuelStatus(extendStint, 9, 36 to go, 9.01 fuel-laps) | pitWindowState(stretch, now L19, —/L27/L27, stops 1, stretch, close) | pitStopsToGo(1, 36 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(—/L27/L27, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 9, 36 to go, 9.01 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(stretch, now L19, —/L27/L27, stops 1, stretch, close)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 36 to go)
+🔊 reads like racing softs
+🗣 bulletin (imp 6, cost 1.8s, ledger 3.9/20.4s, 1 line): L19
+🔊 lap 19 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 9.01L, togo 36, stops 1)
+⏱ delta check L19 1/2: -1.11 s
+🔊 1 point one up so far
+🛞 compound: stint pitExit lap 18, refinement 1 — C 0.712 over 148 s (2133 samples)
+⏱ delta check L19 2/2: -1.85 s
+🔊 1 point nine up
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+📋 lap 19: 1:35.681 clean fuel_used=3.70
+🔵 lap 19: clean
+🔧 🌧 L19 GR1 on RS: peak 2.07 g (best 0.00, ×1.00; floor 2.00) · slide 0.80 °/g (best 0.00, ×1.0) · TCS 10 % (best 0 %) → dry
+📊 laps-left model: elapsed 1929.2 s, remaining 3470.8 s, median lap 98.6 s -> 35 (no-stop 36, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L20: fuel/lap 3.69 | fuel 29.5 = 8.0 laps | 35.0 laps to go | stops 1
+📊 strategy L20: stops 1 (flat) → 2 (window) — window wins
+🗣 spoke (strategy, imp 1, cost 6.1s, ledger 6.1/20.4s, 1 line, protected): stopsPlanChanged(1→2)
+📐 plan L20 (35 to go): none — noPace("RS") | stop 15.8 s · fuel 7/27 laps · wear-off 0.05 s/lap · fresh RM 98.1 s 19 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (62 samples, σ 2.89 m, ±12 m, across -4.2…3.0 m)
+🗺 mapper: learned lap 19 (95.681 s, 5700 m, 1140 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(19, 95681 ms, 1140 pts)
+🗺 frame vs no context: median 1.9 m, centroid offset 0.6 m
+🗺 survey stored → 1163.trackmap.json (lap 19, 95.681 s)
+🛞 wear (test) lap 19 done: FL 8.8 FR 10.0 RL 12.3 RR 18.0 % — RS ×4 (tap)
+⏱ class lap BEST: Daytona Road Course/lobby/Gr.1 → 1:35.681 (3/10 laps, 1 car(s), avg 1:37.280)
+⏱ compound best RS: 95.681 s
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L20/L20/L26, stops 2) | fuelStatus(extendStint, 7, 35 to go, 7.99 fuel-laps) | pitWindowState(openToLatest, now L20, L20/L20/L26, stops 2, close) | pitStopsToGo(2, 35 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L20/L20/L26, stops 2)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 7, 35 to go, 7.99 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L20, L20/L20/L26, stops 2, close)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(2, 35 to go)
+🔊 plan's changed
+🗣 bulletin (imp 2, cost 6.6s, ledger 12.7/20.4s, 2 lines): L20
+🔊 we now need 2 stops
+🔊 save fuel where you can
+🔊 personal best
+🔊 2 point two quicker
+🔊 on lap 20
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.99L, togo 35, stops 2)
+🛞 compound: stint pitExit lap 18, refinement 2 — C 0.702 over 208 s (3131 samples)
+⏱ delta check L20 1/2: +0.22 s
+🔊 you're point two down
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 5.0/20.4s, 1 line): tyreTemps(inWindow, 69°)
+🔊 tyres are at a good temperature
+⏱ delta check L20 2/2: -0.34 s
+🔊 point three up so far
+🛞 compound: stint pitExit lap 18, refinement 3 — C 0.712 over 268 s (4046 samples)
+📋 lap 20: 1:35.432 clean fuel_used=3.75
+🛞 crew: tyre life kept quiet — L26 reaches the planned end, L17
+🔧 🌧 L20 GR1 on RS: peak 1.99 g (best 2.07, ×0.96; floor 2.00) · slide 0.77 °/g (best 0.80, ×1.0) · TCS 7 % (best 10 %) → wet suspected (below class floor)
+🔵 lap 20: clean
+📊 laps-left model: elapsed 2024.6 s, remaining 3375.4 s, median lap 98.4 s -> 34 (no-stop 35, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L21: fuel/lap 3.69 | fuel 25.7 = 7.0 laps | 34.0 laps to go | stops 1
+📊 strategy L21: stops 1 (flat) → 2 (window) — window wins
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P12→P10)
+📐 plan L21 (34 to go): none — noPace("RS") | stop 15.8 s · fuel 6/27 laps · wear-off 0.05 s/lap · fresh RM 98.1 s 19 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (63 samples, σ 2.89 m, ±12 m, across -4.2…3.0 m)
+🗺 mapper: learned lap 20 (95.432 s, 5695 m, 1139 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(20, 95432 ms, 1139 pts)
+🗺 frame vs no context: median 1.8 m, centroid offset 0.7 m
+🗺 survey stored → 1163.trackmap.json (lap 20, 95.432 s)
+🛞 wear (test) lap 20 done: FL 14.1 FR 15.8 RL 19.1 RR 28.0 % — RS ×4 (tap)
+⏱ class lap BEST: Daytona Road Course/lobby/Gr.1 → 1:35.432 (3/10 laps, 1 car(s), avg 1:36.336)
+⏱ compound best RS: 95.432 s
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 20: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 6, 34 to go, 6.98 fuel-laps)
+🔊 nice
+🔊 2 positions gained
+🗣 bulletin (imp 2, cost 7.7s, ledger 11.4/20.4s, 2 lines): L21
+🔊 you're P 10
+🔊 new fastest lap
+🔊 point two faster than your best
+🔊 that's lap 21
+🎤 crew asks: is it starting to rain?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is it starting to rain?
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.98L, togo 34, stops 2)
+🎤 mic -30 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🎤 heard "No" → dry
+🌧 driver: dry
+🔊 okay
+🔊 dry then
+⏱ delta check L21 1/2: +0.90 s
+🔊 point nine down so far
+🛞 compound: stint pitExit lap 18, refinement 4 — C 0.702 over 328 s (4730 samples)
+⏱ delta check L21 2/2: +0.81 s
+🔊 point eight down
+📋 lap 21: 1:36.723 clean fuel_used=3.53
+🛞 crew: tyre life kept quiet — L26 reaches the planned end, L17
+🔧 🌧 L21 GR1 on RS: peak 1.99 g (best 2.07, ×0.96; floor 2.00) · slide 0.98 °/g (best 0.77, ×1.3) · TCS 9 % (best 7 %) → wet suspected (below class floor)
+🔵 lap 21: clean
+📊 laps-left model: elapsed 2121.3 s, remaining 3278.7 s, median lap 98.1 s -> 33 (no-stop 34, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L22: fuel/lap 3.67 | fuel 22.2 = 6.0 laps | 33.0 laps to go | stops 1
+📐 plan L22 (33 to go): RS 3 · RS 7 · RS 7 · RS 8 · RS 8 — 4 stops, next: box L24 → RS | stop 15.8 s · fuel 6/27 laps · wear-off 0.05 s/lap · fresh RM 98.1 s 18 laps, RS 96.0 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (64 samples, σ 2.87 m, ±12 m, across -4.2…3.0 m)
+📐 crew: new plan — stop at the end of lap 24, racing softs next
+🛞 wear (test) lap 21 done: FL 18.8 FR 22.0 RL 26.1 RR 38.3 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 rain? not asked (driver said dry / skip recently) — lap 21: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(—/L27/L27, stops 1) | fuelStatus(extendStint, 6, 33 to go, 6.04 fuel-laps) | pitWindowState(stretch, now L22, —/L27/L27, stops 1, stretch, close) | pitStopsToGo(1, 33 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(—/L27/L27, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 6, 33 to go, 6.04 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(stretch, now L22, —/L27/L27, stops 1, stretch, close)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 33 to go)
+🔊 new plan
+🔊 stop at the end of lap 24
+🗣 bulletin (imp 6, cost 6.9s, ledger 13.0/20.4s, 2 lines): L22
+🔊 racing softs next
+🔊 decent lap
+🔊 1 point three slower than your best
+🔊 lap 22 now
+🛞 compound: stint pitExit lap 18, refinement 5 — C 0.712 over 388 s (6044 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.04L, togo 33, stops 1)
+🗣 chain (imp 4, cost 2.9s, ledger 9.8/20.4s, 2 events, 1 lines)
+🔊 you're sliding a lot out there
+⏱ delta check L22 1/2: +1.58 s
+🔊 1 point six down on your best
+⏱ delta check L22 2/2: +1.45 s
+🔊 you're 1 point four down
+🛞 compound: stint pitExit lap 18, refinement 6 — C 0.712 over 448 s (6712 samples)
+📋 lap 22: 1:37.270 clean fuel_used=3.57
+🔧 🌧 L22 GR1 on RS: peak 2.01 g (best 2.07, ×0.97; floor 2.00) · slide 0.88 °/g (best 0.77, ×1.1) · TCS 9 % (best 7 %) → dry
+🛞 crew: tyre life kept quiet — L26 reaches the planned end, L24
+🔵 lap 22: clean
+🗣 spoke (lapPace, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): paceDegradation(0.61s/lap over 4)
+📊 laps-left model: elapsed 2218.6 s, remaining 3181.4 s, median lap 97.6 s -> 32-33 (no-stop 33, pit loss 21.8 s, rate 3 l/s, fuel-decisive, tyre-decisive)
+📊 strategy L23: fuel/lap 3.67 | fuel 18.6 = 5.1 laps | 33.0 laps to go | stops 2
+🗣 spoke (position, imp 4, cost 3.1s, ledger 5.6/20.4s, 1 line): positionChange(P10→P8)
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 8.2/20.4s, 1 line, protected): stopsPlanChanged(1→2)
+📐 plan L23 (33 to go): RS 2 · RS 8 · RS 7 · RS 8 · RS 8 — 4 stops, next: box L24 → RS | stop 15.8 s · fuel 5/27 laps · wear-off 0.06 s/lap · fresh RM 98.1 s 18 laps, RS 96.3 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (65 samples, σ 2.85 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 22 done: FL 23.8 FR 27.8 RL 33.1 RR 48.6 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L23/L23/L27, stops 2) | fuelStatus(extendStint, 5, 33 to go, 5.08 fuel-laps) | pitWindowState(openToLatest, now L23, L23/L23/L27, stops 2, close) | pitStopsToGo(2, 33 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L23/L23/L27, stops 2)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 5, 33 to go, 5.08 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L23, L23/L23/L27, stops 2, close)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(2, 33 to go)
+🔊 lost a lot of pace
+🗣 bulletin (imp 6, cost 5.4s, ledger 13.6/20.4s, 2 lines): L23
+🔊 great driving
+🔊 that's 2 places gained
+🔊 fuel plan changed
+🔊 2 stops
+🔊 1 37 point two seven oh
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+🔊 on lap 23
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.08L, togo 32-33/fuel/tyres, stops 2)
+⏱ delta check L23 1/2: +0.47 s
+🔊 point five down
+🛞 compound: stint pitExit lap 18, refinement 7 — C 0.712 over 508 s (7574 samples)
+⏱ delta check L23 2/2: +1.08 s
+🔊 1 point one down on your best
+🛞 compound: stint pitExit lap 18, refinement 8 — C 0.712 over 568 s (8644 samples)
+📋 lap 23: 1:36.669 clean fuel_used=3.81
+🔧 🌧 L23 GR1 on RS: peak 1.89 g (best 2.07, ×0.91; floor 2.00) · slide 0.87 °/g (best 0.77, ×1.1) · TCS 9 % (best 7 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L26 reaches the planned end, L24
+🔵 lap 23: clean
+📊 laps-left model: elapsed 2315.2 s, remaining 3084.8 s, median lap 97.0 s -> 31-32 (no-stop 32, pit loss 21.8 s, rate 3 l/s, fuel-decisive)
+📊 strategy L24: fuel/lap 3.68 | fuel 14.8 = 4.0 laps | 32.0 laps to go | stops 2
+📐 plan L24 (32 to go): RS 1 · RS 7 · RS 8 · RS 8 · RS 8 — 4 stops, next: box L24 → RS | stop 15.8 s · fuel 4/27 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 18 laps, RS 96.3 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (66 samples, σ 2.85 m, ±12 m, across -4.2…3.0 m)
+📐 crew: in this lap, we're going to racing softs
+📐 crew: add 17 litres, that's 7 laps
+🛞 wear (test) lap 23 done: FL 27.9 FR 33.3 RL 40.0 RR 58.7 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 23: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 4, 32 to go, 4.02 fuel-laps)
+🔊 in this lap
+🔊 we're going to racing softs
+🗣 bulletin (imp 6, cost 6.5s, ledger 13.5/20.4s, 2 lines): L24
+🔊 add 17 litres
+🔊 that's 7 laps
+🔊 decent laptime
+🔊 1 point two slower than your best
+🔊 lap 24
+🎤 crew asks: is it starting to rain?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is it starting to rain?
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.02L, togo 31-32/fuel, stops 2)
+🎤 mic -41 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🎤 heard "No" → dry
+🌧 driver: dry
+🔊 copy
+🔊 still dry
+⏱ delta check L24 1/2: +1.14 s
+🔊 1 point one down so far
+🛞 compound: stint pitExit lap 18, refinement 9 — C 0.712 over 628 s (9667 samples)
+⏱ delta check L24 2/2: +1.85 s
+🔊 you're 1 point eight down
+🔧 box reminder fired: 1160 m (16.9 s) before pit entry, polyline anchor, lap 24
+📐 crew: box, box — racing softs
+📐 crew: add 17 litres
+🔊 box
+🔊 box
+🔊 racing softs
+🔊 add 17 litres
+🔧 huge stop 299 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 3100463 lap 24
+🔵 sub-state FLYING → — lap 24
+🔧 pit-entry anchor learned: 97569 ms into lap (stop on lap 24)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 1 more
+📊 laps-left model: elapsed 2412.8 s, remaining 2987.2 s, median lap 97.0 s -> 30-31 (no-stop 31, pit loss 21.8 s, rate 3 l/s, fuel-decisive)
+📊 strategy: refuel still needed — 3.0 laps of fuel against 31 to go (need 33.6 with margin)
+🚪 gate refined: Daytona Road Course/lobby/pitEntry (24 samples, σ 0.44 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 0.8s, ledger 5.1/20.4s, 1 line, protected): pittingIn(L24)
+🔊 pitting
+📋 lap 24: 1:52.085 in fuel_used=3.73
+🔵 lap 24: clean
+🗑 dropped (in pit): lapStarted(25, last 112.08s)
+📐 plan L25: in the pit lane — planned after the stop
+🗺 mapper: lap 24 rejected (pit)
+🗑 dropped (in pit): positionChange(P8→P10)
+🛞 wear (test) lap 24 done: FL 32.8 FR 38.9 RL 46.9 RR 68.8 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 compound prompt: box exit lap 25, declared none — on screen; asked aloud with the estimate
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 55
+📊 laps-left model: elapsed 2430.5 s, remaining 2969.5 s, median lap 97.0 s -> 30-31 (no-stop 31, pit loss 21.8 s, rate 3 l/s, fuel-decisive)
+📊 strategy: refuel target 31 capped to tank (27.2 laps of capacity)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 2.4/20.4s, 1 line, protected): inPitBox
+🗑 dropped (the planner owns the pit calls): refuelTarget(27 laps)
+🔊 in the pit
+🛞 compound prompt answered: RS
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 wear (test): all four tyres at 60.00 °C on lap 25 — new set (J116)
+🛞 wear (test) stint 1 ended at tyre change: FL 32.8 FR 38.9 RL 46.9 RR 68.9 % — RS ×4 (tap)
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 compound: box-exit answer RS kept through the tyre change (J151)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🗑 dropped (in pit): tyreTemps(low, 61°)
+🛞 compound: stint pitExit lap 18, refinement 10 (final) — C 0.723 over 667 s (10166 samples)
+🛞 compound: stale window (RS, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 25
+🔀 state PIT → RACING at pkt 3102445 lap 25
+🔵 sub-state — → OUT_LAP lap 25
+🅿️ PIT completed: in L24 → out L25 (+18.5 fuel, transit 36.0s, teleport=false)
+🚪 gate refined: Daytona Road Course/lobby/pitBox (24 samples, σ 0.12 m, ±0 m)
+🅿️ entry→box 20.7s (speaking budget)
+🔧 pit approach: entry at station 5495 m of 5716 m (35.3 m off the line), lead 20 s
+🔧 teleport 242 m on lap 25 — pit release, not a reset
+📊 laps-left model: elapsed 2445.9 s, remaining 2954.1 s, median lap 97.0 s -> 30 (no-stop 31, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L25: fuel/lap 3.68 | fuel 29.6 = 8.0 laps | 30.0 laps to go | stops 1
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 3.3/20.4s, 1 line, protected): exitingPit(+18.46l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+📐 plan L25 (30 to go): RS 8 · RS 11 · RS 11 — 2 stops, next: box L32 → RS | stop 15.8 s · fuel 8/27 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 26 laps, RS 96.3 s 12 laps
+📐 crew: plan change: box end of lap 32 for racing softs
+🚪 gate refined: Daytona Road Course/lobby/pitExit (24 samples, σ 0.12 m, ±12 m, across -0.0…0.0 m)
+📊 laps-left model: elapsed 2445.9 s, remaining 2932.3 s, median lap 97.0 s -> 30 (no-stop 31, pit loss 21.8 s, rate 3 l/s), out-lap -21.8s
+📊 strategy L25: fuel/lap 3.68 | fuel 29.6 = 8.0 laps | 30.0 laps to go | stops 1 (post-stop recalc)
+🔊 tyres are cold
+📋 strategy burst: 6 event(s), releasing best-first — pitWindow(L28/L28/L32, stops 1) | fuelStatus(extendStint, 8, 30 to go, 8.03 fuel-laps) | strategyUpdate(fuel 8.03L, togo 30, stops 1) | strategyUpdate(fuel 8.03L, togo 30, stops 1, post-stop) | pitWindowState(beforeOpen, now L25, L28/L28/L32, stops 1, close) | pitStopsToGo(1, 30 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L28/L28/L32, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 8, 30 to go, 8.03 fuel-laps)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.03L, togo 30, stops 1)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.03L, togo 30, stops 1, post-stop)
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L25, L28/L28/L32, stops 1, close)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 30 to go)
+🔊 plan change
+🔊 box end of lap 32 for racing softs
+⏱ delta check L25 1/2: quiet — out-lap
+⏱ delta check L25 2/2: quiet — out-lap
+🔵 sub-state OUT_LAP → FLYING lap 26
+📋 lap 25: 1:44.670 out fuel_used=3.43
+🔵 lap 25: clean
+📊 laps-left model: elapsed 2532.0 s, remaining 2868.0 s, median lap 97.0 s -> 30 (no-stop 30, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L26: fuel/lap 3.62 | fuel 26.1 = 7.2 laps | 30.0 laps to go | stops 1
+📐 stop measured L24/25: 17.2 s (in 112.08 + out 104.67 − 2 × 96.70 − 18.5 L ÷ 3.0 L/s) — planning with 16.5 s
+📐 plan L26 (30 to go): RS 7 · RS 11 · RS 12 — 2 stops, next: box L32 → RS | stop 16.5 s · fuel 7/27 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 26 laps, RS 96.3 s 12 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (67 samples, σ 2.84 m, ±12 m, across -4.2…3.0 m)
+🗺 mapper: lap 25 rejected (teleport)
+🛞 compound: racingSoft (high confidence, C 0.70, margin 0.122, relative to RS (truth), own reference)
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: box-exit answer RS given to the pit-exit window (estimate RS)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RS, high)
+🛞 wear (test) lap 25 done: FL 4.2 FR 4.3 RL 5.5 RR 7.9 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L29/L29/L32, stops 1) | pitWindowState(beforeOpen, now L26, L29/L29/L32, stops 1) | fuelStatus(lapsToGo, 7, 30 to go, 7.23 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindow(L29/L29/L32, stops 1)
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L26, L29/L29/L32, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 7, 30 to go, 7.23 fuel-laps)
+🔊 reads like racing softs
+🗣 bulletin (imp 6, cost 1.8s, ledger 3.9/20.4s, 1 line): L26
+🔊 lap 26 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.23L, togo 30, stops 1)
+⏱ delta check L26 1/2: +0.34 s
+🔊 you're point three down
+🛞 compound: stint pitExit lap 25, refinement 1 — C 0.692 over 147 s (2344 samples)
+🗣 chain (imp 4, cost 1.2s, ledger 1.2/20.4s, 1 events, 1 lines)
+🔊 light contact
+⏱ delta check L26 2/2: +0.74 s
+🔊 point seven down on your best
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+📋 lap 26: 1:35.961 clean fuel_used=3.65
+🔵 lap 26 antics: contact
+📊 laps-left model: elapsed 2628.0 s, remaining 2772.0 s, median lap 96.7 s -> 29 (no-stop 29, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L27: fuel/lap 3.61 | fuel 22.5 = 6.2 laps | 29.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P10→P7)
+📐 plan L27 (29 to go): RS 6 · RS 7 · RS 8 · RS 8 — 3 stops, next: box L32 → RS | stop 16.5 s · fuel 6/27 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 20 laps, RS 96.3 s 9 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (68 samples, σ 2.82 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 26 done: FL 9.0 FR 10.5 RL 12.2 RR 17.8 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+🔊 3 places up
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 6, 29 to go, 6.22 fuel-laps)
+🔊 you're now P 7
+🗣 bulletin (imp 6, cost 4.6s, ledger 8.3/20.4s, 2 lines): L27
+🔊 keep the good laps coming
+🔊 that's lap 27
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.22L, togo 29, stops 1)
+🛞 compound: stint pitExit lap 25, refinement 2 — C 0.682 over 207 s (3234 samples)
+⏱ delta check L27 1/2: +0.65 s
+🔊 point seven down so far
+🗣 spoke (tyres, imp 4, cost 3.1s, ledger 5.6/20.4s, 1 line): tyreTemps(inWindow, 69°)
+🔊 tyres at 69
+🔊 in the window
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.1s, ledger 5.2/20.4s, 1 events, 1 lines)
+🔊 light contact
+🔊 carry on
+⏱ delta check L27 2/2: +0.97 s
+🔊 you're 1 point oh down
+🛞 compound: stint pitExit lap 25, refinement 3 — C 0.692 over 267 s (4193 samples)
+📋 lap 27: 1:36.244 clean fuel_used=3.86
+🎭 mood focused → relaxed
+🛞 crew: tyre life kept quiet — L33 reaches the planned end, L32
+🔵 lap 27 antics: contact, gained 3
+📊 laps-left model: elapsed 2724.2 s, remaining 2675.8 s, median lap 96.5 s -> 28 (no-stop 28, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L28: fuel/lap 3.68 | fuel 18.6 = 5.1 laps | 28.0 laps to go | stops 1
+📐 plan L28 (28 to go): RS 5 · RS 7 · RS 8 · RS 8 — 3 stops, next: box L32 → RS | stop 16.5 s · fuel 5/27 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 19 laps, RS 96.3 s 9 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (69 samples, σ 2.80 m, ±12 m, across -4.2…3.0 m)
+📐 crew: planned stop in 5 laps, for racing softs
+🛞 wear (test) lap 27 done: FL 13.8 FR 15.9 RL 19.0 RR 27.8 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 5, 28 to go, 5.06 fuel-laps)
+🔊 planned stop in 5 laps
+🗣 bulletin (imp 6, cost 5.8s, ledger 9.8/20.4s, 2 lines): L28
+🔊 for racing softs
+🔊 good lap
+🔊 1 36 point two
+🔊 lap 28 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.06L, togo 28, stops 1)
+⏱ delta check L28 1/2: +0.20 s
+🔊 point two down on your best
+🛞 compound: stint pitExit lap 25, refinement 4 — C 0.682 over 327 s (4943 samples)
+⏱ delta check L28 2/2: +0.24 s
+🔊 point two down
+📋 lap 28: 1:35.402 clean fuel_used=3.78
+🛞 crew: tyre life kept quiet — L33 reaches the planned end, L32
+🔧 🌧 L28 GR1 on RS: peak 2.01 g (best 2.07, ×0.97; floor 2.00) · slide 0.76 °/g (best 0.77, ×1.0) · TCS 6 % (best 7 %) → dry
+🔵 lap 28: clean
+📊 laps-left model: elapsed 2819.6 s, remaining 2580.4 s, median lap 96.1 s -> 27 (no-stop 27, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L29: fuel/lap 3.70 | fuel 14.8 = 4.0 laps | 27.0 laps to go | stops 1
+📐 plan L29 (27 to go): RS 4 · RS 7 · RS 8 · RS 8 — 3 stops, next: box L32 → RS | stop 16.5 s · fuel 4/27 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 18 laps, RS 96.2 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (70 samples, σ 2.78 m, ±12 m, across -4.2…3.0 m)
+🗺 mapper: learned lap 28 (95.402 s, 5700 m, 1140 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(28, 95402 ms, 1140 pts)
+🗺 frame vs no context: median 1.5 m, centroid offset 0.3 m
+🗺 survey stored → 1163.trackmap.json (lap 28, 95.402 s)
+🛞 wear (test) lap 28 done: FL 18.8 FR 22.3 RL 26.0 RR 38.1 % — RS ×4 (tap)
+⏱ class lap BEST: Daytona Road Course/lobby/Gr.1 → 1:35.402 (3/10 laps, 1 car(s), avg 1:35.505)
+⏱ compound best RS: 95.402 s
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 4, 27 to go, 4.01 fuel-laps) | pitWindowState(openToLatest, now L29, L29/L29/L32, stops 1, close)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 4, 27 to go, 4.01 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L29, L29/L29/L32, stops 1, close)
+🗣 bulletin (imp 2, cost 8.1s, ledger 8.1/20.4s, 2 lines): L29
+🔊 that's your new fastest lap
+🔊 1 35 point four
+🔊 that's lap 29
+🛞 compound: stint pitExit lap 25, refinement 5 — C 0.702 over 388 s (6005 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.01L, togo 27, stops 1)
+⏱ delta check L29 1/2: quiet — +0.06 s, under ±0.2 s
+⏱ delta check L29 2/2: +0.35 s
+🔊 point four down on your best
+🛞 compound: stint pitExit lap 25, refinement 6 — C 0.702 over 448 s (6881 samples)
+📋 lap 29: 1:36.071 clean fuel_used=3.80
+🛞 crew: tyre life kept quiet — L33 reaches the planned end, L32
+🔧 🌧 L29 GR1 on RS: peak 1.97 g (best 2.07, ×0.95; floor 2.00) · slide 0.80 °/g (best 0.76, ×1.0) · TCS 6 % (best 6 %) → wet suspected (below class floor)
+🔵 lap 29: clean
+📊 laps-left model: elapsed 2915.7 s, remaining 2484.3 s, median lap 96.2 s -> 26 (no-stop 26, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L30: fuel/lap 3.72 | fuel 11.0 = 3.0 laps | 26.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 3.3s, ledger 3.3/20.4s, 1 line): positionChange(P7→P5)
+📐 plan L30 (26 to go): RS 2 · RS 8 · RS 8 · RS 8 — 3 stops, next: box L31 → RS | stop 16.5 s · fuel 2/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 18 laps, RS 96.2 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (71 samples, σ 2.77 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 29 done: FL 23.4 FR 28.5 RL 32.8 RR 48.3 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 29: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 2 event(s), releasing best-first — fuelStatus(extendStint, 2, 26 to go, 2.96 fuel-laps) | pitStopsToGo(1, 26 to go)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 2, 26 to go, 2.96 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 26 to go)
+🔊 P 5
+🔊 you gained 2 places
+🗣 bulletin (imp 6, cost 4.2s, ledger 7.4/20.4s, 2 lines): L30
+🔊 keep the good laps coming
+🔊 lap 30
+🎤 crew asks: is it starting to rain?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is it starting to rain?
+🎤 mic -42 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+🗣 chain (imp 4, cost 2.9s, ledger 12.9/20.4s, 1 events, 1 lines)
+⏸ held (question open): keep it inside the white lines
+🎤 heard "No" → dry
+🌧 driver: dry
+▶️ released 1 held call(s) — question closed
+🔊 keep it inside the white lines
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 2.96L, togo 26, stops 1)
+🗑 speaker: stale, not spoken: "📻 out"
+🔊 copy
+🔊 still dry
+⏱ delta check L30 1/2: +1.42 s
+🔊 you're 1 point four down
+🛞 compound: stint pitExit lap 25, refinement 7 — C 0.702 over 508 s (7915 samples)
+⏱ delta check L30 2/2: +1.76 s
+🔊 1 point eight down
+🛞 compound: stint pitExit lap 25, refinement 8 — C 0.702 over 568 s (9080 samples)
+📋 lap 30: 1:37.379 clean fuel_used=3.76
+🛞 crew: tyre life kept quiet — L33 reaches the planned end, L31
+🔵 lap 30 antics: off, gained 2
+📊 laps-left model: elapsed 3013.1 s, remaining 2386.9 s, median lap 96.5 s -> 25 (no-stop 25, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L31: fuel/lap 3.77 | fuel 7.3 = 1.9 laps | 25.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P5→P4)
+📊 strategy L31: box confirmed at 70% (1.9 laps of fuel, was 1.9 at the crossing)
+📐 plan L31 (25 to go): RS 1 · RS 8 · RS 8 · RS 8 — 3 stops, next: box L31 → RS | stop 16.5 s · fuel 1/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 18 laps, RS 96.2 s 8 laps
+🗑 dropped (the planner owns the pit calls): pitWindowState(atLatest, now L31, —/L31/L31, stops 1, close)
+🚪 gate refined: Daytona Road Course/lobby/finishLine (72 samples, σ 2.76 m, ±12 m, across -4.2…3.0 m)
+📐 crew: box this lap — racing softs next
+📐 crew: add 29 litres, that's 8 laps
+🛞 wear (test) lap 30 done: FL 28.1 FR 34.9 RL 39.6 RR 58.5 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 2 event(s), releasing best-first — pitWindow(—/L31/L31, stops 1) | fuelStatus(extendStint, 1, 25 to go, 1.93 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindow(—/L31/L31, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 1, 25 to go, 1.93 fuel-laps)
+🔊 nice
+🔊 1 position gained
+🗣 bulletin (imp 6, cost 6.5s, ledger 16.8/20.4s, 2 lines): L31
+🔊 you're P 4
+🗑 dropped (the planner owns the pit calls): boxThisLap(1.93 laps fuel)
+🔊 box this lap
+🔊 racing softs next
+🔊 add 29 litres
+🔊 that's 8 laps
+🔊 that incident cost you around 2 seconds last lap
+🗑 speaker: stale after pause: "that's lap 31"
+🗑 speaker: stale, not spoken: "📻 out"
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 1.93L, togo 25, stops 1)
+⏱ delta check L31 1/2: quiet — -0.03 s, under ±0.2 s
+🛞 compound: stint pitExit lap 25, refinement 9 — C 0.702 over 628 s (10126 samples)
+⏱ delta check L31 2/2: +0.50 s
+🔊 you're point five down
+🔧 box reminder fired: 1160 m (16.8 s) before pit entry, polyline anchor, lap 31
+📐 crew: pit entry coming up — box for racing softs
+📐 crew: 29 litres of fuel
+🔊 pit entry coming up
+🔊 box for racing softs
+🔊 29 litres of fuel
+📋 lap 31: 1:36.116 clean fuel_used=3.75
+🔧 🌧 L31 GR1 on RS: peak 1.91 g (best 2.07, ×0.92; floor 2.00) · slide 0.75 °/g (best 0.76, ×1.0) · TCS 5 % (best 6 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L33 reaches the planned end, L31
+🔵 lap 31: clean
+📊 laps-left model: elapsed 3109.2 s, remaining 2290.8 s, median lap 96.2 s -> 24 (no-stop 24, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L32: fuel/lap 3.77 | fuel 3.5 = 0.9 laps | 24.0 laps to go | stops 1
+🗑 dropped (the planner owns the pit calls): pitWindowState(atLatest, now L32, —/L32/L32, stops 1, close)
+📊 strategy L32: box confirmed at 70% (0.9 laps of fuel, was 0.9 at the crossing)
+🗣 spoke (strategy, imp 1, cost 3.8s, ledger 10.2/20.4s, 1 line, protected): fuelStatus(runningOut, 0, 24 to go, 0.93 fuel-laps)
+📐 plan L32 (24 to go): RS 1 · RS 7 · RS 8 · RS 8 — 3 stops, next: box L32 → RS | stop 16.5 s · fuel 1/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 18 laps, RS 96.1 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (73 samples, σ 2.74 m, ±12 m, across -4.2…3.0 m)
+📐 crew: box this lap — racing softs next
+📐 crew: add 29 litres, that's 7 laps
+🛞 wear (test) lap 31 done: FL 32.9 FR 40.8 RL 46.5 RR 68.7 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 rain? not asked (driver said dry / skip recently) — lap 31: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🔊 running out of fuel
+🔊 save if you can
+🗑 dropped (bulletin, ledger full; cost 4.2s, load 16.8/20.4s, 2 lines): L32
+🔊 box this lap
+🗑 dropped (the planner owns the pit calls): boxThisLap(0.93 laps fuel)
+🔊 racing softs next
+🔊 add 29 litres
+🔊 that's 7 laps
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 0.93L, togo 24, stops 1)
+🛞 compound: stint pitExit lap 25, refinement 10 — C 0.712 over 688 s (11276 samples)
+⏱ delta check L32 1/2: +0.63 s
+🔊 point six down on your best
+⏱ delta check L32 2/2: +1.60 s
+🔊 1 point six down
+🔧 box reminder fired: 1160 m (16.6 s) before pit entry, polyline anchor, lap 32
+📐 crew: box, box — racing softs
+📐 crew: add 29 litres
+🔊 box
+🔊 box
+🔊 racing softs
+🔊 add 29 litres
+🛞 compound: stint pitExit lap 25, refinement 11 — C 0.712 over 748 s (12209 samples)
+🔧 huge stop 295 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 3148046 lap 32
+🔵 sub-state FLYING → — lap 32
+🔧 pit-entry anchor learned: 97491 ms into lap (stop on lap 32)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 3206.7 s, remaining 2193.3 s, median lap 96.2 s -> 23 (no-stop 23, pit loss 21.8 s, rate 3 l/s)
+📊 strategy: refuel still needed — 0.0 laps of fuel against 23 to go (need 25.2 with margin)
+🚪 gate refined: Daytona Road Course/lobby/pitEntry (25 samples, σ 0.52 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.9s, ledger 7.2/20.4s, 1 line, protected): pittingIn(L32)
+🔊 boxing now
+🔊 crew's ready for you
+📋 lap 32: 1:52.090 in fuel_used=3.42
+🔵 lap 32: clean
+🗑 dropped (in pit): lapStarted(33, last 112.09s)
+📐 plan L33: in the pit lane — planned after the stop
+🗺 mapper: lap 32 rejected (pit)
+🗑 dropped (in pit): positionChange(P4→P5)
+🛞 wear (test) lap 32 done: FL 38.0 FR 47.3 RL 53.2 RR 78.7 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 compound prompt: box exit lap 33, declared none — on screen; asked aloud with the estimate
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 55
+📊 laps-left model: elapsed 3224.5 s, remaining 2175.5 s, median lap 96.2 s -> 23 (no-stop 23, pit loss 21.8 s, rate 3 l/s)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 4.6/20.4s, 1 line, protected): inPitBox
+🗑 dropped (the planner owns the pit calls): refuelTarget(23 laps)
+🔊 in the box
+🛞 compound prompt answered: RS
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 wear (test): all four tyres at 60.00 °C on lap 33 — new set (J116)
+🛞 wear (test) stint 2 ended at tyre change: FL 38.0 FR 47.3 RL 53.2 RR 78.7 % — RS ×4 (tap)
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 compound: box-exit answer RS kept through the tyre change (J151)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🗑 dropped (in pit): tyreTemps(low, 61°)
+🔧 fresh tyres confirmed: 59.6° across all four (was 67.6° at pit entry, step 8.0°)
+🗑 dropped (box deadline; cost 4.0s, 0.0s of 20.7s left): freshTyres(confirmed 59.57°)
+🛞 compound: stint pitExit lap 25, refinement 12 (final) — C 0.712 over 762 s (12331 samples)
+🛞 compound: stale window (RS, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 33
+🔀 state PIT → RACING at pkt 3150291 lap 33
+🔵 sub-state — → OUT_LAP lap 33
+🅿️ PIT completed: in L32 → out L33 (+31.4 fuel, transit 40.3s, teleport=false)
+🚪 gate refined: Daytona Road Course/lobby/pitBox (25 samples, σ 0.15 m, ±0 m)
+🅿️ entry→box 20.7s (speaking budget)
+🔧 pit approach: entry at station 5495 m of 5716 m (35.3 m off the line), lead 20 s
+🔧 teleport 242 m on lap 33 — pit release, not a reset
+📊 laps-left model: elapsed 3244.1 s, remaining 2155.9 s, median lap 96.2 s -> 22-23 (no-stop 23, pit loss 21.8 s, rate 3 l/s, fuel-decisive, tyre-decisive)
+📊 strategy L33: fuel/lap 3.77 | fuel 31.5 = 8.3 laps | 23.0 laps to go | stops 1
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 3.3/20.4s, 1 line, protected): exitingPit(+31.37l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(inferred)
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 5.9/20.4s, 1 line, protected): stopsPlanChanged(0→1)
+📐 plan L33 (23 to go): RS 7 · RS 8 · RS 8 — 2 stops, next: box L39 → RS | stop 16.5 s · fuel 8/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 26 laps, RS 96.1 s 12 laps
+📐 crew: plan change: box end of lap 39 for racing softs
+🚪 gate refined: Daytona Road Course/lobby/pitExit (25 samples, σ 0.15 m, ±12 m, across -0.0…0.0 m)
+📊 laps-left model: elapsed 3244.1 s, remaining 2134.1 s, median lap 96.2 s -> 22 (no-stop 23, pit loss 21.8 s, rate 3 l/s), out-lap -21.8s
+📊 strategy L33: fuel/lap 3.77 | fuel 31.5 = 8.3 laps | 22.0 laps to go | stops 1 (post-stop recalc)
+📐 plan L33 (22 to go): RS 7 · RS 7 · RS 8 — 2 stops, next: box L39 → RS | stop 16.5 s · fuel 8/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 26 laps, RS 96.1 s 12 laps
+🔊 tyres are cold
+📋 strategy burst: 5 event(s), releasing best-first — pitWindow(L33/L33/L40, stops 1) | strategyUpdate(fuel 8.34L, togo 22-23/fuel/tyres, stops 1) | strategyUpdate(fuel 8.34L, togo 22, stops 1, post-stop) | pitWindowState(openToLatest, now L33, L33/L33/L40, stops 1) | fuelStatus(lapsToGo, 8, 23 to go, 8.34 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindow(L33/L33/L40, stops 1)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.34L, togo 22-23/fuel/tyres, stops 1)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.34L, togo 22, stops 1, post-stop)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L33, L33/L33/L40, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 8, 23 to go, 8.34 fuel-laps)
+🔊 fuel plan changed
+🔊 1 stop
+🔊 plan change
+🔊 box end of lap 39 for racing softs
+⏱ delta check L33 1/2: quiet — out-lap
+⏱ delta check L33 2/2: quiet — out-lap
+🔵 sub-state OUT_LAP → FLYING lap 34
+📋 lap 33: 1:48.901 out fuel_used=3.19
+🔵 lap 33: clean
+📊 laps-left model: elapsed 3330.2 s, remaining 2069.8 s, median lap 96.2 s -> 22 (no-stop 22, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L34: fuel/lap 3.76 | fuel 28.3 = 7.5 laps | 22.0 laps to go | stops 1
+📐 stop measured L32/33: 18.3 s (in 112.09 + out 108.90 − 2 × 96.09 − 31.4 L ÷ 3.0 L/s) — planning with 17.1 s
+📐 plan L34 (22 to go): RS 6 · RS 8 · RS 8 — 2 stops, next: box L39 → RS | stop 17.1 s · fuel 7/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 26 laps, RS 96.1 s 12 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (74 samples, σ 2.72 m, ±12 m, across -4.2…3.0 m)
+🗺 mapper: lap 33 rejected (teleport)
+🛞 compound: racingSoft (high confidence, C 0.68, margin 0.122, relative to RS (truth), own reference)
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: box-exit answer RS given to the pit-exit window (estimate RS)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RS, high)
+🛞 wear (test) lap 33 done: FL 3.6 FR 3.8 RL 5.4 RR 7.7 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L34, L34/L34/L40, stops 1) | fuelStatus(lapsToGo, 7, 22 to go, 7.53 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L34, L34/L34/L40, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 7, 22 to go, 7.53 fuel-laps)
+🔊 reads like racing softs
+🗣 bulletin (imp 6, cost 1.8s, ledger 3.9/20.4s, 1 line): L34
+🔊 lap 34 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.53L, togo 22, stops 1)
+⏱ delta check L34 1/2: +0.24 s
+🔊 point two down
+🛞 compound: stint pitExit lap 33, refinement 1 — C 0.692 over 147 s (2494 samples)
+⏱ delta check L34 2/2: +0.35 s
+🔊 you're point three down
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+📋 lap 34: 1:36.053 clean fuel_used=3.62
+🔵 lap 34: clean
+🔧 🌧 L34 GR1 on RS: peak 1.99 g (best 2.07, ×0.96; floor 2.00) · slide 0.74 °/g (best 0.75, ×1.0) · TCS 7 % (best 5 %) → wet suspected (below class floor)
+📊 laps-left model: elapsed 3426.2 s, remaining 1973.8 s, median lap 96.1 s -> 21 (no-stop 21, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L35: fuel/lap 3.76 | fuel 24.7 = 6.6 laps | 21.0 laps to go | stops 1
+📐 plan L35 (21 to go): RS 5 · RS 8 · RS 8 — 2 stops, next: box L39 → RS | stop 17.1 s · fuel 6/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 20 laps, RS 96.1 s 9 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (75 samples, σ 2.72 m, ±12 m, across -4.2…3.0 m)
+📐 crew: planned stop in 5 laps, for racing softs
+🛞 wear (test) lap 34 done: FL 8.6 FR 9.6 RL 12.0 RR 17.6 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 34: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 2 event(s), releasing best-first — pitStopsToGo(1, 21 to go) | fuelStatus(lapsToGo, 6, 21 to go, 6.56 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 21 to go)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 6, 21 to go, 6.56 fuel-laps)
+🔊 planned stop in 5 laps
+🗣 bulletin (imp 6, cost 4.2s, ledger 8.1/20.4s, 2 lines): L35
+🔊 for racing softs
+🔊 keep the good laps coming
+🔊 lap 35
+🎤 crew asks: grip's dropping — is it raining?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 grip's dropping
+🔊 is it raining?
+🎤 mic -49 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.56L, togo 21, stops 1)
+🎤 heard "No" → dry
+🌧 driver: dry
+🔊 okay
+🔊 dry then
+🛞 compound: stint pitExit lap 33, refinement 2 — C 0.682 over 207 s (3597 samples)
+⏱ delta check L35 1/2: quiet — -0.07 s, under ±0.2 s
+⏱ delta check L35 2/2: +0.27 s
+🔊 point three down
+🛞 compound: stint pitExit lap 33, refinement 3 — C 0.692 over 267 s (4545 samples)
+📋 lap 35: 1:36.044 clean fuel_used=3.76
+🛞 crew: tyre life kept quiet — L41 reaches the planned end, L39
+🔵 lap 35: clean
+🔧 🌧 L35 GR1 on RS: peak 1.99 g (best 2.07, ×0.96; floor 2.00) · slide 0.69 °/g (best 0.74, ×0.9) · TCS 6 % (best 5 %) → wet suspected (below class floor)
+📊 laps-left model: elapsed 3522.3 s, remaining 1877.7 s, median lap 96.1 s -> 20 (no-stop 20, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L36: fuel/lap 3.76 | fuel 20.9 = 5.6 laps | 20.0 laps to go | stops 1
+📐 plan L36 (20 to go): RS 4 · RS 8 · RS 8 — 2 stops, next: box L39 → RS | stop 17.1 s · fuel 5/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 19 laps, RS 96.1 s 9 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (76 samples, σ 2.72 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 35 done: FL 13.3 FR 15.2 RL 18.6 RR 27.4 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 rain? not asked (driver said dry / skip recently) — lap 35: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 5, 20 to go, 5.56 fuel-laps)
+🗣 bulletin (imp 6, cost 8.0s, ledger 8.0/20.4s, 2 lines): L36
+🔊 that was a good lap
+🔊 point six down on your best lap
+🔊 lap 36 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.56L, togo 20, stops 1)
+⏱ delta check L36 1/2: quiet — +0.18 s, under ±0.2 s
+🛞 compound: stint pitExit lap 33, refinement 4 — C 0.682 over 327 s (5313 samples)
+⏱ delta check L36 2/2: +0.63 s
+🔊 you're point six down
+📋 lap 36: 1:35.931 clean fuel_used=3.77
+🛞 crew: tyre life kept quiet — L41 reaches the planned end, L39
+🔵 lap 36: clean
+🔧 🌧 L36 GR1 on RS: peak 2.01 g (best 2.07, ×0.97; floor 2.00) · slide 0.74 °/g (best 0.69, ×1.1) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 3618.2 s, remaining 1781.8 s, median lap 96.1 s -> 19 (no-stop 19, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L37: fuel/lap 3.76 | fuel 17.1 = 4.6 laps | 19.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 1.4s, ledger 1.4/20.4s, 1 line): positionChange(P5→P3)
+📐 plan L37 (19 to go): RS 3 · RS 8 · RS 8 — 2 stops, next: box L39 → RS | stop 17.1 s · fuel 4/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 19 laps, RS 96.1 s 9 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (77 samples, σ 2.70 m, ±12 m, across -4.2…3.0 m)
+📐 crew: box in 3 laps — racing softs next
+🛞 wear (test) lap 36 done: FL 18.1 FR 21.3 RL 25.4 RR 37.4 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L37, L37/L37/L40, stops 1) | fuelStatus(lapsToGo, 4, 19 to go, 4.56 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L37, L37/L37/L40, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 4, 19 to go, 4.56 fuel-laps)
+🔊 P 3
+🔊 box in 3 laps
+🗣 bulletin (imp 6, cost 5.9s, ledger 11.2/20.4s, 2 lines): L37
+🔊 racing softs next
+🔊 good lap
+🔊 point five slower than your best
+🔊 lap 37
+🛞 compound: stint pitExit lap 33, refinement 5 — C 0.692 over 387 s (6393 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.56L, togo 19, stops 1)
+⏱ delta check L37 1/2: +0.47 s
+🔊 point five down
+🗣 spoke (tyres, imp 4, cost 2.9s, ledger 4.6/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔊 tyres are up to temperature now
+⏱ delta check L37 2/2: +0.67 s
+🔊 point seven down on your best
+🛞 compound: stint pitExit lap 33, refinement 6 — C 0.692 over 447 s (7291 samples)
+📋 lap 37: 1:36.401 clean fuel_used=3.79
+🛞 crew: tyre life kept quiet — L41 reaches the planned end, L39
+🔵 lap 37: clean
+🔧 🌧 L37 GR1 on RS: peak 2.01 g (best 2.07, ×0.97; floor 2.00) · slide 0.81 °/g (best 0.69, ×1.2) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 3714.6 s, remaining 1685.4 s, median lap 96.1 s -> 18 (no-stop 18, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L38: fuel/lap 3.76 | fuel 13.3 = 3.5 laps | 18.0 laps to go | stops 1
+📐 plan L38 (18 to go): RS 2 · RS 8 · RS 8 — 2 stops, next: box L39 → RS | stop 17.1 s · fuel 3/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 18 laps, RS 96.1 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (78 samples, σ 2.70 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 37 done: FL 23.2 FR 27.5 RL 32.2 RR 47.4 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 3, 18 to go, 3.55 fuel-laps)
+🗣 bulletin (imp 6, cost 4.5s, ledger 4.5/20.4s, 2 lines): L38
+🔊 1 36 point four
+🔊 on lap 38
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 3.55L, togo 18, stops 1)
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+⏱ delta check L38 1/2: quiet — +0.11 s, under ±0.2 s
+🛞 compound: stint pitExit lap 33, refinement 7 — C 0.692 over 507 s (8152 samples)
+⏱ delta check L38 2/2: +0.52 s
+🔊 you're point five down
+🛞 compound: stint pitExit lap 33, refinement 8 — C 0.702 over 567 s (9065 samples)
+📋 lap 38: 1:35.970 clean fuel_used=3.75
+🛞 crew: tyre life kept quiet — L41 reaches the planned end, L39
+🔵 lap 38: clean
+🔧 🌧 L38 GR1 on RS: peak 2.03 g (best 2.07, ×0.98; floor 2.00) · slide 0.84 °/g (best 0.69, ×1.2) · TCS 8 % (best 5 %) → dry
+📊 laps-left model: elapsed 3810.6 s, remaining 1589.4 s, median lap 96.1 s -> 17 (no-stop 17, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L39: fuel/lap 3.76 | fuel 9.6 = 2.6 laps | 17.0 laps to go | stops 1
+📐 plan L39 (17 to go): RS 1 · RS 8 · RS 8 — 2 stops, next: box L39 → RS | stop 17.1 s · fuel 2/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 18 laps, RS 96.1 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (79 samples, σ 2.70 m, ±12 m, across -4.2…3.0 m)
+📐 crew: box this lap — racing softs next
+📐 crew: fuel for 8 laps — add 27 litres
+🛞 wear (test) lap 38 done: FL 28.5 FR 34.1 RL 39.2 RR 57.8 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+🔊 box this lap
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 2, 17 to go, 2.55 fuel-laps)
+🔊 racing softs next
+🗣 bulletin (imp 6, cost 6.7s, ledger 14.2/20.4s, 2 lines): L39
+🔊 fuel for 8 laps
+🔊 add 27 litres
+🔊 good lap
+🔊 point six down on your best lap
+🔊 lap 39 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 2.55L, togo 17, stops 1)
+⏱ delta check L39 1/2: +1.37 s
+🔊 1 point four down on your best
+🛞 compound: stint pitExit lap 33, refinement 9 — C 0.702 over 627 s (10197 samples)
+⏱ delta check L39 2/2: +2.26 s
+🔊 you're down 2 seconds
+🔧 box reminder fired: 1175 m (17.3 s) before pit entry, polyline anchor, lap 39
+📐 crew: box, box — racing softs
+📐 crew: add 27 litres
+🔊 box
+🔊 box
+🔊 racing softs
+🔊 add 27 litres
+🔧 huge stop 298 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 3190150 lap 39
+🔵 sub-state FLYING → — lap 39
+🔧 pit-entry anchor learned: 98534 ms into lap (stop on lap 39)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 3909.1 s, remaining 1490.9 s, median lap 96.1 s -> 16 (no-stop 16, pit loss 21.8 s, rate 3 l/s)
+📊 strategy: refuel still needed — 1.6 laps of fuel against 16 to go (need 17.8 with margin)
+🚪 gate refined: Daytona Road Course/lobby/pitEntry (26 samples, σ 0.59 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 2.5s, ledger 6.8/20.4s, 1 line, protected): pittingIn(L39)
+🔊 pit entry
+🔊 crew is set
+📋 lap 39: 1:53.067 in fuel_used=3.57
+🔵 lap 39: clean
+🗑 dropped (in pit): lapStarted(40, last 113.07s)
+📐 plan L40: in the pit lane — planned after the stop
+🗺 mapper: lap 39 rejected (pit)
+🗑 dropped (in pit): positionChange(P3→P4)
+🛞 wear (test) lap 39 done: FL 32.7 FR 39.5 RL 45.7 RR 67.6 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 compound prompt: box exit lap 40, declared none — on screen; asked aloud with the estimate
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 55
+📊 laps-left model: elapsed 3926.8 s, remaining 1473.2 s, median lap 96.1 s -> 15 (no-stop 16, pit loss 21.8 s, rate 3 l/s)
+🗣 spoke (pitSequence, imp 2, cost 2.5s, ledger 5.0/20.4s, 1 line, protected): inPitBox
+🗑 dropped (the planner owns the pit calls): refuelTarget(15 laps)
+🔊 in the box
+🔊 sit tight
+🛞 compound prompt answered: RS
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 wear (test): all four tyres at 60.00 °C on lap 40 — new set (J116)
+🛞 wear (test) stint 3 ended at tyre change: FL 32.7 FR 39.5 RL 45.7 RR 67.7 % — RS ×4 (tap)
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 compound: box-exit answer RS kept through the tyre change (J151)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🗑 dropped (in pit): tyreTemps(low, 61°)
+🔧 fresh tyres confirmed: 59.6° across all four (was 67.6° at pit entry, step 8.0°)
+🗑 dropped (box deadline; cost 4.0s, 0.0s of 20.7s left): freshTyres(confirmed 59.58°)
+🛞 compound: stint pitExit lap 33, refinement 10 (final) — C 0.712 over 666 s (10800 samples)
+🛞 compound: stale window (RS, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 40
+🔀 state PIT → RACING at pkt 3192222 lap 40
+🔵 sub-state — → OUT_LAP lap 40
+🅿️ PIT completed: in L39 → out L40 (+22.9 fuel, transit 37.5s, teleport=false)
+🚪 gate refined: Daytona Road Course/lobby/pitBox (26 samples, σ 0.16 m, ±0 m)
+🅿️ entry→box 20.7s (speaking budget)
+🔧 pit approach: entry at station 5495 m of 5716 m (35.4 m off the line), lead 20 s
+🔧 teleport 242 m on lap 40 — pit release, not a reset
+📊 laps-left model: elapsed 3943.7 s, remaining 1456.3 s, median lap 96.1 s -> 15 (no-stop 16, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L40: fuel/lap 3.76 | fuel 28.9 = 7.7 laps | 15.0 laps to go | stops 1
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 4.1/20.4s, 1 line, protected): exitingPit(+22.92l, tyres)
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(inferred)
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 6.8/20.4s, 1 line, protected): stopsPlanChanged(0→1)
+📐 plan L40 (15 to go): RS 7 · RS 8 — 1 stop, next: box L46 → RS | stop 17.1 s · fuel 7/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 26 laps, RS 96.1 s 12 laps
+📐 crew: plan change: box end of lap 46 for racing softs
+🚪 gate refined: Daytona Road Course/lobby/pitExit (26 samples, σ 0.16 m, ±12 m, across -0.0…0.0 m)
+📊 laps-left model: elapsed 3943.7 s, remaining 1434.5 s, median lap 96.1 s -> 15 (no-stop 15, pit loss 21.8 s, rate 3 l/s), out-lap -21.8s
+📊 strategy L40: fuel/lap 3.76 | fuel 28.9 = 7.7 laps | 15.0 laps to go | stops 1 (post-stop recalc)
+📐 short fill: 7 laps of fuel for a stint called at 8
+📐 crew: we're short on fuel — enough for 7 laps, box end of lap 46
+🔊 tyres are cold
+📋 strategy burst: 6 event(s), releasing best-first — pitWindow(L40/L40/L46, stops 1) | strategyUpdate(fuel 7.71L, togo 15, stops 1) | strategyUpdate(fuel 7.71L, togo 15, stops 1, post-stop) | pitWindowState(openToLatest, now L40, L40/L40/L46, stops 1) | pitStopsToGo(1, 15 to go) | fuelStatus(lapsToGo, 7, 15 to go, 7.71 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindow(L40/L40/L46, stops 1)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.71L, togo 15, stops 1)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.71L, togo 15, stops 1, post-stop)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L40, L40/L40/L46, stops 1)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 15 to go)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 7, 15 to go, 7.71 fuel-laps)
+🔊 fuel plan changed
+🔊 1 stop
+🔊 plan change
+🔊 box end of lap 46 for racing softs
+🔊 we're short on fuel
+🔊 enough for 7 laps
+🔊 box end of lap 46
+⏱ delta check L40 1/2: quiet — out-lap
+⏱ delta check L40 2/2: quiet — out-lap
+🗣 chain (imp 4, cost 2.5s, ledger 2.5/20.4s, 1 events, 1 lines)
+🔊 that's contact
+🔊 keep it clean
+🗑 speaker: stale, not spoken: "📻 out"
+🔵 sub-state OUT_LAP → FLYING lap 41
+📋 lap 40: 1:46.798 out fuel_used=3.09
+🔵 lap 40 antics: contact, lost 1
+📊 laps-left model: elapsed 4030.4 s, remaining 1369.6 s, median lap 96.1 s -> 14 (no-stop 15, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L41: fuel/lap 3.75 | fuel 25.9 = 6.9 laps | 14.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 1.4s, ledger 1.4/20.4s, 1 line): positionChange(P4→P5)
+📐 stop measured L39/40: 20.1 s (in 113.07 + out 106.80 − 2 × 96.05 − 22.9 L ÷ 3.0 L/s) — planning with 17.9 s
+📐 plan L41 (14 to go): RS 6 · RS 8 — 1 stop, next: box L46 → RS | stop 17.9 s · fuel 6/26 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 26 laps, RS 96.1 s 12 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (80 samples, σ 2.69 m, ±12 m, across -4.2…3.0 m)
+🗺 mapper: lap 40 rejected (teleport)
+🛞 compound: racingSoft (high confidence, C 0.70, margin 0.122, relative to RS (truth), own reference)
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: box-exit answer RS given to the pit-exit window (estimate RS)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 3.4/20.4s, 1 line): compoundEstimate(pitExit, RS, high)
+🛞 wear (test) lap 40 done: FL 3.6 FR 3.9 RL 5.3 RR 7.6 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+🔊 P 5
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L41, L41/L41/L46, stops 1) | fuelStatus(lapsToGo, 6, 14 to go, 6.89 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L41, L41/L41/L46, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 6, 14 to go, 6.89 fuel-laps)
+🔊 reads like racing softs
+🗣 bulletin (imp 6, cost 1.8s, ledger 5.2/20.4s, 1 line): L41
+🔊 that's lap 41
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.89L, togo 14, stops 1)
+⏱ delta check L41 1/2: quiet — -0.12 s, under ±0.2 s
+🛞 compound: stint pitExit lap 40, refinement 1 — C 0.702 over 148 s (2558 samples)
+⏱ delta check L41 2/2: quiet — +0.20 s, under ±0.2 s
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+📋 lap 41: 1:35.918 clean fuel_used=3.33
+🔵 lap 41: clean
+🔧 🌧 L41 GR1 on RS: peak 2.03 g (best 2.07, ×0.98; floor 2.00) · slide 0.71 °/g (best 0.69, ×1.0) · TCS 5 % (best 5 %) → dry
+📊 laps-left model: elapsed 4126.3 s, remaining 1273.7 s, median lap 96.0 s -> 13 (no-stop 14, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L42: fuel/lap 3.69 | fuel 22.5 = 6.1 laps | 13.0 laps to go | stops 1
+📐 plan L42 (13 to go): RS 5 · RS 8 — 1 stop, next: box L46 → RS | stop 17.9 s · fuel 6/27 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 20 laps, RS 96.1 s 9 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (81 samples, σ 2.69 m, ±12 m, across -4.2…3.0 m)
+📐 crew: box in 5 laps — racing softs next
+🛞 wear (test) lap 41 done: FL 8.1 FR 9.7 RL 11.9 RR 17.4 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 6, 13 to go, 6.11 fuel-laps)
+🔊 box in 5 laps
+🗣 bulletin (imp 6, cost 6.2s, ledger 10.2/20.4s, 2 lines): L42
+🔊 racing softs next
+🔊 good lap
+🔊 1 35 point nine two
+🔊 lap 42 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.11L, togo 13, stops 1)
+🛞 compound: stint pitExit lap 40, refinement 2 — C 0.692 over 208 s (3622 samples)
+⏱ delta check L42 1/2: quiet — -0.12 s, under ±0.2 s
+⏱ delta check L42 2/2: +0.50 s
+🔊 point five down
+🛞 compound: stint pitExit lap 40, refinement 3 — C 0.702 over 268 s (4652 samples)
+📋 lap 42: 1:36.689 clean fuel_used=3.21
+🛞 crew: tyre life kept quiet — L48 reaches the planned end, L46
+🔧 🌧 L42 GR1 on RS: peak 1.97 g (best 2.07, ×0.95; floor 2.00) · slide 0.74 °/g (best 0.69, ×1.1) · TCS 6 % (best 5 %) → wet suspected (below class floor)
+🔵 lap 42: clean
+📊 laps-left model: elapsed 4223.0 s, remaining 1177.0 s, median lap 96.0 s -> 12 (no-stop 13, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L43: fuel/lap 3.69 | fuel 19.3 = 5.2 laps | 12.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 3.7s, ledger 3.7/20.4s, 1 line): positionChange(P5→P4)
+📐 plan L43 (12 to go): RS 4 · RS 8 — 1 stop, next: box L46 → RS | stop 17.9 s · fuel 5/27 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 19 laps, RS 96.1 s 9 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (82 samples, σ 2.68 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 42 done: FL 12.7 FR 15.2 RL 18.5 RR 27.3 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 42: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 5, 12 to go, 5.24 fuel-laps)
+🔊 1 place up
+🗣 bulletin (imp 6, cost 6.5s, ledger 10.2/20.4s, 2 lines): L43
+🔊 you're now P 4
+🔊 decent laptime
+🔊 1 point three off your best
+🔊 on lap 43
+🎤 crew asks: is it raining out there?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is it raining out there?
+🎤 mic -47 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.24L, togo 12, stops 1)
+🎤 heard "No" → dry
+🌧 driver: dry
+🔊 copy
+🔊 still dry
+⏱ delta check L43 1/2: +0.41 s
+🔊 point four down so far
+🛞 compound: stint pitExit lap 40, refinement 4 — C 0.692 over 328 s (5387 samples)
+⏱ delta check L43 2/2: +0.86 s
+🔊 point nine down on your best
+📋 lap 43: 1:36.574 clean fuel_used=3.34
+🛞 crew: tyre life kept quiet — L48 reaches the planned end, L46
+🔧 🌧 L43 GR1 on RS: peak 1.99 g (best 2.07, ×0.96; floor 2.00) · slide 0.75 °/g (best 0.69, ×1.1) · TCS 8 % (best 5 %) → wet suspected (below class floor)
+🔵 lap 43: clean
+📊 laps-left model: elapsed 4319.6 s, remaining 1080.4 s, median lap 96.0 s -> 11 (no-stop 12, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L44: fuel/lap 3.55 | fuel 16.0 = 4.5 laps | 11.0 laps to go | stops 1
+📐 plan L44 (11 to go): RS 3 · RS 8 — 1 stop, next: box L46 → RS | stop 17.9 s · fuel 4/28 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 19 laps, RS 96.2 s 9 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (83 samples, σ 2.67 m, ±12 m, across -4.2…3.0 m)
+📐 crew: box in 3 laps — racing softs next
+🛞 wear (test) lap 43 done: FL 17.3 FR 20.8 RL 25.2 RR 37.1 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 rain? not asked (driver said dry / skip recently) — lap 43: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L44, L44/L44/L47, stops 1) | fuelStatus(lapsToGo, 4, 11 to go, 4.50 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L44, L44/L44/L47, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 4, 11 to go, 4.50 fuel-laps)
+🔊 box in 3 laps
+🗣 bulletin (imp 6, cost 6.9s, ledger 10.9/20.4s, 2 lines): L44
+🔊 racing softs next
+🔊 ok laptime
+🔊 1 point two slower than your best
+🔊 lap 44 now
+🛞 compound: stint pitExit lap 40, refinement 5 — C 0.702 over 388 s (6754 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.50L, togo 11, stops 1)
+⏱ delta check L44 1/2: -0.43 s
+🔊 point four up on your best
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 5.0/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔊 tyres still looking good
+⏱ delta check L44 2/2: quiet — +0.01 s, under ±0.2 s
+🛞 compound: stint pitExit lap 40, refinement 6 — C 0.702 over 448 s (7670 samples)
+📋 lap 44: 1:35.732 clean fuel_used=3.57
+🔧 🌧 L44 GR1 on RS: peak 2.05 g (best 2.07, ×0.99; floor 2.00) · slide 0.75 °/g (best 0.69, ×1.1) · TCS 5 % (best 5 %) → dry
+🛞 crew: tyre life kept quiet — L48 reaches the planned end, L46
+🔵 lap 44: clean
+📊 laps-left model: elapsed 4415.3 s, remaining 984.7 s, median lap 96.0 s -> 10 (no-stop 11, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L45: fuel/lap 3.46 | fuel 12.4 = 3.6 laps | 10.0 laps to go | stops 1
+🏁 race length: 54 laps (lap 45, 10 to go)
+📐 plan L45 (10 to go): RS 2 · RS 8 — 1 stop, next: box L46 → RS | stop 17.9 s · fuel 3/28 laps · wear-off 0.06 s/lap · fresh RM 98.1 s 18 laps, RS 96.2 s 8 laps
+📐 crew: update — 54 laps in total
+🚪 gate refined: Daytona Road Course/lobby/finishLine (84 samples, σ 2.65 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 44 done: FL 22.5 FR 27.0 RL 32.1 RR 47.3 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 crew: estimated finish lap 55
+📋 strategy burst: 2 event(s), releasing best-first — pitStopsToGo(1, 10 to go) | fuelStatus(lapsToGo, 3, 10 to go, 3.59 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 10 to go)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 3, 10 to go, 3.59 fuel-laps)
+🔊 update
+🔊 54 laps in total
+🗣 bulletin (imp 6, cost 5.2s, ledger 8.3/20.4s, 2 lines): L45
+🔊 good lap
+🔊 35 point seven
+🔊 on lap 45
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 3.59L, togo 10, stops 1)
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+⏱ delta check L45 1/2: quiet — +0.20 s, under ±0.2 s
+🛞 compound: stint pitExit lap 40, refinement 7 — C 0.702 over 508 s (8592 samples)
+⏱ delta check L45 2/2: +0.60 s
+🔊 point six down
+🛞 compound: stint pitExit lap 40, refinement 8 — C 0.712 over 568 s (9581 samples)
+📋 lap 45: 1:36.061 clean fuel_used=3.65
+🛞 crew: tyre life kept quiet — L48 reaches the planned end, L46
+🔧 🌧 L45 GR1 on RS: peak 1.93 g (best 2.07, ×0.93; floor 2.00) · slide 0.83 °/g (best 0.69, ×1.2) · TCS 8 % (best 5 %) → wet suspected (below class floor)
+🔵 lap 45: clean
+📊 laps-left model: elapsed 4511.4 s, remaining 888.6 s, median lap 96.0 s -> 9 (no-stop 10, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L46: fuel/lap 3.46 | fuel 8.8 = 2.5 laps | 9.0 laps to go | stops 1
+📐 plan L46 (9 to go): RS 1 · RS 8 — 1 stop, next: box L46 → RS | stop 17.9 s · fuel 2/28 laps · wear-off 0.06 s/lap · fresh RM 98.1 s 18 laps, RS 96.1 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (85 samples, σ 2.64 m, ±12 m, across -4.2…3.0 m)
+📐 crew: in this lap, we're going to racing softs
+📐 crew: 26 litres gets us to the end
+🛞 wear (test) lap 45 done: FL 27.7 FR 33.2 RL 39.0 RR 57.3 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 asking the driver about rain — lap 45: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🔊 in this lap
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 2, 9 to go, 2.54 fuel-laps)
+🔊 we're going to racing softs
+🗣 bulletin (imp 6, cost 6.3s, ledger 13.6/20.4s, 2 lines): L46
+🔊 26 litres gets us to the end
+🔊 good lap
+🔊 point seven down on your best lap
+🔊 lap 46
+🎤 crew asks: is the track getting wet?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is the track getting wet?
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 2.54L, togo 9, stops 1)
+🎤 mic -17 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🎤 heard "No" → dry
+🌧 driver: dry
+🔊 copy
+🔊 still dry
+⏱ delta check L46 1/2: +0.26 s
+🔊 point three down so far
+🛞 compound: stint pitExit lap 40, refinement 9 — C 0.702 over 628 s (10529 samples)
+⏱ delta check L46 2/2: +0.63 s
+🔊 point six down on your best
+🔧 box reminder fired: 1180 m (17.3 s) before pit entry, polyline anchor, lap 46
+📐 crew: box, box — racing softs
+📐 crew: add 26 litres
+🔊 box
+🔊 box
+🔊 racing softs
+🔊 add 26 litres
+📋 lap 46: 1:36.632 clean fuel_used=3.63
+🔧 🌧 L46 GR1 on RS: peak 1.97 g (best 2.07, ×0.95; floor 2.00) · slide 0.87 °/g (best 0.69, ×1.3) · TCS 9 % (best 5 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L48 reaches the planned end, L46
+🔵 lap 46: clean
+📊 laps-left model: elapsed 4608.0 s, remaining 792.0 s, median lap 96.2 s -> 8 (no-stop 9, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L47: fuel/lap 3.46 | fuel 5.1 = 1.5 laps | 8.0 laps to go | stops 1
+🗑 dropped (the planner owns the pit calls): pitWindowState(atLatest, now L47, —/L47/L47, stops 1)
+📊 strategy L47: box confirmed at 70% (1.5 laps of fuel, was 1.5 at the crossing)
+📐 plan L47 (8 to go): RS 1 · RS 7 — 1 stop, next: box L47 → RS | stop 17.9 s · fuel 1/28 laps · wear-off 0.06 s/lap · fresh RM 98.1 s 18 laps, RS 96.2 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (86 samples, σ 2.64 m, ±12 m, across -4.2…3.0 m)
+📐 crew: box this lap — racing softs next
+📐 crew: 26 litres gets us to the end
+🛞 wear (test) lap 46 done: FL 32.7 FR 39.3 RL 45.8 RR 67.4 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🌧 rain? not asked (driver said dry / skip recently) — lap 46: wet suspected (below class floor)
+🛞 crew: estimated finish lap 55
+🔊 box this lap
+📋 strategy burst: 2 event(s), releasing best-first — pitWindow(—/L47/L47, stops 1) | fuelStatus(lapsToGo, 1, 8 to go, 1.48 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindow(—/L47/L47, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 1, 8 to go, 1.48 fuel-laps)
+🔊 racing softs next
+🗣 bulletin (imp 6, cost 4.5s, ledger 15.7/20.4s, 2 lines): L47
+🔊 26 litres gets us to the end
+🗑 dropped (the planner owns the pit calls): boxThisLap(1.48 laps fuel)
+🔊 1 36 point six
+🔊 that's lap 47
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 1.48L, togo 8, stops 1)
+🛞 compound: stint pitExit lap 40, refinement 10 — C 0.712 over 688 s (11539 samples)
+⏱ delta check L47 1/2: +0.35 s
+🔊 you're point three down
+⏱ delta check L47 2/2: +0.53 s
+🔊 point five down
+🔧 box reminder fired: 1180 m (17.3 s) before pit entry, polyline anchor, lap 47
+📐 crew: pit entry coming up — box for racing softs
+📐 crew: 26 litres of fuel
+🔊 pit entry coming up
+🔊 box for racing softs
+🔊 26 litres of fuel
+🛞 compound: stint pitExit lap 40, refinement 11 — C 0.712 over 748 s (12501 samples)
+🔧 huge stop 298 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 3237833 lap 47
+🔵 sub-state FLYING → — lap 47
+🔧 pit-entry anchor learned: 96580 ms into lap (stop on lap 47)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 4704.6 s, remaining 695.4 s, median lap 96.2 s -> 7 (no-stop 8, pit loss 21.8 s, rate 3 l/s)
+📊 strategy: refuel still needed — 0.5 laps of fuel against 7 to go (need 8.4 with margin)
+🚪 gate refined: Daytona Road Course/lobby/pitEntry (27 samples, σ 0.61 m, ±0 m)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 7.6/20.4s, 1 line, protected): pittingIn(L47)
+🔊 entering pit
+📋 lap 47: 1:51.113 in fuel_used=3.51
+🔵 lap 47: clean
+🗑 dropped (in pit): lapStarted(48, last 111.11s)
+📐 plan L48: in the pit lane — planned after the stop
+🗺 mapper: lap 47 rejected (pit)
+🛞 wear (test) lap 47 done: FL 37.4 FR 45.8 RL 52.7 RR 77.8 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 56
+🛞 compound prompt: box exit lap 48, declared none — on screen; asked aloud with the estimate
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 55
+📊 laps-left model: elapsed 4722.4 s, remaining 677.6 s, median lap 96.2 s -> 7 (no-stop 8, pit loss 21.8 s, rate 3 l/s)
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 2.8/20.4s, 1 line, protected): inPitBox
+🗑 dropped (the planner owns the pit calls): refuelTarget(7 laps)
+🔊 in the pit
+🛞 compound prompt answered: RS
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 wear (test): all four tyres at 60.00 °C on lap 48 — new set (J116)
+🛞 wear (test) stint 4 ended at tyre change: FL 37.4 FR 45.8 RL 52.7 RR 77.8 % — RS ×4 (tap)
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 compound: box-exit answer RS kept through the tyre change (J151)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🔧 fresh tyres confirmed: 60.0° across all four (was 68.5° at pit entry, step 8.5°)
+🗑 dropped (box deadline; cost 2.7s, 0.0s of 20.7s left): freshTyres(confirmed 59.99°)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🗑 dropped (in pit): tyreTemps(low, 61°)
+🛞 compound: stint pitExit lap 40, refinement 12 (final) — C 0.712 over 762 s (12634 samples)
+🛞 compound: stale window (RS, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 48
+🔀 state PIT → RACING at pkt 3240029 lap 48
+🔵 sub-state — → OUT_LAP lap 48
+🅿️ PIT completed: in L47 → out L48 (+29.1 fuel, transit 39.6s, teleport=false)
+🚪 gate refined: Daytona Road Course/lobby/pitBox (27 samples, σ 0.18 m, ±0 m)
+🅿️ entry→box 20.7s (speaking budget)
+🔧 pit approach: entry at station 5495 m of 5716 m (35.4 m off the line), lead 20 s
+🔧 teleport 242 m on lap 48 — pit release, not a reset
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 3.3/20.4s, 1 line, protected): exitingPit(+29.12l, tyres)
+📊 laps-left model: elapsed 4741.2 s, remaining 658.8 s, median lap 96.2 s -> 7 (no-stop 7, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L48: fuel/lap 3.46 | fuel 30.7 = 8.9 laps | 7.0 laps to go | stops 0
+🗑 dropped (cooldown pit; 0.0s of 1.0s via tyres x0.50): freshTyres(inferred)
+📐 plan L48 (7 to go): RS 7 — 0 stops | stop 17.9 s · fuel 8/28 laps · wear-off 0.06 s/lap · fresh RM 98.1 s 26 laps, RS 96.2 s 12 laps
+📐 crew: last stop done, no more stops
+🚪 gate refined: Daytona Road Course/lobby/pitExit (27 samples, σ 0.17 m, ±12 m, across -0.0…0.0 m)
+📊 laps-left model: elapsed 4741.3 s, remaining 636.9 s, median lap 96.2 s -> 7 (no-stop 7, pit loss 21.8 s, rate 3 l/s), out-lap -21.8s
+📊 strategy L48: fuel/lap 3.46 | fuel 30.7 = 8.9 laps | 7.0 laps to go | stops 0 (post-stop recalc)
+🔊 tyres are cold
+📋 strategy burst: 3 event(s), releasing best-first — fuelStatus(plusLaps, 1, 7 to go, 8.90 fuel-laps) | strategyUpdate(fuel 8.90L, togo 7, stops 0) | strategyUpdate(fuel 8.90L, togo 7, stops 0, post-stop)
+🗑 dropped (the planner owns the pit calls): fuelStatus(plusLaps, 1, 7 to go, 8.90 fuel-laps)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.90L, togo 7, stops 0)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.90L, togo 7, stops 0, post-stop)
+🔊 last stop done
+🔊 no more stops
+⏱ delta check L48 1/2: quiet — out-lap
+⏱ delta check L48 2/2: quiet — out-lap
+🛞 crew: estimated finish lap 54
+🔵 sub-state OUT_LAP → FLYING lap 49
+📋 lap 48: 1:48.571 out fuel_used=3.42
+🔵 lap 48: clean
+📊 laps-left model: elapsed 4827.7 s, remaining 572.3 s, median lap 96.2 s -> 6 (no-stop 6, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L49: fuel/lap 3.38 | fuel 27.3 = 8.1 laps | 6.0 laps to go | stops 0
+📐 stop measured L47/48: 17.3 s (in 111.11 + out 108.57 − 2 × 96.32 − 29.1 L ÷ 3.0 L/s) — planning with 17.8 s
+📐 plan L49 (6 to go): RS 6 — 0 stops | stop 17.8 s · fuel 8/29 laps · wear-off 0.06 s/lap · fresh RM 98.1 s 26 laps, RS 96.2 s 12 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (87 samples, σ 2.63 m, ±12 m, across -4.2…3.0 m)
+🗺 mapper: lap 48 rejected (teleport)
+🛞 compound: racingSoft (high confidence, C 0.69, margin 0.122, relative to RS (truth), own reference)
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: box-exit answer RS given to the pit-exit window (estimate RS)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(pitExit, RS, high)
+🛞 wear (test) lap 48 done: FL 4.0 FR 4.6 RL 5.5 RR 7.8 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 55
+🛞 crew: estimated finish lap 54
+🗑 dropped (the planner owns the pit calls): fuelStatus(plusLaps, 2, 6 to go, 8.07 fuel-laps)
+🔊 reads like racing softs
+🗣 bulletin (imp 6, cost 1.4s, ledger 3.4/20.4s, 1 line): L49
+🔊 lap 49
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.07L, togo 6, stops 0)
+⏱ delta check L49 1/2: +0.39 s
+🔊 you're point four down
+🛞 compound: stint pitExit lap 48, refinement 1 — C 0.702 over 148 s (2503 samples)
+⏱ delta check L49 2/2: +0.57 s
+🔊 point six down
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+📋 lap 49: 1:35.964 clean fuel_used=3.72
+🔵 lap 49: clean
+🔧 🌧 L49 GR1 on RS: peak 2.01 g (best 2.07, ×0.97; floor 2.00) · slide 0.75 °/g (best 0.69, ×1.1) · TCS 7 % (best 5 %) → dry
+📊 laps-left model: elapsed 4923.7 s, remaining 476.3 s, median lap 96.0 s -> 5 (no-stop 5, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L50: fuel/lap 3.49 | fuel 23.6 = 6.8 laps | 5.0 laps to go | stops 0
+📐 plan L50 (5 to go): RS 5 — 0 stops | stop 17.8 s · fuel 6/28 laps · wear-off 0.06 s/lap · fresh RM 98.1 s 20 laps, RS 96.2 s 9 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (88 samples, σ 2.64 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 49 done: FL 8.2 FR 10.2 RL 12.2 RR 17.7 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 55
+🛞 crew: estimated finish lap 54
+🗑 dropped (the planner owns the pit calls): fuelStatus(plusLaps, 1, 5 to go, 6.75 fuel-laps)
+🗣 bulletin (imp 6, cost 5.2s, ledger 5.2/20.4s, 2 lines): L50
+🔊 good lap
+🔊 35 point nine
+🔊 lap 50 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.75L, togo 5, stops 0)
+🛞 compound: stint pitExit lap 48, refinement 2 — C 0.692 over 208 s (3333 samples)
+⏱ delta check L50 1/2: -0.32 s
+🔊 point three up so far
+⏱ delta check L50 2/2: quiet — -0.00 s, under ±0.2 s
+🛞 compound: stint pitExit lap 48, refinement 3 — C 0.692 over 268 s (4142 samples)
+📋 lap 50: 1:35.295 clean fuel_used=3.74
+🛞 crew: tyre life kept quiet — L56 reaches the planned end, L54
+🔧 🌧 L50 GR1 on RS: peak 2.03 g (best 2.07, ×0.98; floor 2.00) · slide 0.77 °/g (best 0.69, ×1.1) · TCS 6 % (best 5 %) → dry
+🔵 lap 50: clean
+📊 laps-left model: elapsed 5019.0 s, remaining 381.0 s, median lap 96.0 s -> 4 (no-stop 4, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L51: fuel/lap 3.60 | fuel 19.9 = 5.5 laps | 4.0 laps to go | stops 0
+📐 plan L51 (4 to go): RS 4 — 0 stops | stop 17.8 s · fuel 5/27 laps · wear-off 0.06 s/lap · fresh RM 98.1 s 19 laps, RS 96.1 s 9 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (89 samples, σ 2.63 m, ±12 m, across -4.2…3.0 m)
+🗺 mapper: learned lap 50 (95.295 s, 5695 m, 1139 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(50, 95295 ms, 1139 pts)
+🗺 frame vs no context: median 1.4 m, centroid offset 1.2 m
+🗺 survey stored → 1163.trackmap.json (lap 50, 95.295 s)
+🛞 wear (test) lap 50 done: FL 13.1 FR 16.1 RL 19.1 RR 27.9 % — RS ×4 (tap)
+⏱ class lap BEST: Daytona Road Course/lobby/Gr.1 → 1:35.295 (3/10 laps, 1 car(s), avg 1:35.376)
+⏱ compound best RS: 95.295 s
+🛞 crew: estimated finish lap 55
+🛞 crew: estimated finish lap 54
+🗑 dropped (the planner owns the pit calls): fuelStatus(plusLaps, 1, 4 to go, 5.51 fuel-laps)
+🗣 bulletin (imp 2, cost 6.0s, ledger 6.0/20.4s, 2 lines): L51
+🔊 personal best
+🔊 point one quicker
+🔊 that's lap 51
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.51L, togo 4, stops 0)
+⏱ delta check L51 1/2: +0.28 s
+🔊 point three down on your best
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 5.0/20.4s, 1 line): tyreTemps(inWindow, 70°)
+🔊 tyres in the window
+🛞 compound: stint pitExit lap 48, refinement 4 — C 0.682 over 328 s (4875 samples)
+⏱ delta check L51 2/2: quiet — -0.01 s, under ±0.2 s
+📋 lap 51: 1:35.701 clean fuel_used=3.84
+🛞 crew: tyre life kept quiet — L56 reaches the planned end, L54
+🔧 🌧 L51 GR1 on RS: peak 2.01 g (best 2.07, ×0.97; floor 2.00) · slide 0.74 °/g (best 0.69, ×1.1) · TCS 5 % (best 5 %) → dry
+🔵 lap 51: clean
+📊 laps-left model: elapsed 5114.7 s, remaining 285.3 s, median lap 96.0 s -> 3 (no-stop 3, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L52: fuel/lap 3.64 | fuel 16.0 = 4.4 laps | 3.0 laps to go | stops 0
+📐 plan L52 (3 to go): RS 3 — 0 stops | stop 17.8 s · fuel 4/27 laps · wear-off 0.06 s/lap · fresh RM 98.1 s 18 laps, RS 96.1 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (90 samples, σ 2.63 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 51 done: FL 18.3 FR 22.2 RL 26.0 RR 38.1 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 55
+🛞 crew: estimated finish lap 54
+🗑 dropped (the planner owns the pit calls): fuelStatus(plusLaps, 1, 3 to go, 4.40 fuel-laps)
+🗣 bulletin (imp 6, cost 5.5s, ledger 5.5/20.4s, 2 lines): L52
+🔊 great lap
+🔊 point four off your best
+🔊 lap 52
+🛞 compound: stint pitExit lap 48, refinement 5 — C 0.692 over 388 s (6038 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.40L, togo 3, stops 0)
+⏱ delta check L52 1/2: +0.57 s
+🔊 point six down
+⏱ delta check L52 2/2: +0.47 s
+🔊 you're point five down
+🛞 compound: stint pitExit lap 48, refinement 6 — C 0.702 over 448 s (6786 samples)
+📋 lap 52: 1:36.013 clean fuel_used=3.75
+🔧 🌧 L52 GR1 on RS: peak 2.07 g (best 2.07, ×1.00; floor 2.00) · slide 0.87 °/g (best 0.69, ×1.3) · TCS 9 % (best 5 %) → dry
+🛞 crew: tyre life kept quiet — L56 reaches the planned end, L54
+🔵 lap 52: clean
+📊 laps-left model: elapsed 5210.7 s, remaining 189.3 s, median lap 96.0 s -> 2 (no-stop 2, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L53: fuel/lap 3.69 | fuel 12.3 = 3.3 laps | 2.0 laps to go | stops 0
+📐 plan L53 (2 to go): RS 2 — 0 stops | stop 17.8 s · fuel 3/27 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 18 laps, RS 96.1 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (91 samples, σ 2.62 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 52 done: FL 23.3 FR 28.6 RL 32.9 RR 48.3 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 55
+🛞 crew: estimated finish lap 54
+🗑 dropped (the planner owns the pit calls): fuelStatus(plusLaps, 1, 2 to go, 3.33 fuel-laps)
+🗣 bulletin (imp 6, cost 7.6s, ledger 7.6/20.4s, 2 lines): L53
+🔊 that was a good lap
+🔊 point seven slower than your best
+🔊 on lap 53
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 3.33L, togo 2, stops 0)
+⏱ delta check L53 1/2: +0.49 s
+🔊 point five down on your best
+🛞 compound: stint pitExit lap 48, refinement 7 — C 0.702 over 508 s (7525 samples)
+⏱ delta check L53 2/2: +0.52 s
+🔊 point five down
+📋 lap 53: 1:36.068 clean fuel_used=3.64
+🔧 🌧 L53 GR1 on RS: peak 1.97 g (best 2.07, ×0.95; floor 2.00) · slide 0.84 °/g (best 0.69, ×1.2) · TCS 8 % (best 5 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L56 reaches the planned end, L54
+🔵 lap 53: clean
+📊 laps-left model: elapsed 5306.8 s, remaining 93.2 s, median lap 96.0 s -> 1 (no-stop 1, pit loss 21.8 s, rate 3 l/s)
+📊 strategy L54: fuel/lap 3.69 | fuel 8.6 = 2.3 laps | 1.0 laps to go | stops 0
+📐 plan L54 (1 to go): RS 1 — 0 stops | stop 17.8 s · fuel 2/27 laps · wear-off 0.06 s/lap · fresh RM 98.0 s 18 laps, RS 96.1 s 8 laps
+🚪 gate refined: Daytona Road Course/lobby/finishLine (92 samples, σ 2.61 m, ±12 m, across -4.2…3.0 m)
+🛞 wear (test) lap 53 done: FL 28.2 FR 34.6 RL 39.8 RR 58.5 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 55
+🌧 asking the driver about rain — lap 53: wet suspected (below class floor)
+🛞 crew: estimated finish lap 54
+🛞 compound: stint pitExit lap 48, refinement 8 — C 0.712 over 568 s (8738 samples)
+🎤 crew asks: is it starting to rain?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is it starting to rain?
+🗣 bulletin (imp 6, cost 8.4s, ledger 10.9/20.4s, 2 lines): L54
+⏸ held (question open): good lap — 1 36 point oh seven / lap 54, this will be the last lap
+🎤 mic -47 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🎤 heard "No" → dry
+🌧 driver: dry
+▶️ released 1 held call(s) — question closed
+🔊 good lap
+🔊 1 36 point oh seven
+🔊 lap 54
+🔊 this will be the last lap
+🗑 speaker: stale, not spoken: "📻 out"
+🔊 copy
+🔊 still dry
+⏱ delta check L54 1/2: +0.75 s
+🔊 point eight down so far
+🛞 compound: stint pitExit lap 48, refinement 9 — C 0.712 over 628 s (9787 samples)
+⏱ delta check L54 2/2: +0.93 s
+🔊 point nine down on your best
+📋 lap 54: 1:37.489 clean fuel_used=3.80
+🔧 🌧 L54 GR1 on RS: peak 1.93 g (best 2.07, ×0.93; floor 2.00) · slide 0.83 °/g (best 0.69, ×1.2) · TCS 7 % (best 5 %) → wet suspected (below class floor)
+🛞 crew: tyre life kept quiet — L56 reaches the planned end, L54
+🔵 lap 54: clean
+📊 strategy: finish armed at L55 (clock 5404.3 s of 5400) — awaiting lap-clock freeze
+📊 laps-left model: elapsed 5404.3 s, remaining -4.3 s, median lap 96.0 s -> 0 (expired)
+📊 strategy L55: fuel/lap 3.73 | fuel 4.8 = 1.3 laps | 0.0 laps to go | stops 0
+📐 plan L55: race length unknown
+🚪 gate refined: Daytona Road Course/lobby/finishLine (93 samples, σ 2.65 m, ±12 m, across -4.2…5.4 m)
+🛞 wear (test) lap 54 done: FL 32.6 FR 40.3 RL 46.7 RR 68.5 % — RS ×4 (tap)
+🛞 crew: estimated finish lap 55
+🌧 rain? not asked (driver said dry / skip recently) — lap 54: wet suspected (below class floor)
+📊 strategy: race finished at L55 — confirmed, lap clock frozen 0.50 s (handover 0.45 s)
+🗑 flag: pending commentary cancelled
+🛞 compound: stint pitExit lap 48, refinement 10 (final) — C 0.712 over 665 s (10399 samples)
+🗣 spoke (radio, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): raceFinished(L55)
+# recap:   55 lap(s), 5 stop(s), P4/12, finished — filed in the sidecar
+💾 race preserved (finished): 55 lap(s), 5 stop(s), start GRID_START, P4/12
+✂️ capture auto-stop in 20s (race finished)
+# values:  11 section(s) at the flag — filed with the recap
+💾 values at the flag: 11 section(s)
+🔊 that's race over
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 326360 packets
