@@ -2681,6 +2681,45 @@
       ]
     },
     {
+      "stem": "152-customRace-20261115_124936",
+      "courseId": 152,
+      "track": "Aut\u00f3dromo de Interlagos",
+      "context": "customRace",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 113688,
+      "durationS": 1896.7,
+      "rawBytes": 41837184,
+      "gzBytes": 19968689,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 3,
+      "identifiedCourseId": 152,
+      "identifiedTrackName": "Aut\u00f3dromo de Interlagos",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "startAnswer"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 9,
+          "outcome": "boxExit",
+          "finalLabel": "RM",
+          "abstained": true
+        }
+      ]
+    },
+    {
       "stem": "346-lobby-20260721_205103",
       "courseId": 346,
       "track": "Brands Hatch Indy Circuit",
