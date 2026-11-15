@@ -1,0 +1,576 @@
+# EzioClient session log
+# file:    20261115_133243 - Autódromo de Interlagos (152).gt7td
+# started: 2026-11-15T12:32:43Z
+# track:   Autódromo de Interlagos (CRS 152)
+# context: customRace
+# ---
+🚪 ⏸ gate learning held until identification confirms Autódromo de Interlagos
+# car:     Chevrolet Corvette C7 Gr.3 [Gr.3] (id 2183) — confirmed from telemetry
+📐 planner owns the pit calls: yes
+📐 crew: pit calls from the planner
+📐 plan: no lap times — add them in the capture setup
+🔓 learning resumed — player on track
+🛞 compound: car 2183 — reference: CH CM CS RH RM RS SH SM SS
+🎮 menus → onTrack (pkt 3714774, lap 0, flags 0x0001, pos 1, cars 1, tod 54600000)
+🧭 polyline [PRE-GREEN]: buffer spans only 59.6 m over 30 samples — not scoring
+🧭 polyline [PRE-GREEN]: 33 candidate(s) dropped on direction — best of them Watkins Glen Long Course median 27.96 (alignment -0.50)
+🧭 polyline [PRE-GREEN]: 34 candidate(s) dropped on direction — best of them Sardegna - Road Track - B median 25.97 (alignment -0.68)
+🏁 start type: ROLLING_START at pkt 3715919 lap 1
+🔀 state UNKNOWN → RACING at pkt 3715919 lap 1
+🔵 sub-state — → FIRST_LAP lap 1
+📋 lap 0: — clean fuel_used=0.88
+📊 strategy: green flag (speed) at pkt 3715919, race clock running
+🗣 spoke (lapPace, imp 0, cost 2.5s, ledger 2.5/20.4s, 1 line): greenFlag
+🎤 speaker: route in: none · out: Högtalare (speaker)
+📊 strategy L1: no fuel model yet
+🧭 identified: Autódromo de Interlagos (CRS 152) — lap1, 3 sample(s), ±12 m
+🏁 announcing track: Autódromo de Interlagos (CRS 152) from gates
+🗣 spoke (radio, imp 2, cost 2.5s, ledger 5.0/20.4s, 1 line): trackIdentified(Autódromo de Interlagos, CRS 152)
+🗺 stored map loaded on identification (gates): course 152, 846 pts
+🚪 ▶️ gate learning released — identification agrees
+🚪 gate refined: Autódromo de Interlagos/customRace/lap1 (4 samples, σ 0.07 m, ±12 m, across -0.0…0.0 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(lap1, 12)
+🛞 compound: window opened — raceStart, lap 1
+🛞 compound: track scale 0.993 (course 152) — C is read ÷ 0.993
+🔧 pit approach: entry at station 4099 m of 4228 m (12.4 m off the line), lead 20 s
+🔊 lights out
+🎤 speaker: route in: iPad Mikrofon (built-in mic) · out: Högtalare (speaker)
+🔊 keep it clean
+🔊 we're at Autódromo de Interlagos
+🛞 compound prompt: race start, 6 s after the green flag (J184)
+🎤 crew asks: what tyres are we on?
+🎤 route in: iPad Mikrofon (built-in mic) · out: Högtalare (speaker)
+🎤 listening for a compound (179 s, en-GB, on-device yes)
+🔊 what tyres are we on?
+🎤 mic -35 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🎤 heard "Soft" → RS
+🎤 tyre answer by voice: RS
+🛞 compound prompt answered: RS
+🌡 tyre bands: centre 72 °C (RS, -4, tap)
+🛞 crew compound: RS
+🛞 crew compound: RS is sure
+🛞 crew wear gate: fresh (worst 2 %, biased 2 %)
+🔊 copy
+🔊 racing softs
+🛞 compound: family racing (H+ 0.643, locked for the race)
+🗣 spoke (tyres, imp 4, cost 1.2s, ledger 2.8/20.4s, 1 line): compoundEstimate(raceStart, racing, high)
+🔊 racing tyres
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 1:17.101 first fuel_used=5.09
+🔵 lap 1: clean
+📊 strategy L2: fuel/lap 5.09, 18.5 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (83 samples, σ 3.99 m, ±12 m, across -9.4…7.2 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 83)
+🛞 compound: racingSoft (medium confidence, C 0.81, margin 0.111, own reference)
+🛞 compound: RS confirmed by the driver — anchor
+🛞 compound: start answer RS given to the race-start window (estimate RS)
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(raceStart, RS, medium)
+🛞 wear (test) lap 1 done: FL 4.6 FR 6.6 RL 3.6 RR 4.8 % — RS ×3 (tap)
+🔊 reads like racing softs
+🗣 bulletin (imp 6, cost 5.4s, ledger 7.4/20.4s, 2 lines): L2
+🔊 last lap 1 17 point one
+🔊 that's lap 2
+🛞 compound: stint raceStart lap 1, refinement 1 — C 0.815 over 137 s (1637 samples)
+🗣 spoke (tyres, imp 4, cost 2.5s, ledger 2.5/20.4s, 1 line): tyreTemps(high, 79°)
+🔊 tyres are hot
+🔊 be careful
+📋 lap 2: 1:32.851 clean fuel_used=6.15
+🔵 lap 2: clean
+🔧 🌧 L2 GR3 on RS: peak 1.83 g (best 0.00, ×1.00; floor 1.50) · slide 0.87 °/g (best 0.00, ×1.0) · TCS 6 % (best 0 %) → dry
+📊 laps-left model: elapsed 170.0 s, remaining 1630.0 s, median lap 92.9 s -> 18 (no-stop 18, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L3: fuel/lap 5.62 | fuel 87.9 = 15.6 laps | 18.0 laps to go | stops 1
+🏁 race length: 20 laps (lap 3, 18 to go)
+📐 crew: the race looks like 20 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (84 samples, σ 3.97 m, ±12 m, across -9.4…7.2 m)
+🗺 mapper: learned lap 2 (92.851 s, 4220 m, 844 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(2, 92851 ms, 844 pts)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 9.5/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 lap 2 (92.851 s) not stored — the stored map's lap is faster (92.200 s)
+🛞 wear (test) lap 2 done: FL 10.6 FR 15.6 RL 7.7 RR 10.2 % — RS ×3 (tap)
+⏱ class lap kept: Autódromo de Interlagos/customRace/Gr.3 → 1:32.851 (10/10 laps, 4 car(s), avg 1:32.797)
+⏱ compound best RS: 92.851 s
+🛞 crew: estimated finish lap 21
+🛞 crew: estimated finish lap 20
+🔊 the race looks like 20 laps
+📋 strategy burst: 3 event(s), releasing best-first — pitWindow(L3/L10/L17, stops 1) | pitWindowState(openTargetAhead, now L3, L3/L10/L17, stops 1) | pitStopsToGo(1, 18 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L3/L10/L17, stops 1)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openTargetAhead, now L3, L3/L10/L17, stops 1)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 18 to go)
+🗣 bulletin (imp 2, cost 4.3s, ledger 13.8/20.4s, 2 lines): L3
+🔊 we've got the essentials
+🔊 3 optional to go
+🔊 personal best
+🔊 lap 3 now
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 15.63L, togo 18, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.835 over 197 s (2415 samples)
+⏱ delta check L3 1/2: -0.34 s
+🔊 you're point three up
+⏱ delta check L3 2/2: quiet — +0.01 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.815 over 257 s (3266 samples)
+📋 lap 3: 1:32.874 clean fuel_used=6.15
+🛞 crew: tyre life RS — until L10 (7 left; worst 24 %, 9.9 %/lap biased)
+🔵 lap 3: clean
+🔧 🌧 L3 GR3 on RS: peak 1.83 g (best 1.83, ×1.00; floor 1.50) · slide 0.88 °/g (best 0.87, ×1.0) · TCS 12 % (best 6 %) → dry
+📊 laps-left model: elapsed 262.8 s, remaining 1537.2 s, median lap 92.9 s -> 17 (no-stop 17, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L4: fuel/lap 6.15 | fuel 81.7 = 13.3 laps | 17.0 laps to go | stops 1
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (85 samples, σ 3.95 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 3 done: FL 16.9 FR 24.8 RL 11.8 RR 15.7 % — RS ×3 (tap)
+🛞 crew: estimated finish lap 21
+🛞 crew: estimated finish lap 20
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L4, L5/L10/L16, stops 1)
+🗣 bulletin (imp 6, cost 4.2s, ledger 4.2/20.4s, 2 lines): L4
+🔊 great lap
+🔊 keep them coming
+🔊 lap 4
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 13.29L, togo 17, stops 1)
+🛞 crew: tyre life said (mid-lap)
+🔊 these racing softs should last to lap 10
+⏱ delta check L4 1/2: quiet — +0.12 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.835 over 317 s (3761 samples)
+⏱ delta check L4 2/2: +0.51 s
+🔊 point five down on your best
+📋 lap 4: 1:33.618 clean fuel_used=6.04
+🔵 lap 4: clean
+🔧 🌧 L4 GR3 on RS: peak 1.79 g (best 1.83, ×0.98; floor 1.50) · slide 0.83 °/g (best 0.87, ×1.0) · TCS 6 % (best 6 %) → dry
+📊 laps-left model: elapsed 356.5 s, remaining 1443.5 s, median lap 92.9 s -> 16 (no-stop 16, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L5: fuel/lap 6.10 | fuel 75.7 = 12.4 laps | 16.0 laps to go | stops 1
+📐 plan L5 (16 to go): none — noPace("RM") | stop 34.5 s · fuel 12/16 laps · wear-off 0.10 s/lap · fresh RS 92.7 s 9 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (86 samples, σ 3.94 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 4 done: FL 23.2 FR 34.0 RL 15.9 RR 21.2 % — RS ×3 (tap)
+🛞 crew: estimated finish lap 21
+🛞 crew: estimated finish lap 20
+🗑 dropped (the planner owns the pit calls): pitWindowState(openTargetAhead, now L5, L5/L10/L16, stops 1)
+🗣 bulletin (imp 6, cost 7.2s, ledger 7.2/20.4s, 2 lines): L5
+🔊 that was a good lap
+🔊 point eight off your best
+🔊 that's lap 5
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 12.41L, togo 16, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.846 over 377 s (4635 samples)
+⏱ delta check L5 1/2: quiet — -0.07 s, under ±0.2 s
+⏱ delta check L5 2/2: quiet — +0.14 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.825 over 437 s (5288 samples)
+📋 lap 5: 1:33.377 clean fuel_used=6.01
+🔵 lap 5: clean
+🔧 🌧 L5 GR3 on RS: peak 1.77 g (best 1.83, ×0.97; floor 1.50) · slide 0.81 °/g (best 0.83, ×1.0) · TCS 8 % (best 6 %) → dry
+📊 laps-left model: elapsed 449.8 s, remaining 1350.2 s, median lap 93.1 s -> 15 (no-stop 15, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L6: fuel/lap 6.04 | fuel 69.7 = 11.5 laps | 15.0 laps to go | stops 1
+📐 plan L6 (15 to go): none — noPace("RM") | stop 34.5 s · fuel 11/16 laps · wear-off 0.11 s/lap · fresh RS 92.7 s 9 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (87 samples, σ 3.92 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 5 done: FL 30.7 FR 44.2 RL 20.0 RR 26.6 % — RS ×3 (tap)
+🛞 crew: estimated finish lap 21
+🛞 crew: estimated finish lap 20
+🗣 bulletin (imp 6, cost 4.2s, ledger 4.2/20.4s, 2 lines): L6
+🔊 keep the good laps coming
+🔊 lap 6
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 11.53L, togo 15, stops 1)
+⏱ delta check L6 1/2: quiet — +0.19 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.846 over 497 s (5978 samples)
+🛞 crew wear gate: worn (worst 50 %, biased 60 %)
+⏱ delta check L6 2/2: +0.66 s
+🔊 point seven down
+📋 lap 6: 1:33.858 clean fuel_used=5.78
+🛞 crew: tyre life RS — until L10 (4 left; worst 53 %, 10.3 %/lap biased)
+🔵 lap 6: clean
+🔧 🌧 L6 GR3 on RS: peak 1.71 g (best 1.83, ×0.93; floor 1.50) · slide 0.78 °/g (best 0.81, ×1.0) · TCS 14 % (best 6 %) → dry
+📊 laps-left model: elapsed 543.7 s, remaining 1256.3 s, median lap 93.4 s -> 14 (no-stop 14, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L7: fuel/lap 6.03 | fuel 63.9 = 10.6 laps | 14.0 laps to go | stops 1
+📐 plan L7 (14 to go): none — noPace("RM") | stop 34.5 s · fuel 10/16 laps · wear-off 0.12 s/lap · fresh RS 92.8 s 9 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (88 samples, σ 3.90 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 6 done: FL 38.2 FR 53.8 RL 24.0 RR 31.9 % — RS ×3 (tap)
+🛞 crew: estimated finish lap 21
+🛞 crew: estimated finish lap 20
+🗣 bulletin (imp 6, cost 4.5s, ledger 4.5/20.4s, 2 lines): L7
+🔊 1 33 point nine
+🔊 on lap 7
+🛞 compound: stint raceStart lap 1, refinement 8 — C 0.835 over 557 s (6856 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 10.60L, togo 14, stops 1)
+🛞 crew: tyre life said (mid-lap)
+🔊 around 4 more laps on these racing softs
+⏱ delta check L7 1/2: +0.74 s
+🔊 you're point seven down
+⏱ delta check L7 2/2: +1.82 s
+🔊 1 point eight down on your best
+🛞 compound: stint raceStart lap 1, refinement 9 — C 0.835 over 617 s (7409 samples)
+📋 lap 7: 1:35.102 clean fuel_used=5.88
+🔵 lap 7: clean
+🔧 🌧 L7 GR3 on RS: peak 1.69 g (best 1.83, ×0.92; floor 1.50) · slide 0.77 °/g (best 0.78, ×1.0) · TCS 13 % (best 6 %) → dry
+📊 laps-left model: elapsed 638.8 s, remaining 1161.2 s, median lap 93.5 s -> 12-13 (no-stop 13, pit loss 30.0 s, rate 3 l/s, fuel-decisive)
+📊 strategy L8: fuel/lap 6.02 | fuel 58.0 = 9.6 laps | 13.0 laps to go | stops 1
+📐 plan L8 (13 to go): none — noPace("RM") | stop 34.5 s · fuel 9/16 laps · wear-off 0.16 s/lap · fresh RS 92.9 s 9 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (89 samples, σ 3.88 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 7 done: FL 45.1 FR 64.1 RL 27.9 RR 37.1 % — RS ×3 (tap)
+🛞 crew: estimated finish lap 21
+🛞 crew: estimated finish lap 20
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L8, L8/L10/L16, stops 1) | pitStopsToGo(1, 13 to go)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openTargetAhead, now L8, L8/L10/L16, stops 1)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 13 to go)
+🗣 bulletin (imp 6, cost 6.5s, ledger 6.5/20.4s, 2 lines): L8
+🔊 last lap was a 35 point one oh two
+🔊 lap 8 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 9.64L, togo 12-13/fuel, stops 1)
+⏱ delta check L8 1/2: +1.06 s
+🔊 1 point one down so far
+🗣 chain (imp 4, cost 2.9s, ledger 6.0/20.4s, 1 events, 1 lines)
+🔊 keep it inside the white lines
+🗑 speaker: stale, not spoken: "📻 out"
+🛞 compound: stint raceStart lap 1, refinement 10 — C 0.835 over 677 s (8354 samples)
+⏱ delta check L8 2/2: +2.79 s
+🔊 you're down 3 seconds
+🔧 huge stop 230 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 3760122 lap 8
+🔵 sub-state FLYING → — lap 8
+🔧 pit-entry anchor learned: 98669 ms into lap (stop on lap 8)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 737.5 s, remaining 1062.5 s, median lap 93.5 s -> 11 (no-stop 12, pit loss 30.0 s, rate 3 l/s)
+📊 strategy: refuel still needed — 8.7 laps of fuel against 11 to go (need 12.6 with margin)
+🚪 gate refined: Autódromo de Interlagos/customRace/pitEntry (4 samples, σ 0.48 m, ±0 m, across 0.0…0.0 m)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 1.2/20.4s, 1 line, protected): pittingIn(L8)
+🗑 dropped (in pit): surveyGate(pitEntry, 4)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🔊 box box
+📋 lap 8: 1:52.028 in fuel_used=5.55
+🔵 lap 8 antics: off
+🗑 dropped (in pit): lapStarted(9, last 112.03s)
+🏁 race length: 19 laps (lap 9, 11 to go)
+📐 plan L9: in the pit lane — planned after the stop
+🗺 mapper: lap 8 rejected (pit)
+🛞 wear (test) lap 8 done: FL 51.6 FR 73.3 RL 31.8 RR 42.2 % — RS ×3 (tap)
+📐 crew: race length now looks like 19 laps
+🛞 crew: estimated finish lap 21
+🛞 compound prompt: box exit lap 9, declared none — on screen; asked aloud with the estimate
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 20
+🔊 race length now looks like 19 laps
+📊 laps-left model: elapsed 752.5 s, remaining 1047.5 s, median lap 93.5 s -> 11 (no-stop 12, pit loss 30.0 s, rate 3 l/s)
+🗣 spoke (pitSequence, imp 2, cost 2.5s, ledger 7.2/20.4s, 1 line, protected): inPitBox
+🗑 dropped (the planner owns the pit calls): refuelTarget(11 laps)
+🔊 in the box
+🔊 sit tight
+🛞 wear (test): all four tyres at 60.00 °C on lap 9 — new set (J116)
+🛞 wear (test) stint 0 ended at tyre change: FL 51.6 FR 73.3 RL 31.8 RR 42.2 % — RS ×3 (tap)
+🌡 tyre bands: centre 76 °C (compound unknown, +0, tyre change)
+🛞 crew compound: unknown
+🛞 crew wear gate: unknown
+🛞 compound prompt answered: RM
+🛞 crew compound: RM
+🌡 tyre bands: centre 76 °C (RM, +0, tap)
+🛞 crew compound: RM is sure
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🗑 dropped (in pit): tyreTemps(cold, 60°)
+🛞 compound: stint raceStart lap 1, refinement 11 (final) — C 0.825 over 735 s (9282 samples)
+🛞 compound: stale window (RS, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 9
+🛞 compound: track scale 0.993 (course 152) — C is read ÷ 0.993
+🔀 state PIT → RACING at pkt 3762376 lap 9
+🔵 sub-state — → OUT_LAP lap 9
+🅿️ PIT completed: in L8 → out L9 (+47.6 fuel, transit 41.0s, teleport=false)
+🚪 gate refined: Autódromo de Interlagos/customRace/pitBox (4 samples, σ 0.02 m, ±0 m, across 0.0…0.0 m)
+🗑 dropped (in pit): surveyGate(pitBox, 4)
+🅿️ entry→box 18.4s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 4099 m of 4228 m (12.5 m off the line), lead 20 s
+🔧 teleport 170 m on lap 9 — pit release, not a reset
+📊 laps-left model: elapsed 775.1 s, remaining 1024.9 s, median lap 93.5 s -> 11 (no-stop 11, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L9: fuel/lap 6.02 | fuel 100.0 = 16.6 laps | 11.0 laps to go | stops 0
+🗣 spoke (pitSequence, imp 2, cost 1.6s, ledger 4.1/20.4s, 1 line, protected): exitingPit(+47.55l, tyres)
+📐 plan L9 (11 to go): none — noPace("RM") | stop 34.5 s · fuel 16/16 laps · wear-off 0.16 s/lap · fresh RS 92.9 s 16 laps
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🚪 gate refined: Autódromo de Interlagos/customRace/pitExit (4 samples, σ 0.02 m, ±12 m, across -0.0…0.0 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(pitExit, 4)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 7.0/20.4s, 1 line): surveyComplete(0 optional missing)
+📊 laps-left model: elapsed 775.1 s, remaining 994.9 s, median lap 93.5 s -> 11 (no-stop 11, pit loss 30.0 s, rate 3 l/s), out-lap -30.0s
+📊 strategy L9: fuel/lap 6.02 | fuel 100.0 = 16.6 laps | 11.0 laps to go | stops 0 (post-stop recalc)
+🔧 fresh tyres confirmed: 60.0° across all four (was 80.0° at pit entry, step 20.0°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+🔊 tyres are cold
+📋 strategy burst: 2 event(s), releasing best-first — strategyUpdate(fuel 16.62L, togo 11, stops 0) | strategyUpdate(fuel 16.62L, togo 11, stops 0, post-stop)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 16.62L, togo 11, stops 0)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 16.62L, togo 11, stops 0, post-stop)
+🔊 that's the full set
+🔊 survey complete
+⏱ delta check L9 1/2: quiet — out-lap
+🗣 spoke (tyres, imp 4, cost 3.4s, ledger 3.4/20.4s, 1 line): tyreTemps(low, 63°)
+🔊 tyres are still not up to temperature
+⏱ delta check L9 2/2: quiet — out-lap
+🛞 compound: racingMedium (medium confidence, C 0.90, margin 0.034, relative to RS (truth), own reference)
+🛞 compound: RM confirmed by the driver — anchor
+🛞 compound: box-exit answer RM given to the pit-exit window (estimate RM)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(pitExit, RM, medium)
+🔊 probably racing mediums
+🛞 crew: estimated finish lap 19
+🔵 sub-state OUT_LAP → FLYING lap 10
+📋 lap 9: 1:58.205 out fuel_used=5.79
+🔵 lap 9: clean
+📊 laps-left model: elapsed 869.0 s, remaining 931.0 s, median lap 93.5 s -> 10 (no-stop 10, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L10: fuel/lap 5.95 | fuel 94.2 = 15.8 laps | 10.0 laps to go | stops 0
+📐 stop measured L8/9: 27.4 s (in 112.03 + out 118.20 − 2 × 93.50 − 47.6 L ÷ 3.0 L/s) — planning with 27.4 s
+📐 plan L10 (10 to go): none — noPace("RM") | stop 27.4 s · fuel 15/16 laps · wear-off 0.16 s/lap · fresh RS 92.9 s 16 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (90 samples, σ 3.86 m, ±12 m, across -9.4…7.2 m)
+🗺 mapper: lap 9 rejected (teleport)
+🛞 wear (test) lap 9 done: FL 2.2 FR 2.9 RL 1.6 RR 2.1 % — RM ×3 (tap)
+🛞 crew: estimated finish lap 20
+🛞 crew: estimated finish lap 19
+🗣 bulletin (imp 6, cost 1.8s, ledger 3.4/20.4s, 1 line): L10
+🔊 lap 10 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 15.83L, togo 10, stops 0)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 3.4/20.4s, 1 line): tyreTemps(inWindow, 73°)
+🔊 temperatures look right
+⏱ delta check L10 1/2: quiet — +0.35 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 9, refinement 1 — C 0.938 over 150 s (1593 samples)
+⏱ delta check L10 2/2: quiet — +1.07 s, on RM, best set on RS
+📋 lap 10: 1:34.025 clean fuel_used=5.81
+🔵 lap 10: clean
+🔧 🌧 L10 GR3 on RM: peak 1.71 g (best 0.00, ×1.00; floor 1.50) · slide 0.98 °/g (best 0.00, ×1.0) · TCS 9 % (best 0 %) → dry
+📊 laps-left model: elapsed 963.1 s, remaining 836.9 s, median lap 93.6 s -> 9 (no-stop 9, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L11: fuel/lap 5.95 | fuel 88.4 = 14.9 laps | 9.0 laps to go | stops 0
+📐 plan L11 (9 to go): none — noPace("RM") | stop 27.4 s · fuel 14/16 laps · wear-off 0.16 s/lap · fresh RS 92.9 s 11 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (91 samples, σ 3.84 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 10 done: FL 5.1 FR 6.7 RL 3.4 RR 4.5 % — RM ×3 (tap)
+⏱ compound best RM: 94.025 s
+🛞 crew: estimated finish lap 20
+🛞 crew: estimated finish lap 19
+🗣 bulletin (imp 6, cost 7.5s, ledger 7.5/20.4s, 2 lines): L11
+🔊 that was a great lap
+🔊 1 34 point oh three
+🔊 that's lap 11
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 14.86L, togo 9, stops 0)
+🛞 compound: stint pitExit lap 9, refinement 2 — C 0.917 over 210 s (2588 samples)
+⏱ delta check L11 1/2: quiet — +0.20 s, under ±0.2 s
+⏱ delta check L11 2/2: quiet — +0.96 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 9, refinement 3 — C 0.907 over 270 s (3329 samples)
+📋 lap 11: 1:34.055 clean fuel_used=5.78
+🛞 crew: tyre life kept quiet — L31 reaches the planned end, L19
+🔵 lap 11: clean
+🔧 🌧 L11 GR3 on RM: peak 1.73 g (best 1.71, ×1.01; floor 1.50) · slide 1.05 °/g (best 0.98, ×1.1) · TCS 13 % (best 9 %) → dry
+📊 laps-left model: elapsed 1057.1 s, remaining 742.9 s, median lap 93.7 s -> 8 (no-stop 8, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L12: fuel/lap 5.85 | fuel 82.6 = 14.1 laps | 8.0 laps to go | stops 0
+📐 plan L12 (8 to go): none — noPace("RM") | stop 27.4 s · fuel 14/17 laps · wear-off 0.16 s/lap · fresh RS 92.9 s 11 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (92 samples, σ 3.82 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 11 done: FL 8.1 FR 10.7 RL 5.3 RR 7.1 % — RM ×3 (tap)
+🛞 crew: estimated finish lap 20
+🛞 crew: estimated finish lap 19
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L12
+🔊 keep those good laps coming
+🔊 on lap 12
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 14.13L, togo 8, stops 0)
+⏱ delta check L12 1/2: quiet — +0.44 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 9, refinement 4 — C 0.928 over 330 s (4066 samples)
+🗣 spoke (tyres, imp 4, cost 2.7s, ledger 2.7/20.4s, 1 line): tyreTemps(high, 83°)
+🔊 tyres at 83
+🔊 running warm
+⏱ delta check L12 2/2: quiet — +1.33 s, on RM, best set on RS
+📋 lap 12: 1:34.262 clean fuel_used=5.96
+🛞 crew: tyre life kept quiet — L31 reaches the planned end, L19
+🔵 lap 12: clean
+🔧 🌧 L12 GR3 on RM: peak 1.71 g (best 1.73, ×0.99; floor 1.50) · slide 0.94 °/g (best 0.98, ×1.0) · TCS 11 % (best 9 %) → dry
+📊 laps-left model: elapsed 1151.4 s, remaining 648.6 s, median lap 93.9 s -> 7 (no-stop 7, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L13: fuel/lap 5.85 | fuel 76.7 = 13.1 laps | 7.0 laps to go | stops 0
+📐 plan L13 (7 to go): RM 7 — 0 stops | stop 27.4 s · fuel 13/17 laps · wear-off 0.16 s/lap · fresh RM 93.6 s 22 laps, RS 92.9 s 10 laps
+📐 crew: you can go to the end on these
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (93 samples, σ 3.81 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 12 done: FL 11.2 FR 15.0 RL 7.2 RR 9.7 % — RM ×3 (tap)
+🛞 crew: estimated finish lap 20
+🛞 crew: estimated finish lap 19
+🔊 you can go to the end on these
+🗣 bulletin (imp 6, cost 7.6s, ledger 11.4/20.4s, 2 lines): L13
+🔊 great lap
+🔊 point two down on your best on these tyres
+🔊 lap 13 now
+🛞 compound: stint pitExit lap 9, refinement 5 — C 0.928 over 390 s (5000 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 13.11L, togo 7, stops 0)
+⏱ delta check L13 1/2: quiet — +0.14 s, under ±0.2 s
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+⏱ delta check L13 2/2: quiet — +0.75 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 9, refinement 6 — C 0.928 over 450 s (5513 samples)
+📋 lap 13: 1:33.786 clean fuel_used=6.12
+🛞 crew: tyre life kept quiet — L29 reaches the planned end, L19
+🔵 lap 13: clean
+🔧 🌧 L13 GR3 on RM: peak 1.71 g (best 1.73, ×0.99; floor 1.50) · slide 1.06 °/g (best 0.94, ×1.1) · TCS 12 % (best 9 %) → dry
+📊 laps-left model: elapsed 1245.2 s, remaining 554.8 s, median lap 93.9 s -> 6 (no-stop 6, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L14: fuel/lap 5.85 | fuel 70.5 = 12.1 laps | 6.0 laps to go | stops 0
+📐 plan L14 (6 to go): RM 6 — 0 stops | stop 27.4 s · fuel 12/17 laps · wear-off 0.15 s/lap · fresh RM 93.4 s 21 laps, RS 92.9 s 10 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (94 samples, σ 3.79 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 13 done: FL 14.3 FR 19.6 RL 9.2 RR 12.4 % — RM ×3 (tap)
+⏱ compound best RM: 93.786 s
+🛞 crew: estimated finish lap 20
+🛞 crew: estimated finish lap 19
+🗣 bulletin (imp 6, cost 7.9s, ledger 7.9/20.4s, 2 lines): L14
+🔊 that was a great lap
+🔊 1 33 point seven eight six
+🔊 that's lap 14
+🗣 chain (imp 4, cost 2.1s, ledger 10.0/20.4s, 2 events, 1 lines)
+🔊 far too much wheelspin
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 12.06L, togo 6, stops 0)
+⏱ delta check L14 1/2: quiet — +0.20 s, under ±0.2 s
+🛞 compound: stint pitExit lap 9, refinement 7 — C 0.938 over 510 s (6388 samples)
+🌧 crew: 3 traction calls in 45 s on slicks — rain?
+🌧 asking the driver about rain — traction burst on slicks
+🎤 crew asks: is it raining out there?
+🎤 route in: iPad Mikrofon (built-in mic) · out: Högtalare (speaker)
+🎤 listening for the weather (20 s, en-GB, on-device yes)
+🔊 is it raining out there?
+🎤 mic -27 dB peak, 1 buffers, 0 replies (0 with text), voice processing off
+🎤 heard "No" → dry
+🌧 driver: dry
+🔊 copy
+🔊 still dry
+⏱ delta check L14 2/2: quiet — +1.07 s, on RM, best set on RS
+📋 lap 14: 1:34.356 clean fuel_used=6.21
+🛞 crew: tyre life kept quiet — L29 reaches the planned end, L19
+🔵 lap 14: clean
+🔧 🌧 L14 GR3 on RM: peak 1.71 g (best 1.73, ×0.99; floor 1.50) · slide 1.00 °/g (best 0.94, ×1.1) · TCS 16 % (best 9 %) → dry
+📊 laps-left model: elapsed 1339.5 s, remaining 460.5 s, median lap 94.0 s -> 5 (no-stop 5, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L15: fuel/lap 5.85 | fuel 64.3 = 11.0 laps | 5.0 laps to go | stops 0
+📐 plan L15 (5 to go): RM 5 — 0 stops | stop 27.4 s · fuel 11/17 laps · wear-off 0.15 s/lap · fresh RM 93.4 s 21 laps, RS 92.9 s 10 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (95 samples, σ 3.78 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 14 done: FL 17.3 FR 24.1 RL 11.1 RR 15.0 % — RM ×3 (tap)
+🛞 crew: estimated finish lap 20
+🛞 crew: estimated finish lap 19
+🗣 bulletin (imp 6, cost 6.7s, ledger 6.7/20.4s, 2 lines): L15
+🔊 good lap
+🔊 point six off your pace on these tyres
+🛞 compound: stint pitExit lap 9, refinement 8 — C 0.938 over 570 s (7291 samples)
+🔊 lap 15
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 2.9s, ledger 9.7/20.4s, 2 events, 1 lines)
+🔊 you're sliding a lot out there
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 11.00L, togo 5, stops 0)
+⏱ delta check L15 1/2: quiet — +0.30 s, on RM, best set on RS
+🎭 mood focused → relaxed
+🛞 compound: stint pitExit lap 9, refinement 9 — C 0.928 over 630 s (7975 samples)
+⏱ delta check L15 2/2: quiet — +1.35 s, on RM, best set on RS
+📋 lap 15: 1:34.446 clean fuel_used=5.91
+🛞 crew: tyre life kept quiet — L29 reaches the planned end, L19
+🔵 lap 15: clean
+🔧 🌧 L15 GR3 on RM: peak 1.71 g (best 1.73, ×0.99; floor 1.50) · slide 0.98 °/g (best 0.94, ×1.0) · TCS 18 % (best 9 %) → dry
+📊 laps-left model: elapsed 1434.0 s, remaining 366.0 s, median lap 94.2 s -> 4 (no-stop 4, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L16: fuel/lap 5.90 | fuel 58.4 = 9.9 laps | 4.0 laps to go | stops 0
+📐 plan L16 (4 to go): RM 4 — 0 stops | stop 27.4 s · fuel 9/16 laps · wear-off 0.15 s/lap · fresh RM 93.4 s 20 laps, RS 92.9 s 9 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (96 samples, σ 3.76 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 15 done: FL 20.5 FR 28.7 RL 13.1 RR 17.7 % — RM ×3 (tap)
+🛞 crew: estimated finish lap 20
+🛞 crew: estimated finish lap 19
+🗣 bulletin (imp 6, cost 8.9s, ledger 8.9/20.4s, 2 lines): L16
+🔊 that was a good lap
+🔊 point seven down on your best on these tyres
+🔊 lap 16 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 9.90L, togo 4, stops 0)
+🛞 compound: stint pitExit lap 9, refinement 10 — C 0.928 over 690 s (8970 samples)
+⏱ delta check L16 1/2: quiet — +0.92 s, on RM, best set on RS
+⏱ delta check L16 2/2: quiet — +1.62 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 9, refinement 11 — C 0.928 over 750 s (9716 samples)
+📋 lap 16: 1:34.739 clean fuel_used=5.91
+🛞 crew: tyre life kept quiet — L29 reaches the planned end, L19
+🔵 lap 16: clean
+🔧 🌧 L16 GR3 on RM: peak 1.71 g (best 1.73, ×0.99; floor 1.50) · slide 0.95 °/g (best 0.94, ×1.0) · TCS 11 % (best 9 %) → dry
+📊 laps-left model: elapsed 1528.7 s, remaining 271.3 s, median lap 94.3 s -> 3 (no-stop 3, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L17: fuel/lap 5.91 | fuel 52.5 = 8.9 laps | 3.0 laps to go | stops 0
+📐 plan L17 (3 to go): RM 3 — 0 stops | stop 27.4 s · fuel 8/16 laps · wear-off 0.16 s/lap · fresh RM 93.5 s 20 laps, RS 92.9 s 9 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (97 samples, σ 3.75 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 16 done: FL 23.9 FR 33.3 RL 15.1 RR 20.4 % — RM ×3 (tap)
+🛞 crew: estimated finish lap 20
+🛞 crew: estimated finish lap 19
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 8, 3 to go, 8.88 fuel-laps)
+🗣 bulletin (imp 6, cost 7.8s, ledger 7.8/20.4s, 2 lines): L17
+🔊 decent lap
+🔊 1 point oh off your pace on these tyres
+🔊 that's lap 17
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.88L, togo 3, stops 0)
+⏱ delta check L17 1/2: quiet — +0.34 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 9, refinement 12 — C 0.928 over 810 s (10201 samples)
+⏱ delta check L17 2/2: quiet — +1.33 s, on RM, best set on RS
+📋 lap 17: 1:34.512 clean fuel_used=6.07
+🛞 crew: tyre life kept quiet — L29 reaches the planned end, L19
+🔵 lap 17: clean
+🔧 🌧 L17 GR3 on RM: peak 1.69 g (best 1.73, ×0.98; floor 1.50) · slide 0.94 °/g (best 0.94, ×1.0) · TCS 12 % (best 9 %) → dry
+📊 laps-left model: elapsed 1623.2 s, remaining 176.8 s, median lap 94.3 s -> 2 (no-stop 2, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L18: fuel/lap 5.94 | fuel 46.4 = 7.8 laps | 2.0 laps to go | stops 0
+📐 plan L18 (2 to go): RM 2 — 0 stops | stop 27.4 s · fuel 7/16 laps · wear-off 0.15 s/lap · fresh RM 93.5 s 20 laps, RS 92.9 s 9 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (98 samples, σ 3.73 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 17 done: FL 27.1 FR 37.9 RL 17.1 RR 23.0 % — RM ×3 (tap)
+🛞 crew: estimated finish lap 20
+🛞 crew: estimated finish lap 19
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 7, 2 to go, 7.82 fuel-laps)
+🗣 bulletin (imp 6, cost 7.6s, ledger 7.6/20.4s, 2 lines): L18
+🔊 good lap
+🔊 point seven down on your best on these tyres
+🔊 lap 18 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.82L, togo 2, stops 0)
+🛞 compound: stint pitExit lap 9, refinement 13 — C 0.928 over 870 s (11127 samples)
+⏱ delta check L18 1/2: quiet — +0.56 s, on RM, best set on RS
+⏱ delta check L18 2/2: quiet — +1.53 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 9, refinement 14 — C 0.917 over 930 s (12011 samples)
+📋 lap 18: 1:34.496 clean fuel_used=5.87
+🛞 crew: tyre life kept quiet — L29 reaches the planned end, L19
+🔵 lap 18: clean
+🔧 🌧 L18 GR3 on RM: peak 1.69 g (best 1.73, ×0.98; floor 1.50) · slide 0.94 °/g (best 0.94, ×1.0) · TCS 11 % (best 9 %) → dry
+📊 laps-left model: elapsed 1717.7 s, remaining 82.3 s, median lap 94.4 s -> 1 (no-stop 1, pit loss 30.0 s, rate 3 l/s)
+📊 strategy L19: fuel/lap 5.94 | fuel 40.6 = 6.8 laps | 1.0 laps to go | stops 0
+📐 plan L19 (1 to go): RM 1 — 0 stops | stop 27.4 s · fuel 6/16 laps · wear-off 0.14 s/lap · fresh RM 93.5 s 20 laps, RS 92.9 s 9 laps
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (99 samples, σ 3.71 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 18 done: FL 30.1 FR 42.2 RL 19.0 RR 25.6 % — RM ×3 (tap)
+🛞 crew: estimated finish lap 20
+🛞 crew: estimated finish lap 19
+🗣 bulletin (imp 6, cost 6.3s, ledger 6.3/20.4s, 2 lines): L19
+🔊 keep the good laps coming
+🔊 lap 19 will be the last lap
+⏱ delta check L19 1/2: quiet — +0.77 s, on RM, best set on RS
+🛞 compound: stint pitExit lap 9, refinement 15 — C 0.928 over 990 s (12640 samples)
+⏱ delta check L19 2/2: quiet — +1.66 s, on RM, best set on RS
+📊 strategy L19: clock 1800.0 s past 1800 with 12.1 s of the lap to run — final lap
+🏁 crew: clock call skipped — last lap said at the line
+📋 lap 19: 1:34.860 clean fuel_used=5.91
+🛞 crew: tyre life kept quiet — L29 reaches the planned end, L19
+🔵 lap 19: clean
+🔧 🌧 L19 GR3 on RM: peak 1.67 g (best 1.73, ×0.97; floor 1.50) · slide 0.96 °/g (best 0.94, ×1.0) · TCS 12 % (best 9 %) → dry
+📊 strategy: finish armed at L20 (clock 1812.6 s of 1800) — awaiting lap-clock freeze
+📊 laps-left model: elapsed 1812.6 s, remaining -12.6 s, median lap 94.5 s -> 0 (expired)
+📊 strategy L20: fuel/lap 5.94 | fuel 34.6 = 5.8 laps | 0.0 laps to go | stops 0
+📐 plan L20: race length unknown
+🚪 gate refined: Autódromo de Interlagos/customRace/finishLine (100 samples, σ 3.70 m, ±12 m, across -9.4…7.2 m)
+🛞 wear (test) lap 19 done: FL 33.2 FR 46.4 RL 20.9 RR 28.2 % — RM ×3 (tap)
+🛞 crew: estimated finish lap 20
+🗣 bulletin (imp 6, cost 9.9s, ledger 9.9/20.4s, 2 lines): L20
+🔊 decent laptime
+📊 strategy: flag WITHHELD at L20 — the clock model says the race ended but the lap clock is still running; staying armed
+🔊 1 point one slower than your best on this set
+🔊 lap 20
+🔊 looks like the last lap
+🔄 new session on the same connection — resetting track-scoped state
+# recap:   20 lap(s), 1 stop(s), P1/1, leftRace — filed in the sidecar
+💾 race preserved (leftRace): 20 lap(s), 1 stop(s), start ROLLING_START, P1/1
+🔧 race reset: lap-scoped state reset
+🛞 crew wear gate: unknown
+🌡 tyre bands: centre 76 °C (compound unknown, +0, race reset)
+🛞 crew: estimated finish lap unknown
+📐 planner owns the pit calls: no
+🛞 crew compound: unknown
+📐 crew: pit calls from the strategy engine
+🧭 learned pool: 202 gate(s) from 431 stored, 73 pit exit(s)
+🚪 ⏸ gate learning held until identification confirms Autódromo de Interlagos
+📊 strategy: reset
+⚙️ crew cfg: wpm=140 window=24.0s sat=0.85 cap=20.4s overhead=0.35s speech=on
+⚙️ crew cat lapPace: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+🔈 speaker reset (new session): dropped 0 queued line(s), latch was set
+⚙️ crew cat position: slider=11 eff=11 budget=24 cd=x0.50 lock=20.0->10.0s ttl=10s
+📊 pit loss: estimated 30.0 s from the unofficial table (Autódromo de Interlagos)
+⚙️ crew cat strategy: slider=11 eff=11 budget=24 cd=x0.50 lock=12.0->6.0s ttl=30s protected
+📐 planner owns the pit calls: yes
+⚙️ crew cat pitSequence: slider=11 eff=11 budget=24 cd=x0.50 lock=10.0->5.0s ttl=12s protected
+⚙️ crew cat tyres: slider=11 eff=11 budget=24 cd=x0.50 lock=25.0->12.5s ttl=12s
+📐 plan: no lap times — add them in the capture setup
+⚙️ crew cat incidents: slider=3 eff=3 budget=24 cd=x0.50 lock=15.0->7.5s ttl=3s
+⚙️ crew cat radio: slider=11 eff=11 budget=24 cd=x0.50 lock=45.0->22.5s ttl=8s
+⚙️ crew cat chatter: slider=11 eff=11 budget=24 cd=x0.50 lock=60.0->30.0s ttl=6s
+📐 crew: pit calls from the planner
+🛞 compound: car 2183 — reference: CH CM CS RH RM RS SH SM SS
+# values:  11 section(s) at the flag — filed with the recap
+💾 values at the flag: 11 section(s)
+🎮 onTrack → entered (pkt 3825225, lap 0, flags 0x0041, pos 1, cars 1, tod 54600000)
+✂️ capture auto-stop in 20s (parked — left the driver's seat)
+⏹ stopping the recording — auto-stop: parked — left the driver's seat
+# --- stopped: 111803 packets
