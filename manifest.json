@@ -2771,6 +2771,57 @@
       ]
     },
     {
+      "stem": "152-lobby-20261116_203102",
+      "courseId": 152,
+      "track": "Aut\u00f3dromo de Interlagos",
+      "context": "lobby",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 222039,
+      "durationS": 3704.4,
+      "rawBytes": 81710352,
+      "gzBytes": 39768478,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 3,
+      "tyreWearMultiplier": 3,
+      "identifiedCourseId": 152,
+      "identifiedTrackName": "Aut\u00f3dromo de Interlagos",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "startAnswer"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 15,
+          "family": "racing",
+          "compound": "RS",
+          "outcome": "boxExit"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 24,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "boxExit"
+        }
+      ],
+      "tyreCompounds": [
+        "RM",
+        "RM",
+        "RS"
+      ]
+    },
+    {
       "stem": "152-lobbyPractice-20261115_124936",
       "courseId": 152,
       "track": "Aut\u00f3dromo de Interlagos",
