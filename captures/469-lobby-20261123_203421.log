@@ -1,0 +1,1037 @@
+# EzioClient session log
+# file:    20261123_203421 - Autodromo Nazionale Monza (469).gt7td
+# started: 2026-11-23T19:34:21Z
+# track:   Autodromo Nazionale Monza (CRS 469)
+# context: lobby
+# ---
+🚪 ⏸ gate learning held until identification confirms Autodromo Nazionale Monza
+📊 strategy: declared 60 min race
+# car:     Chevrolet Corvette C7 Gr.3 [Gr.3] (id 2183) — confirmed from telemetry
+🎮 entered → onTrack (pkt 501721, lap 0, flags 0x0001, pos 15, cars 16, tod 63145296)
+🎮 onTrack → entered (pkt 502669, lap 0, flags 0x0041, pos 15, cars 16, tod 63120000)
+🎮 entered → onTrack (pkt 502879, lap 0, flags 0x0041, pos 15, cars 16, tod 63120000)
+🏁 start type: GRID_START at pkt 503170 lap 0
+🔀 state UNKNOWN → RACING at pkt 503170 lap 0
+🔵 sub-state — → FIRST_LAP lap 0
+📊 strategy: green flag (speed) at pkt 503170, race clock running
+🛞 compound: green flag — cool-down guard cleared
+🗣 spoke (lapPace, imp 0, cost 1.6s, ledger 1.6/20.4s, 1 line): greenFlag
+🎤 speaker: route in: none · out: PULSE Explore (Bluetooth A2DP)
+🔊 and we're racing
+🎤 speaker: route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🧭 polyline [PRE-GREEN]: 34 candidate(s) dropped on direction — best of them Blue Moon Bay Speedway - Infield A Reverse median 7.94 (alignment -0.76)
+🧭 polyline [PRE-GREEN]: Autodromo Nazionale Monza fits (median 1.68 m) but on 113 m of road — waiting for 800 m
+📋 lap 0: — clean fuel_used=0.60
+📊 strategy L1: no fuel model yet
+🧭 learned: 4 gates matched, all Autodromo Nazionale Monza — using the lap1 gate (67 samples)
+🧭 identified: Autodromo Nazionale Monza (CRS 469) — lap1, 67 sample(s), ±12 m
+🏁 announcing track: Autodromo Nazionale Monza (CRS 469) from gates
+🗣 spoke (radio, imp 2, cost 2.9s, ledger 4.6/20.4s, 1 line): trackIdentified(Autodromo Nazionale Monza, CRS 469)
+🗺 stored map loaded on identification (gates): course 469, 1151 pts
+🚪 ▶️ gate learning released — identification agrees
+🚪 gate refined: Autodromo Nazionale Monza/lobby/lap1 (15 samples, σ 0.92 m, ±12 m, across -1.2…1.7 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(lap1, 15)
+🛞 compound: window opened — raceStart, lap 1
+🔧 pit approach: entry at station 5664 m of 5753 m (14.7 m off the line), lead 20 s
+🛞 compound prompt: race start, 6 s after the green flag (J184)
+🔊 track reads as Autodromo Nazionale Monza
+🎤 crew asks: what tyres are we on?
+🎤 route in: iPad Mikrofon (built-in mic) · out: PULSE Explore (Bluetooth A2DP)
+🎤 listening for a compound (175 s, en-GB, on-device yes)
+🛞 compound prompt answered: RM
+🛞 crew compound: RM
+🌡 tyre bands: centre 76 °C (RM, +0, tap)
+🛞 crew compound: RM is sure
+🎤 stopped listening — question closed (answered)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🔊 what tyres are we on?
+🛞 compound: H+ -0.132 reads road, but this is a Gr.3 car — racing assumed, locked for the race
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): compoundEstimate(raceStart, racing, medium)
+🔊 we're on racing rubber
+🎭 mood relaxed → focused
+🎭 mood focused → concerned
+🛞 compound: racingHard (medium confidence, C 1.05, margin 0.106, own reference)
+🛞 compound: RM confirmed by the driver — anchor
+🛞 compound: start answer RM given to the race-start window (estimate RH)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 1.6/20.4s, 1 line): compoundEstimate(raceStart, RH, medium)
+🔊 probably racing hards
+🗣 chain (imp 1, cost 2.9s, ledger 4.6/20.4s, 7 events, 1 lines)
+🔊 messy moment
+🔊 take a breath
+🗑 dropped (chain cooldown): 1 event(s)
+🗑 speaker: stale, not spoken: "📻 out"
+🔵 sub-state FIRST_LAP → FLYING lap 2
+📋 lap 1: 2:16.664 first fuel_used=4.28
+🔵 lap 1 antics: spin, impact, off
+📊 strategy L2: fuel/lap 4.28, 22.3 laps of fuel, race length unknown — fuel horizon
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (85 samples, σ 2.76 m, ±12 m, across -6.2…7.2 m)
+🗑 dropped (debug speech 3 < 11): surveyGate(finishLine, 85)
+🛞 wear (test) lap 1 done: FL 1.2 FR 0.9 RL 1.3 RR 1.0 % — RM ×2 (tap)
+🗣 bulletin (imp 6, cost 4.9s, ledger 4.9/20.4s, 2 lines): L2
+🔊 laptime 2 16 point seven
+🔊 on lap 2
+🛞 compound: background read now RH (medium, C 1.020, margin 0.084, after 150 s) — tap stays RM
+🛞 compound: stint raceStart lap 1, refinement 1 — C 1.020 over 150 s (1343 samples)
+🗣 chain (imp 6, cost 3.8s, ledger 3.8/20.4s, 1 events, 1 lines)
+🔊 easy on the throttle
+🔊 let them hook up
+🗑 speaker: stale, not spoken: "📻 out"
+🛞 compound: stint raceStart lap 1, refinement 2 — C 0.999 over 210 s (2252 samples)
+📋 lap 2: 2:01.967 clean fuel_used=5.73
+🎭 mood concerned → focused
+🔵 lap 2: clean
+🔧 🌧 L2 GR3 on RM: peak 1.53 g (best 0.00, ×1.00; floor 1.50) · slide 0.95 °/g (best 0.00, ×1.0) · TCS 5 % (best 0 %) → dry
+📊 laps-left model: elapsed 257.7 s, remaining 3342.3 s, median lap 122.0 s -> 28 (no-stop 28, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L3: fuel/lap 5.01 | fuel 89.7 = 17.9 laps | 28.0 laps to go | stops 1
+🏁 race length: 30 laps (lap 3, 28 to go)
+📐 crew: the race looks like 30 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (86 samples, σ 2.78 m, ±12 m, across -6.2…7.2 m)
+🗺 mapper: learned lap 2 (121.967 s, 5755 m, 1151 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(2, 121967 ms, 1151 pts)
+🗣 spoke (radio, imp 0, cost 4.0s, ledger 7.0/20.4s, 1 line): surveyComplete(3 optional missing)
+🗺 lap 2 (121.967 s) not stored — the stored map's lap is faster (112.620 s)
+🛞 wear (test) lap 2 done: FL 2.6 FR 1.6 RL 2.4 RR 1.8 % — RM ×2 (tap)
+⏱ compound best RM: 121.967 s
+🛞 crew: estimated finish lap 31
+🛞 crew: estimated finish lap 30
+🔊 the race looks like 30 laps
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L11/L15/L19, stops 1) | fuelStatus(extendStint, 17, 28 to go, 17.92 fuel-laps) | pitWindowState(beforeOpen, now L3, L11/L15/L19, stops 1, close) | pitStopsToGo(1, 28 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L11/L15/L19, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 17, 28 to go, 17.92 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L3, L11/L15/L19, stops 1, close)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 28 to go)
+🗣 bulletin (imp 2, cost 7.2s, ledger 14.3/20.4s, 2 lines): L3
+🗣 spoke (radio, imp 10, cost 2.2s, ledger 16.5/20.4s, 1 line): radioCheck(P15, fuel 89%)
+🔊 we've got the essentials
+🔊 3 optional to go
+🔊 new fastest lap
+🔊 2 01 point nine
+🔊 lap 3 now
+🗑 speaker: stale after pause: "radio check"
+🗑 speaker: stale, not spoken: "P 15"
+🗑 speaker: stale, not spoken: "📻 out"
+🛞 compound: stint raceStart lap 1, refinement 3 — C 0.999 over 270 s (2612 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 17.92L, togo 28, stops 1)
+⏱ delta check L3 1/2: -4.36 s
+🔊 4 seconds up
+🛞 compound: stint raceStart lap 1, refinement 4 — C 0.989 over 330 s (3166 samples)
+⏱ delta check L3 2/2: -6.56 s
+🔊 7 seconds up on your best
+📋 lap 3: 1:53.283 clean fuel_used=5.60
+🎭 mood focused → relaxed
+🛞 crew: tyre life kept quiet — L60 reaches the planned end, L14
+🔵 lap 3: clean
+🔧 🌧 L3 GR3 on RM: peak 1.65 g (best 1.53, ×1.08; floor 1.50) · slide 1.05 °/g (best 0.95, ×1.1) · TCS 5 % (best 5 %) → dry
+📊 laps-left model: elapsed 371.0 s, remaining 3229.0 s, median lap 117.6 s -> 28 (no-stop 28, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L4: fuel/lap 5.60 | fuel 84.1 = 15.0 laps | 28.0 laps to go | stops 1
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (87 samples, σ 2.80 m, ±12 m, across -6.2…7.2 m)
+🗺 mapper: learned lap 3 (113.283 s, 5755 m, 1151 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(3, 113283 ms, 1151 pts)
+🗺 lap 3 (113.283 s) not stored — the stored map's lap is faster (112.620 s)
+🛞 wear (test) lap 3 done: FL 4.3 FR 2.5 RL 3.6 RR 2.6 % — RM ×2 (tap)
+⏱ compound best RM: 113.283 s
+🛞 crew: estimated finish lap 32
+🛞 crew: estimated finish lap 31
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 15, 28 to go, 15.03 fuel-laps)
+🗣 bulletin (imp 2, cost 6.6s, ledger 6.6/20.4s, 2 lines): L4
+🔊 personal best
+🔊 8 point seven quicker
+🔊 on lap 4
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 15.03L, togo 28, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 5 — C 0.989 over 390 s (3540 samples)
+⏱ delta check L4 1/2: -1.35 s
+🔊 1 point four up
+🎭 mood relaxed → focused
+🗣 chain (imp 4, cost 1.6s, ledger 3.9/20.4s, 1 events, 1 lines)
+🔊 watch track limits
+⏱ delta check L4 2/2: -0.50 s
+🔊 point five up so far
+🛞 compound: stint raceStart lap 1, refinement 6 — C 0.999 over 450 s (4087 samples)
+📋 lap 4: 1:53.291 clean fuel_used=5.41
+🎭 mood focused → relaxed
+🛞 crew: tyre life kept quiet — L54 reaches the planned end, L14
+🔵 lap 4 antics: off
+📊 laps-left model: elapsed 484.3 s, remaining 3115.7 s, median lap 113.3 s -> 28 (no-stop 28, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L5: fuel/lap 5.51 | fuel 78.7 = 14.3 laps | 28.0 laps to go | stops 1
+🏁 race length: 32 laps (lap 5, 28 to go)
+🗣 spoke (position, imp 4, cost 2.8s, ledger 2.8/20.4s, 1 line): positionChange(P15→P14)
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (88 samples, σ 2.80 m, ±12 m, across -6.2…7.2 m)
+📐 crew: race length now looks like 32 laps
+🛞 wear (test) lap 4 done: FL 6.1 FR 3.3 RL 4.9 RR 3.5 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🔊 P 14
+🗑 dropped (the planner owns the pit calls): pitWindow(L15/L16/L18, stops 1)
+🔊 1 place gained
+🗣 bulletin (imp 6, cost 4.6s, ledger 11.0/20.4s, 2 lines): L5
+🔊 race length now looks like 32 laps
+🔊 great lap
+🔊 keep them coming
+🔊 that's lap 5
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 14.30L, togo 28, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 7 — C 0.999 over 510 s (4646 samples)
+⏱ delta check L5 1/2: -1.57 s
+🔊 you're 1 point six up
+⏱ delta check L5 2/2: -2.05 s
+🔊 2 seconds up on your best
+🛞 compound: stint raceStart lap 1, refinement 8 — C 0.999 over 570 s (5020 samples)
+📋 lap 5: 1:51.395 clean fuel_used=5.53
+🛞 crew: tyre life kept quiet — L60 reaches the planned end, L14
+🔵 lap 5: clean
+🔧 🌧 L5 GR3 on RM: peak 1.65 g (best 1.65, ×1.00; floor 1.50) · slide 1.10 °/g (best 0.95, ×1.2) · TCS 7 % (best 5 %) → dry
+📊 laps-left model: elapsed 595.7 s, remaining 3004.3 s, median lap 113.3 s -> 27 (no-stop 27, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L6: fuel/lap 5.53 | fuel 73.2 = 13.2 laps | 27.0 laps to go | stops 1
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (89 samples, σ 2.78 m, ±12 m, across -6.2…7.2 m)
+🗺 mapper: learned lap 5 (111.395 s, 5755 m, 1151 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(5, 111395 ms, 1151 pts)
+🗺 frame vs customRace: median 1.0 m, centroid offset 0.2 m
+🗺 frame vs sportDailyRace: median 1.5 m, centroid offset 1.0 m
+🗺 frame vs no context: median 2.0 m, centroid offset 1.8 m
+🗺 survey stored → 469.trackmap.json (lap 5, 111.395 s)
+🛞 wear (test) lap 5 done: FL 7.8 FR 4.2 RL 6.2 RR 4.3 % — RM ×2 (tap)
+⏱ class lap BEST: Autodromo Nazionale Monza/lobby/Gr.3 → 1:51.395 (3/10 laps, 1 car(s), avg 1:52.333)
+⏱ compound best RM: 111.395 s
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L6, L15/L16/L18, stops 1)
+🗣 bulletin (imp 2, cost 8.1s, ledger 8.1/20.4s, 2 lines): L6
+🔊 that's your new fastest lap
+🔊 1 51 point four
+🔊 on lap 6
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 13.23L, togo 27, stops 1)
+⏱ delta check L6 1/2: quiet — -0.08 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 9 — C 0.999 over 630 s (5583 samples)
+⏱ delta check L6 2/2: quiet — -0.16 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 10 — C 0.999 over 690 s (5798 samples)
+📋 lap 6: 1:51.147 clean fuel_used=5.38
+🛞 crew: tyre life kept quiet — L57 reaches the planned end, L14
+🔵 lap 6: clean
+🔧 🌧 L6 GR3 on RM: peak 1.63 g (best 1.65, ×0.99; floor 1.50) · slide 1.05 °/g (best 0.95, ×1.1) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 706.8 s, remaining 2893.2 s, median lap 113.3 s -> 26 (no-stop 26, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L7: fuel/lap 5.47 | fuel 67.8 = 12.4 laps | 26.0 laps to go | stops 1
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (90 samples, σ 2.80 m, ±12 m, across -6.2…7.2 m)
+🗺 mapper: learned lap 6 (111.147 s, 5755 m, 1151 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(6, 111147 ms, 1151 pts)
+🗺 frame vs customRace: median 1.2 m, centroid offset 0.4 m
+🗺 frame vs sportDailyRace: median 1.0 m, centroid offset 0.4 m
+🗺 frame vs no context: median 2.2 m, centroid offset 1.3 m
+🗺 survey stored → 469.trackmap.json (lap 6, 111.147 s)
+🛞 wear (test) lap 6 done: FL 9.5 FR 5.1 RL 7.5 RR 5.2 % — RM ×2 (tap)
+⏱ class lap BEST: Autodromo Nazionale Monza/lobby/Gr.3 → 1:51.147 (3/10 laps, 1 car(s), avg 1:51.720)
+⏱ compound best RM: 111.147 s
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗣 bulletin (imp 2, cost 7.7s, ledger 7.7/20.4s, 2 lines): L7
+🔊 new fastest lap
+🔊 point two faster than your best
+🔊 lap 7 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 12.39L, togo 26, stops 1)
+⏱ delta check L7 1/2: +0.25 s
+🔊 you're point three down
+🛞 compound: stint raceStart lap 1, refinement 11 — C 0.999 over 750 s (6442 samples)
+⏱ delta check L7 2/2: +0.69 s
+🔊 point seven down so far
+🛞 compound: stint raceStart lap 1, refinement 12 — C 0.999 over 810 s (6796 samples)
+📋 lap 7: 1:51.717 clean fuel_used=5.43
+🛞 crew: tyre life kept quiet — L54 reaches the planned end, L14
+🔵 lap 7: clean
+🔧 🌧 L7 GR3 on RM: peak 1.63 g (best 1.65, ×0.99; floor 1.50) · slide 1.07 °/g (best 0.95, ×1.1) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 818.6 s, remaining 2781.4 s, median lap 112.5 s -> 25 (no-stop 25, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L8: fuel/lap 5.43 | fuel 62.4 = 11.5 laps | 25.0 laps to go | stops 1
+📐 plan L8 (25 to go): RM 8 · RM 17 — 1 stop, next: box L15 → RM | stop 19.5 s · fuel 11/18 laps · wear-off 0.05 s/lap · fresh ~RH 113.4 s 69 laps, RM 111.5 s 52 laps, ~RS 110.3 s 25 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (91 samples, σ 2.80 m, ±12 m, across -6.2…7.2 m)
+📐 crew: plan is one stop — end of lap 15, racing mediums after
+🛞 wear (test) lap 7 done: FL 11.3 FR 6.0 RL 8.7 RR 6.1 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 25 to go)
+🔊 plan is one stop
+🗣 bulletin (imp 6, cost 6.3s, ledger 12.0/20.4s, 2 lines): L8
+🔊 end of lap 15
+🔊 racing mediums after
+🔊 good lap
+🔊 point six down on your best lap
+🔊 lap 8
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 11.50L, togo 25, stops 1)
+⏱ delta check L8 1/2: quiet — +0.04 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 13 — C 0.999 over 870 s (7381 samples)
+⏱ delta check L8 2/2: -0.35 s
+🔊 point three up on your best
+📋 lap 8: 1:50.806 clean fuel_used=5.46
+🛞 crew: tyre life kept quiet — L53 reaches the planned end, L15
+🔵 lap 8: clean
+🔧 🌧 L8 GR3 on RM: peak 1.65 g (best 1.65, ×1.00; floor 1.50) · slide 1.08 °/g (best 0.95, ×1.1) · TCS 7 % (best 5 %) → dry
+📊 laps-left model: elapsed 929.4 s, remaining 2670.6 s, median lap 111.7 s -> 24 (no-stop 24, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L9: fuel/lap 5.45 | fuel 56.9 = 10.5 laps | 24.0 laps to go | stops 1
+📐 plan L9 (24 to go): RM 7 · RM 17 — 1 stop, next: box L15 → RM | stop 19.5 s · fuel 10/18 laps · wear-off 0.03 s/lap · fresh ~RH 113.3 s 68 laps, RM 111.4 s 52 laps, ~RS 110.2 s 24 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (92 samples, σ 2.82 m, ±12 m, across -6.2…7.2 m)
+🗺 mapper: learned lap 8 (110.806 s, 5750 m, 1150 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(8, 110806 ms, 1150 pts)
+🗺 frame vs customRace: median 1.9 m, centroid offset 2.0 m
+🗺 frame vs sportDailyRace: median 1.1 m, centroid offset 1.4 m
+🗺 frame vs no context: median 1.2 m, centroid offset 0.5 m
+🗺 survey stored → 469.trackmap.json (lap 8, 110.806 s)
+🛞 wear (test) lap 8 done: FL 13.0 FR 6.9 RL 10.0 RR 7.0 % — RM ×2 (tap)
+⏱ class lap BEST: Autodromo Nazionale Monza/lobby/Gr.3 → 1:50.806 (3/10 laps, 1 car(s), avg 1:51.116)
+⏱ compound best RM: 110.806 s
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L9, L15/L16/L18, stops 1)
+🗣 bulletin (imp 2, cost 6.0s, ledger 6.0/20.4s, 2 lines): L9
+🔊 personal best
+🔊 point three quicker
+🔊 that's lap 9
+🛞 compound: stint raceStart lap 1, refinement 14 — C 0.999 over 930 s (7570 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 10.45L, togo 24, stops 1)
+⏱ delta check L9 1/2: -0.23 s
+🔊 point two up so far
+🛞 compound: stint raceStart lap 1, refinement 15 — C 0.999 over 990 s (8168 samples)
+⏱ delta check L9 2/2: quiet — -0.12 s, under ±0.2 s
+📋 lap 9: 1:50.625 clean fuel_used=5.35
+🛞 crew: tyre life kept quiet — L56 reaches the planned end, L15
+🔵 lap 9: clean
+🔧 🌧 L9 GR3 on RM: peak 1.65 g (best 1.65, ×1.00; floor 1.50) · slide 1.07 °/g (best 0.95, ×1.1) · TCS 10 % (best 5 %) → dry
+📊 laps-left model: elapsed 1040.0 s, remaining 2560.0 s, median lap 111.6 s -> 23 (no-stop 23, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L10: fuel/lap 5.45 | fuel 51.6 = 9.5 laps | 23.0 laps to go | stops 1
+📐 plan L10 (23 to go): RM 6 · RM 17 — 1 stop, next: box L15 → RM | stop 19.5 s · fuel 9/18 laps · wear-off 0.07 s/lap · fresh ~RH 112.5 s 68 laps, RM 110.6 s 51 laps, ~RS 109.4 s 24 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (93 samples, σ 2.85 m, ±12 m, across -6.2…7.2 m)
+🗺 mapper: learned lap 9 (110.625 s, 5750 m, 1150 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(9, 110625 ms, 1150 pts)
+🗺 frame vs customRace: median 1.9 m, centroid offset 1.9 m
+🗺 frame vs sportDailyRace: median 1.5 m, centroid offset 1.5 m
+🗺 frame vs no context: median 1.3 m, centroid offset 0.7 m
+🗺 survey stored → 469.trackmap.json (lap 9, 110.625 s)
+🛞 wear (test) lap 9 done: FL 14.8 FR 7.8 RL 11.3 RR 7.8 % — RM ×2 (tap)
+⏱ class lap BEST: Autodromo Nazionale Monza/lobby/Gr.3 → 1:50.625 (3/10 laps, 1 car(s), avg 1:50.859)
+⏱ compound best RM: 110.625 s
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗣 bulletin (imp 2, cost 8.2s, ledger 8.2/20.4s, 2 lines): L10
+🔊 new fastest lap
+🔊 point two up on your best lap
+🔊 on lap 10
+🛞 compound: stint raceStart lap 1, refinement 16 — C 0.999 over 1050 s (8431 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 9.47L, togo 23, stops 1)
+⏱ delta check L10 1/2: +0.47 s
+🔊 point five down
+🛞 compound: stint raceStart lap 1, refinement 17 — C 0.999 over 1110 s (9006 samples)
+⏱ delta check L10 2/2: quiet — +0.14 s, under ±0.2 s
+📋 lap 10: 1:50.658 clean fuel_used=5.41
+🛞 crew: tyre life kept quiet — L54 reaches the planned end, L15
+🔵 lap 10: clean
+🔧 🌧 L10 GR3 on RM: peak 1.65 g (best 1.65, ×1.00; floor 1.50) · slide 1.09 °/g (best 0.95, ×1.2) · TCS 7 % (best 5 %) → dry
+📊 laps-left model: elapsed 1150.6 s, remaining 2449.4 s, median lap 111.3 s -> 22 (no-stop 23, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L11: fuel/lap 5.42 | fuel 46.2 = 8.5 laps | 22.0 laps to go | stops 1
+📐 plan L11 (22 to go): RM 5 · RM 17 — 1 stop, next: box L15 → RM | stop 19.5 s · fuel 8/18 laps · wear-off 0.06 s/lap · fresh ~RH 112.5 s 67 laps, RM 110.6 s 51 laps, ~RS 109.4 s 24 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (94 samples, σ 2.83 m, ±12 m, across -6.2…7.2 m)
+📐 crew: box in 5 laps — racing mediums next
+🛞 wear (test) lap 10 done: FL 16.6 FR 8.6 RL 12.6 RR 8.7 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 34
+🛞 crew: estimated finish lap 33
+🔊 box in 5 laps
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 8, 22 to go, 8.51 fuel-laps)
+🗣 bulletin (imp 6, cost 4.6s, ledger 8.6/20.4s, 2 lines): L11
+🔊 racing mediums next
+🔊 great lap
+🔊 keep them coming
+🔊 lap 11 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.51L, togo 22, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 18 — C 0.999 over 1170 s (9246 samples)
+⏱ delta check L11 1/2: +0.30 s
+🔊 you're point three down
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+⏱ delta check L11 2/2: +0.44 s
+🔊 point four down
+🛞 compound: stint raceStart lap 1, refinement 19 — C 0.999 over 1230 s (9834 samples)
+📋 lap 11: 1:51.290 clean fuel_used=5.34
+🛞 crew: tyre life kept quiet — L53 reaches the planned end, L15
+🔵 lap 11: clean
+🔧 🌧 L11 GR3 on RM: peak 1.63 g (best 1.65, ×0.99; floor 1.50) · slide 1.11 °/g (best 0.95, ×1.2) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 1261.9 s, remaining 2338.1 s, median lap 111.2 s -> 21 (no-stop 22, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L12: fuel/lap 5.41 | fuel 40.8 = 7.5 laps | 21.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 3.3s, ledger 3.3/20.4s, 1 line): positionChange(P14→P13)
+📐 plan L12 (21 to go): RM 4 · RM 17 — 1 stop, next: box L15 → RM | stop 19.5 s · fuel 7/18 laps · wear-off 0.06 s/lap · fresh ~RH 112.5 s 67 laps, RM 110.6 s 51 laps, ~RS 109.4 s 24 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (95 samples, σ 2.84 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 11 done: FL 18.3 FR 9.4 RL 13.9 RR 9.6 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 34
+🛞 crew: estimated finish lap 33
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(beforeOpen, now L12, L14/L16/L18, stops 1) | fuelStatus(lapsToGo, 7, 21 to go, 7.54 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(beforeOpen, now L12, L14/L16/L18, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 7, 21 to go, 7.54 fuel-laps)
+🔊 P 13
+🔊 you gained 1 place
+🗣 bulletin (imp 6, cost 5.8s, ledger 9.1/20.4s, 2 lines): L12
+🔊 good lap
+🔊 1 51 point three
+🔊 that's lap 12
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.54L, togo 21, stops 1)
+🛞 compound: stint raceStart lap 1, refinement 20 — C 0.999 over 1290 s (10425 samples)
+⏱ delta check L12 1/2: +0.30 s
+🔊 point three down so far
+⏱ delta check L12 2/2: quiet — +0.09 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 21 — C 0.999 over 1350 s (10604 samples)
+📋 lap 12: 1:50.653 clean fuel_used=5.50
+🛞 crew: tyre life kept quiet — L53 reaches the planned end, L15
+🔵 lap 12: clean
+🔧 🌧 L12 GR3 on RM: peak 1.65 g (best 1.65, ×1.00; floor 1.50) · slide 1.13 °/g (best 0.95, ×1.2) · TCS 8 % (best 5 %) → dry
+📊 laps-left model: elapsed 1372.6 s, remaining 2227.4 s, median lap 111.0 s -> 20 (no-stop 21, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L13: fuel/lap 5.42 | fuel 35.3 = 6.5 laps | 20.0 laps to go | stops 1
+📐 plan L13 (20 to go): RM 3 · RM 17 — 1 stop, next: box L15 → RM | stop 19.5 s · fuel 6/18 laps · wear-off 0.05 s/lap · fresh ~RH 112.5 s 66 laps, RM 110.6 s 50 laps, ~RS 109.5 s 23 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (96 samples, σ 2.83 m, ±12 m, across -6.2…7.2 m)
+📐 crew: 3 laps to the stop, racing mediums next
+🛞 wear (test) lap 12 done: FL 20.2 FR 10.3 RL 15.2 RR 10.4 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 34
+🛞 crew: estimated finish lap 33
+📋 strategy burst: 2 event(s), releasing best-first — pitStopsToGo(1, 20 to go) | fuelStatus(lapsToGo, 6, 20 to go, 6.51 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 20 to go)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 6, 20 to go, 6.51 fuel-laps)
+🔊 3 laps to the stop
+🗣 bulletin (imp 6, cost 4.6s, ledger 8.6/20.4s, 2 lines): L13
+🔊 racing mediums next
+🔊 less than a tenth off
+🔊 lap 13 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 6.51L, togo 20, stops 1)
+⏱ delta check L13 1/2: +0.62 s
+🔊 point six down on your best
+🛞 compound: stint raceStart lap 1, refinement 22 — C 0.989 over 1410 s (11305 samples)
+⏱ delta check L13 2/2: +0.38 s
+🔊 point four down so far
+🛞 compound: stint raceStart lap 1, refinement 23 — C 0.989 over 1470 s (11496 samples)
+📋 lap 13: 1:50.977 clean fuel_used=5.33
+🛞 crew: tyre life kept quiet — L54 reaches the planned end, L15
+🔵 lap 13: clean
+🔧 🌧 L13 GR3 on RM: peak 1.67 g (best 1.65, ×1.01; floor 1.50) · slide 1.23 °/g (best 0.95, ×1.3) · TCS 7 % (best 5 %) → dry
+📊 laps-left model: elapsed 1483.6 s, remaining 2116.4 s, median lap 110.9 s -> 19 (no-stop 20, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L14: fuel/lap 5.40 | fuel 30.0 = 5.6 laps | 19.0 laps to go | stops 1
+🗣 spoke (position, imp 4, cost 2.8s, ledger 2.8/20.4s, 1 line): positionChange(P13→P12)
+📐 plan L14 (19 to go): RM 2 · RM 17 — 1 stop, next: box L15 → RM | stop 19.5 s · fuel 5/18 laps · wear-off 0.04 s/lap · fresh ~RH 112.5 s 66 laps, RM 110.6 s 50 laps, ~RS 109.5 s 23 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (97 samples, σ 2.86 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 13 done: FL 22.0 FR 11.2 RL 16.5 RR 11.3 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 34
+🛞 crew: estimated finish lap 33
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openTargetAhead, now L14, L14/L16/L18, stops 1) | fuelStatus(lapsToGo, 5, 19 to go, 5.55 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openTargetAhead, now L14, L14/L16/L18, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 5, 19 to go, 5.55 fuel-laps)
+🔊 P 12
+🔊 1 place gained
+🗣 bulletin (imp 6, cost 4.2s, ledger 7.0/20.4s, 2 lines): L14
+🔊 keep those good laps coming
+🔊 lap 14
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.55L, togo 19, stops 1)
+⏱ delta check L14 1/2: quiet — +0.03 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 24 — C 0.989 over 1530 s (12223 samples)
+⏱ delta check L14 2/2: quiet — +0.07 s, under ±0.2 s
+📋 lap 14: 1:50.494 clean fuel_used=5.41
+🛞 crew: tyre life kept quiet — L54 reaches the planned end, L15
+🔵 lap 14: clean
+🔧 🌧 L14 GR3 on RM: peak 1.65 g (best 1.67, ×0.99; floor 1.50) · slide 1.08 °/g (best 0.95, ×1.1) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 1594.1 s, remaining 2005.9 s, median lap 110.7 s -> 18 (no-stop 19, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L15: fuel/lap 5.41 | fuel 24.6 = 4.5 laps | 18.0 laps to go | stops 1
+📐 plan L15 (18 to go): RM 1 · RM 17 — 1 stop, next: box L15 → RM | stop 19.5 s · fuel 4/18 laps · wear-off 0.03 s/lap · fresh ~RH 112.6 s 65 laps, RM 110.7 s 49 laps, ~RS 109.6 s 23 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (98 samples, σ 2.89 m, ±12 m, across -6.2…7.2 m)
+📐 crew: in this lap, we're going to racing mediums
+📐 crew: 79 litres gets us to the end
+🗺 mapper: learned lap 14 (110.494 s, 5750 m, 1150 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(14, 110494 ms, 1150 pts)
+🗺 frame vs customRace: median 1.7 m, centroid offset 1.6 m
+🗺 frame vs sportDailyRace: median 0.9 m, centroid offset 1.1 m
+🗺 frame vs no context: median 1.9 m, centroid offset 0.3 m
+🗺 survey stored → 469.trackmap.json (lap 14, 110.494 s)
+🛞 wear (test) lap 14 done: FL 23.8 FR 12.1 RL 17.8 RR 12.2 % — RM ×2 (tap)
+⏱ class lap BEST: Autodromo Nazionale Monza/lobby/Gr.3 → 1:50.494 (3/10 laps, 1 car(s), avg 1:50.641)
+⏱ compound best RM: 110.494 s
+🛞 crew: estimated finish lap 34
+🛞 crew: estimated finish lap 33
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 4, 18 to go, 4.54 fuel-laps)
+🔊 in this lap
+🔊 we're going to racing mediums
+🛞 compound: stint raceStart lap 1, refinement 25 — C 0.989 over 1590 s (12433 samples)
+🗣 bulletin (imp 2, cost 6.0s, ledger 13.3/20.4s, 2 lines): L15
+🔊 79 litres gets us to the end
+🔊 personal best
+🔊 point one quicker
+🔊 that's lap 15
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.54L, togo 18, stops 1)
+⏱ delta check L15 1/2: quiet — -0.17 s, under ±0.2 s
+🛞 compound: stint raceStart lap 1, refinement 26 — C 0.989 over 1650 s (13054 samples)
+⏱ delta check L15 2/2: quiet — -0.18 s, under ±0.2 s
+🔧 box reminder fired: 1034 m (15.9 s) before pit entry, polyline anchor, lap 15
+📐 crew: pit entry coming up — box for racing mediums
+📐 crew: 79 litres of fuel
+🔊 pit entry coming up
+🔊 box for racing mediums
+🔊 79 litres of fuel
+📋 lap 15: 1:50.480 clean fuel_used=5.39
+🛞 crew: tyre life kept quiet — L53 reaches the planned end, L15
+🔵 lap 15: clean
+🔧 🌧 L15 GR3 on RM: peak 1.65 g (best 1.67, ×0.99; floor 1.50) · slide 1.04 °/g (best 0.95, ×1.1) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 1704.5 s, remaining 1895.5 s, median lap 110.7 s -> 17 (no-stop 18, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L16: fuel/lap 5.40 | fuel 19.2 = 3.6 laps | 17.0 laps to go | stops 1
+📐 plan L16 (17 to go): RM 1 · RM 16 — 1 stop, next: box L16 → RM | stop 19.5 s · fuel 3/18 laps · wear-off 0.01 s/lap · fresh ~RH 112.7 s 65 laps, RM 110.8 s 49 laps, ~RS 109.6 s 23 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (99 samples, σ 2.89 m, ±12 m, across -6.2…7.2 m)
+📐 crew: box this lap — racing mediums next
+📐 crew: 79 litres gets us to the end
+🗺 mapper: learned lap 15 (110.480 s, 5755 m, 1151 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(15, 110480 ms, 1151 pts)
+🗺 frame vs customRace: median 1.4 m, centroid offset 0.4 m
+🗺 frame vs sportDailyRace: median 1.2 m, centroid offset 0.6 m
+🗺 frame vs no context: median 1.8 m, centroid offset 1.2 m
+🗺 survey stored → 469.trackmap.json (lap 15, 110.480 s)
+🛞 wear (test) lap 15 done: FL 25.5 FR 12.9 RL 19.1 RR 13.1 % — RM ×2 (tap)
+⏱ class lap BEST: Autodromo Nazionale Monza/lobby/Gr.3 → 1:50.480 (3/10 laps, 1 car(s), avg 1:50.533)
+⏱ compound best RM: 110.480 s
+🛞 crew: estimated finish lap 34
+🛞 crew: estimated finish lap 33
+🔊 box this lap
+📋 strategy burst: 2 event(s), releasing best-first — pitWindowState(openToLatest, now L16, L16/L16/L18, stops 1) | fuelStatus(lapsToGo, 3, 17 to go, 3.55 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L16, L16/L16/L18, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 3, 17 to go, 3.55 fuel-laps)
+🔊 racing mediums next
+🗣 bulletin (imp 2, cost 5.6s, ledger 18.9/20.4s, 2 lines): L16
+🔊 79 litres gets us to the end
+🔊 personal best
+🔊 point oh quicker
+🔊 lap 16
+🛞 compound: stint raceStart lap 1, refinement 27 — C 0.989 over 1710 s (13261 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 3.55L, togo 17, stops 1)
+⏱ delta check L16 1/2: +0.53 s
+🔊 point five down on your best
+🛞 compound: stint raceStart lap 1, refinement 28 — C 0.989 over 1770 s (13968 samples)
+⏱ delta check L16 2/2: +1.12 s
+🔊 1 point one down
+🔧 box reminder fired: 1034 m (15.9 s) before pit entry, polyline anchor, lap 16
+📐 crew: box, box — racing mediums
+📐 crew: add 79 litres
+🔊 box
+🔊 box
+🔊 racing mediums
+🔊 add 79 litres
+🔧 huge stop 217 km/h with clutch 1.00 — pending impact-vs-pit (6 s)
+🔀 state RACING → PIT at pkt 612131 lap 16
+🔵 sub-state FLYING → — lap 16
+🔧 pit-entry anchor learned: 113319 ms into lap (stop on lap 16)
+🔧 pended impact cancelled: pit entry
+📊 strategy: stop underway, plan now 0 more
+📊 laps-left model: elapsed 1817.8 s, remaining 1782.2 s, median lap 110.7 s -> 16 (no-stop 17, pit loss 15.0 s, rate 3 l/s)
+📊 strategy: refuel still needed — 2.6 laps of fuel against 16 to go (need 17.8 with margin)
+🚪 gate learned: Autodromo Nazionale Monza/lobby/pitEntry (no heading)
+🗣 spoke (pitSequence, imp 0, cost 1.2s, ledger 5.5/20.4s, 1 line, protected): pittingIn(L16)
+🗑 dropped (in pit): surveyGate(pitEntry, 1)
+🗑 dropped (in pit): surveyComplete(2 optional missing)
+🔊 entering pit
+📋 lap 16: 2:00.560 in fuel_used=5.27
+🔵 lap 16: clean
+🗑 dropped (in pit): lapStarted(17, last 120.56s)
+📐 plan L17: in the pit lane — planned after the stop
+🗑 dropped (in pit): positionChange(P12→P13)
+🗺 mapper: lap 16 rejected (pit)
+🛞 wear (test) lap 16 done: FL 27.3 FR 13.8 RL 20.3 RR 13.9 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 34
+🛞 compound prompt: box exit lap 17, declared none — on screen; asked aloud with the estimate
+🛞 compound: stationary phase ended above 62 °C — no tyre change by temperature (a ride-height lift may still follow)
+🛞 crew: estimated finish lap 33
+📊 laps-left model: elapsed 1827.5 s, remaining 1772.5 s, median lap 110.7 s -> 16 (no-stop 17, pit loss 15.0 s, rate 3 l/s)
+🗣 spoke (pitSequence, imp 2, cost 2.5s, ledger 3.7/20.4s, 1 line, protected): inPitBox
+🗑 dropped (the planner owns the pit calls): refuelTarget(16 laps)
+🔊 in the box
+🔊 sit tight
+🛞 compound prompt answered: RM
+🌡 tyre bands: centre 76 °C (RM, +0, tap)
+🛞 wear (test): all four tyres at 60.00 °C on lap 17 — new set (J116)
+🛞 wear (test) stint 0 ended at tyre change: FL 27.3 FR 13.8 RL 20.3 RR 13.9 % — RM ×2 (tap)
+🌡 tyre bands: centre 76 °C (RM, +0, tap)
+🛞 compound: box-exit answer RM kept through the tyre change (J151)
+🛞 crew wear gate: fresh (worst 0 %, biased 0 %)
+🛞 compound: tyre change seen (ride-height lift)
+🛞 wear (test): lift ignored — already reset at this stop (J118)
+🗑 dropped (in pit): tyreTemps(cold, 59°)
+🛞 compound: stint raceStart lap 1, refinement 29 (final) — C 0.989 over 1811 s (14205 samples)
+🛞 compound: stale window (RH, opened before the last pit entry) — not applied
+🛞 compound: window opened — pitExit, lap 17
+🔀 state PIT → RACING at pkt 614567 lap 17
+🔵 sub-state — → OUT_LAP lap 17
+🅿️ PIT completed: in L16 → out L17 (+72.5 fuel, transit 43.9s, teleport=false)
+🚪 gate learned: Autodromo Nazionale Monza/lobby/pitBox (no heading)
+🗑 dropped (in pit): surveyGate(pitBox, 1)
+🅿️ entry→box 12.9s (speaking budget)
+🗑 dropped (in pit): surveyComplete(1 optional missing)
+🔧 pit approach: entry at station 5664 m of 5753 m (15.3 m off the line), lead 20 s
+🔧 teleport 126 m on lap 17 — pit release, not a reset
+📊 laps-left model: elapsed 1858.5 s, remaining 1741.5 s, median lap 110.7 s -> 16 (no-stop 16, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L17: fuel/lap 5.40 | fuel 86.4 = 16.0 laps | 16.0 laps to go | stops 1
+🗣 spoke (pitSequence, imp 2, cost 5.1s, ledger 5.1/20.4s, 1 line, protected): exitingPit(+72.48l, tyres)
+📐 plan L17 (16 to go): RM 3 · RM 13 — 1 stop, next: box L19 → RM | stop 19.5 s · fuel 15/18 laps · wear-off 0.01 s/lap · fresh ~RH 112.7 s 69 laps, RM 110.8 s 52 laps, ~RS 109.6 s 25 laps
+🗑 dropped (cooldown pit; 0.0s of 1.0s via pitSequence x0.50): freshTyres(inferred)
+🗣 spoke (strategy, imp 1, cost 2.7s, ledger 7.7/20.4s, 1 line, protected): stopsPlanChanged(0→1)
+📐 crew: plan change: box end of lap 19 for racing mediums
+🚪 gate learned: Autodromo Nazionale Monza/lobby/pitExit heading -84°
+🗑 dropped (debug speech 3 < 6): surveyGate(pitExit, 1)
+🗣 spoke (radio, imp 0, cost 2.9s, ledger 15.5/20.4s, 1 line): surveyComplete(0 optional missing)
+📊 laps-left model: elapsed 1858.5 s, remaining 1726.5 s, median lap 110.7 s -> 16 (no-stop 16, pit loss 15.0 s, rate 3 l/s), out-lap -15.0s
+📊 strategy L17: fuel/lap 5.40 | fuel 86.4 = 16.0 laps | 16.0 laps to go | stops 1 (post-stop recalc)
+📐 short fill: 15 laps of fuel for a stint called at 16
+📐 crew: we're short on fuel — enough for 15 laps, box end of lap 19
+🔧 fresh tyres confirmed: 60.0° across all four (was 68.5° at pit entry, step 8.5°)
+🗑 dropped (cooldown pit; 0.1s of 1.0s via pitSequence x0.50): freshTyres(confirmed 60.00°)
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L17/L17/L31, stops 1) | fuelStatus(extendStint, 15, 16 to go, 16.00 fuel-laps) | strategyUpdate(fuel 16.00L, togo 16, stops 1) | strategyUpdate(fuel 16.00L, togo 16, stops 1, post-stop)
+🗑 dropped (the planner owns the pit calls): pitWindow(L17/L17/L31, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 15, 16 to go, 16.00 fuel-laps)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 16.00L, togo 16, stops 1)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 16.00L, togo 16, stops 1, post-stop)
+🔊 tyres are cold
+🔊 bring them up slowly
+🔊 watch for wheelspin
+🔊 fuel plan changed
+⏱ delta check L17 1/2: quiet — out-lap
+🔊 1 stop
+🔊 plan change
+🔊 box end of lap 19 for racing mediums
+🗑 speaker: stale, not spoken: "that's the full set"
+🗑 speaker: stale, not spoken: "survey complete"
+🔊 we're short on fuel
+🔊 enough for 15 laps
+🔊 box end of lap 19
+⏱ delta check L17 2/2: quiet — out-lap
+🛞 crew: estimated finish lap 32
+🗣 spoke (tyres, imp 4, cost 2.1s, ledger 2.1/20.4s, 1 line): tyreTemps(low, 64°)
+🔊 tyres below the window
+🛞 compound: racingMedium (medium confidence, C 1.02, margin 0.045, relative to RM (truth), own reference)
+🛞 compound: RM confirmed by the driver — anchor
+🛞 compound: box-exit answer RM given to the pit-exit window (estimate RM)
+🗣 spoke (tyres, imp 4, cost 1.6s, ledger 3.7/20.4s, 1 line): compoundEstimate(pitExit, RM, medium)
+🔊 probably racing mediums
+🔵 sub-state OUT_LAP → FLYING lap 18
+📋 lap 17: 2:25.706 out fuel_used=5.16
+🔵 lap 17: clean
+📊 laps-left model: elapsed 1970.8 s, remaining 1629.2 s, median lap 110.7 s -> 15 (no-stop 15, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L18: fuel/lap 5.37 | fuel 81.2 = 15.1 laps | 15.0 laps to go | stops 0
+📐 stop measured L16/17: 20.8 s (in 120.56 + out 145.71 − 2 × 110.66 − 72.5 L ÷ 3.0 L/s) — planning with 20.8 s
+🗣 spoke (position, imp 4, cost 2.2s, ledger 3.9/20.4s, 1 line): positionChange(P13→P15)
+📐 plan L18 (15 to go): RM 15 — 0 stops | stop 20.8 s · fuel 15/18 laps · wear-off 0.01 s/lap · fresh ~RH 112.7 s 69 laps, RM 110.8 s 52 laps, ~RS 109.6 s 25 laps
+📐 crew: last stop done, no more stops
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (100 samples, σ 2.89 m, ±12 m, across -6.2…7.2 m)
+🗺 mapper: lap 17 rejected (teleport)
+🛞 wear (test) lap 17 done: FL 1.5 FR 0.8 RL 1.3 RR 0.9 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🔊 down to P 15
+🗣 bulletin (imp 6, cost 1.4s, ledger 6.5/20.4s, 1 line): L18
+🔊 last stop done
+🔊 no more stops
+🔊 lap 18
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 15.13L, togo 15, stops 0)
+🛞 compound: stint pitExit lap 17, refinement 1 — C 1.030 over 150 s (1416 samples)
+⏱ delta check L18 1/2: +0.39 s
+🔊 point four down
+🗣 chain (imp 4, cost 1.2s, ledger 1.2/20.4s, 1 events, 1 lines)
+⏱ delta check L18 2/2: +0.52 s
+🔊 light contact
+🔊 point five down on your best
+🛞 compound: stint pitExit lap 17, refinement 2 — C 1.030 over 210 s (1742 samples)
+📋 lap 18: 1:51.254 clean fuel_used=5.34
+🔵 lap 18 antics: contact, lost 2
+📊 laps-left model: elapsed 2082.0 s, remaining 1518.0 s, median lap 110.7 s -> 14 (no-stop 14, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L19: fuel/lap 5.36 | fuel 75.9 = 14.2 laps | 14.0 laps to go | stops 0
+📐 plan L19 (14 to go): RM 14 — 0 stops | stop 20.8 s · fuel 14/18 laps · wear-off 0.01 s/lap · fresh ~RH 112.7 s 71 laps, RM 110.8 s 54 laps, ~RS 109.6 s 25 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (101 samples, σ 2.88 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 18 done: FL 3.1 FR 1.5 RL 2.5 RR 1.8 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L19
+🔊 keep the good laps coming
+🔊 that's lap 19
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 14.15L, togo 14, stops 0)
+⏱ delta check L19 1/2: +1.00 s
+🔊 you're 1 point oh down
+🛞 compound: stint pitExit lap 17, refinement 3 — C 1.020 over 270 s (2300 samples)
+⏱ delta check L19 2/2: +1.15 s
+🔊 1 point two down so far
+🛞 compound: stint pitExit lap 17, refinement 4 — C 1.020 over 330 s (2507 samples)
+📋 lap 19: 1:51.547 clean fuel_used=5.60
+🛞 crew: tyre life kept quiet — L61 reaches the planned end, L32
+🔵 lap 19: clean
+🔧 🌧 L19 GR3 on RM: peak 1.65 g (best 1.67, ×0.99; floor 1.50) · slide 1.13 °/g (best 0.95, ×1.2) · TCS 11 % (best 5 %) → dry
+📊 laps-left model: elapsed 2193.6 s, remaining 1406.4 s, median lap 110.8 s -> 13 (no-stop 13, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L20: fuel/lap 5.36 | fuel 70.3 = 13.1 laps | 13.0 laps to go | stops 0
+📐 plan L20 (13 to go): RM 13 — 0 stops | stop 20.8 s · fuel 13/18 laps · wear-off 0.01 s/lap · fresh ~RH 112.7 s 65 laps, RM 110.8 s 50 laps, ~RS 109.7 s 23 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (102 samples, σ 2.88 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 19 done: FL 5.1 FR 2.4 RL 3.8 RR 2.6 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗣 bulletin (imp 6, cost 6.5s, ledger 6.5/20.4s, 2 lines): L20
+🔊 that was a good lap
+🔊 51 point five
+🔊 lap 20 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 13.11L, togo 13, stops 0)
+⏱ delta check L20 1/2: +0.60 s
+🔊 point six down on your best
+🛞 compound: stint pitExit lap 17, refinement 5 — C 1.020 over 390 s (3085 samples)
+⏱ delta check L20 2/2: +1.39 s
+🔊 you're 1 point four down
+📋 lap 20: 1:51.768 clean fuel_used=5.37
+🛞 crew: tyre life kept quiet — L70 reaches the planned end, L32
+🔵 lap 20: clean
+🔧 🌧 L20 GR3 on RM: peak 1.65 g (best 1.67, ×0.99; floor 1.50) · slide 1.13 °/g (best 0.95, ×1.2) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 2305.3 s, remaining 1294.7 s, median lap 111.1 s -> 12 (no-stop 12, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L21: fuel/lap 5.38 | fuel 64.9 = 12.1 laps | 12.0 laps to go | stops 0
+🗣 spoke (position, imp 4, cost 3.5s, ledger 3.5/20.4s, 1 line): positionChange(P15→P14)
+📐 plan L21 (12 to go): RM 12 — 0 stops | stop 20.8 s · fuel 12/18 laps · wear-off 0.01 s/lap · fresh ~RH 112.8 s 65 laps, RM 110.9 s 49 laps, ~RS 109.7 s 23 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (103 samples, σ 2.88 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 20 done: FL 6.9 FR 3.3 RL 5.1 RR 3.5 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🔊 up to P 14
+🗣 bulletin (imp 6, cost 5.4s, ledger 8.9/20.4s, 2 lines): L21
+🛞 compound: stint pitExit lap 17, refinement 6 — C 1.020 over 450 s (3378 samples)
+🔊 keep it clean
+🔊 decent lap
+🔊 1 51 point eight
+🔊 lap 21
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 12.07L, togo 12, stops 0)
+⏱ delta check L21 1/2: +0.36 s
+🔊 point four down so far
+🛞 compound: stint pitExit lap 17, refinement 7 — C 1.010 over 510 s (3944 samples)
+⏱ delta check L21 2/2: +0.43 s
+🔊 point four down on your best
+📋 lap 21: 1:50.864 clean fuel_used=5.42
+🛞 crew: tyre life kept quiet — L68 reaches the planned end, L32
+🔵 lap 21: clean
+🔧 🌧 L21 GR3 on RM: peak 1.65 g (best 1.67, ×0.99; floor 1.50) · slide 1.17 °/g (best 0.95, ×1.2) · TCS 7 % (best 5 %) → dry
+📊 laps-left model: elapsed 2416.2 s, remaining 1183.8 s, median lap 110.9 s -> 11 (no-stop 11, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L22: fuel/lap 5.38 | fuel 59.5 = 11.1 laps | 11.0 laps to go | stops 0
+🗣 spoke (position, imp 4, cost 3.3s, ledger 3.3/20.4s, 1 line): positionChange(P14→P13)
+📐 plan L22 (11 to go): RM 11 — 0 stops | stop 20.8 s · fuel 11/18 laps · wear-off 0.01 s/lap · fresh ~RH 112.8 s 63 laps, RM 110.9 s 48 laps, ~RS 109.7 s 22 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (104 samples, σ 2.87 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 21 done: FL 8.8 FR 4.2 RL 6.4 RR 4.4 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🔊 P 13
+🔊 you gained 1 place
+🗣 bulletin (imp 6, cost 5.8s, ledger 9.1/20.4s, 2 lines): L22
+🔊 great lap
+🔊 1 50 point nine
+🔊 on lap 22
+🛞 compound: stint pitExit lap 17, refinement 8 — C 1.010 over 570 s (4134 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 11.06L, togo 11, stops 0)
+⏱ delta check L22 1/2: quiet — -0.07 s, under ±0.2 s
+🛞 compound: stint pitExit lap 17, refinement 9 — C 1.010 over 630 s (4636 samples)
+⏱ delta check L22 2/2: quiet — -0.18 s, under ±0.2 s
+📋 lap 22: 1:50.277 clean fuel_used=5.24
+🛞 crew: tyre life kept quiet — L66 reaches the planned end, L32
+🔵 lap 22: clean
+🔧 🌧 L22 GR3 on RM: peak 1.67 g (best 1.67, ×1.00; floor 1.50) · slide 1.19 °/g (best 0.95, ×1.3) · TCS 10 % (best 5 %) → dry
+📊 laps-left model: elapsed 2526.5 s, remaining 1073.5 s, median lap 110.9 s -> 10 (no-stop 10, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L23: fuel/lap 5.38 | fuel 54.3 = 10.1 laps | 10.0 laps to go | stops 0
+🏁 race length: 32 laps (lap 23, 10 to go)
+🗣 spoke (position, imp 4, cost 1.4s, ledger 1.4/20.4s, 1 line): positionChange(P13→P12)
+📐 crew: 32 laps now, by the clock
+📐 plan L23 (10 to go): RM 10 — 0 stops | stop 20.8 s · fuel 10/18 laps · wear-off 0.00 s/lap · fresh ~RH 112.8 s 63 laps, RM 110.9 s 48 laps, ~RS 109.8 s 22 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (105 samples, σ 2.86 m, ±12 m, across -6.2…7.2 m)
+🗺 mapper: learned lap 22 (110.277 s, 5745 m, 1149 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(22, 110277 ms, 1149 pts)
+🗺 frame vs customRace: median 1.7 m, centroid offset 3.3 m
+🗺 frame vs sportDailyRace: median 1.2 m, centroid offset 2.6 m
+🗺 frame vs no context: median 1.4 m, centroid offset 1.7 m
+🗺 survey stored → 469.trackmap.json (lap 22, 110.277 s)
+🛞 wear (test) lap 22 done: FL 10.5 FR 5.0 RL 7.7 RR 5.2 % — RM ×2 (tap)
+⏱ class lap BEST: Autodromo Nazionale Monza/lobby/Gr.3 → 1:50.277 (3/10 laps, 1 car(s), avg 1:50.417)
+⏱ compound best RM: 110.277 s
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🔊 P 12
+🔊 32 laps now
+🗣 bulletin (imp 2, cost 6.0s, ledger 10.5/20.4s, 2 lines): L23
+🔊 by the clock
+🔊 personal best
+🔊 point two quicker
+🔊 lap 23 now
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 10.08L, togo 10, stops 0)
+🛞 compound: stint pitExit lap 17, refinement 10 — C 1.010 over 690 s (4916 samples)
+⏱ delta check L23 1/2: +0.26 s
+🔊 point three down
+⏱ delta check L23 2/2: +0.68 s
+🔊 point seven down on your best
+🛞 compound: stint pitExit lap 17, refinement 11 — C 1.010 over 750 s (5400 samples)
+📋 lap 23: 1:50.975 clean fuel_used=5.34
+🛞 crew: tyre life kept quiet — L66 reaches the planned end, L32
+🔵 lap 23: clean
+🔧 🌧 L23 GR3 on RM: peak 1.65 g (best 1.67, ×0.99; floor 1.50) · slide 1.13 °/g (best 0.95, ×1.2) · TCS 8 % (best 5 %) → dry
+📊 laps-left model: elapsed 2637.5 s, remaining 962.5 s, median lap 110.9 s -> 9 (no-stop 9, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L24: fuel/lap 5.36 | fuel 48.9 = 9.1 laps | 9.0 laps to go | stops 0
+📐 plan L24 (9 to go): RM 9 — 0 stops | stop 20.8 s · fuel 9/18 laps · wear-off 0.00 s/lap · fresh ~RH 112.8 s 63 laps, RM 110.9 s 47 laps, ~RS 109.8 s 22 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (106 samples, σ 2.86 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 23 done: FL 12.4 FR 6.0 RL 9.0 RR 6.1 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗣 bulletin (imp 6, cost 5.9s, ledger 5.9/20.4s, 2 lines): L24
+🔊 good lap
+🔊 point seven slower than your best
+🔊 lap 24
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 9.13L, togo 9, stops 0)
+🛞 compound: stint pitExit lap 17, refinement 12 — C 1.010 over 810 s (5823 samples)
+⏱ delta check L24 1/2: +0.43 s
+🔊 you're point four down
+⏱ delta check L24 2/2: +0.39 s
+🔊 point four down
+🛞 compound: stint pitExit lap 17, refinement 13 — C 1.010 over 870 s (6223 samples)
+📋 lap 24: 1:50.836 clean fuel_used=5.44
+🛞 crew: tyre life kept quiet — L65 reaches the planned end, L32
+🔵 lap 24: clean
+🔧 🌧 L24 GR3 on RM: peak 1.63 g (best 1.67, ×0.98; floor 1.50) · slide 1.20 °/g (best 0.95, ×1.3) · TCS 9 % (best 5 %) → dry
+📊 laps-left model: elapsed 2748.3 s, remaining 851.7 s, median lap 110.9 s -> 8 (no-stop 8, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L25: fuel/lap 5.36 | fuel 43.5 = 8.1 laps | 8.0 laps to go | stops 0
+📐 plan L25 (8 to go): RM 8 — 0 stops | stop 20.8 s · fuel 8/18 laps · wear-off 0.00 s/lap · fresh ~RH 112.8 s 62 laps, RM 110.9 s 47 laps, ~RS 109.8 s 22 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (107 samples, σ 2.91 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 24 done: FL 14.2 FR 6.8 RL 10.3 RR 7.0 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 8, 8 to go, 8.12 fuel-laps)
+🗣 bulletin (imp 6, cost 4.6s, ledger 4.6/20.4s, 2 lines): L25
+🔊 keep the good laps coming
+🔊 on lap 25
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 8.12L, togo 8, stops 0)
+⏱ delta check L25 1/2: +1.01 s
+🔊 1 point oh down so far
+🛞 compound: stint pitExit lap 17, refinement 14 — C 1.010 over 930 s (6827 samples)
+⏱ delta check L25 2/2: +1.51 s
+🔊 1 point five down on your best
+🛞 compound: stint pitExit lap 17, refinement 15 — C 1.010 over 990 s (7083 samples)
+📋 lap 25: 1:51.479 clean fuel_used=5.69
+🛞 crew: tyre life kept quiet — L64 reaches the planned end, L32
+🔵 lap 25: clean
+🔧 🌧 L25 GR3 on RM: peak 1.61 g (best 1.67, ×0.96; floor 1.50) · slide 1.15 °/g (best 0.95, ×1.2) · TCS 8 % (best 5 %) → dry
+📊 laps-left model: elapsed 2859.8 s, remaining 740.2 s, median lap 111.1 s -> 7 (no-stop 7, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L26: fuel/lap 5.40 | fuel 37.8 = 7.0 laps | 7.0 laps to go | stops 0
+📐 plan L26 (7 to go): RM 7 — 0 stops | stop 20.8 s · fuel 7/18 laps · wear-off 0.01 s/lap · fresh ~RH 112.8 s 62 laps, RM 110.9 s 47 laps, ~RS 109.8 s 22 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (108 samples, σ 2.93 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 25 done: FL 16.1 FR 7.7 RL 11.6 RR 7.9 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 7, 7 to go, 7.00 fuel-laps)
+🗣 bulletin (imp 6, cost 5.4s, ledger 5.4/20.4s, 2 lines): L26
+🔊 decent laptime
+🔊 1 51 point five
+🔊 lap 26
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 7.00L, togo 7, stops 0)
+⏱ delta check L26 1/2: quiet — +0.10 s, under ±0.2 s
+🛞 compound: stint pitExit lap 17, refinement 16 — C 1.010 over 1050 s (7619 samples)
+🛞 crew wear gate: mid (worst 17 %, biased 20 %)
+⏱ delta check L26 2/2: +0.26 s
+🔊 point three down so far
+🗣 chain (imp 4, cost 1.6s, ledger 4.1/20.4s, 1 events, 1 lines)
+🔊 watch track limits
+🛞 compound: stint pitExit lap 17, refinement 17 — C 1.010 over 1110 s (7901 samples)
+📋 lap 26: 1:50.671 clean fuel_used=5.56
+🛞 crew: tyre life kept quiet — L64 reaches the planned end, L32
+🔵 lap 26 antics: off
+📊 laps-left model: elapsed 2970.5 s, remaining 629.5 s, median lap 110.9 s -> 6 (no-stop 6, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L27: fuel/lap 5.43 | fuel 32.2 = 5.9 laps | 6.0 laps to go | stops 1
+🗣 spoke (strategy, imp 1, cost 6.1s, ledger 6.1/20.4s, 1 line, protected): stopsPlanChanged(0→1)
+📐 plan L27 (6 to go): RM 1 · RM 5 — 1 stop, next: box L27 → RM | stop 20.8 s · fuel 5/18 laps · wear-off 0.01 s/lap · fresh ~RH 112.8 s 61 laps, RM 110.9 s 47 laps, ~RS 109.8 s 22 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (109 samples, σ 2.92 m, ±12 m, across -6.2…7.2 m)
+📐 crew: in this lap, we're going to racing mediums
+📐 crew: 6 litres gets us to the end
+🛞 wear (test) lap 26 done: FL 18.1 FR 8.7 RL 13.0 RR 8.8 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+📋 strategy burst: 4 event(s), releasing best-first — pitWindow(L27/L27/L31, stops 1) | fuelStatus(extendStint, 5, 6 to go, 5.94 fuel-laps) | pitWindowState(openToLatest, now L27, L27/L27/L31, stops 1, close) | pitStopsToGo(1, 6 to go)
+🗑 dropped (the planner owns the pit calls): pitWindow(L27/L27/L31, stops 1)
+🗑 dropped (the planner owns the pit calls): fuelStatus(extendStint, 5, 6 to go, 5.94 fuel-laps)
+🗑 dropped (the planner owns the pit calls): pitWindowState(openToLatest, now L27, L27/L27/L31, stops 1, close)
+🗑 dropped (the planner owns the pit calls): pitStopsToGo(1, 6 to go)
+🔊 plan's changed
+🗣 bulletin (imp 6, cost 4.6s, ledger 18.0/20.4s, 2 lines): L27
+🔊 we now need 1 stop
+🔊 save fuel where you can
+🔊 in this lap
+🔊 we're going to racing mediums
+🔊 6 litres gets us to the end
+🔊 keep those good laps coming
+🔊 that's lap 27
+🗑 speaker: stale, not spoken: "📻 out"
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.94L, togo 6, stops 1)
+⏱ delta check L27 1/2: quiet — +0.06 s, under ±0.2 s
+🛞 compound: stint pitExit lap 17, refinement 18 — C 1.010 over 1170 s (8379 samples)
+⏱ delta check L27 2/2: quiet — +0.09 s, under ±0.2 s
+🔧 box reminder fired: 1034 m (15.8 s) before pit entry, polyline anchor, lap 27
+📐 crew: box, box — racing mediums
+📐 crew: 6 litres of fuel
+🔊 box
+🔊 box
+🔊 racing mediums
+🔊 6 litres of fuel
+📋 lap 27: 1:50.325 clean fuel_used=4.50
+🛞 crew: tyre life kept quiet — L64 reaches the planned end, L27
+🔵 lap 27: clean
+🔧 🌧 L27 GR3 on RM: peak 1.63 g (best 1.67, ×0.98; floor 1.50) · slide 1.21 °/g (best 0.95, ×1.3) · TCS 9 % (best 5 %) → dry
+📊 laps-left model: elapsed 3080.8 s, remaining 519.2 s, median lap 110.8 s -> 5 (no-stop 5, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L28: fuel/lap 5.40 | fuel 27.7 = 5.1 laps | 5.0 laps to go | stops 0
+📐 plan L28 (5 to go): RM 5 — 0 stops | stop 20.8 s · fuel 5/18 laps · wear-off 0.00 s/lap · fresh ~RH 112.8 s 61 laps, RM 110.9 s 46 laps, ~RS 109.8 s 22 laps
+📐 crew: that was the last stop — bring it home
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (110 samples, σ 2.91 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 27 done: FL 20.1 FR 9.6 RL 14.4 RR 9.7 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🔊 that was the last stop
+🗑 dropped (the planner owns the pit calls): fuelStatus(lapsToGo, 5, 5 to go, 5.14 fuel-laps)
+🔊 bring it home
+🗣 bulletin (imp 6, cost 4.6s, ledger 13.5/20.4s, 2 lines): L28
+🔊 less than a tenth off
+🔊 on lap 28
+🛞 compound: stint pitExit lap 17, refinement 19 — C 1.010 over 1230 s (8601 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 5.14L, togo 5, stops 0)
+⏱ delta check L28 1/2: quiet — +0.13 s, under ±0.2 s
+🛞 compound: stint pitExit lap 17, refinement 20 — C 1.010 over 1290 s (9090 samples)
+⏱ delta check L28 2/2: quiet — +0.08 s, under ±0.2 s
+🔧 box reminder fired: 1034 m (15.9 s) before pit entry, polyline anchor, lap 28
+🗣 spoke (pitSequence, imp 1, cost 2.9s, ledger 2.9/20.4s, 1 line, protected): pitEntryApproaching(15.88s)
+🔊 pit entry in a few seconds
+📋 lap 28: 1:50.260 clean fuel_used=4.41
+🛞 crew: tyre life kept quiet — L64 reaches the planned end, L32
+🔵 lap 28: clean
+🔧 🌧 L28 GR3 on RM: peak 1.61 g (best 1.67, ×0.96; floor 1.50) · slide 1.14 °/g (best 0.95, ×1.2) · TCS 6 % (best 5 %) → dry
+📊 laps-left model: elapsed 3191.0 s, remaining 409.0 s, median lap 110.8 s -> 4 (no-stop 4, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L29: fuel/lap 5.38 | fuel 23.3 = 4.3 laps | 4.0 laps to go | stops 0
+📐 plan L29 (4 to go): RM 4 — 0 stops | stop 20.8 s · fuel 4/18 laps · wear-off 0.00 s/lap · fresh ~RH 112.8 s 60 laps, RM 110.9 s 46 laps, ~RS 109.8 s 21 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (111 samples, σ 2.91 m, ±12 m, across -6.2…7.2 m)
+🗺 mapper: learned lap 28 (110.260 s, 5755 m, 1151 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(28, 110260 ms, 1151 pts)
+🗺 frame vs customRace: median 2.1 m, centroid offset 1.2 m
+🗺 frame vs sportDailyRace: median 1.3 m, centroid offset 0.4 m
+🗺 frame vs no context: median 1.7 m, centroid offset 0.7 m
+🗺 survey stored → 469.trackmap.json (lap 28, 110.260 s)
+🛞 wear (test) lap 28 done: FL 22.0 FR 10.6 RL 15.7 RR 10.6 % — RM ×2 (tap)
+⏱ class lap BEST: Autodromo Nazionale Monza/lobby/Gr.3 → 1:50.260 (3/10 laps, 1 car(s), avg 1:50.339)
+⏱ compound best RM: 110.260 s
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗑 dropped (the planner owns the pit calls): fuelStatus(noMoreStops, 4, 4 to go, 4.33 fuel-laps)
+🗣 bulletin (imp 2, cost 7.7s, ledger 10.6/20.4s, 2 lines): L29
+🔊 best lap so far
+🔊 1 50 point three
+🔊 lap 29 now
+🛞 compound: stint pitExit lap 17, refinement 21 — C 1.010 over 1350 s (9283 samples)
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 4.33L, togo 4, stops 0)
+⏱ delta check L29 1/2: quiet — -0.06 s, under ±0.2 s
+🛞 compound: stint pitExit lap 17, refinement 22 — C 1.010 over 1410 s (9942 samples)
+⏱ delta check L29 2/2: quiet — -0.20 s, under ±0.2 s
+🔧 box reminder fired: 1034 m (15.9 s) before pit entry, polyline anchor, lap 29
+🗣 spoke (pitSequence, imp 1, cost 2.1s, ledger 2.1/20.4s, 1 line, protected): pitEntryApproaching(15.89s)
+🔊 pit entry coming up
+📋 lap 29: 1:50.074 clean fuel_used=4.53
+🛞 crew: tyre life kept quiet — L66 reaches the planned end, L32
+🔵 lap 29: clean
+🔧 🌧 L29 GR3 on RM: peak 1.63 g (best 1.67, ×0.98; floor 1.50) · slide 1.15 °/g (best 0.95, ×1.2) · TCS 8 % (best 5 %) → dry
+📊 laps-left model: elapsed 3301.1 s, remaining 298.9 s, median lap 110.5 s -> 3 (no-stop 3, pit loss 15.0 s, rate 3 l/s)
+🗣 spoke (position, imp 4, cost 3.5s, ledger 5.6/20.4s, 1 line): positionChange(P12→P11)
+📊 strategy L30: fuel/lap 5.29 | fuel 18.8 = 3.6 laps | 3.0 laps to go | stops 0
+📐 plan L30 (3 to go): RM 3 — 0 stops | stop 20.8 s · fuel 3/18 laps · wear-off 0.00 s/lap · fresh ~RH 112.8 s 60 laps, RM 110.9 s 46 laps, ~RS 109.7 s 21 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (112 samples, σ 2.94 m, ±12 m, across -6.2…7.2 m)
+🗺 mapper: learned lap 29 (110.074 s, 5755 m, 1151 pts) — installing as session polyline
+🗑 dropped (debug speech 3 < 6): surveyLap(29, 110074 ms, 1151 pts)
+🗺 frame vs customRace: median 1.4 m, centroid offset 0.7 m
+🗺 frame vs sportDailyRace: median 1.7 m, centroid offset 1.1 m
+🗺 frame vs no context: median 1.6 m, centroid offset 2.1 m
+🗺 survey stored → 469.trackmap.json (lap 29, 110.074 s)
+🛞 wear (test) lap 29 done: FL 23.9 FR 11.5 RL 17.0 RR 11.5 % — RM ×2 (tap)
+⏱ class lap BEST: Autodromo Nazionale Monza/lobby/Gr.3 → 1:50.074 (3/10 laps, 1 car(s), avg 1:50.203)
+⏱ compound best RM: 110.074 s
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🔊 up to P 11
+🗑 dropped (the planner owns the pit calls): fuelStatus(noMoreStops, 3, 3 to go, 3.55 fuel-laps)
+🔊 keep it clean
+🗣 bulletin (imp 2, cost 5.6s, ledger 11.2/20.4s, 2 lines): L30
+🔊 personal best
+🔊 point two quicker
+🔊 lap 30
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 3.55L, togo 3, stops 0)
+🛞 compound: stint pitExit lap 17, refinement 23 — C 1.010 over 1470 s (10185 samples)
+⏱ delta check L30 1/2: +0.37 s
+🔊 point four down on your best
+⏱ delta check L30 2/2: +0.70 s
+🔊 point seven down so far
+🛞 compound: stint pitExit lap 17, refinement 24 — C 1.010 over 1530 s (10619 samples)
+🔧 box reminder fired: 1034 m (15.8 s) before pit entry, polyline anchor, lap 30
+🗣 spoke (pitSequence, imp 1, cost 4.2s, ledger 6.7/20.4s, 1 line, protected): pitEntryApproaching(15.78s)
+🔊 coming up on the pit lane
+🔊 decide on tyres
+📋 lap 30: 1:50.707 clean fuel_used=4.89
+🛞 crew: tyre life kept quiet — L65 reaches the planned end, L32
+🔵 lap 30: clean
+🔧 🌧 L30 GR3 on RM: peak 1.63 g (best 1.67, ×0.98; floor 1.50) · slide 1.20 °/g (best 0.95, ×1.3) · TCS 9 % (best 5 %) → dry
+📊 laps-left model: elapsed 3411.8 s, remaining 188.2 s, median lap 110.7 s -> 2 (no-stop 2, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L31: fuel/lap 5.12 | fuel 13.9 = 2.7 laps | 2.0 laps to go | stops 0
+📐 plan L31 (2 to go): RM 2 — 0 stops | stop 20.8 s · fuel 2/19 laps · wear-off 0.00 s/lap · fresh ~RH 112.8 s 60 laps, RM 110.9 s 46 laps, ~RS 109.7 s 21 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (113 samples, σ 2.93 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 30 done: FL 25.8 FR 12.4 RL 18.3 RR 12.4 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗑 dropped (the planner owns the pit calls): fuelStatus(noMoreStops, 2, 2 to go, 2.72 fuel-laps)
+🗣 bulletin (imp 6, cost 5.8s, ledger 10.0/20.4s, 2 lines): L31
+🔊 good lap
+🔊 1 50 point seven
+🔊 on lap 31
+🗑 dropped (the planner owns the pit calls): strategyUpdate(fuel 2.72L, togo 2, stops 0)
+🛞 compound: stint pitExit lap 17, refinement 25 — C 1.010 over 1590 s (11078 samples)
+⏱ delta check L31 1/2: +0.35 s
+🔊 you're point three down
+⏱ delta check L31 2/2: quiet — +0.09 s, under ±0.2 s
+🔧 box reminder fired: 1034 m (15.9 s) before pit entry, polyline anchor, lap 31
+🗣 spoke (pitSequence, imp 1, cost 4.2s, ledger 4.2/20.4s, 1 line, protected): pitEntryApproaching(15.91s)
+🔊 pit entry coming up
+🔊 tyre call is yours
+🛞 compound: stint pitExit lap 17, refinement 26 — C 1.010 over 1650 s (11346 samples)
+📋 lap 31: 1:50.380 clean fuel_used=5.33
+🛞 crew: tyre life kept quiet — L65 reaches the planned end, L32
+🔵 lap 31: clean
+🔧 🌧 L31 GR3 on RM: peak 1.63 g (best 1.67, ×0.98; floor 1.50) · slide 1.15 °/g (best 0.95, ×1.2) · TCS 9 % (best 5 %) → dry
+📊 laps-left model: elapsed 3522.2 s, remaining 77.8 s, median lap 110.5 s -> 1 (no-stop 1, pit loss 15.0 s, rate 3 l/s)
+📊 strategy L32: fuel/lap 5.11 | fuel 8.6 = 1.7 laps | 1.0 laps to go | stops 0
+📐 plan L32 (1 to go): RM 1 — 0 stops | stop 20.8 s · fuel 1/19 laps · wear-off 0.00 s/lap · fresh ~RH 112.8 s 60 laps, RM 110.9 s 46 laps, ~RS 109.7 s 21 laps
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (114 samples, σ 2.92 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 31 done: FL 27.6 FR 13.3 RL 19.6 RR 13.3 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+🛞 crew: estimated finish lap 32
+🗣 bulletin (imp 6, cost 6.3s, ledger 10.5/20.4s, 2 lines): L32
+🔊 keep those good laps coming
+🔊 lap 32
+🔊 looks like the last lap
+⏱ delta check L32 1/2: +0.63 s
+🔊 point six down
+🛞 compound: stint pitExit lap 17, refinement 27 — C 1.010 over 1710 s (11923 samples)
+🗣 chain (imp 4, cost 2.9s, ledger 2.9/20.4s, 1 events, 1 lines)
+🔊 bit wide there
+🔊 watch track limits
+🗑 speaker: stale, not spoken: "📻 out"
+⏱ delta check L32 2/2: +0.88 s
+📊 strategy L32: clock 3600.0 s past 3600 with 32.7 s of the lap to run — final lap
+🏁 crew: clock call skipped — last lap said at the line
+🔊 point nine down so far
+🔧 box reminder fired: 1034 m (15.8 s) before pit entry, polyline anchor, lap 32
+🗣 spoke (pitSequence, imp 1, cost 4.2s, ledger 6.7/20.4s, 1 line, protected): pitEntryApproaching(15.82s)
+🔊 coming up on the pit lane
+🔊 decide on tyres
+🛞 compound: stint pitExit lap 17, refinement 28 — C 1.010 over 1770 s (12185 samples)
+📋 lap 32: 1:50.830 clean fuel_used=5.26
+🛞 crew: tyre life kept quiet — L65 reaches the planned end, L32
+🔵 lap 32 antics: off
+📊 strategy: finish armed at L33 (clock 3633.0 s of 3600) — awaiting lap-clock freeze
+📊 laps-left model: elapsed 3633.0 s, remaining -33.0 s, median lap 110.5 s -> 0 (expired)
+📊 strategy L33: fuel/lap 5.07 | fuel 3.3 = 0.7 laps | 0.0 laps to go | stops 0
+📐 plan L33: race length unknown
+🚪 gate refined: Autodromo Nazionale Monza/lobby/finishLine (115 samples, σ 2.90 m, ±12 m, across -6.2…7.2 m)
+🛞 wear (test) lap 32 done: FL 29.5 FR 14.2 RL 20.9 RR 14.2 % — RM ×2 (tap)
+🛞 crew: estimated finish lap 33
+📊 strategy: race finished at L33 — confirmed, lap clock frozen 0.50 s (handover 0.45 s)
+🗑 flag: pending commentary cancelled
+🛞 compound: stint pitExit lap 17, refinement 29 (final) — C 1.010 over 1776 s (12220 samples)
+🗣 spoke (radio, imp 0, cost 2.5s, ledger 6.7/20.4s, 1 line): raceFinished(L33)
+# recap:   33 lap(s), 1 stop(s), P11/15, finished — filed in the sidecar
+💾 race preserved (finished): 33 lap(s), 1 stop(s), start GRID_START, P11/15
+✂️ capture auto-stop in 10s (race finished)
+# values:  11 section(s) at the flag — filed with the recap
+💾 values at the flag: 11 section(s)
+🔊 you're over the finish line
+⏹ stopping the recording — auto-stop: race finished
+# --- stopped: 218988 packets

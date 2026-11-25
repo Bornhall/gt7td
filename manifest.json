@@ -4781,6 +4781,46 @@
       ]
     },
     {
+      "stem": "469-lobby-20261123_203421",
+      "courseId": 469,
+      "track": "Autodromo Nazionale Monza",
+      "context": "lobby",
+      "carId": 2183,
+      "car": "Chevrolet Corvette C7 Gr.3",
+      "carClass": "Gr.3",
+      "carClassSource": "observed",
+      "declaredCarMismatch": false,
+      "hz": 59.94005994005994,
+      "packets": 218988,
+      "durationS": 3653.4,
+      "rawBytes": 80587584,
+      "gzBytes": 38426779,
+      "hasLog": true,
+      "hasClock": true,
+      "hasHud": false,
+      "fuelMultiplier": 2,
+      "tyreWearMultiplier": 2,
+      "identifiedCourseId": 469,
+      "identifiedTrackName": "Autodromo Nazionale Monza",
+      "compoundObservations": [
+        {
+          "trigger": "raceStart",
+          "lap": 1,
+          "family": "racing",
+          "compound": "RH",
+          "outcome": "startAnswer",
+          "finalLabel": "RM"
+        },
+        {
+          "trigger": "pitExit",
+          "lap": 17,
+          "family": "racing",
+          "compound": "RM",
+          "outcome": "boxExit"
+        }
+      ]
+    },
+    {
       "stem": "469-sportDailyRace-20260918_215014",
       "courseId": 469,
       "track": "Autodromo Nazionale Monza",
